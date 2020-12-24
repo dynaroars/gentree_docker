@@ -1,0 +1,11 @@
+include conf.pycov
+
+var name grin
+
+loc_trim_prefix {site-packages}/
+loc_trim_prefix {bindir}/
+
+bin {bindir}/{name}
+# =================================
+
+run {} vec {testdir}/py_grin

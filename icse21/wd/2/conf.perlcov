@@ -1,0 +1,26 @@
+lang perl
+
+include conf.common
+var prefix              {scratch_dir}/perlcov
+var prof_dir            {prefix}/prof_{tid}
+var testfiles_dir       {prefix}/testfiles_{tid}
+var wd_dir              {prefix}/wd_{tid}
+
+###
+
+cp_replace_folder    	{testfiles_srcdir}           {testfiles_dir}
+
+var bindir   			{bench_progs_dir}/perl/bin
+var testdir  			{testfiles_dir}
+
+####
+
+perl_bin				/usr/bin/perl
+cov_bin	            	/usr/local/bin/cover
+cov_wd 	            	{wd_dir}
+
+loc_trim_prefix         {bindir}/
+
+####
+
+wd           {wd_dir}

@@ -1,0 +1,571 @@
+# ./igen4 -J2 -crwx -YF 2/vsftpd --rep 11 -O res/vsftpd/a_{i}.txt -j64 --rep-para 11
+# seed = 133, repeat_id = 10, thread_id = 0
+#    10978 2549   52 |     3  2549 | 10   10 |     6     3     60 | 7ecfc5292d0776960606ec079f000fc0
+======
+# M/H: 0 / 11214
+# Last rebuild:   iter 1  num_configs 4
+/usr/include/sys/stat.h:366, /usr/include/sys/stat.h:380, filestr.c:24, filestr.c:25, filestr.c:27, filestr.c:28, filestr.c:29, filestr.c:33, filestr.c:34, filestr.c:36, filestr.c:37, filestr.c:41, filestr.c:43, filestr.c:44, filestr.c:46, filestr.c:49, filestr.c:50, filestr.c:51, filestr.c:52, main.c:103, main.c:106, main.c:107, main.c:108, main.c:110, main.c:116, main.c:119, main.c:122, main.c:132, main.c:137, main.c:145, main.c:45, main.c:46, main.c:77, main.c:78, main.c:82, main.c:86, main.c:90, parseconf.c:186, parseconf.c:187, parseconf.c:188, parseconf.c:189, parseconf.c:191, parseconf.c:197, parseconf.c:201, parseconf.c:203, parseconf.c:207, parseconf.c:209, parseconf.c:214, parseconf.c:216, parseconf.c:217, parseconf.c:228, parseconf.c:230, parseconf.c:233, parseconf.c:236, parseconf.c:237, parseconf.c:239, parseconf.c:240, parseconf.c:241, parseconf.c:242, parseconf.c:250, parseconf.c:251, parseconf.c:253, parseconf.c:256, parseconf.c:257, parseconf.c:259, parseconf.c:261, parseconf.c:263, parseconf.c:267, parseconf.c:269, parseconf.c:271, parseconf.c:274, parseconf.c:287, parseconf.c:288, parseconf.c:290, parseconf.c:293, parseconf.c:294, parseconf.c:298, parseconf.c:300, parseconf.c:304, parseconf.c:311, parseconf.c:313, parseconf.c:318, parseconf.c:319, parseconf.c:321, parseconf.c:325, parseconf.c:328, parseconf.c:332, parseconf.c:334, parseconf.c:336, parseconf.c:348, parseconf.c:349, parseconf.c:351, parseconf.c:353, parseconf.c:356, parseconf.c:358, secbuf.c:24, secbuf.c:27, secbuf.c:29, secbuf.c:30, secbuf.c:32, secbuf.c:33, secbuf.c:34, secbuf.c:42, secbuf.c:44, secbuf.c:46, secbuf.c:47, secbuf.c:52, secbuf.c:53, secbuf.c:54, secbuf.c:56, secbuf.c:57, secbuf.c:59, secbuf.c:61, secbuf.c:62, secbuf.c:69, secbuf.c:70, secbuf.c:71, secbuf.c:73, secbuf.c:76, secbuf.c:77, secbuf.c:79, secbuf.c:81, secbuf.c:83, secbuf.c:85, secbuf.c:87, secbuf.c:88, str.c:120, str.c:122, str.c:124, str.c:125, str.c:126, str.c:127, str.c:133, str.c:134, str.c:135, str.c:140, str.c:144, str.c:145, str.c:146, str.c:164, str.c:170, str.c:176, str.c:178, str.c:182, str.c:184, str.c:199, str.c:200, str.c:202, str.c:204, str.c:205, str.c:207, str.c:210, str.c:222, str.c:223, str.c:267, str.c:269, str.c:271, str.c:33, str.c:349, str.c:350, str.c:351, str.c:352, str.c:367, str.c:368, str.c:37, str.c:38, str.c:383, str.c:384, str.c:390, str.c:393, str.c:398, str.c:399, str.c:404, str.c:407, str.c:408, str.c:45, str.c:46, str.c:464, str.c:465, str.c:466, str.c:467, str.c:468, str.c:473, str.c:475, str.c:477, str.c:478, str.c:479, str.c:48, str.c:49, str.c:50, str.c:52, str.c:53, str.c:54, str.c:55, str.c:555, str.c:559, str.c:593, str.c:605, str.c:612, str.c:613, str.c:614, str.c:615, str.c:617, str.c:621, str.c:622, str.c:624, str.c:626, str.c:628, str.c:630, str.c:632, str.c:634, str.c:636, str.c:637, str.c:638, str.c:89, sysdeputil.c:931, sysdeputil.c:936, sysdeputil.c:938, sysdeputil.c:942, sysutil.c:1015, sysutil.c:1017, sysutil.c:1020, sysutil.c:1024, sysutil.c:1025, sysutil.c:1042, sysutil.c:1046, sysutil.c:1059, sysutil.c:1061, sysutil.c:1062, sysutil.c:1067, sysutil.c:1073, sysutil.c:1075, sysutil.c:1077, sysutil.c:1078, sysutil.c:1079, sysutil.c:1080, sysutil.c:1081, sysutil.c:1086, sysutil.c:1093, sysutil.c:1094, sysutil.c:1095, sysutil.c:1099, sysutil.c:1104, sysutil.c:1105, sysutil.c:1109, sysutil.c:1114, sysutil.c:1116, sysutil.c:1118, sysutil.c:1119, sysutil.c:1130, sysutil.c:1137, sysutil.c:1180, sysutil.c:1182, sysutil.c:1183, sysutil.c:1192, sysutil.c:1218, sysutil.c:1220, sysutil.c:1222, sysutil.c:1228, sysutil.c:1229, sysutil.c:1230, sysutil.c:1234, sysutil.c:1239, sysutil.c:1240, sysutil.c:1261, sysutil.c:1262, sysutil.c:135, sysutil.c:1384, sysutil.c:1385, sysutil.c:1389, sysutil.c:141, sysutil.c:143, sysutil.c:1536, sysutil.c:154, sysutil.c:1540, sysutil.c:331, sysutil.c:333, sysutil.c:334, sysutil.c:335, sysutil.c:336, sysutil.c:340, sysutil.c:347, sysutil.c:349, sysutil.c:350, sysutil.c:351, sysutil.c:352, sysutil.c:356, sysutil.c:364, sysutil.c:365, sysutil.c:369, sysutil.c:371, sysutil.c:372, sysutil.c:376, sysutil.c:381, sysutil.c:385, sysutil.c:386, sysutil.c:387, sysutil.c:390, sysutil.c:399, sysutil.c:400, sysutil.c:404, sysutil.c:406, sysutil.c:407, sysutil.c:412, sysutil.c:417, sysutil.c:421, sysutil.c:422, sysutil.c:423, sysutil.c:426, sysutil.c:462, sysutil.c:466, sysutil.c:467, sysutil.c:471, sysutil.c:493, sysutil.c:497, sysutil.c:498, sysutil.c:549, sysutil.c:556, sysutil.c:761, sysutil.c:848, sysutil.c:849, sysutil.c:850, sysutil.c:852, sysutil.c:853, sysutil.c:857, sysutil.c:859, sysutil.c:861, sysutil.c:863, sysutil.c:864, sysutil.c:866, sysutil.c:868, sysutil.c:874, sysutil.c:985, sysutil.c:987, sysutil.c:991, sysutil.c:997, 
+-
+true
+-
+H
+======
+# M/H: 5392 / 5842
+# Last rebuild:   iter 1  num_configs 24
+main.c:135, main.c:258, main.c:262, 
+-
+(= tunable_run_as_launching_user |0|)
+-
+24 HM
+======
+# M/H: 5553 / 5701
+# Last rebuild:   iter 1  num_configs 44
+main.c:140, sysdeputil.c:858, sysdeputil.c:859, sysdeputil.c:863, sysdeputil.c:864, sysdeputil.c:868, sysdeputil.c:870, sysdeputil.c:871, sysdeputil.c:876, sysdeputil.c:882, sysdeputil.c:883, sysdeputil.c:884, sysdeputil.c:885, 
+-
+(= tunable_setproctitle_enable |1|)
+-
+25 MH
+======
+# M/H: 7409 / 3949
+# Last rebuild:   iter 2  num_configs 320
+main.c:147, ssl.c:622, 
+-
+(= tunable_ssl_enable |1|)
+-
+26 MH
+======
+# M/H: 3031 / 8251
+# Last rebuild:   iter 1  num_configs 72
+sysutil.c:1004, sysutil.c:1008, sysutil.c:1009, 
+-
+(let ((a!1 (and (= tunable_ssl_enable |0|)
+                (or (= tunable_listen |1|)
+                    (and (= tunable_local_enable |0|)
+                         (= tunable_anonymous_enable |1|))))))
+  (or (= tunable_setproctitle_enable |1|) a!1))
+-
+25 26 15 17 4 MHMHMH
+======
+# M/H: 3993 / 7385
+# Last rebuild:   iter 2  num_configs 340
+sysutil.c:2304, 
+-
+(or (= tunable_run_as_launching_user |0|)
+    (and (= tunable_anonymous_enable |1|)
+         (= tunable_ssl_enable |0|)
+         (= tunable_local_enable |0|)))
+-
+24 H 4 M 26 17 HMM
+======
+# M/H: 1643 / 9755
+# Last rebuild:   iter 2  num_configs 360
+sysutil.c:712, sysutil.c:713, sysutil.c:717, sysutil.c:718, sysutil.c:719, sysutil.c:723, 
+-
+(or (= tunable_anonymous_enable |0|)
+    (= tunable_connect_timeout |1|)
+    (= tunable_local_enable |1|)
+    (= tunable_ssl_enable |1|))
+-
+8 26 17 4 HMHHH
+======
+# M/H: 3096 / 8322
+# Last rebuild:   iter 2  num_configs 380
+utility.c:19, utility.c:37, utility.c:38, utility.c:39, utility.c:41, utility.c:42, 
+-
+(or (= tunable_anonymous_enable |0|)
+    (= tunable_local_enable |1|)
+    (= tunable_ssl_enable |1|))
+-
+17 4 H 26 MHH
+======
+# M/H: 7689 / 3613
+# Last rebuild:   iter 1  num_configs 92
+hash.c:123, hash.c:124, hash.c:128, hash.c:134, hash.c:135, hash.c:136, hash.c:138, hash.c:40, hash.c:41, hash.c:42, hash.c:43, hash.c:44, hash.c:45, hash.c:46, hash.c:47, hash.c:48, hash.c:54, hash.c:55, hash.c:57, hash.c:67, hash.c:71, hash.c:72, hash.c:73, hash.c:74, hash.c:75, hash.c:76, hash.c:77, hash.c:78, hash.c:80, hash.c:82, hash.c:90, main.c:152, main.c:153, main.c:154, standalone.c:133, standalone.c:134, standalone.c:138, standalone.c:139, standalone.c:145, standalone.c:146, standalone.c:147, standalone.c:149, standalone.c:150, standalone.c:151, standalone.c:155, standalone.c:156, standalone.c:157, standalone.c:158, standalone.c:159, standalone.c:160, standalone.c:161, standalone.c:180, standalone.c:181, standalone.c:185, standalone.c:194, standalone.c:195, standalone.c:196, standalone.c:197, standalone.c:199, standalone.c:201, standalone.c:259, standalone.c:260, standalone.c:261, standalone.c:263, standalone.c:265, standalone.c:266, standalone.c:267, standalone.c:269, standalone.c:272, standalone.c:285, standalone.c:288, standalone.c:290, standalone.c:291, standalone.c:299, standalone.c:39, standalone.c:40, standalone.c:42, standalone.c:43, standalone.c:47, standalone.c:61, standalone.c:63, standalone.c:69, standalone.c:71, standalone.c:73, standalone.c:75, standalone.c:79, standalone.c:80, standalone.c:81, standalone.c:83, standalone.c:84, standalone.c:85, standalone.c:86, standalone.c:88, standalone.c:97, standalone.c:98, standalone.c:99, sysutil.c:1166, sysutil.c:1170, sysutil.c:1171, sysutil.c:1175, sysutil.c:169, sysutil.c:170, sysutil.c:174, sysutil.c:177, sysutil.c:178, sysutil.c:179, sysutil.c:1859, sysutil.c:1860, sysutil.c:1861, sysutil.c:2030, sysutil.c:2032, sysutil.c:2049, sysutil.c:2050, sysutil.c:2051, sysutil.c:2053, sysutil.c:2055, sysutil.c:2079, sysutil.c:2081, sysutil.c:2093, sysutil.c:223, sysutil.c:224, sysutil.c:225, sysutil.c:226, sysutil.c:227, sysutil.c:228, sysutil.c:254, sysutil.c:255, sysutil.c:256, sysutil.c:260, sysutil.c:261, sysutil.c:265, sysutil.c:266, sysutil.c:270, sysutil.c:277, sysutil.c:278, sysutil.c:279, sysutil.c:283, sysutil.c:284, sysutil.c:288, sysutil.c:289, sysutil.c:293, sysutil.c:532, sysutil.c:533, sysutil.c:535, sysutil.c:537, 
+-
+(and (= tunable_listen |1|) (= tunable_ssl_enable |0|))
+-
+15 M 26 HM
+======
+# M/H: 3927 / 7395
+# Last rebuild:   iter 1  num_configs 112
+main.c:149, main.c:157, main.c:162, main.c:163, main.c:171, main.c:268, main.c:269, main.c:270, main.c:274, main.c:276, main.c:278, sysutil.c:1275, sysutil.c:1276, sysutil.c:2586, 
+-
+(= tunable_ssl_enable |0|)
+-
+26 HM
+======
+# M/H: 8778 / 2660
+# Last rebuild:   iter 2  num_configs 400
+main.c:280, 
+-
+(and (= tunable_local_enable |1|) (= tunable_ssl_enable |0|))
+-
+17 M 26 HM
+======
+# M/H: 6251 / 5207
+# Last rebuild:   iter 2  num_configs 420
+sysutil.c:1571, sysutil.c:1572, sysutil.c:1576, sysutil.c:159, sysutil.c:1608, sysutil.c:1609, sysutil.c:161, sysutil.c:1610, sysutil.c:1612, sysutil.c:1622, sysutil.c:1628, sysutil.c:1629, sysutil.c:1634, sysutil.c:1649, sysutil.c:165, sysutil.c:1650, sysutil.c:1652, sysutil.c:1654, sysutil.c:1672, sysutil.c:1673, sysutil.c:1674, sysutil.c:1679, sysutil.c:168, sysutil.c:1683, sysutil.c:1688, sysutil.c:1690, sysutil.c:1692, sysutil.c:1694, sysutil.c:1703, sysutil.c:171, sysutil.c:184, sysutil.c:1841, sysutil.c:1846, sysutil.c:1851, sysutil.c:1852, sysutil.c:1853, sysutil.c:1854, sysutil.c:188, sysutil.c:2099, sysutil.c:2101, sysutil.c:2111, sysutil.c:235, sysutil.c:236, sysutil.c:237, sysutil.c:238, sysutil.c:242, sysutil.c:243, sysutil.c:247, sysutil.c:632, sysutil.c:633, sysutil.c:635, sysutil.c:639, 
+-
+(and (= tunable_ssl_enable |0|)
+     (or (= tunable_listen |1|)
+         (and (= tunable_anonymous_enable |1|) (= tunable_local_enable |0|))))
+-
+26 15 4 M 17 HMHM
+======
+# M/H: 7503 / 3839
+# Last rebuild:   iter 1  num_configs 132
+main.c:156, 
+-
+(and (= tunable_listen |0|) (= tunable_ssl_enable |0|))
+-
+15 26 HMM
+======
+# M/H: 6617 / 4861
+# Last rebuild:   iter 2  num_configs 440
+main.c:282, main.c:286, main.c:291, sysdeputil.c:481, sysdeputil.c:485, sysdeputil.c:487, sysdeputil.c:490, sysdeputil.c:492, 
+-
+(and (= tunable_local_enable |0|) (= tunable_ssl_enable |0|))
+-
+17 26 HMM
+======
+# M/H: 9682 / 1816
+# Last rebuild:   iter 2  num_configs 460
+main.c:293, 
+-
+(and (= tunable_anonymous_enable |0|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|))
+-
+4 17 26 HMMM
+======
+# M/H: 8400 / 3118
+# Last rebuild:   iter 2  num_configs 480
+/usr/include/sys/stat.h:373, access.c:20, access.c:22, access.c:49, access.c:51, banner.c:29, banner.c:31, features.c:18, features.c:19, features.c:24, features.c:26, features.c:28, features.c:30, features.c:32, features.c:33, features.c:35, features.c:37, features.c:42, features.c:43, features.c:44, features.c:45, features.c:46, features.c:47, ftpcmdio.c:110, ftpcmdio.c:111, ftpcmdio.c:120, ftpcmdio.c:127, ftpcmdio.c:130, ftpcmdio.c:132, ftpcmdio.c:134, ftpcmdio.c:135, ftpcmdio.c:136, ftpcmdio.c:137, ftpcmdio.c:138, ftpcmdio.c:142, ftpcmdio.c:143, ftpcmdio.c:147, ftpcmdio.c:151, ftpcmdio.c:156, ftpcmdio.c:158, ftpcmdio.c:160, ftpcmdio.c:162, ftpcmdio.c:169, ftpcmdio.c:171, ftpcmdio.c:174, ftpcmdio.c:175, ftpcmdio.c:176, ftpcmdio.c:177, ftpcmdio.c:195, ftpcmdio.c:200, ftpcmdio.c:202, ftpcmdio.c:204, ftpcmdio.c:206, ftpcmdio.c:209, ftpcmdio.c:210, ftpcmdio.c:216, ftpcmdio.c:35, ftpcmdio.c:36, ftpcmdio.c:37, ftpcmdio.c:38, ftpcmdio.c:50, ftpcmdio.c:51, ftpcmdio.c:57, ftpcmdio.c:58, ftpcmdio.c:65, ftpcmdio.c:66, ftpcmdio.c:70, ftpcmdio.c:71, ftpcmdio.c:75, ftpcmdio.c:95, ftpcmdio.c:96, ftpcmdio.c:97, ftpdataio.c:102, ftpdataio.c:104, ftpdataio.c:112, ftpdataio.c:113, ftpdataio.c:114, ftpdataio.c:122, ftpdataio.c:136, ftpdataio.c:137, ftpdataio.c:138, ftpdataio.c:139, ftpdataio.c:140, ftpdataio.c:145, ftpdataio.c:147, ftpdataio.c:154, ftpdataio.c:155, ftpdataio.c:161, ftpdataio.c:170, ftpdataio.c:189, ftpdataio.c:194, ftpdataio.c:199, ftpdataio.c:203, ftpdataio.c:204, ftpdataio.c:205, ftpdataio.c:207, ftpdataio.c:211, ftpdataio.c:213, ftpdataio.c:214, ftpdataio.c:215, ftpdataio.c:226, ftpdataio.c:227, ftpdataio.c:230, ftpdataio.c:233, ftpdataio.c:235, ftpdataio.c:237, ftpdataio.c:274, ftpdataio.c:286, ftpdataio.c:287, ftpdataio.c:288, ftpdataio.c:289, ftpdataio.c:290, ftpdataio.c:291, ftpdataio.c:292, ftpdataio.c:293, ftpdataio.c:297, ftpdataio.c:301, ftpdataio.c:303, ftpdataio.c:314, ftpdataio.c:316, ftpdataio.c:319, ftpdataio.c:321, ftpdataio.c:322, ftpdataio.c:324, ftpdataio.c:360, ftpdataio.c:362, ftpdataio.c:363, ftpdataio.c:364, ftpdataio.c:365, ftpdataio.c:367, ftpdataio.c:384, ftpdataio.c:385, ftpdataio.c:387, ftpdataio.c:388, ftpdataio.c:389, ftpdataio.c:391, ftpdataio.c:392, ftpdataio.c:398, ftpdataio.c:399, ftpdataio.c:404, ftpdataio.c:407, ftpdataio.c:408, ftpdataio.c:57, ftpdataio.c:59, ftpdataio.c:64, ftpdataio.c:65, ftpdataio.c:66, ftpdataio.c:71, ftpdataio.c:72, ftpdataio.c:78, ftpdataio.c:79, ftpdataio.c:80, ftpdataio.c:87, ftpdataio.c:88, ftpdataio.c:89, ftpdataio.c:91, ipaddrparse.c:100, ipaddrparse.c:65, ipaddrparse.c:75, ipaddrparse.c:76, ipaddrparse.c:81, ipaddrparse.c:83, ipaddrparse.c:86, ipaddrparse.c:88, ipaddrparse.c:89, ipaddrparse.c:91, ipaddrparse.c:94, ipaddrparse.c:98, logging.c:101, logging.c:103, logging.c:105, logging.c:117, logging.c:119, logging.c:120, logging.c:128, logging.c:134, logging.c:140, logging.c:150, logging.c:34, logging.c:38, logging.c:68, logging.c:74, logging.c:78, logging.c:79, logging.c:80, logging.c:81, logging.c:82, logging.c:83, logging.c:85, logging.c:86, logging.c:87, logging.c:89, logging.c:95, logging.c:96, ls.c:100, ls.c:102, ls.c:112, ls.c:117, ls.c:119, ls.c:121, ls.c:127, ls.c:128, ls.c:129, ls.c:135, ls.c:136, ls.c:141, ls.c:145, ls.c:146, ls.c:156, ls.c:160, ls.c:167, ls.c:168, ls.c:170, ls.c:174, ls.c:179, ls.c:187, ls.c:188, ls.c:189, ls.c:191, ls.c:195, ls.c:197, ls.c:198, ls.c:200, ls.c:201, ls.c:207, ls.c:208, ls.c:212, ls.c:213, ls.c:214, ls.c:234, ls.c:235, ls.c:236, ls.c:237, ls.c:238, ls.c:239, ls.c:240, ls.c:241, ls.c:242, ls.c:243, ls.c:245, ls.c:249, ls.c:252, ls.c:254, ls.c:255, ls.c:256, ls.c:257, ls.c:258, ls.c:263, ls.c:264, ls.c:265, ls.c:267, ls.c:273, ls.c:274, ls.c:277, ls.c:279, ls.c:280, ls.c:285, ls.c:287, ls.c:289, ls.c:291, ls.c:295, ls.c:296, ls.c:297, ls.c:299, ls.c:301, ls.c:303, ls.c:304, ls.c:306, ls.c:307, ls.c:308, ls.c:309, ls.c:31, ls.c:310, ls.c:312, ls.c:313, ls.c:314, ls.c:316, ls.c:317, ls.c:319, ls.c:32, ls.c:320, ls.c:338, ls.c:344, ls.c:349, ls.c:351, ls.c:352, ls.c:353, ls.c:354, ls.c:355, ls.c:356, ls.c:364, ls.c:366, ls.c:367, ls.c:369, ls.c:370, ls.c:371, ls.c:372, ls.c:374, ls.c:38, ls.c:380, ls.c:381, ls.c:382, ls.c:386, ls.c:388, ls.c:39, ls.c:395, ls.c:396, ls.c:397, ls.c:399, ls.c:40, ls.c:405, ls.c:406, ls.c:407, ls.c:41, ls.c:411, ls.c:413, ls.c:42, ls.c:420, ls.c:421, ls.c:422, ls.c:424, ls.c:425, ls.c:426, ls.c:427, ls.c:429, ls.c:43, ls.c:431, ls.c:433, ls.c:434, ls.c:435, ls.c:44, ls.c:45, ls.c:46, ls.c:47, ls.c:48, ls.c:50, ls.c:53, ls.c:55, ls.c:57, ls.c:59, ls.c:62, ls.c:64, ls.c:69, ls.c:71, ls.c:73, ls.c:75, ls.c:76, ls.c:78, ls.c:82, ls.c:84, ls.c:86, ls.c:92, ls.c:93, ls.c:95, ls.c:97, ls.c:98, main.c:173, main.c:175, main.c:179, main.c:180, main.c:183, main.c:184, main.c:193, main.c:197, main.c:206, main.c:215, main.c:228, main.c:231, main.c:233, main.c:242, main.c:244, main.c:295, main.c:300, main.c:302, main.c:304, main.c:306, main.c:307, main.c:313, main.c:314, main.c:316, main.c:318, main.c:320, main.c:325, main.c:327, main.c:338, main.c:349, netstr.c:100, netstr.c:25, netstr.c:26, netstr.c:27, netstr.c:29, netstr.c:34, netstr.c:39, netstr.c:40, netstr.c:44, netstr.c:48, netstr.c:50, netstr.c:52, netstr.c:55, netstr.c:56, netstr.c:61, netstr.c:65, netstr.c:66, netstr.c:88, netstr.c:90, netstr.c:91, netstr.c:95, netstr.c:96, oneprocess.c:29, oneprocess.c:30, oneprocess.c:34, oneprocess.c:39, oneprocess.c:40, oneprocess.c:41, oneprocess.c:42, oneprocess.c:46, oneprocess.c:58, oneprocess.c:59, oneprocess.c:61, oneprocess.c:68, oneprocess.c:71, oneprocess.c:75, oneprocess.c:76, oneprocess.c:77, opts.c:17, opts.c:18, opts.c:20, opts.c:24, opts.c:26, postlogin.c:102, postlogin.c:103, postlogin.c:104, postlogin.c:106, postlogin.c:107, postlogin.c:112, postlogin.c:114, postlogin.c:1216, postlogin.c:1217, postlogin.c:1221, postlogin.c:1222, postlogin.c:1223, postlogin.c:1224, postlogin.c:1225, postlogin.c:1226, postlogin.c:129, postlogin.c:1306, postlogin.c:1307, postlogin.c:1316, postlogin.c:1317, postlogin.c:1319, postlogin.c:1321, postlogin.c:1327, postlogin.c:1328, postlogin.c:1329, postlogin.c:1379, postlogin.c:1383, postlogin.c:1384, postlogin.c:1386, postlogin.c:1390, postlogin.c:1392, postlogin.c:1396, postlogin.c:1397, postlogin.c:1402, postlogin.c:1409, postlogin.c:1414, postlogin.c:1426, postlogin.c:1427, postlogin.c:1432, postlogin.c:1433, postlogin.c:1444, postlogin.c:149, postlogin.c:153, postlogin.c:1549, postlogin.c:155, postlogin.c:1550, postlogin.c:1551, postlogin.c:1552, postlogin.c:1553, postlogin.c:156, postlogin.c:1562, postlogin.c:1568, postlogin.c:1569, postlogin.c:1574, postlogin.c:158, postlogin.c:1601, postlogin.c:1603, postlogin.c:161, postlogin.c:1615, postlogin.c:1625, postlogin.c:1626, postlogin.c:1627, postlogin.c:1628, postlogin.c:1629, postlogin.c:163, postlogin.c:1630, postlogin.c:1632, postlogin.c:1635, postlogin.c:1636, postlogin.c:1637, postlogin.c:1639, postlogin.c:1640, postlogin.c:1643, postlogin.c:1644, postlogin.c:1650, postlogin.c:1652, postlogin.c:1657, postlogin.c:1658, postlogin.c:166, postlogin.c:1660, postlogin.c:1662, postlogin.c:1663, postlogin.c:1665, postlogin.c:1667, postlogin.c:1668, postlogin.c:1674, postlogin.c:1676, postlogin.c:168, postlogin.c:1681, postlogin.c:1692, postlogin.c:1694, postlogin.c:1696, postlogin.c:1697, postlogin.c:1703, postlogin.c:1705, postlogin.c:1707, postlogin.c:1709, postlogin.c:171, postlogin.c:1711, postlogin.c:1713, postlogin.c:1714, postlogin.c:173, postlogin.c:1748, postlogin.c:1749, postlogin.c:1750, postlogin.c:1751, postlogin.c:1752, postlogin.c:1753, postlogin.c:1754, postlogin.c:1755, postlogin.c:1756, postlogin.c:1758, postlogin.c:1764, postlogin.c:1766, postlogin.c:1774, postlogin.c:178, postlogin.c:1780, postlogin.c:1781, postlogin.c:1783, postlogin.c:1785, postlogin.c:1791, postlogin.c:1793, postlogin.c:1799, postlogin.c:180, postlogin.c:1801, postlogin.c:1807, postlogin.c:1809, postlogin.c:1810, postlogin.c:1815, postlogin.c:1816, postlogin.c:1821, postlogin.c:1823, postlogin.c:1824, postlogin.c:1826, postlogin.c:183, postlogin.c:1834, postlogin.c:1840, postlogin.c:1841, postlogin.c:1844, postlogin.c:1846, postlogin.c:1847, postlogin.c:1848, postlogin.c:185, postlogin.c:1850, postlogin.c:1869, postlogin.c:1873, postlogin.c:1875, postlogin.c:188, postlogin.c:1885, postlogin.c:1889, postlogin.c:1890, postlogin.c:190, postlogin.c:192, postlogin.c:194, postlogin.c:196, postlogin.c:198, postlogin.c:200, postlogin.c:202, postlogin.c:205, postlogin.c:207, postlogin.c:209, postlogin.c:211, postlogin.c:215, postlogin.c:217, postlogin.c:223, postlogin.c:230, postlogin.c:237, postlogin.c:243, postlogin.c:245, postlogin.c:247, postlogin.c:253, postlogin.c:259, postlogin.c:262, postlogin.c:264, postlogin.c:266, postlogin.c:268, postlogin.c:276, postlogin.c:279, postlogin.c:281, postlogin.c:287, postlogin.c:289, postlogin.c:291, postlogin.c:294, postlogin.c:296, postlogin.c:298, postlogin.c:299, postlogin.c:301, postlogin.c:305, postlogin.c:308, postlogin.c:310, postlogin.c:311, postlogin.c:313, postlogin.c:317, postlogin.c:320, postlogin.c:324, postlogin.c:326, postlogin.c:328, postlogin.c:330, postlogin.c:332, postlogin.c:334, postlogin.c:336, postlogin.c:338, postlogin.c:340, postlogin.c:342, postlogin.c:344, postlogin.c:346, postlogin.c:348, postlogin.c:351, postlogin.c:353, postlogin.c:356, postlogin.c:358, postlogin.c:362, postlogin.c:366, postlogin.c:368, postlogin.c:370, postlogin.c:372, postlogin.c:374, postlogin.c:402, postlogin.c:406, postlogin.c:408, postlogin.c:410, postlogin.c:420, postlogin.c:422, postlogin.c:424, postlogin.c:425, postlogin.c:426, postlogin.c:427, postlogin.c:428, postlogin.c:434, postlogin.c:435, postlogin.c:440, postlogin.c:441, postlogin.c:444, postlogin.c:445, postlogin.c:449, postlogin.c:451, postlogin.c:456, postlogin.c:457, postlogin.c:458, postlogin.c:463, postlogin.c:464, postlogin.c:466, postlogin.c:467, postlogin.c:472, postlogin.c:478, postlogin.c:479, postlogin.c:481, postlogin.c:482, postlogin.c:487, postlogin.c:493, postlogin.c:494, postlogin.c:499, postlogin.c:501, postlogin.c:502, postlogin.c:504, postlogin.c:511, postlogin.c:512, postlogin.c:514, postlogin.c:515, postlogin.c:516, postlogin.c:517, postlogin.c:520, postlogin.c:521, postlogin.c:523, postlogin.c:524, postlogin.c:525, postlogin.c:527, postlogin.c:528, postlogin.c:534, postlogin.c:535, postlogin.c:536, postlogin.c:542, postlogin.c:544, postlogin.c:546, postlogin.c:548, postlogin.c:550, postlogin.c:555, postlogin.c:559, postlogin.c:560, postlogin.c:561, postlogin.c:562, postlogin.c:563, postlogin.c:565, postlogin.c:566, postlogin.c:567, postlogin.c:568, postlogin.c:569, postlogin.c:571, postlogin.c:572, postlogin.c:574, postlogin.c:583, postlogin.c:587, postlogin.c:589, postlogin.c:590, postlogin.c:591, postlogin.c:592, postlogin.c:593, postlogin.c:595, postlogin.c:603, postlogin.c:604, postlogin.c:606, postlogin.c:620, postlogin.c:621, postlogin.c:622, postlogin.c:623, postlogin.c:624, postlogin.c:625, postlogin.c:626, postlogin.c:627, postlogin.c:637, postlogin.c:638, postlogin.c:639, postlogin.c:640, postlogin.c:644, postlogin.c:650, postlogin.c:651, postlogin.c:652, postlogin.c:653, postlogin.c:654, postlogin.c:659, postlogin.c:660, postlogin.c:662, postlogin.c:663, postlogin.c:760, postlogin.c:761, postlogin.c:770, postlogin.c:771, postlogin.c:772, postlogin.c:773, postlogin.c:774, postlogin.c:775, postlogin.c:777, postlogin.c:778, postlogin.c:780, postlogin.c:785, postlogin.c:789, postlogin.c:791, postlogin.c:796, postlogin.c:798, postlogin.c:800, postlogin.c:801, postlogin.c:807, postlogin.c:808, postlogin.c:811, postlogin.c:812, postlogin.c:816, postlogin.c:818, postlogin.c:823, postlogin.c:824, postlogin.c:828, postlogin.c:835, postlogin.c:838, postlogin.c:841, postlogin.c:843, postlogin.c:844, postlogin.c:845, postlogin.c:849, postlogin.c:85, postlogin.c:851, postlogin.c:856, postlogin.c:858, postlogin.c:859, postlogin.c:86, postlogin.c:864, postlogin.c:866, postlogin.c:870, postlogin.c:872, postlogin.c:877, postlogin.c:879, postlogin.c:88, postlogin.c:881, postlogin.c:886, postlogin.c:888, postlogin.c:89, postlogin.c:894, postlogin.c:896, postlogin.c:898, postlogin.c:900, postlogin.c:902, postlogin.c:903, postlogin.c:905, postlogin.c:910, postlogin.c:911, postlogin.c:915, postlogin.c:916, postlogin.c:918, postlogin.c:921, postlogin.c:922, postlogin.c:926, postlogin.c:928, postlogin.c:936, postlogin.c:937, postlogin.c:938, postlogin.c:940, postlogin.c:942, postlogin.c:943, postlogin.c:945, postlogin.c:946, postlogin.c:947, postlogin.c:948, postlogin.c:949, postlogin.c:954, postlogin.c:96, postlogin.c:965, postlogin.c:967, prelogin.c:101, prelogin.c:103, prelogin.c:105, prelogin.c:107, prelogin.c:109, prelogin.c:111, prelogin.c:113, prelogin.c:114, prelogin.c:116, prelogin.c:118, prelogin.c:120, prelogin.c:122, prelogin.c:124, prelogin.c:128, prelogin.c:132, prelogin.c:138, prelogin.c:151, prelogin.c:152, prelogin.c:153, prelogin.c:154, prelogin.c:159, prelogin.c:166, prelogin.c:174, prelogin.c:182, prelogin.c:190, prelogin.c:201, prelogin.c:209, prelogin.c:211, prelogin.c:216, prelogin.c:218, prelogin.c:219, prelogin.c:222, prelogin.c:224, prelogin.c:37, prelogin.c:44, prelogin.c:45, prelogin.c:46, prelogin.c:52, prelogin.c:54, prelogin.c:62, prelogin.c:71, prelogin.c:78, prelogin.c:79, prelogin.c:85, prelogin.c:87, prelogin.c:94, prelogin.c:99, privops.c:101, privops.c:102, privops.c:112, privops.c:113, privops.c:118, privops.c:128, privops.c:129, privops.c:130, privops.c:135, privops.c:140, privops.c:146, privops.c:147, privops.c:152, privops.c:154, privops.c:155, privops.c:156, privops.c:157, privops.c:160, privops.c:162, privops.c:165, privops.c:166, privops.c:168, privops.c:178, privops.c:186, privops.c:191, privops.c:198, privops.c:199, privops.c:201, privops.c:204, privops.c:205, privops.c:207, privops.c:208, privops.c:209, privops.c:210, privops.c:212, privops.c:213, privops.c:214, privops.c:233, privops.c:234, privops.c:243, privops.c:99, readwrite.c:23, readwrite.c:25, readwrite.c:31, readwrite.c:36, readwrite.c:42, readwrite.c:48, readwrite.c:83, readwrite.c:88, readwrite.c:94, readwrite.c:97, secbuf.c:39, str.c:100, str.c:102, str.c:103, str.c:108, str.c:109, str.c:114, str.c:115, str.c:152, str.c:153, str.c:155, str.c:156, str.c:158, str.c:159, str.c:190, str.c:229, str.c:230, str.c:242, str.c:243, str.c:248, str.c:249, str.c:254, str.c:255, str.c:277, str.c:281, str.c:282, str.c:284, str.c:286, str.c:293, str.c:297, str.c:298, str.c:299, str.c:301, str.c:303, str.c:304, str.c:305, str.c:311, str.c:313, str.c:315, str.c:318, str.c:326, str.c:327, str.c:328, str.c:330, str.c:331, str.c:333, str.c:335, str.c:340, str.c:342, str.c:359, str.c:360, str.c:361, str.c:362, str.c:374, str.c:375, str.c:386, str.c:395, str.c:396, str.c:413, str.c:427, str.c:428, str.c:429, str.c:436, str.c:437, str.c:438, str.c:439, str.c:440, str.c:441, str.c:443, str.c:444, str.c:445, str.c:447, str.c:449, str.c:450, str.c:451, str.c:452, str.c:456, str.c:471, str.c:483, str.c:491, str.c:492, str.c:493, str.c:494, str.c:495, str.c:499, str.c:501, str.c:503, str.c:505, str.c:506, str.c:507, str.c:509, str.c:513, str.c:522, str.c:526, str.c:527, str.c:532, str.c:533, str.c:537, str.c:538, str.c:544, str.c:548, str.c:550, str.c:566, str.c:568, str.c:573, str.c:580, str.c:582, str.c:587, str.c:599, str.c:76, str.c:77, str.c:78, str.c:95, str.c:96, str.c:97, str.c:99, strlist.c:100, strlist.c:101, strlist.c:106, strlist.c:108, strlist.c:113, strlist.c:117, strlist.c:122, strlist.c:128, strlist.c:136, strlist.c:137, strlist.c:138, strlist.c:140, strlist.c:146, strlist.c:148, strlist.c:155, strlist.c:157, strlist.c:161, strlist.c:168, strlist.c:172, strlist.c:35, strlist.c:37, strlist.c:38, strlist.c:40, strlist.c:41, strlist.c:42, strlist.c:44, strlist.c:45, strlist.c:47, strlist.c:52, strlist.c:76, strlist.c:78, strlist.c:80, strlist.c:81, strlist.c:92, strlist.c:93, strlist.c:94, strlist.c:95, strlist.c:96, strlist.c:98, sysstr.c:136, sysstr.c:142, sysstr.c:143, sysstr.c:144, sysstr.c:146, sysstr.c:148, sysstr.c:24, sysstr.c:26, sysstr.c:29, sysstr.c:30, sysstr.c:31, sysstr.c:33, sysstr.c:35, sysstr.c:40, sysstr.c:71, sysstr.c:77, sysstr.c:79, sysstr.c:81, sysstr.c:82, sysstr.c:87, sysstr.c:93, sysstr.c:99, sysutil.c:1044, sysutil.c:1199, sysutil.c:1246, sysutil.c:1247, sysutil.c:1254, sysutil.c:1255, sysutil.c:1256, sysutil.c:1268, sysutil.c:1269, sysutil.c:1282, sysutil.c:1283, sysutil.c:1291, sysutil.c:1292, sysutil.c:1294, sysutil.c:1296, sysutil.c:1298, sysutil.c:1299, sysutil.c:1307, sysutil.c:1308, sysutil.c:1309, sysutil.c:1310, sysutil.c:1311, sysutil.c:1312, sysutil.c:1313, sysutil.c:1314, sysutil.c:1315, sysutil.c:1316, sysutil.c:1317, sysutil.c:1318, sysutil.c:1319, sysutil.c:1320, sysutil.c:1330, sysutil.c:1331, sysutil.c:1332, sysutil.c:1333, sysutil.c:1335, sysutil.c:1342, sysutil.c:1347, sysutil.c:1348, sysutil.c:1349, sysutil.c:1353, sysutil.c:137, sysutil.c:138, sysutil.c:139, sysutil.c:1395, sysutil.c:1396, sysutil.c:1402, sysutil.c:1403, sysutil.c:1409, sysutil.c:1410, sysutil.c:1417, sysutil.c:1418, sysutil.c:1420, sysutil.c:1430, sysutil.c:1435, sysutil.c:1436, sysutil.c:1538, sysutil.c:163, sysutil.c:164, sysutil.c:1710, sysutil.c:1711, sysutil.c:1714, sysutil.c:1716, sysutil.c:172, sysutil.c:1726, sysutil.c:173, sysutil.c:1730, sysutil.c:1731, sysutil.c:1761, sysutil.c:1765, sysutil.c:1773, sysutil.c:1774, sysutil.c:1775, sysutil.c:1776, sysutil.c:1780, sysutil.c:1785, sysutil.c:1786, sysutil.c:1790, sysutil.c:1791, sysutil.c:1798, sysutil.c:1799, sysutil.c:1800, sysutil.c:1801, sysutil.c:1805, sysutil.c:1810, sysutil.c:1811, sysutil.c:1815, sysutil.c:1816, sysutil.c:1843, sysutil.c:1844, sysutil.c:1874, sysutil.c:1875, sysutil.c:1876, sysutil.c:1877, sysutil.c:1879, sysutil.c:1880, sysutil.c:1895, sysutil.c:1901, sysutil.c:1902, sysutil.c:1903, sysutil.c:1927, sysutil.c:1929, sysutil.c:1933, sysutil.c:195, sysutil.c:1951, sysutil.c:1955, sysutil.c:196, sysutil.c:1962, sysutil.c:1964, sysutil.c:197, sysutil.c:198, sysutil.c:1981, sysutil.c:199, sysutil.c:2061, sysutil.c:2063, sysutil.c:2126, sysutil.c:2127, sysutil.c:2129, sysutil.c:213, sysutil.c:214, sysutil.c:215, sysutil.c:216, sysutil.c:217, sysutil.c:2228, sysutil.c:2248, sysutil.c:2249, sysutil.c:2282, sysutil.c:2285, sysutil.c:2286, sysutil.c:2290, sysutil.c:2291, sysutil.c:2293, sysutil.c:2294, sysutil.c:2295, sysutil.c:2296, sysutil.c:2297, sysutil.c:2298, sysutil.c:2439, sysutil.c:2440, sysutil.c:2441, sysutil.c:2447, sysutil.c:2449, sysutil.c:2453, sysutil.c:2460, sysutil.c:2462, sysutil.c:2463, sysutil.c:2464, sysutil.c:2472, sysutil.c:2473, sysutil.c:2474, sysutil.c:2479, sysutil.c:2480, sysutil.c:2481, sysutil.c:2485, sysutil.c:2487, sysutil.c:2493, sysutil.c:2494, sysutil.c:2495, sysutil.c:2496, sysutil.c:2497, sysutil.c:2499, sysutil.c:2502, sysutil.c:2538, sysutil.c:2542, sysutil.c:2547, sysutil.c:2553, sysutil.c:2560, sysutil.c:2561, sysutil.c:297, sysutil.c:301, sysutil.c:302, sysutil.c:303, sysutil.c:308, sysutil.c:312, sysutil.c:313, sysutil.c:314, sysutil.c:319, sysutil.c:320, sysutil.c:325, sysutil.c:326, sysutil.c:620, sysutil.c:621, sysutil.c:623, sysutil.c:627, sysutil.c:644, sysutil.c:645, sysutil.c:647, sysutil.c:651, sysutil.c:666, sysutil.c:667, sysutil.c:669, sysutil.c:673, sysutil.c:678, sysutil.c:680, sysutil.c:681, sysutil.c:688, sysutil.c:689, sysutil.c:690, sysutil.c:691, sysutil.c:693, sysutil.c:697, sysutil.c:745, sysutil.c:747, sysutil.c:748, sysutil.c:749, sysutil.c:750, sysutil.c:754, sysutil.c:770, sysutil.c:771, sysutil.c:772, sysutil.c:775, sysutil.c:779, sysutil.c:781, sysutil.c:783, sysutil.c:787, sysutil.c:788, sysutil.c:789, sysutil.c:790, sysutil.c:792, sysutil.c:799, sysutil.c:800, sysutil.c:807, sysutil.c:815, sysutil.c:817, sysutil.c:880, sysutil.c:889, sysutil.c:890, sysutil.c:894, sysutil.c:898, sysutil.c:902, sysutil.c:908, sysutil.c:921, sysutil.c:924, sysutil.c:925, sysutil.c:926, sysutil.c:944, sysutil.c:956, sysutil.c:962, sysutil.c:963, sysutil.c:964, sysutil.c:968, sysutil.c:973, sysutil.c:974, sysutil.c:975, sysutil.c:977, sysutil.c:979, 
+-
+(and (= tunable_ssl_enable |0|)
+     (= tunable_local_enable |0|)
+     (= tunable_anonymous_enable |1|))
+-
+26 17 4 MHMM
+======
+# M/H: 9899 / 1639
+# Last rebuild:   iter 2  num_configs 500
+banner.c:35, banner.c:37, banner.c:38, banner.c:39, banner.c:41, banner.c:43, banner.c:46, banner.c:49, banner.c:55, banner.c:56, banner.c:58, banner.c:59, banner.c:62, banner.c:63, banner.c:68, banner.c:69, banner.c:70, banner.c:74, banner.c:75, filestr.c:31, str.c:216, strlist.c:60, strlist.c:62, strlist.c:64, strlist.c:67, 
+-
+(and (= tunable_dirmessage_enable |1|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_local_enable |0|))
+-
+12 M 4 M 26 17 HMM
+======
+# M/H: 9944 / 1614
+# Last rebuild:   iter 2  num_configs 520
+ftpdataio.c:191, ftpdataio.c:192, 
+-
+(and (= tunable_data_connection_timeout |1|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|))
+-
+9 M 4 M 17 26 HMM
+======
+# M/H: 10006 / 1572
+# Last rebuild:   iter 2  num_configs 540
+ftpdataio.c:295, main.c:235, main.c:236, oneprocess.c:48, postlogin.c:1435, postlogin.c:1609, postlogin.c:1612, sysutil.c:1362, sysutil.c:1365, sysutil.c:1367, sysutil.c:1373, sysutil.c:1374, sysutil.c:1378, 
+-
+(and (= tunable_run_as_launching_user |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|))
+-
+24 M 17 26 4 MHMM
+======
+# M/H: 10039 / 1559
+# Last rebuild:   iter 2  num_configs 560
+logging.c:40, 
+-
+(and (= tunable_dual_log_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|))
+-
+13 4 M 17 26 HMMM
+======
+# M/H: 10620 / 998
+# Last rebuild:   iter 2  num_configs 580
+postlogin.c:1164, postlogin.c:1165, postlogin.c:1166, postlogin.c:1167, postlogin.c:1168, postlogin.c:1173, postlogin.c:1174, postlogin.c:1181, postlogin.c:1182, postlogin.c:1185, postlogin.c:1191, postlogin.c:1192, postlogin.c:1193, postlogin.c:1194, postlogin.c:1195, postlogin.c:1200, postlogin.c:1201, postlogin.c:1203, postlogin.c:1207, postlogin.c:1208, postlogin.c:1210, postlogin.c:1234, postlogin.c:1235, postlogin.c:1236, postlogin.c:1245, postlogin.c:1246, postlogin.c:1254, postlogin.c:1255, postlogin.c:1256, postlogin.c:1257, postlogin.c:1259, postlogin.c:1267, postlogin.c:1269, postlogin.c:1271, postlogin.c:235, postlogin.c:241, postlogin.c:251, postlogin.c:257, sysstr.c:59, sysstr.c:65, sysutil.c:1205, sysutil.c:938, 
+-
+(and (= tunable_write_enable |1|)
+     (= tunable_anon_other_write_enable |1|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_local_enable |0|)
+     (= tunable_anonymous_enable |1|))
+-
+29 M 2 M 26 17 4 MHMM
+======
+# M/H: 9903 / 1735
+# Last rebuild:   iter 2  num_configs 600
+postlogin.c:1556, postlogin.c:1559, postlogin.c:1564, postlogin.c:1565, postlogin.c:1566, sysutil.c:1030, sysutil.c:1034, sysutil.c:1035, sysutil.c:1036, sysutil.c:2614, sysutil.c:2615, sysutil.c:2616, sysutil.c:2621, sysutil.c:2622, sysutil.c:2623, sysutil.c:2624, sysutil.c:2625, sysutil.c:2626, sysutil.c:2628, sysutil.c:2633, sysutil.c:2634, sysutil.c:2635, sysutil.c:2636, sysutil.c:2637, sysutil.c:2638, sysutil.c:2640, sysutil.c:914, 
+-
+(and (= tunable_mdtm_write |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|))
+-
+21 M 17 26 4 MHMM
+======
+# M/H: 11076 / 582
+# Last rebuild:   iter 2  num_configs 620
+postlogin.c:1577, postlogin.c:1578, 
+-
+(and (= tunable_write_enable |1|)
+     (= tunable_mdtm_write |1|)
+     (= tunable_anon_other_write_enable |1|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|))
+-
+29 M 21 M 2 M 4 M 17 26 HMM
+======
+# M/H: 12040 / 306
+# Last rebuild:   iter 3  num_configs 2342
+postlogin.c:1580, 
+-
+(and (= tunable_run_as_launching_user |1|)
+     (= tunable_anon_other_write_enable |1|)
+     (= tunable_mdtm_write |1|)
+     (= tunable_write_enable |1|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_local_enable |0|))
+-
+24 M 2 M 21 M 29 M 4 M 26 17 HMM
+======
+# M/H: 10062 / 1616
+# Last rebuild:   iter 2  num_configs 640
+postlogin.c:1683, postlogin.c:1687, postlogin.c:1688, postlogin.c:1689, postlogin.c:956, postlogin.c:960, postlogin.c:961, postlogin.c:962, sysutil.c:1945, sysutil.c:2116, sysutil.c:2118, sysutil.c:2120, 
+-
+(and (= tunable_port_promiscuous |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|))
+-
+23 26 4 M 17 HMMM
+======
+# M/H: 10080 / 1618
+# Last rebuild:   iter 2  num_configs 660
+postlogin.c:883, 
+-
+(and (= tunable_tilde_user_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|))
+-
+27 4 M 17 26 HMMM
+======
+# M/H: 7448 / 4270
+# Last rebuild:   iter 2  num_configs 680
+str.c:235, str.c:236, str.c:237, str.c:61, str.c:62, str.c:64, str.c:65, str.c:67, str.c:68, str.c:69, str.c:70, str.c:83, str.c:84, sysutil.c:478, sysutil.c:482, sysutil.c:483, sysutil.c:487, 
+-
+(and (= tunable_ssl_enable |0|)
+     (or (and (= tunable_anonymous_enable |1|) (= tunable_local_enable |0|))
+         (and (= tunable_listen |1|) (= tunable_setproctitle_enable |1|))))
+-
+26 4 15 M 25 MH 17 H 15 M 25 MHM
+======
+# M/H: 10200 / 1538
+# Last rebuild:   iter 2  num_configs 700
+sysutil.c:1728, sysutil.c:1763, 
+-
+(and (= tunable_connect_timeout |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|))
+-
+8 M 17 26 4 MHMM
+======
+# M/H: 9346 / 2412
+# Last rebuild:   iter 2  num_configs 720
+sysutil.c:729, sysutil.c:730, sysutil.c:734, sysutil.c:735, sysutil.c:736, sysutil.c:740, 
+-
+(and (= tunable_ssl_enable |0|)
+     (= tunable_local_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (or (= tunable_connect_timeout |1|) (= tunable_run_as_launching_user |0|)))
+-
+26 17 4 M 8 24 HMHMM
+======
+# M/H: 9847 / 1931
+# Last rebuild:   iter 2  num_configs 740
+standalone.c:77, 
+-
+(and (= tunable_listen |1|)
+     (= tunable_setproctitle_enable |1|)
+     (= tunable_ssl_enable |0|))
+-
+15 M 25 M 26 HM
+======
+# M/H: 9115 / 2683
+# Last rebuild:   iter 2  num_configs 760
+sysdeputil.c:810, sysdeputil.c:811, sysdeputil.c:812, sysdeputil.c:816, sysdeputil.c:817, sysdeputil.c:818, sysdeputil.c:819, sysdeputil.c:890, sysdeputil.c:892, sysdeputil.c:896, sysdeputil.c:897, sysdeputil.c:899, 
+-
+(and (= tunable_setproctitle_enable |1|)
+     (= tunable_ssl_enable |0|)
+     (or (= tunable_listen |1|)
+         (and (= tunable_anonymous_enable |1|) (= tunable_local_enable |0|))))
+-
+25 M 26 15 4 M 17 HMHM
+======
+# M/H: 10179 / 1639
+# Last rebuild:   iter 2  num_configs 780
+logging.c:130, logging.c:131, logging.c:136, logging.c:137, logging.c:155, logging.c:157, logging.c:158, logging.c:163, logging.c:164, logging.c:166, logging.c:167, logging.c:169, logging.c:171, logging.c:178, logging.c:180, logging.c:181, logging.c:183, logging.c:184, logging.c:186, logging.c:188, logging.c:189, logging.c:191, logging.c:192, logging.c:194, logging.c:195, logging.c:197, logging.c:198, logging.c:200, logging.c:202, logging.c:206, logging.c:209, logging.c:211, logging.c:217, logging.c:220, logging.c:222, logging.c:223, logging.c:237, logging.c:239, logging.c:241, logging.c:247, logging.c:249, logging.c:257, logging.c:259, logging.c:260, logging.c:261, logging.c:263, logging.c:265, logging.c:266, logging.c:267, logging.c:270, logging.c:273, logging.c:275, logging.c:279, logging.c:283, logging.c:285, logging.c:286, logging.c:287, logging.c:290, logging.c:293, logging.c:294, logging.c:295, logging.c:296, logging.c:299, logging.c:302, logging.c:303, logging.c:304, logging.c:324, logging.c:325, logging.c:326, logging.c:327, logging.c:329, logging.c:330, logging.c:331, logging.c:333, logging.c:335, logging.c:336, logging.c:337, logging.c:339, logging.c:342, logging.c:348, logging.c:350, logging.c:352, logging.c:354, logging.c:357, logging.c:361, logging.c:363, logging.c:364, logging.c:365, logging.c:368, logging.c:42, logging.c:44, logging.c:45, logging.c:49, logging.c:51, logging.c:53, logging.c:55, logging.c:56, logging.c:60, logging.c:63, str.c:260, str.c:261, sysutil.c:1159, sysutil.c:1469, sysutil.c:1504, sysutil.c:1505, sysutil.c:1506, sysutil.c:1507, sysutil.c:1508, sysutil.c:1509, sysutil.c:1510, sysutil.c:1514, sysutil.c:2510, sysutil.c:2511, sysutil.c:2512, sysutil.c:2513, sysutil.c:2514, sysutil.c:2518, sysutil.c:2520, sysutil.c:2522, sysutil.c:2524, sysutil.c:2532, sysutil.c:503, sysutil.c:505, sysutil.c:507, sysutil.c:824, sysutil.c:825, 
+-
+(and (= tunable_dual_log_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|))
+-
+13 M 17 26 4 MHMM
+======
+# M/H: 10277 / 1561
+# Last rebuild:   iter 2  num_configs 800
+main.c:186, main.c:187, postlogin.c:109, postlogin.c:116, postlogin.c:117, postlogin.c:118, postlogin.c:120, postlogin.c:121, postlogin.c:124, postlogin.c:125, postlogin.c:126, prelogin.c:39, privops.c:236, privops.c:237, privops.c:238, privops.c:239, privops.c:240, privops.c:241, sysdeputil.c:797, sysdeputil.c:798, sysdeputil.c:804, sysdeputil.c:805, sysdeputil.c:814, 
+-
+(and (= tunable_setproctitle_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|))
+-
+25 M 17 26 4 MHMM
+======
+# M/H: 10283 / 1575
+# Last rebuild:   iter 2  num_configs 820
+postlogin.c:1803, postlogin.c:1804, postlogin.c:1805, 
+-
+(and (= tunable_listen |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_ssl_enable |0|))
+-
+15 M 17 4 M 26 HMM
+======
+# M/H: 10262 / 1616
+# Last rebuild:   iter 2  num_configs 840
+postlogin.c:1854, postlogin.c:1855, postlogin.c:1856, postlogin.c:1857, postlogin.c:1858, postlogin.c:1860, postlogin.c:1861, postlogin.c:1863, postlogin.c:1864, 
+-
+(and (= tunable_tilde_user_enable |1|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|))
+-
+27 M 4 M 17 26 HMM
+======
+# M/H: 9433 / 2465
+# Last rebuild:   iter 2  num_configs 860
+str.c:660, str.c:662, str.c:667, 
+-
+(and (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|)
+     (or (= tunable_dual_log_enable |1|) (= tunable_setproctitle_enable |1|)))
+-
+26 4 M 17 25 13 MHHMM
+======
+# M/H: 9430 / 2488
+# Last rebuild:   iter 2  num_configs 880
+sysstr.c:175, sysutil.c:2241, sysutil.c:2242, 
+-
+(and (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|)
+     (or (= tunable_run_as_launching_user |0|)
+         (= tunable_tilde_user_enable |1|)))
+-
+26 4 M 17 24 H 27 MHMM
+======
+# M/H: 9825 / 2113
+# Last rebuild:   iter 2  num_configs 900
+sysutil.c:1484, sysutil.c:1485, sysutil.c:1486, sysutil.c:1487, sysutil.c:1488, sysutil.c:1489, sysutil.c:1491, sysutil.c:1492, sysutil.c:1493, sysutil.c:1496, 
+-
+(and (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|)
+     (or (= tunable_dual_log_enable |1|)
+         (and (= tunable_lock_upload_files |1|)
+              (= tunable_run_as_launching_user |0|))))
+-
+26 4 M 17 13 18 M 24 HMHMM
+======
+# M/H: 10377 / 1581
+# Last rebuild:   iter 2  num_configs 920
+banner.c:33, 
+-
+(and (= tunable_dirmessage_enable |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|))
+-
+12 26 4 M 17 HMMM
+======
+# M/H: 10313 / 1665
+# Last rebuild:   iter 2  num_configs 940
+ftpdataio.c:415, ftpdataio.c:417, ftpdataio.c:423, ftpdataio.c:424, ftpdataio.c:425, ftpdataio.c:501, ftpdataio.c:502, ftpdataio.c:503, ftpdataio.c:505, ftpdataio.c:510, ftpdataio.c:512, ftpdataio.c:513, ftpdataio.c:514, ftpdataio.c:519, ftpdataio.c:524, ftpdataio.c:533, ftpdataio.c:534, ftpdataio.c:535, ftpdataio.c:540, ftpdataio.c:546, ftpdataio.c:548, ls.c:104, ls.c:322, oneprocess.c:55, postlogin.c:1324, postlogin.c:1440, postlogin.c:1442, postlogin.c:666, postlogin.c:670, postlogin.c:672, postlogin.c:688, postlogin.c:690, postlogin.c:697, postlogin.c:701, postlogin.c:702, postlogin.c:709, postlogin.c:711, postlogin.c:712, postlogin.c:713, postlogin.c:714, postlogin.c:716, postlogin.c:717, postlogin.c:718, postlogin.c:722, postlogin.c:724, postlogin.c:728, postlogin.c:730, postlogin.c:732, postlogin.c:737, postlogin.c:741, postlogin.c:747, postlogin.c:749, postlogin.c:751, postlogin.c:752, postlogin.c:754, postlogin.c:755, secutil.c:102, secutil.c:117, secutil.c:119, secutil.c:120, secutil.c:124, secutil.c:22, secutil.c:26, secutil.c:27, secutil.c:32, secutil.c:34, secutil.c:36, secutil.c:45, secutil.c:47, secutil.c:58, secutil.c:59, secutil.c:61, secutil.c:68, secutil.c:69, secutil.c:73, secutil.c:84, secutil.c:88, secutil.c:94, secutil.c:96, secutil.c:99, sysdeputil.c:606, sysdeputil.c:610, sysdeputil.c:612, sysdeputil.c:614, sysdeputil.c:618, sysdeputil.c:624, sysdeputil.c:627, sysdeputil.c:628, sysdeputil.c:629, sysdeputil.c:633, sysdeputil.c:634, sysdeputil.c:636, sysdeputil.c:644, sysdeputil.c:654, sysdeputil.c:658, sysdeputil.c:660, sysdeputil.c:663, sysdeputil.c:716, sysdeputil.c:717, sysdeputil.c:721, sysdeputil.c:723, sysdeputil.c:724, sysdeputil.c:727, sysdeputil.c:730, sysdeputil.c:732, sysutil.c:1546, sysutil.c:1547, sysutil.c:1548, sysutil.c:1552, sysutil.c:1555, sysutil.c:1558, sysutil.c:1561, sysutil.c:1565, sysutil.c:2310, sysutil.c:2311, sysutil.c:2312, sysutil.c:2317, sysutil.c:2318, sysutil.c:2322, sysutil.c:2327, sysutil.c:2328, sysutil.c:2329, sysutil.c:2334, sysutil.c:2335, sysutil.c:2339, sysutil.c:2412, sysutil.c:2413, sysutil.c:2414, sysutil.c:2418, sysutil.c:2423, sysutil.c:2424, sysutil.c:2428, sysutil.c:434, sysutil.c:435, sysutil.c:439, sysutil.c:446, sysutil.c:450, sysutil.c:451, sysutil.c:455, 
+-
+(and (= tunable_run_as_launching_user |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|))
+-
+24 26 4 M 17 HMMM
+======
+# M/H: 10361 / 1637
+# Last rebuild:   iter 2  num_configs 960
+sysutil.c:1656, sysutil.c:1657, sysutil.c:1658, sysutil.c:1659, sysutil.c:1660, sysutil.c:1662, sysutil.c:1663, sysutil.c:1664, sysutil.c:1666, 
+-
+(and (= tunable_accept_timeout |1|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_local_enable |0|)
+     (= tunable_anonymous_enable |1|))
+-
+0 M 26 17 4 MHMM
+======
+# M/H: 11000 / 1018
+# Last rebuild:   iter 2  num_configs 980
+postlogin.c:1127, postlogin.c:1128, postlogin.c:1129, postlogin.c:1130, postlogin.c:1131, postlogin.c:1137, postlogin.c:1138, postlogin.c:1144, postlogin.c:1148, postlogin.c:1149, postlogin.c:1151, postlogin.c:1153, postlogin.c:1154, postlogin.c:1155, postlogin.c:1156, postlogin.c:1158, postlogin.c:228, sysstr.c:53, sysutil.c:932, 
+-
+(and (= tunable_anon_mkdir_write_enable |1|)
+     (= tunable_write_enable |1|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_local_enable |0|)
+     (= tunable_anonymous_enable |1|))
+-
+1 M 29 M 26 17 4 MHMM
+======
+# M/H: 11108 / 930
+# Last rebuild:   iter 2  num_configs 1000
+ascii.c:62, ascii.c:63, ascii.c:64, ascii.c:66, ascii.c:67, ascii.c:72, ascii.c:73, ascii.c:74, ascii.c:76, ftpdataio.c:419, ftpdataio.c:440, ftpdataio.c:441, ftpdataio.c:443, ftpdataio.c:448, ftpdataio.c:449, ftpdataio.c:451, ftpdataio.c:453, ftpdataio.c:459, ftpdataio.c:462, ftpdataio.c:463, ftpdataio.c:468, ftpdataio.c:471, ftpdataio.c:473, ftpdataio.c:475, ftpdataio.c:482, ftpdataio.c:483, ftpdataio.c:485, ftpdataio.c:487, ftpdataio.c:609, ftpdataio.c:610, ftpdataio.c:619, postlogin.c:704, postlogin.c:705, readwrite.c:70, readwrite.c:76, 
+-
+(and (= tunable_ascii_download_enable |1|)
+     (= tunable_run_as_launching_user |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_local_enable |0|)
+     (= tunable_anonymous_enable |1|))
+-
+5 M 24 26 17 4 MHMMM
+======
+# M/H: 11511 / 473
+# Last rebuild:   iter 2  num_configs 1020
+ftpdataio.c:613, ftpdataio.c:614, 
+-
+(and (= tunable_ascii_download_enable |1|)
+     (= tunable_run_as_launching_user |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_local_enable |0|)
+     (or (= tunable_trans_chunk_size |2048|)
+         (= tunable_trans_chunk_size |4096|)))
+-
+5 M 24 4 M 26 17 28 MHHMMMM
+======
+# M/H: 11207 / 863
+# Last rebuild:   iter 2  num_configs 1032
+logging.c:243, logging.c:344, logging.c:345, logging.c:346, 
+-
+(and (= tunable_dual_log_enable |1|)
+     (= tunable_run_as_launching_user |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|))
+-
+13 M 24 4 M 17 26 HMMM
+======
+# M/H: 11535 / 555
+# Last rebuild:   iter 2  num_configs 1052
+logging.c:291, logging.c:292, 
+-
+(and (= tunable_dual_log_enable |1|)
+     (= tunable_write_enable |1|)
+     (= tunable_anon_mkdir_write_enable |1|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|))
+-
+13 M 29 M 1 M 26 4 M 17 HMM
+======
+# M/H: 11536 / 574
+# Last rebuild:   iter 2  num_configs 1072
+logging.c:305, logging.c:306, logging.c:307, logging.c:308, logging.c:309, logging.c:310, logging.c:311, logging.c:312, logging.c:313, 
+-
+(and (= tunable_dual_log_enable |1|)
+     (= tunable_anon_other_write_enable |1|)
+     (= tunable_write_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|))
+-
+13 M 2 M 29 M 17 26 4 MHMM
+======
+# M/H: 11563 / 567
+# Last rebuild:   iter 2  num_configs 1092
+postlogin.c:1249, postlogin.c:1250, postlogin.c:1273, postlogin.c:1274, postlogin.c:1275, postlogin.c:1276, postlogin.c:1277, postlogin.c:1278, postlogin.c:1279, postlogin.c:1280, postlogin.c:1281, postlogin.c:1289, postlogin.c:1291, postlogin.c:1292, postlogin.c:1294, postlogin.c:1295, postlogin.c:1301, sysstr.c:130, sysutil.c:950, 
+-
+(and (= tunable_run_as_launching_user |0|)
+     (= tunable_write_enable |1|)
+     (= tunable_anon_other_write_enable |1|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|))
+-
+24 29 M 2 M 4 M 17 26 HMMM
+======
+# M/H: 11230 / 920
+# Last rebuild:   iter 2  num_configs 1112
+postlogin.c:668, sysutil.c:1475, 
+-
+(and (= tunable_lock_upload_files |1|)
+     (= tunable_run_as_launching_user |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|))
+-
+18 M 24 26 4 M 17 HMMM
+======
+# M/H: 10462 / 1708
+# Last rebuild:   iter 2  num_configs 1132
+privops.c:115, sysutil.c:2571, sysutil.c:2572, sysutil.c:2573, sysutil.c:2574, sysutil.c:2575, sysutil.c:2577, sysutil.c:2578, sysutil.c:2579, sysutil.c:2581, 
+-
+(and (= tunable_delay_successful_login |1|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_ssl_enable |0|))
+-
+10 M 4 M 17 26 HMM
+======
+# M/H: 11823 / 263
+# Last rebuild:   iter 2  num_configs 1152
+ftpdataio.c:616, 
+-
+(and (= tunable_ascii_download_enable |1|)
+     (= tunable_trans_chunk_size |2048|)
+     (= tunable_run_as_launching_user |0|)
+     (= tunable_ssl_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_local_enable |0|))
+-
+5 M 28 M 24 26 4 M 17 HMMMMM
+======
+# M/H: 12031 / 335
+# Last rebuild:   iter 3  num_configs 2362
+postlogin.c:1585, postlogin.c:1587, postlogin.c:1594, sysutil.c:2647, sysutil.c:2649, sysutil.c:2651, sysutil.c:2652, sysutil.c:2653, sysutil.c:2654, 
+-
+(and (= tunable_mdtm_write |1|)
+     (= tunable_run_as_launching_user |0|)
+     (= tunable_anon_other_write_enable |1|)
+     (= tunable_write_enable |1|)
+     (= tunable_local_enable |0|)
+     (= tunable_anonymous_enable |1|)
+     (= tunable_ssl_enable |0|))
+-
+21 M 24 2 M 29 M 17 4 M 26 HMMM
+======

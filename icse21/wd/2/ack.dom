@@ -1,0 +1,129 @@
+#File select actions:
+-f off on                        #   Only print the files selected, without
+                           # searching.  The PATTERN must not be specified.
+-g off on                         #   Same as -f, but only select files matching
+                           # PATTERN.
+
+#File listing actions:
+-l off on                    # Print filenames with at least one match
+-L off on                    # Print filenames with no matches
+-c off on                    # Print filenames and count of matching lines
+
+#Searching:
+-i  off on            # Ignore case distinctions in PATTERN
+-S  off on            # Ignore case distinctions in PATTERN,
+                       #     only if PATTERN contains no upper case.
+                       #     Ignored if -i or -I are specified.
+#-I  off on            #           Turns on case-sensitivity in PATTERN.
+                      #      Negates -i and --smart-case.
+-v  off on            #             Invert match: select non-matching lines
+-w  off on            #              Force PATTERN to match only whole words
+#-Q  off on            #                  Quote all metacharacters; PATTERN is literal
+
+#Search output:
+# --output=expr                 Output the evaluation of expr for each line
+#                             (turns off text highlighting)
+-o    off on            # Show only the part of a line matching PATTERN
+                         #   Same as --output='$&'
+--passthru   off on            #      Print all lines, whether matching or not
+-m off 1 5 10         #  Stop searching in each file after NUM matches
+-1   off on            #  Stop searching after one match of any kind
+-H  off on            #     Print the filename for each match (default:
+                       #     on unless explicitly searching a single file)
+-h  off on            #       Suppress the prefixing filename on output
+--column   off on            #    Show the column number of the first match
+
+
+#-A off 1 5 10 #, --after-context=NUM   Print NUM lines of trailing context after
+                            #matching lines.
+#-B off 1 5 10 #, --before-context=NUM  Print NUM lines of leading context before
+                            #matching lines.
+#-C off 1 5 10 #, --context[=NUM]     Print NUM lines (default 2) of output context.
+
+--print0 off on #                     Print null byte as separator between filenames,
+                    #        only works with -f, -g, -l, -L or -c.
+
+#-s off on #                           Suppress error messages about nonexistent or
+          #                  unreadable files.
+
+
+#File presentation:
+#--pager=COMMAND               Pipes all ack output through COMMAND.  For
+#                            example, --pager="less -R".  Ignored if output
+#                            is redirected.
+#--nopager                     Do not send output through a pager.  Cancels
+#                            any setting in ~/.ackrc, ACK_PAGER or
+#                            ACK_PAGER_COLOR.
+--heading off on             #    Print a filename heading above each file's
+                          #  results.  (default: on when used interactively)
+--break   off on            #    Print a break between results from different
+                          #  files.  (default: on when used interactively)
+--group   off on                #    Same as --heading --break
+--nogroup off on                #    Same as --noheading --nobreak
+#-p off 1 5 10              #, --proximate=LINES     #    Separate match output with blank lines unless
+                          #  they are within LINES lines from each other.
+#-P, --proximate=0         #    Negates --proximate.
+#--[no]underline           #    Print a line of carets under the matched text.
+#--[no]color, --[no]colour #    Highlight the matching text (default: on unless
+                          #  output is redirected, or on Windows)
+#--color-filename=COLOR
+#--color-match=COLOR
+#--color-colno=COLOR
+#--color-lineno=COLOR          Set the color for filenames, matches, line and
+#                            column numbers.
+#--help-colors                 Show a list of possible color combinations.
+#--help-rgb-colors             Show a list of advanced RGB colors.
+#--flush off on              #         Flush output immediately, even when ack is used
+#                            non-interactively (when output goes to a pipe or
+#                            file).
+
+
+#File finding:
+--sort-files  off on               # Sort the found files lexically.
+--show-types  off on               # Show which types each file has.
+#--files-from=FILE            # Read the list of files to search from FILE.
+#-x                           # Read the list of files to search from STDIN.
+
+#File inclusion/exclusion:
+#--[no]ignore-dir=name         Add/remove directory from list of ignored dirs
+#--[no]ignore-directory=name   Synonym for ignore-dir
+#--ignore-file=FILTER:ARGS     Add filter for ignoring files.
+-r off on #, -R, --recurse             Recurse into subdirectories (default: on)
+#-n, --no-recurse              No descending into subdirectories
+--follow off on             #     Follow symlinks.  Default is off.
+
+#File type inclusion/exclusion:
+#-t X, --type=X                Include only X files, where X is a filetype,
+#                            e.g. python, html, markdown, etc
+#-T X, --type=noX              Exclude X files, where X is a filetype.
+#-k, --known-types             Include only files of types that ack recognizes.
+#--help-types                  Display all known types, and how they're defined.
+
+#File type specification:
+#--type-set=TYPE:FILTER:ARGS   Files with the given ARGS applied to the given
+#                            FILTER are recognized as being of type TYPE.
+#                            This replaces an existing definition for TYPE.
+#--type-add=TYPE:FILTER:ARGS   Files with the given ARGS applied to the given
+#                            FILTER are recognized as being type TYPE.
+#--type-del=TYPE               Removes all filters associated with TYPE.
+
+#Miscellaneous:
+--version off on #                    Display version & copyright
+#--[no]env                     Ignore environment variables and global ackrc
+#                            files.  --env is legal but redundant.
+#--ackrc=filename              Specify an ackrc file to use
+#--ignore-ack-defaults         Ignore default definitions included with ack.
+#--create-ackrc                Outputs a default ackrc for your customization
+#                            to standard output.
+--dump off on #                      Dump information on which options are loaded
+              #              and where they're defined.
+#--[no]filter                  Force ack to treat standard input as a pipe
+#                            (--filter) or tty (--nofilter)
+--help   off on             #        This help
+#--man                         Print the manual.
+##--help-types                  Display all known types, and how they're defined.
+#--help-colors                 Show a list of possible color combinations.
+#--help-rgb-colors             Show a list of advanced RGB colors.
+#--thpppt                      Bill the Cat
+#--bar                         The warning admiral
+#--cathy                       Chocolate! Chocolate! Chocolate!

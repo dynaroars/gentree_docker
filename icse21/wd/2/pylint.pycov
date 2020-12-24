@@ -1,0 +1,12 @@
+include conf.pycov
+
+var name pylint
+
+#cov_arg --include={site-packages}/pylint/*
+loc_trim_prefix {site-packages}/
+loc_trim_prefix {bindir}/
+
+bin {bindir}/{name}
+# =================================
+
+run {} {testdir}/py_pylint/grin.py

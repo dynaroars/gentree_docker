@@ -1,0 +1,132 @@
+# ./igen4 -J2 -cr -F 2/cat -O res/Analyze_progress_rand/cat/iter_{iter}.txt --rand-each-iteration 22,123,157,171,201,238,298,318,556,795,1033,1278,1514
+# seed = 123, repeat_id = 0, thread_id = 0
+#       22  183   16 |    22    -1 |  0    1 |     0     0      0 | bf8450e7b9286ea4ea12e4351bfc9abd
+======
+# M/H: 14 / 8
+# Last rebuild:   iter -1  num_configs -1
+cat.c:107, cat.c:113, cat.c:114, cat.c:115, cat.c:122, cat.c:124, cat.c:626, cat.c:82, cat.c:84, cat.c:88, cat.c:92, cat.c:96, cat.c:98, system.h:581, system.h:583, system.h:586, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(= --help on)
+-
+10 HM
+======
+# M/H: 0 / 22
+# Last rebuild:   iter -1  num_configs -1
+cat.c:503, cat.c:511, cat.c:519, cat.c:535, cat.c:540, cat.c:541, cat.c:542, cat.c:543, cat.c:544, cat.c:545, cat.c:546, cat.c:563, cat.c:564, cat.c:572, cat.c:576, cat.c:579, 
+-
+true
+-
+H
+======
+# M/H: 10 / 12
+# Last rebuild:   iter -1  num_configs -1
+cat.c:591, cat.c:592, cat.c:593, 
+-
+(= -n on)
+-
+4 HM
+======
+# M/H: 10 / 12
+# Last rebuild:   iter -1  num_configs -1
+cat.c:595, cat.c:596, cat.c:597, 
+-
+(= -s on)
+-
+5 HM
+======
+# M/H: 11 / 11
+# Last rebuild:   iter -1  num_configs -1
+cat.c:599, cat.c:600, cat.c:601, cat.c:602, 
+-
+(= -t on)
+-
+6 HM
+======
+# M/H: 9 / 13
+# Last rebuild:   iter -1  num_configs -1
+cat.c:612, cat.c:613, cat.c:614, cat.c:615, cat.c:616, 
+-
+(= -A on)
+-
+0 HM
+======
+# M/H: 11 / 11
+# Last rebuild:   iter -1  num_configs -1
+cat.c:618, cat.c:619, cat.c:620, 
+-
+(= -E on)
+-
+3 HM
+======
+# M/H: 6 / 16
+# Last rebuild:   iter -1  num_configs -1
+cat.c:622, cat.c:623, cat.c:624, 
+-
+(= -T on)
+-
+7 HM
+======
+# M/H: 12 / 10
+# Last rebuild:   iter -1  num_configs -1
+cat.c:604, cat.c:606, 
+-
+(= -u on)
+-
+8 HM
+======
+# M/H: 11 / 11
+# Last rebuild:   iter -1  num_configs -1
+cat.c:608, cat.c:609, cat.c:610, 
+-
+(= -v on)
+-
+9 HM
+======
+# M/H: 16 / 6
+# Last rebuild:   iter -1  num_configs -1
+cat.c:130, cat.c:132, cat.c:135, cat.c:136, cat.c:137, cat.c:139, cat.c:140, cat.c:141, cat.c:144, cat.c:416, cat.c:417, 
+-
+(and (= --version off) (= --help off) (= -T on))
+-
+11 M 10 M 7 HM
+======
+# M/H: 15 / 7
+# Last rebuild:   iter -1  num_configs -1
+cat.c:197, cat.c:199, cat.c:200, cat.c:202, cat.c:204, cat.c:206, cat.c:216, cat.c:258, cat.c:263, cat.c:269, cat.c:270, cat.c:272, cat.c:274, cat.c:280, cat.c:302, cat.c:304, cat.c:306, cat.c:312, cat.c:313, cat.c:330, cat.c:333, cat.c:334, cat.c:337, cat.c:338, cat.c:342, cat.c:343, cat.c:350, cat.c:352, cat.c:353, cat.c:354, cat.c:360, cat.c:361, cat.c:362, cat.c:371, cat.c:373, cat.c:392, cat.c:401, cat.c:402, cat.c:406, cat.c:408, cat.c:410, cat.c:414, cat.c:428, cat.c:432, cat.c:434, cat.c:435, cat.c:462, cat.c:464, cat.c:466, cat.c:467, cat.c:471, cat.c:472, cat.c:475, cat.c:637, cat.c:640, cat.c:641, cat.c:642, cat.c:643, cat.c:645, cat.c:655, cat.c:656, cat.c:660, cat.c:661, cat.c:663, cat.c:672, cat.c:673, cat.c:681, cat.c:687, cat.c:689, cat.c:695, cat.c:707, cat.c:717, cat.c:741, cat.c:742, cat.c:744, cat.c:745, cat.c:749, cat.c:752, cat.c:754, cat.c:755, cat.c:761, cat.c:763, cat.c:766, ioblksize.h:75, ioblksize.h:77, system.h:501, system.h:503, system.h:504, system.h:505, 
+-
+(and (= --version off) (= --help off))
+-
+11 M 10 MH
+======
+# M/H: 12 / 10
+# Last rebuild:   iter -1  num_configs -1
+cat.c:581, cat.c:582, cat.c:583, cat.c:584, 
+-
+(= -b on)
+-
+1 HM
+======
+# M/H: 15 / 7
+# Last rebuild:   iter -1  num_configs -1
+cat.c:628, 
+-
+(and (= --version on) (= --help off))
+-
+11 10 MHM
+======
+# M/H: 20 / 2
+# Last rebuild:   iter -1  num_configs -1
+cat.c:394, cat.c:395, 
+-
+(and (= --version off) (= -b off) (= -E off))
+-
+11 M 1 M 3 MH
+======
+# M/H: 11 / 11
+# Last rebuild:   iter -1  num_configs -1
+cat.c:586, cat.c:587, cat.c:588, cat.c:589, 
+-
+(= -e on)
+-
+2 HM
+======

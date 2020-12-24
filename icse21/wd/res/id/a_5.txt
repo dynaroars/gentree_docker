@@ -1,0 +1,100 @@
+# ./igen4 -J2 -crwx -GF 2/id --rep 11 -O res/id/a_{i}.txt -j64 --rep-para 11
+# seed = 128, repeat_id = 5, thread_id = 10
+#       79   64   12 |   276   203 |  5    3 |     0     0      3 | 43049818e040bec0b14b0a0f593492b3
+======
+# M/H: 0 / 89
+# Last rebuild:   iter 1  num_configs 2
+../coreutils-8.32/lib/smack.h:39, ../coreutils-8.32/lib/smack.h:44, id.c:125, id.c:128, id.c:129, id.c:130, id.c:133, id.c:134, id.c:138, id.c:140, id.c:142, 
+-
+true
+-
+H
+======
+# M/H: 43 / 48
+# Last rebuild:   iter 1  num_configs 4
+id.c:144, id.c:146, 
+-
+(= -a on)
+-
+0 HM
+======
+# M/H: 61 / 39
+# Last rebuild:   iter 2  num_configs 23
+id.c:148, id.c:156, id.c:157, 
+-
+(= -Z on)
+-
+1 HM
+======
+# M/H: 68 / 31
+# Last rebuild:   iter 2  num_configs 21
+id.c:169, id.c:170, id.c:171, 
+-
+(and (= -Z off) (= -r on))
+-
+1 M 5 HM
+======
+# M/H: 74 / 29
+# Last rebuild:   iter 2  num_configs 25
+id.c:172, id.c:173, id.c:174, 
+-
+(and (= -Z off) (= -u on))
+-
+1 M 6 HM
+======
+# M/H: 70 / 35
+# Last rebuild:   iter 2  num_configs 28
+id.c:178, id.c:179, id.c:180, 
+-
+(and (= -G on) (= -Z off))
+-
+3 1 MHM
+======
+# M/H: 99 / 8
+# Last rebuild:   iter 2  num_configs 30
+id.c:188, id.c:190, id.c:194, id.c:195, 
+-
+(and (= --version off) (= --help off) (= -Z off))
+-
+9 M 8 M 1 MH
+======
+# M/H: 77 / 32
+# Last rebuild:   iter 2  num_configs 32
+id.c:102, id.c:113, id.c:114, id.c:115, id.c:119, id.c:121, id.c:181, id.c:90, id.c:92, id.c:96, id.c:97, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(and (= --help on) (= -Z off))
+-
+8 1 MHM
+======
+# M/H: 78 / 33
+# Last rebuild:   iter 2  num_configs 34
+id.c:163, id.c:164, id.c:165, 
+-
+(and (= -g on) (= -Z off))
+-
+2 1 MHM
+======
+# M/H: 84 / 34
+# Last rebuild:   iter 3  num_configs 73
+id.c:166, id.c:167, id.c:168, 
+-
+(and (= -n on) (= -Z off))
+-
+4 1 MHM
+======
+# M/H: 82 / 38
+# Last rebuild:   iter 3  num_configs 75
+id.c:175, id.c:176, id.c:177, 
+-
+(and (= -z on) (= -Z off))
+-
+7 1 MHM
+======
+# M/H: 95 / 27
+# Last rebuild:   iter 3  num_configs 77
+id.c:182, 
+-
+(and (= --version on) (= -Z off) (= --help off))
+-
+9 1 M 8 MHM
+======

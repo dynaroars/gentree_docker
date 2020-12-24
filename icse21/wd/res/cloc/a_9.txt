@@ -1,0 +1,633 @@
+# ./igen4 -J2 -crwx -GF 2/cloc --rep 11 -O res/cloc/a_{i}.txt -j64 --rep-para 11
+# seed = 132, repeat_id = 9, thread_id = 7
+#    12030 1147   59 |   784  5072 |  9   10 |  9321  8709 553740 | 8ed23788019c99dc65ee8c86715f0483
+======
+# M/H: 0 / 12265
+# Last rebuild:   iter 1  num_configs 4
+cloc.pl:1, cloc.pl:10, cloc.pl:11, cloc.pl:12, cloc.pl:13, cloc.pl:14, cloc.pl:15, cloc.pl:16, cloc.pl:17, cloc.pl:19, cloc.pl:2, cloc.pl:20, cloc.pl:21, cloc.pl:25, cloc.pl:26, cloc.pl:29, cloc.pl:3, cloc.pl:30, cloc.pl:31, cloc.pl:32, cloc.pl:33, cloc.pl:34, cloc.pl:35, cloc.pl:36, cloc.pl:37, cloc.pl:38, cloc.pl:39, cloc.pl:4, cloc.pl:40, cloc.pl:41, cloc.pl:42, cloc.pl:4677, cloc.pl:4678, cloc.pl:4679, cloc.pl:4680, cloc.pl:5, cloc.pl:6, cloc.pl:636, cloc.pl:637, cloc.pl:638, cloc.pl:639, cloc.pl:640, cloc.pl:641, cloc.pl:642, cloc.pl:643, cloc.pl:644, cloc.pl:645, cloc.pl:646, cloc.pl:647, cloc.pl:648, cloc.pl:649, cloc.pl:650, cloc.pl:651, cloc.pl:652, cloc.pl:653, cloc.pl:654, cloc.pl:655, cloc.pl:656, cloc.pl:657, cloc.pl:658, cloc.pl:659, cloc.pl:660, cloc.pl:661, cloc.pl:662, cloc.pl:663, cloc.pl:664, cloc.pl:665, cloc.pl:666, cloc.pl:667, cloc.pl:668, cloc.pl:669, cloc.pl:670, cloc.pl:671, cloc.pl:672, cloc.pl:674, cloc.pl:675, cloc.pl:676, cloc.pl:677, cloc.pl:678, cloc.pl:679, cloc.pl:680, cloc.pl:681, cloc.pl:682, cloc.pl:683, cloc.pl:684, cloc.pl:685, cloc.pl:686, cloc.pl:687, cloc.pl:688, cloc.pl:689, cloc.pl:690, cloc.pl:691, cloc.pl:692, cloc.pl:693, cloc.pl:694, cloc.pl:695, cloc.pl:696, cloc.pl:697, cloc.pl:698, cloc.pl:699, cloc.pl:7, cloc.pl:700, cloc.pl:701, cloc.pl:702, cloc.pl:703, cloc.pl:704, cloc.pl:705, cloc.pl:706, cloc.pl:707, cloc.pl:708, cloc.pl:709, cloc.pl:710, cloc.pl:711, cloc.pl:712, cloc.pl:713, cloc.pl:8, 
+-
+true
+-
+H
+======
+# M/H: 8003 / 4283
+# Last rebuild:   iter 1  num_configs 24
+cloc.pl:43, cloc.pl:44, 
+-
+(= --version on)
+-
+14 MH
+======
+# M/H: 5503 / 6811
+# Last rebuild:   iter 2  num_configs 136
+cloc.pl:4657, cloc.pl:4658, cloc.pl:4676, 
+-
+(or (= --show-os on) (= --version on))
+-
+14 12 MHH
+======
+# M/H: 4287 / 8019
+# Last rebuild:   iter 1  num_configs 44
+cloc.pl:106, cloc.pl:107, cloc.pl:108, cloc.pl:109, cloc.pl:1095, cloc.pl:113, cloc.pl:114, cloc.pl:115, cloc.pl:116, cloc.pl:119, cloc.pl:122, cloc.pl:123, cloc.pl:124, cloc.pl:125, cloc.pl:134, cloc.pl:139, cloc.pl:140, cloc.pl:142, cloc.pl:143, cloc.pl:159, cloc.pl:160, cloc.pl:162, cloc.pl:163, cloc.pl:164, cloc.pl:165, cloc.pl:166, cloc.pl:167, cloc.pl:168, cloc.pl:169, cloc.pl:170, cloc.pl:171, cloc.pl:172, cloc.pl:173, cloc.pl:174, cloc.pl:175, cloc.pl:176, cloc.pl:177, cloc.pl:179, cloc.pl:180, cloc.pl:183, cloc.pl:185, cloc.pl:187, cloc.pl:188, cloc.pl:189, cloc.pl:190, cloc.pl:191, cloc.pl:192, cloc.pl:193, cloc.pl:194, cloc.pl:195, cloc.pl:203, cloc.pl:210, cloc.pl:214, cloc.pl:215, cloc.pl:216, cloc.pl:217, cloc.pl:218, cloc.pl:2189, cloc.pl:219, cloc.pl:2190, cloc.pl:2191, cloc.pl:2192, cloc.pl:2193, cloc.pl:2194, cloc.pl:2195, cloc.pl:2196, cloc.pl:2197, cloc.pl:2198, cloc.pl:2199, cloc.pl:220, cloc.pl:2201, cloc.pl:221, cloc.pl:222, cloc.pl:223, cloc.pl:247, cloc.pl:248, cloc.pl:254, cloc.pl:266, cloc.pl:290, cloc.pl:295, cloc.pl:3536, cloc.pl:3537, cloc.pl:3538, cloc.pl:3539, cloc.pl:3540, cloc.pl:3541, cloc.pl:3542, cloc.pl:3543, cloc.pl:3544, cloc.pl:3545, cloc.pl:3546, cloc.pl:3547, cloc.pl:3548, cloc.pl:3549, cloc.pl:3550, cloc.pl:3551, cloc.pl:3552, cloc.pl:3553, cloc.pl:3554, cloc.pl:3555, cloc.pl:3556, cloc.pl:3557, cloc.pl:3560, cloc.pl:3563, cloc.pl:3564, cloc.pl:3565, cloc.pl:3566, cloc.pl:3569, cloc.pl:45, cloc.pl:46, cloc.pl:4668, cloc.pl:47, cloc.pl:48, cloc.pl:49, cloc.pl:50, cloc.pl:51, cloc.pl:53, cloc.pl:54, cloc.pl:56, cloc.pl:57, cloc.pl:58, cloc.pl:60, cloc.pl:61, cloc.pl:63, cloc.pl:64, cloc.pl:65, cloc.pl:66, cloc.pl:67, cloc.pl:68, cloc.pl:69, cloc.pl:70, cloc.pl:71, cloc.pl:72, cloc.pl:73, cloc.pl:74, cloc.pl:75, cloc.pl:76, cloc.pl:77, cloc.pl:78, cloc.pl:79, cloc.pl:80, cloc.pl:81, cloc.pl:83, cloc.pl:84, cloc.pl:86, cloc.pl:87, cloc.pl:88, cloc.pl:89, cloc.pl:90, cloc.pl:91, cloc.pl:93, 
+-
+(= --version off)
+-
+14 HM
+======
+# M/H: 9764 / 2570
+# Last rebuild:   iter 2  num_configs 156
+cloc.pl:1092, cloc.pl:1093, cloc.pl:1094, cloc.pl:1099, cloc.pl:1101, cloc.pl:296, cloc.pl:298, cloc.pl:299, cloc.pl:3533, cloc.pl:3534, cloc.pl:3535, cloc.pl:3561, cloc.pl:3562, cloc.pl:3570, cloc.pl:4665, cloc.pl:4666, cloc.pl:4667, cloc.pl:4674, cloc.pl:4675, 
+-
+(and (= --show-os on) (= --version off))
+-
+12 M 14 HM
+======
+# M/H: 10237 / 2011
+# Last rebuild:   iter 2  num_configs 176
+cloc.pl:117, 
+-
+(and (= -v off) (= --version off))
+-
+13 14 HMMMM
+======
+# M/H: 7023 / 5341
+# Last rebuild:   iter 2  num_configs 186
+cloc.pl:2186, cloc.pl:2187, cloc.pl:2188, 
+-
+(and (= --version off) (or (= --stat off) (= --show-os on)))
+-
+14 10 H 12 MHM
+======
+# M/H: 6853 / 5531
+# Last rebuild:   iter 2  num_configs 206
+cloc.pl:1096, cloc.pl:1097, cloc.pl:1098, cloc.pl:1102, cloc.pl:1104, cloc.pl:1609, cloc.pl:1610, cloc.pl:1611, cloc.pl:1612, cloc.pl:1613, cloc.pl:1614, cloc.pl:1615, cloc.pl:1616, cloc.pl:1617, cloc.pl:1618, cloc.pl:1619, cloc.pl:1620, cloc.pl:1621, cloc.pl:1622, cloc.pl:1623, cloc.pl:1624, cloc.pl:1625, cloc.pl:1626, cloc.pl:1627, cloc.pl:1628, cloc.pl:1629, cloc.pl:1630, cloc.pl:1631, cloc.pl:1632, cloc.pl:1633, cloc.pl:1634, cloc.pl:1635, cloc.pl:1636, cloc.pl:1640, cloc.pl:1641, cloc.pl:1642, cloc.pl:1643, cloc.pl:1644, cloc.pl:1645, cloc.pl:1646, cloc.pl:1647, cloc.pl:1648, cloc.pl:1649, cloc.pl:1650, cloc.pl:1651, cloc.pl:1652, cloc.pl:1653, cloc.pl:1654, cloc.pl:1655, cloc.pl:1662, cloc.pl:1663, cloc.pl:1664, cloc.pl:1674, cloc.pl:1700, cloc.pl:1709, cloc.pl:1710, cloc.pl:1711, cloc.pl:1712, cloc.pl:1713, cloc.pl:1714, cloc.pl:1715, cloc.pl:1716, cloc.pl:1717, cloc.pl:1725, cloc.pl:1732, cloc.pl:1737, cloc.pl:1738, cloc.pl:1741, cloc.pl:1742, cloc.pl:1743, cloc.pl:1744, cloc.pl:1796, cloc.pl:1797, cloc.pl:1798, cloc.pl:1874, cloc.pl:1875, cloc.pl:1876, cloc.pl:1877, cloc.pl:2200, cloc.pl:2202, cloc.pl:2204, cloc.pl:2343, cloc.pl:2344, cloc.pl:2346, cloc.pl:2347, cloc.pl:2354, cloc.pl:2355, cloc.pl:2356, cloc.pl:2357, cloc.pl:2358, cloc.pl:2359, cloc.pl:2360, cloc.pl:2364, cloc.pl:2375, cloc.pl:2379, cloc.pl:2380, cloc.pl:2389, cloc.pl:2390, cloc.pl:2391, cloc.pl:2394, cloc.pl:2395, cloc.pl:2397, cloc.pl:2398, cloc.pl:2399, cloc.pl:2400, cloc.pl:2401, cloc.pl:2402, cloc.pl:2403, cloc.pl:2404, cloc.pl:2405, cloc.pl:2406, cloc.pl:2407, cloc.pl:2412, cloc.pl:2413, cloc.pl:2414, cloc.pl:2416, cloc.pl:2417, cloc.pl:2422, cloc.pl:2423, cloc.pl:2424, cloc.pl:2425, cloc.pl:2426, cloc.pl:2465, cloc.pl:2466, cloc.pl:2467, cloc.pl:2468, cloc.pl:2469, cloc.pl:2470, cloc.pl:2471, cloc.pl:2472, cloc.pl:2473, cloc.pl:2476, cloc.pl:2477, cloc.pl:2478, cloc.pl:2479, cloc.pl:2480, cloc.pl:2482, cloc.pl:2536, cloc.pl:2537, cloc.pl:2542, cloc.pl:2544, cloc.pl:2546, cloc.pl:2548, cloc.pl:2549, cloc.pl:2552, cloc.pl:2553, cloc.pl:2557, cloc.pl:2558, cloc.pl:2559, cloc.pl:2560, cloc.pl:2561, cloc.pl:2562, cloc.pl:2563, cloc.pl:2564, cloc.pl:2565, cloc.pl:2568, cloc.pl:2569, cloc.pl:2570, cloc.pl:2571, cloc.pl:2577, cloc.pl:2578, cloc.pl:2579, cloc.pl:2580, cloc.pl:2582, cloc.pl:2583, cloc.pl:2584, cloc.pl:2586, cloc.pl:2587, cloc.pl:2588, cloc.pl:2589, cloc.pl:2592, cloc.pl:2593, cloc.pl:2594, cloc.pl:2595, cloc.pl:2596, cloc.pl:2597, cloc.pl:2598, cloc.pl:2599, cloc.pl:2600, cloc.pl:2601, cloc.pl:2602, cloc.pl:2606, cloc.pl:2607, cloc.pl:2610, cloc.pl:2611, cloc.pl:2665, cloc.pl:2666, cloc.pl:2670, cloc.pl:2671, cloc.pl:2672, cloc.pl:2673, cloc.pl:2674, cloc.pl:2678, cloc.pl:2681, cloc.pl:2682, cloc.pl:2683, cloc.pl:2684, cloc.pl:2685, cloc.pl:2686, cloc.pl:2687, cloc.pl:2691, cloc.pl:2692, cloc.pl:2697, cloc.pl:2698, cloc.pl:2699, cloc.pl:2700, cloc.pl:2701, cloc.pl:2702, cloc.pl:2703, cloc.pl:2704, cloc.pl:2705, cloc.pl:2706, cloc.pl:2711, cloc.pl:2712, cloc.pl:2749, cloc.pl:2750, cloc.pl:2751, cloc.pl:2752, cloc.pl:2753, cloc.pl:2763, cloc.pl:2764, cloc.pl:2765, cloc.pl:2766, cloc.pl:2767, cloc.pl:2768, cloc.pl:2769, cloc.pl:2770, cloc.pl:2771, cloc.pl:2772, cloc.pl:2773, cloc.pl:2774, cloc.pl:2780, cloc.pl:2795, cloc.pl:2796, cloc.pl:2896, cloc.pl:2897, cloc.pl:2898, cloc.pl:2899, cloc.pl:2900, cloc.pl:2901, cloc.pl:2902, cloc.pl:2903, cloc.pl:2904, cloc.pl:2905, cloc.pl:2907, cloc.pl:2908, cloc.pl:2909, cloc.pl:2910, cloc.pl:2911, cloc.pl:2912, cloc.pl:2913, cloc.pl:2914, cloc.pl:2915, cloc.pl:2920, cloc.pl:2921, cloc.pl:2922, cloc.pl:2923, cloc.pl:2924, cloc.pl:2925, cloc.pl:2926, cloc.pl:2927, cloc.pl:2929, cloc.pl:2930, cloc.pl:2932, cloc.pl:2933, cloc.pl:2934, cloc.pl:2935, cloc.pl:2936, cloc.pl:2937, cloc.pl:2938, cloc.pl:2939, cloc.pl:2940, cloc.pl:2941, cloc.pl:2942, cloc.pl:2944, cloc.pl:2945, cloc.pl:2946, cloc.pl:2947, cloc.pl:2948, cloc.pl:2951, cloc.pl:2952, cloc.pl:2953, cloc.pl:2954, cloc.pl:2955, cloc.pl:2958, cloc.pl:2959, cloc.pl:2960, cloc.pl:2962, cloc.pl:2963, cloc.pl:2965, cloc.pl:2966, cloc.pl:2967, cloc.pl:2968, cloc.pl:2969, cloc.pl:2977, cloc.pl:2978, cloc.pl:2979, cloc.pl:2980, cloc.pl:2982, cloc.pl:2983, cloc.pl:2984, cloc.pl:2985, cloc.pl:2986, cloc.pl:2988, cloc.pl:2989, cloc.pl:300, cloc.pl:301, cloc.pl:302, cloc.pl:3024, cloc.pl:3025, cloc.pl:3026, cloc.pl:3027, cloc.pl:3028, cloc.pl:3029, cloc.pl:303, cloc.pl:3030, cloc.pl:3031, cloc.pl:3032, cloc.pl:3033, cloc.pl:3034, cloc.pl:3035, cloc.pl:3036, cloc.pl:3037, cloc.pl:3038, cloc.pl:3039, cloc.pl:3040, cloc.pl:3041, cloc.pl:3042, cloc.pl:3043, cloc.pl:3044, cloc.pl:3045, cloc.pl:3046, cloc.pl:3047, cloc.pl:3048, cloc.pl:3049, cloc.pl:3558, cloc.pl:3559, cloc.pl:3567, cloc.pl:3568, cloc.pl:357, cloc.pl:3572, cloc.pl:3573, cloc.pl:3574, cloc.pl:3575, cloc.pl:3576, cloc.pl:3577, cloc.pl:3578, cloc.pl:3579, cloc.pl:358, cloc.pl:3580, cloc.pl:3581, cloc.pl:3582, cloc.pl:3587, cloc.pl:3588, cloc.pl:3589, cloc.pl:359, cloc.pl:3590, cloc.pl:3591, cloc.pl:3592, cloc.pl:3593, cloc.pl:3594, cloc.pl:3595, cloc.pl:3596, cloc.pl:3597, cloc.pl:3598, cloc.pl:360, cloc.pl:3601, cloc.pl:3602, cloc.pl:3603, cloc.pl:361, cloc.pl:362, cloc.pl:3642, cloc.pl:3643, cloc.pl:3644, cloc.pl:3645, cloc.pl:3646, cloc.pl:3647, cloc.pl:3648, cloc.pl:3649, cloc.pl:3650, cloc.pl:3651, cloc.pl:3652, cloc.pl:3655, cloc.pl:3656, cloc.pl:3657, cloc.pl:3658, cloc.pl:3659, cloc.pl:385, cloc.pl:386, cloc.pl:393, cloc.pl:394, cloc.pl:395, cloc.pl:396, cloc.pl:397, cloc.pl:4660, cloc.pl:4661, cloc.pl:4669, cloc.pl:4670, cloc.pl:4671, cloc.pl:4681, cloc.pl:4682, cloc.pl:4683, cloc.pl:551, cloc.pl:552, cloc.pl:558, cloc.pl:559, cloc.pl:561, cloc.pl:566, cloc.pl:568, cloc.pl:569, cloc.pl:570, cloc.pl:571, cloc.pl:573, cloc.pl:574, cloc.pl:575, cloc.pl:576, cloc.pl:577, cloc.pl:578, cloc.pl:579, cloc.pl:580, cloc.pl:581, cloc.pl:582, cloc.pl:583, cloc.pl:584, cloc.pl:585, cloc.pl:586, cloc.pl:587, cloc.pl:613, cloc.pl:614, cloc.pl:615, cloc.pl:616, cloc.pl:617, cloc.pl:618, cloc.pl:619, cloc.pl:620, cloc.pl:621, cloc.pl:622, cloc.pl:623, cloc.pl:628, cloc.pl:630, cloc.pl:631, cloc.pl:635, cloc.pl:714, cloc.pl:715, cloc.pl:716, cloc.pl:730, cloc.pl:742, cloc.pl:744, cloc.pl:745, cloc.pl:777, cloc.pl:778, cloc.pl:779, cloc.pl:780, cloc.pl:781, cloc.pl:782, cloc.pl:783, cloc.pl:784, cloc.pl:785, cloc.pl:786, cloc.pl:787, cloc.pl:788, cloc.pl:789, cloc.pl:790, cloc.pl:793, cloc.pl:796, cloc.pl:799, cloc.pl:800, cloc.pl:801, cloc.pl:806, cloc.pl:807, cloc.pl:819, cloc.pl:820, cloc.pl:821, cloc.pl:828, cloc.pl:829, cloc.pl:830, cloc.pl:831, cloc.pl:832, cloc.pl:833, 
+-
+(and (= --show-os off) (= --version off))
+-
+12 14 HMM
+======
+# M/H: 10647 / 1757
+# Last rebuild:   iter 2  num_configs 226
+cloc.pl:1178, cloc.pl:1179, cloc.pl:1180, cloc.pl:1191, cloc.pl:1192, cloc.pl:1327, cloc.pl:1328, cloc.pl:1329, cloc.pl:1335, cloc.pl:1753, cloc.pl:1754, cloc.pl:1757, cloc.pl:1758, cloc.pl:1763, cloc.pl:1764, cloc.pl:1765, cloc.pl:1766, cloc.pl:1767, cloc.pl:1770, cloc.pl:1817, cloc.pl:1818, cloc.pl:1819, cloc.pl:1824, cloc.pl:1825, cloc.pl:1826, cloc.pl:1827, cloc.pl:1828, cloc.pl:1831, 
+-
+(and (= --xml off)
+     (= --show-os off)
+     (= --version off)
+     (or (= --json on) (= --yaml on)))
+-
+21 12 14 18 22 MHHMMM
+======
+# M/H: 10274 / 2044
+# Last rebuild:   iter 2  num_configs 246
+cloc.pl:118, 
+-
+(and (= -v |0|) (= --version off))
+-
+13 M 14 HMMM
+======
+# M/H: 11247 / 1187
+# Last rebuild:   iter 2  num_configs 256
+cloc.pl:1181, cloc.pl:1182, cloc.pl:1183, cloc.pl:1184, cloc.pl:1185, cloc.pl:1771, cloc.pl:1832, cloc.pl:1833, 
+-
+(and (= --json on) (= --version off) (= --show-os off) (= --xml off))
+-
+18 M 14 12 21 HMMM
+======
+# M/H: 8659 / 3795
+# Last rebuild:   iter 2  num_configs 276
+cloc.pl:1307, cloc.pl:1308, cloc.pl:1309, cloc.pl:1310, cloc.pl:1311, cloc.pl:1312, cloc.pl:1313, cloc.pl:1314, cloc.pl:1315, cloc.pl:1321, cloc.pl:1336, cloc.pl:1337, cloc.pl:1665, cloc.pl:1666, cloc.pl:1668, cloc.pl:1669, 
+-
+(and (= --show-os off)
+     (= --version off)
+     (or (= --json on) (= --xml on) (= --yaml on)))
+-
+12 14 22 18 21 MHHHMM
+======
+# M/H: 7872 / 4605
+# Last rebuild:   iter 2  num_configs 300
+cloc.pl:1534, cloc.pl:1535, cloc.pl:1536, cloc.pl:1537, cloc.pl:1544, cloc.pl:1548, 
+-
+(let ((a!1 (or (= --by-file on)
+               (= --by-file-by-lang on)
+               (and (= --xml off) (or (= --json on) (= --yaml on))))))
+  (and (= --show-os off) (= --version off) a!1))
+-
+12 14 1 2 21 22 18 MHHMHHMM
+======
+# M/H: 9716 / 2782
+# Last rebuild:   iter 2  num_configs 320
+cloc.pl:1637, cloc.pl:1638, cloc.pl:1639, 
+-
+(and (= --3 off) (= --version off) (= --show-os off))
+-
+15 14 12 HMMM
+======
+# M/H: 8313 / 4205
+# Last rebuild:   iter 2  num_configs 340
+cloc.pl:1658, cloc.pl:1659, cloc.pl:1721, cloc.pl:1722, cloc.pl:1723, cloc.pl:1724, cloc.pl:1733, cloc.pl:1734, cloc.pl:1735, cloc.pl:822, cloc.pl:823, cloc.pl:824, cloc.pl:825, cloc.pl:826, 
+-
+(and (= --show-os off)
+     (= --version off)
+     (or (= --by-file on) (= --by-file-by-lang on)))
+-
+12 14 1 2 MHHMM
+======
+# M/H: 9968 / 2570
+# Last rebuild:   iter 2  num_configs 360
+cloc.pl:1701, cloc.pl:1702, cloc.pl:1705, cloc.pl:1706, cloc.pl:1707, cloc.pl:1708, 
+-
+(and (= --csv on) (= --show-os off) (= --version off))
+-
+16 M 12 14 HMM
+======
+# M/H: 10637 / 1921
+# Last rebuild:   iter 2  num_configs 380
+cloc.pl:1703, 
+-
+(and (= --csv on)
+     (= --version off)
+     (= --show-os off)
+     (or (= --by-file on) (= --by-file-by-lang on)))
+-
+16 M 14 12 2 1 MHHMM
+======
+# M/H: 11891 / 687
+# Last rebuild:   iter 2  num_configs 400
+cloc.pl:1756, 
+-
+(and (= --json on)
+     (= --yaml off)
+     (= --xml off)
+     (= --show-os off)
+     (= --version off))
+-
+18 M 22 21 12 14 HMMMM
+======
+# M/H: 8484 / 4114
+# Last rebuild:   iter 2  num_configs 420
+cloc.pl:2181, cloc.pl:2182, cloc.pl:2183, cloc.pl:2184, cloc.pl:2185, 
+-
+(and (= --stat off) (= --version off))
+-
+10 14 HMM
+======
+# M/H: 9803 / 2815
+# Last rebuild:   iter 2  num_configs 440
+cloc.pl:2481, 
+-
+(and (= --skip-uniqueness on) (= --version off) (= --show-os off))
+-
+9 M 14 12 HMM
+======
+# M/H: 9820 / 2818
+# Last rebuild:   iter 2  num_configs 460
+cloc.pl:2520, cloc.pl:2521, cloc.pl:2522, cloc.pl:2523, cloc.pl:2524, cloc.pl:2526, cloc.pl:2533, cloc.pl:2534, cloc.pl:2535, 
+-
+(and (= --follow-links off) (= --show-os off) (= --version off))
+-
+4 12 14 HMMM
+======
+# M/H: 11205 / 1453
+# Last rebuild:   iter 2  num_configs 480
+cloc.pl:626, 
+-
+(and (= --by-file on)
+     (= --by-file-by-lang off)
+     (= --version off)
+     (= --show-os off))
+-
+1 M 2 14 12 HMMM
+======
+# M/H: 8424 / 4254
+# Last rebuild:   iter 2  num_configs 500
+cloc.pl:1656, cloc.pl:1657, cloc.pl:1718, cloc.pl:1719, cloc.pl:1736, 
+-
+(and (= --version off)
+     (= --show-os off)
+     (or (= --by-file off) (= --by-file-by-lang on)))
+-
+14 12 1 H 2 MHMM
+======
+# M/H: 11551 / 1147
+# Last rebuild:   iter 2  num_configs 520
+cloc.pl:1667, 
+-
+(and (= --by-file-by-lang on) (= --json on) (= --version off) (= --show-os off))
+-
+2 M 18 M 14 12 HMM
+======
+# M/H: 10729 / 1989
+# Last rebuild:   iter 2  num_configs 540
+cloc.pl:1704, 
+-
+(and (= --csv on)
+     (= --show-os off)
+     (= --version off)
+     (or (= --by-file off) (= --by-file-by-lang on)))
+-
+16 M 12 14 1 H 2 MHMM
+======
+# M/H: 11611 / 1127
+# Last rebuild:   iter 2  num_configs 560
+cloc.pl:1755, 
+-
+(and (= --yaml on) (= --xml off) (= --version off) (= --show-os off))
+-
+22 M 21 14 12 HMMM
+======
+# M/H: 12119 / 638
+# Last rebuild:   iter 2  num_configs 580
+cloc.pl:1834, cloc.pl:1835, cloc.pl:1836, 
+-
+(and (= --by-file-by-lang on)
+     (= --json on)
+     (= --show-os off)
+     (= --version off)
+     (= --xml off))
+-
+2 M 18 M 12 14 21 HMMM
+======
+# M/H: 9911 / 2867
+# Last rebuild:   iter 2  num_configs 600
+cloc.pl:2396, cloc.pl:2499, cloc.pl:2500, cloc.pl:2501, cloc.pl:2502, cloc.pl:2503, cloc.pl:2504, cloc.pl:2505, cloc.pl:2508, cloc.pl:2510, cloc.pl:2517, cloc.pl:2518, cloc.pl:2519, 
+-
+(and (= --follow-links on) (= --show-os off) (= --version off))
+-
+4 M 12 14 HMM
+======
+# M/H: 9924 / 2874
+# Last rebuild:   iter 2  num_configs 620
+cloc.pl:3115, cloc.pl:3116, cloc.pl:3117, cloc.pl:3118, cloc.pl:3119, cloc.pl:3120, cloc.pl:3121, cloc.pl:3122, cloc.pl:3123, cloc.pl:3124, cloc.pl:3127, cloc.pl:3128, cloc.pl:3129, cloc.pl:3130, cloc.pl:3137, cloc.pl:3138, cloc.pl:3139, cloc.pl:3140, cloc.pl:3141, cloc.pl:3153, cloc.pl:3154, cloc.pl:3155, cloc.pl:3156, 
+-
+(and (= --strip-str-comments on) (= --show-os off) (= --version off))
+-
+11 M 12 14 HMM
+======
+# M/H: 9959 / 2859
+# Last rebuild:   iter 2  num_configs 640
+cloc.pl:4456, cloc.pl:4457, cloc.pl:4458, cloc.pl:4459, cloc.pl:4460, cloc.pl:4463, cloc.pl:4464, cloc.pl:4465, cloc.pl:4466, cloc.pl:4467, cloc.pl:4468, cloc.pl:4469, cloc.pl:4470, cloc.pl:4471, cloc.pl:4472, cloc.pl:4473, cloc.pl:4474, cloc.pl:4475, cloc.pl:4476, cloc.pl:4477, cloc.pl:4478, cloc.pl:4479, cloc.pl:4480, cloc.pl:4481, cloc.pl:4482, cloc.pl:4483, cloc.pl:4484, cloc.pl:4485, cloc.pl:4486, cloc.pl:4487, cloc.pl:4488, cloc.pl:4489, cloc.pl:4492, cloc.pl:4493, cloc.pl:4494, cloc.pl:4495, 
+-
+(and (= --unicode on) (= --show-os off) (= --version off))
+-
+0 M 12 14 HMM
+======
+# M/H: 10026 / 2811
+# Last rebuild:   iter 2  num_configs 660
+cloc.pl:624, cloc.pl:625, 
+-
+(and (= --by-file-by-lang on) (= --version off) (= --show-os off))
+-
+2 M 14 12 HMM
+======
+# M/H: 11007 / 1851
+# Last rebuild:   iter 2  num_configs 680
+cloc.pl:1588, cloc.pl:1589, cloc.pl:1590, cloc.pl:1591, cloc.pl:1607, cloc.pl:1608, cloc.pl:1673, 
+-
+(and (= --json off)
+     (= --yaml off)
+     (= --xml off)
+     (= --show-os off)
+     (= --version off))
+-
+18 22 21 12 14 HMMMMM
+======
+# M/H: 11885 / 1389
+# Last rebuild:   iter 3  num_configs 2016
+cloc.pl:1772, cloc.pl:1773, cloc.pl:1774, cloc.pl:1775, cloc.pl:1776, cloc.pl:1777, cloc.pl:1789, cloc.pl:1792, cloc.pl:1793, cloc.pl:1794, 
+-
+(and (= --json off)
+     (= --xml off)
+     (= --yaml off)
+     (= --show-os off)
+     (= --version off)
+     (or (= --csv on) (= --md on)))
+-
+18 21 22 12 14 16 19 MHHMMMMM
+======
+# M/H: 12178 / 700
+# Last rebuild:   iter 2  num_configs 700
+cloc.pl:1778, cloc.pl:1782, cloc.pl:1837, cloc.pl:1838, cloc.pl:1843, cloc.pl:1847, cloc.pl:1848, cloc.pl:1849, cloc.pl:1850, cloc.pl:1853, 
+-
+(and (= --json off)
+     (= --yaml off)
+     (= --xml off)
+     (= --version off)
+     (= --csv on)
+     (= --show-os off))
+-
+18 22 21 14 16 M 12 HMMMMM
+======
+# M/H: 12764 / 530
+# Last rebuild:   iter 3  num_configs 2036
+cloc.pl:1779, cloc.pl:1780, cloc.pl:1839, cloc.pl:1840, 
+-
+(and (= --json off)
+     (= --csv on)
+     (= --yaml off)
+     (= --xml off)
+     (= --show-os off)
+     (= --version off)
+     (or (= --by-file on) (= --by-file-by-lang on)))
+-
+18 16 M 22 21 12 14 2 1 MHHMMMMM
+======
+# M/H: 12768 / 546
+# Last rebuild:   iter 3  num_configs 2056
+cloc.pl:1781, 
+-
+(and (= --json off)
+     (= --csv on)
+     (= --xml off)
+     (= --yaml off)
+     (= --show-os off)
+     (= --version off)
+     (or (= --by-file off) (= --by-file-by-lang on)))
+-
+18 16 M 21 22 12 14 1 H 2 MHMMMMM
+======
+# M/H: 12504 / 393
+# Last rebuild:   iter 2  num_configs 720
+cloc.pl:1851, cloc.pl:1852, 
+-
+(and (= --3 on)
+     (= --xml off)
+     (= --show-os off)
+     (= --version off)
+     (= --json off)
+     (= --yaml off)
+     (= --csv on))
+-
+15 M 21 12 14 18 22 16 MHMMMMM
+======
+# M/H: 10780 / 2138
+# Last rebuild:   iter 2  num_configs 740
+cloc.pl:1322, cloc.pl:1323, cloc.pl:1324, cloc.pl:1325, cloc.pl:1326, cloc.pl:1670, cloc.pl:1745, cloc.pl:1750, cloc.pl:1799, cloc.pl:1800, cloc.pl:1802, cloc.pl:1805, cloc.pl:1806, cloc.pl:1807, cloc.pl:1808, cloc.pl:1814, cloc.pl:1815, 
+-
+(and (= --xml on) (= --version off) (= --show-os off))
+-
+21 M 14 12 HMM
+======
+# M/H: 11315 / 1623
+# Last rebuild:   iter 2  num_configs 760
+cloc.pl:1671, cloc.pl:1746, cloc.pl:1747, cloc.pl:1748, cloc.pl:1749, cloc.pl:1751, cloc.pl:1809, cloc.pl:4099, cloc.pl:4100, cloc.pl:4101, cloc.pl:4102, cloc.pl:4103, cloc.pl:4109, cloc.pl:4110, 
+-
+(and (= --xml on)
+     (= --show-os off)
+     (= --version off)
+     (or (= --by-file on) (= --by-file-by-lang on)))
+-
+21 M 12 14 1 2 MHHMM
+======
+# M/H: 10061 / 2897
+# Last rebuild:   iter 2  num_configs 780
+cloc.pl:2483, cloc.pl:2485, cloc.pl:2486, cloc.pl:2487, cloc.pl:2488, cloc.pl:2489, cloc.pl:2490, cloc.pl:2491, cloc.pl:2492, cloc.pl:2493, cloc.pl:2494, cloc.pl:2495, cloc.pl:2496, cloc.pl:2497, cloc.pl:2498, cloc.pl:2713, cloc.pl:2714, cloc.pl:2716, cloc.pl:2717, cloc.pl:2718, cloc.pl:2719, cloc.pl:2720, cloc.pl:2721, cloc.pl:2725, cloc.pl:2726, cloc.pl:2727, cloc.pl:2728, cloc.pl:2729, cloc.pl:2732, cloc.pl:2733, cloc.pl:2734, cloc.pl:2735, cloc.pl:2736, cloc.pl:2737, cloc.pl:2738, cloc.pl:2739, cloc.pl:2740, cloc.pl:2741, cloc.pl:2742, cloc.pl:2743, cloc.pl:2744, cloc.pl:2745, cloc.pl:2746, cloc.pl:2747, cloc.pl:2748, 
+-
+(and (= --skip-uniqueness off) (= --show-os off) (= --version off))
+-
+9 12 14 HMMM
+======
+# M/H: 11245 / 1733
+# Last rebuild:   iter 2  num_configs 800
+cloc.pl:1672, cloc.pl:1752, cloc.pl:1801, cloc.pl:1810, cloc.pl:1811, cloc.pl:1813, 
+-
+(and (= --xml on)
+     (= --version off)
+     (= --show-os off)
+     (or (= --by-file off) (= --by-file-by-lang on)))
+-
+21 M 14 12 2 1 HMHMM
+======
+# M/H: 11876 / 1122
+# Last rebuild:   iter 2  num_configs 820
+cloc.pl:1816, 
+-
+(and (= --by-file-by-lang on) (= --xml on) (= --show-os off) (= --version off))
+-
+2 M 21 M 12 14 HMM
+======
+# M/H: 11625 / 1393
+# Last rebuild:   iter 2  num_configs 840
+cloc.pl:2178, cloc.pl:2179, cloc.pl:2180, 
+-
+(and (= --show-os on) (= --stat off) (= --version off))
+-
+12 M 10 14 HMM
+======
+# M/H: 12415 / 623
+# Last rebuild:   iter 2  num_configs 860
+cloc.pl:1186, cloc.pl:1187, cloc.pl:1188, cloc.pl:1189, cloc.pl:1190, 
+-
+(and (= --yaml on)
+     (= --xml off)
+     (= --show-os off)
+     (= --version off)
+     (= --json off))
+-
+22 M 21 12 14 18 HMMMM
+======
+# M/H: 12013 / 1045
+# Last rebuild:   iter 2  num_configs 880
+cloc.pl:1768, cloc.pl:1769, cloc.pl:1829, cloc.pl:1830, 
+-
+(and (= --3 on)
+     (= --xml off)
+     (= --show-os off)
+     (= --version off)
+     (or (= --json on) (= --yaml on)))
+-
+15 M 21 12 14 22 18 MHHMMM
+======
+# M/H: 11553 / 1525
+# Last rebuild:   iter 2  num_configs 900
+cloc.pl:627, cloc.pl:827, 
+-
+(and (= --by-file-by-lang off)
+     (= --by-file off)
+     (= --version off)
+     (= --show-os off))
+-
+2 1 14 12 HMMMM
+======
+# M/H: 11877 / 1221
+# Last rebuild:   iter 2  num_configs 920
+cloc.pl:1675, cloc.pl:1679, cloc.pl:1682, cloc.pl:1683, cloc.pl:1684, cloc.pl:1685, cloc.pl:1686, cloc.pl:1854, cloc.pl:1858, cloc.pl:1861, cloc.pl:1862, cloc.pl:1863, 
+-
+(and (= --csv off)
+     (= --yaml off)
+     (= --json off)
+     (= --version off)
+     (= --show-os off)
+     (= --xml off))
+-
+16 22 18 14 12 21 HMMMMMM
+======
+# M/H: 12762 / 572
+# Last rebuild:   iter 3  num_configs 2076
+cloc.pl:1676, cloc.pl:1677, 
+-
+(and (= --csv off)
+     (= --3 off)
+     (= --yaml off)
+     (= --xml off)
+     (= --json off)
+     (= --version off)
+     (= --show-os off)
+     (or (= --by-file on) (= --by-file-by-lang on)))
+-
+16 15 22 21 18 14 12 1 2 MHHMMMMMMM
+======
+# M/H: 12354 / 1000
+# Last rebuild:   iter 3  num_configs 2096
+cloc.pl:1680, cloc.pl:1855, 
+-
+(and (= --csv off)
+     (= --yaml off)
+     (= --xml off)
+     (= --json off)
+     (= --show-os off)
+     (= --version off)
+     (or (= --by-file on) (= --by-file-by-lang on)))
+-
+16 22 21 18 12 14 2 1 MHHMMMMMM
+======
+# M/H: 12683 / 691
+# Last rebuild:   iter 3  num_configs 2116
+cloc.pl:1687, cloc.pl:1688, cloc.pl:1693, cloc.pl:1694, cloc.pl:1695, cloc.pl:1696, cloc.pl:1697, cloc.pl:1783, cloc.pl:1864, cloc.pl:1865, cloc.pl:1866, cloc.pl:1867, cloc.pl:1868, cloc.pl:1869, cloc.pl:1870, 
+-
+(and (= --csv off)
+     (= --md on)
+     (= --json off)
+     (= --xml off)
+     (= --yaml off)
+     (= --show-os off)
+     (= --version off))
+-
+16 19 M 18 21 22 12 14 HMMMMMM
+======
+# M/H: 12820 / 573
+# Last rebuild:   iter 3  num_configs 2136
+cloc.pl:1784, cloc.pl:1785, cloc.pl:1786, 
+-
+(and (= --csv off)
+     (= --md on)
+     (= --json off)
+     (= --xml off)
+     (= --yaml off)
+     (= --version off)
+     (= --show-os off)
+     (or (= --by-file on) (= --by-file-by-lang on)))
+-
+16 19 M 18 21 22 14 12 2 1 MHHMMMMMM
+======
+# M/H: 12149 / 969
+# Last rebuild:   iter 2  num_configs 940
+cloc.pl:3660, cloc.pl:3661, cloc.pl:3663, 
+-
+(and (= --quiet off)
+     (= --md off)
+     (= --json off)
+     (= --show-os off)
+     (= --version off))
+-
+20 19 18 12 14 HMMMMM
+======
+# M/H: 12832 / 582
+# Last rebuild:   iter 3  num_configs 2156
+cloc.pl:1602, cloc.pl:1604, cloc.pl:1605, cloc.pl:1606, cloc.pl:1698, cloc.pl:1699, cloc.pl:1795, cloc.pl:1871, cloc.pl:1872, cloc.pl:1873, 
+-
+(and (= --csv off)
+     (= --md off)
+     (= --yaml off)
+     (= --xml off)
+     (= --json off)
+     (= --version off)
+     (= --show-os off))
+-
+16 19 22 21 18 14 12 HMMMMMMM
+======
+# M/H: 13129 / 305
+# Last rebuild:   iter 3  num_configs 2176
+cloc.pl:1603, 
+-
+(and (= --by-file-by-lang on)
+     (= --csv off)
+     (= --md off)
+     (= --show-os off)
+     (= --version off)
+     (= --json off)
+     (= --xml off)
+     (= --yaml off))
+-
+2 M 16 19 12 14 18 21 22 HMMMMMMM
+======
+# M/H: 12326 / 1128
+# Last rebuild:   iter 3  num_configs 2196
+cloc.pl:1678, 
+-
+(and (= --csv off)
+     (= --yaml off)
+     (= --xml off)
+     (= --version off)
+     (= --show-os off)
+     (= --json off)
+     (or (= --by-file off) (= --by-file-by-lang on) (= --3 on)))
+-
+16 22 21 14 12 18 1 H 15 2 MHHMMMMMM
+======
+# M/H: 12523 / 950
+# Last rebuild:   iter 3  num_configs 2216
+cloc.pl:1681, cloc.pl:1856, cloc.pl:1857, 
+-
+(and (= --csv off)
+     (= --yaml off)
+     (= --xml off)
+     (= --version off)
+     (= --show-os off)
+     (= --json off)
+     (or (= --by-file off) (= --by-file-by-lang on)))
+-
+16 22 21 14 12 18 1 H 2 MHMMMMMM
+======
+# M/H: 12982 / 512
+# Last rebuild:   iter 3  num_configs 2236
+cloc.pl:3662, 
+-
+(and (= --skip-uniqueness on)
+     (= --md off)
+     (= --quiet off)
+     (= --json off)
+     (= --show-os off)
+     (= --version off))
+-
+9 M 19 20 18 12 14 HMMMMM
+======
+# M/H: 12982 / 532
+# Last rebuild:   iter 3  num_configs 2256
+cloc.pl:1787, cloc.pl:1788, 
+-
+(and (= --md on)
+     (= --csv off)
+     (= --json off)
+     (= --xml off)
+     (= --yaml off)
+     (= --show-os off)
+     (= --version off)
+     (or (= --by-file off) (= --by-file-by-lang on)))
+-
+19 M 16 18 21 22 12 14 1 H 2 MHMMMMMM
+======
+# M/H: 13285 / 246
+# Last rebuild:   iter 3  num_configs 2276
+cloc.pl:1841, cloc.pl:1842, 
+-
+(and (= --csv on)
+     (= --by-file off)
+     (= --by-file-by-lang off)
+     (= --yaml off)
+     (= --json off)
+     (= --xml off)
+     (= --version off)
+     (= --show-os off))
+-
+16 M 1 2 22 18 21 14 12 HMMMMMMM
+======

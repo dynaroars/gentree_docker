@@ -1,0 +1,88 @@
+# ./igen4 -J2 -cr -F 2/ln -O res/Analyze_progress/ln/iter_{iter}.txt --save-each-iter
+# seed = 123, repeat_id = 0, thread_id = 0
+#      150  171   10 |   150    -1 |  0    1 |     0     0      0 | 826c65125eb8d586b5749f0dd1c99b8a
+======
+# M/H: 84 / 86
+# Last rebuild:   iter 1  num_configs 10
+ln.c:403, ln.c:405, ln.c:409, ln.c:416, ln.c:427, ln.c:429, ln.c:437, ln.c:446, ln.c:453, ln.c:454, ln.c:455, ln.c:456, ln.c:461, ln.c:463, ln.c:520, ln.c:521, ln.c:522, ln.c:554, system.h:588, system.h:590, system.h:593, system.h:616, system.h:618, system.h:625, system.h:631, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(= --help on)
+-
+10 HM
+======
+# M/H: 0 / 185
+# Last rebuild:   iter 1  num_configs 25
+ln.c:467, ln.c:471, ln.c:472, ln.c:473, ln.c:474, ln.c:476, ln.c:479, ln.c:482, ln.c:483, ln.c:487, ln.c:489, ln.c:490, ln.c:492, ln.c:495, 
+-
+true
+-
+H
+======
+# M/H: 98 / 102
+# Last rebuild:   iter 1  num_configs 40
+ln.c:510, ln.c:511, ln.c:512, ln.c:513, 
+-
+(= -i on)
+-
+3 HM
+======
+# M/H: 107 / 108
+# Last rebuild:   iter 1  num_configs 55
+ln.c:514, ln.c:515, ln.c:516, 
+-
+(= -L on)
+-
+4 HM
+======
+# M/H: 106 / 124
+# Last rebuild:   iter 1  num_configs 70
+ln.c:517, ln.c:518, ln.c:519, ln.c:523, ln.c:524, ln.c:525, 
+-
+(= -n on)
+-
+5 HM
+======
+# M/H: 28 / 208
+# Last rebuild:   iter 1  num_configs 85
+ln.c:497, ln.c:498, ln.c:499, ln.c:500, ln.c:501, 
+-
+(or (= --backup none)
+    (= --backup numbered)
+    (= --backup existing)
+    (= --backup simple)
+    (and (= --backup off) (= -b on)))
+-
+0 1 HMHHHH
+======
+# M/H: 121 / 130
+# Last rebuild:   iter 1  num_configs 91
+ln.c:506, ln.c:507, ln.c:508, ln.c:509, 
+-
+(= -f on)
+-
+2 HM
+======
+# M/H: 131 / 134
+# Last rebuild:   iter 1  num_configs 106
+ln.c:526, ln.c:527, ln.c:528, ln.c:555, 
+-
+(= -s on)
+-
+8 HM
+======
+# M/H: 144 / 136
+# Last rebuild:   iter 1  num_configs 120
+ln.c:547, ln.c:548, ln.c:549, 
+-
+(= -v on)
+-
+9 HM
+======
+# M/H: 213 / 82
+# Last rebuild:   iter 1  num_configs 135
+ln.c:562, ln.c:563, ln.c:565, ln.c:571, ln.c:572, 
+-
+(and (= --help off) (= --version off))
+-
+10 M 11 MH
+======

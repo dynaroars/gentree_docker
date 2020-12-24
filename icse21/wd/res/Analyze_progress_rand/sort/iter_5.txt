@@ -1,0 +1,2563 @@
+# ./igen4 -J2 -cr -F 2/sort -O res/Analyze_progress_rand/sort/iter_{iter}.txt --rand-each-iteration 100,702,1639,3184,5125,6763,7725,8491,9112,9482,9768,10062,10286,10511,10699,10887,11107,11351,11559,11806,12042,12273,12477,12751,12989,13203,13428,13668,13890,14111,14311,14510,14723,14913,15157,15364,15518,15691,15864,16069,16253,16450,16633,16835,16998,17143,17327,17511,17668,17881,18078,18244,18396,18527,18702,18895,19052,19191,19352,19509,19632,19739,19839,19975,20081,20203,20315,20429,20553,20691,20837,20979,21069,21186,21267,21391,21491,21613,21727,21850,21984,22094,22217,22349,22470,22577,22701,22824,22942,23082,23235,23389,23542,23681,23809,23938,24091,24182,24309,24422,24548,24692,24820,24952,25025,25114,25202,25256,25333,25377,25445,25488,25508,25547,25580,25611,25634,25664,25679,25714,25735,25749,25781,25815,25850,25866,28422,28578,28630,28660,28673,31253,31357,31442,31475,34022,34123,34142,34158,34176,34192,34209,34229,34248,34260,34273,34286,34301,34315,36863,36919,36932,39460,39497,39513,39527,39541,42066,42089,42104,44612,44666,44681,47193,47227,47242,49735,49767,49801,49817,52335,52350,52366,52381,52400,52414,52427,54931,54947,54962,57468,57484,57499,57512,60011,60026,62544,62557,65055,65068,67550,67566,67579,67599,67614,67633,67645,67660,67680,67696,67713,67727,70213,72697,72712,75182,75195,75214,77710,77725,77741,77753,80235,80248,82743,82761,85239,87722,87734,90210,90225,92687,92702,92715,92733,92753,92772,95238,95256,97749,97764,97780,97798,97820,97837,97851,97865,100335,100350,102830,102845,102862,102879,102897,102916,102930,102947,102962,102982,105461,105477,105492,105507,105522,105539,105552,108027,110505,110528,113034,113103,113176,113248,113280,115809,115873,115945,116019,116055,118579,118652,121142,121210,121267,123726,126215,128723,131196,133672,136194,138687,141141,143612
+# seed = 123, repeat_id = 0, thread_id = 0
+#     5125 1058  126 |  5125    -1 |  0    5 |     0     0      0 | e2dcfd37bb69d0e5ea78381ec75196e3
+======
+# M/H: 0 / 5125
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1288, sort.c:1292, sort.c:1294, sort.c:1295, sort.c:1296, sort.c:1297, sort.c:1302, sort.c:1324, sort.c:1384, sort.c:1388, sort.c:1391, sort.c:1400, sort.c:1423, sort.c:1427, sort.c:1430, sort.c:1431, sort.c:1433, sort.c:1434, sort.c:4187, sort.c:4189, sort.c:4190, sort.c:4191, sort.c:4195, sort.c:4200, sort.c:4202, sort.c:4203, sort.c:4204, sort.c:4205, sort.c:4206, sort.c:4207, sort.c:4208, sort.c:4209, sort.c:4210, sort.c:4211, sort.c:4213, sort.c:4215, sort.c:4219, sort.c:4220, sort.c:4224, sort.c:4226, sort.c:4228, sort.c:4233, sort.c:4238, sort.c:4239, sort.c:4243, sort.c:4244, sort.c:4245, sort.c:4248, sort.c:4249, sort.c:4278, sort.c:4279, sort.c:4281, sort.c:4282, sort.c:4283, sort.c:4286, sort.c:4287, sort.c:4288, sort.c:4290, sort.c:4291, sort.c:4292, sort.c:4302, sort.c:4305, sort.c:4307, sort.c:4308, sort.c:4310, sort.c:4313, sort.c:4318, sort.c:4320, sort.c:4321, sort.c:4327, sort.c:4335, sort.c:4516, sort.c:4517, sort.c:4518, sort.c:820, sort.c:822, sort.c:832, sort.c:833, system.h:101, system.h:102, system.h:103, system.h:156, system.h:160, system.h:162, system.h:99, 
+-
+true
+-
+H
+======
+# M/H: 3251 / 1874
+# Last rebuild:   iter -1  num_configs -1
+sort.c:409, sort.c:411, sort.c:415, sort.c:420, sort.c:424, sort.c:425, sort.c:427, sort.c:431, sort.c:437, sort.c:442, sort.c:445, sort.c:451, sort.c:4581, sort.c:459, sort.c:463, sort.c:467, sort.c:474, sort.c:481, sort.c:485, sort.c:491, sort.c:500, sort.c:503, sort.c:504, sort.c:505, sort.c:518, sort.c:526, sort.c:529, system.h:581, system.h:583, system.h:586, system.h:588, system.h:590, system.h:593, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(and (= --help on) (or (= -c off) (and (= -c on) (= -C off))))
+-
+20 11 12 MHHM
+======
+# M/H: 5 / 5120
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4131, sort.c:4133, sort.c:4135, sort.c:4179, sort.c:4181, sort.c:4396, sort.c:4409, sort.c:4410, sort.c:4411, sort.c:4413, 
+-
+(let ((a!1 (and (= -b off) (or (= -n on) (and (= -n off) (= -R on))))))
+(let ((a!2 (or (= -r on) (and (= -r off) (or (= -b on) a!1)))))
+(let ((a!3 (and (= -V off) (or (= -i on) (and (= -i off) a!2)))))
+(let ((a!4 (or (= -M on) (and (= -M off) (or (= -V on) a!3)))))
+(let ((a!5 (and (= -g off) (or (= -h on) (and (= -h off) a!4)))))
+  (or (= -d on) (and (= -d off) (or (= -g on) a!5))))))))
+-
+1 H 3 H 6 H 5 H 10 H 4 H 9 H 0 H 7 H 8 HM
+======
+# M/H: 2579 / 2546
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4137, sort.c:4138, sort.c:4139, sort.c:4140, sort.c:4141, sort.c:4142, 
+-
+(= -b on)
+-
+0 HM
+======
+# M/H: 2568 / 2557
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4149, sort.c:4150, sort.c:4151, 
+-
+(= -g on)
+-
+3 HM
+======
+# M/H: 2607 / 2518
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4152, sort.c:4153, sort.c:4154, 
+-
+(= -h on)
+-
+6 HM
+======
+# M/H: 2618 / 2507
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4155, sort.c:4158, sort.c:4160, 
+-
+(= -i on)
+-
+4 HM
+======
+# M/H: 3884 / 1241
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4159, 
+-
+(and (= -i on) (= -d off))
+-
+4 1 MHM
+======
+# M/H: 2606 / 2519
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4161, sort.c:4162, sort.c:4163, 
+-
+(= -M on)
+-
+5 HM
+======
+# M/H: 2560 / 2565
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4164, sort.c:4165, sort.c:4166, 
+-
+(= -n on)
+-
+7 HM
+======
+# M/H: 2557 / 2568
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4173, sort.c:4174, sort.c:4175, 
+-
+(= -V on)
+-
+10 HM
+======
+# M/H: 1227 / 3898
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4420, sort.c:4422, sort.c:4424, sort.c:4425, 
+-
+(or (= -C on) (and (= -C off) (= -c on)))
+-
+12 H 11 HM
+======
+# M/H: 3205 / 1920
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4577, sort.c:4578, sort.c:4579, 
+-
+(and (= -z on) (or (= -c off) (and (= -c on) (= -C off))))
+-
+19 11 12 MHHM
+======
+# M/H: 2529 / 2596
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4143, sort.c:4144, sort.c:4145, 
+-
+(= -d on)
+-
+1 HM
+======
+# M/H: 2615 / 2510
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4146, sort.c:4147, sort.c:4148, 
+-
+(= -f on)
+-
+2 HM
+======
+# M/H: 2606 / 2519
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4170, sort.c:4171, sort.c:4172, 
+-
+(= -r on)
+-
+9 HM
+======
+# M/H: 3242 / 1883
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4520, sort.c:4522, sort.c:4523, sort.c:4525, sort.c:4539, sort.c:4541, sort.c:4543, 
+-
+(and (= --field-separator |;|) (or (= -C off) (and (= -C on) (= -c off))))
+-
+16 M 12 11 MHH
+======
+# M/H: 4094 / 1031
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4583, 
+-
+(and (= --version on) (= --help off) (or (= -C off) (and (= -C on) (= -c off))))
+-
+21 20 M 12 11 MHHM
+======
+# M/H: 2592 / 2533
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1445, sort.c:1448, sort.c:1449, sort.c:1451, sort.c:1455, sort.c:1457, sort.c:4549, sort.c:4550, sort.c:4551, 
+-
+(let ((a!1 (or (= -c off) (and (= -c on) (= -C off)))))
+  (or (and (= --parallel |1|) a!1) (and (= --parallel |2|) a!1)))
+-
+17 M 11 12 MHH 11 12 MHH
+======
+# M/H: 2563 / 2562
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4167, sort.c:4168, sort.c:4169, 
+-
+(= -R on)
+-
+8 HM
+======
+# M/H: 3203 / 1922
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4433, sort.c:4434, sort.c:4435, 
+-
+(and (= --debug on) (or (= -c off) (and (= -c on) (= -C off))))
+-
+13 11 12 MHHM
+======
+# M/H: 3213 / 1912
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4553, sort.c:4554, sort.c:4555, 
+-
+(and (= -u on) (or (= -c off) (and (= -c on) (= -C off))))
+-
+18 11 12 MHHM
+======
+# M/H: 4179 / 946
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2376, sort.c:2378, sort.c:4059, sort.c:4063, sort.c:4331, sort.c:4332, sort.c:4337, sort.c:4338, sort.c:4339, sort.c:4389, sort.c:4390, sort.c:4391, sort.c:4590, sort.c:4640, sort.c:4660, sort.c:4667, 
+-
+(and (= --version off)
+     (= --help off)
+     (or (= -C off) (and (= -C on) (= -c off))))
+-
+21 M 20 M 12 11 MHH
+======
+# M/H: 4258 / 867
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2393, sort.c:2395, sort.c:2397, sort.c:2399, sort.c:2401, sort.c:2403, sort.c:2405, sort.c:2407, sort.c:2409, sort.c:2411, sort.c:2413, sort.c:2415, sort.c:2417, sort.c:2418, sort.c:4070, sort.c:4071, sort.c:4072, 
+-
+(let ((a!1 (and (= -u off)
+                (= --debug off)
+                (or (= -b on) (and (= -b off) (= -f on)))))
+      (a!4 (or (= -d on) (and (= -d off) (= -i on))))
+      (a!6 (and (= -R off) (or (= -V on) (and (= -V off) (= -i on)))))
+      (a!13 (and (= -s off) (or (= -f on) (and (= -f off) (= -M on)))))
+      (a!16 (and (= -V off)
+                 (= -c off)
+                 (or (= --parallel off)
+                     (= --parallel |2|)
+                     (and (= --parallel |1|) (= -b on)))))
+      (a!19 (and (= -d off) (or (= -R on) (and (= -R off) (= -V on))))))
+(let ((a!2 (or (= -R on) (and (= -R off) (or (= -u on) a!1))))
+      (a!5 (and (= -r on) (or (= -V on) (and (= -V off) a!4))))
+      (a!7 (or (= -d on) (and (= -d off) (or (= -R on) a!6))))
+      (a!10 (and (= -M off) (or (= -b on) (and (= -b off) a!4))))
+      (a!14 (or (= -h on) (and (= -h off) (or (= -s on) a!13))))
+      (a!17 (or (= -i on) (and (= -i off) (or (= -V on) a!16))))
+      (a!20 (or (= -i on) (and (= -i off) (or (= -d on) a!19)))))
+(let ((a!3 (and (= -h on) (or (= -d on) (and (= -d off) a!2))))
+      (a!8 (or (and (= -n on) (or (= -r off) a!5))
+               (and (= -n off) (= -M on) a!7)))
+      (a!11 (or (= --parallel off)
+                (= --parallel |2|)
+                (and (= --parallel |1|) (or (= -M on) a!10))))
+      (a!15 (and (= -V off) (or (= -d on) (and (= -d off) a!14))))
+      (a!18 (and (= -h on) (or (= -d on) (and (= -d off) a!17)))))
+(let ((a!9 (and (= -g off) (or a!3 (and (= -h off) a!8))))
+      (a!12 (and (= -g on) (or (= -n on) (and (= -n off) a!11))))
+      (a!21 (and (= -n off) (or a!18 (and (= -h off) (= -M on) a!20)))))
+(let ((a!22 (or (and (= -n on) (or (= -V on) a!15)) a!21)))
+(let ((a!23 (and (= -C off) (or a!12 (and (= -g off) a!22)))))
+(let ((a!24 (or (and (= -C on) (= -c off) (or (= -g on) a!9)) a!23)))
+  (and (= --version off) (= --help off) a!24))))))))
+-
+21 M 20 M 12 11 M 3 H 6 1 H 8 H 18 H 13 M 0 H 2 HM 7 9 10 H 1 H 4 HMH 5 1 H 8 H 10 H 4 HMM 3 7 H 17 H 5 H 0 H 1 H 4 HMH 7 10 H 1 H 6 H 15 H 2 H 5 HM 6 1 H 4 H 10 H 11 M 17 H 0 HMH 5 4 H 1 H 8 H 10 HMM
+======
+# M/H: 4681 / 444
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2398, 
+-
+(let ((a!1 (and (= -g off) (or (= -M on) (and (= -M off) (= -n on)))))
+      (a!3 (and (= -M off) (or (= -n on) (and (= -n off) (= -g on))))))
+(let ((a!2 (or (= -h on) (and (= -h off) (or (= -g on) a!1))))
+      (a!4 (or (= -h on) (and (= -h off) (or (= -M on) a!3)))))
+  (and (= --version off)
+       (= --help off)
+       (= -d on)
+       (or (and (= -C on) (= -c off) a!2) (and (= -C off) a!4)))))
+-
+21 M 20 M 1 12 11 M 6 H 3 H 5 H 7 HM 6 H 5 H 7 H 3 HMM
+======
+# M/H: 4689 / 436
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2400, 
+-
+(let ((a!1 (and (= -d off) (or (= -m on) (and (= -m off) (= -i on)))))
+      (a!2 (and (= -i off) (or (= -r on) (and (= -r off) (= -m on)))))
+      (a!5 (and (= -i off) (or (= -b on) (and (= -b off) (= -d on)))))
+      (a!6 (and (= -h off)
+                (= -g on)
+                (or (= --parallel off)
+                    (= --parallel |2|)
+                    (and (= --parallel |1|) (= -d on)))))
+      (a!8 (and (= -d off) (or (= -h on) (and (= -h off) (= -g on))))))
+(let ((a!3 (or (and (= -h on) (or (= -d on) a!1))
+               (and (= -h off) (= -M on) (or (= -i on) a!2))))
+      (a!7 (or (and (= -h on) (or (= -i on) a!5)) a!6))
+      (a!9 (or (= -R on) (and (= -R off) (or (= -d on) a!8)))))
+(let ((a!4 (and (= -g off) (or (= -n on) (and (= -n off) a!3))))
+      (a!10 (and (= -n off) (or (and (= -M off) a!7) (and (= -M on) a!9)))))
+(let ((a!11 (or (and (= -c off) (or (= -g on) a!4))
+                (and (= -c on) (= -C off) (or (= -n on) a!10)))))
+  (and (= -f on) (= --version off) (= --help off) a!11)))))
+-
+2 21 M 20 M 11 12 M 7 H 5 8 H 1 H 6 H 3 HM 6 4 H 0 H 1 HM 3 17 H 1 HMHM 3 H 7 H 6 1 H 14 H 4 HM 5 4 H 9 H 14 HMMM
+======
+# M/H: 4669 / 456
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2404, 
+-
+(let ((a!1 (and (= -d off) (or (= -M on) (and (= -M off) (= -b on)))))
+      (a!4 (and (= -d off)
+                (= -s off)
+                (or (= -M on) (and (= -M off) (= -f off))))))
+(let ((a!2 (or (= -R on) (and (= -R off) (or (= -d on) a!1))))
+      (a!5 (or (= -b on) (and (= -b off) (or (= -d on) a!4)))))
+(let ((a!3 (and (= -c off) (or (= -n on) (and (= -n off) a!2))))
+      (a!6 (and (= -n off) (or (= -V on) (and (= -V off) a!5)))))
+(let ((a!7 (or a!3 (and (= -c on) (= -C off) (or (= -n on) a!6)))))
+  (and (= -h on) (= --version off) (= --help off) a!7)))))
+-
+6 21 M 20 M 11 12 M 7 H 10 H 0 H 1 H 15 M 5 H 2 MH 7 H 8 H 1 H 5 H 0 HMM
+======
+# M/H: 4663 / 462
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2408, 
+-
+(let ((a!1 (and (= -R off)
+                (= -u on)
+                (or (= --debug on) (and (= --debug off) (= -b off)))))
+      (a!4 (and (= -h off) (or (= -d on) (and (= -d off) (= -V on))))))
+(let ((a!2 (or (= -V on) (and (= -V off) (or (= -R on) a!1))))
+      (a!5 (or (= -i on) (and (= -i off) (or (= -h on) a!4)))))
+(let ((a!3 (and (= -g off) (or (= -d on) (and (= -d off) a!2))))
+      (a!6 (and (= -n off) (or (= -R on) (and (= -R off) a!5)))))
+(let ((a!7 (or (and (= -C on) (= -c off) (or (= -g on) a!3))
+               (and (= -C off) (or (= -n on) a!6)))))
+  (and (= -M on) (= --help off) (= --version off) a!7)))))
+-
+5 20 M 21 M 12 11 M 3 H 1 H 10 H 8 H 18 13 H 0 MHM 7 H 8 H 4 H 6 H 1 H 10 HMM
+======
+# M/H: 4644 / 481
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2410, 
+-
+(let ((a!1 (and (= -V off) (or (= -d on) (and (= -d off) (= -i on)))))
+      (a!4 (and (= -s off) (or (= -f on) (and (= -f off) (= -M on))))))
+(let ((a!2 (or (= -r off) (and (= -r on) (or (= -V on) a!1))))
+      (a!5 (or (= -h on) (and (= -h off) (or (= -s on) a!4)))))
+(let ((a!3 (and (= -h off) (or (= -g on) (and (= -g off) a!2))))
+      (a!6 (and (= -V off) (or (= -d on) (and (= -d off) a!5)))))
+(let ((a!7 (or (= -g on) (and (= -g off) (or (= -V on) a!6)))))
+(let ((a!8 (or (and (= -C on) (= -c off) (or (= -h on) a!3))
+               (and (= -C off) a!7))))
+  (and (= -n on) (= --version off) (= --help off) a!8))))))
+-
+7 21 M 20 M 12 11 M 6 H 3 H 9 10 H 1 H 4 HMH 3 H 10 H 1 H 6 H 15 H 2 H 5 HMM
+======
+# M/H: 4703 / 422
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2412, 
+-
+(let ((a!1 (and (= -g off) (or (= -M on) (and (= -M off) (= -n on)))))
+      (a!3 (and (= -M off) (or (= -n on) (and (= -n off) (= -g on))))))
+(let ((a!2 (or (= -h on) (and (= -h off) (or (= -g on) a!1))))
+      (a!4 (or (= -h on) (and (= -h off) (or (= -M on) a!3)))))
+  (and (= -R on)
+       (= --version off)
+       (= --help off)
+       (or (and (= -C on) (= -c off) a!2) (and (= -C off) a!4)))))
+-
+8 21 M 20 M 12 11 M 6 H 3 H 5 H 7 HM 6 H 5 H 7 H 3 HMM
+======
+# M/H: 4678 / 447
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2416, 
+-
+(let ((a!1 (and (= -h off) (or (= -g on) (and (= -g off) (= -n on)))))
+      (a!3 (and (= -h off) (or (= -M on) (and (= -M off) (= -g on))))))
+(let ((a!2 (or (= -M on) (and (= -M off) (or (= -h on) a!1))))
+      (a!4 (or (= -n on) (and (= -n off) (or (= -h on) a!3)))))
+  (and (= -V on)
+       (= --version off)
+       (= --help off)
+       (or (and (= -C on) (= -c off) a!2) (and (= -C off) a!4)))))
+-
+10 21 M 20 M 12 11 M 5 H 6 H 3 H 7 HM 7 H 6 H 5 H 3 HMM
+======
+# M/H: 4182 / 943
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4025, sort.c:4028, sort.c:4030, sort.c:4032, sort.c:4033, sort.c:4034, sort.c:4064, sort.c:4065, sort.c:4662, sort.c:4663, sort.c:4664, 
+-
+(let ((a!1 (and (= -s on) (or (= -f on) (and (= -f off) (= -r off)))))
+      (a!4 (and (= -R off) (or (= -b on) (and (= -b off) (= -d on))))))
+(let ((a!2 (or (= -R on) (and (= -R off) (or (= -s off) a!1))))
+      (a!5 (or (= -m off) (and (= -m on) (or (= -R on) a!4)))))
+(let ((a!3 (and (= -n off) (or (= -u off) (and (= -u on) a!2))))
+      (a!6 (and (= -z off)
+                (or (= --parallel off)
+                    (= --parallel |2|)
+                    (and (= --parallel |1|) a!5)))))
+(let ((a!7 (or (and (= -c on) (= -C off) (or (= -n on) a!3))
+               (and (= -c off) (or (= -z on) a!6)))))
+  (and (= --version off) (= --help off) a!7)))))
+-
+21 M 20 M 11 12 M 7 H 18 8 H 15 2 H 9 MHHH 19 H 17 H 14 8 H 0 H 1 HMHH
+======
+# M/H: 2962 / 2163
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4051, sort.c:4053, 
+-
+(let ((a!1 (and (= -g off) (or (= -d on) (and (= -d off) (= -b on)))))
+      (a!3 (and (= -d off) (or (= -V on) (and (= -V off) (= -b on)))))
+      (a!5 (and (= -i off) (or (= -R on) (and (= -R off) (= -h on)))))
+      (a!10 (and (= -M off) (or (= -n on) (and (= -n off) (= --debug on)))))
+      (a!13 (and (= -i off) (or (= -d on) (and (= -d off) (= -M on)))))
+      (a!16 (and (= -d off) (or (= -R on) (and (= -R off) (= -z off))))))
+(let ((a!2 (or (= -s on) (and (= -s off) (or (= -g on) a!1))))
+      (a!4 (or (and (= -h on) (or (= -d on) a!3))
+               (and (= -h off)
+                    (= -g on)
+                    (or (= --parallel off) (= --parallel |2|)))))
+      (a!6 (or (= -d on) (and (= -d off) (or (= -i on) a!5))))
+      (a!11 (or (= -b on) (and (= -b off) (or (= -M on) a!10))))
+      (a!14 (or (= -V on) (and (= -V off) (or (= -i on) a!13))))
+      (a!17 (or (= -V on) (and (= -V off) (or (= -d on) a!16)))))
+(let ((a!7 (and (= -n off) (or (and (= -M off) a!4) (and (= -M on) a!6))))
+      (a!12 (and (= -d off) (or (= -R on) (and (= -R off) a!11))))
+      (a!15 (and (= -n on) (or (= -u on) (and (= -u off) a!14))))
+      (a!18 (and (= -M on) (or (= -i on) (and (= -i off) a!17)))))
+(let ((a!8 (and (= --debug off) (or (and (= -n on) a!2) a!7)))
+      (a!19 (and (= -n off) (or a!18 (and (= -M off) (= -C on) (= --debug on))))))
+(let ((a!9 (or (= -C on)
+               (and (= -C off)
+                    (= --version off)
+                    (= --help off)
+                    (or (= --debug on) a!8))))
+      (a!20 (or (and (= -h on) (or (= -d on) a!12))
+                (and (= -h off) (or a!15 a!19)))))
+(let ((a!21 (and (= -c off)
+                 (= --version off)
+                 (= --help off)
+                 (or (= -g on) (and (= -g off) a!20)))))
+  (or (and (= -c on) a!9) a!21)))))))
+-
+11 12 H 21 M 20 M 13 H 7 15 H 3 H 1 H 0 HM 5 1 H 4 H 8 H 6 HM 6 1 H 10 H 0 HM 3 17 HMHM 21 M 20 M 3 H 6 1 H 8 H 0 H 5 H 7 H 13 HM 7 18 H 10 H 4 H 1 H 5 HM 5 4 H 10 H 1 H 8 H 19 MH 12 13 HMM
+======
+# M/H: 3851 / 1274
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4423, 
+-
+(and (= -c on) (= -C on))
+-
+11 12 HMM
+======
+# M/H: 3152 / 1973
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4492, sort.c:4493, sort.c:4494, 
+-
+(and (= -m on) (or (= -c off) (and (= -c on) (= -C off))))
+-
+14 11 12 MHHM
+======
+# M/H: 3234 / 1891
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4512, sort.c:4513, sort.c:4514, 
+-
+(and (= -s on) (or (= -C off) (and (= -C on) (= -c off))))
+-
+15 12 11 MHHM
+======
+# M/H: 4674 / 451
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2402, 
+-
+(let ((a!1 (and (= -M off)
+                (or (= --parallel off)
+                    (= --parallel |2|)
+                    (and (= --parallel |1|) (= -i on))))))
+(let ((a!2 (or (= -n on) (and (= -n off) (or (= -M on) a!1)))))
+  (and (= -g on)
+       (= --version off)
+       (= --help off)
+       (or (= -c off) (and (= -c on) (= -C off) a!2)))))
+-
+3 21 M 20 M 11 12 M 7 H 5 H 17 H 4 HMHHM
+======
+# M/H: 4907 / 218
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2406, 
+-
+(let ((a!1 (and (= -n off) (or (= -h on) (and (= -h off) (= -M on)))))
+      (a!3 (and (= -M off) (or (= -h on) (and (= -h off) (= -g on))))))
+(let ((a!2 (or (= -g on) (and (= -g off) (or (= -n on) a!1))))
+      (a!4 (or (= -n on) (and (= -n off) (or (= -M on) a!3)))))
+  (and (= -i on)
+       (= -d off)
+       (= --version off)
+       (= --help off)
+       (or (and (= -C on) (= -c off) a!2) (and (= -C off) a!4)))))
+-
+4 1 M 21 M 20 M 12 11 M 3 H 7 H 6 H 5 HM 7 H 5 H 6 H 3 HMM
+======
+# M/H: 4868 / 257
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2379, 
+-
+(let ((a!1 (and (= -i off) (or (= -c off) (and (= -c on) (= -C off))))))
+(let ((a!2 (and (= -d off)
+                (or (and (= -i on)
+                         (= -n off)
+                         (= -m on)
+                         (= -u off)
+                         (= -M off)
+                         (= -h off)
+                         (= -g off))
+                    a!1))))
+  (and (= --version off)
+       (= --help off)
+       (or (and (= -d on)
+                (= -C off)
+                (= --debug on)
+                (= -h off)
+                (= -M off)
+                (= -n off)
+                (= -g off)
+                (= -c off))
+           a!2))))
+-
+21 M 20 M 1 12 M 13 6 M 5 M 7 M 3 M 11 MHM 4 7 M 14 18 M 5 M 6 M 3 MHM 11 12 MHH
+======
+# M/H: 4972 / 153
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2380, 
+-
+(let ((a!1 (and (= -f off) (or (= -C off) (and (= -C on) (= -c off)))))
+      (a!2 (and (= -f on)
+                (= -C off)
+                (= -c off)
+                (= -n off)
+                (= -h off)
+                (or (= -r off)
+                    (and (= -r on) (= -g off) (= -M off) (= --debug on))))))
+(let ((a!3 (and (= -d off)
+                (or (and (= -i off) (or a!1 a!2))
+                    (and (= -i on)
+                         (= -n off)
+                         (= -m on)
+                         (= -u off)
+                         (= -M off)
+                         (= -h off)
+                         (= -g off))))))
+  (and (= --version off)
+       (= --help off)
+       (or a!3
+           (and (= -d on)
+                (= -C off)
+                (= --debug on)
+                (= -h off)
+                (= -M off)
+                (= -n off)
+                (= -g off)
+                (= -c off))))))
+-
+21 M 20 M 1 12 M 13 6 M 5 M 7 M 3 M 11 MHM 4 7 M 14 18 M 5 M 6 M 3 MHM 2 12 M 11 M 7 M 6 M 9 3 M 5 M 13 HMH 12 11 MHH
+======
+# M/H: 5025 / 100
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2298, sort.c:2300, 
+-
+(let ((a!1 (and (= -C off) (or (= --debug on) (and (= --debug off) (= -b off)))))
+      (a!4 (and (= -f off) (or (= -C off) (and (= -C on) (= -c off)))))
+      (a!5 (and (= -f on)
+                (= -C off)
+                (= -n off)
+                (= -z off)
+                (= -R off)
+                (or (= -M off) (and (= -M on) (= -s on)))))
+      (a!6 (and (= -b on)
+                (= -g off)
+                (= -C off)
+                (= -h off)
+                (= --field-separator |;|)
+                (= -m off)
+                (or (= -u off) (and (= -u on) (= --debug off))))))
+(let ((a!2 (and (= -c off) (or (and (= -C on) (= --field-separator off)) a!1)))
+      (a!7 (and (= -i off) (or (and (= -b off) (or a!4 a!5)) a!6))))
+(let ((a!3 (and (= -d on)
+                (= -n off)
+                (= -M off)
+                (= -h off)
+                (= -g off)
+                (or (and (= -c on) (= -C off) (= -f on)) a!2)))
+      (a!8 (and (= -d off)
+                (or a!7
+                    (and (= -i on)
+                         (= -n off)
+                         (= -m on)
+                         (= -M off)
+                         (= -h off)
+                         (= -g off))))))
+  (and (= --version off) (= --help off) (or a!3 a!8)))))
+-
+21 M 20 M 1 7 M 5 M 6 M 3 M 11 12 M 2 HM 12 16 HM 13 H 0 MH 4 7 M 14 5 M 6 M 3 MHM 0 3 M 12 M 6 M 16 M 14 M 18 13 MHH 2 12 M 7 M 19 M 8 M 5 15 HMH 12 11 MHH
+======
+# M/H: 5041 / 84
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2381, sort.c:2382, 
+-
+(let ((a!1 (and (= -n off) (or (= -M off) (and (= -M on) (= --parallel |1|)))))
+      (a!3 (and (= -i off) (or (= -C off) (and (= -C on) (= -c off)))))
+      (a!5 (and (= -f on)
+                (= -m on)
+                (= -M off)
+                (= -c off)
+                (= -n off)
+                (or (= -i on) (and (= -i off) (= -R off) (= --debug on))))))
+(let ((a!2 (and (= -b on)
+                (= -C off)
+                (= --debug on)
+                (= -h off)
+                (= -g off)
+                (= -c off)
+                (or (and (= -n on) (= -V off) (= -d off)) a!1)))
+      (a!4 (and (= -f off)
+                (or a!3
+                    (and (= -i on) (= -n off) (= -c off) (= -R off) (= -M off))))))
+(let ((a!6 (and (= -b off)
+                (or (and (= -d off) (or a!4 a!5))
+                    (and (= -d on)
+                         (= -i on)
+                         (= --debug on)
+                         (= -c off)
+                         (= -h off)
+                         (= -M off)
+                         (= -C off)
+                         (= -g off)
+                         (= -n off))))))
+  (and (= --version off) (= --help off) (or a!2 a!6)))))
+-
+21 M 20 M 0 12 M 13 6 M 3 M 11 M 7 10 M 1 MH 5 17 MHMHM 1 4 13 11 M 6 M 5 M 12 M 3 M 7 MHMM 2 14 5 M 11 M 7 M 4 H 8 M 13 HMM 4 7 M 11 M 8 M 5 MH 12 11 MHH
+======
+# M/H: 5068 / 57
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1000, sort.c:1014, sort.c:1015, sort.c:1017, sort.c:1019, sort.c:1232, sort.c:1234, sort.c:1235, sort.c:1237, sort.c:1238, sort.c:1577, sort.c:1585, sort.c:1586, sort.c:1587, sort.c:1588, sort.c:1594, sort.c:1595, sort.c:1596, sort.c:1597, sort.c:1598, sort.c:1603, sort.c:1605, sort.c:1606, sort.c:1760, sort.c:1762, sort.c:1763, sort.c:1764, sort.c:1765, sort.c:1767, sort.c:1770, sort.c:1779, sort.c:1780, sort.c:1781, sort.c:1782, sort.c:1783, sort.c:1785, sort.c:1792, sort.c:1793, sort.c:1794, sort.c:1796, sort.c:1798, sort.c:1800, sort.c:1802, sort.c:1804, sort.c:1805, sort.c:1807, sort.c:1813, sort.c:1818, sort.c:1819, sort.c:1820, sort.c:1821, sort.c:1822, sort.c:1823, sort.c:1824, sort.c:1826, sort.c:1845, sort.c:1848, sort.c:1849, sort.c:1850, sort.c:1853, sort.c:1854, sort.c:1855, sort.c:1857, sort.c:1858, sort.c:1859, sort.c:4697, sort.c:4699, sort.c:4702, sort.c:4704, sort.c:4705, sort.c:4708, sort.c:4718, sort.c:4719, sort.c:4721, sort.c:947, sort.c:951, sort.c:953, sort.c:960, sort.c:961, sort.c:963, sort.c:980, sort.c:998, 
+-
+(let ((a!1 (and (= -M on)
+                (= -d off)
+                (= -i off)
+                (= -V off)
+                (or (= --parallel |1|)
+                    (and (= --parallel |2|) (= -R off) (= --debug off)))))
+      (a!2 (and (= -C off) (or (= -c off) (and (= -c on) (= --debug off))))))
+(let ((a!3 (and (= -M off) (or (and (= -C on) (= -c off) (= --debug off)) a!2))))
+(let ((a!4 (and (= -h off)
+                (or (and (= -n off) (or a!1 a!3))
+                    (and (= -n on)
+                         (= -i off)
+                         (= -V off)
+                         (= -u off)
+                         (= -M off)
+                         (= -d off))))))
+(let ((a!5 (and (= -g off)
+                (or (and (= -h on)
+                         (= -d off)
+                         (= --field-separator |;|)
+                         (= -R off)
+                         (= -b off)
+                         (= -n off)
+                         (= -V off)
+                         (= --debug off))
+                    a!4))))
+  (and (= --version off)
+       (= --help off)
+       (or (and (= -g on)
+                (= --parallel |1|)
+                (= -n off)
+                (= -C off)
+                (= -M off)
+                (= -b off)
+                (= -d off)
+                (= -i off))
+           a!5))))))
+-
+21 M 20 M 3 17 M 7 M 12 M 5 M 0 M 1 M 4 MHM 6 1 M 16 M 8 M 0 M 7 M 10 M 13 MH 7 4 M 10 M 18 M 5 M 1 MH 5 1 M 4 M 10 M 17 MH 8 M 13 MH 12 11 M 13 MH 11 13 MHH
+======
+# M/H: 5091 / 34
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1768, 
+-
+(let ((a!1 (and (= -n on)
+                (= -i off)
+                (= -m on)
+                (= -M off)
+                (= -V off)
+                (or (= -C off) (and (= -C on) (= --debug off)))))
+      (a!2 (and (= -m on) (or (= -c off) (and (= -c on) (= -f on)))))
+      (a!3 (and (= -m off)
+                (= -z on)
+                (or (= -f on) (and (= -f off) (= -V off) (= -c on))))))
+(let ((a!4 (and (= -M off)
+                (or (and (= -C on) (= -c off) (= --debug off) (= -z on))
+                    (and (= -C off) (or a!2 a!3))))))
+(let ((a!5 (and (= -n off)
+                (or (and (= -M on)
+                         (= --debug off)
+                         (= -d off)
+                         (= -z on)
+                         (= -R off))
+                    a!4))))
+  (and (= -g off)
+       (= --version off)
+       (= --help off)
+       (or (and (= -h on)
+                (= -f off)
+                (= -d off)
+                (= -b off)
+                (= -s on)
+                (= -V off)
+                (= -i off)
+                (= -n off)
+                (= -R off))
+           (and (= -h off) (or a!1 a!5)))))))
+-
+3 M 21 M 20 M 6 2 M 1 M 0 M 15 10 M 4 M 7 M 8 MHM 7 4 M 14 5 M 10 M 12 13 MHHM 5 13 M 1 M 19 8 MHM 12 11 M 13 M 19 HM 14 11 2 HMH 19 2 H 10 M 11 HMM
+======
+# M/H: 5096 / 29
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1808, 
+-
+(let ((a!1 (and (= -C off) (or (= -c off) (and (= -c on) (= --debug off)))))
+      (a!3 (and (= -M on)
+                (= -V off)
+                (= -d off)
+                (= -R off)
+                (or (= --debug off) (and (= --debug on) (= -r off) (= -i off))))))
+(let ((a!2 (and (= -M off) (or (and (= -C on) (= -c off) (= --debug off)) a!1))))
+(let ((a!4 (and (= -n off)
+                (or (and (= -h on)
+                         (= -d off)
+                         (= -V off)
+                         (= -f off)
+                         (= -i off)
+                         (= -M off))
+                    (and (= -h off) (or a!2 a!3))))))
+  (and (= -z on)
+       (= -g off)
+       (= --help off)
+       (= --version off)
+       (or a!4
+           (and (= -n on)
+                (= --parallel off)
+                (= -m on)
+                (= -i off)
+                (= -h off)
+                (= -b off)))))))
+-
+19 3 M 20 M 21 M 7 17 14 4 M 6 M 0 MHMMM 6 1 M 10 M 2 M 4 M 5 MH 5 10 M 1 M 8 M 13 9 M 4 MHH 12 11 M 13 MH 11 13 MHHM
+======
+# M/H: 5071 / 54
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1830, sort.c:1832, sort.c:1834, sort.c:1838, sort.c:1841, 
+-
+(let ((a!1 (and (= -c on)
+                (= --debug off)
+                (or (= -b on) (and (= -b off) (= -f on)))))
+      (a!2 (and (= --parallel |1|) (or (= -i on) (and (= -i off) (= -b on)))))
+      (a!5 (and (= -M on)
+                (= -d off)
+                (= -i off)
+                (= -V off)
+                (or (= --parallel |1|)
+                    (and (= --parallel |2|) (= -R off) (= --debug off))))))
+(let ((a!3 (or a!1
+               (and (= -c off) (or (= --parallel off) (= --parallel |2|) a!2)))))
+(let ((a!4 (and (= -M off)
+                (or (and (= -C on) (= -c off) (= --debug off))
+                    (and (= -C off) a!3)))))
+(let ((a!6 (and (= -h off)
+                (or (and (= -n off) (or a!4 a!5))
+                    (and (= -n on)
+                         (= -i off)
+                         (= -V off)
+                         (= -u off)
+                         (= -M off)
+                         (= -d off))))))
+(let ((a!7 (and (= -g off)
+                (or a!6
+                    (and (= -h on)
+                         (= -d off)
+                         (= --field-separator |;|)
+                         (= -R off)
+                         (= -b off)
+                         (= -n off)
+                         (= -V off)
+                         (= --debug off))))))
+  (and (= --version off)
+       (= --help off)
+       (or (and (= -g on)
+                (= --parallel |1|)
+                (= -n off)
+                (= -C off)
+                (= -M off)
+                (= -b off)
+                (= -d off)
+                (= -i off))
+           a!7)))))))
+-
+21 M 20 M 3 17 M 7 M 12 M 5 M 0 M 1 M 4 MHM 6 1 M 16 M 8 M 0 M 7 M 10 M 13 MH 7 4 M 10 M 18 M 5 M 1 MH 5 1 M 4 M 10 M 17 MH 8 M 13 MH 12 11 M 13 MH 11 13 M 0 H 2 HM 17 H 4 H 0 HMH
+======
+# M/H: 5099 / 26
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2383, 
+-
+(let ((a!1 (and (= -M off)
+                (or (= --debug on) (and (= --debug off) (= -b off) (= -f off))))))
+(let ((a!2 (and (= -C off)
+                (or (and (= -M on) (= --parallel |1|) (= -u off)) a!1))))
+(let ((a!3 (and (= -n off)
+                (or (and (= -C on) (= -b off) (= -i off) (= -d off) (= -f off))
+                    a!2))))
+(let ((a!4 (and (= -c off)
+                (or (and (= -n on)
+                         (= -u off)
+                         (= --debug on)
+                         (= -i off)
+                         (= --field-separator |;|))
+                    a!3))))
+  (and (= -g off)
+       (= --version off)
+       (= --help off)
+       (= -h off)
+       (or a!4
+           (and (= -c on)
+                (= -r on)
+                (= -n off)
+                (= -b off)
+                (= --debug off)
+                (= -d off)
+                (= -f off)
+                (= -i off))))))))
+-
+3 M 21 M 20 M 6 M 11 9 7 M 0 M 13 M 1 M 2 M 4 MHM 7 18 M 13 4 M 16 MHM 12 0 M 4 M 1 M 2 MH 5 17 M 18 MHM 13 H 0 M 2 MH
+======
+# M/H: 5098 / 27
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2817, sort.c:2819, sort.c:2822, sort.c:2823, sort.c:2824, sort.c:2825, sort.c:2826, sort.c:2828, sort.c:2830, sort.c:2832, sort.c:2834, sort.c:2835, sort.c:2839, sort.c:2861, sort.c:2893, sort.c:2894, sort.c:2895, sort.c:2896, sort.c:4723, sort.c:4727, sort.c:4736, 
+-
+(let ((a!1 (and (= -V on) (or (= -C on) (and (= -C off) (= -c on)))))
+      (a!3 (and (= --parallel |1|)
+                (= -V off)
+                (or (= -d on) (and (= -d off) (= -c on)))))
+      (a!4 (and (= --field-separator off)
+                (or (= -f on) (and (= -f off) (= -d off) (= -c on)))))
+      (a!5 (and (= -b off) (= -R off) (or (= -i on) (and (= -i off) (= -s on))))))
+(let ((a!2 (and (= --parallel |2|) (or a!1 (and (= -V off) (= -c off)))))
+      (a!6 (or (and (= -b on) (or (= --field-separator |;|) a!4)) a!5)))
+(let ((a!7 (and (= -M off)
+                (or (and (= -m on) (or a!2 a!3)) (and (= -m off) a!6)))))
+(let ((a!8 (and (= -h off)
+                (or a!7
+                    (and (= -M on) (= -d off) (= -R off) (= -i off) (= -V off))))))
+(let ((a!9 (and (= -n off)
+                (or (and (= -h on)
+                         (= -R off)
+                         (= -b off)
+                         (= -M off)
+                         (= -d off)
+                         (= -V off)
+                         (= -s on))
+                    a!8))))
+(let ((a!10 (and (= -g off)
+                 (or (and (= -n on)
+                          (= -i off)
+                          (= -h off)
+                          (= -V off)
+                          (= -d off)
+                          (= -f off))
+                     a!9))))
+  (and (= --debug off)
+       (= --version off)
+       (= --help off)
+       (or a!10
+           (and (= -g on)
+                (= --parallel |1|)
+                (= -n off)
+                (= --field-separator off)
+                (= -C off)
+                (= -d off))))))))))
+-
+13 M 21 M 20 M 3 17 M 7 M 16 12 M 1 MHMM 7 4 M 6 M 10 M 1 M 2 MH 6 8 M 0 M 5 M 1 M 10 M 15 HM 5 1 M 8 M 4 M 10 MH 14 17 M 10 M 1 H 11 HM 10 12 H 11 HM 11 MH 0 16 2 H 1 M 11 HMH 8 M 4 H 15 HM
+======
+# M/H: 5111 / 14
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2865, sort.c:2868, sort.c:2872, sort.c:2873, sort.c:2875, sort.c:2876, sort.c:2881, sort.c:2882, sort.c:2884, sort.c:2885, sort.c:2886, sort.c:2888, sort.c:2889, 
+-
+(let ((a!1 (and (= -h on)
+                (= -V off)
+                (or (= -c on) (and (= -c off) (= -u off) (= -i off)))))
+      (a!2 (and (= -m on) (or (= -s on) (and (= -s off) (= --parallel |1|)))))
+      (a!3 (and (= -m off)
+                (or (= --parallel |2|) (and (= --parallel off) (= -f on))))))
+(let ((a!4 (and (= -h off)
+                (or (and (= -V off) (or a!2 a!3))
+                    (and (= -V on) (= -f on) (= -M off))))))
+(let ((a!5 (and (= -n off)
+                (or (and (= -d on) (= -c off) (= -M off) (= -m off))
+                    (and (= -d off) (or a!1 a!4))))))
+  (and (= -z on)
+       (= --debug off)
+       (= -g off)
+       (= --help off)
+       (= --version off)
+       (or (and (= -n on) (= -h off) (= -d off) (= -m on) (= -b off) (= -i off))
+           a!5)))))
+-
+19 13 M 3 M 20 M 21 M 7 6 M 1 M 14 0 M 4 MHM 1 11 M 5 M 14 MH 6 10 M 11 H 18 M 4 MH 10 2 5 MHM 14 15 H 17 MHM 17 2 HMMHM
+======
+# M/H: 5046 / 79
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4074, sort.c:4669, 
+-
+(let ((a!1 (or (= -c off) (and (= -c on) (= -C off)))))
+(let ((a!2 (and (= -h off)
+                (or (and (= -M off) a!1)
+                    (and (= -M on)
+                         (= -d off)
+                         (= -i off)
+                         (= -V off)
+                         (= -R off)
+                         a!1)))))
+(let ((a!3 (and (= -n off)
+                (or a!2
+                    (and (= -h on)
+                         (= -R off)
+                         (= -V off)
+                         (= -b off)
+                         (= -d off)
+                         (= -M off)
+                         (= -i off)
+                         (= -m off))))))
+(let ((a!4 (and (= -g off)
+                (or a!3
+                    (and (= -n on)
+                         (= -i off)
+                         (= -h off)
+                         (= -V off)
+                         (= -d off)
+                         (= -M off)
+                         (= -f off)
+                         (= -R off))))))
+  (and (= --version off)
+       (= --help off)
+       (or (and (= -g on)
+                (= --parallel |1|)
+                (= -n off)
+                (= -C off)
+                (= -M off)
+                (= -b off)
+                (= -d off)
+                (= -i off))
+           a!4))))))
+-
+21 M 20 M 3 17 M 7 M 12 M 5 M 0 M 1 M 4 MHM 7 4 M 6 M 10 M 1 M 5 M 2 M 8 MH 6 8 M 10 M 0 M 1 M 5 M 4 M 14 MH 5 1 M 4 M 10 M 8 M 11 12 MHH 11 12 MHH
+======
+# M/H: 5088 / 37
+# Last rebuild:   iter -1  num_configs -1
+sort.c:987, sort.c:989, sort.c:990, sort.c:992, 
+-
+(let ((a!1 (and (= -h on)
+                (= -R off)
+                (= -V off)
+                (= -b off)
+                (or (and (= -s off) (= --parallel |1|) (= -d off))
+                    (and (= -s on) (= -d off) (= --debug off)))))
+      (a!2 (and (= --debug on)
+                (= -C off)
+                (= -m off)
+                (= -c off)
+                (or (= -M off) (and (= -M on) (= -i off) (= -R off)))))
+      (a!3 (and (= -V on) (or (= -C on) (and (= -C off) (= -c on)))))
+      (a!5 (and (= --parallel |1|)
+                (= -V off)
+                (or (= -d on) (and (= -d off) (= -c on)))))
+      (a!6 (and (= -m off) (or (= -C off) (and (= -C on) (= -c off))))))
+(let ((a!4 (and (= --parallel |2|) (or a!3 (and (= -V off) (= -c off))))))
+(let ((a!7 (and (= -M off) (or (and (= -m on) (or a!4 a!5)) a!6))))
+(let ((a!8 (and (= --debug off)
+                (or (and (= -M on) (= -d off) (= -R off) (= -i off) (= -V off))
+                    a!7))))
+(let ((a!9 (and (= -n off) (or a!1 (and (= -h off) (or a!2 a!8))))))
+(let ((a!10 (and (= -g off)
+                 (or a!9
+                     (and (= -n on)
+                          (= -i off)
+                          (= -r on)
+                          (= -h off)
+                          (= -M off)
+                          (= -u off)
+                          (= -d off))))))
+  (and (= --version off)
+       (= --help off)
+       (or a!10
+           (and (= -g on)
+                (= --parallel |1|)
+                (= -n off)
+                (= -C off)
+                (= -M off)
+                (= -b off)
+                (= -d off)
+                (= -i off))))))))))
+-
+21 M 20 M 3 17 M 7 M 12 M 5 M 0 M 1 M 4 MHM 7 4 M 9 6 M 5 M 18 M 1 MHM 6 8 M 10 M 0 M 15 1 M 13 MH 17 M 1 MHM 13 12 M 14 M 11 M 5 4 M 8 MHH 5 1 M 8 M 4 M 10 MH 14 17 M 10 M 1 H 11 HM 10 12 H 11 HM 11 MH 12 11 MHH
+======
+# M/H: 5086 / 39
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4671, 
+-
+(let ((a!1 (and (= --parallel off)
+                (or (= -C off) (and (= -C on) (= -b off) (= -r on)))))
+      (a!2 (and (= -M off) (or (= -c off) (and (= -c on) (= -C off))))))
+(let ((a!3 (or (and (= -M on) (= -i off) (= -d off) (or (= --parallel |1|) a!1))
+               a!2)))
+(let ((a!4 (and (= -h off)
+                (or (and (= -n on)
+                         (= --parallel |2|)
+                         (= -d off)
+                         (= -V off)
+                         (= -z off)
+                         (= -f off))
+                    (and (= -n off) a!3)))))
+  (and (= -g off)
+       (= --debug on)
+       (= --version off)
+       (= --help off)
+       (or a!4
+           (and (= -h on)
+                (= -R off)
+                (= -b off)
+                (= -d off)
+                (= -z on)
+                (= -M off)
+                (= -f on)))))))
+-
+3 M 13 21 M 20 M 6 8 M 0 M 1 M 19 5 M 2 HMM 7 17 MM 1 M 10 M 19 M 2 MH 5 4 M 1 M 17 12 0 M 9 HMHHM 11 12 MHHM
+======
+# M/H: 5103 / 22
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4674, sort.c:4675, 
+-
+(let ((a!1 (and (= -m on)
+                (= -b on)
+                (= -f off)
+                (or (= -d off) (and (= -d on) (= -V on)))))
+      (a!2 (and (= --parallel off)
+                (= -r off)
+                (or (= -f off) (and (= -f on) (= -R on)))))
+      (a!4 (and (= -d off) (or (= -b on) (and (= -b off) (= -i on)))))
+      (a!7 (and (= -h on)
+                (= -R off)
+                (= -V off)
+                (= -i off)
+                (or (= --parallel off)
+                    (and (= --parallel |2|) (= -c on) (= -b off))))))
+(let ((a!3 (and (= -d on) (or a!2 (and (= --parallel |1|) (= -b off))))))
+(let ((a!5 (and (= -M off) (or a!1 (and (= -m off) (or a!3 a!4))))))
+(let ((a!6 (and (= -h off)
+                (or a!5
+                    (and (= -M on)
+                         (= --field-separator |;|)
+                         (= -V off)
+                         (= --parallel off)
+                         (= -b off)
+                         (= -r on))))))
+  (and (= -g off)
+       (= --debug on)
+       (= --version off)
+       (= --help off)
+       (or (and (= -n off) (or a!6 a!7))
+           (and (= -n on)
+                (= -r on)
+                (= -c off)
+                (= -h off)
+                (= -i off)
+                (= -b on)
+                (= -C on))))))))
+-
+3 M 13 21 M 20 M 7 9 11 M 6 M 4 M 0 12 HMMM 6 8 M 10 M 4 M 17 HM 11 0 MHM 5 16 M 10 M 17 0 M 9 HMMM 14 0 2 M 1 10 HMHM 1 17 9 M 2 8 HMH 0 MHM 0 H 4 HMM
+======
+# M/H: 5095 / 30
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1008, sort.c:1010, sort.c:1012, sort.c:3756, sort.c:3758, sort.c:3760, sort.c:3763, sort.c:3766, sort.c:3773, sort.c:3775, sort.c:3783, sort.c:4740, sort.c:4743, sort.c:4745, sort.c:4777, sort.c:4780, sort.c:965, sort.c:967, sort.c:975, 
+-
+(let ((a!1 (and (= -M off)
+                (or (= -n off)
+                    (and (= -n on) (= --parallel |2|) (= -f off) (= -V off))))))
+(let ((a!2 (and (= -h off)
+                (or a!1
+                    (and (= -M on) (= -i off) (= --parallel |1|) (= -u off))))))
+  (and (= -C off)
+       (= -c off)
+       (= --version off)
+       (= -g off)
+       (= --help off)
+       (or a!2
+           (and (= -h on) (= -R off) (= -s off) (= --parallel |1|) (= -b off))))))
+-
+12 M 11 M 21 M 3 M 20 M 6 8 M 15 M 17 M 0 MHM 5 4 M 17 M 18 MHM 7 17 MM 2 M 10 MHH
+======
+# M/H: 5103 / 22
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2384, 
+-
+(let ((a!1 (and (= -n off)
+                (or (= --debug on) (and (= --debug off) (= -b off) (= -f off))))))
+(let ((a!2 (and (= -M off)
+                (or a!1
+                    (and (= -n on) (= --parallel |2|) (= -f off) (= -V off))))))
+(let ((a!3 (and (= -c off)
+                (or (and (= -M on) (= -i off) (= --parallel |1|) (= -u off))
+                    a!2))))
+  (and (= -C off)
+       (= -h off)
+       (= --version off)
+       (= --help off)
+       (= -g off)
+       (or (and (= -c on) (= -M off) (= -n off) (= -m on) (= -b off)) a!3)))))
+-
+12 M 6 M 21 M 20 M 3 M 11 5 M 7 M 14 0 MHM 5 4 M 17 M 18 MHM 7 17 MM 2 M 10 MH 13 H 0 M 2 MH
+======
+# M/H: 5105 / 20
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2385, 
+-
+(let ((a!1 (and (= -n off)
+                (or (= --debug on)
+                    (and (= --debug off) (= --parallel |1|) (= -b off))))))
+(let ((a!2 (and (= -M off)
+                (or a!1
+                    (and (= -n on) (= --parallel |2|) (= -f off) (= -V off))))))
+(let ((a!3 (and (= -c off)
+                (or (and (= -M on) (= -i off) (= --parallel |1|) (= -u off))
+                    a!2))))
+  (and (= -C off)
+       (= -h off)
+       (= --version off)
+       (= --help off)
+       (= -g off)
+       (or (and (= -c on) (= -M off) (= -n off) (= -m on) (= -b off)) a!3)))))
+-
+12 M 6 M 21 M 20 M 3 M 11 5 M 7 M 14 0 MHM 5 4 M 17 M 18 MHM 7 17 MM 2 M 10 MH 13 H 17 M 0 MHM
+======
+# M/H: 5086 / 39
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2778, sort.c:2780, sort.c:2781, sort.c:2782, sort.c:2784, sort.c:2809, 
+-
+(let ((a!1 (and (= -M on)
+                (= -i off)
+                (= -R off)
+                (= -d off)
+                (or (= -r off) (and (= -r on) (= -u on) (= -b off)))))
+      (a!2 (and (= -n off)
+                (or (= -c off) (and (= -c on) (= --debug off) (= -z off))))))
+(let ((a!3 (and (= -M off)
+                (or a!2 (and (= -n on) (= -i off) (= -V off) (= -d off))))))
+(let ((a!4 (and (= -g off)
+                (or (and (= -h on)
+                         (= -V off)
+                         (= -u on)
+                         (= -R off)
+                         (= -n off)
+                         (= -b off)
+                         (= -f on))
+                    (and (= -h off) (or a!1 a!3))))))
+  (and (= -C off)
+       (= --version off)
+       (= --help off)
+       (or a!4
+           (and (= -g on)
+                (= -n off)
+                (= --parallel |1|)
+                (= -M off)
+                (= -b off)
+                (= -d off)
+                (= -i off)))))))
+-
+12 M 21 M 20 M 3 7 M 17 M 5 M 0 M 1 M 4 MHM 6 10 M 18 8 M 7 M 0 M 2 HMM 5 4 M 8 M 1 M 9 18 0 MHMH 7 4 M 10 M 1 MH 11 13 M 19 MHH
+======
+# M/H: 5103 / 22
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2804, sort.c:2805, sort.c:2807, 
+-
+(let ((a!1 (and (= -h off) (or (= -z off) (and (= -z on) (= -c off)))))
+      (a!2 (and (= -h on)
+                (= -R off)
+                (or (= -c off) (and (= -c on) (= -b off) (= -f on) (= -d off))))))
+(let ((a!3 (and (= -M off)
+                (or (and (= -g off) (or a!1 a!2))
+                    (and (= -g on) (= -c on) (= --parallel |1|))))))
+(let ((a!4 (and (= -n off)
+                (or a!3
+                    (and (= -M on)
+                         (= -d off)
+                         (= -f on)
+                         (= -i off)
+                         (= -V off)
+                         (= -b off))))))
+  (and (= -C off)
+       (= --debug off)
+       (= --version off)
+       (= --help off)
+       (or (and (= -n on)
+                (= -i off)
+                (= -m off)
+                (= -g off)
+                (= --field-separator |;|)
+                (= -f off))
+           a!4)))))
+-
+12 M 13 M 21 M 20 M 7 4 M 14 M 3 M 16 M 2 MH 5 1 M 2 4 M 10 M 0 MHM 3 11 17 MHMM 6 8 M 11 0 M 2 1 MHMH 19 11 MHH
+======
+# M/H: 5105 / 20
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2905, sort.c:2907, sort.c:2911, sort.c:2915, sort.c:2916, sort.c:2920, sort.c:2932, sort.c:2935, sort.c:2938, sort.c:2940, sort.c:2941, sort.c:2943, sort.c:2945, sort.c:2952, sort.c:2953, sort.c:2956, sort.c:2958, sort.c:2959, sort.c:2960, sort.c:2962, sort.c:2963, sort.c:2964, sort.c:2965, sort.c:2989, sort.c:2990, sort.c:2991, sort.c:2996, sort.c:2998, sort.c:3002, sort.c:3040, sort.c:3044, sort.c:3053, sort.c:3056, sort.c:3057, sort.c:3058, sort.c:3063, sort.c:3064, sort.c:3072, sort.c:3074, sort.c:3106, sort.c:3112, sort.c:3113, sort.c:3114, sort.c:3115, sort.c:3116, sort.c:3117, sort.c:3118, sort.c:3705, sort.c:3708, sort.c:3710, sort.c:3712, sort.c:3716, sort.c:3720, sort.c:3721, sort.c:3724, sort.c:3726, sort.c:3727, sort.c:3728, sort.c:3731, sort.c:3744, sort.c:3791, sort.c:3794, sort.c:3850, sort.c:3860, sort.c:3862, sort.c:3864, sort.c:3865, sort.c:3867, sort.c:3868, sort.c:3902, sort.c:4747, sort.c:4749, sort.c:4750, sort.c:4752, sort.c:889, sort.c:893, sort.c:894, sort.c:895, 
+-
+(and (= -C off)
+     (= -c off)
+     (= --version off)
+     (= -h off)
+     (= -m on)
+     (= -g off)
+     (= --help off)
+     (= -M off)
+     (or (= -n off) (and (= -n on) (= -i off) (= -f off))))
+-
+12 M 11 M 21 M 6 M 14 3 M 20 M 5 M 7 4 M 2 MHHM
+======
+# M/H: 5114 / 11
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3037, 
+-
+(and (= -C off)
+     (= -c off)
+     (= -u off)
+     (= -g off)
+     (= --version off)
+     (= -h off)
+     (= --help off)
+     (= -M off)
+     (or (and (= -n on) (= -i off) (= -b off) (= -f off))
+         (and (= -n off) (= -m on))))
+-
+12 M 11 M 18 M 3 M 21 M 6 M 20 M 5 M 7 4 M 0 M 2 MH 14 HM
+======
+# M/H: 5115 / 10
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3041, sort.c:3083, sort.c:3084, sort.c:3085, sort.c:3086, sort.c:3089, sort.c:3099, sort.c:3100, sort.c:3102, 
+-
+(and (= -C off)
+     (= -c off)
+     (= -z off)
+     (= --version off)
+     (= -h off)
+     (= -g off)
+     (= -M off)
+     (= -m on)
+     (= --help off)
+     (or (= -n off) (and (= -n on) (= -d off) (= -f off))))
+-
+12 M 11 M 19 M 21 M 6 M 3 M 5 M 14 20 M 7 1 M 2 MHHM
+======
+# M/H: 5104 / 21
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2530, sort.c:2532, sort.c:2536, sort.c:2537, sort.c:2538, sort.c:2539, sort.c:2545, sort.c:2546, sort.c:2549, sort.c:2550, sort.c:2553, sort.c:2554, sort.c:2556, sort.c:2695, sort.c:2745, sort.c:2746, 
+-
+(let ((a!1 (and (= -f off) (= -u on) (or (= -b on) (and (= -b off) (= -V on)))))
+      (a!5 (and (= -n on)
+                (= -r on)
+                (= -u off)
+                (or (= --debug on) (and (= --debug off) (= -i off) (= -d off))))))
+(let ((a!2 (or (= -C on) (and (= -C off) (or (= -f on) a!1)))))
+(let ((a!3 (and (= --debug off)
+                (or (and (= -c on) (= -C off) (= -b on)) (and (= -c off) a!2)))))
+(let ((a!4 (and (= -n off)
+                (or (and (= --debug on) (= -c off) (= -d on) (= -C off)) a!3))))
+(let ((a!6 (and (= -M off)
+                (or (and (= -h off) (or a!4 a!5))
+                    (and (= -h on)
+                         (= -R off)
+                         (= --field-separator |;|)
+                         (= -f on)
+                         (= -d off))))))
+(let ((a!7 (and (= -g off)
+                (or a!6
+                    (and (= -M on)
+                         (= -i off)
+                         (= --debug off)
+                         (= -u on)
+                         (= -h off)
+                         (= -d off))))))
+  (and (= --version off)
+       (= -z off)
+       (= --help off)
+       (or a!7
+           (and (= -g on)
+                (= --parallel |1|)
+                (= -n off)
+                (= -C off)
+                (= -f on)
+                (= -d off))))))))))
+-
+21 M 19 M 20 M 3 17 M 7 M 12 M 2 1 MHMM 5 4 M 13 M 18 6 M 1 MHM 6 8 M 16 M 2 1 MHM 7 9 18 M 13 H 4 M 1 MHM 13 11 M 1 12 MHM 11 12 M 0 HM 12 H 2 H 18 0 H 10 HMM
+======
+# M/H: 5109 / 16
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2557, 
+-
+(let ((a!1 (and (= -f off) (= -u on) (or (= -b on) (and (= -b off) (= -V on))))))
+(let ((a!2 (or (= -C on) (and (= -C off) (or (= -f on) a!1)))))
+(let ((a!3 (and (= --debug off)
+                (or (and (= -c off) a!2) (and (= -c on) (= -C off) (= -b on))))))
+(let ((a!4 (and (= -M off)
+                (or a!3 (and (= --debug on) (= -c off) (= -d on) (= -C off))))))
+  (and (= -n off)
+       (= --version off)
+       (= -z off)
+       (= -h off)
+       (= -g off)
+       (= --help off)
+       (or a!4 (and (= -M on) (= -i off) (= -d off) (= -s on))))))))
+-
+7 M 21 M 19 M 6 M 3 M 20 M 5 4 M 1 M 15 HM 13 11 M 1 12 MHM 11 12 M 0 HM 12 H 2 H 18 0 H 10 HMM
+======
+# M/H: 5107 / 18
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2558, sort.c:2569, sort.c:2608, sort.c:2632, 
+-
+(let ((a!1 (and (= -c off) (or (= -u on) (and (= -u off) (= -b off)))))
+      (a!6 (and (= --debug on)
+                (= -c off)
+                (= -m off)
+                (= --parallel |2|)
+                (= -h off)
+                (or (= -d on) (and (= -d off) (= -V off))))))
+(let ((a!2 (and (= -V on) (or (and (= -c on) (= -b on)) a!1))))
+(let ((a!3 (and (= -h off) (or a!2 (and (= -V off) (= -i on) (= -r off))))))
+(let ((a!4 (and (= -n off)
+                (or a!3 (and (= -h on) (= -b off) (= -d off) (= -f on))))))
+(let ((a!5 (and (= --debug off)
+                (or a!4
+                    (and (= -n on)
+                         (= --field-separator |;|)
+                         (= -i off)
+                         (= -s off))))))
+(let ((a!7 (and (= -g off)
+                (or (and (= -M on)
+                         (= -i off)
+                         (= --debug off)
+                         (= -u on)
+                         (= -h off)
+                         (= -d off))
+                    (and (= -M off) (or a!5 a!6))))))
+  (and (= --version off)
+       (= -z off)
+       (= --help off)
+       (or (and (= -g on)
+                (= --parallel |1|)
+                (= -n off)
+                (= -C off)
+                (= -f on)
+                (= -d off))
+           a!7))))))))
+-
+21 M 19 M 20 M 3 17 M 7 M 12 M 2 1 MHMM 5 4 M 13 M 18 6 M 1 MHM 13 11 M 14 M 17 MM 6 M 1 H 10 MH 7 16 M 4 M 15 MH 6 0 M 1 M 2 HM 10 11 0 HM 18 H 0 MH 4 9 MHM
+======
+# M/H: 5112 / 13
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2570, sort.c:2578, sort.c:2579, sort.c:2580, sort.c:2583, sort.c:2587, sort.c:2588, sort.c:2589, sort.c:2592, sort.c:2594, sort.c:2595, sort.c:2596, sort.c:2599, sort.c:2633, 
+-
+(let ((a!1 (and (= -c off) (or (= -u on) (and (= -u off) (= -b off))))))
+(let ((a!2 (and (= -V on) (or (and (= -c on) (= -b on)) a!1))))
+(let ((a!3 (and (= --field-separator off) (or a!2 (and (= -V off) (= -d on))))))
+(let ((a!4 (and (= -h off)
+                (or a!3 (and (= --field-separator |;|) (= -f on) (= -b on))))))
+(let ((a!5 (and (= -g off)
+                (or (and (= -h on) (= -b off) (= -d off) (= -f on)) a!4))))
+(let ((a!6 (and (= --debug off)
+                (or a!5
+                    (and (= -g on)
+                         (= --field-separator off)
+                         (= --parallel |1|)
+                         (= -b off))))))
+(let ((a!7 (and (= -M off)
+                (or (and (= --debug on)
+                         (= -C off)
+                         (= --parallel |2|)
+                         (= -d on)
+                         (= -h off))
+                    a!6))))
+  (and (= -n off)
+       (= --version off)
+       (= -z off)
+       (= --help off)
+       (or a!7
+           (and (= -M on)
+                (= -s on)
+                (= -V off)
+                (= --parallel |2|)
+                (= -r on)
+                (= -b off)))))))))))
+-
+7 M 21 M 19 M 20 M 5 15 10 M 17 MM 9 0 MHMM 13 12 M 17 MM 1 6 MHM 3 16 17 M 0 MHMM 6 0 M 1 M 2 HM 16 10 11 0 HM 18 H 0 MH 1 HM 2 0 HMM
+======
+# M/H: 5117 / 8
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2590, sort.c:2597, 
+-
+(let ((a!1 (and (= -i off)
+                (or (= -s on) (and (= -s off) (= -d off) (= -b off))))))
+(let ((a!2 (and (= --debug off) (or (and (= -i on) (= -h off) (= -g off)) a!1))))
+(let ((a!3 (and (= -M off)
+                (or (and (= --debug on) (= -d on) (= -h off) (= -g off)) a!2))))
+  (and (= -f on)
+       (= -C off)
+       (= -n off)
+       (= -z off)
+       (= --version off)
+       (= --help off)
+       (or a!3 (and (= -M on) (= -i off) (= -R off) (= -s on)))))))
+-
+2 12 M 7 M 19 M 21 M 20 M 5 4 M 8 M 15 HM 13 1 6 M 3 MHM 4 6 M 3 MH 15 H 1 M 0 MHM
+======
+# M/H: 5109 / 16
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2610, 
+-
+(let ((a!1 (and (= -c off) (or (= -u on) (and (= -u off) (= -b off))))))
+(let ((a!2 (and (= -V on) (or (and (= -c on) (= -b on)) a!1))))
+(let ((a!3 (and (= -h off) (or a!2 (and (= -V off) (= -i on) (= -r off))))))
+(let ((a!4 (and (= -g off)
+                (or (and (= -h on) (= -b off) (= -d off) (= -f on)) a!3))))
+(let ((a!5 (and (= --debug off)
+                (or (and (= -g on)
+                         (= --field-separator off)
+                         (= --parallel |1|)
+                         (= -b off))
+                    a!4))))
+(let ((a!6 (and (= -M off)
+                (or (and (= --debug on)
+                         (= -C off)
+                         (= --parallel |2|)
+                         (= -d on)
+                         (= -h off))
+                    a!5))))
+  (and (= -n off)
+       (= --version off)
+       (= -z off)
+       (= --help off)
+       (or (and (= -M on)
+                (= -s on)
+                (= -V off)
+                (= --parallel |2|)
+                (= -r on)
+                (= -b off))
+           a!6))))))))
+-
+7 M 21 M 19 M 20 M 5 15 10 M 17 MM 9 0 MHMM 13 12 M 17 MM 1 6 MHM 3 16 17 M 0 MHMM 6 0 M 1 M 2 HM 10 11 0 HM 18 H 0 MH 4 9 MHM
+======
+# M/H: 5110 / 15
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2612, 
+-
+(let ((a!1 (and (= -c off) (or (= -u on) (and (= -u off) (= -b off))))))
+(let ((a!2 (and (= -V on) (or (and (= -c on) (= -b on)) a!1))))
+(let ((a!3 (and (= -h off) (or a!2 (and (= -V off) (= -i on) (= -r off))))))
+(let ((a!4 (and (= -M off)
+                (or (and (= -h on) (= -b off) (= -d off) (= -f on)) a!3))))
+(let ((a!5 (and (= --debug off)
+                (or (and (= -M on) (= -i off) (= -V off) (= -r on) (= -b off))
+                    a!4))))
+  (and (= -n off)
+       (= --version off)
+       (= -z off)
+       (= --help off)
+       (= -g off)
+       (or a!5 (and (= --debug on) (= -C off) (= -u on) (= -h off) (= -b off)))))))))
+-
+7 M 21 M 19 M 20 M 3 M 13 12 M 18 6 M 0 MHM 5 4 M 10 M 9 0 MHM 6 0 M 1 M 2 HM 10 11 0 HM 18 H 0 MH 4 9 MHM
+======
+# M/H: 5112 / 13
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2614, 
+-
+(let ((a!1 (and (= -c off) (or (= -u on) (and (= -u off) (= -b off))))))
+(let ((a!2 (and (= -V on) (or (and (= -c on) (= -b on)) a!1))))
+(let ((a!3 (and (= -M off) (or a!2 (and (= -V off) (= -i on) (= -r off))))))
+(let ((a!4 (and (= --debug off) (or (and (= -M on) (= -r on) (= -V off)) a!3))))
+  (and (= -n off)
+       (= --version off)
+       (= -z off)
+       (= -h off)
+       (= -g off)
+       (= --help off)
+       (or a!4 (and (= --debug on) (= -u on) (= -C off) (= -b off))))))))
+-
+7 M 21 M 19 M 6 M 3 M 20 M 13 18 12 M 0 MHM 5 9 10 MHM 10 11 0 HM 18 H 0 MH 4 9 MHM
+======
+# M/H: 5113 / 12
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2616, 
+-
+(let ((a!1 (and (= -c off) (or (= -u on) (and (= -u off) (= -b off))))))
+(let ((a!2 (and (= -V on) (or (and (= -c on) (= -b on)) a!1))))
+(let ((a!3 (and (= --debug off) (or a!2 (and (= -V off) (= -i on) (= -r off))))))
+  (and (= -n off)
+       (= --version off)
+       (= -z off)
+       (= -M off)
+       (= -h off)
+       (= --help off)
+       (= -g off)
+       (or (and (= --debug on) (= -u on) (= -b off) (= -d on)) a!3)))))
+-
+7 M 21 M 19 M 5 M 6 M 20 M 3 M 13 18 0 M 1 HMM 10 11 0 HM 18 H 0 MH 4 9 MHM
+======
+# M/H: 5120 / 5
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2618, sort.c:2619, 
+-
+(and (= --debug off)
+     (= -n off)
+     (= -V on)
+     (= -h off)
+     (= -z off)
+     (= --version off)
+     (= -M off)
+     (= -R off)
+     (= --help off)
+     (= -g off)
+     (or (= -i off) (and (= -i on) (= -f off))))
+-
+13 M 7 M 10 6 M 19 M 21 M 5 M 8 M 20 M 3 M 4 2 MHHM
+======
+# M/H: 5109 / 16
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2696, sort.c:2727, sort.c:2728, 
+-
+(let ((a!1 (and (= -f off) (= -u on) (or (= -b on) (and (= -b off) (= -V on))))))
+(let ((a!2 (or (= -C on) (and (= -C off) (or (= -f on) a!1)))))
+(let ((a!3 (and (= --debug off)
+                (or (and (= -c on) (= -C off) (= -V on)) (and (= -c off) a!2)))))
+(let ((a!4 (and (= -n off)
+                (or (and (= --debug on) (= -c off) (= -d on) (= -C off)) a!3))))
+(let ((a!5 (and (= -h off)
+                (or a!4 (and (= -n on) (= -r on) (= -u off) (= --debug on))))))
+  (and (= -g off)
+       (= -z off)
+       (= --version off)
+       (= --help off)
+       (= -M off)
+       (or (and (= -h on) (= -c off) (= -r off) (= --parallel |1|) (= -b off))
+           a!5)))))))
+-
+3 M 19 M 21 M 20 M 5 M 6 11 M 9 M 17 M 0 MHM 7 9 18 M 13 HMM 13 11 M 1 12 MHM 11 12 M 10 HM 12 H 2 H 18 0 H 10 HMM
+======
+# M/H: 5113 / 12
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2698, sort.c:2699, sort.c:2700, sort.c:2723, 
+-
+(let ((a!1 (and (= -h off)
+                (or (= --parallel off)
+                    (= --parallel |2|)
+                    (and (= --parallel |1|) (= -b off))))))
+(let ((a!2 (and (= -V off) (or a!1 (and (= -h on) (= -d off) (= -R off))))))
+(let ((a!3 (and (= --field-separator |;|)
+                (or a!2 (and (= -V on) (= -c off) (= -d on))))))
+(let ((a!4 (and (= -g off)
+                (or (and (= --field-separator off)
+                         (= -b on)
+                         (= --debug off)
+                         (= -h off))
+                    a!3))))
+(let ((a!5 (and (= -m off)
+                (or a!4 (and (= -g on) (= -f on) (= -n off) (= -i off))))))
+(let ((a!6 (and (= -M off)
+                (or a!5
+                    (and (= -m on)
+                         (= -n off)
+                         (= -R off)
+                         (= -f on)
+                         (= -h off)
+                         (= --debug off))))))
+  (and (= -C off)
+       (= -z off)
+       (= --version off)
+       (= --help off)
+       (or a!6
+           (and (= -M on) (= -s on) (= -R off) (= -f on) (= -i off) (= -n off))))))))))
+-
+12 M 19 M 21 M 20 M 5 15 8 M 2 4 M 7 MHMM 14 7 M 8 M 2 6 M 13 MHM 3 2 7 M 4 MHM 16 0 13 M 6 MHM 10 11 M 1 HM 6 1 M 8 MH 17 H 0 MHH
+======
+# M/H: 5102 / 23
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2735, sort.c:2743, 
+-
+(let ((a!1 (and (= -n on)
+                (= -r on)
+                (= -u off)
+                (or (= --debug on) (and (= --debug off) (= -i off) (= -d off)))))
+      (a!2 (and (= -u on) (or (= -f off) (and (= -f on) (= -C off)))))
+      (a!3 (and (= -u off)
+                (= -r off)
+                (or (= -i on) (and (= -i off) (= -C off) (= -m off))))))
+(let ((a!4 (and (= -n off)
+                (or (and (= --debug on) (= -c off) (= -d on) (= -C off))
+                    (and (= --debug off) (or a!2 a!3))))))
+(let ((a!5 (and (= -M off)
+                (or (and (= -h off) (or a!1 a!4))
+                    (and (= -h on)
+                         (= -R off)
+                         (= --field-separator |;|)
+                         (= -f on)
+                         (= -d off))))))
+(let ((a!6 (and (= -g off)
+                (or a!5
+                    (and (= -M on)
+                         (= -i off)
+                         (= --debug off)
+                         (= -u on)
+                         (= -h off)
+                         (= -d off))))))
+  (and (= --version off)
+       (= -z off)
+       (= --help off)
+       (or (and (= -g on)
+                (= --parallel |1|)
+                (= -n off)
+                (= -C off)
+                (= -f on)
+                (= -d off))
+           a!6))))))
+-
+21 M 19 M 20 M 3 17 M 7 M 12 M 2 1 MHMM 5 4 M 13 M 18 6 M 1 MHM 6 8 M 16 M 2 1 MHM 7 9 18 M 13 H 4 M 1 MHM 13 11 M 1 12 MHM 18 2 12 MHH 9 M 4 H 12 M 14 MH
+======
+# M/H: 5105 / 20
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2747, 
+-
+(let ((a!1 (and (= -f off) (= -u on) (or (= -b on) (and (= -b off) (= -V on))))))
+(let ((a!2 (or (= -C on) (and (= -C off) (or (= -f on) a!1)))))
+(let ((a!3 (and (= --debug off)
+                (or (and (= -c off) a!2) (and (= -c on) (= -C off) (= -b on))))))
+(let ((a!4 (and (= -h off)
+                (or (and (= --debug on) (= -c off) (= -d on) (= -C off)) a!3))))
+(let ((a!5 (and (= -M off)
+                (or a!4
+                    (and (= -h on)
+                         (= -R off)
+                         (= -b off)
+                         (= --debug off)
+                         (= -u on))))))
+(let ((a!6 (and (= -n off)
+                (or (and (= -M on)
+                         (= -i off)
+                         (= -d off)
+                         (= -f on)
+                         (= -h off)
+                         (= -V off))
+                    a!5))))
+(let ((a!7 (and (= -g off)
+                (or (and (= -n on)
+                         (= -b on)
+                         (= -c off)
+                         (= -m off)
+                         (= -i off)
+                         (= -M off)
+                         (= -f off))
+                    a!6))))
+  (and (= --version off)
+       (= -z off)
+       (= --help off)
+       (or (and (= -g on)
+                (= --parallel |1|)
+                (= -n off)
+                (= -C off)
+                (= -f on)
+                (= -d off))
+           a!7)))))))))
+-
+21 M 19 M 20 M 3 17 M 7 M 12 M 2 1 MHMM 7 0 11 M 14 M 4 M 5 M 2 MHM 5 4 M 1 M 2 6 M 10 MHM 6 8 M 0 M 13 M 18 HM 13 11 M 1 12 MHM 11 12 M 0 HM 12 H 2 H 18 0 H 10 HMM
+======
+# M/H: 5116 / 9
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3004, sort.c:3009, sort.c:3011, sort.c:3012, sort.c:3015, sort.c:3017, sort.c:3018, sort.c:3022, sort.c:3023, sort.c:3025, sort.c:3026, sort.c:3027, sort.c:3108, sort.c:3109, 
+-
+(and (= -u on)
+     (= -n off)
+     (= --version off)
+     (= -C off)
+     (= -h off)
+     (= -m on)
+     (= -M off)
+     (= --help off)
+     (= -g off)
+     (= -c off))
+-
+18 7 M 21 M 12 M 6 M 14 5 M 20 M 3 M 11 MHMM
+======
+# M/H: 5120 / 5
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3006, sort.c:3007, sort.c:3020, 
+-
+(and (= -r on)
+     (= -u on)
+     (= --debug off)
+     (= -g off)
+     (= -d off)
+     (= -h off)
+     (= -M off)
+     (= -c off)
+     (= --help off)
+     (= -n off)
+     (= -m on)
+     (= --version off))
+-
+9 18 13 M 3 M 1 M 6 M 5 M 11 M 20 M 7 M 14 21 MHMMM
+======
+# M/H: 5117 / 8
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3029, sort.c:3030, sort.c:3031, sort.c:3032, 
+-
+(let ((a!1 (or (= -b on)
+               (and (= -b off) (or (= --parallel off) (= --parallel |2|))))))
+  (and (= -u on)
+       (= -n off)
+       (= --version off)
+       (= -C off)
+       (= -h off)
+       (= -m on)
+       (= -M off)
+       (= --help off)
+       (= -g off)
+       (= -c off)
+       a!1))
+-
+18 7 M 21 M 12 M 6 M 14 5 M 20 M 3 M 11 M 0 H 17 HMHMM
+======
+# M/H: 5121 / 4
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1907, sort.c:1909, sort.c:1911, sort.c:1912, sort.c:1920, sort.c:1933, sort.c:1940, sort.c:1945, sort.c:1946, 
+-
+(and (= -d off)
+     (= --field-separator |;|)
+     (= -C off)
+     (= -i off)
+     (= -V off)
+     (= -z off)
+     (= -g off)
+     (= --version off)
+     (= -R off)
+     (or (= -c off) (and (= -c on) (= --parallel off))))
+-
+1 M 16 M 12 M 4 M 10 M 19 M 3 M 21 M 8 M 11 17 HMMH
+======
+# M/H: 5123 / 2
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1955, sort.c:1957, sort.c:1958, sort.c:1959, sort.c:1960, sort.c:1967, sort.c:1974, sort.c:1976, sort.c:1978, sort.c:1981, sort.c:1982, sort.c:2613, 
+-
+(and (= -m off)
+     (= -f on)
+     (= -h on)
+     (= --field-separator |;|)
+     (= --debug off)
+     (= -u on)
+     (= --help off)
+     (= -i off)
+     (= -d off)
+     (= -M off)
+     (= -g off))
+-
+14 M 2 6 16 M 13 M 18 20 M 4 M 1 M 5 M 3 MHMMM
+======
+# M/H: 5112 / 13
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2843, sort.c:2855, sort.c:2856, sort.c:2862, sort.c:2863, 
+-
+(let ((a!1 (and (= -b on) (or (= -m off) (and (= -m on) (= -C on) (= -c off)))))
+      (a!2 (and (= -b off)
+                (= -f off)
+                (or (and (= -d on) (= -i on))
+                    (and (= -d off) (= -c on) (= -i off))))))
+(let ((a!3 (and (= -M off)
+                (or (and (= -n on) (= -f off) (= -i off) (= -d off))
+                    (and (= -n off) (or a!1 a!2))))))
+(let ((a!4 (and (= -h off)
+                (or (and (= -M on) (= -i off) (= -V off) (= -d off)) a!3))))
+(let ((a!5 (and (= -g off)
+                (or a!4
+                    (and (= -h on)
+                         (= -s on)
+                         (= -i off)
+                         (= -f on)
+                         (= -n off)
+                         (= -M off))))))
+  (and (= --debug off)
+       (= --version off)
+       (= -z off)
+       (= --help off)
+       (or a!5
+           (and (= -g on)
+                (= -n off)
+                (= -C off)
+                (= -f on)
+                (= --parallel |1|)
+                (= -b off))))))))
+-
+13 M 21 M 19 M 20 M 3 7 M 12 M 2 17 M 0 MHMM 6 15 4 M 2 7 M 5 MHMM 5 4 M 10 M 1 MH 7 2 M 4 M 1 MH 0 14 12 11 MHMH 2 M 1 4 HM 11 4 MHM
+======
+# M/H: 5116 / 9
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2845, sort.c:2846, sort.c:2847, sort.c:2849, sort.c:2852, 
+-
+(let ((a!1 (and (= -h off) (or (= -g off) (and (= -g on) (= -f on))))))
+(let ((a!2 (and (= -M off) (or a!1 (and (= -h on) (= -r on) (= -u on))))))
+(let ((a!3 (and (= -n off)
+                (or (and (= -M on) (= -i off) (= -R off) (= -b off)) a!2))))
+  (and (= -C off)
+       (= -z off)
+       (= --version off)
+       (= --help off)
+       (= --debug off)
+       (= -c on)
+       (or a!3 (and (= -n on) (= -g off) (= -i off) (= -h off)))))))
+-
+12 M 19 M 21 M 20 M 13 M 11 7 3 M 4 M 6 MH 5 4 M 8 M 0 MH 6 9 18 HMM 3 2 HMHM
+======
+# M/H: 5099 / 26
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1839, 
+-
+(let ((a!1 (and (= -C off) (or (= --debug off) (and (= --debug on) (= -c off))))))
+(let ((a!2 (and (= -M off) (or (and (= -C on) (= --debug off) (= -c off)) a!1))))
+(let ((a!3 (and (= -n off)
+                (or (and (= -M on) (= -d off) (= -V off) (= -c off) (= -i off))
+                    a!2))))
+  (and (= -b on)
+       (= -g off)
+       (= --version off)
+       (= --help off)
+       (= -h off)
+       (or a!3 (and (= -n on) (= -i off) (= -C off) (= -V off) (= -f off)))))))
+-
+0 3 M 21 M 20 M 6 M 7 4 M 12 M 10 M 2 MH 5 1 M 10 M 11 M 4 MH 12 13 M 11 MH 13 11 MHHM
+======
+# M/H: 5108 / 17
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2095, sort.c:2098, sort.c:2099, sort.c:2101, sort.c:2102, sort.c:2104, sort.c:2105, sort.c:2106, sort.c:4700, 
+-
+(let ((a!1 (and (= -C off) (or (= -c off) (and (= -c on) (= --debug off))))))
+  (and (= -n off)
+       (= --version off)
+       (= -R on)
+       (= --help off)
+       (= -h off)
+       (= -g off)
+       (= -M off)
+       (or (and (= -C on) (= -c off) (= --debug off)) a!1)))
+-
+7 M 21 M 8 20 M 6 M 3 M 5 M 12 11 M 13 MH 11 13 MHHM
+======
+# M/H: 5108 / 17
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2266, sort.c:2268, sort.c:2269, sort.c:2271, sort.c:2278, sort.c:2280, sort.c:2283, sort.c:2293, sort.c:2307, sort.c:2309, sort.c:2310, sort.c:2311, sort.c:2313, sort.c:2315, sort.c:2317, sort.c:2320, sort.c:2356, sort.c:2357, sort.c:2358, sort.c:2359, sort.c:2364, sort.c:2366, sort.c:2369, sort.c:2370, sort.c:2371, sort.c:2423, sort.c:2426, sort.c:2427, sort.c:2429, sort.c:2431, sort.c:2461, sort.c:2462, sort.c:2466, sort.c:2467, sort.c:2468, sort.c:2478, sort.c:2490, sort.c:2492, sort.c:2494, sort.c:2495, sort.c:2496, sort.c:2497, sort.c:2498, sort.c:2499, sort.c:2500, sort.c:2501, sort.c:2502, sort.c:2507, sort.c:2508, sort.c:2522, sort.c:2524, sort.c:2785, sort.c:2787, sort.c:2789, sort.c:2791, sort.c:2792, sort.c:2794, sort.c:2795, sort.c:2796, sort.c:2800, sort.c:4683, sort.c:4684, sort.c:4685, sort.c:4687, sort.c:4691, sort.c:4694, 
+-
+(let ((a!1 (and (= -M off)
+                (or (= -n off) (and (= -n on) (= -V off) (= -i off))))))
+  (and (= -C off)
+       (= -c off)
+       (= --version off)
+       (= -h off)
+       (= -g off)
+       (= --debug on)
+       (= --help off)
+       (or (and (= -M on) (= --parallel |1|) (= -u off)) a!1)))
+-
+12 M 11 M 21 M 6 M 3 M 13 20 M 5 17 M 18 MHM 7 10 M 4 MHHM
+======
+# M/H: 5110 / 15
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2270, sort.c:2288, sort.c:2289, sort.c:2291, 
+-
+(and (= -C off)
+     (= -c off)
+     (= --version off)
+     (= -h off)
+     (= -g off)
+     (= -M off)
+     (= --debug on)
+     (= --help off)
+     (or (= -n off) (and (= -n on) (= -V off) (= -i off))))
+-
+12 M 11 M 21 M 6 M 3 M 5 M 13 20 M 7 10 M 4 MHHM
+======
+# M/H: 5116 / 9
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2323, sort.c:2324, sort.c:2326, sort.c:2329, sort.c:2331, sort.c:2333, sort.c:2351, sort.c:2352, 
+-
+(let ((a!1 (and (= -n off) (or (= -M off) (and (= -M on) (= --parallel |1|))))))
+(let ((a!2 (and (= -b on) (or a!1 (and (= -n on) (= -V off) (= -d off))))))
+  (and (= -C off)
+       (= -c off)
+       (= --version off)
+       (= -h off)
+       (= -g off)
+       (= --debug on)
+       (= --help off)
+       (or a!2 (and (= -b off) (= -i off) (= -R off) (= -V off))))))
+-
+12 M 11 M 21 M 6 M 3 M 13 20 M 0 7 10 M 1 MH 5 17 MHMH 4 M 8 M 10 MHM
+======
+# M/H: 5118 / 7
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2335, sort.c:2337, 
+-
+(let ((a!1 (and (= -b on) (or (= -n off) (and (= -n on) (= -V off) (= -d off))))))
+  (and (= -C off)
+       (= -c off)
+       (= --version off)
+       (= -h off)
+       (= -g off)
+       (= -M off)
+       (= --debug on)
+       (= --help off)
+       (or a!1 (and (= -b off) (= -i off) (= -V off)))))
+-
+12 M 11 M 21 M 6 M 3 M 5 M 13 20 M 0 7 10 M 1 MHH 4 M 10 MHM
+======
+# M/H: 5120 / 5
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2349, 
+-
+(and (= -C off)
+     (= -b on)
+     (= -n off)
+     (= --help off)
+     (= --version off)
+     (= --debug on)
+     (= -M off)
+     (= -h off)
+     (= -c off)
+     (= -g off))
+-
+12 M 0 7 M 20 M 21 M 13 5 M 6 M 11 M 3 MHMM
+======
+# M/H: 5114 / 11
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2491, 
+-
+(and (= -C off)
+     (= -c off)
+     (= --version off)
+     (= -h off)
+     (= -g off)
+     (= -n off)
+     (= -M off)
+     (= --debug on)
+     (= --help off)
+     (or (= --parallel off)
+         (= --parallel |1|)
+         (and (= --parallel |2|) (= -d on))))
+-
+12 M 11 M 21 M 6 M 3 M 7 M 5 M 13 20 M 17 HH 1 HMM
+======
+# M/H: 5116 / 9
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2493, 
+-
+(and (= -f on)
+     (= -C off)
+     (= -n off)
+     (= --help off)
+     (= --version off)
+     (= -h off)
+     (= -c off)
+     (= -g off)
+     (or (and (= -M off) (= --debug on)) (and (= -M on) (= -i off) (= -r off))))
+-
+2 12 M 7 M 20 M 21 M 6 M 11 M 3 M 5 4 M 9 MH 13 HMM
+======
+# M/H: 5123 / 2
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1990, sort.c:1992, sort.c:1994, sort.c:1997, sort.c:2609, 
+-
+(and (= -m off)
+     (= -r on)
+     (= -g off)
+     (= -d off)
+     (= -s off)
+     (= -h off)
+     (= -M off)
+     (= -i off)
+     (= -f off)
+     (= -n on))
+-
+14 M 9 3 M 1 M 15 M 6 M 5 M 4 M 2 M 7 HMM
+======
+# M/H: 5120 / 5
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2604, sort.c:2605, sort.c:2636, sort.c:2637, 
+-
+(and (= -d off)
+     (= --field-separator |;|)
+     (= -C off)
+     (= -h off)
+     (= -i off)
+     (= -z off)
+     (= -g off)
+     (= -f off)
+     (= --help off)
+     (or (= -V on) (and (= -V off) (= -m off) (= -M off))))
+-
+1 M 16 M 12 M 6 M 4 M 19 M 3 M 2 M 20 M 10 H 14 M 5 MH
+======
+# M/H: 5120 / 5
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2752, sort.c:2754, sort.c:2756, sort.c:2758, sort.c:2766, sort.c:2769, 
+-
+(and (= -C off)
+     (= -V off)
+     (= --version off)
+     (= -i off)
+     (= -h off)
+     (= -M off)
+     (= -g off)
+     (= --help off)
+     (or (and (= -r on) (= -d off)) (and (= -r off) (= -f on) (= --debug off))))
+-
+12 M 10 M 21 M 4 M 6 M 5 M 3 M 20 M 9 1 MH 2 13 MHM
+======
+# M/H: 5115 / 10
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1514, sort.c:1523, sort.c:1527, sort.c:1529, sort.c:1535, sort.c:1538, sort.c:1541, sort.c:1542, sort.c:1552, sort.c:1554, sort.c:1555, sort.c:1562, sort.c:1563, sort.c:1564, sort.c:1566, sort.c:1569, sort.c:3426, sort.c:3428, sort.c:3435, sort.c:3907, sort.c:3912, sort.c:3913, sort.c:3915, sort.c:3917, sort.c:3920, sort.c:3921, sort.c:3925, sort.c:3940, sort.c:3941, sort.c:3943, sort.c:3944, sort.c:3945, sort.c:3947, sort.c:3951, sort.c:3962, sort.c:3963, sort.c:3964, sort.c:3966, sort.c:3967, sort.c:3968, sort.c:3969, sort.c:3976, sort.c:3994, sort.c:3996, sort.c:3997, sort.c:4003, sort.c:4005, sort.c:4019, sort.c:4020, sort.c:4757, sort.c:4764, sort.c:4765, sort.c:4767, sort.c:799, sort.c:801, sort.c:803, 
+-
+(let ((a!1 (and (= -n off)
+                (or (= -M off) (and (= -M on) (= -r off) (= -u off))))))
+(let ((a!2 (and (= -h off) (or a!1 (and (= -n on) (= -i off) (= -r on))))))
+  (and (= -m off)
+       (= -C off)
+       (= -c off)
+       (= -g off)
+       (= --version off)
+       (= --help off)
+       (or (and (= -h on) (= -r off) (= -i off) (= --parallel |1|)) a!2))))
+-
+14 M 12 M 11 M 3 M 21 M 20 M 6 9 M 4 M 17 MHM 7 4 M 9 HM 5 9 M 18 MHH
+======
+# M/H: 5114 / 11
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1840, 
+-
+(let ((a!1 (and (= --debug off) (or (= -C off) (and (= -C on) (= -c off))))))
+(let ((a!2 (and (= -n off) (or a!1 (and (= --debug on) (= -r on) (= -d on))))))
+  (and (= -b on)
+       (= -g off)
+       (= -z off)
+       (= --version off)
+       (= --help off)
+       (= -h off)
+       (= -M off)
+       (or a!2 (and (= -n on) (= -i off) (= -C off) (= -V off))))))
+-
+0 3 M 19 M 21 M 20 M 6 M 5 M 7 4 M 12 M 10 MH 13 9 1 HMM 12 11 MHHM
+======
+# M/H: 5122 / 3
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1922, sort.c:1923, sort.c:1928, sort.c:1929, sort.c:1941, sort.c:1942, sort.c:1943, 
+-
+(and (= -d off)
+     (= --field-separator |;|)
+     (= -c off)
+     (= -M off)
+     (= --version off)
+     (= -i off)
+     (= -s off)
+     (= -R off)
+     (= -V off)
+     (= -C off)
+     (= -g off))
+-
+1 M 16 M 11 M 5 M 21 M 4 M 15 M 8 M 10 M 12 M 3 MH
+======
+# M/H: 5122 / 3
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2281, sort.c:2327, 
+-
+(and (= --field-separator |;|)
+     (= -c off)
+     (= -C off)
+     (= -z off)
+     (= -u off)
+     (= -V off)
+     (= --version off)
+     (= -R off)
+     (= -g off)
+     (or (= -d off) (and (= -d on) (= -s on) (= -b on))))
+-
+16 M 11 M 12 M 19 M 18 M 10 M 21 M 8 M 3 M 1 15 0 HMMH
+======
+# M/H: 5118 / 7
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2284, 
+-
+(let ((a!1 (and (= -z off)
+                (or (= --parallel |2|) (and (= --parallel |1|) (= -b off))))))
+(let ((a!2 (and (= -d off) (or a!1 (and (= -z on) (= -V off) (= -R off))))))
+  (and (= -C off)
+       (= -c off)
+       (= -u off)
+       (= -g off)
+       (= --version off)
+       (= -h off)
+       (= --help off)
+       (= --debug on)
+       (or (and (= -d on) (= -f off) (= -s on)) a!2))))
+-
+12 M 11 M 18 M 3 M 21 M 6 M 20 M 13 1 2 M 15 HM 19 10 M 8 MH 17 M 0 MHHM
+======
+# M/H: 5123 / 2
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2338, sort.c:2339, sort.c:2340, sort.c:2341, sort.c:2343, sort.c:2344, sort.c:2345, 
+-
+(and (= -d off)
+     (= --field-separator |;|)
+     (= -c off)
+     (= -M off)
+     (= --version off)
+     (= -i off)
+     (= -s off)
+     (= -R off)
+     (= -f off)
+     (= -u off)
+     (= -g off))
+-
+1 M 16 M 11 M 5 M 21 M 4 M 15 M 8 M 2 M 18 M 3 MH
+======
+# M/H: 5122 / 3
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2757, 
+-
+(and (= -C off)
+     (= -c off)
+     (= -z off)
+     (= -R off)
+     (= --version off)
+     (= -h off)
+     (= -i off)
+     (= -V off)
+     (= -g off)
+     (or (= -m off) (and (= -m on) (= -u on) (= -d off))))
+-
+12 M 11 M 19 M 8 M 21 M 6 M 4 M 10 M 3 M 14 18 1 MHMH
+======
+# M/H: 5123 / 2
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2767, 
+-
+(and (= -m off)
+     (= --field-separator |;|)
+     (= -c off)
+     (= -u off)
+     (= -z off)
+     (= -C off)
+     (= -i off)
+     (= -h off)
+     (= --version off)
+     (= -g off))
+-
+14 M 16 M 11 M 18 M 19 M 12 M 4 M 6 M 21 M 3 MH
+======
+# M/H: 5120 / 5
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3149, sort.c:3152, sort.c:3153, sort.c:3154, sort.c:3157, sort.c:3159, sort.c:3160, sort.c:3164, sort.c:3169, sort.c:3170, sort.c:3173, sort.c:3174, sort.c:3176, sort.c:3196, sort.c:3199, sort.c:3204, sort.c:3205, sort.c:3207, sort.c:3208, sort.c:3210, sort.c:3219, sort.c:3220, sort.c:3221, sort.c:3222, sort.c:3224, sort.c:3225, sort.c:3226, sort.c:3227, sort.c:3228, sort.c:3232, sort.c:3234, sort.c:3235, sort.c:3239, sort.c:3240, sort.c:3242, sort.c:3244, sort.c:3254, sort.c:3256, sort.c:3258, sort.c:3259, sort.c:3260, sort.c:3261, sort.c:3262, sort.c:3263, sort.c:3264, sort.c:3265, sort.c:3267, sort.c:3268, sort.c:3295, sort.c:3300, sort.c:3301, sort.c:3302, sort.c:3303, sort.c:3304, sort.c:3305, sort.c:3307, sort.c:3308, sort.c:3309, sort.c:3310, sort.c:3311, sort.c:3312, sort.c:3313, sort.c:3314, sort.c:3315, sort.c:3316, sort.c:3318, sort.c:3331, sort.c:3332, sort.c:3334, sort.c:3353, sort.c:3355, sort.c:3356, sort.c:3361, sort.c:3363, sort.c:3364, sort.c:3380, sort.c:3385, sort.c:3386, sort.c:3387, sort.c:3388, sort.c:3394, sort.c:3396, sort.c:3397, sort.c:3398, sort.c:3399, sort.c:3400, sort.c:3401, sort.c:3406, sort.c:3409, sort.c:3410, sort.c:3412, sort.c:3413, sort.c:3414, sort.c:3415, sort.c:3446, sort.c:3449, sort.c:3450, sort.c:3451, sort.c:3455, sort.c:3479, sort.c:3481, sort.c:3482, sort.c:3484, sort.c:3487, sort.c:3488, sort.c:3490, sort.c:3495, sort.c:3503, sort.c:3504, sort.c:3505, sort.c:3506, sort.c:3507, sort.c:3514, sort.c:3516, sort.c:3518, sort.c:3519, sort.c:3520, sort.c:3521, sort.c:3523, sort.c:3528, sort.c:3531, sort.c:3537, sort.c:3541, sort.c:3543, sort.c:3552, sort.c:3556, sort.c:3557, sort.c:3559, sort.c:3561, sort.c:3563, sort.c:3564, sort.c:3566, sort.c:3567, sort.c:3568, sort.c:3570, sort.c:3572, sort.c:3644, sort.c:3648, sort.c:3651, sort.c:3652, sort.c:3654, sort.c:3655, sort.c:3657, sort.c:3668, sort.c:3669, sort.c:3670, sort.c:3671, sort.c:3672, sort.c:3673, sort.c:3674, sort.c:3677, sort.c:3678, sort.c:3679, sort.c:3680, sort.c:3682, sort.c:3683, sort.c:3685, sort.c:3979, sort.c:3981, sort.c:3983, 
+-
+(and (= -m off)
+     (= --field-separator |;|)
+     (= -c off)
+     (= -C off)
+     (= -z off)
+     (= --version off)
+     (= -g off)
+     (= -M off)
+     (or (and (= -h on) (= -R off) (= -d off)) (and (= -h off) (= --help off))))
+-
+14 M 16 M 11 M 12 M 19 M 21 M 3 M 5 M 6 8 M 1 MH 20 MH
+======
+# M/H: 5122 / 3
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3212, sort.c:3213, sort.c:3214, 
+-
+(and (= -m off)
+     (= --field-separator |;|)
+     (= -c off)
+     (= -C off)
+     (= -h off)
+     (= -z off)
+     (= --version off)
+     (= -M off)
+     (= -g off)
+     (or (= -f on) (and (= -f off) (= -d off))))
+-
+14 M 16 M 11 M 12 M 6 M 19 M 21 M 5 M 3 M 2 H 1 MH
+======
+# M/H: 5121 / 4
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3320, sort.c:3321, sort.c:3322, sort.c:3323, sort.c:3325, sort.c:3326, 
+-
+(and (= -m off)
+     (= --field-separator |;|)
+     (= -c off)
+     (= -C off)
+     (= -h off)
+     (= -z off)
+     (= --version off)
+     (= -M off)
+     (= -g off)
+     (= --help off))
+-
+14 M 16 M 11 M 12 M 6 M 19 M 21 M 5 M 3 M 20 MH
+======
+# M/H: 5123 / 2
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3497, sort.c:3498, 
+-
+(and (= -m off)
+     (= -r on)
+     (= -g off)
+     (= -b on)
+     (= -c off)
+     (= -z off)
+     (= -M off)
+     (= -R off)
+     (= -C off)
+     (= -f off))
+-
+14 M 9 3 M 0 11 M 19 M 5 M 8 M 12 M 2 MHMM
+======
+# M/H: 5118 / 7
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3928, sort.c:3929, sort.c:3930, sort.c:3932, sort.c:3933, sort.c:3935, 
+-
+(and (= -m off)
+     (= -C off)
+     (= -c off)
+     (= -h off)
+     (= --version off)
+     (= -g off)
+     (= -M off)
+     (= --help off)
+     (or (= -n off) (and (= -n on) (= -u off) (= -f off))))
+-
+14 M 12 M 11 M 6 M 21 M 3 M 5 M 20 M 7 18 M 2 MHH
+======
+# M/H: 5118 / 7
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2133, sort.c:2140, sort.c:2143, sort.c:2144, sort.c:2145, sort.c:2148, sort.c:2150, sort.c:2239, sort.c:2240, sort.c:2241, sort.c:2244, sort.c:2256, sort.c:2258, sort.c:2617, 
+-
+(let ((a!1 (and (= -u on) (or (= -C off) (and (= -C on) (= --debug off)))))
+      (a!2 (and (= -u off)
+                (= --debug off)
+                (= -r off)
+                (or (= -d off) (and (= -d on) (= -i on))))))
+  (and (= -n off)
+       (= --version off)
+       (= -R on)
+       (= --help off)
+       (= -h off)
+       (= -g off)
+       (= -M off)
+       (= -z off)
+       (or a!1 a!2)))
+-
+7 M 21 M 8 20 M 6 M 3 M 5 M 19 M 18 12 13 MHH 13 M 9 M 1 4 HMHM
+======
+# M/H: 5123 / 2
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2246, sort.c:2248, sort.c:2249, sort.c:2250, sort.c:2253, 
+-
+(and (= -m off)
+     (= -f on)
+     (= -d on)
+     (= --field-separator |;|)
+     (= -n off)
+     (= --parallel |2|)
+     (= --help off)
+     (= -i on)
+     (= -g off)
+     (= -h off))
+-
+14 M 2 1 16 M 7 M 17 MM 20 M 4 3 M 6 MHMMM
+======
+# M/H: 5122 / 3
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2050, sort.c:2052, sort.c:2053, sort.c:2055, sort.c:2060, sort.c:2061, sort.c:2062, sort.c:2064, sort.c:2066, sort.c:2072, sort.c:2074, sort.c:2075, sort.c:2077, sort.c:2084, sort.c:2086, 
+-
+(and (= -M on)
+     (= -s on)
+     (= -R off)
+     (= -i off)
+     (= -C off)
+     (= -n off)
+     (= -h off)
+     (= -d off)
+     (= -g off)
+     (= -V off)
+     (or (= -f on) (and (= -f off) (= -r off))))
+-
+5 15 8 M 4 M 12 M 7 M 6 M 1 M 3 M 10 M 2 H 9 MHMM
+======
+# M/H: 5124 / 1
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2615, 
+-
+(and (= -f on)
+     (= -r on)
+     (= -g off)
+     (= --parallel |2|)
+     (= -s on)
+     (= -d off)
+     (= -u on)
+     (= -R off)
+     (= -V off))
+-
+2 9 3 M 17 MM 15 1 M 18 8 M 10 MHMMMM
+======
+# M/H: 5115 / 10
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2321, 
+-
+(let ((a!1 (and (= -M off)
+                (or (= -n off) (and (= -n on) (= -u off) (= -i off))))))
+  (and (= -C off)
+       (= -c off)
+       (= --version off)
+       (= -h off)
+       (= -g off)
+       (= -b off)
+       (= --debug on)
+       (= --help off)
+       (or (and (= -M on) (= -i off) (= -R off)) a!1)))
+-
+12 M 11 M 21 M 6 M 3 M 0 M 13 20 M 5 4 M 8 MH 7 18 M 4 MHHM
+======
+# M/H: 5120 / 5
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3430, sort.c:3432, 
+-
+(and (= -m off)
+     (= -C off)
+     (= -c off)
+     (= -u on)
+     (= -n off)
+     (= --help off)
+     (= -M off)
+     (= -g off)
+     (or (and (= -h on) (= --debug off) (= -R off))
+         (and (= -h off) (= --version off))))
+-
+14 M 12 M 11 M 18 7 M 20 M 5 M 3 M 6 13 M 8 MH 21 MHM
+======
+# M/H: 5123 / 2
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3431, 
+-
+(and (= -m off)
+     (= -f on)
+     (= -g off)
+     (= -u on)
+     (= --help off)
+     (= --version off)
+     (= -n off)
+     (= -c off)
+     (= -C off)
+     (= -M off)
+     (or (= --parallel |2|) (and (= --parallel |1|) (= -d off))))
+-
+14 M 2 3 M 18 20 M 21 M 7 M 11 M 12 M 5 M 17 M 1 MHHMM
+======
+# M/H: 5122 / 3
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3492, sort.c:3493, 
+-
+(and (= -m off)
+     (= -f on)
+     (= -g off)
+     (= -c off)
+     (= --version off)
+     (= -C off)
+     (= -M off)
+     (= -n off)
+     (= -r off)
+     (or (= -h off) (and (= -h on) (= --field-separator |;|) (= -d off))))
+-
+14 M 2 3 M 11 M 21 M 12 M 5 M 7 M 9 M 6 16 M 1 MHHM
+======
+# M/H: 5120 / 5
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2591, sort.c:2598, 
+-
+(and (= -c off)
+     (= -z off)
+     (= --version off)
+     (= -g off)
+     (= -h off)
+     (= -n off)
+     (= -M off)
+     (= --field-separator off)
+     (= -f off)
+     (= --help off)
+     (or (= --parallel off)
+         (and (= --parallel |1|) (= -d on))
+         (and (= --parallel |2|) (= -C on))))
+-
+11 M 19 M 21 M 3 M 6 M 7 M 5 M 16 2 M 20 M 17 H 1 HM 12 HMM
+======
+# M/H: 5124 / 1
+# Last rebuild:   iter -1  num_configs -1
+sort.c:1962, sort.c:1963, sort.c:1964, sort.c:1977, sort.c:1979, 
+-
+(and (= -m off)
+     (= -f on)
+     (= -h on)
+     (= --field-separator |;|)
+     (= -s off)
+     (= -n off)
+     (= -u on)
+     (= --debug off)
+     (= -r off))
+-
+14 M 2 6 16 M 15 M 7 M 18 13 M 9 MHMMM
+======
+# M/H: 5122 / 3
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3938, 
+-
+(and (= --parallel |1|)
+     (= --version off)
+     (= -R off)
+     (= -c off)
+     (= -n off)
+     (= -i off)
+     (= -g off)
+     (= -m off)
+     (= -d off)
+     (= -r off))
+-
+17 M 21 M 8 M 11 M 7 M 4 M 3 M 14 M 1 M 9 MHM
+======
+# M/H: 5122 / 3
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2640, sort.c:2664, 
+-
+(and (= -C off)
+     (= -c off)
+     (= -z off)
+     (= -R off)
+     (= --version off)
+     (= -h off)
+     (= -n off)
+     (= -M off)
+     (= -V off)
+     (= -g off)
+     (or (= -m off) (and (= -m on) (= -b on) (= -d off))))
+-
+12 M 11 M 19 M 8 M 21 M 6 M 7 M 5 M 10 M 3 M 14 0 1 MHMH
+======
+# M/H: 5124 / 1
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2665, 
+-
+(and (= -m off)
+     (= -f on)
+     (= -d on)
+     (= --parallel off)
+     (= -u off)
+     (= -i off)
+     (= --version off)
+     (= -C off)
+     (= -r off))
+-
+14 M 2 1 17 18 M 4 M 21 M 12 M 9 MHMMMM
+======
+# M/H: 5123 / 2
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2755, 
+-
+(and (= -C off)
+     (= -c off)
+     (= -z off)
+     (= -R off)
+     (= --version off)
+     (= -h off)
+     (= -i off)
+     (= -V off)
+     (= -g off)
+     (= -b off)
+     (or (= -m off) (and (= -m on) (= -r on) (= -d off))))
+-
+12 M 11 M 19 M 8 M 21 M 6 M 4 M 10 M 3 M 0 M 14 9 1 MHMH
+======
+# M/H: 5121 / 4
+# Last rebuild:   iter -1  num_configs -1
+sort.c:4759, sort.c:4760, 
+-
+(and (= -m off)
+     (= -C off)
+     (= -c off)
+     (= -h off)
+     (= --version off)
+     (= -g off)
+     (= -M off)
+     (= -n off)
+     (= --help off)
+     (= --parallel off))
+-
+14 M 12 M 11 M 6 M 21 M 3 M 5 M 7 M 20 M 17 HMM
+======
+# M/H: 5124 / 1
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2019, sort.c:2026, sort.c:2027, sort.c:2030, sort.c:2031, sort.c:2611, 
+-
+(and (= -m off)
+     (= -f on)
+     (= --parallel |1|)
+     (= --debug off)
+     (= -h off)
+     (= -g on)
+     (= -C off)
+     (= -d off)
+     (= -r off))
+-
+14 M 2 17 M 13 M 6 M 3 12 M 1 M 9 MHMMM
+======
+# M/H: 5120 / 5
+# Last rebuild:   iter -1  num_configs -1
+sort.c:3992, 
+-
+(and (= -m off)
+     (= -C off)
+     (= -c off)
+     (= -h off)
+     (= --version off)
+     (= -g off)
+     (= -n off)
+     (= -z on)
+     (= --help off)
+     (or (= -M off) (and (= -M on) (= -r off) (= -d off))))
+-
+14 M 12 M 11 M 6 M 21 M 3 M 7 M 19 20 M 5 9 M 1 MHHM
+======
+# M/H: 5123 / 2
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2334, 
+-
+(and (= -m off)
+     (= --parallel |1|)
+     (= -u off)
+     (= -c off)
+     (= -g off)
+     (= -i off)
+     (= -C off)
+     (= -h off)
+     (= -n off))
+-
+14 M 17 M 18 M 11 M 3 M 4 M 12 M 6 M 7 MHM
+======
+# M/H: 5123 / 2
+# Last rebuild:   iter -1  num_configs -1
+sort.c:2668, 
+-
+(and (= -i on)
+     (= -n off)
+     (= -b on)
+     (= -C off)
+     (= -r on)
+     (= -R off)
+     (= -z off)
+     (= -V off)
+     (= -f off)
+     (or (= -s on) (and (= -s off) (= --parallel |1|))))
+-
+4 7 M 0 12 M 9 8 M 19 M 10 M 2 M 15 H 17 MHMMMM
+======

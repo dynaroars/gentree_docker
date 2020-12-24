@@ -1,0 +1,1770 @@
+# ./igen4 -J2 -cr -F 2/ngircd -O res/Analyze_progress_rand/ngircd/iter_{iter}.txt --rand-each-iteration 480,1238,1486,1647,1792,1882,1962,2071,2157,2256,2320,2367,2389,2417,2457,2507,2595,2702,2757,2783,2821,2880,2920,2969,3007,3019,3049,3066,3106,3114,3147,3177,3193,3226,3261,3269,3284,3319,3366,3397,3417,3443,3487,4797,4877,4922,4954,4965,6276,6357,6411,6433,6454,7766,7818,7832,9086,9146,9159,10443,10498,11749,11761,12992,13044,13066,14288,15523,15537,16790,16817,16847,18076,19274,20469,21682,21701,22928,24137,25327,26522,27679
+# seed = 123, repeat_id = 0, thread_id = 0
+#     9146 3090   65 |  9146    -1 |  0   58 |     7     2      0 | e16265be6ab873c6aabbd62bb5b8d5b1
+======
+# M/H: 4599 / 4547
+# Last rebuild:   iter -1  num_configs -1
+./../ipaddr/ng_ipaddr.h:107, ./../ipaddr/ng_ipaddr.h:112, ./../ipaddr/ng_ipaddr.h:113, ./../ipaddr/ng_ipaddr.h:50, ./../ipaddr/ng_ipaddr.h:64, ./../ipaddr/ng_ipaddr.h:80, array.c:250, array.c:255, array.c:258, array.c:261, array.c:264, array.c:265, channel.c:153, channel.c:154, channel.c:156, channel.c:157, channel.c:158, channel.c:159, channel.c:163, channel.c:164, channel.c:170, client.c:1090, client.c:114, client.c:115, client.c:117, client.c:118, client.c:119, client.c:126, client.c:127, client.c:144, client.c:191, client.c:192, client.c:195, client.c:196, client.c:197, client.c:198, client.c:199, client.c:200, client.c:201, client.c:202, client.c:203, client.c:204, client.c:205, client.c:206, client.c:207, client.c:209, client.c:213, client.c:214, client.c:217, client.c:219, client.c:233, client.c:234, client.c:235, client.c:238, client.c:239, client.c:240, client.c:241, client.c:244, client.c:245, client.c:246, client.c:248, client.c:257, client.c:260, client.c:261, client.c:263, client.c:298, client.c:300, client.c:307, client.c:315, client.c:317, client.c:325, client.c:326, client.c:331, client.c:342, client.c:343, client.c:461, client.c:462, client.c:470, client.c:471, client.c:592, client.c:600, client.c:831, client.c:842, conf.c:290, conf.c:291, conf.c:311, conn-func.c:86, conn-func.c:87, conn-func.c:88, conn-func.c:94, conn.c:1010, conn.c:1012, conn.c:1014, conn.c:1019, conn.c:1038, conn.c:1042, conn.c:1043, conn.c:1051, conn.c:1080, conn.c:1087, conn.c:1088, conn.c:1095, conn.c:1096, conn.c:1097, conn.c:1098, conn.c:1100, conn.c:1104, conn.c:1106, conn.c:1108, conn.c:111, conn.c:1112, conn.c:1113, conn.c:112, conn.c:1336, conn.c:1337, conn.c:1338, conn.c:1340, conn.c:1341, conn.c:1371, conn.c:1380, conn.c:1392, conn.c:1394, conn.c:1396, conn.c:1399, conn.c:1400, conn.c:1401, conn.c:1402, conn.c:1404, conn.c:1406, conn.c:1410, conn.c:1411, conn.c:1412, conn.c:1415, conn.c:1416, conn.c:1418, conn.c:1420, conn.c:1433, conn.c:1438, conn.c:1441, conn.c:1442, conn.c:1443, conn.c:1448, conn.c:1452, conn.c:1454, conn.c:1460, conn.c:1461, conn.c:1462, conn.c:1468, conn.c:1476, conn.c:1480, conn.c:1482, conn.c:1483, conn.c:1484, conn.c:1490, conn.c:1491, conn.c:1494, conn.c:1495, conn.c:1496, conn.c:1497, conn.c:1498, conn.c:1502, conn.c:1509, conn.c:1511, conn.c:1512, conn.c:1539, conn.c:1546, conn.c:1547, conn.c:1564, conn.c:1579, conn.c:1581, conn.c:1582, conn.c:1583, conn.c:1586, conn.c:1594, conn.c:1595, conn.c:1596, conn.c:1600, conn.c:1602, conn.c:1603, conn.c:1615, conn.c:1616, conn.c:1723, conn.c:1727, conn.c:255, conn.c:257, conn.c:260, conn.c:261, conn.c:267, conn.c:268, conn.c:269, conn.c:270, conn.c:271, conn.c:277, conn.c:282, conn.c:283, conn.c:284, conn.c:285, conn.c:286, conn.c:290, conn.c:297, conn.c:298, conn.c:301, conn.c:322, conn.c:338, conn.c:339, conn.c:340, conn.c:341, conn.c:344, conn.c:345, conn.c:346, conn.c:348, conn.c:349, conn.c:356, conn.c:363, conn.c:364, conn.c:366, conn.c:367, conn.c:373, conn.c:392, conn.c:405, conn.c:408, conn.c:409, conn.c:414, conn.c:416, conn.c:418, conn.c:421, conn.c:428, conn.c:435, conn.c:446, conn.c:478, conn.c:497, conn.c:498, conn.c:505, conn.c:510, conn.c:511, conn.c:513, conn.c:516, conn.c:517, conn.c:526, conn.c:527, conn.c:528, conn.c:544, conn.c:545, conn.c:546, conn.c:566, conn.c:567, conn.c:570, conn.c:571, conn.c:578, conn.c:580, conn.c:756, conn.c:766, conn.c:768, conn.c:771, conn.c:772, conn.c:775, conn.c:776, conn.c:780, conn.c:783, conn.c:806, conn.c:809, conn.c:812, conn.c:821, conn.c:824, conn.c:825, conn.c:828, conn.c:829, conn.c:852, conn.c:859, conn.c:863, conn.c:875, conn.c:876, conn.c:879, conn.c:881, conn.c:882, conn.c:927, conn.c:933, conn.c:947, conn.c:949, conn.c:950, conn.c:982, conn.c:983, conn.c:984, conn.c:985, conn.c:989, io.c:135, io.c:145, io.c:149, io.c:239, io.c:240, io.c:243, io.c:245, io.c:248, io.c:249, io.c:250, io.c:252, io.c:253, io.c:254, io.c:255, io.c:256, io.c:258, io.c:259, io.c:261, io.c:265, io.c:266, io.c:267, io.c:269, io.c:270, io.c:273, io.c:280, io.c:282, io.c:283, io.c:284, io.c:285, io.c:287, io.c:288, io.c:289, io.c:290, io.c:291, io.c:292, io.c:294, io.c:301, io.c:302, io.c:304, io.c:305, io.c:306, io.c:307, io.c:308, io.c:309, io.c:310, io.c:313, io.c:661, io.c:662, io.c:685, io.c:697, io.c:716, io.c:717, io.c:724, io.c:725, io.c:726, io.c:727, io.c:728, io.c:729, io.c:777, io.c:778, io.c:783, io.c:785, io.c:794, io.c:807, io.c:808, io.c:809, io.c:813, io.c:814, io.c:815, io.c:817, io.c:824, io.c:826, io.c:827, io.c:829, io.c:830, io.c:832, io.c:837, io.c:875, io.c:885, io.c:887, io.c:889, io.c:891, io.c:894, log.c:147, log.c:148, log.c:162, log.c:231, log.c:232, log.c:275, log.c:289, log.c:301, log.c:325, log.c:330, log.c:334, log.c:335, log.c:337, log.c:340, log.c:341, log.c:346, log.c:360, log.c:361, log.c:362, log.c:366, log.c:368, ng_ipaddr.c:53, ngircd.c:328, ngircd.c:331, ngircd.c:335, ngircd.c:336, ngircd.c:337, ngircd.c:339, ngircd.c:341, resolve.c:121, resolve.c:122, resolve.c:127, resolve.c:128, resolve.c:129, resolve.c:130, resolve.c:132, resolve.c:133, resolve.c:134, resolve.c:155, resolve.c:156, resolve.c:158, resolve.c:160, resolve.c:162, resolve.c:165, resolve.c:321, resolve.c:323, resolve.c:325, resolve.c:329, resolve.c:459, resolve.c:461, resolve.c:463, resolve.c:464, resolve.c:465, resolve.c:491, resolve.c:493, resolve.c:505, resolve.c:510, resolve.c:511, resolve.c:513, resolve.c:514, resolve.c:529, resolve.c:530, resolve.c:541, resolve.c:542, resolve.c:58, resolve.c:63, resolve.c:64, resolve.c:65, resolve.c:70, resolve.c:71, resolve.c:72, resolve.c:73, resolve.c:76, resolve.c:77, 
+-
+(= Conf_ListenIPv4 |1|)
+-
+5 HM
+======
+# M/H: 0 / 9146
+# Last rebuild:   iter -1  num_configs -1
+array.c:101, array.c:102, array.c:106, array.c:108, array.c:110, array.c:121, array.c:124, array.c:146, array.c:149, array.c:150, array.c:158, array.c:174, array.c:177, array.c:180, array.c:181, array.c:183, array.c:186, array.c:189, array.c:198, array.c:199, array.c:200, array.c:278, array.c:279, array.c:280, array.c:281, array.c:282, array.c:289, array.c:297, array.c:298, array.c:39, array.c:41, array.c:44, array.c:45, array.c:53, array.c:54, array.c:55, array.c:56, array.c:63, array.c:64, array.c:69, array.c:72, array.c:73, array.c:74, array.c:76, array.c:77, array.c:79, array.c:88, array.c:91, array.c:97, array.c:98, channel.c:101, channel.c:104, channel.c:106, channel.c:107, channel.c:108, channel.c:112, channel.c:113, channel.c:115, channel.c:116, channel.c:117, channel.c:121, channel.c:122, channel.c:123, channel.c:125, channel.c:126, channel.c:128, channel.c:130, channel.c:131, channel.c:132, channel.c:134, channel.c:135, channel.c:137, channel.c:143, channel.c:413, channel.c:414, channel.c:415, channel.c:417, channel.c:420, channel.c:424, channel.c:483, channel.c:485, channel.c:501, channel.c:502, channel.c:505, channel.c:506, channel.c:659, channel.c:660, channel.c:663, channel.c:667, channel.c:668, channel.c:672, channel.c:677, channel.c:68, channel.c:69, channel.c:696, channel.c:697, channel.c:698, channel.c:70, channel.c:706, channel.c:707, channel.c:708, channel.c:781, channel.c:782, channel.c:787, channel.c:788, channel.c:789, channel.c:790, channel.c:791, channel.c:792, channel.c:793, channel.c:98, client.c:100, client.c:102, client.c:1039, client.c:104, client.c:1040, client.c:1046, client.c:1048, client.c:1049, client.c:105, client.c:1050, client.c:1051, client.c:1052, client.c:1053, client.c:1055, client.c:354, client.c:357, client.c:358, client.c:386, client.c:387, client.c:78, client.c:79, client.c:87, client.c:88, client.c:89, client.c:90, client.c:91, client.c:92, client.c:94, client.c:95, client.c:99, conf.c:1000, conf.c:1006, conf.c:1008, conf.c:1013, conf.c:1014, conf.c:1015, conf.c:1016, conf.c:1018, conf.c:1020, conf.c:1021, conf.c:1022, conf.c:1023, conf.c:1025, conf.c:1027, conf.c:1028, conf.c:1029, conf.c:103, conf.c:1033, conf.c:1035, conf.c:1038, conf.c:104, conf.c:1042, conf.c:1043, conf.c:1045, conf.c:1046, conf.c:1048, conf.c:1059, conf.c:1060, conf.c:1062, conf.c:1063, conf.c:1064, conf.c:1065, conf.c:1067, conf.c:1075, conf.c:1080, conf.c:1081, conf.c:1083, conf.c:1084, conf.c:1086, conf.c:1088, conf.c:1090, conf.c:1091, conf.c:1093, conf.c:1095, conf.c:1097, conf.c:1099, conf.c:1102, conf.c:1104, conf.c:1105, conf.c:1107, conf.c:1110, conf.c:1112, conf.c:1113, conf.c:1115, conf.c:1134, conf.c:1135, conf.c:1136, conf.c:1137, conf.c:1138, conf.c:1139, conf.c:114, conf.c:1140, conf.c:1141, conf.c:1147, conf.c:1160, conf.c:118, conf.c:1188, conf.c:119, conf.c:1191, conf.c:120, conf.c:121, conf.c:1218, conf.c:122, conf.c:1224, conf.c:1225, conf.c:123, conf.c:124, conf.c:1253, conf.c:1257, conf.c:1258, conf.c:1263, conf.c:1264, conf.c:1265, conf.c:1275, conf.c:1277, conf.c:1278, conf.c:1280, conf.c:1282, conf.c:1283, conf.c:1284, conf.c:1285, conf.c:132, conf.c:134, conf.c:140, conf.c:141, conf.c:142, conf.c:161, conf.c:177, conf.c:179, conf.c:180, conf.c:182, conf.c:187, conf.c:191, conf.c:194, conf.c:195, conf.c:196, conf.c:197, conf.c:198, conf.c:199, conf.c:200, conf.c:201, conf.c:202, conf.c:203, conf.c:204, conf.c:205, conf.c:207, conf.c:209, conf.c:210, conf.c:211, conf.c:212, conf.c:213, conf.c:214, conf.c:215, conf.c:216, conf.c:217, conf.c:218, conf.c:219, conf.c:220, conf.c:221, conf.c:222, conf.c:230, conf.c:231, conf.c:232, conf.c:233, conf.c:235, conf.c:236, conf.c:239, conf.c:240, conf.c:241, conf.c:242, conf.c:243, conf.c:246, conf.c:247, conf.c:250, conf.c:251, conf.c:252, conf.c:253, conf.c:254, conf.c:255, conf.c:256, conf.c:257, conf.c:260, conf.c:261, conf.c:264, conf.c:265, conf.c:266, conf.c:267, conf.c:268, conf.c:270, conf.c:271, conf.c:274, conf.c:440, conf.c:441, conf.c:442, conf.c:444, conf.c:445, conf.c:446, conf.c:448, conf.c:449, conf.c:451, conf.c:453, conf.c:455, conf.c:457, conf.c:459, conf.c:461, conf.c:462, conf.c:464, conf.c:466, conf.c:467, conf.c:469, conf.c:470, conf.c:471, conf.c:472, conf.c:474, conf.c:475, conf.c:476, conf.c:477, conf.c:479, conf.c:480, conf.c:481, conf.c:482, conf.c:485, conf.c:486, conf.c:495, conf.c:500, conf.c:501, conf.c:511, conf.c:513, conf.c:521, conf.c:522, conf.c:547, conf.c:548, conf.c:549, conf.c:550, conf.c:553, conf.c:554, conf.c:555, conf.c:556, conf.c:559, conf.c:562, conf.c:563, conf.c:564, conf.c:565, conf.c:567, conf.c:568, conf.c:572, conf.c:573, conf.c:574, conf.c:578, conf.c:580, conf.c:582, conf.c:584, conf.c:587, conf.c:591, conf.c:594, conf.c:596, conf.c:598, conf.c:603, conf.c:604, conf.c:606, conf.c:607, conf.c:611, conf.c:612, conf.c:613, conf.c:614, conf.c:615, conf.c:616, conf.c:618, conf.c:623, conf.c:626, conf.c:627, conf.c:628, conf.c:629, conf.c:631, conf.c:632, conf.c:633, conf.c:635, conf.c:636, conf.c:637, conf.c:638, conf.c:643, conf.c:646, conf.c:652, conf.c:659, conf.c:666, conf.c:667, conf.c:668, conf.c:670, conf.c:678, conf.c:679, conf.c:685, conf.c:691, conf.c:706, conf.c:708, conf.c:709, conf.c:710, conf.c:711, conf.c:713, conf.c:715, conf.c:716, conf.c:717, conf.c:718, conf.c:720, conf.c:722, conf.c:723, conf.c:724, conf.c:725, conf.c:727, conf.c:729, conf.c:730, conf.c:731, conf.c:732, conf.c:734, conf.c:736, conf.c:737, conf.c:738, conf.c:739, conf.c:741, conf.c:743, conf.c:744, conf.c:745, conf.c:746, conf.c:749, conf.c:750, conf.c:751, conf.c:753, conf.c:755, conf.c:756, conf.c:758, conf.c:760, conf.c:762, conf.c:763, conf.c:765, conf.c:767, conf.c:769, conf.c:770, conf.c:772, conf.c:774, conf.c:776, conf.c:777, conf.c:779, conf.c:781, conf.c:783, conf.c:784, conf.c:792, conf.c:794, conf.c:807, conf.c:809, conf.c:810, conf.c:811, conf.c:813, conf.c:815, conf.c:817, conf.c:819, conf.c:82, conf.c:820, conf.c:821, conf.c:823, conf.c:825, conf.c:827, conf.c:829, conf.c:83, conf.c:830, conf.c:831, conf.c:833, conf.c:835, conf.c:837, conf.c:839, conf.c:840, conf.c:842, conf.c:844, conf.c:845, conf.c:85, conf.c:874, conf.c:876, conf.c:877, conf.c:879, conf.c:881, conf.c:882, conf.c:884, conf.c:887, conf.c:890, conf.c:891, conf.c:893, conf.c:896, conf.c:899, conf.c:900, conf.c:902, conf.c:905, conf.c:908, conf.c:909, conf.c:911, conf.c:914, conf.c:915, conf.c:918, conf.c:920, conf.c:921, conf.c:922, conf.c:923, conf.c:926, conf.c:928, conf.c:94, conf.c:941, conf.c:944, conf.c:946, conf.c:948, conf.c:949, conf.c:95, conf.c:951, conf.c:953, conf.c:955, conf.c:956, conf.c:958, conf.c:96, conf.c:960, conf.c:961, conf.c:963, conf.c:964, conf.c:97, conf.c:98, conf.c:982, conf.c:984, conf.c:986, conf.c:987, conf.c:989, conf.c:991, conf.c:993, conf.c:994, conf.c:995, conf.c:996, conf.c:998, conf.c:999, conn.c:1521, conn.c:1523, conn.c:1524, conn.c:1525, conn.c:1526, conn.c:1527, conn.c:1528, conn.c:1529, conn.c:216, conn.c:217, conn.c:223, conn.c:230, conn.c:232, conn.c:237, conn.c:240, conn.c:243, conn.c:244, conn.c:310, conn.c:312, conn.c:321, conn.c:324, hash.c:44, io.c:230, io.c:231, io.c:319, io.c:320, io.c:321, io.c:323, io.c:324, io.c:326, io.c:327, io.c:328, io.c:330, io.c:332, io.c:630, io.c:633, io.c:636, io.c:637, io.c:638, io.c:639, io.c:640, io.c:642, log.c:102, log.c:107, log.c:228, log.c:234, log.c:239, log.c:244, log.c:248, log.c:249, log.c:251, log.c:254, log.c:255, log.c:265, log.c:272, log.c:277, log.c:61, log.c:75, log.c:78, log.c:85, log.c:87, log.c:88, log.c:90, log.h:46, ng_ipaddr.c:52, ng_ipaddr.c:54, ng_ipaddr.c:56, ng_ipaddr.c:63, ng_ipaddr.c:64, ng_ipaddr.c:92, ng_ipaddr.c:94, ngircd.c:103, ngircd.c:104, ngircd.c:106, ngircd.c:109, ngircd.c:111, ngircd.c:112, ngircd.c:116, ngircd.c:127, ngircd.c:129, ngircd.c:130, ngircd.c:139, ngircd.c:145, ngircd.c:150, ngircd.c:162, ngircd.c:168, ngircd.c:171, ngircd.c:173, ngircd.c:181, ngircd.c:194, ngircd.c:196, ngircd.c:197, ngircd.c:199, ngircd.c:211, ngircd.c:217, ngircd.c:226, ngircd.c:235, ngircd.c:248, ngircd.c:250, ngircd.c:251, ngircd.c:254, ngircd.c:257, ngircd.c:258, ngircd.c:260, ngircd.c:261, ngircd.c:262, ngircd.c:265, ngircd.c:266, ngircd.c:268, ngircd.c:273, ngircd.c:280, ngircd.c:281, ngircd.c:285, ngircd.c:295, ngircd.c:301, ngircd.c:305, ngircd.c:309, ngircd.c:313, ngircd.c:316, ngircd.c:319, ngircd.c:354, ngircd.c:402, ngircd.c:405, ngircd.c:413, ngircd.c:414, ngircd.c:416, ngircd.c:417, ngircd.c:418, ngircd.c:419, ngircd.c:420, ngircd.c:422, ngircd.c:424, ngircd.c:489, ngircd.c:490, ngircd.c:492, ngircd.c:495, ngircd.c:499, ngircd.c:500, ngircd.c:501, ngircd.c:502, ngircd.c:503, ngircd.c:506, ngircd.c:507, ngircd.c:521, ngircd.c:564, ngircd.c:565, ngircd.c:566, ngircd.c:567, ngircd.c:568, ngircd.c:569, ngircd.c:602, ngircd.c:625, ngircd.c:631, ngircd.c:632, ngircd.c:637, ngircd.c:638, ngircd.c:643, ngircd.c:646, ngircd.c:648, ngircd.c:702, ngircd.c:708, ngircd.c:711, ngircd.c:712, ngircd.c:717, ngircd.c:725, ngircd.c:726, ngircd.c:730, ngircd.c:740, ngircd.c:750, ngircd.c:752, ngircd.c:760, ngircd.c:765, ngircd.c:785, ngircd.c:787, ngircd.c:791, ngircd.c:792, ngircd.c:794, ngircd.c:795, ngircd.c:797, ngircd.c:801, ngircd.c:802, ngircd.c:803, ngircd.c:805, ngircd.c:811, ngircd.c:820, ngircd.c:823, ngircd.c:87, ngircd.c:88, ngircd.c:92, ngircd.c:94, ngircd.c:95, resolve.c:144, resolve.c:145, resolve.c:146, tool.c:42, tool.c:45, tool.c:47, tool.c:49, tool.c:55, tool.c:56, tool.c:57, tool.c:59, tool.c:62, tool.c:64, tool.c:65, 
+-
+true
+-
+H
+======
+# M/H: 6060 / 3086
+# Last rebuild:   iter -1  num_configs -1
+array.c:224, array.c:225, array.c:228, array.c:229, array.c:323, array.c:328, array.c:336, array.c:337, array.c:338, channel.c:1000, channel.c:1001, channel.c:1007, channel.c:360, channel.c:391, channel.c:399, channel.c:432, channel.c:989, client.c:1004, client.c:1006, client.c:1007, client.c:1009, client.c:1010, client.c:1012, client.c:1065, client.c:1066, client.c:1067, client.c:1069, client.c:1076, client.c:1078, client.c:1079, client.c:1080, client.c:1092, client.c:1098, client.c:1099, client.c:1100, client.c:133, client.c:170, client.c:309, client.c:310, client.c:369, client.c:372, client.c:373, client.c:375, client.c:398, client.c:399, client.c:410, client.c:411, client.c:422, client.c:423, client.c:443, client.c:444, client.c:445, client.c:446, client.c:453, client.c:454, client.c:540, client.c:546, client.c:547, client.c:548, client.c:550, client.c:552, client.c:553, client.c:555, client.c:558, client.c:560, client.c:562, client.c:578, client.c:579, client.c:581, client.c:614, client.c:615, client.c:647, client.c:655, client.c:663, client.c:679, client.c:687, client.c:695, client.c:706, client.c:707, client.c:710, client.c:722, client.c:724, client.c:725, client.c:749, client.c:769, client.c:800, client.c:807, client.c:808, client.c:810, client.c:819, client.c:822, client.c:849, client.c:952, client.c:953, client.c:954, conf.c:322, conf.c:323, conf.c:331, conf.c:335, conf.c:336, conn-func.c:272, conn-func.c:273, conn-func.c:279, conn.c:1124, conn.c:1130, conn.c:1151, conn.c:1162, conn.c:1163, conn.c:1174, conn.c:1196, conn.c:120, conn.c:1203, conn.c:121, conn.c:1210, conn.c:1211, conn.c:1214, conn.c:1215, conn.c:1219, conn.c:1220, conn.c:1239, conn.c:1240, conn.c:1241, conn.c:1243, conn.c:1250, conn.c:1251, conn.c:1253, conn.c:1257, conn.c:1259, conn.c:1273, conn.c:1277, conn.c:1279, conn.c:1281, conn.c:1290, conn.c:1299, conn.c:130, conn.c:1300, conn.c:1301, conn.c:1303, conn.c:1305, conn.c:1306, conn.c:131, conn.c:1324, conn.c:1345, conn.c:135, conn.c:1357, conn.c:164, conn.c:166, conn.c:167, conn.c:168, conn.c:169, conn.c:170, conn.c:176, conn.c:179, conn.c:180, conn.c:183, conn.c:184, conn.c:185, conn.c:191, conn.c:192, conn.c:200, conn.c:201, conn.c:203, conn.c:204, conn.c:205, conn.c:262, conn.c:521, conn.c:530, conn.c:535, conn.c:539, conn.c:548, conn.c:554, conn.c:555, conn.c:557, conn.c:562, conn.c:612, conn.c:616, conn.c:649, conn.c:650, conn.c:651, conn.c:653, conn.c:654, conn.c:669, conn.c:674, conn.c:679, conn.c:685, conn.c:704, conn.c:714, conn.c:725, conn.c:728, conn.c:732, conn.c:734, conn.c:769, conn.c:786, conn.c:796, conn.c:797, conn.c:928, conn.c:929, conn.c:953, conn.c:957, conn.c:960, conn.c:971, conn.c:973, conn.c:986, conn.c:987, io.c:668, io.c:669, io.c:672, io.c:673, io.c:736, io.c:738, io.c:740, io.c:741, io.c:743, io.c:745, io.c:757, irc-login.c:100, irc-login.c:101, irc-login.c:103, irc-login.c:104, irc-login.c:106, irc-login.c:109, irc-login.c:110, irc-login.c:112, irc-login.c:115, irc-login.c:116, irc-login.c:118, irc-login.c:121, irc-login.c:124, irc-login.c:125, irc-login.c:126, irc-login.c:127, irc-login.c:129, irc-login.c:132, irc-login.c:133, irc-login.c:134, irc-login.c:138, irc-login.c:139, irc-login.c:154, irc-login.c:157, irc-login.c:179, irc-login.c:196, irc-login.c:197, irc-login.c:202, irc-login.c:214, irc-login.c:219, irc-login.c:227, irc-login.c:233, irc-login.c:235, irc-login.c:298, irc-login.c:303, irc-login.c:306, irc-login.c:307, irc-login.c:318, irc-login.c:319, irc-login.c:327, irc-login.c:328, irc-login.c:338, irc-login.c:339, irc-login.c:343, irc-login.c:345, irc-login.c:362, irc-login.c:368, irc-login.c:375, irc-login.c:380, irc-login.c:383, irc-login.c:384, irc-login.c:385, irc-login.c:386, irc-login.c:388, irc-login.c:406, irc-login.c:409, irc-login.c:410, irc-login.c:412, irc-login.c:429, irc-login.c:431, irc-login.c:432, irc-login.c:433, irc-login.c:437, irc-login.c:439, irc-login.c:59, irc-login.c:63, irc-login.c:67, irc-login.c:69, irc-login.c:75, irc-login.c:88, irc-login.c:89, irc-login.c:92, irc-login.c:95, irc-login.c:96, irc-login.c:98, irc-login.c:99, irc-server.c:103, irc-server.c:104, irc-server.c:107, irc-server.c:108, irc-server.c:109, irc-server.c:110, irc-server.c:115, irc-server.c:116, irc-server.c:126, irc-server.c:128, irc-server.c:144, irc-server.c:152, irc-server.c:159, irc-server.c:161, irc-server.c:204, irc-server.c:221, irc-server.c:223, irc-server.c:224, irc-server.c:226, irc-server.c:227, irc-server.c:228, irc-server.c:230, irc-server.c:233, irc-server.c:235, irc-server.c:236, irc-server.c:237, irc-server.c:240, irc-server.c:241, irc-server.c:266, irc-server.c:269, irc-server.c:273, irc-server.c:275, irc-server.c:63, irc-server.c:67, irc-server.c:70, irc-server.c:74, irc-server.c:77, irc-server.c:78, irc-server.c:85, irc-server.c:94, irc-server.c:97, irc-server.c:98, irc-server.c:99, irc-write.c:100, irc-write.c:104, irc-write.c:105, irc-write.c:107, irc-write.c:266, irc-write.c:270, irc-write.c:271, irc-write.c:273, irc-write.c:274, irc-write.c:298, irc-write.c:302, irc-write.c:303, irc-write.c:305, irc-write.c:306, irc-write.c:308, irc-write.c:313, irc-write.c:315, irc-write.c:424, irc-write.c:425, irc-write.c:57, irc-write.c:64, irc-write.c:68, irc-write.c:69, irc-write.c:72, irc-write.c:74, irc.c:49, irc.c:50, irc.c:52, ng_ipaddr.c:117, numeric.c:194, numeric.c:196, numeric.c:201, numeric.c:202, numeric.c:203, numeric.c:204, numeric.c:205, numeric.c:206, numeric.c:213, numeric.c:214, numeric.c:215, numeric.c:217, numeric.c:218, numeric.c:219, numeric.c:220, numeric.c:228, numeric.c:229, numeric.c:230, numeric.c:234, numeric.c:238, numeric.c:239, numeric.c:242, numeric.c:249, numeric.c:250, numeric.c:251, numeric.c:276, numeric.c:283, numeric.c:287, numeric.c:294, numeric.c:307, numeric.c:308, numeric.c:309, numeric.c:310, numeric.c:311, numeric.c:315, numeric.c:316, parse.c:170, parse.c:173, parse.c:176, parse.c:179, parse.c:180, parse.c:181, parse.c:186, parse.c:190, parse.c:192, parse.c:194, parse.c:197, parse.c:198, parse.c:200, parse.c:204, parse.c:207, parse.c:210, parse.c:213, parse.c:214, parse.c:217, parse.c:219, parse.c:220, parse.c:224, parse.c:225, parse.c:226, parse.c:228, parse.c:232, parse.c:237, parse.c:239, parse.c:240, parse.c:242, parse.c:243, parse.c:248, parse.c:249, parse.c:250, parse.c:252, parse.c:269, parse.c:270, parse.c:271, parse.c:272, parse.c:273, parse.c:284, parse.c:287, parse.c:290, parse.c:294, parse.c:303, parse.c:304, parse.c:315, parse.c:325, parse.c:334, parse.c:336, parse.c:345, parse.c:347, parse.c:361, parse.c:364, parse.c:365, parse.c:367, parse.c:369, parse.c:370, parse.c:377, parse.c:379, parse.c:381, parse.c:383, parse.c:384, parse.c:385, parse.c:426, parse.c:434, parse.c:438, parse.c:439, parse.c:442, parse.c:444, parse.c:445, parse.c:447, parse.c:448, parse.c:449, parse.c:452, parse.c:453, parse.c:456, parse.c:457, parse.c:458, parse.c:461, parse.c:462, parse.c:464, parse.c:465, parse.c:468, parse.c:474, parse.c:479, parse.c:484, 
+-
+(and (= Conf_ListenIPv4 |1|)
+     (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+-
+5 11 MHHM
+======
+# M/H: 6818 / 2328
+# Last rebuild:   iter -1  num_configs -1
+channel.c:220, channel.c:221, channel.c:222, channel.c:224, channel.c:288, channel.c:290, channel.c:291, channel.c:293, channel.c:294, channel.c:295, channel.c:297, channel.c:304, channel.c:306, channel.c:307, channel.c:309, channel.c:310, channel.c:312, channel.c:422, channel.c:449, channel.c:855, channel.c:856, channel.c:857, channel.c:863, client.c:1020, client.c:1022, client.c:1023, client.c:1025, client.c:1026, client.c:1028, client.c:1095, client.c:1096, client.c:1117, client.c:1119, client.c:1120, client.c:265, client.c:268, client.c:270, client.c:273, client.c:293, client.c:296, client.c:478, client.c:479, client.c:494, client.c:495, client.c:498, client.c:499, client.c:517, client.c:519, client.c:520, client.c:523, client.c:525, client.c:526, client.c:528, client.c:631, client.c:639, client.c:671, client.c:776, client.c:783, client.c:856, client.c:863, client.c:870, client.c:877, client.c:885, client.c:887, client.c:888, client.c:890, client.c:891, client.c:893, client.c:901, client.c:903, client.c:904, client.c:906, client.c:907, client.c:909, client.c:917, client.c:919, client.c:920, client.c:922, client.c:923, client.c:926, client.c:933, client.c:940, client.c:956, client.c:957, client.c:959, client.c:960, client.c:961, client.c:964, conn-func.c:112, conn-func.c:113, conn-func.c:144, conn-func.c:146, conn-func.c:148, conn-func.c:69, conn.c:787, irc-channel.c:188, irc-channel.c:193, irc-channel.c:196, irc-channel.c:198, irc-channel.c:202, irc-channel.c:206, irc-channel.c:211, irc-channel.c:213, irc-channel.c:214, irc-channel.c:215, irc-channel.c:217, irc-channel.c:218, irc-channel.c:221, irc-channel.c:229, irc-channel.c:230, irc-channel.c:285, irc-channel.c:301, irc-channel.c:306, irc-channel.c:309, irc-channel.c:310, irc-channel.c:315, irc-channel.c:316, irc-channel.c:317, irc-channel.c:319, irc-channel.c:321, irc-info.c:1094, irc-info.c:1097, irc-info.c:1098, irc-info.c:1104, irc-info.c:1105, irc-info.c:1107, irc-info.c:1111, irc-info.c:1114, irc-info.c:1118, irc-info.c:1119, irc-info.c:1120, irc-info.c:1124, irc-info.c:1125, irc-info.c:1126, irc-info.c:1131, irc-info.c:1138, irc-info.c:1145, irc-info.c:1151, irc-info.c:1163, irc-info.c:1172, irc-info.c:1173, irc-info.c:1178, irc-info.c:1183, irc-info.c:1184, irc-info.c:1186, irc-info.c:1191, irc-info.c:1192, irc-info.c:1261, irc-info.c:1264, irc-login.c:239, irc-login.c:243, irc-login.c:247, irc-login.c:251, irc-login.c:252, irc-login.c:254, irc-login.c:296, irc-login.c:390, irc-login.c:494, irc-login.c:524, irc-login.c:527, irc-login.c:532, irc-login.c:559, irc-login.c:560, irc-login.c:568, irc-login.c:578, irc-login.c:587, irc-login.c:591, irc-login.c:596, irc-login.c:599, irc-login.c:604, irc-login.c:607, irc-login.c:615, irc-login.c:618, irc-login.c:620, irc-login.c:622, irc-login.c:626, irc-login.c:628, irc-mode.c:100, irc-mode.c:104, irc-mode.c:106, irc-mode.c:107, irc-mode.c:110, irc-mode.c:111, irc-mode.c:115, irc-mode.c:116, irc-mode.c:118, irc-mode.c:119, irc-mode.c:120, irc-mode.c:122, irc-mode.c:123, irc-mode.c:126, irc-mode.c:127, irc-mode.c:128, irc-mode.c:131, irc-mode.c:132, irc-mode.c:133, irc-mode.c:157, irc-mode.c:159, irc-mode.c:160, irc-mode.c:161, irc-mode.c:163, irc-mode.c:164, irc-mode.c:165, irc-mode.c:174, irc-mode.c:176, irc-mode.c:178, irc-mode.c:179, irc-mode.c:182, irc-mode.c:195, irc-mode.c:198, irc-mode.c:200, irc-mode.c:209, irc-mode.c:215, irc-mode.c:218, irc-mode.c:219, irc-mode.c:221, irc-mode.c:229, irc-mode.c:230, irc-mode.c:232, irc-mode.c:235, irc-mode.c:236, irc-mode.c:58, irc-mode.c:61, irc-mode.c:66, irc-mode.c:69, irc-mode.c:70, irc-mode.c:71, irc-mode.c:72, irc-mode.c:73, irc-mode.c:75, irc-mode.c:76, irc-mode.c:77, irc-mode.c:97, irc-oper.c:59, irc-oper.c:62, irc-oper.c:64, irc-oper.c:66, irc-oper.c:70, irc-oper.c:74, irc-oper.c:77, irc-oper.c:80, irc-oper.c:81, irc-oper.c:82, irc-oper.c:85, irc-oper.c:87, irc-oper.c:88, irc-write.c:235, irc-write.c:239, irc-write.c:240, irc-write.c:243, irc-write.c:244, irc-write.c:331, irc-write.c:344, irc-write.c:348, irc-write.c:349, irc-write.c:352, irc-write.c:356, irc-write.c:357, irc-write.c:387, irc-write.c:388, irc-write.c:398, irc-write.c:410, irc-write.c:412, irc-write.c:413, irc-write.c:414, irc-write.c:415, match.c:206, match.c:209, match.c:212, match.c:219, match.c:223, match.c:51, match.c:64, match.c:67, match.c:74, match.c:77, match.c:79, tool.c:101, tool.c:102, tool.c:104, tool.c:106, tool.c:107, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |5|)
+               (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 11 M 9 MMHHHHHH 9 MMHHHHHHM
+======
+# M/H: 7978 / 1168
+# Last rebuild:   iter -1  num_configs -1
+channel.c:249, channel.c:250, conn-func.c:50, conn-func.c:59, irc-info.c:1049, irc-info.c:1053, irc-info.c:1061, irc-info.c:1067, irc-info.c:1068, irc-info.c:175, irc-info.c:176, irc-info.c:607, irc-info.c:608, irc-info.c:609, irc-info.c:610, irc-info.c:611, irc-info.c:612, irc-info.c:613, irc-info.c:614, irc-info.c:615, irc-info.c:895, irc-info.c:896, irc-info.c:897, irc-info.c:900, irc-info.c:906, irc-info.c:910, irc-info.c:913, irc-info.c:916, irc-info.c:919, irc-info.c:920, irc-info.c:921, irc-info.c:945, irc-info.c:952, irc-info.c:958, irc-info.c:959, irc-info.c:967, irc-info.c:973, irc-op.c:111, irc-op.c:114, irc-op.c:116, irc-op.c:119, irc-op.c:122, irc-op.c:57, irc-op.c:58, irc-op.c:83, irc-op.c:85, irc.c:191, irc.c:226, irc.c:229, irc.c:236, irc.c:237, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)))
+      (a!3 (or (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+(let ((a!2 (or (and (= Conf_MaxNickLength |6|) a!1)
+               (and (= Conf_MaxNickLength |9|) a!1)
+               (and (= Conf_MaxNickLength |8|) a!1)
+               (and (= Conf_MaxNickLength |10|) a!1)
+               (and (= Conf_MaxNickLength |100|) a!1)))
+      (a!4 (and (= Conf_PingTimeout |120|)
+                (or (and (= Conf_MaxConnectionsIP |100|) a!3)
+                    (and (= Conf_MaxConnectionsIP |0|) a!3)
+                    (and (= Conf_MaxConnectionsIP |2|) a!3)))))
+(let ((a!5 (and (= Conf_PongTimeout |20|)
+                (or a!4 (and (= Conf_PingTimeout |3600|) a!2)))))
+  (and (= Conf_ListenIPv4 |1|) (or (and (= Conf_PongTimeout |3600|) a!2) a!5)))))
+-
+5 11 M 10 M 8 9 MMMHHHHHM 9 MMMHHHHH 9 MMMHHHHH 9 MMM 8 HMHH 8 HMHH 8 HMHH 8 HMHH 8 HMHH 9 MMM 8 HMHH 8 HMHH 8 HMHH 8 HMHH 8 HMHHM
+======
+# M/H: 8568 / 578
+# Last rebuild:   iter -1  num_configs -1
+channel.c:252, channel.c:253, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|))))
+(let ((a!2 (or (and (= Conf_MaxNickLength |6|) a!1)
+               (and (= Conf_MaxNickLength |8|) a!1)
+               (and (= Conf_MaxNickLength |9|) a!1)
+               (and (= Conf_MaxNickLength |10|) a!1)
+               (and (= Conf_MaxNickLength |100|) a!1))))
+(let ((a!3 (and (= Conf_PongTimeout |20|)
+                (or (and (= Conf_PingTimeout |120|) a!2)
+                    (and (= Conf_PingTimeout |3600|) a!2)))))
+  (and (= Conf_PredefChannelsOnly |1|)
+       (= Conf_ListenIPv4 |1|)
+       (or a!3 (and (= Conf_PongTimeout |3600|) a!2))))))
+-
+12 5 11 M 10 M 9 MMM 8 HMHH 8 HMHH 8 HMHH 8 HMHH 8 HMHH 9 MMM 8 HMHH 8 HMHH 8 HMHH 8 HMHH 8 HMHH 9 MMM 8 HMHH 8 HMHH 8 HMHH 8 HMHH 8 HMHHMM
+======
+# M/H: 7466 / 1680
+# Last rebuild:   iter -1  num_configs -1
+channel.c:320, channel.c:324, channel.c:325, channel.c:330, client.c:974, client.c:983, irc-channel.c:407, irc-channel.c:411, irc-channel.c:412, irc-channel.c:414, irc-channel.c:417, irc-channel.c:420, irc-channel.c:422, irc-channel.c:426, irc-channel.c:443, irc-channel.c:446, irc-channel.c:447, irc-channel.c:450, irc-channel.c:453, irc-channel.c:456, irc-channel.c:464, irc-channel.c:468, irc-channel.c:469, irc-channel.c:471, irc-channel.c:474, irc-info.c:1002, irc-info.c:1005, irc-info.c:1008, irc-info.c:1010, irc-info.c:1015, irc-info.c:1029, irc-info.c:1030, irc-info.c:1031, irc-info.c:1033, irc-info.c:1039, irc-info.c:1041, irc-info.c:1042, irc-info.c:1043, irc-info.c:1046, irc-info.c:1072, irc-info.c:1075, irc-info.c:1078, irc-info.c:162, irc-info.c:164, irc-info.c:165, irc-info.c:167, irc-info.c:168, irc-info.c:170, irc-info.c:171, irc-info.c:172, irc-info.c:178, irc-info.c:181, irc-info.c:183, irc-info.c:595, irc-info.c:597, irc-info.c:598, irc-info.c:600, irc-info.c:601, irc-info.c:603, irc-info.c:604, irc-info.c:618, irc-info.c:620, irc-info.c:631, irc-info.c:784, irc-info.c:785, irc-info.c:824, irc-info.c:839, irc-info.c:841, irc-info.c:845, irc-info.c:846, irc-info.c:856, irc-info.c:861, irc-info.c:863, irc-info.c:870, irc-info.c:888, irc-info.c:891, irc-info.c:892, irc-info.c:994, irc-info.c:999, irc-op.c:47, irc-op.c:49, irc-op.c:50, irc-op.c:51, irc-op.c:54, irc-op.c:55, irc-op.c:67, irc-op.c:73, irc-op.c:75, irc-op.c:76, irc-op.c:77, irc-op.c:80, irc-op.c:81, irc.c:74, irc.c:83, irc.c:86, 
+-
+(let ((a!1 (or (= Conf_PingTimeout |120|)
+               (= Conf_PingTimeout |3600|)
+               (and (= Conf_PingTimeout |1|) (= Conf_MaxConnectionsIP |1|)))))
+(let ((a!2 (and (= Conf_PongTimeout |20|)
+                (or (and (= Conf_MaxNickLength |10|) a!1)
+                    (and (= Conf_MaxNickLength |9|) a!1)
+                    (and (= Conf_MaxNickLength |6|) a!1)
+                    (and (= Conf_MaxNickLength |100|) a!1)
+                    (and (= Conf_MaxNickLength |8|) a!1)))))
+(let ((a!3 (or a!2
+               (and (= Conf_PongTimeout |3600|)
+                    (or (= Conf_MaxNickLength |6|)
+                        (= Conf_MaxNickLength |8|)
+                        (= Conf_MaxNickLength |9|)
+                        (= Conf_MaxNickLength |10|)
+                        (= Conf_MaxNickLength |100|))))))
+  (and (= Conf_ListenIPv4 |1|) a!3))))
+-
+5 11 M 9 MMM 10 8 MHMMHH 10 8 MHMMHH 10 8 MHMMHH 10 8 MHMMHH 10 8 MHMMHH 9 MMMHHHHHM
+======
+# M/H: 7035 / 2111
+# Last rebuild:   iter -1  num_configs -1
+channel.c:368, channel.c:618, channel.c:805, channel.c:806, conn-func.c:122, conn-func.c:158, conn-func.c:162, conn-func.c:164, conn-func.c:166, irc-info.c:1207, irc-info.c:1211, irc-info.c:1214, irc-info.c:1215, irc-info.c:1216, irc-info.c:1242, irc-info.c:1248, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|)
+               (and (= Conf_MaxNickLength |5|) (= Conf_PredefChannelsOnly |0|)))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 11 M 9 MM 12 MHHHHHH 9 MM 12 MHHHHHHM
+======
+# M/H: 7141 / 2005
+# Last rebuild:   iter -1  num_configs -1
+channel.c:627, channel.c:628, 
+-
+(let ((a!1 (and (= Conf_PongTimeout |3600|)
+                (or (= Conf_MaxNickLength |6|)
+                    (= Conf_MaxNickLength |8|)
+                    (= Conf_MaxNickLength |9|)
+                    (= Conf_MaxNickLength |10|)
+                    (= Conf_MaxNickLength |100|)
+                    (and (= Conf_MaxNickLength |5|)
+                         (= Conf_PredefChannelsOnly |0|)))))
+      (a!2 (and (= Conf_PredefChannelsOnly |1|)
+                (or (= Conf_PingTimeout |120|)
+                    (= Conf_PingTimeout |3600|)
+                    (and (= Conf_PingTimeout |1|) (= Conf_MaxConnectionsIP |1|)))))
+      (a!3 (and (= Conf_PingTimeout |1|)
+                (or (= Conf_PredefChannelsOnly |0|)
+                    (and (= Conf_PredefChannelsOnly |1|)
+                         (= Conf_MaxConnectionsIP |1|))))))
+(let ((a!4 (or (and (= Conf_MaxNickLength |10|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!2))
+               (and (= Conf_MaxNickLength |6|)
+                    (or (= Conf_PingTimeout |120|)
+                        (= Conf_PingTimeout |3600|)
+                        a!3))
+               (and (= Conf_MaxNickLength |9|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!2))
+               (and (= Conf_MaxNickLength |5|) (= Conf_PredefChannelsOnly |0|))
+               (and (= Conf_MaxNickLength |100|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!2))
+               (and (= Conf_MaxNickLength |8|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!2)))))
+  (and (= Conf_ListenIPv4 |1|) (or a!1 (and (= Conf_PongTimeout |20|) a!4)))))
+-
+5 11 M 9 MM 12 MH 10 12 8 MHMMHHH 12 10 8 MHMMHHH 12 10 8 MHMMHHH 12 10 8 MHMMHHH 12 10 8 MHMMHHH 9 MM 12 MHHHHHHM
+======
+# M/H: 7223 / 1923
+# Last rebuild:   iter -1  num_configs -1
+channel.c:811, client.c:434, client.c:435, client.c:436, client.c:741, client.c:996, conf.c:148, conf.c:150, conf.c:153, conf.c:154, conf.c:351, conf.c:352, conf.c:359, conf.c:370, conf.c:371, conf.c:377, conf.c:525, conf.c:540, conf.c:541, conf.c:575, conf.c:576, conn-func.c:191, conn-func.c:192, conn-func.c:193, conn-func.c:210, conn-func.c:220, conn-func.c:230, conn-func.c:255, conn-func.c:265, conn.c:506, conn.c:579, conn.c:895, conn.c:897, conn.c:898, conn.c:901, conn.c:902, conn.c:914, io.c:631, irc-channel.c:203, irc-channel.c:57, irc-channel.c:62, irc-info.c:104, irc-info.c:107, irc-info.c:108, irc-info.c:113, irc-info.c:116, irc-info.c:119, irc-info.c:1208, irc-info.c:122, irc-info.c:127, irc-info.c:133, irc-info.c:137, irc-info.c:138, irc-info.c:139, irc-info.c:142, irc-info.c:145, irc-info.c:146, irc-info.c:197, irc-info.c:200, irc-info.c:201, irc-info.c:204, irc-info.c:205, irc-info.c:206, irc-info.c:209, irc-info.c:217, irc-info.c:218, irc-info.c:219, irc-info.c:221, irc-info.c:222, irc-info.c:224, irc-info.c:226, irc-info.c:228, irc-info.c:231, irc-info.c:232, irc-info.c:317, irc-info.c:320, irc-info.c:321, irc-info.c:322, irc-info.c:324, irc-info.c:337, irc-info.c:340, irc-info.c:341, irc-info.c:343, irc-info.c:344, irc-info.c:349, irc-info.c:352, irc-info.c:354, irc-info.c:358, irc-info.c:359, irc-info.c:362, irc-info.c:365, irc-info.c:369, irc-info.c:370, irc-info.c:371, irc-info.c:373, irc-info.c:376, irc-info.c:377, irc-info.c:379, irc-info.c:388, irc-info.c:390, irc-info.c:393, irc-info.c:396, irc-info.c:397, irc-info.c:450, irc-info.c:454, irc-info.c:457, irc-info.c:459, irc-info.c:462, irc-info.c:474, irc-info.c:475, irc-info.c:477, irc-info.c:479, irc-info.c:480, irc-info.c:481, irc-info.c:482, irc-info.c:483, irc-info.c:484, irc-info.c:485, irc-info.c:487, irc-info.c:499, irc-info.c:505, irc-info.c:506, irc-info.c:507, irc-info.c:517, irc-info.c:518, irc-info.c:529, irc-info.c:53, irc-info.c:530, irc-info.c:558, irc-info.c:56, irc-info.c:561, irc-info.c:562, irc-info.c:563, irc-info.c:565, irc-info.c:57, irc-info.c:578, irc-info.c:579, irc-info.c:580, irc-info.c:60, irc-info.c:61, irc-info.c:62, irc-info.c:645, irc-info.c:648, irc-info.c:649, irc-info.c:65, irc-info.c:652, irc-info.c:653, irc-info.c:654, irc-info.c:657, irc-info.c:667, irc-info.c:668, irc-info.c:75, irc-info.c:755, irc-info.c:757, irc-info.c:759, irc-info.c:76, irc-info.c:77, irc-info.c:777, irc-info.c:78, irc-info.c:780, irc-info.c:781, irc-info.c:783, irc-info.c:791, irc-info.c:792, irc-info.c:793, irc-info.c:794, irc-info.c:796, irc-info.c:797, irc-info.c:798, irc-info.c:799, irc-info.c:80, irc-info.c:800, irc-info.c:804, irc-info.c:805, irc-info.c:806, irc-info.c:81, irc-info.c:819, irc-info.c:820, irc-info.c:823, irc-info.c:826, irc-info.c:827, irc-info.c:828, irc-info.c:829, irc-info.c:830, irc-info.c:831, irc-info.c:832, irc-info.c:833, irc-info.c:835, irc-info.c:836, irc-info.c:867, irc-info.c:868, irc-info.c:872, irc-info.c:99, irc-login.c:259, irc-login.c:262, irc-login.c:278, irc-login.c:279, irc-login.c:282, irc-login.c:284, irc-login.c:288, irc-login.c:291, irc-login.c:293, irc-mode.c:582, irc-mode.c:584, irc-mode.c:587, irc-mode.c:588, irc-mode.c:589, irc-mode.c:590, irc-mode.c:595, irc-mode.c:596, irc-mode.c:597, irc-oper.c:104, irc-oper.c:112, irc-oper.c:118, irc-oper.c:129, irc-oper.c:131, irc-oper.c:133, irc-oper.c:146, irc-oper.c:149, irc-oper.c:151, irc-oper.c:152, irc-oper.c:154, irc-oper.c:167, irc-oper.c:170, irc-oper.c:172, irc-oper.c:173, irc-oper.c:174, irc-oper.c:189, irc-oper.c:194, irc-oper.c:199, irc-oper.c:203, irc-oper.c:208, irc-oper.c:209, irc-oper.c:210, irc-oper.c:214, irc-oper.c:216, irc-oper.c:218, irc-write.c:391, irc-write.c:392, irc-write.c:393, irc-write.c:396, irc.c:181, irc.c:183, irc.c:184, irc.c:185, irc.c:187, irc.c:188, irc.c:195, irc.c:196, irc.c:214, irc.c:215, irc.c:216, irc.c:218, irc.c:219, irc.c:220, irc.c:222, irc.c:223, irc.c:240, irc.c:241, irc.c:258, irc.c:261, irc.c:262, irc.c:263, irc.c:266, irc.c:267, irc.c:270, irc.c:285, irc.c:286, irc.c:288, irc.c:291, irc.c:298, irc.c:304, irc.c:307, irc.c:308, match.c:102, match.c:104, match.c:105, match.c:109, match.c:110, match.c:113, match.c:116, match.c:119, match.c:122, match.c:125, match.c:134, match.c:139, match.c:141, match.c:143, match.c:144, match.c:159, match.c:163, match.c:183, match.c:184, match.c:191, match.c:193, match.c:52, match.c:80, match.c:83, match.c:86, match.c:87, match.c:89, match.c:90, match.c:94, match.c:96, match.c:97, match.c:99, ngircd.c:436, ngircd.c:437, ngircd.c:440, ngircd.c:441, ngircd.c:444, ngircd.c:448, ngircd.c:452, ngircd.c:456, ngircd.c:462, ngircd.c:465, ngircd.c:468, ngircd.c:470, ngircd.c:471, ngircd.c:709, tool.c:80, tool.c:81, tool.c:83, tool.c:84, tool.c:87, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 11 M 9 MMMHHHHH 9 MMMHHHHHM
+======
+# M/H: 6846 / 2300
+# Last rebuild:   iter -1  num_configs -1
+client.c:1072, client.c:1073, client.c:1074, irc-login.c:489, irc-login.c:490, numeric.c:216, numeric.c:222, numeric.c:51, numeric.c:54, numeric.c:61, numeric.c:62, numeric.c:67, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 11 M 8 HMHH 8 HMHHM
+======
+# M/H: 7218 / 1928
+# Last rebuild:   iter -1  num_configs -1
+client.c:1122, client.c:1123, client.c:1129, client.c:1130, client.c:1132, client.c:1134, client.c:1136, client.c:1138, client.c:1141, client.c:1142, 
+-
+(let ((a!1 (and (= Conf_NoDNS |0|)
+                (or (= Conf_PingTimeout |1|)
+                    (and (= Conf_PingTimeout |3600|) (= Conf_ConnectRetry |5|)))))
+      (a!4 (and (= Conf_OperCanMode |1|)
+                (or (= Conf_MaxConnectionsIP |0|)
+                    (= Conf_MaxConnectionsIP |2|)
+                    (= Conf_MaxConnectionsIP |100|)
+                    (and (= Conf_MaxConnectionsIP |1|) (= Conf_PingTimeout |1|)))))
+      (a!7 (and (= Conf_PingTimeout |3600|)
+                (= Conf_ConnectRetry |5|)
+                (= Conf_OperCanMode |0|)))
+      (a!13 (and (= Conf_MaxConnectionsIP |1|)
+                 (or (= Conf_PingTimeout |1|)
+                     (and (= Conf_PingTimeout |120|) (= Conf_UID |4096|)))))
+      (a!16 (and (= Conf_PingTimeout |120|)
+                 (or (= Conf_UID |4096|)
+                     (and (= Conf_UID |0|) (= Conf_OperCanMode |0|)))))
+      (a!22 (or (= Conf_UID |4096|)
+                (and (= Conf_UID |0|)
+                     (or (= Conf_MaxConnectionsIP |0|)
+                         (= Conf_MaxConnectionsIP |2|)
+                         (= Conf_MaxConnectionsIP |100|)))))
+      (a!24 (and (= Conf_MaxConnectionsIP |1|)
+                 (or (= Conf_UID |4096|)
+                     (and (= Conf_UID |0|)
+                          (= Conf_OperCanMode |0|)
+                          (= Conf_ConnectRetry |5|)))))
+      (a!26 (or (= Conf_PingTimeout |1|)
+                (= Conf_PingTimeout |3600|)
+                (and (= Conf_PingTimeout |120|)
+                     (or (= Conf_MaxConnectionsIP |0|)
+                         (= Conf_MaxConnectionsIP |100|))))))
+(let ((a!2 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)
+               (and (= Conf_MaxConnectionsIP |1|) (or (= Conf_NoDNS |1|) a!1))))
+      (a!5 (or (= Conf_UID |4096|)
+               (and (= Conf_UID |0|) (or (= Conf_OperCanMode |0|) a!4))))
+      (a!8 (and (= Conf_NoDNS |0|)
+                (or (= Conf_PingTimeout |1|)
+                    (and (= Conf_PingTimeout |120|) (= Conf_MaxJoins |100|))
+                    a!7)))
+      (a!11 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|) (or (= Conf_OperCanMode |0|) a!4))))
+      (a!14 (or (= Conf_OperCanMode |0|)
+                (and (= Conf_OperCanMode |1|)
+                     (or (= Conf_MaxConnectionsIP |0|)
+                         (= Conf_MaxConnectionsIP |2|)
+                         (= Conf_MaxConnectionsIP |100|)
+                         a!13))))
+      (a!17 (and (= Conf_MaxConnectionsIP |1|)
+                 (or (= Conf_PingTimeout |1|)
+                     a!16
+                     (and (= Conf_PingTimeout |3600|) (= Conf_UID |4096|)))))
+      (a!19 (and (= Conf_MaxConnectionsIP |1|)
+                 (or (= Conf_PingTimeout |1|)
+                     (and (= Conf_PingTimeout |120|) (= Conf_OperCanMode |0|))
+                     a!7)))
+      (a!23 (and (= Conf_PingTimeout |120|)
+                 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) a!22))))
+      (a!25 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|)
+                     (or (= Conf_MaxConnectionsIP |0|)
+                         (= Conf_MaxConnectionsIP |2|)
+                         (= Conf_MaxConnectionsIP |100|)
+                         a!24))))
+      (a!27 (and (= Conf_ConnectRetry |60|)
+                 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) a!26)))))
+(let ((a!3 (and (= Conf_MaxNickLength |9|)
+                (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!2))))
+      (a!6 (and (= Conf_MaxNickLength |8|)
+                (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) a!5))))
+      (a!9 (or (= Conf_UID |4096|)
+               (and (= Conf_UID |0|) (or (= Conf_NoDNS |1|) a!8))))
+      (a!12 (and (= Conf_MaxNickLength |100|)
+                 (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!11))))
+      (a!15 (and (= Conf_MaxNickLength |10|)
+                 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) a!14))))
+      (a!18 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|)
+                     (or (= Conf_MaxConnectionsIP |0|)
+                         (= Conf_MaxConnectionsIP |2|)
+                         (= Conf_MaxConnectionsIP |100|)
+                         a!17))))
+      (a!20 (or (= Conf_UID |4096|)
+                (and (= Conf_UID |0|)
+                     (or (= Conf_MaxConnectionsIP |0|)
+                         (= Conf_MaxConnectionsIP |2|)
+                         (= Conf_MaxConnectionsIP |100|)
+                         a!19))))
+      (a!28 (or (= Conf_UID |4096|)
+                (and (= Conf_UID |0|) (or (= Conf_ConnectRetry |5|) a!27)))))
+(let ((a!10 (and (= Conf_MaxNickLength |6|)
+                 (or (= Conf_MaxConnectionsIP |0|)
+                     (= Conf_MaxConnectionsIP |2|)
+                     (= Conf_MaxConnectionsIP |100|)
+                     (and (= Conf_MaxConnectionsIP |1|) a!9))))
+      (a!21 (and (= Conf_MaxNickLength |9|)
+                 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) a!20)))))
+(let ((a!29 (or (and (= Conf_MaxNickLength |10|) a!18)
+                a!21
+                (and (= Conf_MaxNickLength |5|) (= Conf_PingTimeout |1|))
+                (and (= Conf_MaxNickLength |100|)
+                     (or (= Conf_PingTimeout |1|)
+                         (= Conf_PingTimeout |3600|)
+                         a!23))
+                (and (= Conf_MaxNickLength |6|) a!25)
+                (and (= Conf_MaxNickLength |8|) a!28))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |3600|) (or a!3 a!6 a!10 a!12 a!15))
+           (and (= Conf_PongTimeout |20|) a!29))))))))
+-
+5 11 M 9 MM 10 HMM 4 H 8 H 0 3 M 2 HMHHH 0 2 H 4 H 10 H 8 HMMHHH 4 H 0 8 H 10 H 3 MH 2 3 MHMHHH 4 H 8 H 10 H 0 3 MHH 0 MHHH 10 H 4 H 0 8 HMHHHH 9 MMM 8 H 0 4 H 10 H 7 MMMH 2 3 MHMHHH 4 H 0 3 8 H 10 HMMHHHH 0 8 H 4 H 10 HM 2 HMHHH 4 H 3 8 H 10 H 0 MHMHHH 0 4 H 3 8 H 10 HMMHHHHM
+======
+# M/H: 6167 / 2979
+# Last rebuild:   iter -1  num_configs -1
+client.c:302, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |0|)
+               (= Conf_MaxNickLength |4|)
+               (= Conf_MaxNickLength |5|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|)
+               (and (= Conf_MaxNickLength |6|)
+                    (or (= Conf_MaxConnectionsIP |0|)
+                        (= Conf_MaxConnectionsIP |2|)
+                        (= Conf_MaxConnectionsIP |100|)))))
+      (a!2 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)
+               (and (= Conf_MaxConnectionsIP |1|)
+                    (or (= Conf_MaxNickLength |0|)
+                        (= Conf_MaxNickLength |4|)
+                        (= Conf_MaxNickLength |5|)
+                        (= Conf_MaxNickLength |8|)
+                        (= Conf_MaxNickLength |9|)
+                        (= Conf_MaxNickLength |10|)
+                        (= Conf_MaxNickLength |100|))))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!2))))
+-
+5 11 M 9 HHH 8 HMHHHHHH 8 H 9 HHHMHHHHHHM
+======
+# M/H: 5971 / 3175
+# Last rebuild:   iter -1  num_configs -1
+client.c:328, client.c:329, 
+-
+(let ((a!1 (and (= Conf_OperCanMode |1|)
+                (or (= Conf_UID |4096|)
+                    (and (= Conf_UID |0|) (= Conf_NoDNS |1|)))))
+      (a!2 (and (= Conf_NoDNS |0|)
+                (or (= Conf_UID |4096|)
+                    (and (= Conf_UID |0|)
+                         (= Conf_OperCanMode |0|)
+                         (= Conf_ConnectRetry |5|)))))
+      (a!3 (and (= Conf_MaxJoins |100|)
+                (or (= Conf_ConnectRetry |5|)
+                    (and (= Conf_ConnectRetry |60|) (= Conf_PingTimeout |3600|)))))
+      (a!7 (and (= Conf_UID |0|)
+                (or (= Conf_NoDNS |1|)
+                    (and (= Conf_NoDNS |0|) (= Conf_OperServerMode |0|)))))
+      (a!8 (and (= Conf_NoDNS |0|)
+                (or (= Conf_UID |4096|)
+                    (and (= Conf_UID |0|) (= Conf_OperCanMode |0|)))))
+      (a!10 (and (= Conf_UID |0|)
+                 (= Conf_OperCanMode |0|)
+                 (or (= Conf_PingTimeout |120|)
+                     (= Conf_PingTimeout |3600|)
+                     (and (= Conf_PingTimeout |1|) (= Conf_ConnectRetry |5|)))))
+      (a!12 (and (= Conf_NoDNS |0|)
+                 (= Conf_OperCanMode |0|)
+                 (or (= Conf_GID |0|)
+                     (and (= Conf_GID |1|) (= Conf_ConnectRetry |5|)))))
+      (a!14 (and (= Conf_UID |0|)
+                 (or (= Conf_NoDNS |1|)
+                     (and (= Conf_NoDNS |0|) (= Conf_MaxJoins |0|)))))
+      (a!16 (or (= Conf_ConnectRetry |5|)
+                (and (= Conf_ConnectRetry |60|) (= Conf_MaxJoins |0|))))
+      (a!19 (or (= Conf_UID |4096|)
+                (and (= Conf_UID |0|)
+                     (= Conf_OperCanMode |0|)
+                     (or (= Conf_PingTimeout |120|) (= Conf_PingTimeout |3600|)))))
+      (a!22 (and (= Conf_OperCanMode |0|)
+                 (or (= Conf_PingTimeout |120|)
+                     (= Conf_PingTimeout |3600|)
+                     (and (= Conf_PingTimeout |1|) (= Conf_GID |1|)))))
+      (a!24 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|)
+                     (= Conf_OperCanMode |0|)
+                     (= Conf_PredefChannelsOnly |0|)
+                     (or (= Conf_MaxJoins |0|)
+                         (= Conf_MaxJoins |1|)
+                         (= Conf_MaxJoins |100|)))))
+      (a!26 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|)
+                     (= Conf_OperCanMode |0|)
+                     (or (= Conf_PingTimeout |120|) (= Conf_PingTimeout |3600|))))))
+(let ((a!4 (or (= Conf_NoDNS |1|)
+               (and (= Conf_NoDNS |0|)
+                    (= Conf_OperCanMode |0|)
+                    (or (= Conf_MaxJoins |0|) (= Conf_MaxJoins |1|) a!3))))
+      (a!9 (or (and (= Conf_MaxConnectionsIP |2|)
+                    (or (= Conf_OperCanMode |0|) a!1))
+               (and (= Conf_MaxConnectionsIP |100|)
+                    (or (= Conf_UID |4096|) a!7))
+               (and (= Conf_MaxConnectionsIP |0|) (or (= Conf_NoDNS |1|) a!8))))
+      (a!11 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|) (or (= Conf_UID |4096|) a!10))))
+      (a!13 (or (= Conf_UID |4096|)
+                (and (= Conf_UID |0|) (or (= Conf_NoDNS |1|) a!12))))
+      (a!17 (and (= Conf_UID |0|)
+                 (or (= Conf_NoDNS |1|)
+                     (and (= Conf_NoDNS |0|) (= Conf_OperCanMode |0|) a!16))))
+      (a!18 (and (= Conf_UID |0|)
+                 (or (and (= Conf_OperCanMode |1|) (= Conf_NoDNS |1|))
+                     (and (= Conf_OperCanMode |0|) a!16))))
+      (a!20 (and (= Conf_MaxConnectionsIP |2|)
+                 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) a!19))))
+      (a!23 (and (= Conf_UID |0|)
+                 (or (and (= Conf_OperCanMode |1|) (= Conf_NoDNS |1|)) a!22)))
+      (a!25 (and (= Conf_MaxConnectionsIP |2|)
+                 (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!24))))
+      (a!27 (and (= Conf_MaxConnectionsIP |100|)
+                 (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!26)))))
+(let ((a!5 (and (= Conf_MaxConnectionsIP |100|)
+                (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!4))))
+      (a!15 (or (and (= Conf_MaxConnectionsIP |0|) a!11)
+                (and (= Conf_MaxConnectionsIP |2|) a!13)
+                (and (= Conf_MaxConnectionsIP |100|)
+                     (or (= Conf_UID |4096|) a!14))))
+      (a!21 (or (and (= Conf_MaxConnectionsIP |100|)
+                     (or (= Conf_UID |4096|) a!17))
+                (and (= Conf_MaxConnectionsIP |0|)
+                     (or (= Conf_UID |4096|) a!18))
+                a!20))
+      (a!28 (or (and (= Conf_MaxConnectionsIP |0|)
+                     (or (= Conf_UID |4096|) a!23))
+                a!25
+                a!27)))
+(let ((a!6 (or (and (= Conf_MaxConnectionsIP |0|)
+                    (or (= Conf_OperCanMode |0|) a!1))
+               (and (= Conf_MaxConnectionsIP |2|) (or (= Conf_NoDNS |1|) a!2))
+               a!5)))
+(let ((a!29 (and (= Conf_PongTimeout |3600|)
+                 (or (and (= Conf_MaxNickLength |10|) a!6)
+                     (and (= Conf_MaxNickLength |8|) a!9)
+                     (and (= Conf_MaxNickLength |6|) a!15)
+                     (and (= Conf_MaxNickLength |100|) a!21)
+                     (and (= Conf_MaxNickLength |9|) a!28)))))
+(let ((a!30 (or (= Conf_PongTimeout |1|)
+                (and (= Conf_PongTimeout |20|)
+                     (or (= Conf_MaxConnectionsIP |0|)
+                         (= Conf_MaxConnectionsIP |2|)
+                         (= Conf_MaxConnectionsIP |100|)))
+                a!29)))
+  (and (= Conf_ListenIPv4 |1|) a!30)))))))
+-
+5 11 H 8 HMHH 9 MMM 8 4 H 0 3 M 10 2 HMHHHM 0 4 H 3 M 1 H 2 HMH 0 4 H 7 HMMMH 8 4 H 0 3 MHHM 3 0 4 HMHH 0 4 H 6 MHH 8 0 3 4 HM 10 1 MHHHHM 0 4 H 3 M 12 M 7 HHMHH 0 4 H 3 M 10 MHHH 8 3 0 4 HMHHM 4 H 0 3 M 2 HMH 0 4 H 3 M 7 HHM 2 H 10 MMHH 8 0 3 4 HM 2 H 7 HMMMHM 4 H 0 3 M 10 MHHH 0 4 H 3 M 2 H 7 HMMMHM
+======
+# M/H: 6229 / 2917
+# Last rebuild:   iter -1  num_configs -1
+client.c:623, irc-login.c:453, irc-login.c:463, irc-login.c:488, irc-login.c:495, irc-login.c:499, irc-login.c:508, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)
+               (and (= Conf_MaxConnectionsIP |1|)
+                    (or (= Conf_MaxNickLength |5|)
+                        (= Conf_MaxNickLength |6|)
+                        (= Conf_MaxNickLength |8|)
+                        (= Conf_MaxNickLength |9|)
+                        (= Conf_MaxNickLength |10|)
+                        (= Conf_MaxNickLength |100|))))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 11 M 8 H 9 MMHHHHHHHH 8 H 9 MMHHHHHHHHM
+======
+# M/H: 7169 / 1977
+# Last rebuild:   iter -1  num_configs -1
+client.c:733, 
+-
+(let ((a!1 (and (= Conf_PongTimeout |20|)
+                (or (= Conf_MaxNickLength |6|)
+                    (= Conf_MaxNickLength |8|)
+                    (= Conf_MaxNickLength |9|)
+                    (= Conf_MaxNickLength |10|)
+                    (= Conf_MaxNickLength |100|)
+                    (and (= Conf_MaxNickLength |5|) (= Conf_PingTimeout |1|))))))
+(let ((a!2 (or a!1
+               (and (= Conf_PongTimeout |3600|)
+                    (or (= Conf_MaxNickLength |6|)
+                        (= Conf_MaxNickLength |8|)
+                        (= Conf_MaxNickLength |9|)
+                        (= Conf_MaxNickLength |10|)
+                        (= Conf_MaxNickLength |100|))))))
+  (and (= Conf_ListenIPv4 |1|) a!2)))
+-
+5 11 M 9 MM 10 HMMHHHHH 9 MMMHHHHHM
+======
+# M/H: 7435 / 1711
+# Last rebuild:   iter -1  num_configs -1
+client.c:779, client.c:780, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |5|)
+               (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+(let ((a!2 (or (and (= Conf_MaxConnectionsIP |2|) a!1)
+               (and (= Conf_MaxConnectionsIP |0|) a!1)
+               (and (= Conf_MaxConnectionsIP |100|) a!1))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!2)
+           (and (= Conf_PongTimeout |3600|) a!2)))))
+-
+5 11 M 8 9 MMHHHHHHM 9 MMHHHHHH 9 MMHHHHHH 8 9 MMHHHHHHM 9 MMHHHHHH 9 MMHHHHHHM
+======
+# M/H: 3664 / 5482
+# Last rebuild:   iter -1  num_configs -1
+client.c:96, client.c:97, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+(let ((a!2 (and (= Conf_NoDNS |1|)
+                (= Conf_ListenIPv4 |1|)
+                (or (and (= Conf_PongTimeout |20|) a!1)
+                    (and (= Conf_PongTimeout |3600|) a!1)))))
+  (or (= Conf_NoDNS |0|) a!2)))
+-
+4 5 11 M 9 MMMHHHHH 9 MMMHHHHHMH
+======
+# M/H: 571 / 8575
+# Last rebuild:   iter -1  num_configs -1
+conf.c:162, 
+-
+(let ((a!1 (and (= Conf_OperCanMode |0|)
+                (or (= Conf_OperServerMode |1|)
+                    (and (= Conf_OperServerMode |0|)
+                         (= Conf_PredefChannelsOnly |1|))))))
+  (or (= Conf_NoDNS |1|)
+      (and (= Conf_NoDNS |0|) (or (= Conf_OperCanMode |1|) a!1))))
+-
+4 H 3 H 6 H 12 HM
+======
+# M/H: 4706 / 4440
+# Last rebuild:   iter -1  num_configs -1
+conf.c:294, conf.c:296, conf.c:301, conf.c:302, 
+-
+(let ((a!1 (and (= Conf_MaxNickLength |6|)
+                (or (= Conf_MaxConnectionsIP |0|)
+                    (= Conf_MaxConnectionsIP |2|)
+                    (= Conf_MaxConnectionsIP |100|)
+                    (and (= Conf_MaxConnectionsIP |1|) (= Conf_PongTimeout |1|))))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (= Conf_MaxNickLength |0|)
+           (= Conf_MaxNickLength |4|)
+           (= Conf_MaxNickLength |5|)
+           (= Conf_MaxNickLength |8|)
+           (= Conf_MaxNickLength |9|)
+           (= Conf_MaxNickLength |10|)
+           (= Conf_MaxNickLength |100|)
+           a!1)))
+-
+5 9 HHH 8 H 11 HMMHHHHHHM
+======
+# M/H: 6933 / 2213
+# Last rebuild:   iter -1  num_configs -1
+conf.c:308, 
+-
+(let ((a!1 (and (= Conf_MaxConnectionsIP |1|)
+                (or (= Conf_MaxNickLength |0|)
+                    (= Conf_MaxNickLength |4|)
+                    (= Conf_MaxNickLength |5|)
+                    (= Conf_MaxNickLength |8|)
+                    (= Conf_MaxNickLength |9|)
+                    (= Conf_MaxNickLength |10|)
+                    (= Conf_MaxNickLength |100|)
+                    (and (= Conf_MaxNickLength |6|) (= Conf_PongTimeout |1|))))))
+  (and (= Conf_ListenIPv4 |1|)
+       (= Conf_ConnectRetry |60|)
+       (or (= Conf_MaxConnectionsIP |0|)
+           (= Conf_MaxConnectionsIP |2|)
+           (= Conf_MaxConnectionsIP |100|)
+           a!1)))
+-
+5 2 M 8 H 9 HHH 11 HMMHHHHHHM
+======
+# M/H: 7581 / 1565
+# Last rebuild:   iter -1  num_configs -1
+conn-func.c:39, conn-func.c:40, 
+-
+(let ((a!1 (or (and (= Conf_MaxConnectionsIP |0|)
+                    (or (= Conf_PingTimeout |120|) (= Conf_PingTimeout |3600|)))
+               (and (= Conf_MaxConnectionsIP |100|)
+                    (or (= Conf_PingTimeout |120|) (= Conf_PingTimeout |3600|)))
+               (and (= Conf_MaxConnectionsIP |2|)
+                    (or (= Conf_PingTimeout |120|) (= Conf_PingTimeout |3600|)))))
+      (a!3 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)))
+      (a!6 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)
+               (and (= Conf_MaxConnectionsIP |1|)
+                    (= Conf_PredefChannelsOnly |0|)))))
+(let ((a!2 (and (= Conf_MaxNickLength |6|)
+                (or (= Conf_PredefChannelsOnly |0|)
+                    (and (= Conf_PredefChannelsOnly |1|) a!1))))
+      (a!4 (and (= Conf_PredefChannelsOnly |1|)
+                (or (and (= Conf_PingTimeout |120|) a!3)
+                    (and (= Conf_PingTimeout |3600|) a!3))))
+      (a!7 (and (= Conf_MaxNickLength |8|)
+                (or (= Conf_PredefChannelsOnly |0|)
+                    (and (= Conf_PredefChannelsOnly |1|) a!3))))
+      (a!8 (and (= Conf_MaxNickLength |10|)
+                (or (= Conf_PredefChannelsOnly |0|)
+                    (and (= Conf_PredefChannelsOnly |1|) a!3)))))
+(let ((a!5 (or a!2
+               (and (= Conf_MaxNickLength |100|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!4))
+               (and (= Conf_MaxNickLength |8|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!4))
+               (and (= Conf_MaxNickLength |9|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!4))
+               (and (= Conf_MaxNickLength |10|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!4))))
+      (a!9 (and (= Conf_PongTimeout |3600|)
+                (or (and (= Conf_MaxNickLength |6|) a!6)
+                    (and (= Conf_MaxNickLength |9|) a!6)
+                    (and (= Conf_MaxNickLength |100|) a!6)
+                    a!7
+                    a!8))))
+  (and (= Conf_ListenIPv4 |1|) (or (and (= Conf_PongTimeout |20|) a!5) a!9)))))
+-
+5 11 M 9 MMM 12 8 10 MHHM 10 MHH 10 MHHH 12 10 M 8 HMHH 8 HMHHH 12 10 M 8 HMHH 8 HMHHH 12 10 M 8 HMHH 8 HMHHH 12 10 M 8 HMHH 8 HMHHH 9 MMM 8 H 12 MHHH 12 8 HMHHH 8 H 12 MHHH 12 8 HMHHH 8 H 12 MHHHM
+======
+# M/H: 8105 / 1041
+# Last rebuild:   iter -1  num_configs -1
+conn.c:1348, conn.c:1360, conn.c:1361, conn.c:1362, 
+-
+(and (= Conf_PingTimeout |1|)
+     (= Conf_ListenIPv4 |1|)
+     (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+-
+10 5 11 MHHMMM
+======
+# M/H: 7578 / 1568
+# Last rebuild:   iter -1  num_configs -1
+conn.c:559, conn.c:560, 
+-
+(and (= Conf_ListenIPv4 |1|)
+     (= Conf_NoDNS |1|)
+     (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+-
+5 4 11 MHHMM
+======
+# M/H: 6588 / 2558
+# Last rebuild:   iter -1  num_configs -1
+conn.c:680, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)
+               (and (= Conf_MaxConnectionsIP |1|) (= Conf_PingTimeout |1|)))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 11 M 8 H 10 HMMHH 8 H 10 HMMHHM
+======
+# M/H: 7993 / 1153
+# Last rebuild:   iter -1  num_configs -1
+irc-channel.c:232, irc-channel.c:233, irc-mode.c:81, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |5|)
+               (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+  (and (= Conf_PredefChannelsOnly |1|)
+       (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+12 5 11 M 9 MMHHHHHH 9 MMHHHHHHMM
+======
+# M/H: 7735 / 1411
+# Last rebuild:   iter -1  num_configs -1
+irc-channel.c:337, irc-channel.c:339, irc-channel.c:340, irc-channel.c:341, irc-channel.c:344, irc-channel.c:345, irc-write.c:311, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|))))
+(let ((a!2 (or (and (= Conf_MaxNickLength |100|) a!1)
+               (and (= Conf_MaxNickLength |6|) a!1)
+               (and (= Conf_MaxNickLength |8|) a!1)
+               (and (= Conf_MaxNickLength |10|) a!1)
+               (and (= Conf_MaxNickLength |9|) a!1))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!2)
+           (and (= Conf_PongTimeout |3600|) a!2)))))
+-
+5 11 M 9 MMM 8 HMHH 8 HMHH 8 HMHH 8 HMHH 8 HMHH 9 MMM 8 HMHH 8 HMHH 8 HMHH 8 HMHH 8 HMHHM
+======
+# M/H: 8043 / 1103
+# Last rebuild:   iter -1  num_configs -1
+irc-info.c:1100, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)))
+      (a!3 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) (= Conf_UID |4096|))))
+      (a!5 (and (= Conf_MaxJoins |1|)
+                (or (= Conf_ConnectRetry |5|)
+                    (and (= Conf_ConnectRetry |60|) (= Conf_OperCanMode |0|)))))
+      (a!7 (or (= Conf_OperCanMode |0|)
+               (and (= Conf_OperCanMode |1|) (= Conf_NoDNS |1|))))
+      (a!9 (or (= Conf_NoDNS |1|)
+               (and (= Conf_NoDNS |0|) (= Conf_OperCanMode |0|))))
+      (a!11 (and (= Conf_UID |0|)
+                 (or (= Conf_MaxJoins |1|)
+                     (= Conf_MaxJoins |100|)
+                     (and (= Conf_MaxJoins |0|) (= Conf_ConnectRetry |5|)))))
+      (a!12 (or (= Conf_UID |4096|)
+                (and (= Conf_UID |0|) (= Conf_OperCanMode |0|))))
+      (a!15 (and (= Conf_MaxNickLength |10|)
+                 (or (= Conf_OperServerMode |1|)
+                     (and (= Conf_OperServerMode |0|) (= Conf_NoDNS |1|)))))
+      (a!16 (and (= Conf_MaxNickLength |6|)
+                 (or (= Conf_OperServerMode |0|)
+                     (and (= Conf_OperServerMode |1|) (= Conf_UID |4096|)))))
+      (a!19 (and (= Conf_MaxConnectionsIP |2|)
+                 (or (= Conf_UID |4096|)
+                     (and (= Conf_UID |0|)
+                          (= Conf_GID |0|)
+                          (= Conf_PredefChannelsOnly |1|)))))
+      (a!20 (and (= Conf_MaxConnectionsIP |0|)
+                 (or (= Conf_OperCanMode |0|)
+                     (and (= Conf_OperCanMode |1|) (= Conf_ConnectRetry |5|)))))
+      (a!21 (and (= Conf_GID |1|)
+                 (or (= Conf_MaxJoins |0|)
+                     (and (= Conf_MaxJoins |2|) (= Conf_ConnectRetry |5|)))))
+      (a!27 (and (= Conf_ConnectRetry |60|)
+                 (or (= Conf_UID |4096|)
+                     (and (= Conf_UID |0|) (= Conf_NoDNS |1|)))))
+      (a!29 (and (= Conf_MaxConnectionsIP |0|)
+                 (or (= Conf_OperCanMode |0|)
+                     (and (= Conf_OperCanMode |1|) (= Conf_UID |4096|)))))
+      (a!30 (and (= Conf_MaxConnectionsIP |2|)
+                 (or (= Conf_GID |0|)
+                     (and (= Conf_GID |1|) (= Conf_OperCanMode |0|)))))
+      (a!32 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|)
+                     (or (= Conf_MaxJoins |0|) (= Conf_MaxJoins |100|))))))
+(let ((a!2 (and (= Conf_PongTimeout |3600|)
+                (or (and (= Conf_MaxNickLength |100|) a!1)
+                    (and (= Conf_MaxNickLength |10|) a!1)
+                    (and (= Conf_MaxNickLength |9|) a!1)
+                    (and (= Conf_MaxNickLength |8|) a!1)
+                    (and (= Conf_MaxNickLength |6|) a!1))))
+      (a!4 (and (= Conf_MaxNickLength |8|)
+                (or (= Conf_OperCanMode |0|)
+                    (and (= Conf_OperCanMode |1|)
+                         (= Conf_OperServerMode |0|)
+                         a!3))))
+      (a!6 (and (= Conf_MaxNickLength |6|)
+                (or (= Conf_MaxJoins |2|)
+                    (= Conf_MaxJoins |100|)
+                    a!5
+                    (and (= Conf_MaxJoins |0|) (= Conf_NoDNS |1|)))))
+      (a!10 (and (= Conf_MaxNickLength |9|)
+                 (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!9))))
+      (a!13 (and (= Conf_MaxNickLength |10|)
+                 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) a!12))))
+      (a!17 (and (= Conf_MaxConnectionsIP |2|)
+                 (or (= Conf_MaxNickLength |8|)
+                     (= Conf_MaxNickLength |100|)
+                     a!15
+                     a!16
+                     (and (= Conf_MaxNickLength |9|) a!7))))
+      (a!22 (and (= Conf_MaxConnectionsIP |0|)
+                 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) a!12))))
+      (a!23 (and (= Conf_MaxConnectionsIP |2|)
+                 (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!7))))
+      (a!25 (and (= Conf_MaxConnectionsIP |2|)
+                 (or (= Conf_OperCanMode |0|)
+                     (and (= Conf_OperCanMode |1|) a!3))))
+      (a!26 (and (= Conf_MaxConnectionsIP |0|)
+                 (or (= Conf_OperCanMode |0|)
+                     (and (= Conf_OperCanMode |1|) a!3))))
+      (a!31 (and (= Conf_MaxConnectionsIP |100|)
+                 (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!7))))
+      (a!33 (and (= Conf_MaxNickLength |8|)
+                 (or (and (= Conf_MaxConnectionsIP |100|) a!12)
+                     (and (= Conf_MaxConnectionsIP |0|) a!9)
+                     (and (= Conf_MaxConnectionsIP |2|) a!32)))))
+(let ((a!8 (and (= Conf_MaxConnectionsIP |0|)
+                (or (= Conf_MaxNickLength |9|)
+                    (= Conf_MaxNickLength |100|)
+                    a!4
+                    a!6
+                    (and (= Conf_MaxNickLength |10|) a!7))))
+      (a!14 (or a!10
+                (and (= Conf_MaxNickLength |8|) (or (= Conf_UID |4096|) a!11))
+                a!13
+                (and (= Conf_MaxNickLength |100|) a!9)
+                (and (= Conf_MaxNickLength |6|) a!7)))
+      (a!24 (or (and (= Conf_MaxConnectionsIP |100|) (or (= Conf_GID |0|) a!21))
+                a!22
+                a!23))
+      (a!28 (or a!25
+                a!26
+                (and (= Conf_MaxConnectionsIP |100|)
+                     (or (= Conf_ConnectRetry |5|) a!27)))))
+(let ((a!18 (and (= Conf_PingTimeout |120|)
+                 (or a!8 (and (= Conf_MaxConnectionsIP |100|) a!14) a!17)))
+      (a!34 (or (and (= Conf_MaxNickLength |9|)
+                     (or (= Conf_MaxConnectionsIP |100|) a!19 a!20))
+                (and (= Conf_MaxNickLength |6|) a!24)
+                (and (= Conf_MaxNickLength |10|) a!28)
+                (and (= Conf_MaxNickLength |100|) (or a!29 a!30 a!31))
+                a!33)))
+(let ((a!35 (and (= Conf_PongTimeout |20|)
+                 (or a!18 (and (= Conf_PingTimeout |3600|) a!34)))))
+  (and (= Conf_ListenIPv4 |1|) (or a!2 a!35)))))))
+-
+5 11 M 10 M 8 9 MMM 7 4 HM 2 H 3 MHHH 3 6 M 4 H 0 MHHH 3 4 HMHHM 9 MMM 6 0 MHHH 3 4 HMH 6 H 4 HMH 9 MMM 3 4 HMH 0 7 2 HMHMHH 0 4 H 3 MHH 4 H 0 3 MHH 4 H 3 MH 9 MMM 8 4 H 0 3 MHHM 0 3 4 HMHH 1 H 7 HM 2 HMM 8 4 H 3 MHM 4 H 7 HMMH 0 3 MHH 8 3 2 HMHM 0 1 12 HMMHH 8 3 4 H 0 MHHM 3 4 H 0 MHH 2 H 0 4 HMH 8 3 0 MHHM 1 H 3 MH 0 3 4 HMHH 9 MMM 8 HMHH 8 HMHH 8 HMHH 8 HMHH 8 HMHHM
+======
+# M/H: 7969 / 1177
+# Last rebuild:   iter -1  num_configs -1
+irc-info.c:1164, irc-info.c:1166, irc-info.c:1169, irc-info.c:281, irc-info.c:284, irc-info.c:285, irc-info.c:286, irc-info.c:288, irc-info.c:291, irc-info.c:292, irc-info.c:301, irc-info.c:302, irc-info.c:542, irc-login.c:580, irc-login.c:583, irc-login.c:584, irc-mode.c:203, irc-oper.c:275, irc-oper.c:278, irc-oper.c:280, irc-oper.c:281, irc-oper.c:282, irc.c:321, irc.c:323, irc.c:324, irc.c:326, irc.c:327, irc.c:330, irc.c:331, parse.c:134, 
+-
+(let ((a!1 (or (and (= Conf_MaxNickLength |10|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+               (and (= Conf_MaxNickLength |100|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+               (and (= Conf_MaxNickLength |9|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|))))))
+  (and (= Conf_ListenIPv4 |1|) a!1))
+-
+5 9 MMMMM 11 MHH 11 MHH 11 MHHM
+======
+# M/H: 7547 / 1599
+# Last rebuild:   iter -1  num_configs -1
+irc-info.c:245, irc-info.c:248, irc-info.c:249, irc-info.c:250, irc-info.c:253, irc-info.c:261, irc-info.c:262, irc-info.c:263, irc-info.c:265, irc-info.c:267, irc-info.c:268, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+(let ((a!2 (and (= Conf_PongTimeout |20|)
+                (or (and (= Conf_PingTimeout |120|) a!1)
+                    (and (= Conf_PingTimeout |3600|) a!1)))))
+  (and (= Conf_ListenIPv4 |1|) (or a!2 (and (= Conf_PongTimeout |3600|) a!1)))))
+-
+5 11 M 10 M 9 MMMHHHHH 9 MMMHHHHH 9 MMMHHHHHM
+======
+# M/H: 7329 / 1817
+# Last rebuild:   iter -1  num_configs -1
+irc-info.c:678, irc-info.c:687, irc-info.c:689, 
+-
+(let ((a!1 (and (= Conf_PingTimeout |1|)
+                (or (= Conf_PredefChannelsOnly |0|)
+                    (and (= Conf_PredefChannelsOnly |1|)
+                         (= Conf_MaxConnectionsIP |1|)))))
+      (a!2 (and (= Conf_PredefChannelsOnly |1|)
+                (or (= Conf_PingTimeout |120|)
+                    (= Conf_PingTimeout |3600|)
+                    (and (= Conf_PingTimeout |1|) (= Conf_MaxConnectionsIP |1|))))))
+(let ((a!3 (or (and (= Conf_MaxNickLength |6|)
+                    (or (= Conf_PingTimeout |120|)
+                        (= Conf_PingTimeout |3600|)
+                        a!1))
+               (and (= Conf_MaxNickLength |10|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!2))
+               (and (= Conf_MaxNickLength |100|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!2))
+               (and (= Conf_MaxNickLength |8|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!2))
+               (and (= Conf_MaxNickLength |9|)
+                    (or (= Conf_PredefChannelsOnly |0|) a!2)))))
+(let ((a!4 (or (and (= Conf_PongTimeout |20|) a!3)
+               (and (= Conf_PongTimeout |3600|)
+                    (or (= Conf_MaxNickLength |6|)
+                        (= Conf_MaxNickLength |8|)
+                        (= Conf_MaxNickLength |9|)
+                        (= Conf_MaxNickLength |10|)
+                        (= Conf_MaxNickLength |100|))))))
+  (and (= Conf_ListenIPv4 |1|) a!4))))
+-
+5 11 M 9 MMM 10 12 8 MHMMHHH 12 10 8 MHMMHHH 12 10 8 MHMMHHH 12 10 8 MHMMHHH 12 10 8 MHMMHHH 9 MMMHHHHHM
+======
+# M/H: 6369 / 2777
+# Last rebuild:   iter -1  num_configs -1
+irc-login.c:236, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)
+               (and (= Conf_MaxConnectionsIP |1|)
+                    (or (= Conf_MaxNickLength |0|)
+                        (= Conf_MaxNickLength |4|)
+                        (= Conf_MaxNickLength |5|)
+                        (= Conf_MaxNickLength |6|)
+                        (= Conf_MaxNickLength |8|))))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 11 M 8 H 9 HHHHHMMMHH 8 H 9 HHHHHMMMHHM
+======
+# M/H: 6439 / 2707
+# Last rebuild:   iter -1  num_configs -1
+irc-server.c:153, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |0|)
+               (= Conf_MaxNickLength |4|)
+               (= Conf_MaxNickLength |5|)
+               (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |100|))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 11 M 9 HHHHHHMH 9 HHHHHHMHM
+======
+# M/H: 6616 / 2530
+# Last rebuild:   iter -1  num_configs -1
+irc.c:178, 
+-
+(let ((a!1 (or (= Conf_PongTimeout |3600|)
+               (and (= Conf_PongTimeout |20|)
+                    (or (= Conf_MaxNickLength |6|)
+                        (= Conf_MaxNickLength |8|)
+                        (= Conf_MaxNickLength |9|)
+                        (= Conf_MaxNickLength |10|)
+                        (= Conf_MaxNickLength |100|))))))
+  (and (= Conf_ListenIPv4 |1|) a!1))
+-
+5 11 M 9 MMMHHHHHHM
+======
+# M/H: 7950 / 1196
+# Last rebuild:   iter -1  num_configs -1
+irc.c:200, irc.c:243, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+(let ((a!2 (or (and (= Conf_PredefChannelsOnly |1|) a!1)
+               (and (= Conf_PredefChannelsOnly |0|)
+                    (= Conf_MaxConnectionsIP |1|)
+                    a!1))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!2)
+           (and (= Conf_PongTimeout |3600|) a!2)))))
+-
+5 11 M 12 9 MMMHHHHH 8 M 9 MMMHHHHHMM 12 9 MMMHHHHH 8 M 9 MMMHHHHHMMM
+======
+# M/H: 1840 / 7306
+# Last rebuild:   iter -1  num_configs -1
+log.c:268, log.c:269, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |0|)
+               (= Conf_MaxNickLength |4|)
+               (= Conf_MaxNickLength |5|)
+               (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |100|))))
+(let ((a!2 (and (= Conf_ListenIPv4 |1|)
+                (or (and (= Conf_PongTimeout |20|) a!1)
+                    (and (= Conf_PongTimeout |3600|) a!1)))))
+  (or (= Conf_ListenIPv4 |0|) a!2)))
+-
+5 11 M 9 HHHHHHMH 9 HHHHHHMHH
+======
+# M/H: 7602 / 1544
+# Last rebuild:   iter -1  num_configs -1
+ngircd.c:457, ngircd.c:458, 
+-
+(let ((a!1 (or (and (= Conf_MaxNickLength |9|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+               (and (= Conf_MaxNickLength |100|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+               (and (= Conf_MaxNickLength |6|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+               (and (= Conf_MaxNickLength |8|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|))))))
+  (and (= Conf_ListenIPv4 |1|) a!1))
+-
+5 9 MMM 11 MHH 11 MHH 11 MHHM 11 MHHM
+======
+# M/H: 4596 / 4550
+# Last rebuild:   iter -1  num_configs -1
+ngircd.c:684, ngircd.c:685, ngircd.c:687, ngircd.c:690, ngircd.c:691, ngircd.c:692, ngircd.c:694, ngircd.c:731, ngircd.c:733, 
+-
+(= Conf_UID |0|)
+-
+0 HM
+======
+# M/H: 6463 / 2683
+# Last rebuild:   iter -1  num_configs -1
+numeric.c:320, numeric.c:323, numeric.c:326, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |0|)
+               (= Conf_MaxNickLength |4|)
+               (= Conf_MaxNickLength |5|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 11 M 9 HHHMHHHH 9 HHHMHHHHM
+======
+# M/H: 8278 / 868
+# Last rebuild:   iter -1  num_configs -1
+parse.c:394, parse.c:401, parse.c:402, parse.c:408, parse.c:409, parse.c:410, parse.c:411, parse.c:413, parse.c:414, parse.c:416, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|))))
+(let ((a!2 (or (and (= Conf_PongTimeout |20|) a!1)
+               (and (= Conf_PongTimeout |3600|) a!1))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_MaxNickLength |9|) a!2)
+           (and (= Conf_MaxNickLength |100|) a!2)
+           (and (= Conf_MaxNickLength |10|) a!2)))))
+-
+5 9 MMMMM 11 M 8 HMHH 8 HMHH 11 M 8 HMHH 8 HMHH 11 M 8 HMHH 8 HMHHM
+======
+# M/H: 4547 / 4599
+# Last rebuild:   iter -1  num_configs -1
+ngircd.c:321, ngircd.c:322, ngircd.c:323, ngircd.c:324, ngircd.c:608, ngircd.c:610, 
+-
+(= Conf_ListenIPv4 |0|)
+-
+5 MH
+======
+# M/H: 7971 / 1175
+# Last rebuild:   iter -1  num_configs -1
+channel.c:1003, channel.c:1004, channel.c:181, channel.c:186, channel.c:187, channel.c:194, channel.c:195, channel.c:199, channel.c:200, channel.c:441, channel.c:466, channel.c:550, channel.c:553, channel.c:554, channel.c:557, channel.c:558, channel.c:604, channel.c:607, channel.c:77, channel.c:808, channel.c:824, channel.c:825, channel.c:830, channel.c:831, channel.c:832, channel.c:835, channel.c:836, channel.c:838, channel.c:840, channel.c:85, channel.c:927, channel.c:928, irc-channel.c:107, irc-channel.c:108, irc-channel.c:109, irc-channel.c:110, irc-channel.c:115, irc-channel.c:117, irc-channel.c:126, irc-channel.c:128, irc-channel.c:129, irc-channel.c:133, irc-channel.c:136, irc-channel.c:137, irc-channel.c:138, irc-channel.c:140, irc-channel.c:149, irc-channel.c:152, irc-channel.c:156, irc-channel.c:158, irc-channel.c:171, irc-channel.c:173, irc-channel.c:237, irc-channel.c:239, irc-channel.c:242, irc-channel.c:243, irc-channel.c:257, irc-channel.c:260, irc-channel.c:261, irc-channel.c:264, irc-channel.c:266, irc-channel.c:268, irc-channel.c:272, irc-channel.c:273, irc-info.c:1218, irc-info.c:1220, irc-info.c:1221, irc-info.c:1223, irc-info.c:1226, irc-info.c:1227, irc-info.c:1229, irc-info.c:1231, irc-info.c:1240, irc-info.c:1245, irc-mode.c:283, irc-mode.c:290, irc-mode.c:294, irc-mode.c:296, irc-mode.c:299, irc-mode.c:301, irc-mode.c:302, irc-mode.c:313, irc-mode.c:314, irc-mode.c:315, irc-mode.c:316, irc-mode.c:318, irc-mode.c:321, irc-mode.c:323, irc-mode.c:324, irc-mode.c:331, irc-mode.c:332, irc-mode.c:334, irc-mode.c:335, irc-mode.c:336, irc-mode.c:337, irc-mode.c:338, irc-mode.c:339, irc-mode.c:341, irc-mode.c:342, irc-mode.c:344, irc-mode.c:346, irc-mode.c:347, irc-mode.c:355, irc-mode.c:357, irc-mode.c:358, irc-mode.c:359, irc-mode.c:377, irc-mode.c:380, irc-mode.c:381, irc-mode.c:382, irc-mode.c:384, irc-mode.c:385, irc-mode.c:386, irc-mode.c:387, irc-mode.c:388, irc-mode.c:390, irc-mode.c:391, irc-mode.c:394, irc-mode.c:395, irc-mode.c:418, irc-mode.c:444, irc-mode.c:455, irc-mode.c:456, irc-mode.c:474, irc-mode.c:475, irc-mode.c:477, irc-mode.c:479, irc-mode.c:480, irc-mode.c:486, irc-mode.c:487, irc-mode.c:494, irc-mode.c:504, irc-mode.c:508, irc-mode.c:509, irc-mode.c:512, irc-mode.c:520, irc-mode.c:532, irc-mode.c:533, irc-mode.c:534, irc-mode.c:535, irc-mode.c:540, irc-mode.c:547, irc-mode.c:549, irc-mode.c:550, irc-mode.c:553, irc-mode.c:558, irc-mode.c:561, irc-mode.c:563, irc-mode.c:565, irc-mode.c:570, irc-mode.c:571, irc-mode.c:614, irc-mode.c:616, irc-mode.c:617, irc-mode.c:618, irc-mode.c:621, irc-mode.c:622, irc-mode.c:625, irc-mode.c:628, irc-mode.c:630, irc-mode.c:666, irc-mode.c:669, irc-mode.c:674, irc-mode.c:677, irc-mode.c:679, irc-mode.c:78, irc-write.c:156, irc-write.c:169, irc-write.c:173, irc-write.c:174, irc-write.c:176, irc-write.c:180, irc-write.c:181, irc-write.c:183, irc-write.c:184, irc-write.c:186, irc-write.c:187, irc-write.c:189, irc-write.c:191, irc-write.c:198, irc-write.c:202, irc-write.c:203, irc-write.c:206, irc-write.c:207, irc-write.c:208, irc-write.c:211, irc-write.c:214, lists.c:153, lists.c:154, lists.c:159, lists.c:176, lists.c:177, lists.c:179, lists.c:181, lists.c:189, lists.c:197, lists.c:208, lists.c:209, lists.c:55, lists.c:74, lists.c:76, lists.c:78, lists.c:79, lists.c:84, lists.c:85, lists.c:86, lists.c:87, lists.c:89, lists.c:90, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |5|)
+               (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+  (and (= Conf_ListenIPv4 |1|)
+       (= Conf_PredefChannelsOnly |0|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 12 M 11 M 9 MMHHHHHH 9 MMHHHHHHM
+======
+# M/H: 8556 / 590
+# Last rebuild:   iter -1  num_configs -1
+channel.c:1005, channel.c:189, channel.c:227, channel.c:229, channel.c:256, channel.c:263, channel.c:270, channel.c:276, channel.c:277, channel.c:809, channel.c:884, channel.c:885, channel.c:887, channel.c:889, channel.c:892, channel.c:895, channel.c:897, conn-func.c:132, conn-func.c:133, irc-channel.c:100, irc-channel.c:131, irc-channel.c:245, irc-channel.c:73, irc-channel.c:74, irc-channel.c:76, irc-channel.c:81, irc-channel.c:82, irc-channel.c:89, irc-channel.c:96, irc-info.c:1228, irc-op.c:102, irc-op.c:104, irc-op.c:88, irc-op.c:91, irc-op.c:99, irc-write.c:194, irc-write.c:195, irc-write.c:196, lists.c:221, lists.c:222, lists.c:224, lists.c:236, match.c:198, match.c:199, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)))
+      (a!3 (or (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+(let ((a!2 (or (and (= Conf_MaxNickLength |6|) a!1)
+               (and (= Conf_MaxNickLength |10|) a!1)
+               (and (= Conf_MaxNickLength |8|) a!1)
+               (and (= Conf_MaxNickLength |9|) a!1)
+               (and (= Conf_MaxNickLength |100|) a!1)))
+      (a!4 (and (= Conf_PingTimeout |120|)
+                (or (and (= Conf_MaxConnectionsIP |100|) a!3)
+                    (and (= Conf_MaxConnectionsIP |2|) a!3)
+                    (and (= Conf_MaxConnectionsIP |0|) a!3)))))
+(let ((a!5 (and (= Conf_PongTimeout |20|)
+                (or a!4 (and (= Conf_PingTimeout |3600|) a!2)))))
+  (and (= Conf_ListenIPv4 |1|)
+       (= Conf_PredefChannelsOnly |0|)
+       (or (and (= Conf_PongTimeout |3600|) a!2) a!5)))))
+-
+5 12 M 11 M 10 M 8 9 MMMHHHHHM 9 MMMHHHHH 9 MMMHHHHH 9 MMM 8 HMHH 8 HMHH 8 HMHH 8 HMHH 8 HMHH 9 MMM 8 HMHH 8 HMHH 8 HMHH 8 HMHH 8 HMHHM
+======
+# M/H: 8155 / 991
+# Last rebuild:   iter -1  num_configs -1
+channel.c:1018, channel.c:1019, channel.c:1020, channel.c:1022, channel.c:1026, channel.c:1028, channel.c:1031, channel.c:1032, channel.c:1035, channel.c:1036, channel.c:1037, channel.c:1039, channel.c:474, channel.c:859, channel.c:865, channel.c:869, channel.c:870, channel.c:871, channel.c:874, channel.c:915, channel.c:917, channel.c:920, lists.c:138, lists.c:139, lists.c:140, lists.c:146, 
+-
+(let ((a!1 (and (= Conf_PongTimeout |20|)
+                (or (= Conf_MaxNickLength |6|)
+                    (= Conf_MaxNickLength |8|)
+                    (= Conf_MaxNickLength |9|)
+                    (= Conf_MaxNickLength |10|)
+                    (= Conf_MaxNickLength |100|)
+                    (and (= Conf_MaxNickLength |5|)
+                         (= Conf_PingTimeout |1|)
+                         (= Conf_MaxConnectionsIP |1|))))))
+(let ((a!2 (or (and (= Conf_PongTimeout |3600|)
+                    (or (= Conf_MaxNickLength |6|)
+                        (= Conf_MaxNickLength |8|)
+                        (= Conf_MaxNickLength |9|)
+                        (= Conf_MaxNickLength |10|)
+                        (= Conf_MaxNickLength |100|)))
+               a!1)))
+  (and (= Conf_ListenIPv4 |1|) (= Conf_PredefChannelsOnly |0|) a!2)))
+-
+5 12 M 11 M 9 MM 10 8 MHMMMMHHHHH 9 MMMHHHHHM
+======
+# M/H: 8643 / 503
+# Last rebuild:   iter -1  num_configs -1
+channel.c:1023, channel.c:1024, channel.c:860, channel.c:861, 
+-
+(let ((a!1 (and (= Conf_MaxNickLength |6|)
+                (or (= Conf_MaxJoins |1|)
+                    (= Conf_MaxJoins |2|)
+                    (= Conf_MaxJoins |100|)
+                    (and (= Conf_MaxJoins |0|) (= Conf_UID |4096|)))))
+      (a!2 (or (= Conf_NoDNS |1|)
+               (and (= Conf_NoDNS |0|) (= Conf_OperCanMode |0|))))
+      (a!5 (and (= Conf_MaxConnectionsIP |2|)
+                (or (= Conf_MaxNickLength |8|)
+                    (= Conf_MaxNickLength |9|)
+                    (= Conf_MaxNickLength |10|)
+                    (= Conf_MaxNickLength |100|)
+                    (and (= Conf_MaxNickLength |6|) (= Conf_NoDNS |1|)))))
+      (a!6 (and (= Conf_MaxNickLength |6|)
+                (or (= Conf_OperCanMode |0|)
+                    (and (= Conf_OperCanMode |1|) (= Conf_NoDNS |1|)))))
+      (a!7 (and (= Conf_UID |0|)
+                (= Conf_GID |1|)
+                (or (= Conf_ConnectRetry |5|)
+                    (and (= Conf_ConnectRetry |60|) (= Conf_NoDNS |1|)))))
+      (a!8 (or (= Conf_UID |4096|)
+               (and (= Conf_UID |0|)
+                    (or (= Conf_MaxJoins |0|) (= Conf_MaxJoins |1|)))))
+      (a!11 (or (= Conf_UID |4096|)
+                (and (= Conf_UID |0|) (= Conf_ConnectRetry |5|))))
+      (a!13 (or (= Conf_UID |4096|)
+                (and (= Conf_UID |0|) (= Conf_OperCanMode |0|))))
+      (a!15 (and (= Conf_MaxConnectionsIP |0|)
+                 (or (= Conf_OperCanMode |0|)
+                     (and (= Conf_OperCanMode |1|) (= Conf_UID |4096|)))))
+      (a!16 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) (= Conf_UID |4096|))))
+      (a!17 (and (= Conf_UID |0|)
+                 (or (= Conf_GID |1|)
+                     (and (= Conf_GID |0|) (= Conf_OperCanMode |0|)))))
+      (a!19 (and (= Conf_OperCanMode |1|)
+                 (or (= Conf_UID |4096|)
+                     (and (= Conf_UID |0|) (= Conf_GID |0|)))))
+      (a!21 (and (= Conf_MaxConnectionsIP |100|)
+                 (or (= Conf_UID |4096|)
+                     (and (= Conf_UID |0|) (= Conf_GID |1|)))))
+      (a!27 (and (= Conf_OperCanMode |1|)
+                 (or (= Conf_UID |4096|)
+                     (and (= Conf_UID |0|) (= Conf_NoDNS |1|)))))
+      (a!32 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|)
+                     (= Conf_OperCanMode |0|)
+                     (or (= Conf_PingTimeout |120|) (= Conf_PingTimeout |3600|)))))
+      (a!35 (and (= Conf_UID |0|)
+                 (or (= Conf_NoDNS |1|)
+                     (and (= Conf_NoDNS |0|)
+                          (= Conf_ConnectRetry |60|)
+                          (= Conf_MaxJoins |0|)))))
+      (a!36 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|)
+                     (= Conf_OperCanMode |0|)
+                     (or (= Conf_MaxJoins |0|)
+                         (= Conf_MaxJoins |1|)
+                         (= Conf_MaxJoins |2|)))))
+      (a!39 (and (= Conf_MaxJoins |100|)
+                 (or (= Conf_ConnectRetry |5|)
+                     (and (= Conf_ConnectRetry |60|)
+                          (= Conf_PingTimeout |3600|)))))
+      (a!42 (and (= Conf_GID |0|)
+                 (or (= Conf_NoDNS |1|)
+                     (and (= Conf_NoDNS |0|) (= Conf_ConnectRetry |5|)))))
+      (a!44 (and (= Conf_MaxConnectionsIP |100|)
+                 (or (= Conf_MaxJoins |0|)
+                     (= Conf_MaxJoins |2|)
+                     (= Conf_MaxJoins |100|)
+                     (and (= Conf_MaxJoins |1|) (= Conf_OperCanMode |0|)))))
+      (a!45 (and (= Conf_MaxConnectionsIP |2|)
+                 (or (= Conf_MaxJoins |0|)
+                     (= Conf_MaxJoins |1|)
+                     (= Conf_MaxJoins |100|)
+                     (and (= Conf_MaxJoins |2|) (= Conf_UID |4096|))))))
+(let ((a!3 (and (= Conf_MaxNickLength |8|)
+                (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!2))))
+      (a!9 (or a!6
+               (and (= Conf_MaxNickLength |8|) (or (= Conf_UID |4096|) a!7))
+               (and (= Conf_MaxNickLength |10|)
+                    (or (= Conf_MaxJoins |0|) (= Conf_MaxJoins |2|)))
+               (and (= Conf_MaxNickLength |100|) (= Conf_UID |4096|))
+               (and (= Conf_MaxNickLength |9|) a!8)))
+      (a!12 (and (= Conf_MaxNickLength |9|)
+                 (or (= Conf_MaxConnectionsIP |100|)
+                     (and (= Conf_MaxConnectionsIP |0|) a!11)
+                     (and (= Conf_MaxConnectionsIP |2|) (= Conf_UID |4096|)))))
+      (a!14 (and (= Conf_MaxConnectionsIP |100|)
+                 (or (= Conf_GID |1|) (and (= Conf_GID |0|) a!13))))
+      (a!18 (or (and (= Conf_MaxConnectionsIP |0|) a!16)
+                (and (= Conf_MaxConnectionsIP |2|)
+                     (or (= Conf_UID |4096|) a!17))
+                (and (= Conf_MaxConnectionsIP |100|) (= Conf_GID |0|))))
+      (a!20 (or (= Conf_MaxConnectionsIP |100|)
+                (and (= Conf_MaxConnectionsIP |2|)
+                     (or (= Conf_OperCanMode |0|) a!19))
+                (and (= Conf_MaxConnectionsIP |0|) (= Conf_ConnectRetry |60|))))
+      (a!22 (and (= Conf_MaxNickLength |8|)
+                 (or (and (= Conf_MaxConnectionsIP |0|) a!2)
+                     (and (= Conf_MaxConnectionsIP |2|) a!16)
+                     a!21)))
+      (a!25 (and (= Conf_MaxConnectionsIP |2|)
+                 (or (= Conf_OperCanMode |0|)
+                     (and (= Conf_OperCanMode |1|) a!16))))
+      (a!26 (and (= Conf_MaxConnectionsIP |0|)
+                 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) a!13))))
+      (a!29 (and (= Conf_OperCanMode |0|)
+                 (or (= Conf_GID |0|) (and (= Conf_GID |1|) a!11))))
+      (a!31 (and (= Conf_MaxConnectionsIP |100|)
+                 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) a!13))))
+      (a!33 (and (= Conf_MaxConnectionsIP |0|)
+                 (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!32))))
+      (a!37 (and (= Conf_MaxConnectionsIP |0|)
+                 (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!36))))
+      (a!40 (or (= Conf_UID |4096|)
+                (and (= Conf_UID |0|)
+                     (or (= Conf_MaxJoins |0|) (= Conf_MaxJoins |1|) a!39))))
+      (a!43 (or (= Conf_UID |4096|)
+                (and (= Conf_UID |0|) (or (= Conf_GID |1|) a!42)))))
+(let ((a!4 (and (= Conf_MaxConnectionsIP |0|)
+                (or (= Conf_MaxNickLength |9|)
+                    (= Conf_MaxNickLength |100|)
+                    a!1
+                    a!3
+                    (and (= Conf_MaxNickLength |10|) a!2))))
+      (a!23 (or a!12
+                (and (= Conf_MaxNickLength |100|)
+                     (or (= Conf_MaxConnectionsIP |2|) a!14 a!15))
+                (and (= Conf_MaxNickLength |6|) a!18)
+                (and (= Conf_MaxNickLength |10|) a!20)
+                a!22))
+      (a!28 (or a!25
+                a!26
+                (and (= Conf_MaxConnectionsIP |100|)
+                     (or (= Conf_OperCanMode |0|) a!27))))
+      (a!30 (and (= Conf_NoDNS |0|)
+                 (or (and (= Conf_OperCanMode |1|) (= Conf_UID |4096|)) a!29)))
+      (a!38 (or (and (= Conf_MaxConnectionsIP |2|)
+                     (or (= Conf_OperCanMode |0|) a!27))
+                (and (= Conf_MaxConnectionsIP |100|)
+                     (or (= Conf_UID |4096|) a!35))
+                a!37))
+      (a!41 (and (= Conf_MaxNickLength |10|)
+                 (or a!25 a!26 (and (= Conf_MaxConnectionsIP |100|) a!40))))
+      (a!46 (and (= Conf_MaxNickLength |9|)
+                 (or (and (= Conf_MaxConnectionsIP |0|) a!43) a!44 a!45))))
+(let ((a!10 (and (= Conf_PingTimeout |120|)
+                 (or a!4 a!5 (and (= Conf_MaxConnectionsIP |100|) a!9))))
+      (a!34 (or (and (= Conf_MaxConnectionsIP |2|) (or (= Conf_NoDNS |1|) a!30))
+                a!31
+                a!33)))
+(let ((a!24 (and (= Conf_PongTimeout |20|)
+                 (or a!10 (and (= Conf_PingTimeout |3600|) a!23))))
+      (a!47 (and (= Conf_PongTimeout |3600|)
+                 (or (and (= Conf_MaxNickLength |8|) a!28)
+                     (and (= Conf_MaxNickLength |6|) a!34)
+                     (and (= Conf_MaxNickLength |100|) a!38)
+                     a!41
+                     a!46))))
+  (and (= Conf_ListenIPv4 |1|) (= Conf_PredefChannelsOnly |0|) (or a!24 a!47)))))))
+-
+5 12 M 11 M 10 M 8 9 MMM 7 0 MHHHH 0 4 H 3 MHHH 4 H 3 MHHM 9 MMM 4 HMHHHH 9 MMM 3 4 HMH 0 1 M 2 H 4 HMH 0 7 HHMMH 7 HMHM 0 MH 9 MMM 8 4 H 0 MHM 0 1 3 MHHH 1 HM 8 4 H 3 MHM 4 H 0 MH 0 1 MHH 8 0 2 HMHM 0 MHH 8 2 MHM 3 0 1 HMHHH 8 3 0 MHHMH 1 0 3 MHHH 9 MMM 8 0 4 H 3 M 10 MHHHM 4 H 3 0 MH 1 H 0 2 HMH 4 H 0 3 MHH 8 4 H 0 3 MHHM 3 4 H 0 MHH 3 0 4 HMHH 8 0 1 4 H 2 HMHHM 7 HH 0 MHH 7 H 3 MHHH 8 4 H 0 3 MHHM 3 4 H 0 MHH 0 7 HHM 2 H 10 MMHH 8 0 4 H 3 M 7 HHHMHM 3 0 4 HMHH 0 4 H 2 M 7 HMMMHM
+======
+# M/H: 8560 / 586
+# Last rebuild:   iter -1  num_configs -1
+channel.c:182, channel.c:183, channel.c:523, channel.c:524, channel.c:527, channel.c:529, channel.c:530, channel.c:532, channel.c:578, channel.c:581, channel.c:582, channel.c:585, channel.c:587, channel.c:588, channel.c:590, channel.c:944, channel.c:950, channel.c:951, channel.c:957, channel.c:958, channel.c:981, channel.c:982, irc-channel.c:258, irc-mode.c:247, irc-mode.c:252, irc-mode.c:253, irc-mode.c:254, irc-mode.c:256, irc-mode.c:269, irc-mode.c:272, irc-mode.c:291, irc-mode.c:325, irc-mode.c:326, irc-mode.c:327, irc-mode.c:348, irc-mode.c:350, irc-mode.c:353, irc-mode.c:396, irc-mode.c:397, irc-mode.c:398, irc-mode.c:401, irc-mode.c:458, irc-mode.c:459, irc-mode.c:460, irc-mode.c:461, irc-mode.c:462, irc-mode.c:468, irc-mode.c:469, irc-mode.c:471, irc-mode.c:473, irc-mode.c:489, irc-mode.c:490, irc-mode.c:495, irc-mode.c:496, irc-mode.c:498, irc-mode.c:499, irc-mode.c:500, irc-mode.c:501, irc-mode.c:522, irc-mode.c:523, irc-mode.c:524, irc-mode.c:525, irc-mode.c:526, irc-mode.c:527, 
+-
+(let ((a!1 (or (and (= Conf_MaxNickLength |9|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+               (and (= Conf_MaxNickLength |100|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+               (and (= Conf_MaxNickLength |10|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|))))))
+  (and (= Conf_ListenIPv4 |1|) (= Conf_PredefChannelsOnly |0|) a!1))
+-
+5 12 M 9 MMMMM 11 MHH 11 MHH 11 MHHM
+======
+# M/H: 8159 / 987
+# Last rebuild:   iter -1  num_configs -1
+channel.c:226, channel.c:232, channel.c:235, channel.c:716, channel.c:718, channel.c:719, channel.c:720, channel.c:722, channel.c:723, channel.c:732, channel.c:735, channel.c:736, channel.c:748, channel.c:751, channel.c:752, channel.c:754, channel.c:762, channel.c:765, channel.c:766, channel.c:768, channel.c:882, channel.c:898, channel.c:899, channel.c:900, channel.c:902, channel.c:905, channel.c:908, channel.c:909, irc-channel.c:58, irc-channel.c:60, irc-info.c:347, irc-info.c:696, irc-info.c:697, irc-info.c:717, irc-info.c:720, irc-info.c:723, irc-info.c:724, irc-info.c:725, irc-info.c:727, irc-info.c:728, irc-info.c:729, irc-info.c:732, irc-info.c:733, irc-info.c:734, irc-info.c:735, irc-info.c:738, irc-info.c:739, irc-info.c:741, irc-info.c:745, irc-info.c:795, irc.c:197, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+  (and (= Conf_ListenIPv4 |1|)
+       (= Conf_PredefChannelsOnly |0|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 12 M 11 M 9 MMMHHHHH 9 MMMHHHHHM
+======
+# M/H: 8296 / 850
+# Last rebuild:   iter -1  num_configs -1
+channel.c:327, channel.c:328, match.c:69, 
+-
+(let ((a!1 (or (= Conf_PingTimeout |120|)
+               (= Conf_PingTimeout |3600|)
+               (and (= Conf_PingTimeout |1|) (= Conf_MaxConnectionsIP |1|)))))
+(let ((a!2 (and (= Conf_PongTimeout |20|)
+                (or (and (= Conf_MaxNickLength |6|) a!1)
+                    (and (= Conf_MaxNickLength |9|) a!1)
+                    (and (= Conf_MaxNickLength |10|) a!1)
+                    (and (= Conf_MaxNickLength |100|) a!1)
+                    (and (= Conf_MaxNickLength |8|) a!1)))))
+(let ((a!3 (or (and (= Conf_PongTimeout |3600|)
+                    (or (= Conf_MaxNickLength |6|)
+                        (= Conf_MaxNickLength |8|)
+                        (= Conf_MaxNickLength |9|)
+                        (= Conf_MaxNickLength |10|)
+                        (= Conf_MaxNickLength |100|)))
+               a!2)))
+  (and (= Conf_ListenIPv4 |1|) (= Conf_PredefChannelsOnly |0|) a!3))))
+-
+5 12 M 11 M 9 MMM 10 8 MHMMHH 10 8 MHMMHH 10 8 MHMMHH 10 8 MHMMHH 10 8 MHMMHH 9 MMMHHHHHM
+======
+# M/H: 8268 / 878
+# Last rebuild:   iter -1  num_configs -1
+channel.c:340, channel.c:344, channel.c:345, channel.c:351, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |5|)
+               (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+(let ((a!2 (or (and (= Conf_MaxJoins |2|) a!1)
+               (and (= Conf_MaxJoins |1|) a!1)
+               (and (= Conf_MaxJoins |100|) a!1))))
+  (and (= Conf_ListenIPv4 |1|)
+       (= Conf_PredefChannelsOnly |0|)
+       (or (and (= Conf_PongTimeout |20|) a!2)
+           (and (= Conf_PongTimeout |3600|) a!2)))))
+-
+5 12 M 11 M 7 M 9 MMHHHHHH 9 MMHHHHHH 9 MMHHHHHH 7 M 9 MMHHHHHH 9 MMHHHHHH 9 MMHHHHHHM
+======
+# M/H: 8698 / 448
+# Last rebuild:   iter -1  num_configs -1
+channel.c:347, channel.c:348, 
+-
+(let ((a!1 (or (= Conf_MaxJoins |1|)
+               (= Conf_MaxJoins |2|)
+               (= Conf_MaxJoins |100|)))
+      (a!3 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)))
+      (a!6 (or (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|))))
+(let ((a!2 (or (and (= Conf_MaxConnectionsIP |2|) a!1)
+               (and (= Conf_MaxConnectionsIP |100|) a!1)
+               (and (= Conf_MaxConnectionsIP |0|) a!1)))
+      (a!4 (and (= Conf_MaxNickLength |100|)
+                (or (and (= Conf_MaxJoins |2|) a!3)
+                    (and (= Conf_MaxJoins |1|) a!3)
+                    (and (= Conf_MaxJoins |100|) a!3))))
+      (a!7 (or (and (= Conf_MaxJoins |2|) a!6)
+               (and (= Conf_MaxJoins |100|) a!6)
+               (and (= Conf_MaxJoins |1|)
+                    (or (= Conf_MaxNickLength |6|)
+                        (= Conf_MaxNickLength |9|)
+                        (= Conf_MaxNickLength |10|)
+                        (= Conf_MaxNickLength |100|)))))
+      (a!8 (and (= Conf_MaxConnectionsIP |2|)
+                (or (= Conf_MaxNickLength |6|)
+                    (and (= Conf_MaxNickLength |10|) (= Conf_MaxJoins |100|))
+                    (and (= Conf_MaxNickLength |9|) a!1)
+                    (and (= Conf_MaxNickLength |100|) (= Conf_ConnectRetry |5|))
+                    (and (= Conf_MaxNickLength |8|) a!1))))
+      (a!9 (and (= Conf_MaxConnectionsIP |100|)
+                (or (and (= Conf_MaxNickLength |100|) (= Conf_GID |0|))
+                    (and (= Conf_MaxNickLength |10|) (= Conf_ConnectRetry |60|))
+                    (and (= Conf_MaxNickLength |9|) a!1)
+                    (and (= Conf_MaxNickLength |6|) a!1)
+                    (and (= Conf_MaxNickLength |8|) a!1))))
+      (a!11 (and (= Conf_MaxNickLength |9|)
+                 (or (= Conf_MaxConnectionsIP |2|)
+                     (and (= Conf_MaxConnectionsIP |100|) a!1)
+                     (and (= Conf_MaxConnectionsIP |0|) a!1))))
+      (a!12 (and (= Conf_MaxNickLength |8|)
+                 (or (= Conf_MaxJoins |1|)
+                     (and (= Conf_MaxJoins |2|) a!3)
+                     (and (= Conf_MaxJoins |100|) a!3))))
+      (a!13 (and (= Conf_MaxNickLength |6|)
+                 (or (= Conf_MaxJoins |2|)
+                     (and (= Conf_MaxJoins |1|) a!3)
+                     (and (= Conf_MaxJoins |100|) a!3))))
+      (a!14 (and (= Conf_MaxNickLength |10|)
+                 (or (= Conf_MaxConnectionsIP |0|)
+                     (= Conf_MaxConnectionsIP |100|)
+                     (and (= Conf_MaxConnectionsIP |2|) a!1))))
+      (a!15 (or (and (= Conf_MaxConnectionsIP |2|)
+                     (or (= Conf_MaxJoins |2|) (= Conf_MaxJoins |100|)))
+                (and (= Conf_MaxConnectionsIP |0|) a!1)
+                (and (= Conf_MaxConnectionsIP |100|)
+                     (or (= Conf_MaxJoins |1|) (= Conf_MaxJoins |100|))))))
+(let ((a!5 (and (= Conf_PongTimeout |3600|)
+                (or (and (= Conf_MaxNickLength |10|) a!2)
+                    (and (= Conf_MaxNickLength |6|) a!2)
+                    a!4
+                    (and (= Conf_MaxNickLength |9|) a!2)
+                    (and (= Conf_MaxNickLength |8|) a!2))))
+      (a!10 (and (= Conf_PingTimeout |120|)
+                 (or (and (= Conf_MaxConnectionsIP |0|) a!7) a!8 a!9)))
+      (a!16 (and (= Conf_PingTimeout |3600|)
+                 (or a!11
+                     a!12
+                     a!13
+                     a!14
+                     (and (= Conf_MaxNickLength |100|) a!15)))))
+  (and (= Conf_ListenIPv4 |1|)
+       (= Conf_PredefChannelsOnly |0|)
+       (or a!5 (and (= Conf_PongTimeout |20|) (or a!10 a!16)))))))
+-
+5 12 M 11 M 10 M 8 7 M 9 MMMHMHHH 9 MMMHHHHH 9 MMMHHHHHM 9 MMMH 7 MHHH 7 MHHH 7 MMMH 2 HM 9 MMM 7 MHHH 7 MHHH 7 MHHH 2 MH 1 HM 9 MMM 7 M 8 HMHHH 8 HMHH 7 MH 8 HMHH 8 HMHH 8 7 MHHHMH 7 MHHH 8 HM 7 MHHHH 8 7 MHHHM 7 MMHH 7 MHMH 9 MMM 8 7 MHHHM 7 MHHH 7 MHHH 8 7 MHHHM 7 MHHH 7 MHHH 8 7 MHHHM 7 MHHH 7 MHHH 8 7 MHHHM 7 MHHH 7 MHHH 7 M 8 HMHH 8 HMHH 8 HMHHM
+======
+# M/H: 8303 / 843
+# Last rebuild:   iter -1  num_configs -1
+channel.c:458, channel.c:879, channel.c:881, irc-write.c:360, irc-write.c:361, irc-write.c:362, irc-write.c:364, irc-write.c:365, irc-write.c:367, irc-write.c:368, irc-write.c:370, irc-write.c:372, irc-write.c:379, irc-write.c:383, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)))
+      (a!4 (and (= Conf_OperCanMode |0|)
+                (or (= Conf_ConnectRetry |5|)
+                    (and (= Conf_ConnectRetry |60|) (= Conf_MaxJoins |2|)))))
+      (a!7 (and (= Conf_OperCanMode |0|)
+                (or (= Conf_ConnectRetry |5|)
+                    (and (= Conf_ConnectRetry |60|) (= Conf_GID |1|)))))
+      (a!10 (and (= Conf_OperCanMode |0|)
+                 (or (= Conf_ConnectRetry |5|)
+                     (and (= Conf_ConnectRetry |60|)
+                          (= Conf_MaxConnectionsIP |100|)))))
+      (a!13 (and (= Conf_ConnectRetry |60|)
+                 (or (= Conf_PingTimeout |3600|)
+                     (and (= Conf_PingTimeout |1|)
+                          (= Conf_MaxConnectionsIP |1|)))))
+      (a!17 (and (= Conf_ConnectRetry |60|)
+                 (or (= Conf_MaxJoins |0|)
+                     (and (= Conf_MaxJoins |2|) (= Conf_PingTimeout |120|)))))
+      (a!20 (and (= Conf_ConnectRetry |60|)
+                 (or (= Conf_PingTimeout |3600|)
+                     (and (= Conf_PingTimeout |1|) (= Conf_MaxJoins |0|))
+                     (and (= Conf_PingTimeout |120|) (= Conf_GID |1|)))))
+      (a!26 (and (= Conf_ConnectRetry |60|)
+                 (or (= Conf_PingTimeout |120|)
+                     (= Conf_PingTimeout |3600|)
+                     (and (= Conf_PingTimeout |1|)
+                          (= Conf_MaxConnectionsIP |100|)
+                          (= Conf_MaxJoins |0|))))))
+(let ((a!2 (and (= Conf_NoDNS |0|)
+                (= Conf_OperCanMode |0|)
+                (or (= Conf_ConnectRetry |5|)
+                    (and (= Conf_ConnectRetry |60|)
+                         (= Conf_OperServerMode |1|)
+                         a!1))))
+      (a!5 (and (= Conf_UID |0|)
+                (or (and (= Conf_OperCanMode |1|) (= Conf_MaxConnectionsIP |1|))
+                    a!4)))
+      (a!8 (and (= Conf_NoDNS |0|)
+                (or a!7
+                    (and (= Conf_OperCanMode |1|)
+                         (= Conf_PingTimeout |1|)
+                         (= Conf_MaxConnectionsIP |1|)))))
+      (a!11 (and (= Conf_UID |0|)
+                 (or a!10
+                     (and (= Conf_OperCanMode |1|)
+                          (= Conf_MaxConnectionsIP |1|)
+                          (= Conf_PingTimeout |1|)))))
+      (a!14 (or (and (= Conf_OperCanMode |1|)
+                     (= Conf_MaxConnectionsIP |1|)
+                     (= Conf_ConnectRetry |5|))
+                (and (= Conf_OperCanMode |0|)
+                     (or (= Conf_ConnectRetry |5|) a!13))))
+      (a!18 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|)
+                     (= Conf_OperCanMode |0|)
+                     (or (= Conf_ConnectRetry |5|) a!17))))
+      (a!21 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|)
+                     (= Conf_OperCanMode |0|)
+                     (or (= Conf_ConnectRetry |5|) a!20))))
+      (a!23 (and (= Conf_UID |0|)
+                 (or (= Conf_NoDNS |1|)
+                     (and (= Conf_NoDNS |0|) (= Conf_OperCanMode |0|) a!1))))
+      (a!24 (and (= Conf_UID |0|)
+                 (= Conf_OperCanMode |0|)
+                 (or (= Conf_MaxJoins |2|)
+                     (= Conf_MaxJoins |100|)
+                     (and (= Conf_MaxJoins |0|) a!1)
+                     (and (= Conf_MaxJoins |1|) (= Conf_ConnectRetry |5|)))))
+      (a!27 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|)
+                     (= Conf_OperCanMode |0|)
+                     (or (= Conf_ConnectRetry |5|) a!26)))))
+(let ((a!3 (or (= Conf_UID |4096|)
+               (and (= Conf_UID |0|) (or (= Conf_NoDNS |1|) a!2))))
+      (a!6 (or (= Conf_NoDNS |1|)
+               (and (= Conf_NoDNS |0|) (or (= Conf_UID |4096|) a!5))))
+      (a!9 (or (= Conf_UID |4096|)
+               (and (= Conf_UID |0|) (or (= Conf_NoDNS |1|) a!8))))
+      (a!12 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|) (or (= Conf_UID |4096|) a!11))))
+      (a!15 (and (= Conf_UID |0|)
+                 (or (= Conf_NoDNS |1|) (and (= Conf_NoDNS |0|) a!14))))
+      (a!19 (and (= Conf_MaxNickLength |100|)
+                 (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!18))))
+      (a!22 (and (= Conf_MaxNickLength |9|)
+                 (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!21))))
+      (a!25 (or (= Conf_NoDNS |1|)
+                (and (= Conf_NoDNS |0|) (or (= Conf_UID |4096|) a!24))))
+      (a!28 (and (= Conf_MaxNickLength |10|)
+                 (or (= Conf_UID |4096|) (and (= Conf_UID |0|) a!27)))))
+(let ((a!16 (or (and (= Conf_MaxNickLength |6|) a!3)
+                (and (= Conf_MaxNickLength |10|) a!6)
+                (and (= Conf_MaxNickLength |5|)
+                     (= Conf_PingTimeout |1|)
+                     (= Conf_MaxConnectionsIP |1|))
+                (and (= Conf_MaxNickLength |8|) a!9)
+                (and (= Conf_MaxNickLength |9|) a!12)
+                (and (= Conf_MaxNickLength |100|) (or (= Conf_UID |4096|) a!15))))
+      (a!29 (or a!19
+                a!22
+                (and (= Conf_MaxNickLength |8|) (or (= Conf_UID |4096|) a!23))
+                (and (= Conf_MaxNickLength |6|) a!25)
+                a!28)))
+  (and (= Conf_ListenIPv4 |1|)
+       (= Conf_PredefChannelsOnly |0|)
+       (or (and (= Conf_PongTimeout |20|) a!16)
+           (and (= Conf_PongTimeout |3600|) a!29)))))))
+-
+5 12 M 11 M 9 MM 10 8 MHMMMM 0 4 H 3 M 2 H 6 8 HMHHMH 0 4 H 3 10 8 MHMMMM 2 H 1 MHH 4 H 0 3 8 M 10 HMMMM 2 H 8 MMMHH 4 H 0 3 8 MHMM 2 H 7 MMHMH 0 4 H 3 8 M 2 HMMM 2 H 10 8 MHMMMHH 9 MMM 4 H 0 3 M 7 8 HMHH 2 HMHHH 0 4 H 3 M 8 HMHHH 0 4 H 3 M 2 H 10 7 HMMM 1 MHHH 0 4 H 3 M 2 H 10 8 MMM 7 HMMMHHH 0 4 H 3 M 2 H 7 HM 10 MHMMHM
+======
+# M/H: 8419 / 727
+# Last rebuild:   iter -1  num_configs -1
+channel.c:669, irc-channel.c:348, irc-channel.c:350, irc-channel.c:370, irc-channel.c:377, irc-channel.c:378, irc-channel.c:383, irc-channel.c:384, irc-channel.c:386, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|)
+               (= Conf_MaxNickLength |9|)
+               (= Conf_MaxNickLength |10|)
+               (= Conf_MaxNickLength |100|)))
+      (a!3 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|))))
+(let ((a!2 (and (= Conf_PongTimeout |20|)
+                (or (and (= Conf_MaxConnectionsIP |0|) a!1)
+                    (and (= Conf_MaxConnectionsIP |2|) a!1)
+                    (and (= Conf_MaxConnectionsIP |100|) a!1))))
+      (a!4 (and (= Conf_PongTimeout |3600|)
+                (or (and (= Conf_MaxNickLength |9|) a!3)
+                    (and (= Conf_MaxNickLength |10|) a!3)
+                    (and (= Conf_MaxNickLength |6|) a!3)
+                    (and (= Conf_MaxNickLength |8|) a!3)
+                    (and (= Conf_MaxNickLength |100|) a!3)))))
+  (and (= Conf_ListenIPv4 |1|) (= Conf_PredefChannelsOnly |0|) (or a!2 a!4))))
+-
+5 12 M 11 M 8 9 MMMHHHHHM 9 MMMHHHHH 9 MMMHHHHH 9 MMM 8 HMHH 8 HMHH 8 HMHH 8 HMHH 8 HMHHM
+======
+# M/H: 538 / 8608
+# Last rebuild:   iter -1  num_configs -1
+conf.c:163, 
+-
+(let ((a!1 (and (= Conf_PredefChannelsOnly |1|)
+                (or (= Conf_OperCanMode |0|)
+                    (and (= Conf_OperCanMode |1|) (= Conf_NoDNS |0|))))))
+  (or (= Conf_OperServerMode |0|)
+      (and (= Conf_OperServerMode |1|) (or (= Conf_PredefChannelsOnly |0|) a!1))))
+-
+6 12 3 4 MHHHH
+======
+# M/H: 6917 / 2229
+# Last rebuild:   iter -1  num_configs -1
+conn.c:1109, resolve.c:100, resolve.c:102, resolve.c:103, resolve.c:104, resolve.c:200, resolve.c:233, resolve.c:237, resolve.c:238, resolve.c:244, resolve.c:253, resolve.c:255, resolve.c:257, resolve.c:258, resolve.c:391, resolve.c:392, resolve.c:396, resolve.c:399, resolve.c:412, resolve.c:413, resolve.c:417, resolve.c:418, resolve.c:433, resolve.c:434, resolve.c:435, resolve.c:441, resolve.c:443, resolve.c:445, resolve.c:446, resolve.c:93, resolve.c:94, resolve.c:95, resolve.c:97, resolve.c:98, resolve.c:99, 
+-
+(and (= Conf_NoDNS |0|) (= Conf_ListenIPv4 |1|))
+-
+4 M 5 HM
+======
+# M/H: 7628 / 1518
+# Last rebuild:   iter -1  num_configs -1
+conn.c:1636, conn.c:1639, conn.c:1640, conn.c:1642, conn.c:1644, conn.c:1653, conn.c:1654, conn.c:1655, conn.c:550, conn.c:551, 
+-
+(and (= Conf_NoDNS |0|)
+     (= Conf_ListenIPv4 |1|)
+     (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+-
+4 M 5 11 MHHM
+======
+# M/H: 6823 / 2323
+# Last rebuild:   iter -1  num_configs -1
+ngircd.c:742, 
+-
+(and (= Conf_GID |0|) (= Conf_UID |4096|))
+-
+1 0 MHM
+======
+# M/H: 5464 / 3682
+# Last rebuild:   iter -1  num_configs -1
+client.c:318, 
+-
+(let ((a!1 (or (= Conf_PongTimeout |1|)
+               (and (= Conf_PongTimeout |20|)
+                    (or (= Conf_MaxConnectionsIP |0|)
+                        (= Conf_MaxConnectionsIP |100|))))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (= Conf_MaxNickLength |0|)
+           (= Conf_MaxNickLength |4|)
+           (= Conf_MaxNickLength |5|)
+           (= Conf_MaxNickLength |6|)
+           (= Conf_MaxNickLength |8|)
+           (and (= Conf_MaxNickLength |9|) a!1)
+           (and (= Conf_MaxNickLength |10|) a!1)
+           (and (= Conf_MaxNickLength |100|) a!1))))
+-
+5 9 HHHHH 11 H 8 HMMHM 11 H 8 HMMHM 11 H 8 HMMHMM
+======
+# M/H: 7237 / 1909
+# Last rebuild:   iter -1  num_configs -1
+client.c:771, client.c:772, 
+-
+(let ((a!1 (or (= Conf_MaxNickLength |0|)
+               (= Conf_MaxNickLength |4|)
+               (= Conf_MaxNickLength |5|)
+               (= Conf_MaxNickLength |6|)
+               (= Conf_MaxNickLength |8|))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (and (= Conf_PongTimeout |20|) a!1)
+           (and (= Conf_PongTimeout |3600|) a!1))))
+-
+5 11 M 9 HHHHHMMM 9 HHHHHMMMM
+======
+# M/H: 7608 / 1538
+# Last rebuild:   iter -1  num_configs -1
+conn.c:1045, conn.c:1046, conn.c:1047, conn.c:1048, conn.c:1708, conn.c:1709, conn.c:1710, conn.c:1711, 
+-
+(let ((a!1 (or (and (= Conf_MaxConnectionsIP |1|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+               (and (= Conf_MaxConnectionsIP |2|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|))))))
+  (and (= Conf_ListenIPv4 |1|) a!1))
+-
+5 8 M 11 MHH 11 MHHMM
+======
+# M/H: 6328 / 2818
+# Last rebuild:   iter -1  num_configs -1
+conn.c:1373, conn.c:1376, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)
+               (and (= Conf_MaxConnectionsIP |1|)
+                    (or (= Conf_MaxNickLength |0|)
+                        (= Conf_MaxNickLength |4|)
+                        (= Conf_MaxNickLength |5|)
+                        (= Conf_MaxNickLength |6|)
+                        (= Conf_MaxNickLength |8|))))))
+  (and (= Conf_ListenIPv4 |1|)
+       (or (= Conf_PongTimeout |1|) (and (= Conf_PongTimeout |20|) a!1))))
+-
+5 11 H 8 H 9 HHHHHMMMHHMM
+======
+# M/H: 8743 / 403
+# Last rebuild:   iter -1  num_configs -1
+numeric.c:317, numeric.c:330, 
+-
+(and (= Conf_MaxNickLength |6|)
+     (= Conf_ListenIPv4 |1|)
+     (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+-
+9 MMM 5 11 MHHMMMMM
+======
+# M/H: 6919 / 2227
+# Last rebuild:   iter -1  num_configs -1
+conf.c:305, 
+-
+(let ((a!1 (and (= Conf_MaxNickLength |6|)
+                (or (= Conf_MaxConnectionsIP |0|)
+                    (= Conf_MaxConnectionsIP |2|)
+                    (= Conf_MaxConnectionsIP |100|)
+                    (and (= Conf_MaxConnectionsIP |1|) (= Conf_PongTimeout |1|))))))
+  (and (= Conf_ConnectRetry |5|)
+       (= Conf_ListenIPv4 |1|)
+       (or (= Conf_MaxNickLength |0|)
+           (= Conf_MaxNickLength |4|)
+           (= Conf_MaxNickLength |5|)
+           (= Conf_MaxNickLength |8|)
+           (= Conf_MaxNickLength |9|)
+           (= Conf_MaxNickLength |10|)
+           (= Conf_MaxNickLength |100|)
+           a!1)))
+-
+2 5 9 HHH 8 H 11 HMMHHHHHHMM
+======
+# M/H: 8678 / 468
+# Last rebuild:   iter -1  num_configs -1
+conn.c:1351, conn.c:1354, 
+-
+(let ((a!1 (or (= Conf_MaxConnectionsIP |0|)
+               (= Conf_MaxConnectionsIP |2|)
+               (= Conf_MaxConnectionsIP |100|)
+               (and (= Conf_MaxConnectionsIP |1|)
+                    (or (= Conf_MaxNickLength |5|)
+                        (= Conf_MaxNickLength |6|)
+                        (= Conf_MaxNickLength |8|)
+                        (= Conf_MaxNickLength |9|)
+                        (= Conf_MaxNickLength |10|)
+                        (= Conf_MaxNickLength |100|))))))
+  (and (= Conf_PongTimeout |20|)
+       (= Conf_PingTimeout |1|)
+       (= Conf_ListenIPv4 |1|)
+       a!1))
+-
+11 M 10 5 8 H 9 MMHHHHHHHHMMMM
+======
+# M/H: 8388 / 758
+# Last rebuild:   iter -1  num_configs -1
+irc-login.c:392, 
+-
+(let ((a!1 (or (and (= Conf_MaxNickLength |0|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|)))
+               (and (= Conf_MaxNickLength |4|)
+                    (or (= Conf_PongTimeout |20|) (= Conf_PongTimeout |3600|))))))
+  (and (= Conf_ListenIPv4 |1|) a!1))
+-
+5 9 11 MHH 11 MHHMMMMMMM
+======
+# M/H: 8435 / 711
+# Last rebuild:   iter -1  num_configs -1
+conn.c:860, 
+-
+(and (= Conf_PongTimeout |1|) (= Conf_ListenIPv4 |1|) (= Conf_NoDNS |0|))
+-
+11 5 4 MHMMM
+======

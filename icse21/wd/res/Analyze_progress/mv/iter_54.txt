@@ -1,0 +1,423 @@
+# ./igen4 -J2 -cr -F 2/mv -O res/Analyze_progress/mv/iter_{iter}.txt --save-each-iter
+# seed = 123, repeat_id = 0, thread_id = 0
+#     3678  167   21 |  3678    -1 |  0   54 |     2     0      0 | 89b2eadb1b14f8ab8289d04af7fa47ca
+======
+# M/H: 0 / 3852
+# Last rebuild:   iter 1  num_configs 5
+mv.c:107, mv.c:109, mv.c:111, mv.c:112, mv.c:113, mv.c:114, mv.c:115, mv.c:116, mv.c:117, mv.c:118, mv.c:119, mv.c:120, mv.c:121, mv.c:122, mv.c:123, mv.c:124, mv.c:125, mv.c:126, mv.c:127, mv.c:128, mv.c:129, mv.c:130, mv.c:131, mv.c:132, mv.c:133, mv.c:134, mv.c:135, mv.c:136, mv.c:137, mv.c:138, mv.c:139, mv.c:140, mv.c:142, mv.c:143, mv.c:144, mv.c:145, mv.c:146, mv.c:147, mv.c:337, mv.c:341, mv.c:342, mv.c:343, mv.c:345, mv.c:346, mv.c:349, mv.c:352, mv.c:353, mv.c:357, mv.c:359, mv.c:362, mv.c:364, 
+-
+true
+-
+H
+======
+# M/H: 1 / 3755
+# Last rebuild:   iter 32  num_configs 1610
+mv.c:367, 
+-
+(let ((a!1 (and (= -Z off) (or (= -v on) (and (= -v off) (= --version on))))))
+(let ((a!2 (or (= --strip-trailing-slashes on)
+               (and (= --strip-trailing-slashes off) (or (= -Z on) a!1)))))
+(let ((a!3 (and (= -u off) (or (= --help on) (and (= --help off) a!2)))))
+(let ((a!4 (or (= -f on) (and (= -f off) (or (= -u on) a!3)))))
+(let ((a!5 (and (= -b off) (or (= -n on) (and (= -n off) a!4)))))
+(let ((a!6 (or (= --backup none)
+               (= --backup numbered)
+               (= --backup existing)
+               (= --backup simple)
+               (and (= --backup off) (or (= -b on) a!5)))))
+  (or (= -i on) (and (= -i off) a!6))))))))
+-
+3 H 0 1 H 4 H 2 H 6 H 9 H 5 H 8 H 7 H 10 HMHHHH
+======
+# M/H: 1960 / 1920
+# Last rebuild:   iter 1  num_configs 20
+mv.c:377, mv.c:378, mv.c:379, 
+-
+(= -i on)
+-
+3 HM
+======
+# M/H: 1943 / 1945
+# Last rebuild:   iter 1  num_configs 35
+mv.c:380, mv.c:381, mv.c:382, 
+-
+(= -n on)
+-
+4 HM
+======
+# M/H: 1928 / 1974
+# Last rebuild:   iter 1  num_configs 50
+mv.c:383, mv.c:384, mv.c:385, 
+-
+(= --strip-trailing-slashes on)
+-
+5 HM
+======
+# M/H: 1931 / 1985
+# Last rebuild:   iter 1  num_configs 65
+mv.c:404, mv.c:405, mv.c:406, 
+-
+(= -u on)
+-
+6 HM
+======
+# M/H: 2005 / 1983
+# Last rebuild:   iter 2  num_configs 288
+mv.c:407, mv.c:408, mv.c:409, 
+-
+(= -v on)
+-
+7 HM
+======
+# M/H: 2986 / 1041
+# Last rebuild:   iter 2  num_configs 302
+mv.c:424, 
+-
+(and (= --version on) (= --help off))
+-
+10 9 MHM
+======
+# M/H: 1683 / 2212
+# Last rebuild:   iter 1  num_configs 87
+mv.c:286, mv.c:288, mv.c:333, 
+-
+(let ((a!1 (and (= --help off)
+                (= -n on)
+                (= --version off)
+                (or (= --backup none)
+                    (= --backup numbered)
+                    (= --backup existing)
+                    (= --backup simple)
+                    (and (= --backup off) (= -b on))))))
+  (or (= --help on) a!1))
+-
+9 H 4 10 M 0 1 HMHHHHM
+======
+# M/H: 2306 / 1730
+# Last rebuild:   iter 2  num_configs 317
+mv.c:292, mv.c:298, mv.c:302, mv.c:304, mv.c:313, mv.c:318, mv.c:328, mv.c:329, mv.c:330, mv.c:331, mv.c:423, system.h:588, system.h:590, system.h:593, system.h:616, system.h:618, system.h:625, system.h:631, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(= --help on)
+-
+9 HM
+======
+# M/H: 425 / 3463
+# Last rebuild:   iter 1  num_configs 96
+mv.c:369, mv.c:370, mv.c:371, mv.c:373, 
+-
+(or (= -b on)
+    (and (= -b off)
+         (or (= --backup none)
+             (= --backup numbered)
+             (= --backup existing)
+             (= --backup simple))))
+-
+1 H 0 MHHHH
+======
+# M/H: 826 / 3156
+# Last rebuild:   iter 2  num_configs 332
+mv.c:372, 
+-
+(or (= --backup none)
+    (= --backup numbered)
+    (= --backup existing)
+    (= --backup simple))
+-
+0 MHHHH
+======
+# M/H: 1941 / 2005
+# Last rebuild:   iter 1  num_configs 102
+mv.c:374, mv.c:375, mv.c:376, 
+-
+(= -f on)
+-
+2 HM
+======
+# M/H: 1979 / 1991
+# Last rebuild:   iter 1  num_configs 117
+mv.c:414, mv.c:417, mv.c:422, 
+-
+(= -Z on)
+-
+8 HM
+======
+# M/H: 2726 / 1323
+# Last rebuild:   iter 2  num_configs 339
+mv.c:154, mv.c:157, mv.c:158, mv.c:159, mv.c:161, mv.c:430, mv.c:431, mv.c:433, mv.c:443, mv.c:455, mv.c:457, mv.c:458, mv.c:459, mv.c:461, mv.c:462, mv.c:464, mv.c:465, mv.c:472, mv.c:475, 
+-
+(and (= --version off) (= --help off))
+-
+10 M 9 MH
+======
+# M/H: 3294 / 741
+# Last rebuild:   iter 2  num_configs 354
+mv.c:169, mv.c:173, mv.c:175, mv.c:245, mv.c:253, mv.c:265, mv.c:268, mv.c:271, mv.c:272, mv.c:273, mv.c:274, mv.c:275, mv.c:282, mv.c:482, mv.c:485, mv.c:486, mv.c:488, mv.c:490, mv.c:495, mv.c:498, mv.c:499, mv.c:501, mv.c:502, mv.c:511, 
+-
+(and (= --help off)
+     (= --version off)
+     (or (= -n off) (and (= -n on) (= --backup off) (= -b off))))
+-
+9 M 10 M 4 0 1 MHMMMMH
+======
+# M/H: 3625 / 62
+# Last rebuild:   iter 53  num_configs 3665
+mv.c:178, mv.c:194, mv.c:198, mv.c:227, 
+-
+(let ((a!1 (or (and (= -i off) (= -u on)) (and (= -i on) (= -u off))))
+      (a!6 (and (= -i on)
+                (or (and (= --strip-trailing-slashes on) (= -u off))
+                    (and (= --strip-trailing-slashes off) (= -u on)))))
+      (a!10 (and (= -v off)
+                 (= -f on)
+                 (= -u on)
+                 (or (and (= -b on)
+                          (= -i on)
+                          (= --strip-trailing-slashes off)
+                          (= -Z off))
+                     (and (= -b off)
+                          (= -i off)
+                          (= --strip-trailing-slashes on)
+                          (= -Z on)))))
+      (a!11 (and (= -f off)
+                 (= --strip-trailing-slashes off)
+                 (= -Z off)
+                 (or (and (= -i on) (= -u off) (= -v on))
+                     (and (= -i off) (= -u on) (= -v off)))))
+      (a!13 (and (= -v off)
+                 (or (= --strip-trailing-slashes on)
+                     (and (= --strip-trailing-slashes off) (= -Z off)))))
+      (a!16 (and (= -i off)
+                 (= --strip-trailing-slashes on)
+                 (or (and (= -u off) (= -v on) (= -Z off))
+                     (and (= -u on) (= -v off) (= -Z on)))))
+      (a!18 (and (= -b off)
+                 (or (and (= -f off) (= -i off) (= -v on))
+                     (and (= -f on) (= -i on) (= -v off) (= -Z off)))))
+      (a!20 (and (= --strip-trailing-slashes off)
+                 (= -b on)
+                 (= -i on)
+                 (= -v off)
+                 (or (and (= -f on) (= -Z off)) (and (= -f off) (= -Z on)))))
+      (a!21 (and (= --strip-trailing-slashes on)
+                 (= -f on)
+                 (= -Z off)
+                 (or (and (= -i on) (= -v on)) (and (= -i off) (= -v off)))))
+      (a!22 (and (= -f off)
+                 (or (and (= -i on) (= -v on))
+                     (and (= -i off) (= -v off) (= -Z on)))))
+      (a!23 (and (= -f on) (= -i off) (= -v on) (= -Z off)))
+      (a!25 (and (= -f off)
+                 (= -Z on)
+                 (or (and (= -i on) (= -v off)) (and (= -i off) (= -v on)))))
+      (a!28 (and (= -b off)
+                 (or (and (= -f off)
+                          (= --strip-trailing-slashes off)
+                          (= -u on)
+                          (= -v off)
+                          (= -Z on))
+                     (and (= -f on)
+                          (= --strip-trailing-slashes on)
+                          (= -u off)
+                          (= -v on)
+                          (= -Z off)))))
+      (a!29 (and (= --strip-trailing-slashes off)
+                 (or (and (= -u on) (= -v on) (= -Z on))
+                     (and (= -u off) (= -v off) (= -Z off)))))
+      (a!32 (and (= -i off)
+                 (= -u off)
+                 (= -Z off)
+                 (or (and (= -b off)
+                          (= -f off)
+                          (= --strip-trailing-slashes off)
+                          (= -v off))
+                     (and (= -b on)
+                          (= -f on)
+                          (= --strip-trailing-slashes on)
+                          (= -v on)))))
+      (a!34 (and (= -v on)
+                 (or (and (= -i on) (= --strip-trailing-slashes on))
+                     (and (= -i off)
+                          (= --strip-trailing-slashes off)
+                          (= -u off)))))
+      (a!37 (and (= -b off)
+                 (= -i on)
+                 (= -v on)
+                 (or (and (= --strip-trailing-slashes off) (= -u on) (= -Z off))
+                     (and (= --strip-trailing-slashes on) (= -u off) (= -Z on))))))
+(let ((a!2 (and (= -Z off)
+                (or (= --strip-trailing-slashes off)
+                    (and (= --strip-trailing-slashes on) a!1))))
+      (a!7 (and (= -b off)
+                (or a!6
+                    (and (= -i off) (= --strip-trailing-slashes off) (= -u on)))))
+      (a!12 (and (= -b off)
+                 (or a!11
+                     (and (= -f on)
+                          (= -i on)
+                          (= --strip-trailing-slashes on)
+                          (= -u on)
+                          (= -v on)
+                          (= -Z on)))))
+      (a!14 (and (= -u off)
+                 (or a!13
+                     (and (= -v on) (= --strip-trailing-slashes off) (= -Z off)))))
+      (a!19 (and (= --strip-trailing-slashes on)
+                 (or (and (= -b on) (= -f on) (= -i off) (= -v off) (= -Z on))
+                     a!18)))
+      (a!24 (and (= -b on)
+                 (or a!21 (and (= --strip-trailing-slashes off) (or a!22 a!23)))))
+      (a!26 (and (= -b off)
+                 (or (and (= --strip-trailing-slashes on) (or a!25 a!23))
+                     (and (= --strip-trailing-slashes off)
+                          (= -f on)
+                          (= -i on)
+                          (= -v off)
+                          (= -Z off)))))
+      (a!30 (and (= -f off)
+                 (or a!29
+                     (and (= --strip-trailing-slashes on)
+                          (= -u off)
+                          (= -v off)
+                          (= -Z on)))))
+      (a!35 (and (= -Z off)
+                 (or a!34
+                     (and (= -v off)
+                          (= -i off)
+                          (= --strip-trailing-slashes off)
+                          (= -u on)))))
+      (a!38 (and (= -f off)
+                 (= -b off)
+                 (or a!16
+                     (and (= -i on)
+                          (= --strip-trailing-slashes off)
+                          (= -u on)
+                          (= -v on)
+                          (= -Z off))))))
+(let ((a!3 (and (= -f on)
+                (or a!2
+                    (and (= -Z on)
+                         (= -i off)
+                         (= --strip-trailing-slashes on)
+                         (= -u off)))))
+      (a!8 (and (= -f off)
+                (= -Z off)
+                (or a!7
+                    (and (= -b on)
+                         (= -i on)
+                         (= --strip-trailing-slashes on)
+                         (= -u off)))))
+      (a!15 (and (= -i on)
+                 (or a!14
+                     (and (= -u on)
+                          (= --strip-trailing-slashes off)
+                          (= -v off)
+                          (= -Z on)))))
+      (a!27 (and (= --backup numbered)
+                 (or (and (= -u on) (or a!19 a!20))
+                     (and (= -u off) (or a!24 a!26)))))
+      (a!31 (and (= -b on)
+                 (or a!30
+                     (and (= -f on)
+                          (= --strip-trailing-slashes on)
+                          (= -u off)
+                          (= -v off)
+                          (= -Z off)))))
+      (a!36 (and (= -b on)
+                 (or (and (= -Z on)
+                          (= -i off)
+                          (= --strip-trailing-slashes off)
+                          (= -u off)
+                          (= -v off))
+                     a!35))))
+(let ((a!4 (and (= -v off)
+                (or a!3
+                    (and (= -f off)
+                         (= -i on)
+                         (= --strip-trailing-slashes off)
+                         (= -u off)
+                         (= -Z off)))))
+      (a!9 (and (= -v on)
+                (or a!8
+                    (and (= -f on)
+                         (= -b on)
+                         (= --strip-trailing-slashes off)
+                         (= -Z on)
+                         a!1))))
+      (a!17 (and (= -b on)
+                 (or (and (= -f on) (or a!15 a!16))
+                     (and (= -f off)
+                          (= -i on)
+                          (= --strip-trailing-slashes on)
+                          (= -u off)
+                          (= -v off)
+                          (= -Z on)))))
+      (a!33 (and (= --backup off) (or (and (= -i on) (or a!28 a!31)) a!32)))
+      (a!39 (and (= --backup simple) (or (and (= -f on) (or a!36 a!37)) a!38))))
+(let ((a!5 (and (= -n on)
+                (= -b off)
+                (= --backup off)
+                (or (and (= -v on)
+                         (= -f off)
+                         (= -i on)
+                         (= --strip-trailing-slashes on)
+                         (= -u off)
+                         (= -Z on))
+                    a!4)))
+      (a!40 (and (= -n off)
+                 (or (and (= --backup existing) (or a!9 a!10))
+                     (and (= --backup none) (or a!12 a!17))
+                     a!27
+                     a!33
+                     a!39))))
+  (and (= --version off) (= --help off) (or a!5 a!40)))))))
+-
+10 M 9 M 4 1 M 0 7 2 M 3 5 6 M 8 HMMM 2 8 3 M 5 6 MHM 5 3 6 MH 6 HMH 3 5 M 6 M 8 MHMMMMM 0 3 1 2 5 6 M 7 M 8 MHM 5 6 M 7 M 8 HM 6 7 8 HMM 7 M 8 MH 2 5 6 M 7 8 MHMM 5 M 6 7 M 8 HMM 6 M 8 M 1 2 5 7 HMMM 2 M 5 M 7 MH 1 2 3 6 5 M 7 M 8 HM 7 5 M 8 MH 5 H 8 MH 5 6 7 M 8 HM 7 8 MHMM 3 5 6 M 7 M 8 HMMM 2 3 5 6 7 8 HMMMMM 5 M 8 M 3 6 M 7 HM 6 7 MHM 6 5 1 2 3 M 7 M 8 HMM 2 3 7 M 8 MHM 3 M 7 HM 1 3 7 M 2 8 MH 8 HMMM 1 5 2 8 M 3 7 HM 7 MHM 2 3 M 7 8 MHM 3 7 HM 7 M 8 HM 5 2 3 M 7 8 MHM 8 3 7 MH 7 HMM 2 3 7 M 8 MHMM 7 2 1 5 M 8 3 6 MH 6 HMMM 8 M 1 3 5 6 MHMM 3 5 6 MH 6 HM 5 M 6 HM 2 6 1 3 5 M 8 MHM 3 M 5 8 HMMMM 2 1 8 3 M 5 M 6 M 7 MH 7 3 5 HM 5 M 6 MH 3 M 5 M 6 HM 3 7 5 6 M 8 HM 6 8 MHMMM 1 M 3 5 M 6 7 8 MHMM 5 6 7 M 8 HM 7 8 MHMM
+======
+# M/H: 3423 / 650
+# Last rebuild:   iter 2  num_configs 382
+mv.c:483, 
+-
+(and (= -n off)
+     (= --help off)
+     (= --version off)
+     (or (= --backup none)
+         (= --backup numbered)
+         (= --backup existing)
+         (= --backup simple)
+         (and (= --backup off) (= -b on))))
+-
+4 M 9 M 10 M 0 1 HMHHHH
+======
+# M/H: 3438 / 631
+# Last rebuild:   iter 2  num_configs 392
+mv.c:289, mv.c:477, mv.c:479, 
+-
+(let ((a!1 (or (= -b on)
+               (and (= -b off)
+                    (or (= --backup none)
+                        (= --backup numbered)
+                        (= --backup existing)
+                        (= --backup simple))))))
+  (and (= -n on) (= --help off) (= --version off) a!1))
+-
+4 9 M 10 M 1 H 0 MHHHHM
+======
+# M/H: 3453 / 666
+# Last rebuild:   iter 2  num_configs 402
+mv.c:473, 
+-
+(and (= -n on) (= --help off) (= --version off))
+-
+4 9 M 10 MHM
+======
+# M/H: 3459 / 362
+# Last rebuild:   iter 20  num_configs 931
+mv.c:266, 
+-
+(and (= --strip-trailing-slashes on)
+     (= --version off)
+     (= --help off)
+     (or (= -n off) (and (= -n on) (= --backup off) (= -b off))))
+-
+5 10 M 9 M 4 0 1 MHMMMMHM
+======

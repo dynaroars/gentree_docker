@@ -1,0 +1,28 @@
+# ./igen4 -J2 -cr -F 2/cat -O res/Analyze_progress/cat/iter_{iter}.txt --save-each-iter
+# seed = 123, repeat_id = 0, thread_id = 0
+#       22  184    3 |    22    -1 |  0    1 |     0     0      0 | 9f0fa68f1a0ab10ab69663595573fd3b
+======
+# M/H: 4 / 6
+# Last rebuild:   iter 1  num_configs 8
+cat.c:107, cat.c:113, cat.c:114, cat.c:115, cat.c:122, cat.c:124, cat.c:591, cat.c:592, cat.c:593, cat.c:595, cat.c:596, cat.c:597, cat.c:599, cat.c:600, cat.c:601, cat.c:602, cat.c:612, cat.c:613, cat.c:614, cat.c:615, cat.c:616, cat.c:618, cat.c:619, cat.c:620, cat.c:622, cat.c:623, cat.c:624, cat.c:626, cat.c:82, cat.c:84, cat.c:88, cat.c:92, cat.c:96, cat.c:98, system.h:581, system.h:583, system.h:586, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(= --help on)
+-
+10 HM
+======
+# M/H: 0 / 36
+# Last rebuild:   iter 1  num_configs 10
+cat.c:503, cat.c:511, cat.c:519, cat.c:535, cat.c:540, cat.c:541, cat.c:542, cat.c:543, cat.c:544, cat.c:545, cat.c:546, cat.c:563, cat.c:564, cat.c:572, cat.c:576, cat.c:579, 
+-
+true
+-
+H
+======
+# M/H: 21 / 21
+# Last rebuild:   iter 1  num_configs 16
+cat.c:581, cat.c:582, cat.c:583, cat.c:584, cat.c:586, cat.c:587, cat.c:588, cat.c:589, cat.c:604, cat.c:606, cat.c:608, cat.c:609, cat.c:610, cat.c:628, 
+-
+(= -b on)
+-
+1 HM
+======

@@ -1,0 +1,16 @@
+language: c
+sudo: required
+script: ./tests/travis-run.sh
+
+cache:
+  directories:
+  - $HOME/.opam
+  - /usr/local
+
+env:
+  # - OCAML_VERSION=4.01
+  - OCAML_VERSION=4.02
+
+os:
+  - linux
+  - osx

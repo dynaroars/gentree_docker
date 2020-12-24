@@ -1,0 +1,8 @@
+include conf.perlcov
+
+var name cloc
+
+bin {bindir}/{name}.pl
+# =================================
+
+run {} {testdir}/perl_cloc

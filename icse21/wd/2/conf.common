@@ -1,0 +1,5 @@
+var scratch_dir         /mnt/ramdisk/
+var user_home_dir       /home/kh
+
+var testfiles_srcdir    /home/kh/gentree/wd/2/testfiles
+var bench_progs_dir     /home/kh/bench_progs

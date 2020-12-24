@@ -1,0 +1,34 @@
+--unicode off on
+
+--by-file  off on 
+--by-file-by-lang  off on
+                         
+--docstring-as-code        off on
+--follow-links             off on
+
+--ignore-whitespace       off on
+--ignore-case             off on
+--ignore-case-ext         off on
+
+--read-binary-files      off on
+--skip-uniqueness        off on
+--stat                   off on
+
+--strip-str-comments      off on
+
+
+
+--show-os                 off on
+-v                        off 0 1 2
+--version                 off on
+
+--3                       off on
+--csv                     off on
+--hide-rate               off on
+--json                    off on
+--md                      off on
+--quiet                   off on
+--xml                     off on
+--yaml                    off on
+
+

@@ -1,0 +1,11 @@
+include conf.perlcov
+
+var name ack
+
+bin {bindir}/{name}.pl
+# =================================
+
+run {} vec {testdir}/perl_ack
+#run {} [0-4] {testdir}/perl_ack
+
+#run {} [a-zA-Z][0-9] {testdir}/perl_ack

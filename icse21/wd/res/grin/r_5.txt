@@ -1,0 +1,152 @@
+# ./igen4 -J2 -cr -GF 2/grin -O res/grin/r_{i}.txt --rep 11 --rep-p 18
+# seed = 128, repeat_id = 5, thread_id = 4
+#     7169  330   16 | 70130    -1 |  5   10 |     0     0      0 | a55485c2360ac7388407a9315b6fc2eb
+======
+# M/H: 0 / 7461
+# Last rebuild:   iter 1  num_configs 2
+_virtualenv.py:102, _virtualenv.py:97, grin.py:10, grin.py:1009, grin.py:1010, grin.py:1011, grin.py:1013, grin.py:1014, grin.py:1015, grin.py:1016, grin.py:1039, grin.py:1042, grin.py:1048, grin.py:1080, grin.py:11, grin.py:12, grin.py:128, grin.py:129, grin.py:13, grin.py:132, grin.py:137, grin.py:15, grin.py:159, grin.py:160, grin.py:177, grin.py:178, grin.py:179, grin.py:180, grin.py:181, grin.py:182, grin.py:184, grin.py:187, grin.py:188, grin.py:19, grin.py:196, grin.py:2, grin.py:207, grin.py:22, grin.py:23, grin.py:24, grin.py:27, grin.py:28, grin.py:291, grin.py:30, grin.py:32, grin.py:342, grin.py:38, grin.py:394, grin.py:41, grin.py:412, grin.py:44, grin.py:476, grin.py:5, grin.py:509, grin.py:510, grin.py:536, grin.py:561, grin.py:577, grin.py:58, grin.py:596, grin.py:6, grin.py:627, grin.py:677, grin.py:690, grin.py:7, grin.py:719, grin.py:751, grin.py:754, grin.py:755, grin.py:761, grin.py:763, grin.py:765, grin.py:767, grin.py:769, grin.py:771, grin.py:773, grin.py:776, grin.py:778, grin.py:781, grin.py:784, grin.py:787, grin.py:790, grin.py:793, grin.py:795, grin.py:797, grin.py:8, grin.py:800, grin.py:803, grin.py:806, grin.py:809, grin.py:812, grin.py:815, grin.py:818, grin.py:821, grin.py:824, grin.py:827, grin.py:830, grin.py:833, grin.py:835, grin.py:837, grin.py:839, grin.py:84, grin.py:842, grin.py:843, grin.py:845, grin.py:847, grin.py:9, grin.py:906, grin.py:920, grin.py:999, grin:3, grin:4, grin:5, grin:6, grin:7, grin:8, 
+-
+true
+-
+H
+======
+# M/H: 4722 / 2879
+# Last rebuild:   iter 1  num_configs 24
+grin.py:1030, grin.py:1032, 
+-
+(= --version on)
+-
+0 HM
+======
+# M/H: 2890 / 4740
+# Last rebuild:   iter 1  num_configs 56
+grin.py:1003, grin.py:1004, grin.py:1006, grin.py:1017, grin.py:1020, grin.py:1024, grin.py:1025, grin.py:1026, grin.py:1027, grin.py:198, grin.py:200, grin.py:203, grin.py:205, grin.py:540, grin.py:541, grin.py:542, grin.py:543, grin.py:549, grin.py:550, grin.py:551, grin.py:552, grin.py:555, grin.py:557, grin.py:558, grin.py:559, grin.py:663, grin.py:664, grin.py:665, grin.py:666, grin.py:667, grin.py:668, grin.py:680, grin.py:681, grin.py:684, grin.py:686, grin.py:688, grin.py:693, grin.py:694, grin.py:696, grin.py:698, grin.py:701, grin.py:702, grin.py:703, grin.py:705, grin.py:706, grin.py:735, grin.py:736, grin.py:740, grin.py:741, grin.py:742, grin.py:745, grin.py:746, grin.py:747, grin.py:909, grin.py:918, grin.py:938, grin.py:940, grin.py:964, grin.py:965, grin.py:970, grin.py:974, grin.py:975, grin.py:976, grin.py:977, grin.py:983, grin.py:984, grin.py:986, grin.py:989, grin.py:990, grin.py:992, grin.py:993, 
+-
+(= --version off)
+-
+0 MH
+======
+# M/H: 6203 / 1550
+# Last rebuild:   iter 2  num_configs 200
+grin.py:707, 
+-
+(and (= -E on) (= --version off))
+-
+19 0 MHM
+======
+# M/H: 4471 / 3320
+# Last rebuild:   iter 2  num_configs 238
+grin.py:1028, grin.py:1029, grin.py:228, grin.py:233, grin.py:234, grin.py:235, grin.py:236, grin.py:238, grin.py:239, grin.py:243, grin.py:250, grin.py:305, grin.py:306, grin.py:307, grin.py:310, grin.py:311, grin.py:312, grin.py:313, grin.py:319, grin.py:320, grin.py:321, grin.py:323, grin.py:324, grin.py:325, grin.py:339, grin.py:340, grin.py:362, grin.py:363, grin.py:364, grin.py:365, grin.py:366, grin.py:368, grin.py:369, grin.py:370, grin.py:371, grin.py:372, grin.py:373, grin.py:375, grin.py:378, grin.py:381, grin.py:382, grin.py:385, grin.py:388, grin.py:389, grin.py:390, grin.py:392, grin.py:397, grin.py:398, grin.py:399, grin.py:400, grin.py:401, grin.py:403, grin.py:404, grin.py:410, grin.py:429, grin.py:430, grin.py:431, grin.py:432, grin.py:472, grin.py:473, grin.py:494, grin.py:499, grin.py:500, grin.py:501, grin.py:503, grin.py:504, grin.py:505, grin.py:506, grin.py:55, grin.py:553, grin.py:56, grin.py:572, grin.py:573, grin.py:574, grin.py:575, grin.py:588, grin.py:589, grin.py:594, grin.py:66, grin.py:67, grin.py:68, grin.py:69, grin.py:70, grin.py:708, grin.py:709, grin.py:71, grin.py:715, grin.py:737, grin.py:739, grin.py:748, grin.py:75, grin.py:76, grin.py:77, grin.py:79, grin.py:81, grin.py:82, grin.py:994, grin.py:995, 
+-
+(and (= -E off) (= --version off))
+-
+19 M 0 MH
+======
+# M/H: 6435 / 1396
+# Last rebuild:   iter 2  num_configs 276
+grin.py:110, grin.py:111, grin.py:113, grin.py:114, grin.py:116, grin.py:117, grin.py:119, grin.py:121, grin.py:123, grin.py:124, grin.py:125, grin.py:450, grin.py:451, grin.py:452, grin.py:453, grin.py:454, grin.py:455, grin.py:456, grin.py:457, grin.py:458, grin.py:459, 
+-
+(and (= --version off)
+     (= --force-color on)
+     (= -E off)
+     (or (= -L on) (= -l off)))
+-
+0 M 14 19 M 11 H 10 MHM
+======
+# M/H: 4856 / 3013
+# Last rebuild:   iter 2  num_configs 316
+grin.py:408, 
+-
+(and (= -E off) (= --version off) (or (= -A |2|) (= -B |2|)))
+-
+19 M 0 M 4 3 2 MHHH
+======
+# M/H: 5484 / 2426
+# Last rebuild:   iter 2  num_configs 356
+grin.py:437, grin.py:442, grin.py:448, grin.py:449, grin.py:461, grin.py:467, grin.py:468, grin.py:469, 
+-
+(and (= -E off) (= --version off) (or (= -L on) (= -l off)))
+-
+19 M 0 M 11 H 10 MH
+======
+# M/H: 6473 / 1476
+# Last rebuild:   iter 2  num_configs 396
+grin.py:444, 
+-
+(and (= --emacs off) (= -E off) (= --version off) (or (= -l off) (= -L on)))
+-
+9 M 19 M 0 M 10 11 HMH
+======
+# M/H: 7218 / 771
+# Last rebuild:   iter 2  num_configs 434
+grin.py:445, 
+-
+(and (= -N off)
+     (= -E off)
+     (= --emacs off)
+     (= --version off)
+     (or (= -L on) (= -l off)))
+-
+6 M 19 M 9 M 0 M 11 H 10 MH
+======
+# M/H: 6915 / 1112
+# Last rebuild:   iter 2  num_configs 474
+grin.py:443, 
+-
+(and (= --emacs on) (= --version off) (= -E off) (or (= -L on) (= -l off)))
+-
+9 0 M 19 M 11 H 10 MHM
+======
+# M/H: 5499 / 2566
+# Last rebuild:   iter 2  num_configs 512
+grin.py:1005, 
+-
+(and (= --ignore-case on) (= --version off))
+-
+1 0 MHM
+======
+# M/H: 6916 / 1185
+# Last rebuild:   iter 2  num_configs 550
+grin.py:434, grin.py:435, 
+-
+(and (= -l on) (= -L off) (= -E off) (= --version off))
+-
+10 11 M 19 M 0 MHM
+======
+# M/H: 7216 / 925
+# Last rebuild:   iter 2  num_configs 588
+grin.py:438, grin.py:439, grin.py:441, 
+-
+(and (= --without-filename off)
+     (= --emacs off)
+     (= -E off)
+     (= --version off)
+     (or (= -l off) (= -L on)))
+-
+8 M 9 M 19 M 0 M 10 11 HMH
+======
+# M/H: 7373 / 806
+# Last rebuild:   iter 2  num_configs 626
+grin.py:447, 
+-
+(and (= -N on)
+     (= --emacs off)
+     (= --version off)
+     (= -E off)
+     (or (= -L on) (= -l off)))
+-
+6 9 M 0 M 19 M 11 H 10 MHM
+======
+# M/H: 7743 / 603
+# Last rebuild:   iter 3  num_configs 1426
+grin.py:118, grin.py:440, 
+-
+(and (= --force-color on)
+     (= --without-filename off)
+     (= --emacs off)
+     (= --version off)
+     (= -E off)
+     (or (= -l off) (= -L on)))
+-
+14 8 M 9 M 0 M 19 M 10 11 HMHM
+======

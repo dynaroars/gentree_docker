@@ -1,0 +1,3352 @@
+# ./igen4 -J2 -crwx -GF 2/bibtex2html --rep 11 -O res/bibtex2html/a_{i}.txt -j64 --rep-para 11
+# seed = 127, repeat_id = 4, thread_id = 9
+#    45305 1437  160 |    21  2421 |  4  187 |  5670  5649 176047 | 64ab20ae1f3c92a18d8a3c867dabb8ab
+======
+# M/H: 9053 / 36444
+# Last rebuild:   iter 1  num_configs 12
+bbl_lexer.ml:15932, bbl_lexer.ml:16376, bbl_lexer.ml:16416, bbl_lexer.ml:16500, bbl_lexer.ml:17033, bbl_lexer.ml:17558, bbl_lexer.ml:17598, bbl_lexer.ml:17673, bbl_lexer.ml:18816, bbl_lexer.ml:19314, bbl_lexer.ml:19903, bbl_lexer.ml:19943, bbl_lexer.ml:20028, bbl_lexer.ml:20751, bbl_lexer.ml:20791, bbl_lexer.ml:20879, bbl_lexer.ml:21237, bbl_lexer.ml:21277, bbl_lexer.mll:16145, bbl_lexer.mll:16226, bbl_lexer.mll:16306, bbl_lexer.mll:16861, bbl_lexer.mll:17235, bbl_lexer.mll:17317, bbl_lexer.mll:17342, bbl_lexer.mll:17346, bbl_lexer.mll:17416, bbl_lexer.mll:17494, bbl_lexer.mll:19022, bbl_lexer.mll:19043, bbl_lexer.mll:19075, bbl_lexer.mll:19103, bbl_lexer.mll:19124, bbl_lexer.mll:19532, bbl_lexer.mll:19705, bbl_lexer.mll:19749, bbl_lexer.mll:20240, bbl_lexer.mll:20272, bbl_lexer.mll:20638, bbl_lexer.mll:20682, bbl_lexer.mll:21099, bibtex.ml:2213, bibtex_lexer.ml:13305, bibtex_lexer.ml:13349, bibtex_lexer.ml:13602, bibtex_lexer.ml:14918, bibtex_lexer.ml:15772, bibtex_lexer.ml:15812, bibtex_lexer.ml:16801, bibtex_lexer.ml:17466, bibtex_lexer.ml:17506, bibtex_lexer.ml:17574, bibtex_lexer.ml:17929, bibtex_lexer.ml:17969, bibtex_lexer.mll:13553, bibtex_lexer.mll:13956, bibtex_lexer.mll:13975, bibtex_lexer.mll:14293, bibtex_lexer.mll:14402, bibtex_lexer.mll:14419, bibtex_lexer.mll:14626, bibtex_lexer.mll:14643, bibtex_lexer.mll:14738, bibtex_lexer.mll:14755, bibtex_lexer.mll:14766, bibtex_lexer.mll:14795, bibtex_lexer.mll:14814, bibtex_lexer.mll:15088, bibtex_lexer.mll:15105, bibtex_lexer.mll:15116, bibtex_lexer.mll:15136, bibtex_lexer.mll:15159, bibtex_lexer.mll:15265, bibtex_lexer.mll:15285, bibtex_lexer.mll:15631, bibtex_lexer.mll:17003, bibtex_lexer.mll:17033, bibtex_lexer.mll:17048, bibtex_lexer.mll:17072, bibtex_lexer.mll:17160, bibtex_lexer.mll:17332, bibtex_lexer.mll:17372, bibtex_lexer.mll:17401, bibtex_lexer.mll:17770, bibtex_lexer.mll:250, bibtex_lexer.mll:299, bibtex_lexer.mll:354, bibtex_lexer.mll:390, bibtex_lexer.mll:413, bibtex_lexer.mll:517, bibtex_parser.ml:10071, bibtex_parser.ml:10135, bibtex_parser.ml:10798, bibtex_parser.ml:10861, bibtex_parser.ml:11005, bibtex_parser.ml:11069, bibtex_parser.ml:11226, bibtex_parser.ml:11290, bibtex_parser.ml:11447, bibtex_parser.ml:12226, bibtex_parser.ml:6897, bibtex_parser.ml:6964, bibtex_parser.ml:7111, bibtex_parser.ml:7178, bibtex_parser.ml:7250, bibtex_parser.ml:7400, bibtex_parser.ml:8289, bibtex_parser.ml:8353, bibtex_parser.ml:8428, bibtex_parser.ml:8625, bibtex_parser.ml:8698, bibtex_parser.ml:8880, bibtex_parser.ml:8944, bibtex_parser.ml:9019, bibtex_parser.ml:9164, bibtex_parser.ml:9228, bibtex_parser.ml:9578, bibtex_parser.ml:9647, bibtex_parser.ml:9723, bibtex_parser.mly:8489, bibtex_parser.mly:8759, bibtex_parser.mly:8787, expand.ml:1427, expand.ml:1865, expand.ml:1895, expand.ml:1900, expand.ml:1932, expand.ml:1986, expand.ml:2058, expand.ml:2087, expand.ml:2266, expand.ml:2440, latexmacros.ml:22928, latexmacros.ml:22964, main.ml:18391, main.ml:18405, main.ml:19165, main.ml:19261, main.ml:19303, main.ml:19353, main.ml:19656, main.ml:19688, main.ml:19930, main.ml:19940, main.ml:20014, main.ml:20116, main.ml:20140, main.ml:20160, main.ml:20232, main.ml:2231, main.ml:2285, main.ml:2326, main.ml:2367, main.ml:2400, main.ml:2438, main.ml:2447, main.ml:2476, main.ml:2571, main.ml:2610, main.ml:2694, main.ml:2769, main.ml:2920, main.ml:3451, main.ml:3489, main.ml:3532, main.ml:3559, main.ml:3585, main.ml:3712, main.ml:3750, main.ml:3783, main.ml:3838, main.ml:3864, main.ml:3889, main.ml:3893, main.ml:3938, main.ml:3965, main.ml:3975, main.ml:3998, main.ml:4021, main.ml:4044, main.ml:4082, main.ml:4201, main.ml:4222, main.ml:4350, main.ml:4405, main.ml:4504, main.ml:4539, main.ml:4864, main.ml:4896, main.ml:4906, main.ml:4958, main.ml:5029, main.ml:5097, main.ml:5117, main.ml:5160, main.ml:5195, main.ml:5232, main.ml:5258, main.ml:5268, main.ml:5299, main.ml:5341, main.ml:5363, main.ml:5396, main.ml:5425, main.ml:5514, main.ml:5541, main.ml:5582, main.ml:5621, main.ml:5636, main.ml:5649, main.ml:5838, main.ml:6157, main.ml:6190, main.ml:6248, main.ml:6312, main.ml:6324, main.ml:6404, main.ml:6519, main.ml:6560, main.ml:6603, main.ml:6611, main.ml:6641, main.ml:6662, main.ml:7744, main.ml:7805, main.ml:7835, main.ml:7889, main.ml:8189, main.ml:8217, main.ml:8270, readbib.ml:1296, readbib.ml:1465, readbib.ml:1502, readbib.ml:1517, readbib.ml:1556, readbib.ml:1564, readbib.ml:1629, readbib.ml:1645, readbib.ml:1664, readbib.ml:1776, 
+-
+(= -v off)
+-
+32 MH
+======
+# M/H: 0 / 45572
+# Last rebuild:   iter 1  num_configs 21
+bbl_lexer.ml:205, bbl_lexer.mll:122, bbl_lexer.mll:139, bbl_lexer.mll:76, bbl_lexer.mll:96, bibfilter.ml:1242, biboutput.ml:1239, biboutput.ml:1439, bibtex.ml:1306, bibtex.ml:1708, bibtex.ml:1890, bibtex.ml:3905, bibtex.ml:3929, bibtex.ml:4742, bibtex.ml:4782, bibtex.ml:4820, bibtex.ml:4844, bibtex.ml:5667, bibtex.ml:8207, bibtex_lexer.ml:631, bibtex_lexer.mll:145, bibtex_lexer.mll:199, bibtex_lexer.mll:434, bibtex_lexer.mll:73, bibtex_parser.ml:1034, bibtex_parser.ml:11641, bibtex_parser.ml:1350, bibtex_parser.ml:1453, bibtex_parser.ml:1770, bibtex_parser.ml:2087, bibtex_parser.ml:2193, bibtex_parser.ml:2211, bibtex_parser.ml:232, bibtex_parser.ml:332, bibtex_parser.ml:4407, bibtex_parser.ml:528, bibtex_parser.ml:635, bibtex_parser.ml:6609, bibtex_parser.ml:6752, bibtex_parser.ml:6831, bibtex_parser.ml:833, copying.ml:1742, expand.ml:1337, expand.ml:1377, expand.ml:1509, expand.ml:1534, expand.ml:3087, expand.ml:3159, expand.ml:3232, expand.ml:3850, html.ml:1220, html.ml:1239, html.ml:2165, html.ml:2366, latexmacros.ml:10100, latexmacros.ml:10860, latexmacros.ml:11587, latexmacros.ml:11617, latexmacros.ml:12142, latexmacros.ml:12621, latexmacros.ml:13523, latexmacros.ml:13716, latexmacros.ml:13860, latexmacros.ml:13894, latexmacros.ml:13931, latexmacros.ml:13959, latexmacros.ml:13988, latexmacros.ml:14015, latexmacros.ml:14043, latexmacros.ml:14072, latexmacros.ml:14104, latexmacros.ml:14130, latexmacros.ml:14159, latexmacros.ml:14184, latexmacros.ml:14209, latexmacros.ml:14235, latexmacros.ml:14277, latexmacros.ml:14309, latexmacros.ml:14339, latexmacros.ml:14411, latexmacros.ml:14498, latexmacros.ml:14524, latexmacros.ml:14549, latexmacros.ml:14583, latexmacros.ml:14622, latexmacros.ml:14650, latexmacros.ml:14675, latexmacros.ml:14702, latexmacros.ml:14729, latexmacros.ml:14756, latexmacros.ml:14783, latexmacros.ml:14819, latexmacros.ml:14847, latexmacros.ml:14888, latexmacros.ml:14924, latexmacros.ml:14959, latexmacros.ml:14999, latexmacros.ml:15034, latexmacros.ml:15078, latexmacros.ml:15130, latexmacros.ml:15155, latexmacros.ml:15180, latexmacros.ml:15209, latexmacros.ml:15237, latexmacros.ml:15264, latexmacros.ml:15295, latexmacros.ml:15320, latexmacros.ml:15345, latexmacros.ml:15393, latexmacros.ml:15431, latexmacros.ml:15484, latexmacros.ml:15573, latexmacros.ml:15630, latexmacros.ml:15657, latexmacros.ml:15680, latexmacros.ml:15703, latexmacros.ml:15717, latexmacros.ml:15731, latexmacros.ml:15748, latexmacros.ml:15766, latexmacros.ml:15788, latexmacros.ml:15808, latexmacros.ml:15828, latexmacros.ml:15846, latexmacros.ml:15885, latexmacros.ml:15913, latexmacros.ml:15938, latexmacros.ml:15972, latexmacros.ml:16006, latexmacros.ml:16037, latexmacros.ml:16066, latexmacros.ml:16097, latexmacros.ml:16126, latexmacros.ml:16146, latexmacros.ml:16172, latexmacros.ml:16193, latexmacros.ml:16257, latexmacros.ml:16325, latexmacros.ml:16351, latexmacros.ml:16378, latexmacros.ml:16392, latexmacros.ml:16406, latexmacros.ml:16420, latexmacros.ml:16458, latexmacros.ml:16581, latexmacros.ml:16613, latexmacros.ml:16653, latexmacros.ml:16695, latexmacros.ml:16738, latexmacros.ml:16790, latexmacros.ml:16905, latexmacros.ml:16985, latexmacros.ml:17031, latexmacros.ml:17618, latexmacros.ml:17651, latexmacros.ml:17682, latexmacros.ml:1769, latexmacros.ml:17715, latexmacros.ml:17748, latexmacros.ml:17785, latexmacros.ml:17825, latexmacros.ml:17856, latexmacros.ml:17885, latexmacros.ml:17918, latexmacros.ml:17954, latexmacros.ml:17985, latexmacros.ml:18018, latexmacros.ml:18053, latexmacros.ml:18080, latexmacros.ml:18107, latexmacros.ml:18134, latexmacros.ml:18161, latexmacros.ml:18192, latexmacros.ml:18221, latexmacros.ml:18253, latexmacros.ml:18286, latexmacros.ml:18323, latexmacros.ml:18352, latexmacros.ml:18389, latexmacros.ml:18418, latexmacros.ml:18450, latexmacros.ml:18479, latexmacros.ml:18508, latexmacros.ml:18541, latexmacros.ml:18574, latexmacros.ml:18607, latexmacros.ml:18640, latexmacros.ml:18675, latexmacros.ml:18702, latexmacros.ml:18729, latexmacros.ml:18762, latexmacros.ml:18799, latexmacros.ml:18828, latexmacros.ml:18857, latexmacros.ml:18925, latexmacros.ml:19000, latexmacros.ml:19310, latexmacros.ml:19482, latexmacros.ml:19497, latexmacros.ml:19517, latexmacros.ml:19568, latexmacros.ml:19619, latexmacros.ml:19654, latexmacros.ml:19677, latexmacros.ml:19703, latexmacros.ml:2134, latexmacros.ml:2212, latexmacros.ml:2458, latexmacros.ml:2519, latexmacros.ml:2583, latexmacros.ml:2648, latexmacros.ml:2712, latexmacros.ml:2777, latexmacros.ml:2844, latexmacros.ml:2912, latexmacros.ml:2982, latexmacros.ml:3053, latexmacros.ml:3142, latexmacros.ml:3180, latexmacros.ml:3217, latexmacros.ml:3274, latexmacros.ml:3331, latexmacros.ml:3390, latexmacros.ml:3449, latexmacros.ml:3506, latexmacros.ml:3563, latexmacros.ml:3620, latexmacros.ml:3679, latexmacros.ml:3707, latexmacros.ml:3735, latexmacros.ml:3763, latexmacros.ml:3791, latexmacros.ml:3823, latexmacros.ml:3884, latexmacros.ml:3913, latexmacros.ml:3941, latexmacros.ml:3972, latexmacros.ml:4031, latexmacros.ml:4090, latexmacros.ml:4158, latexmacros.ml:4244, latexmacros.ml:4796, latexmacros.ml:4853, latexmacros.ml:4910, latexmacros.ml:4939, latexmacros.ml:4967, latexmacros.ml:4995, latexmacros.ml:5023, latexmacros.ml:5052, latexmacros.ml:5067, latexmacros.ml:5083, latexmacros.ml:5140, latexmacros.ml:5166, latexmacros.ml:5191, latexmacros.ml:5262, latexmacros.ml:5312, latexmacros.ml:5354, latexmacros.ml:5392, latexmacros.ml:5436, latexmacros.ml:5476, latexmacros.ml:5522, latexmacros.ml:5564, latexmacros.ml:5610, latexmacros.ml:5655, latexmacros.ml:5683, latexmacros.ml:5709, latexmacros.ml:5758, latexmacros.ml:5832, latexmacros.ml:5855, latexmacros.ml:5879, latexmacros.ml:5902, latexmacros.ml:5925, latexmacros.ml:5948, latexmacros.ml:5971, latexmacros.ml:6001, latexmacros.ml:6031, latexmacros.ml:6061, latexmacros.ml:6091, latexmacros.ml:6121, latexmacros.ml:6151, latexmacros.ml:6181, latexmacros.ml:6211, latexmacros.ml:6234, latexmacros.ml:6257, latexmacros.ml:6284, latexmacros.ml:6307, latexmacros.ml:6330, latexmacros.ml:6353, latexmacros.ml:6380, latexmacros.ml:6413, latexmacros.ml:6443, latexmacros.ml:6473, latexmacros.ml:6501, latexmacros.ml:6529, latexmacros.ml:6558, latexmacros.ml:6587, latexmacros.ml:6617, latexmacros.ml:6647, latexmacros.ml:7691, latexmacros.ml:8316, latexmacros.ml:8817, latexmacros.ml:9073, latexmacros.ml:9229, latexscan.ml:2230, latexscan.mll:138, latexscan.mll:162, latexscan.mll:315, latexscan.mll:347, latexscan.mll:673, latexscan.mll:701, latexscan.mll:790, main.ml:12274, main.ml:1253, main.ml:1335, main.ml:1361, main.ml:1449, main.ml:1481, main.ml:1519, main.ml:1564, main.ml:1625, main.ml:1651, main.ml:19541, main.ml:19627, main.ml:20256, main.ml:2182, main.ml:6089, main.ml:7679, main.ml:7706, options.ml:1220, options.ml:1243, options.ml:1271, translate.ml:1273, translate.ml:1296, translate.ml:1324, translate.ml:1354, translate.ml:1380, translate.ml:1402, translate.ml:1426, translate.ml:1457, translate.ml:1487, translate.ml:1514, translate.ml:1542, translate.ml:1570, translate.ml:1594, translate.ml:1617, translate.ml:1638, translate.ml:1666, translate.ml:1691, translate.ml:1716, translate.ml:1749, translate.ml:1775, translate.ml:1800, translate.ml:1829, translate.ml:1852, translate.ml:1883, translate.ml:1908, translate.ml:1934, translate.ml:1996, translate.ml:2053, translate.ml:2078, translate.ml:2104, translate.ml:2142, translate.ml:2171, translate.ml:2213, translate.ml:2275, translate.ml:2402, translate.ml:2421, translate.ml:2578, translate.ml:3289, translate.ml:3318, translate.ml:3869, translate.ml:4231, translate.ml:4394, translate.ml:5461, translate.ml:5506, translate.ml:5543, version.ml:14, version.ml:32, 
+-
+true
+-
+H
+======
+# M/H: 21023 / 24476
+# Last rebuild:   iter 2  num_configs 99
+bbl_lexer.mll:17387, 
+-
+(and (= -v off) (or (= -s off) (= -s plain)))
+-
+32 M 0 HHM
+======
+# M/H: 22917 / 22666
+# Last rebuild:   iter 2  num_configs 110
+latexmacros.ml:20154, latexmacros.ml:20211, latexmacros.ml:20249, latexmacros.ml:20281, latexmacros.ml:20314, latexmacros.ml:20347, latexmacros.ml:20382, latexmacros.ml:20417, latexmacros.ml:20454, latexmacros.ml:20491, latexmacros.ml:20520, latexmacros.ml:20550, latexmacros.ml:20579, latexmacros.ml:20609, latexmacros.ml:20639, latexmacros.ml:20675, latexmacros.ml:20708, latexmacros.ml:20743, latexmacros.ml:20778, latexmacros.ml:20812, latexmacros.ml:20849, latexmacros.ml:20883, latexmacros.ml:20920, latexmacros.ml:20951, latexmacros.ml:20984, latexmacros.ml:21024, latexmacros.ml:21055, latexmacros.ml:21090, latexmacros.ml:21124, latexmacros.ml:21161, latexmacros.ml:21196, latexmacros.ml:21231, latexmacros.ml:21266, latexmacros.ml:21297, latexmacros.ml:21330, latexmacros.ml:21367, latexmacros.ml:21396, latexmacros.ml:21427, latexmacros.ml:21462, latexmacros.ml:21491, latexmacros.ml:21528, latexmacros.ml:21564, latexmacros.ml:21595, latexmacros.ml:21627, latexmacros.ml:21664, latexmacros.ml:21697, latexmacros.ml:21735, latexmacros.ml:21770, latexmacros.ml:21809, latexmacros.ml:21840, latexmacros.ml:21883, latexmacros.ml:21922, latexmacros.ml:21960, latexmacros.ml:22002, latexmacros.ml:22040, latexmacros.ml:22083, latexmacros.ml:22114, latexmacros.ml:22147, latexmacros.ml:22178, latexmacros.ml:22214, latexmacros.ml:22244, latexmacros.ml:22274, latexmacros.ml:22307, latexmacros.ml:22339, latexmacros.ml:22370, latexmacros.ml:22405, latexmacros.ml:22439, latexmacros.ml:22472, latexmacros.ml:22518, latexmacros.ml:22559, latexmacros.ml:22592, latexmacros.ml:22708, latexmacros.ml:22738, latexmacros.ml:22769, main.ml:16158, main.ml:16192, main.ml:16222, 
+-
+(= -html-entities on)
+-
+27 HM
+======
+# M/H: 23096 / 22491
+# Last rebuild:   iter 1  num_configs 36
+main.ml:13379, main.ml:13393, 
+-
+(= -nodoi on)
+-
+17 HM
+======
+# M/H: 23275 / 22323
+# Last rebuild:   iter 2  num_configs 125
+main.ml:13871, main.ml:13896, 
+-
+(= -nokeywords on)
+-
+16 HM
+======
+# M/H: 23239 / 22374
+# Last rebuild:   iter 2  num_configs 140
+main.ml:13969, main.ml:13991, 
+-
+(= -nolinks on)
+-
+12 HM
+======
+# M/H: 22556 / 23072
+# Last rebuild:   iter 2  num_configs 155
+main.ml:14173, main.ml:14189, main.ml:14207, 
+-
+(= -nokeys on)
+-
+11 HM
+======
+# M/H: 22840 / 22803
+# Last rebuild:   iter 2  num_configs 170
+main.ml:14269, main.ml:14285, 
+-
+(= -use-table on)
+-
+20 HM
+======
+# M/H: 23003 / 22655
+# Last rebuild:   iter 2  num_configs 185
+main.ml:14446, main.ml:14463, 
+-
+(= -rawurl on)
+-
+14 HM
+======
+# M/H: 22834 / 22839
+# Last rebuild:   iter 2  num_configs 200
+main.ml:14821, main.ml:14844, 
+-
+(= -noheader on)
+-
+21 HM
+======
+# M/H: 22843 / 22845
+# Last rebuild:   iter 2  num_configs 215
+main.ml:14920, main.ml:14943, 
+-
+(= -nofooter on)
+-
+22 HM
+======
+# M/H: 19109 / 26594
+# Last rebuild:   iter 2  num_configs 230
+main.ml:16526, main.ml:16543, 
+-
+(= -d on)
+-
+1 HM
+======
+# M/H: 27083 / 18635
+# Last rebuild:   iter 2  num_configs 245
+main.ml:16622, main.ml:16641, 
+-
+(= -a on)
+-
+2 HM
+======
+# M/H: 22923 / 22810
+# Last rebuild:   iter 2  num_configs 260
+main.ml:16894, main.ml:16929, main.ml:16946, 
+-
+(= -revkeys on)
+-
+5 HM
+======
+# M/H: 23780 / 21968
+# Last rebuild:   iter 2  num_configs 275
+main.ml:17529, main.ml:17551, 
+-
+(= -nobibsource on)
+-
+24 HM
+======
+# M/H: 23224 / 22539
+# Last rebuild:   iter 2  num_configs 290
+main.ml:17630, main.ml:17645, 
+-
+(= -nodoc on)
+-
+10 HM
+======
+# M/H: 23119 / 22659
+# Last rebuild:   iter 2  num_configs 305
+main.ml:17721, main.ml:17759, 
+-
+(= -noexpand on)
+-
+23 HM
+======
+# M/H: 18702 / 27091
+# Last rebuild:   iter 2  num_configs 320
+main.ml:18795, main.ml:18823, 
+-
+(= -w on)
+-
+31 HM
+======
+# M/H: 23737 / 22071
+# Last rebuild:   iter 2  num_configs 335
+main.ml:18884, main.ml:18907, 
+-
+(= -q on)
+-
+30 HM
+======
+# M/H: 35409 / 10414
+# Last rebuild:   iter 2  num_configs 350
+main.ml:19113, main.ml:19133, 
+-
+(= --print-keys on)
+-
+29 HM
+======
+# M/H: 36818 / 9020
+# Last rebuild:   iter 2  num_configs 365
+main.ml:2814, 
+-
+(and (= -a on) (= -u off) (= -v off))
+-
+2 3 M 32 MHM
+======
+# M/H: 17876 / 27977
+# Last rebuild:   iter 2  num_configs 380
+main.ml:3052, 
+-
+(and (= -v off) (or (= -d off) (= -a on) (= -u on)))
+-
+32 M 1 2 H 3 HMH
+======
+# M/H: 14208 / 31660
+# Last rebuild:   iter 2  num_configs 395
+main.ml:3062, main.ml:3132, main.ml:8328, 
+-
+(and (= -v off) (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+32 M 31 3 H 1 2 HMHH
+======
+# IGNORED
+# M/H: 29712 / 15593
+# Last rebuild:   iter 187  num_configs 45305
+main.ml:3154, 
+-
+(let ((a!1 (or (and (= -revkeys off) (= -r on))
+               (and (= -revkeys on) (= -r off))))
+      (a!2 (and (= -nofooter off)
+                (= -nodoc on)
+                (or (= -noexpand on) (and (= -noexpand off) (= -r off)))))
+      (a!3 (and (= --print-keys off)
+                (= -noeprint on)
+                (or (= -multiple on)
+                    (and (= -multiple off) (= -revkeys off) (= -r on)))))
+      (a!5 (and (= -html-entities on)
+                (or (= --print-keys on)
+                    (and (= --print-keys off)
+                         (= -nobiblinks off)
+                         (= -unicode off)))))
+      (a!8 (and (= -i on)
+                (= --print-keys off)
+                (or (= -nodoi off) (and (= -nodoi on) (= -r off)))))
+      (a!9 (and (= -both on)
+                (or (= -noexpand on)
+                    (and (= -noexpand off) (= -nofooter off) (= -i off)))))
+      (a!13 (or (= -nodoc off) (and (= -nodoc on) (= -revkeys off))))
+      (a!16 (and (= -unicode off)
+                 (= -q on)
+                 (or (= -nolinks off)
+                     (and (= -nolinks on) (= -multiple off) (= -revkeys off)))))
+      (a!17 (and (= -single on)
+                 (= -nofooter on)
+                 (or (and (= -nolinks on) (= -noheader off))
+                     (and (= -nolinks off) (= --print-keys on)))))
+      (a!18 (and (= -nolinks on) (= -r off) (= -revkeys on)))
+      (a!19 (and (= -noeprint off)
+                 (or (= -html-entities on)
+                     (and (= -html-entities off) (= -revkeys on) (= -r off)))))
+      (a!21 (and (= -nodoc off)
+                 (or (= -noeprint off)
+                     (and (= -noeprint on) (= -nokeywords off)))))
+      (a!24 (and (= -nodoc on) (or (= -both on) (and (= -both off) (= -r off)))))
+      (a!25 (or (and (= -r on) (= -revkeys off))
+                (and (= -r off) (= -revkeys on))))
+      (a!27 (and (= -noexpand off)
+                 (or (= -multiple off) (and (= -multiple on) (= -r on)))))
+      (a!29 (and (= -q on) (= -r on) (= -revkeys off)))
+      (a!30 (and (= -noeprint off)
+                 (or (= -nobibsource on)
+                     (and (= -nobibsource off) (= -i off) (= -r on)))))
+      (a!35 (and (= -nokeywords on)
+                 (or (= -both off)
+                     (and (= -both on)
+                          (= -noheader off)
+                          (= -noabstract off)
+                          (= -nobibsource on)))))
+      (a!36 (and (= -nokeywords off)
+                 (= -html-entities on)
+                 (= -noexpand off)
+                 (or (= -noheader off) (and (= -noheader on) (= -rawurl off)))))
+      (a!37 (and (= -nobibsource on)
+                 (= --print-keys off)
+                 (or (= -noeprint on)
+                     (and (= -noeprint off)
+                          (= -nobiblinks on)
+                          (= -rawurl on)
+                          (= -linebreak off)))))
+      (a!38 (or (= -r off) (and (= -r on) (= -revkeys off))))
+      (a!42 (or (= -r on) (and (= -r off) (= -revkeys on))))
+      (a!44 (and (= -linebreak off)
+                 (= -noeprint on)
+                 (or (= -html-entities on)
+                     (and (= -html-entities off) (= -nolinks on) (= -r on)))))
+      (a!45 (and (= -multiple off)
+                 (or (= -both on)
+                     (and (= -both off) (= -nodoc on) (= -revkeys on)))))
+      (a!48 (and (= -multiple on)
+                 (or (= --print-keys on)
+                     (and (= --print-keys off) (= -both off) (= -revkeys off)))))
+      (a!51 (and (= -nokeys on)
+                 (= -q off)
+                 (or (= -i off) (and (= -i on) (= -revkeys off)))))
+      (a!55 (or (= -revkeys off) (and (= -revkeys on) (= -r off))))
+      (a!58 (and (= -both on)
+                 (or (and (= -nolinks off) (= -noexpand off))
+                     (and (= -nolinks on) (= -multiple off) (= -revkeys on)))))
+      (a!59 (and (= -both off)
+                 (or (= -single on)
+                     (and (= -single off) (= -r on) (= -revkeys off)))))
+      (a!60 (or (= -both on) (and (= -both off) (= -revkeys off))))
+      (a!64 (or (= -revkeys on) (and (= -revkeys off) (= -r on))))
+      (a!66 (and (= -nodoc off)
+                 (or (= -nofooter on) (and (= -nofooter off) (= -nolinks off)))))
+      (a!68 (and (= -linebreak off)
+                 (or (= -unicode on) (and (= -unicode off) (= -r on)))))
+      (a!70 (or (= -linebreak on)
+                (and (= -linebreak off) (= -r on) (= -revkeys off))))
+      (a!74 (and (= -nokeys off)
+                 (or (= -nodoc on)
+                     (and (= -nodoc off) (= -nobibsource on) (= -r off)))))
+      (a!78 (and (= -both off)
+                 (= -linebreak on)
+                 (or (= -single on)
+                     (and (= -single off) (= -r off) (= -revkeys on)))))
+      (a!79 (and (= -q off)
+                 (or (= -nolinks off) (and (= -nolinks on) (= -revkeys off)))))
+      (a!84 (and (= -nodoc on)
+                 (or (= -nobibsource off)
+                     (and (= -nobibsource on) (= -rawurl on)))))
+      (a!87 (and (= -nodoc off)
+                 (or (= -nokeywords on)
+                     (and (= -nokeywords off) (= -revkeys off)))))
+      (a!88 (and (= -nodoc on)
+                 (= -nokeywords off)
+                 (= -noeprint off)
+                 (or (= -nobibsource off)
+                     (and (= -nobibsource on) (= -revkeys on)))))
+      (a!89 (and (= -rawurl on)
+                 (or (= -noheader off) (and (= -noheader on) (= -revkeys on)))))
+      (a!92 (and (= -nobiblinks on)
+                 (or (= -labelname off)
+                     (and (= -labelname on) (= -nodoc off) (= -revkeys on)))))
+      (a!93 (and (= -nobibsource off)
+                 (or (= -single off) (and (= -single on) (= -revkeys on)))))
+      (a!96 (and (= -use-table off)
+                 (= -nokeywords on)
+                 (or (= -nokeys off) (and (= -nokeys on) (= -r off)))))
+      (a!104 (and (= -nodoi off)
+                  (or (= -noeprint off)
+                      (and (= -noeprint on) (= -noabstract on) (= -nodoc on)))))
+      (a!106 (and (= -dl off)
+                  (or (and (= -noabstract on) (= -nokeywords on))
+                      (and (= -noabstract off) (= -both off) (= -multiple on)))))
+      (a!108 (and (= -q off)
+                  (or (= -nokeywords on)
+                      (and (= -nokeywords off)
+                           (= -nodoc off)
+                           (= -nobiblinks off)))))
+      (a!111 (and (= -linebreak on)
+                  (or (= -nodoc off) (and (= -nodoc on) (= -r off)))))
+      (a!112 (and (= -linebreak off)
+                  (or (and (= -q on) (= --print-keys off))
+                      (and (= -q off) (= -nofooter off) (= -noabstract off)))))
+      (a!116 (and (= -nolinks off)
+                  (or (= -nodoi off)
+                      (and (= -nodoi on) (= -multiple on) (= -r on)))))
+      (a!120 (and (= -noabstract on)
+                  (or (= -both off)
+                      (and (= -both on) (= -nolinks on) (= -revkeys off)))))
+      (a!123 (and (= -rawurl off)
+                  (= -both off)
+                  (or (= -nodoi on)
+                      (and (= -nodoi off) (= -multiple off) (= -r on)))))
+      (a!125 (and (= -labelname off)
+                  (= -nobibsource on)
+                  (or (and (= -noeprint on) (= -use-table on) (= -revkeys off))
+                      (and (= -noeprint off) (= -both on) (= -noheader off)))))
+      (a!127 (or (= -nodoi on) (and (= -nodoi off) (= -r off) (= -revkeys on))))
+      (a!128 (and (= -i off)
+                  (or (= -rawurl off)
+                      (and (= -rawurl on) (= -r on) (= -revkeys off)))))
+      (a!135 (or (and (= -noeprint off)
+                      (or (= -d on) (= -single on) (= -rawurl on)))
+                 (and (= -noeprint on) (= -nodoi off) (= -nokeywords off))))
+      (a!138 (and (= -html-entities off)
+                  (= -noexpand off)
+                  (or (= -single off)
+                      (and (= -single on) (= -q off) (= -nodoc on)))))
+      (a!141 (and (= -both on)
+                  (or (and (= --print-keys on) (= -revkeys off))
+                      (= --print-keys off))))
+      (a!144 (or (and (= -nokeywords off) (= -html-entities on) (= -r off))
+                 (and (= -nokeywords on)
+                      (= -labelname on)
+                      (or (= -multiple off) (= -r on)))))
+      (a!150 (or (= -revkeys off) (and (= -revkeys on) (= -d off))))
+      (a!151 (and (= -dl off)
+                  (= -noexpand on)
+                  (= -d on)
+                  (or (= -nofooter off)
+                      (and (= -nofooter on) (= -revkeys off) (= -r on)))))
+      (a!155 (and (= -multiple on)
+                  (or (= -nobiblinks off) (and (= -rawurl on) (= -i off)))))
+      (a!158 (and (= -html-entities off)
+                  (= -single off)
+                  (or (= -nodoc off)
+                      (and (= -nodoc on) (= -noeprint on) (= -d on)))))
+      (a!159 (and (= -both on) (or (= -r on) (and (= -r off) (= -d on)))))
+      (a!163 (and (= -labelname on)
+                  (or (= -multiple on) (and (= -multiple off) (= -d off)))))
+      (a!170 (and (= -nobiblinks on)
+                  (or (= -noexpand on) (and (= -noexpand off) (= -revkeys on)))))
+      (a!171 (and (= -nobiblinks off)
+                  (or (and (= -noexpand off) (= -d on))
+                      (and (= -noexpand on) (= -d off) (= -dl off)))))
+      (a!172 (and (= -labelname off)
+                  (= -i on)
+                  (or (= -linebreak on)
+                      (and (= -linebreak off) (= -multiple off) (= -d off)))))
+      (a!174 (and (= -nobiblinks on)
+                  (or (= -rawurl on) (and (= -rawurl off) (= -d off)))))
+      (a!175 (and (= --print-keys off)
+                  (= -nodoi on)
+                  (or (= -d off)
+                      (and (= -d on) (= -noheader off) (= -nokeys on)))))
+      (a!177 (and (= -nokeys off)
+                  (= -linebreak off)
+                  (or (= -nobiblinks off)
+                      (and (= -nobiblinks on) (= -d on) (= -html-entities off)))))
+      (a!180 (and (= -dl on)
+                  (= -noheader off)
+                  (or (= -revkeys on) (and (= -revkeys off) (= -d on)))))
+      (a!182 (or (= -nobiblinks off) (and (= -nobiblinks on) (= -revkeys off))))
+      (a!185 (and (= -nobiblinks on)
+                  (or (and (= --print-keys on) (= -revkeys off))
+                      (and (= --print-keys off) (= -use-table on)))))
+      (a!186 (and (= -nobiblinks off)
+                  (= -rawurl off)
+                  (or (= -i off) (and (= -i on) (= -nodoc off)))))
+      (a!189 (and (= -q on)
+                  (or (= -noheader off)
+                      (and (= -noheader on) (= -multiple off) (= -rawurl off)))))
+      (a!193 (and (= -noabstract off)
+                  (= -nodoi off)
+                  (or (= -i on) (and (= -i off) (= -r off) (= -revkeys on)))))
+      (a!197 (and (= -i on)
+                  (or (= -nofooter on)
+                      (and (= -nofooter off) (= -both off) (= -multiple off)))))
+      (a!198 (and (= -html-entities on)
+                  (or (= -use-table off) (and (= -r on) (= -revkeys off)))))
+      (a!203 (and (= -nokeys on)
+                  (or (= -nolinks off)
+                      (and (= -nolinks on) (= -nodoi off) (= -revkeys on)))))
+      (a!204 (and (= -nofooter off)
+                  (or (= -nobiblinks on)
+                      (and (= -nobiblinks off) (= -i off) (= -multiple off)))))
+      (a!206 (or (= -d off) (and (= -d on) (= -r on))))
+      (a!211 (and (= -nodoi on)
+                  (or (= -d off) (and (= -d on) (= -revkeys on) (= -r off)))))
+      (a!216 (and (= -noeprint on)
+                  (or (= -nolinks on) (and (= -nolinks off) (= -rawurl off)))))
+      (a!219 (and (= -noabstract on)
+                  (or (= -d off) (and (= -d on) (= -both off)))))
+      (a!221 (and (= -multiple off)
+                  (= -labelname off)
+                  (or (= -d off) (and (= -d on) (= -revkeys off)))))
+      (a!224 (and (= -labelname on)
+                  (or (= -linebreak off) (and (= -linebreak on) (= -nokeys on)))))
+      (a!225 (and (= -multiple off) (or (= -i on) (and (= -i off) (= -r on)))))
+      (a!230 (and (= -i on)
+                  (= -labelname on)
+                  (or (and (= -d on) (= -noabstract off))
+                      (and (= -d off) (= -noabstract on)))))
+      (a!234 (and (= -nobiblinks off)
+                  (or (and (= -nodoi on) (= -use-table off))
+                      (and (= -nodoi off) (= -labelname on) (= -revkeys off)))))
+      (a!236 (and (= -multiple off)
+                  (= -dl on)
+                  (= -unicode off)
+                  (or (= -nolinks on)
+                      (and (= -nolinks off) (= -labelname off) (= -r off)))))
+      (a!238 (and (= -rawurl on)
+                  (or (= -nobiblinks off)
+                      (and (= -nobiblinks on) (= -nodoi off)))))
+      (a!239 (and (= -use-table off)
+                  (= -dl off)
+                  (or (= -nodoi off)
+                      (and (= -nodoi on) (= -revkeys off) (= -r on)))))
+      (a!242 (and (= -labelname off)
+                  (or (= -nofooter on) (and (= -nofooter off) (= -both on)))))
+      (a!243 (and (= -labelname on)
+                  (or (= -nofooter off) (and (= -nofooter on) (= -nokeys on)))))
+      (a!245 (and (= -d off)
+                  (= -noabstract off)
+                  (or (= -nofooter off)
+                      (and (= -nofooter on) (= -both off) (= -nolinks on)))))
+      (a!246 (and (= -i on)
+                  (or (= -html-entities off)
+                      (and (= -html-entities on) (= -revkeys on)))))
+      (a!252 (and (= -both off)
+                  (or (and (= -rawurl off) (= -noexpand off))
+                      (and (= -rawurl on) (= -noexpand on) (= -nokeywords off)))))
+      (a!259 (and (= -rawurl on)
+                  (= --print-keys off)
+                  (or (= -dl off) (and (= -dl on) (= -both off)))))
+      (a!260 (and (= -rawurl off)
+                  (or (and (= --print-keys on) (= -noexpand on))
+                      (and (= --print-keys off)
+                           (= -use-table off)
+                           (= -nodoc off)
+                           (= -r off)))))
+      (a!262 (and (= -noeprint on)
+                  (= -nodoc on)
+                  (or (= -nokeys off)
+                      (and (= -nokeys on) (= -revkeys off) (= -r on)))))
+      (a!263 (and (= -noeprint off)
+                  (or (= -dl off) (and (= -dl on) (= -nobibsource on)))))
+      (a!264 (and (= -both off)
+                  (= -html-entities off)
+                  (or (= -nokeywords off) (and (= -nokeywords on) (= -r on)))))
+      (a!265 (and (= -nodoi off)
+                  (or (= --print-keys on)
+                      (and (= --print-keys off) (= -nodoc on) (= -r on)))))
+      (a!268 (and (= -linebreak on)
+                  (or (= -rawurl on) (and (= -rawurl off) (= -r on)))))
+      (a!270 (and (= -q on)
+                  (or (= -labelname off)
+                      (and (= -labelname on) (= -nodoc on) (= -i on)))))
+      (a!275 (and (= --print-keys off)
+                  (= -noexpand off)
+                  (= -q off)
+                  (or (= -multiple off) (and (= -multiple on) (= -d on)))))
+      (a!276 (and (= -noabstract off) (= -revkeys off) (= -r on)))
+      (a!278 (and (= -noexpand on)
+                  (or (= -nodoi on) (and (= -nodoi off) (= -revkeys off)))))
+      (a!283 (and (= -d on)
+                  (or (= -noexpand on) (and (= -noexpand off) (= -i on)))))
+      (a!284 (and (= -noexpand off)
+                  (= -q on)
+                  (= -nodoc on)
+                  (or (= -nolinks off) (and (= -nolinks on) (= -r off)))))
+      (a!287 (and (= -i on)
+                  (= -unicode on)
+                  (or (= -d off) (and (= -d on) (= -r off)))))
+      (a!288 (and (= -nobibsource off)
+                  (or (= -nolinks off) (and (= -nolinks on) (= -nodoc on)))))
+      (a!292 (and (= -nobibsource off)
+                  (= -d on)
+                  (= -labelname off)
+                  (or (= -nofooter off) (and (= -nofooter on) (= -revkeys on)))))
+      (a!295 (and (= -nokeywords on)
+                  (or (= -rawurl off) (and (= -rawurl on) (= -noabstract on)))))
+      (a!296 (and (= -noeprint on)
+                  (or (= -html-entities on)
+                      (and (= -html-entities off) (= -r on)))))
+      (a!297 (and (= -unicode on)
+                  (or (= -i off)
+                      (and (= -i on) (= -noabstract off) (= -nobibsource off)))))
+      (a!298 (and (= -unicode off)
+                  (= -q off)
+                  (or (= -nofooter on) (and (= -nofooter off) (= -i on)))))
+      (a!304 (and (= -rawurl off)
+                  (or (= -nobiblinks off)
+                      (and (= -nobiblinks on) (= -linebreak on) (= -r off)))))
+      (a!311 (and (= -nodoc off)
+                  (= --print-keys off)
+                  (or (= -html-entities on)
+                      (and (= -html-entities off) (= -use-table off)))))
+      (a!313 (and (= -noeprint off)
+                  (or (= -noexpand off)
+                      (and (= -noexpand on) (= -linebreak on)))))
+      (a!320 (and (= -labelname on)
+                  (= -nokeys off)
+                  (or (and (= -single on) (= -unicode off))
+                      (and (= -single off) (= -i off) (= -r on)))))
+      (a!321 (and (= -rawurl off)
+                  (or (= -nofooter off)
+                      (and (= -nofooter on) (= -nodoc off) (= -nolinks off)))))
+      (a!325 (and (= -nokeys on)
+                  (or (= -d on) (and (= -d off) (= -multiple off)))))
+      (a!326 (and (= -both off)
+                  (or (= -nofooter off)
+                      (and (= -nofooter on) (= -multiple off) (= -revkeys off)))))
+      (a!330 (and (= -both off)
+                  (= -rawurl off)
+                  (or (= -nodoc on) (and (= -nodoc off) (= -nodoi on)))))
+      (a!335 (and (= -single on)
+                  (or (= -nodoi off) (and (= -nodoi on) (= -d on)))))
+      (a!336 (and (= -single off)
+                  (or (= -multiple on)
+                      (and (= -multiple off) (= -nofooter off) (= -i on)))))
+      (a!338 (and (= -q off)
+                  (= -nobibsource off)
+                  (= -d on)
+                  (or (and (= -nodoi on) (= -noexpand off))
+                      (and (= -nodoi off) (= -noexpand on)))))
+      (a!339 (and (= -nobiblinks off)
+                  (or (= -nofooter off)
+                      (and (= -nofooter on) (= -r off) (= -revkeys on)))))
+      (a!342 (and (= --print-keys on)
+                  (= -nofooter off)
+                  (or (and (= -noexpand on) (= -unicode on))
+                      (and (= -noexpand off) (= -nodoc on)))))
+      (a!343 (and (= -both off)
+                  (or (and (= -q on) (= -linebreak off))
+                      (and (= -q off) (= -nokeywords on)))))
+      (a!346 (and (= -q off)
+                  (or (= -rawurl off)
+                      (and (= -rawurl on) (= -nodoc on) (= -revkeys on)))))
+      (a!350 (and (= -nodoc off)
+                  (or (= -d off) (and (= -d on) (= -revkeys on)))))
+      (a!355 (and (= -unicode on) (or (= -i off) (and (= -i on) (= -d off)))))
+      (a!362 (and (= -both on)
+                  (or (= -labelname off)
+                      (and (= -labelname on) (= -revkeys on)))))
+      (a!364 (and (= -linebreak off)
+                  (or (= -nodoc off) (and (= -nodoc on) (= -revkeys on)))))
+      (a!369 (and (= -unicode off)
+                  (or (= -q on) (and (= -r off) (= -revkeys on)))))
+      (a!370 (and (= -html-entities on)
+                  (or (= -both on) (and (= -both off) (= -nodoc off)))))
+      (a!373 (and (= -noabstract on)
+                  (or (= -nodoc on) (and (= -nodoc off) (= -nobiblinks on)))))
+      (a!378 (and (= -labelname off)
+                  (or (= -noabstract off)
+                      (and (= -noabstract on) (= -nokeywords on) (= -both on)))))
+      (a!379 (and (= -nokeywords on)
+                  (= -nobiblinks on)
+                  (or (= -d on) (and (= -d off) (= -revkeys on)))))
+      (a!380 (and (= -nokeywords off)
+                  (= -html-entities off)
+                  (or (= -nodoi on) (and (= -r off) (= -revkeys on)))))
+      (a!389 (and (= -single off)
+                  (= -nokeywords off)
+                  (or (= -labelname on)
+                      (and (= -labelname off) (= -r off) (= -revkeys on)))))
+      (a!392 (and (= -nolinks off)
+                  (or (= -html-entities off)
+                      (and (= -html-entities on) (= -revkeys on) (= -r off)))))
+      (a!393 (and (= -linebreak on)
+                  (or (= -nofooter on) (and (= -r on) (= -revkeys off)))))
+      (a!394 (and (= -linebreak off)
+                  (= -noabstract off)
+                  (or (= -single on)
+                      (and (= -single off) (= -revkeys on) (= -r off)))))
+      (a!399 (and (= -noexpand on)
+                  (= -rawurl off)
+                  (or (= -nokeys off)
+                      (and (= -nokeys on) (= -html-entities off)))))
+      (a!400 (and (= -noexpand off)
+                  (= -nokeywords off)
+                  (or (= -labelname on)
+                      (and (= -labelname off) (= -revkeys on)))))
+      (a!405 (and (= -nodoi on)
+                  (= -nokeys off)
+                  (or (= -noabstract off)
+                      (and (= -noabstract on) (= -revkeys off)))))
+      (a!409 (and (= -unicode on)
+                  (or (= -q off) (and (= -q on) (= -noeprint on)))))
+      (a!410 (and (= -unicode off)
+                  (or (= -rawurl off) (and (= -rawurl on) (= -r off) (= -d on)))))
+      (a!429 (and (= -labelname on)
+                  (= -nolinks on)
+                  (or (and (= -nofooter off) (= -i on))
+                      (and (= -nofooter on) (= -i off) (= -d on)))))
+      (a!430 (and (= -nobiblinks on)
+                  (or (= -multiple on) (and (= -multiple off) (= -r on)))))
+      (a!431 (and (= -nobiblinks off)
+                  (= -nodoi on)
+                  (or (= -noabstract off)
+                      (and (= -noabstract on) (= -html-entities off)))))
+      (a!440 (and (= -linebreak on)
+                  (or (= -rawurl off)
+                      (and (= -rawurl on)
+                           (= -nodoi on)
+                           (= -i on)
+                           (= -single off)))))
+      (a!442 (and (= -nolinks on)
+                  (or (= -linebreak off)
+                      (and (= -linebreak on) (= -nobibsource on) (= -r off)))))
+      (a!445 (and (= -nolinks on)
+                  (or (= -single on)
+                      (and (= -single off) (= -unicode off) (= -noexpand off)))))
+      (a!450 (and (= -both on)
+                  (or (= -dl off) (and (= -dl on) (= -revkeys on) (= -r off)))))
+      (a!453 (and (= -dl off)
+                  (or (= -noheader on) (and (= -noheader off) (= -nodoc on)))))
+      (a!457 (and (= -noheader on)
+                  (or (= -single on) (and (= -single off) (= -revkeys off)))))
+      (a!458 (and (= -noheader off)
+                  (or (= -both off) (and (= -both on) (= -labelname off)))))
+      (a!461 (and (= -s alpha)
+                  (= -noexpand off)
+                  (or (= -noabstract off)
+                      (and (= -noabstract on) (= -linebreak on)))))
+      (a!467 (and (= -html-entities on)
+                  (= -i on)
+                  (= -unicode on)
+                  (or (= -dl off) (and (= -dl on) (= -r on) (= -revkeys off)))))
+      (a!468 (and (= -q on)
+                  (or (= -noheader off) (and (= -noheader on) (= -i on)))))
+      (a!473 (and (= -html-entities off)
+                  (or (= -unicode on)
+                      (and (= -unicode off) (= -revkeys on) (= -r off)))))
+      (a!479 (and (= -nobibsource off)
+                  (or (and (= -dl on) (= -r on))
+                      (and (= -dl off) (= -linebreak on) (= -revkeys on)))))
+      (a!482 (and (= -s alpha) (or (= -q on) (and (= -q off) (= -nodoc off)))))
+      (a!483 (and (= -s off)
+                  (or (= -dl on)
+                      (and (= -dl off) (= -nodoc off) (= -revkeys on)))))
+      (a!485 (and (= -html-entities off)
+                  (or (= -unicode on) (and (= -unicode off) (= -single on)))))
+      (a!488 (and (= -nodoi off)
+                  (= -nolinks off)
+                  (or (= -nobiblinks off)
+                      (and (= -nobiblinks on) (= -unicode off)))))
+      (a!490 (and (= -noabstract on)
+                  (or (and (= -noheader off) (= -revkeys off))
+                      (and (= -noheader on) (= -nodoi off) (= -r off)))))
+      (a!491 (and (= -noabstract off)
+                  (or (= -html-entities off)
+                      (and (= -html-entities on) (= -nodoc off) (= -r on)))))
+      (a!493 (and (= -nobiblinks off)
+                  (or (= -unicode off) (and (= -unicode on) (= -noheader on)))))
+      (a!495 (and (= -nodoc off)
+                  (= -nofooter off)
+                  (or (and (= -linebreak on) (= -r off) (= -revkeys on))
+                      (and (= -linebreak off)
+                           (= -noheader off)
+                           (= -nokeywords on)))))
+      (a!496 (and (= -single on)
+                  (or (= -both on) (and (= -both off) (= -noabstract off)))))
+      (a!497 (and (= -single off)
+                  (or (and (= -labelname off) (= -s off))
+                      (and (= -labelname on) (= -r on) (= -revkeys off)))))
+      (a!498 (and (= -nolinks on)
+                  (or (= -both on) (and (= -both off) (= -nobiblinks off)))))
+      (a!504 (and (= -nokeywords off)
+                  (= -noabstract on)
+                  (or (= -nolinks on) (and (= -nolinks off) (= -r off)))))
+      (a!510 (and (= -noabstract on)
+                  (or (and (= -linebreak on) (= -noheader on))
+                      (and (= -linebreak off) (= -noheader off)))))
+      (a!514 (and (= -nobiblinks on)
+                  (= -noexpand on)
+                  (or (= -single off) (and (= -single on) (= -s off)))))
+      (a!517 (and (= -linebreak off)
+                  (= -nobiblinks on)
+                  (= -noabstract on)
+                  (or (= -s off) (and (= -s alpha) (= -both on)))))
+      (a!522 (and (= -use-table off)
+                  (= -rawurl off)
+                  (= -nodoi off)
+                  (or (= -both on) (and (= -both off) (= -r on)))))
+      (a!524 (and (= -html-entities on)
+                  (or (= -nofooter on) (and (= -nofooter off) (= -revkeys off))))))
+(let ((a!4 (or (and (= -nokeywords on) (or (= -nofooter on) a!2))
+               (and (= -nokeywords off) (= -q off) (or (= --print-keys on) a!3))))
+      (a!6 (or (= -nodoc off)
+               (and (= -nodoc on) (or (= -html-entities off) a!5))))
+      (a!10 (and (= --print-keys off)
+                 (or (and (= -both off) (= -single on)) a!9)))
+      (a!14 (and (= -noexpand off)
+                 (or (= -html-entities off)
+                     (and (= -html-entities on) (= -labelname on) a!13))))
+      (a!20 (or a!18 (and (= -nolinks off) (or (= -noeprint on) a!19))))
+      (a!26 (and (= -nodoc off) (or (= -i on) (and (= -i off) a!25))))
+      (a!28 (and (= -single on)
+                 (or (and (= -noexpand on) (= -r off) (= -revkeys on)) a!27)))
+      (a!31 (or (and (= -linebreak on) (= -noeprint off) (= -revkeys on))
+                (and (= -linebreak off) (or (= -noeprint on) a!30))))
+      (a!39 (and (= -nobibsource off)
+                 (or (= -multiple on) (and (= -multiple off) a!38))))
+      (a!43 (and (= -linebreak on)
+                 (or (= -nofooter on) (and (= -nofooter off) a!42))))
+      (a!46 (and (= -nokeys off)
+                 (or (and (= -multiple on) (= --print-keys on) (= -revkeys on))
+                     a!45)))
+      (a!49 (and (= -rawurl on) (or (and (= -multiple off) a!25) a!48)))
+      (a!50 (and (= -both on)
+                 (or (and (= -i on) a!38)
+                     (and (= -i off) (= -unicode off) (= -r on)))))
+      (a!56 (and (= -labelname on)
+                 (or (and (= -html-entities on) (= -nodoc on) (= -revkeys off))
+                     (and (= -html-entities off) (= -noeprint on) a!55))))
+      (a!57 (and (= -labelname off)
+                 (or (= -q off) (and (= -q on) (= -html-entities on) a!38))))
+      (a!61 (and (= -nobibsource off)
+                 (or (= -noexpand off)
+                     (and (= -noexpand on) (= --print-keys off) a!60))))
+      (a!65 (and (= -i on)
+                 (or (= -labelname on)
+                     (and (= -labelname off) (= -html-entities on) a!64))))
+      (a!67 (and (= -i off)
+                 (or a!66 (and (= -nodoc on) (= -revkeys off) (= -r on)))))
+      (a!69 (and (= -nolinks on)
+                 (or a!68 (and (= -linebreak on) (= -single on) (= -r on)))))
+      (a!75 (and (= -linebreak on)
+                 (or (and (= -nokeys on) (= -rawurl on) (= -both on)) a!74)))
+      (a!76 (and (= -nodoc off)
+                 (or (= -nobiblinks on)
+                     (and (= -nobiblinks off) (= -nokeywords off) a!38))))
+      (a!80 (and (= -single off) (or (and (= -q on) (= -revkeys off)) a!79)))
+      (a!85 (and (= -noexpand off)
+                 (or a!84 (and (= -nodoc off) (= -nokeys on) (= -both off)))))
+      (a!90 (and (= -nolinks off)
+                 (= -noexpand off)
+                 (or a!89 (and (= -rawurl off) (= -r off) (= -revkeys on)))))
+      (a!94 (and (= -rawurl off)
+                 (or (and (= -nobibsource on) (= -revkeys on) (= -r off)) a!93)))
+      (a!97 (and (= -labelname off)
+                 (or (and (= -use-table on) (= -rawurl on) (= -nokeywords off))
+                     a!96)))
+      (a!101 (and (= -linebreak off)
+                  (or (and (= -noheader on) a!1) (and (= -noheader off) a!1))))
+      (a!105 (or (= -nokeys off) (and (= -nokeys on) (or (= -nodoi on) a!104))))
+      (a!107 (and (= -unicode on)
+                  (or (and (= -dl on) (= -nodoc on) (= -revkeys on)) a!106)))
+      (a!109 (and (= -unicode off)
+                  (or (and (= -q on) (= -noabstract on) a!42) a!108)))
+      (a!117 (and (= -noabstract on)
+                  (or (and (= -nolinks on)
+                           (= -i off)
+                           (= -unicode off)
+                           (= -linebreak off)
+                           a!42)
+                      a!116)))
+      (a!121 (and (= -noheader on)
+                  (or (and (= -noabstract off) (= -revkeys on)) a!120)))
+      (a!124 (and (= -labelname on)
+                  (or (and (= -nodoi on) a!60)
+                      (and (= -nodoi off)
+                           (= -use-table off)
+                           (= -noabstract on)
+                           a!64))))
+      (a!129 (or (= -unicode on)
+                 (and (= -unicode off)
+                      (= --print-keys off)
+                      (or (= -i on) a!128))))
+      (a!136 (or (and (= -nokeys off) a!64)
+                 (and (= -nokeys on) (or (= --print-keys off) (= -noexpand on)))))
+      (a!139 (and (= -both off)
+                  (= --print-keys off)
+                  (or (and (= -html-entities on) a!25) a!138)))
+      (a!140 (and (= -nodoi off)
+                  (or (and (= -noexpand on)
+                           (= -nodoc on)
+                           (= -labelname off)
+                           (= -revkeys off))
+                      (and (= -noexpand off) a!1))))
+      (a!142 (and (= -both off)
+                  (or (= -q on) (and (= -q off) (= --print-keys off) a!25))))
+      (a!143 (and (= --print-keys off)
+                  (or (and (= -nokeys off) a!64)
+                      (and (= -nokeys on) (= -r off) (= -revkeys on)))))
+      (a!149 (and (= -both off)
+                  (or (and (= -nobiblinks off) a!25)
+                      (and (= -nobiblinks on) a!1))))
+      (a!152 (and (= -q off) (or (and (= -dl on) (= -nolinks on) a!150) a!151)))
+      (a!154 (and (= -html-entities off)
+                  (or (= --print-keys on) (and (= --print-keys off) a!25))))
+      (a!156 (and (= -html-entities on)
+                  (or a!155 (and (= -multiple off) (= -rawurl off) (= -i off)))))
+      (a!160 (and (= -noabstract on)
+                  (or a!159 (and (= -both off) (= -revkeys on) (= -r off)))))
+      (a!164 (and (= -nofooter on)
+                  (or (= --print-keys on) (and (= --print-keys off) a!25))))
+      (a!173 (and (= -noabstract on)
+                  (or (and (= -labelname on) (or a!170 a!171)) a!172)))
+      (a!176 (and (= -nobiblinks off)
+                  (or (and (= --print-keys on) (= -d on)) a!175)))
+      (a!181 (or (and (= -i on) (or (= -dl off) a!180))
+                 (and (= -i off) (= -nodoc on) (= -use-table on))))
+      (a!183 (and (= -noabstract off)
+                  (or (= --print-keys on)
+                      (and (= --print-keys off)
+                           (= -use-table on)
+                           (= -linebreak off)
+                           a!182))))
+      (a!187 (and (= -both off)
+                  (or (= -unicode off) (and (= -unicode on) (or a!185 a!186)))))
+      (a!190 (and (= -html-entities on)
+                  (or a!189 (and (= -q off) (= -revkeys off) (= -r on)))))
+      (a!192 (and (= -d off)
+                  (or (= -nokeywords on) (and (= -nokeywords off) a!70))))
+      (a!194 (and (= -d off)
+                  (or (and (= -noabstract on)
+                           (= -nokeywords off)
+                           (= -rawurl on)
+                           (= -r on))
+                      a!193)))
+      (a!195 (and (= -nobiblinks off)
+                  (or (and (= -multiple on) a!42)
+                      (and (= -multiple off) (= -nodoc off) (= -revkeys on)))))
+      (a!199 (or (and (= -multiple off) (= -nodoi off))
+                 (and (= -multiple on) (or (= -html-entities off) a!198))))
+      (a!205 (or a!203 (and (= -nokeys off) (or (= -nofooter on) a!204))))
+      (a!207 (and (= -unicode off)
+                  (or (and (= -i on) a!38)
+                      (and (= -i off) (= -nokeys on) a!206))))
+      (a!210 (and (= -nofooter on)
+                  (or (= -d off) (and (= -d on) (= -html-entities off) a!55))))
+      (a!212 (or (and (= -both on) (= -d on) (= -noabstract off))
+                 (and (= -both off) (or (= -nodoi off) a!211))))
+      (a!217 (and (= -nobiblinks off)
+                  (or a!216 (and (= -noeprint off) (= -multiple off) a!42))))
+      (a!220 (and (= -nolinks on)
+                  (or a!219
+                      (and (= -noabstract off) (= -noeprint on) (= -r on)))))
+      (a!226 (and (= -d on)
+                  (or a!225 (and (= -multiple on) (= -noeprint off) a!25))))
+      (a!229 (and (= -nodoi off)
+                  (or (= -d off) (and (= -d on) (= -nokeys on) a!64))))
+      (a!231 (and (= -rawurl off) (or (and (= -i off) a!64) a!230)))
+      (a!235 (and (= -d on) (or (and (= -nobiblinks on) a!64) a!234)))
+      (a!240 (and (= -rawurl off) (or (and (= -use-table on) a!42) a!239)))
+      (a!244 (and (= -d on)
+                  (or (= -nodoi on) (and (= -nodoi off) (or a!242 a!243)))))
+      (a!247 (and (= -i off)
+                  (= -use-table off)
+                  (or (and (= -nolinks off) (= -nokeys on))
+                      (and (= -nolinks on) a!55))))
+      (a!251 (and (= -both on) (or (= -i on) (and (= -i off) a!38))))
+      (a!261 (and (= -nolinks on)
+                  (or (and (= -linebreak on)
+                           (= -html-entities off)
+                           (= -nobiblinks off)
+                           (= -r off)
+                           (= -revkeys on))
+                      (and (= -linebreak off) (or a!259 a!260)))))
+      (a!266 (or (and (= -nodoi on) (or (= -both on) a!264)) a!265))
+      (a!269 (and (= -nobiblinks on)
+                  (or a!268
+                      (and (= -linebreak off)
+                           (= -nobibsource off)
+                           (= -html-entities off)
+                           (= -unicode off)))))
+      (a!271 (and (= -nokeys off) (or (and (= -q off) (= -r off)) a!270)))
+      (a!277 (or (and (= -noabstract on) (or (= --print-keys on) a!275)) a!276))
+      (a!279 (and (= -dl on)
+                  (or a!278 (and (= -noexpand off) (= -rawurl on) a!206))))
+      (a!280 (and (= -noexpand on)
+                  (or (and (= -noeprint on) (= -rawurl off))
+                      (and (= -noeprint off) a!64))))
+      (a!285 (and (= -use-table off) (or (and (= -noexpand on) a!64) a!284)))
+      (a!289 (and (= -multiple off)
+                  (or (and (= -nobibsource on) (= -i off) a!55) a!288)))
+      (a!293 (or (= -unicode off)
+                 (and (= -unicode on) (or (= -nobibsource on) a!292))))
+      (a!299 (and (= --print-keys off)
+                  (or a!296 (and (= -noeprint off) (or a!297 a!298)))))
+      (a!303 (or (and (= --print-keys on) (or (= -nolinks off) a!18))
+                 (and (= --print-keys off) a!1)))
+      (a!305 (and (= -nokeywords on)
+                  (or (and (= -rawurl on) (= -d off) (= -r on)) a!304)))
+      (a!306 (and (= -nokeywords off)
+                  (or (= -both on) (and (= -both off) (= -rawurl on) a!38))))
+      (a!307 (and (= -both off) (or (= -d off) (and (= -d on) a!25))))
+      (a!312 (and (= -nokeywords on)
+                  (or (and (= -nodoc on) (= -rawurl on) a!1) a!311)))
+      (a!314 (and (= -nodoi on)
+                  (or (and (= -noeprint on) (= -noexpand on) (= -r on)) a!313)))
+      (a!316 (and (= -labelname off)
+                  (= -noeprint off)
+                  (or (and (= -nodoc on) (= -i off) a!38)
+                      (and (= -nodoc off) (= -r on) (= -d on)))))
+      (a!322 (and (= -nobiblinks off) (or (and (= -rawurl on) (= -i on)) a!321)))
+      (a!324 (and (= -i on)
+                  (= --print-keys off)
+                  (or (and (= -nobibsource on) a!64)
+                      (and (= -nobibsource off) (= -nofooter on) (= -d off)))))
+      (a!327 (or a!325
+                 (and (= -nokeys off) (= -noeprint on) (or (= -both on) a!326))))
+      (a!331 (and (= -single off) (or (and (= -both on) (= -revkeys on)) a!330)))
+      (a!337 (and (= -q on)
+                  (or (= --print-keys on)
+                      (and (= --print-keys off) (or a!335 a!336)))))
+      (a!344 (and (= -noexpand off)
+                  (or a!343 (and (= -both on) (= -rawurl off) (= -i off)))))
+      (a!347 (and (= -nolinks on)
+                  (or (and (= -q on) (= -i off) (= -single off)) a!346)))
+      (a!351 (and (= -nolinks off)
+                  (or (and (= -nodoc on) (= -noexpand off) (= -multiple on))
+                      a!350)))
+      (a!353 (and (= --print-keys off)
+                  (or a!18 (and (= -nolinks off) (= -nobiblinks on) a!55))))
+      (a!356 (and (= -nobibsource off)
+                  (or a!355 (and (= -unicode off) (= -noabstract on) a!64))))
+      (a!363 (and (= --print-keys off)
+                  (or a!362
+                      (and (= -both off)
+                           (= -nobibsource off)
+                           (= -html-entities on)))))
+      (a!365 (and (= -nobiblinks off)
+                  (= -labelname off)
+                  (or (and (= -both on) (= -revkeys on)) a!364)))
+      (a!367 (and (= -labelname on)
+                  (= -unicode on)
+                  (or (= -nolinks off) (and (= -nokeywords on) (= -i on) a!38))))
+      (a!371 (or a!369
+                 (and (= -unicode on)
+                      (= --print-keys off)
+                      (= -nofooter on)
+                      (or (= -nokeywords on) a!370))))
+      (a!374 (and (= -nobiblinks off)
+                  (or (and (= -nokeywords on)
+                           (= -single off)
+                           (= -nodoc off)
+                           a!64)
+                      (and (= -nokeywords off) a!55))))
+      (a!381 (and (= --print-keys on)
+                  (or a!378 (and (= -labelname on) (or a!379 a!380)))))
+      (a!382 (and (= -noabstract on)
+                  (= -q off)
+                  (or (= -nobiblinks on)
+                      (and (= -nobiblinks off)
+                           (= -nokeywords off)
+                           (= -labelname on)
+                           a!38))))
+      (a!386 (and (= -nodoc on)
+                  (or (= -unicode off) (and (= -unicode on) a!25))))
+      (a!387 (and (= -rawurl on)
+                  (= -linebreak off)
+                  (or (= -labelname on)
+                      (and (= -labelname off)
+                           (= -noexpand off)
+                           (= -i on)
+                           (= -nolinks on)
+                           a!55))))
+      (a!395 (and (= -unicode on)
+                  (= -d on)
+                  (or a!392 (and (= -nolinks on) (or a!393 a!394)))))
+      (a!401 (and (= -noabstract on)
+                  (or (and (= -q on) (or a!399 a!400)) (and (= -q off) a!13))))
+      (a!402 (and (= -nobiblinks off) (or (= -q on) (and (= -q off) a!64))))
+      (a!406 (and (= -noeprint off)
+                  (or (= -nodoc off) (and (= -nodoc on) (= -multiple off) a!64))))
+      (a!411 (and (= -noexpand off)
+                  (or (and (= -html-entities on)
+                           (= --print-keys off)
+                           (or a!409 a!410))
+                      (and (= -html-entities off) (= -both on) (= -nokeys off)))))
+      (a!413 (and (= -nokeys on)
+                  (or (= -nokeywords off) (and (= -nokeywords on) a!42))))
+      (a!414 (and (= -nokeys off)
+                  (= -multiple off)
+                  (= -nolinks on)
+                  (or (= -noabstract on) (and (= -noabstract off) a!25))))
+      (a!416 (and (= -rawurl off)
+                  (= -labelname off)
+                  (or (and (= -single on) (= -nokeys off) (= -noabstract off))
+                      (and (= -single off) a!55))))
+      (a!417 (and (= -single off)
+                  (or (and (= -multiple on) (= -i off) a!150)
+                      (and (= -multiple off) (= -revkeys on) (= -d on)))))
+      (a!421 (and (= -nokeywords off)
+                  (or (= -single on) (and (= -single off) (= -q on) a!38))))
+      (a!432 (and (= -labelname off)
+                  (or (= -nolinks off) (and (= -nolinks on) (or a!430 a!431)))))
+      (a!433 (and (= -nofooter on)
+                  (or (= -both off) (and (= -both on) (= -single off) a!42))))
+      (a!434 (and (= -d on)
+                  (or (and (= -both off) (= -noeprint off))
+                      (and (= -both on) (= -nolinks off) a!42))))
+      (a!441 (and (= -labelname on)
+                  (or a!440 (and (= -linebreak off) (= -i off) (= -nodoc on)))))
+      (a!443 (or (and (= -noexpand on) (or (= -nolinks off) a!442))
+                 (and (= -noexpand off) (= -both on) (= -revkeys off))))
+      (a!446 (and (= -noheader on) (or a!445 (and (= -nolinks off) a!1))))
+      (a!447 (and (= -i on)
+                  (or (and (= -nofooter on) a!64)
+                      (and (= -nofooter off) (= -linebreak off) a!38))))
+      (a!451 (and (= -i off)
+                  (= -q off)
+                  (or a!450 (and (= -both off) (= -nodoc on) (= -r on)))))
+      (a!454 (and (= -both off)
+                  (or a!453 (and (= -dl on) (= -r off) (= -revkeys on)))))
+      (a!459 (and (= -use-table on)
+                  (or (= -html-entities on)
+                      (and (= -html-entities off) (or a!457 a!458)))))
+      (a!462 (or (= -rawurl off) (and (= -rawurl on) (or (= -s off) a!461))))
+      (a!465 (and (= -noexpand off)
+                  (or (and (= -s off) (= -nodoc on)) (and (= -s plain) a!64))))
+      (a!469 (and (= -unicode off) (or (and (= -q off) (= -both off)) a!468)))
+      (a!474 (and (= -single on)
+                  (= -labelname off)
+                  (or (and (= -html-entities on) (= -s off) (= -revkeys off))
+                      a!473)))
+      (a!475 (and (= -s off)
+                  (= -nobiblinks on)
+                  (or (and (= -nobibsource off) a!42)
+                      (and (= -nobibsource on)
+                           (= -use-table on)
+                           (= -revkeys on)))))
+      (a!476 (and (= -nolinks on)
+                  (or (= -unicode off)
+                      (and (= -unicode on) (= -use-table off) a!55))))
+      (a!478 (and (= -nobibsource on)
+                  (or (= -nodoi on) (and (= -nodoi off) a!1))))
+      (a!484 (and (= -nofooter on)
+                  (or a!482
+                      a!483
+                      (and (= -s plain)
+                           (= -labelname off)
+                           (= -noabstract off)
+                           a!55))))
+      (a!486 (or (and (= -both off) (or (= -html-entities on) a!485))
+                 (and (= -both on) (= -nodoi off) (= -rawurl off) a!64)))
+      (a!489 (or (and (= -s off) (or (= -nodoi on) a!488))
+                 (and (= -s alpha) (= -both on) (= -revkeys on))))
+      (a!494 (and (= -nodoc on)
+                  (or (and (= -nobiblinks on)
+                           (= -html-entities off)
+                           (= -s plain))
+                      a!493)))
+      (a!499 (and (= -labelname on)
+                  (or a!498
+                      (and (= -nolinks off)
+                           (= -html-entities off)
+                           (= -rawurl off)))))
+      (a!505 (or (and (= -nodoi on) (or (= -nokeywords on) a!504))
+                 (and (= -nodoi off) (= -i on) (= -both off))))
+      (a!507 (and (= -single on)
+                  (or (and (= -noexpand off) a!25)
+                      (and (= -noexpand on) (= -q on) (= -both on)))))
+      (a!508 (or (and (= -html-entities off) (= -nodoc on))
+                 (and (= -html-entities on) (or (= -q off) a!29))))
+      (a!513 (and (= -rawurl off)
+                  (or (and (= -noabstract on) a!64)
+                      (and (= -noabstract off) (= -nodoi on)))))
+      (a!518 (and (= -html-entities off)
+                  (or (and (= -linebreak on) a!25) a!517)))
+      (a!521 (and (= -nobiblinks on)
+                  (or (and (= -nodoi on) (= -nokeywords on) (= -dl on))
+                      (and (= -nodoi off)
+                           (= -nodoc on)
+                           (= -noabstract off)
+                           a!55))))
+      (a!523 (and (= -html-entities off)
+                  (or (and (= -use-table on) a!55) a!522)))
+      (a!525 (and (= -nodoi off)
+                  (or a!524
+                      (and (= -html-entities off)
+                           (= -nolinks on)
+                           (= -revkeys on))))))
+(let ((a!7 (and (= -noabstract on)
+                (or (and (= -nolinks on) a!4) (and (= -nolinks off) a!6))))
+      (a!11 (or (and (= -nolinks on) (or (= -i off) a!8))
+                (and (= -nolinks off) (or (= --print-keys on) a!10))))
+      (a!15 (and (= -unicode on)
+                 (or (and (= -noexpand on)
+                          (= -i off)
+                          (= -r off)
+                          (= -revkeys on))
+                     a!14)))
+      (a!22 (and (= -single off)
+                 (= --print-keys off)
+                 (or (and (= -nodoc on) a!20) a!21)))
+      (a!32 (and (= --print-keys off) (or a!29 (and (= -q off) a!31))))
+      (a!40 (and (= -nodoi off)
+                 (or (and (= -i on) (= --print-keys off) (or a!35 a!36))
+                     (and (= -i off) (or a!37 a!39)))))
+      (a!47 (and (= -single on) (or (and (= -nokeys on) (or a!43 a!44)) a!46)))
+      (a!52 (or a!50 (and (= -both off) (or (= -nokeys off) a!51))))
+      (a!62 (and (= -rawurl off)
+                 (or (and (= -nobibsource on) (or a!58 a!59)) a!61)))
+      (a!71 (and (= -nobibsource off)
+                 (or a!69 (and (= -nolinks off) (= -noabstract on) a!70))))
+      (a!77 (and (= -linebreak off)
+                 (or (and (= -nodoc on) (= -r on) (= -revkeys off)) a!76)))
+      (a!81 (and (= -i off)
+                 (or (and (= -single on) (= -revkeys on) (= -r off)) a!80)))
+      (a!86 (and (= -i on)
+                 (or (and (= -noexpand on) (= -rawurl off) (= -r off)) a!85)))
+      (a!91 (and (= -i off) (or (and (= -nolinks on) (or a!87 a!88)) a!90)))
+      (a!95 (or (and (= -rawurl on)
+                     (= -nolinks on)
+                     (or (= -nobiblinks off) a!92))
+                a!94))
+      (a!98 (and (= -i off)
+                 (or (and (= -labelname on) (= -nolinks off) (= -r on)) a!97)))
+      (a!110 (and (= -nolinks on)
+                  (or (and (= --print-keys on) a!105)
+                      (and (= --print-keys off) (or a!107 a!109)))))
+      (a!118 (and (= -nobibsource on)
+                  (or a!117
+                      (and (= -noabstract off) (= -r off) (= -revkeys on)))))
+      (a!122 (and (= -rawurl on)
+                  (or a!121
+                      (and (= -noheader off) (= -nolinks off) (= -revkeys off)))))
+      (a!130 (and (= -noexpand off)
+                  (or (and (= -nodoi on) (= -rawurl on) (= -noheader on))
+                      (and (= -nodoi off) a!129))))
+      (a!137 (and (= -both on)
+                  (or (and (= -dl on) a!135) (and (= -dl off) a!136))))
+      (a!145 (or (and (= -rawurl off) (or (= --print-keys on) a!143))
+                 (and (= -rawurl on) (= -nolinks off) a!144)))
+      (a!153 (and (= -noeprint on)
+                  (or (and (= -q on) (= -multiple on) (= -rawurl on)) a!152)))
+      (a!161 (and (= -q off)
+                  (or a!160
+                      (and (= -noabstract off)
+                           (= -noexpand off)
+                           (= -rawurl off)))))
+      (a!165 (or a!164
+                 (and (= -nofooter off) (or (= -both on) (= -noheader off)))))
+      (a!178 (or (and (= -noeprint on) (or a!174 a!176))
+                 (and (= -noeprint off) (or (= -nokeys on) a!177))))
+      (a!184 (and (= -both on) (or (and (= -noabstract on) a!181) a!183)))
+      (a!191 (and (= -d on)
+                  (or a!190
+                      (and (= -html-entities off)
+                           (= -rawurl on)
+                           (= -i on)
+                           (= -unicode off)))))
+      (a!196 (and (= -q off)
+                  (or (and (= -nobiblinks on)
+                           (= -nokeys off)
+                           (= -r off)
+                           (= -revkeys on))
+                      a!195)))
+      (a!200 (and (= -q on) (or a!197 (and (= -i off) a!199))))
+      (a!208 (and (= -linebreak off) (or (and (= -unicode on) a!25) a!207)))
+      (a!213 (and (= -nokeys off)
+                  (or (and (= -noheader on) a!212)
+                      (and (= -noheader off)
+                           (= -multiple on)
+                           (= -html-entities on)))))
+      (a!218 (and (= -html-entities on)
+                  (or (and (= -nobiblinks on)
+                           (= -noabstract off)
+                           (= -nokeys on)
+                           a!42)
+                      a!217)))
+      (a!222 (or a!220 (and (= -nolinks off) (or (= -multiple on) a!221))))
+      (a!227 (and (= -labelname off) (or (and (= -d off) (= -r on)) a!226)))
+      (a!232 (or (and (= -rawurl on) (or (= -nodoi on) a!229)) a!231))
+      (a!237 (or (and (= -multiple on) (or (= -d off) a!235)) a!236))
+      (a!248 (and (= -multiple off)
+                  (or (= -d off) (and (= -d on) (or a!246 a!247)))))
+      (a!253 (and (= -noeprint off)
+                  (or (and (= -nokeys on) (or a!251 a!252))
+                      (and (= -nokeys off) (= -r off) (= -revkeys on)))))
+      (a!267 (and (= -nolinks off)
+                  (or (and (= -noexpand on) (or a!262 a!263))
+                      (and (= -noexpand off) a!266))))
+      (a!272 (and (= -nobiblinks off)
+                  (or (and (= -nokeys on) (= -nolinks on) (= -r off)) a!271)))
+      (a!281 (or a!279 (and (= -dl off) (or (= -noexpand off) a!280))))
+      (a!286 (or (and (= -use-table on) (or (= -d off) a!283)) a!285))
+      (a!290 (or (and (= -multiple on) (= -nodoi on) (or (= -i off) a!287))
+                 a!289))
+      (a!294 (and (= -nolinks on)
+                  (or (and (= -rawurl off) a!25) (and (= -rawurl on) a!293))))
+      (a!300 (and (= -nokeywords off)
+                  (or (and (= --print-keys on) (= -dl off)) a!299)))
+      (a!308 (and (= -nolinks off)
+                  (or (and (= -both on) (= -html-entities off) (= -r on)) a!307)))
+      (a!315 (and (= -nokeywords off) (or a!314 (and (= -nodoi off) a!38))))
+      (a!317 (and (= -nofooter off) (or (and (= -labelname on) a!1) a!316)))
+      (a!323 (and (= -labelname off)
+                  (or (and (= -nobiblinks on) (= -html-entities off) (= -i off))
+                      a!322)))
+      (a!328 (and (= -nodoi off) (or a!324 (and (= -i off) a!327))))
+      (a!332 (and (= --print-keys off)
+                  (or (and (= -single on) (= -nokeys on) (= -revkeys off))
+                      a!331)))
+      (a!340 (or (and (= -unicode on) (or a!337 a!338))
+                 (and (= -unicode off)
+                      (= -both on)
+                      (= -d on)
+                      (or (= -nobiblinks on) a!339))))
+      (a!345 (and (= -nofooter on) (or (and (= -noexpand on) a!55) a!344)))
+      (a!348 (and (= -nofooter off)
+                  (or a!347 (and (= -nolinks off) (= -revkeys on) (= -r off)))))
+      (a!352 (and (= -both off) (or (and (= -nolinks on) (= -d on) a!38) a!351)))
+      (a!354 (or (and (= -i on) (= -noexpand off) (= -nokeys on))
+                 (and (= -i off) (or (= --print-keys on) a!353))))
+      (a!357 (and (= -q off)
+                  (or (and (= -nobibsource on) (= -both off) a!25) a!356)))
+      (a!366 (or (and (= -nobiblinks on) (or (= --print-keys on) a!363)) a!365))
+      (a!368 (and (= -nobiblinks on)
+                  (or (and (= -labelname off) (= -both off) (= -revkeys on))
+                      a!367)))
+      (a!375 (or (and (= -both on) (or a!373 a!276))
+                 (and (= -both off) (or (= -nobiblinks on) a!374))))
+      (a!383 (or (and (= -d on) (or (= -noabstract off) a!382))
+                 (and (= -d off) (= -both on) (= -revkeys off))))
+      (a!388 (and (= -d on) (or a!387 (and (= -rawurl off) a!38))))
+      (a!396 (and (= -nodoi off) (or (and (= -unicode off) a!25) a!395)))
+      (a!403 (and (= -noabstract off) (or (and (= -nobiblinks on) a!38) a!402)))
+      (a!407 (and (= -nodoi off)
+                  (or (and (= -noeprint on) (= -r on) (= -revkeys off)) a!406)))
+      (a!415 (and (= -rawurl on)
+                  (or (= --print-keys on)
+                      (and (= --print-keys off) (or a!413 a!414)))))
+      (a!418 (and (= -labelname on) (or (and (= -single on) (= -d on)) a!417)))
+      (a!422 (and (= -nobibsource on)
+                  (or (and (= -nokeywords on) (= -single off) (= -revkeys on))
+                      a!421)))
+      (a!435 (and (= -nofooter off) (or a!434 (and (= -d off) a!182))))
+      (a!444 (and (= -use-table on) (or a!441 (and (= -labelname off) a!443))))
+      (a!448 (and (= -noheader off)
+                  (or a!447
+                      (and (= -i off) (= -html-entities off) (= -revkeys off)))))
+      (a!452 (and (= -nofooter on)
+                  (or (and (= -i on) (= -nolinks off) a!127) a!451)))
+      (a!455 (or (and (= -both on) (or (= -s plain) (= -s alpha))) a!454))
+      (a!460 (and (= -nobibsource on)
+                  (or a!459 (and (= -use-table off) (= -r off) (= -revkeys on)))))
+      (a!466 (or (and (= -nobiblinks on) (or (= -noexpand on) a!465))
+                 (and (= -nobiblinks off) a!1)))
+      (a!470 (or (= -nofooter on)
+                 (and (= -nofooter off) (or (= -unicode on) a!469))))
+      (a!477 (or (and (= -nofooter on) a!25)
+                 (and (= -nofooter off) (or (= -nolinks off) a!476))))
+      (a!487 (and (= -nobibsource on) (or a!484 (and (= -nofooter off) a!486))))
+      (a!492 (and (= -nobibsource off)
+                  (or (and (= -single on) a!489)
+                      (and (= -single off) (or a!490 a!491)))))
+      (a!500 (and (= -unicode off)
+                  (or a!499 (and (= -labelname off) (= -nodoc off) (= -r on)))))
+      (a!506 (and (= -nobiblinks on)
+                  (or (and (= -labelname off) a!64)
+                      (and (= -labelname on) a!505))))
+      (a!509 (and (= -nodoi on)
+                  (or (= -labelname off) (and (= -labelname on) a!508))))
+      (a!515 (or (and (= -nobiblinks off) (or (= -rawurl on) a!513)) a!514))
+      (a!526 (and (= -noheader off)
+                  (or (and (= -nodoi on)
+                           (= -nolinks off)
+                           (= -nokeywords on)
+                           (= -noexpand off))
+                      a!525))))
+(let ((a!12 (and (= -linebreak on) (or a!7 (and (= -noabstract off) a!11))))
+      (a!23 (and (= -linebreak off)
+                 (or (and (= -nobibsource on) (or a!15 a!16))
+                     (and (= -nobibsource off) (or a!17 a!22)))))
+      (a!33 (or a!28 (and (= -single off) (or (= --print-keys on) a!32))))
+      (a!53 (and (= -rawurl off)
+                 (or (and (= --print-keys on) (= -revkeys on))
+                     (and (= --print-keys off) a!52))))
+      (a!63 (and (= -nokeywords on)
+                 (or (and (= -rawurl on) (or a!56 a!57)) a!62)))
+      (a!72 (and (= -nokeywords off)
+                 (or (and (= -nobibsource on) (or a!65 a!67)) a!71)))
+      (a!82 (or (and (= -i on)
+                     (= -rawurl off)
+                     (= -nokeys off)
+                     (or (= -both on) a!78))
+                a!81))
+      (a!99 (and (= -noabstract off) (or (and (= -i on) a!95) a!98)))
+      (a!113 (and (= -single off)
+                  (or a!110 (and (= -nolinks off) (or a!111 a!112)))))
+      (a!119 (and (= -nokeywords on) (or a!118 (and (= -nobibsource off) a!1))))
+      (a!126 (and (= -single on)
+                  (or (and (= -linebreak on) (or a!122 a!123))
+                      (and (= -linebreak off) (or a!124 a!125)))))
+      (a!131 (and (= -noeprint off)
+                  (or (and (= -noexpand on) (= -nobibsource off) a!127) a!130)))
+      (a!146 (and (= -nodoi on)
+                  (or (and (= -d off) (or a!141 a!142)) (and (= -d on) a!145))))
+      (a!157 (and (= -both on)
+                  (or a!153 (and (= -noeprint off) (or a!154 a!156)))))
+      (a!162 (or (and (= -q on) (or (= -html-entities on) a!158)) a!161))
+      (a!166 (or (and (= -nokeys off) (or a!163 (= -labelname off)))
+                 (and (= -nokeys on) a!165)))
+      (a!179 (and (= -nokeywords on) (or a!173 (and (= -noabstract off) a!178))))
+      (a!201 (and (= -noexpand off) (or a!194 (and (= -d on) (or a!196 a!200)))))
+      (a!209 (and (= -noexpand on) (or (and (= -linebreak on) a!205) a!208)))
+      (a!214 (or (and (= -nokeys on) (or (= -nofooter off) a!210)) a!213))
+      (a!223 (and (= -use-table on)
+                  (or a!218 (and (= -html-entities off) a!222))))
+      (a!233 (and (= -nokeywords on)
+                  (or (and (= -nofooter on) a!1) (and (= -nofooter off) a!232))))
+      (a!241 (and (= -nokeywords off)
+                  (or (and (= -noabstract on) a!237)
+                      (and (= -noabstract off) (or a!238 a!240)))))
+      (a!249 (and (= -noheader off)
+                  (or (and (= -multiple on) (= -nokeywords on) (= -q on)) a!248)))
+      (a!273 (and (= -nofooter on)
+                  (or (and (= -d on) (or a!261 a!267))
+                      (and (= -d off) (or a!269 a!272)))))
+      (a!282 (and (= -nofooter on)
+                  (or (and (= -nokeywords on) a!277)
+                      (and (= -nokeywords off) a!281))))
+      (a!291 (and (= -nofooter off)
+                  (or (and (= -nokeywords on) a!286)
+                      (and (= -nokeywords off) a!290))))
+      (a!301 (and (= -both off)
+                  (or a!294 (and (= -nolinks off) (or a!295 a!300)))))
+      (a!309 (and (= -unicode off)
+                  (or (and (= -nolinks on) (or a!305 a!306)) a!308)))
+      (a!318 (and (= -nobibsource off)
+                  (or (and (= -nofooter on) (or a!312 a!315)) a!317)))
+      (a!329 (and (= -linebreak on)
+                  (or (and (= -nodoi on) (or a!320 a!323)) a!328)))
+      (a!333 (and (= -nobiblinks off)
+                  (or (and (= --print-keys on) (= -d off) (= -revkeys on))
+                      a!332)))
+      (a!349 (and (= -labelname on)
+                  (or a!342 (and (= --print-keys off) (or a!345 a!348)))))
+      (a!358 (and (= -single off) (or (and (= -q on) a!354) a!357)))
+      (a!372 (and (= -nokeys on) (or a!368 (and (= -nobiblinks off) a!371))))
+      (a!376 (and (= -nokeys off)
+                  (or (and (= -html-entities on) a!375)
+                      (and (= -html-entities off) a!1))))
+      (a!384 (and (= -single off)
+                  (or (and (= -nodoc on) (= -nolinks off) (= -rawurl on))
+                      (and (= -nodoc off) a!383))))
+      (a!390 (or (and (= -single on) (or (= -d off) a!388)) a!389))
+      (a!404 (and (= -single on)
+                  (or (and (= --print-keys on) (= -nofooter off))
+                      (and (= --print-keys off) (or a!401 a!403)))))
+      (a!408 (and (= -noexpand on)
+                  (or (= --print-keys on)
+                      (and (= --print-keys off) (or a!405 a!407)))))
+      (a!419 (and (= -nokeys off)
+                  (or a!418
+                      (and (= -labelname off)
+                           (= -multiple off)
+                           (= -nobiblinks off)
+                           a!25))))
+      (a!423 (and (= -nofooter on)
+                  (or a!422 (and (= -nobibsource off) (= -single on) (= -r on)))))
+      (a!436 (and (= -unicode off)
+                  (or (and (= -nodoc on) (or a!429 a!432))
+                      (and (= -nodoc off) (or a!433 a!435)))))
+      (a!449 (and (= -nobiblinks on)
+                  (or a!444 (and (= -use-table off) (or a!446 a!448)))))
+      (a!456 (and (= -unicode on) (or a!452 (and (= -nofooter off) a!455))))
+      (a!463 (and (= -unicode off) (or a!460 (and (= -nobibsource off) a!462))))
+      (a!471 (and (= -html-entities off)
+                  (or (and (= -labelname on) a!470)
+                      (and (= -labelname off) (= -revkeys on) (= -r off)))))
+      (a!480 (and (= -single off)
+                  (or a!475
+                      (and (= -s plain) a!477)
+                      (and (= -s alpha) (or a!478 a!479)))))
+      (a!501 (and (= -nobibsource off)
+                  (or (and (= -unicode on) (or a!496 a!497)) a!500)))
+      (a!511 (or a!509
+                 (and (= -nodoi off)
+                      (= -nobibsource off)
+                      (or (= -noabstract off) a!510))))
+      (a!516 (and (= -html-entities on)
+                  (or (and (= -nobibsource on) a!515)
+                      (and (= -nobibsource off) a!55))))
+      (a!527 (or (and (= -noheader on) (or (= -html-entities on) a!523)) a!526)))
+(let ((a!34 (and (= -nodoi on)
+                 (or (and (= -nokeywords off) (or a!24 a!26))
+                     (and (= -nokeywords on) a!33))))
+      (a!54 (and (= -nodoi on) (or a!47 (and (= -single off) (or a!49 a!53)))))
+      (a!83 (and (= --print-keys on)
+                 (or (and (= -multiple on) (or a!75 a!77))
+                     (and (= -multiple off) a!82))))
+      (a!100 (and (= -linebreak on)
+                  (or (and (= -noabstract on) (or a!86 a!91)) a!99)))
+      (a!114 (and (= -i on) (or (and (= -single on) a!1) a!113)))
+      (a!132 (and (= -single off) (or (and (= -noeprint on) a!1) a!131)))
+      (a!147 (and (= -nofooter off)
+                  (or (and (= -noabstract on) (or a!137 a!139))
+                      (and (= -noabstract off) (or a!140 a!146)))))
+      (a!167 (and (= -unicode off)
+                  (or (and (= -nodoi off) a!162) (and (= -nodoi on) a!166))))
+      (a!188 (and (= -nolinks off)
+                  (or a!179 (and (= -nokeywords off) (or a!184 a!187)))))
+      (a!202 (and (= -nolinks on)
+                  (or (and (= -noexpand on) (or a!191 a!192)) a!201)))
+      (a!215 (and (= -nokeywords on) (or a!209 (and (= -noexpand off) a!214))))
+      (a!228 (and (= -nokeywords off)
+                  (or a!223 (and (= -use-table off) (or a!224 a!227)))))
+      (a!250 (and (= -noeprint on)
+                  (or (and (= -noheader on) (or a!244 a!245)) a!249)))
+      (a!274 (and (= -single on) (or a!273 (and (= -nofooter off) a!1))))
+      (a!302 (and (= -nokeys on) (or (and (= -both on) (or a!282 a!291)) a!301)))
+      (a!310 (and (= -nobibsource on) (or (and (= -unicode on) a!303) a!309)))
+      (a!334 (and (= -noeprint on)
+                  (or (and (= -nobiblinks on)
+                           (= -html-entities off)
+                           (= -r off)
+                           (= -revkeys on))
+                      a!333)))
+      (a!359 (or (and (= -single on) (or (= -both on) a!352)) a!358))
+      (a!377 (and (= -noeprint on)
+                  (or (and (= -d off) a!366) (and (= -d on) (or a!372 a!376)))))
+      (a!385 (and (= -nokeys on)
+                  (or (and (= -single on)
+                           (= -unicode on)
+                           (= -q off)
+                           (= -nolinks on))
+                      a!384)))
+      (a!391 (and (= -nodoi on) (or a!386 (and (= -nodoc off) a!390))))
+      (a!412 (and (= -linebreak on)
+                  (or a!404 (and (= -single off) (or a!408 a!411)))))
+      (a!420 (and (= -html-entities on)
+                  (or (and (= -nokeys on) (= -d off) (= -revkeys off)) a!419)))
+      (a!424 (and (= -nokeys off) (or (and (= -nofooter off) (= -i off)) a!423)))
+      (a!464 (and (= -nokeywords on)
+                  (or a!449 (and (= -nobiblinks off) (or a!456 a!463)))))
+      (a!472 (and (= -noabstract on)
+                  (or (and (= -use-table on) a!466)
+                      (and (= -use-table off) (or a!467 a!471)))))
+      (a!502 (and (= -noexpand off)
+                  (or (and (= -nobibsource on) (or a!494 a!495)) a!501)))
+      (a!512 (and (= -nobiblinks off) (or a!507 (and (= -single off) a!511))))
+      (a!528 (and (= -q off) (or a!521 (and (= -nobiblinks off) a!527)))))
+(let ((a!41 (and (= -use-table on)
+                 (or (and (= -nokeys on) (or a!12 a!23))
+                     (and (= -nokeys off) (or a!34 a!40)))))
+      (a!73 (and (= -use-table off)
+                 (or a!54 (and (= -nodoi off) (or a!63 a!72)))))
+      (a!102 (and (= --print-keys off)
+                  (or (and (= -multiple on) a!25)
+                      (and (= -multiple off) (or a!100 a!101)))))
+      (a!115 (and (= -html-entities on) (or (and (= -i off) a!25) a!114)))
+      (a!133 (and (= -html-entities off)
+                  (or a!119 (and (= -nokeywords off) (or a!126 a!132)))))
+      (a!148 (and (= -linebreak on) (or (and (= -nofooter on) a!1) a!147)))
+      (a!168 (and (= -nokeywords on) (or (and (= -unicode on) a!1) a!167)))
+      (a!254 (and (= -nodoc off)
+                  (or (and (= -linebreak on) (or a!233 a!241))
+                      (and (= -linebreak off) (or a!250 a!253)))))
+      (a!319 (and (= -single off)
+                  (or a!302 (and (= -nokeys off) (or a!310 a!318)))))
+      (a!341 (and (= -linebreak off) (or a!334 (and (= -noeprint off) a!340))))
+      (a!360 (and (= -dl off) (or a!349 (and (= -labelname off) a!359))))
+      (a!397 (and (= --print-keys off)
+                  (or a!385 (and (= -nokeys off) (or a!391 a!396)))))
+      (a!425 (and (= --print-keys off)
+                  (or (and (= -nokeys on) (= -d off) (= -r on)) a!424)))
+      (a!481 (and (= -nokeywords off)
+                  (or a!472 (and (= -noabstract off) (or a!474 a!480)))))
+      (a!503 (and (= -use-table on)
+                  (or (and (= -noexpand on) (or a!487 a!492)) a!502)))
+      (a!519 (and (= -use-table off)
+                  (or (and (= -nofooter on) (or a!506 a!512))
+                      (and (= -nofooter off) (or a!516 a!518)))))
+      (a!529 (and (= -nobibsource on) (or (and (= -q on) a!1) a!528))))
+(let ((a!103 (and (= -d on)
+                  (or (and (= -dl on) (or a!41 a!73))
+                      (and (= -dl off) (or a!83 a!102)))))
+      (a!169 (and (= -linebreak off)
+                  (or (and (= -nokeywords off) (or a!149 a!157)) a!168)))
+      (a!255 (and (= --print-keys off)
+                  (or (and (= -nodoc on) (or a!215 a!228)) a!254)))
+      (a!361 (and (= -use-table off)
+                  (or (and (= -dl on) (or a!329 a!341)) a!360)))
+      (a!398 (and (= -dl on)
+                  (or a!377 (and (= -noeprint off) (or a!381 a!397)))))
+      (a!426 (or (= -multiple on)
+                 (and (= -multiple off) (or (= --print-keys on) a!425))))
+      (a!520 (and (= -nokeys on)
+                  (or (and (= -noeprint on) (or a!464 a!481))
+                      (and (= -noeprint off) (or a!503 a!519)))))
+      (a!530 (and (= -i off) (or (and (= -nobibsource off) a!1) a!529))))
+(let ((a!134 (and (= -s alpha) (or a!103 (and (= -d off) (or a!115 a!133)))))
+      (a!256 (and (= -single off) (or (and (= --print-keys on) a!25) a!255)))
+      (a!427 (and (= -both off) (or a!420 (and (= -html-entities off) a!426))))
+      (a!531 (and (= -single off) (or (and (= -i on) a!25) a!530))))
+(let ((a!257 (and (= -nobibsource off)
+                  (or (and (= -single on) (or a!188 a!202)) a!256)))
+      (a!428 (and (= -unicode on)
+                  (or (and (= -both on) (or a!415 a!416)) a!427)))
+      (a!532 (and (= -nokeys off) (or (and (= -single on) a!1) a!531))))
+(let ((a!258 (and (= -s off)
+                  (or (and (= -nobibsource on) (or a!148 a!169)) a!257)))
+      (a!437 (and (= -dl off)
+                  (or a!412 (and (= -linebreak off) (or a!428 a!436)))))
+      (a!533 (and (= --print-keys off)
+                  (or (and (= -multiple on) a!1)
+                      (and (= -multiple off) (or a!520 a!532))))))
+(let ((a!438 (and (= -noheader on)
+                  (or a!361 (and (= -use-table on) (or a!398 a!437)))))
+      (a!534 (and (= -u off)
+                  (= -d off)
+                  (or (and (= --print-keys on) a!25) a!533))))
+(let ((a!439 (and (= -s plain)
+                  (or (and (= -noheader off) (or a!274 a!319)) a!438))))
+(let ((a!535 (and (= -a off) (or (and (= -u on) (or a!134 a!258 a!439)) a!534))))
+(let ((a!536 (and (= -w on) (or (and (= -a on) a!1) a!535))))
+  (and (= -v off) (or (and (= -w off) a!1) a!536))))))))))))))))
+-
+32 M 31 2 5 4 MH 4 HM 3 0 24 19 22 5 4 MH 4 HM 15 7 25 18 17 M 16 MH 14 H 1 H 9 HM 11 29 23 HMH 5 H 4 HM 29 M 27 4 5 MH 5 HM 23 M 9 30 M 10 HMH 17 1 14 12 M 16 28 8 4 HMHM 27 4 MHM 29 H 11 4 M 5 HM 5 H 4 HM 7 29 5 MHH 30 H 29 M 4 5 MH 5 HM 23 10 28 M 5 MHM 5 4 MH 4 HM 16 26 10 4 5 MH 5 HM 5 4 MH 4 HM 17 11 22 29 H 4 5 MH 5 HM 21 7 HMH 28 8 H 1 MHH 30 27 H 9 M 10 18 1 HMMH 15 7 4 H 1 HM 5 4 MHM 23 M 14 MH 7 18 30 8 14 HMM 25 12 5 1 MHHM 23 1 22 5 M 4 HMHMM 27 8 13 14 6 MHMH 14 M 6 MH 29 H 4 5 MH 5 HM 13 5 4 MH 4 HM 4 5 MH 5 HM 9 12 23 1 27 30 21 8 M 14 MHH 5 M 4 HM 14 6 26 MHMM 16 H 19 H 4 5 MHM 1 30 6 22 H 7 M 8 MH 8 27 20 4 5 MHMHH 17 MH 13 11 M 4 M 5 HM 8 4 H 5 HM 10 M 5 HM 15 16 M 14 4 HMM 17 M 6 H 4 M 5 HM 16 15 28 13 23 H 5 HM 23 1 M 25 MH 1 HM 6 19 H 8 M 1 MHM 18 13 14 H 1 MH 29 1 HM 17 1 21 M 11 HMHM 11 H 19 M 13 1 27 MHMH 7 15 6 25 21 M 5 H 1 HMH 10 20 HMM 29 H 20 19 M 13 5 MHHM 26 13 29 5 MH 20 HM 14 M 6 10 MHHH 29 4 5 MH 5 HM 10 16 23 19 11 12 17 M 5 HMH 22 H 13 H 6 M 8 MH 26 4 5 MH 5 HM 6 4 5 MHH 11 1 4 HMHM 11 22 1 27 M 5 4 MHHHH 21 7 1 15 MHM 17 1 5 4 MHMHH 8 27 HMM 20 27 13 15 M 11 4 H 5 HMM 18 12 H 14 MH 8 M 4 H 5 HM 12 15 1 7 MHH 18 4 HMM 8 H 28 M 1 5 MHH 28 19 11 HMH 1 8 18 M 4 5 MH 5 HM 6 H 4 HM 4 HM 19 16 22 5 4 MH 4 HM 14 17 H 1 11 5 H 4 HMMH 6 28 1 15 MH 15 HMM 5 H 4 HM 15 8 1 13 5 H 4 HM 17 20 MH 28 5 MHMH 25 26 M 12 H 28 M 4 MHM 14 13 17 MHH 20 4 H 5 HM 25 M 17 5 M 4 HMH 18 21 1 17 H 28 22 11 HMH 22 H 7 HM 15 M 22 7 M 12 HMH 8 16 30 HMM 1 6 27 5 HMH 20 M 12 5 4 MHH 11 HMH 11 7 6 H 4 5 MHH 14 23 16 MHM 23 MH 4 M 5 HM 21 20 25 18 1 11 13 28 26 12 16 6 4 5 MHHMMHM 7 M 5 HM 26 29 M 22 16 H 27 7 H 10 MHMM 30 H 4 M 5 HM 27 7 15 10 H 13 HM 5 M 4 HM 13 H 16 9 M 10 M 5 H 4 HM 5 4 MHH 5 4 MH 4 HM 13 29 H 7 28 5 HMH 24 M 27 HM 28 M 19 7 5 HMM 10 5 HMH 29 28 16 13 1 H 5 HMM 27 M 17 H 4 M 5 HM 15 16 7 HMMH 11 9 26 30 M 12 HMM 10 12 M 14 HM 1 15 30 M 13 H 16 M 28 4 5 MHHMH 7 5 MHM 17 10 26 4 5 MH 5 HMH 9 1 14 19 M 28 H 23 M 6 12 5 4 MHHMM 4 5 MHHH 16 M 28 H 4 M 5 HM 26 1 12 19 22 H 4 5 MHM 15 M 9 H 5 4 MHM 27 5 4 MHMHM 4 5 MH 5 HM 19 9 29 22 MH 15 30 23 14 M 11 27 MHH 16 M 28 H 5 HM 10 5 MHH 13 4 5 MHH 30 H 5 H 4 HM 23 29 H 17 11 M 15 5 MHH 18 4 5 MHM 10 8 M 5 H 4 HMH 27 29 M 26 30 18 HMH 14 4 M 1 HMH 7 11 MHM 26 7 14 29 H 11 16 4 H 5 HMH 8 M 12 15 H 4 5 MH 5 HMM 28 M 9 11 M 15 MH 5 4 MHH 27 11 1 M 5 MH 28 9 1 HM 8 6 M 5 1 MHH 5 1 HMM 8 M 13 M 4 5 MH 5 HM 8 H 29 H 11 1 M 4 HM 22 24 16 9 M 5 HM 9 H 30 4 5 MHHM 9 4 HMM 6 MH 10 28 12 22 6 M 1 HM 6 HMM 12 13 8 H 4 HM 17 15 27 MHHMH 22 7 9 M 4 H 5 HMH 1 7 12 M 4 H 5 HM 18 MH 13 5 MHH 25 19 17 28 11 M 9 26 MH 6 M 4 HM 13 27 M 6 MH 14 6 HM 22 10 M 12 MHH 6 29 M 24 5 H 4 HM 22 1 MHM 11 1 H 8 MH 18 7 H 22 8 M 5 MHHM 18 13 27 M 4 M 5 HM 29 1 M 5 HM 9 11 5 MHM 7 5 HM 14 M 10 H 17 HM 26 30 29 H 9 17 1 HMH 8 H 22 M 6 HM 24 M 1 17 23 MH 23 HMM 7 1 13 H 22 4 M 5 HMHMM 28 29 22 M 23 26 HM 10 HM 22 23 5 4 MHH 7 14 M 6 MH 30 19 MH 16 HM 12 30 6 M 9 MH 14 10 5 HMMH 5 4 MHM 9 7 H 12 1 4 5 MHHM 10 23 M 8 HM 1 5 HMH 30 6 23 M 11 HM 29 H 12 4 M 5 HM 13 5 4 MHHM 24 7 M 4 5 MH 5 HM 26 6 1 MHH 15 5 H 4 HMM 9 22 1 12 19 27 M 13 M 4 M 5 HM 14 29 M 25 7 MHH 29 23 HM 20 M 10 M 4 MH 23 18 10 11 5 M 4 HMHM 25 24 HMH 17 7 H 27 M 16 4 HMH 29 H 10 4 HMM 13 19 14 H 4 HM 24 M 27 M 26 MH 11 12 4 MHM 30 28 10 6 HMMH 4 MH 5 4 MH 4 HM 11 7 22 16 15 29 H 23 M 30 M 8 1 HMH 5 M 4 HM 25 23 17 H 5 MH 14 1 4 HMHM 23 18 14 MH 5 H 4 HMH 16 20 1 23 H 6 HMH 23 5 H 4 HM 30 10 12 4 MHHMM 8 17 6 26 1 4 MHHMHM 24 6 M 5 4 MHH 12 10 HMH 12 14 26 24 H 1 28 M 22 5 HMHMH 4 5 MH 5 HM 16 14 15 HMH 29 25 MH 18 27 H 4 HM 26 6 15 M 24 MHH 30 M 22 H 6 HM 24 26 29 12 4 M 5 HMH 5 4 MH 4 HM 12 16 14 1 M 4 HM 13 19 4 MHMH 7 H 14 4 5 MHHM 7 27 M 4 HM 1 4 5 MH 5 HMH 22 16 10 14 5 4 MH 4 HMM 29 M 27 H 20 MH 17 18 23 4 HMM 23 19 HMH 4 5 MHH 28 5 4 MH 4 HM 18 M 10 6 M 4 5 MHH 4 1 HMM 1 25 20 11 19 15 12 16 22 H 10 23 H 4 MHM 30 M 29 H 18 8 H 5 M 4 HMM 10 27 29 H 13 M 26 MHHH 12 6 29 M 17 4 MHHH 29 H 7 23 H 22 M 6 MH 9 HM 24 26 23 6 M 4 M 5 HM 27 28 10 5 MHHMH 30 12 8 M 5 MHHM 9 22 12 21 MH 29 HMM 29 M 10 12 4 M 5 HM 18 H 27 H 5 4 MHM 18 16 MHH 17 16 9 23 4 M 5 HM 8 4 HMH 29 H 30 4 5 MHM 19 18 M 5 HM 18 H 24 H 6 M 4 HM 10 7 H 4 MH 6 H 4 5 MH 5 HM 6 29 M 16 7 21 M 15 M 24 HMH 27 23 M 21 14 MHHM 24 29 M 18 H 13 14 19 MHMM 8 H 4 5 MHH 17 9 11 19 22 H 4 H 5 HM 18 27 H 12 4 HMMM 8 29 5 HMM 7 H 10 5 HMM 14 8 29 H 7 M 5 MH 4 5 MH 5 HM 29 5 HM 7 6 4 5 MHH 26 M 4 HM 11 30 M 6 5 MHHH 16 14 28 27 10 5 MHM 18 5 4 MHHM 30 27 4 5 MHHMH 24 7 12 8 M 5 HM 23 MH 9 H 4 5 MHM 23 29 M 7 H 5 MHH 24 6 28 H 27 5 H 4 HMM 10 5 M 4 HM 22 H 12 MH 12 19 9 4 HMM 26 H 4 HM 15 19 H 4 5 MHMM 29 8 19 11 14 7 HMM 10 H 24 4 MHM 10 4 5 MHM 13 H 16 M 4 5 MHH 6 14 M 11 M 7 H 19 9 H 4 M 5 HMM 9 5 4 MHM 30 5 MH 12 5 MHH 8 4 5 MH 5 HM 19 15 6 23 14 M 4 MH 10 24 14 HMH 11 7 MHM 12 10 16 M 18 M 24 5 HMH 16 H 5 MH 23 M 14 21 5 HMH 4 M 5 HM 6 14 12 13 28 10 M 5 HMHHM 24 5 4 MHM 9 5 HMH 28 12 M 4 HM 20 14 16 MHM 16 11 4 MHHM 21 5 4 MH 4 HM 5 4 MH 4 HM 27 6 9 5 4 MH 4 HM 12 29 11 17 H 18 15 10 HMMHH 26 25 10 5 HMM 15 16 HM 7 M 8 HM 30 15 4 H 5 HMM 16 H 10 M 13 MH 19 10 4 MHH 30 29 MH 22 M 15 MH 4 5 MH 5 HM 16 24 15 12 6 M 26 M 19 M 4 H 5 HM 17 8 4 HMMH 4 M 5 HM 5 4 MH 4 HM 9 19 14 21 15 7 12 5 MHMH 5 HM 12 M 5 MH 7 M 17 H 8 M 4 HM 28 17 7 H 5 MH 20 M 15 5 H 4 HMM 24 18 20 5 MHM 7 21 MHMM 18 5 4 MH 4 HM 23 24 M 17 H 4 M 5 HM 17 14 21 HMM 26 H 29 M 6 H 14 4 5 MHMH 1 M 29 4 5 MH 5 HM 8 5 4 MH 4 HM 11 18 16 13 20 28 19 14 17 6 9 MHMMH 6 M 10 HM 23 12 19 24 4 MHMHH 7 5 MHM 21 12 9 H 26 M 23 MH 5 4 MH 4 HM 6 22 5 H 4 HM 19 M 4 5 MHH 27 M 5 MH 26 22 6 12 M 17 H 4 M 5 HM 30 M 7 25 5 4 MHMH 10 4 HMM 7 0 MHH 25 4 M 5 HM 21 H 10 HM 24 20 27 H 21 9 H 5 MH 7 28 MHH 4 M 5 HM 14 0 HM 23 M 15 19 HMHH 15 20 13 23 H 0 10 HM 5 H 4 HMM 5 4 MH 4 HM 27 6 26 25 4 5 MHMHMM 28 22 H 26 H 30 21 6 HMH 7 MH 5 4 MHM 9 28 M 27 0 5 MHMM 26 H 5 4 MHM 0 13 24 20 5 HMM 4 H 5 HMM 22 4 5 MH 5 HM 12 26 20 M 5 4 MHHHH 24 17 H 5 4 MH 4 HM 25 4 HM 19 5 HMM 20 23 24 22 0 25 H 10 M 5 HM 28 M 15 M 5 4 MHH 30 H 10 MH 7 17 M 14 M 5 H 4 HM 27 H 26 H 9 HM 9 0 17 H 12 M 13 26 MHHM 7 5 HMM 15 21 17 M 4 MH 5 MH 27 10 M 4 HMH 24 10 13 27 M 0 MHM 26 21 HMH 22 M 19 4 M 5 HM 21 M 16 HM 26 9 7 H 15 MH 28 4 5 MHM 0 HMM 28 12 7 H 13 MH 27 M 14 MH 10 M 4 HM 22 13 28 17 16 H 15 12 H 4 MHM 6 7 MHM 5 H 4 HM 9 23 30 7 HMM 4 5 MH 5 HM 17 28 27 30 4 5 MHMH 10 HMH 24 M 15 19 21 HM 21 MHH 27 24 13 23 9 0 HMMHM 14 H 15 5 H 4 HM 17 HM 5 4 MHH 19 4 5 MH 5 HM 13 15 0 HM 7 HMMM 9 5 4 MH 4 HM 6 4 5 MH 5 HM 24 30 5 4 MH 4 HM 13 17 16 25 HMM 10 15 M 5 4 MHHM 21 27 H 20 5 4 MHH 14 M 17 M 7 H 4 HM 17 12 M 16 23 MHM 27 22 H 5 MH 12 5 HMM 5 4 MH 4 HM 5 4 MH 4 HM
+======
+# M/H: 28227 / 17669
+# Last rebuild:   iter 2  num_configs 423
+main.ml:4305, 
+-
+(and (= -q on) (= -v off))
+-
+30 32 MHM
+======
+# M/H: 39981 / 5930
+# Last rebuild:   iter 2  num_configs 438
+main.ml:8348, main.ml:8358, main.ml:8397, main.ml:8429, main.ml:8470, main.ml:8488, 
+-
+(and (= --print-keys on)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+29 32 M 2 H 1 3 H 31 MHHM
+======
+# M/H: 21967 / 23635
+# Last rebuild:   iter 1  num_configs 51
+copying.ml:1769, copying.ml:1779, copying.ml:1878, copying.ml:1965, copying.ml:2058, 
+-
+(= -q off)
+-
+30 MH
+======
+# M/H: 22650 / 23276
+# Last rebuild:   iter 2  num_configs 453
+latexmacros.ml:19759, latexmacros.ml:19796, latexmacros.ml:19835, latexmacros.ml:19875, latexmacros.ml:19912, latexmacros.ml:19951, latexmacros.ml:20062, latexmacros.ml:20093, latexmacros.ml:20125, main.ml:16055, main.ml:16088, 
+-
+(= -unicode on)
+-
+26 HM
+======
+# M/H: 15512 / 30346
+# Last rebuild:   iter 2  num_configs 468
+main.ml:13139, main.ml:13151, 
+-
+(or (= -s plain) (= -s alpha))
+-
+0 MHH
+======
+# M/H: 23079 / 22538
+# Last rebuild:   iter 1  num_configs 66
+main.ml:13287, main.ml:13312, 
+-
+(= -noabstract on)
+-
+15 HM
+======
+# M/H: 22954 / 22997
+# Last rebuild:   iter 2  num_configs 478
+main.ml:13613, main.ml:13630, 
+-
+(= -noeprint on)
+-
+18 HM
+======
+# M/H: 23141 / 22825
+# Last rebuild:   iter 2  num_configs 493
+main.ml:14075, main.ml:14103, 
+-
+(= -nobiblinks on)
+-
+13 HM
+======
+# M/H: 22743 / 23238
+# Last rebuild:   iter 2  num_configs 508
+main.ml:14726, main.ml:14745, 
+-
+(= -linebreak on)
+-
+19 HM
+======
+# M/H: 22981 / 23015
+# Last rebuild:   iter 2  num_configs 523
+main.ml:15614, main.ml:15638, 
+-
+(= -labelname on)
+-
+28 HM
+======
+# M/H: 21945 / 24066
+# Last rebuild:   iter 2  num_configs 538
+main.ml:15698, main.ml:15716, 
+-
+(= -multiple on)
+-
+8 HM
+======
+# M/H: 28163 / 17863
+# Last rebuild:   iter 2  num_configs 553
+main.ml:15772, main.ml:15791, main.ml:15806, main.ml:15832, main.ml:15854, main.ml:15870, 
+-
+(= -single on)
+-
+9 HM
+======
+# M/H: 23104 / 22937
+# Last rebuild:   iter 2  num_configs 568
+main.ml:15922, main.ml:15936, 
+-
+(= -both on)
+-
+7 HM
+======
+# M/H: 23285 / 22771
+# Last rebuild:   iter 2  num_configs 583
+main.ml:15984, main.ml:15997, 
+-
+(= -dl on)
+-
+25 HM
+======
+# M/H: 28443 / 17628
+# Last rebuild:   iter 2  num_configs 598
+main.ml:16708, main.ml:16726, 
+-
+(= -u on)
+-
+3 HM
+======
+# M/H: 22293 / 23793
+# Last rebuild:   iter 2  num_configs 613
+main.ml:16801, main.ml:16836, 
+-
+(= -r on)
+-
+4 HM
+======
+# M/H: 23091 / 23010
+# Last rebuild:   iter 2  num_configs 628
+main.ml:17836, main.ml:17866, 
+-
+(= -i on)
+-
+6 HM
+======
+# M/H: 36749 / 9367
+# Last rebuild:   iter 2  num_configs 643
+main.ml:18600, main.ml:18630, 
+-
+(= -v on)
+-
+32 HM
+======
+# M/H: 27012 / 19119
+# Last rebuild:   iter 2  num_configs 658
+bibtex.ml:1725, main.ml:2721, main.ml:2727, main.ml:2749, main.ml:4109, main.ml:4119, main.ml:4148, main.ml:4336, main.ml:4566, main.ml:4572, main.ml:4586, main.ml:5452, main.ml:5462, main.ml:5492, main.ml:5676, main.ml:5686, main.ml:5705, main.ml:5739, main.ml:5802, main.ml:5816, readbib.ml:1323, readbib.ml:1333, readbib.ml:1412, readbib.ml:1443, readbib.ml:1691, readbib.ml:1703, readbib.ml:1750, 
+-
+(and (= -q off) (= -v off))
+-
+30 M 32 MH
+======
+# M/H: 37365 / 8781
+# Last rebuild:   iter 2  num_configs 673
+expand.ml:2706, expand.ml:2764, expand.ml:2814, expand.ml:2839, expand.ml:2894, expand.ml:2929, expand.ml:2993, expand.ml:3027, expand.ml:3284, expand.ml:3414, expand.ml:3544, expand.ml:3592, expand.ml:3602, expand.ml:3711, expand.ml:3909, expand.ml:3917, expand.ml:3977, expand.ml:4065, expand.ml:4134, expand.ml:4142, expand.ml:4204, expand.ml:4503, expand.ml:4511, expand.ml:4543, expand.ml:4651, expand.ml:4708, expand.ml:4712, expand.ml:4792, expand.ml:5062, expand.ml:5074, expand.ml:5081, expand.ml:5114, expand.ml:5147, expand.ml:5180, main.ml:2963, main.ml:2999, 
+-
+(and (= -a off) (= -u off) (= -d on) (= -v off))
+-
+2 M 3 M 1 32 MHM
+======
+# M/H: 42420 / 3741
+# Last rebuild:   iter 2  num_configs 688
+expand.ml:2738, expand.ml:2791, expand.ml:2867, expand.ml:2960, expand.ml:3039, expand.ml:4105, expand.ml:4220, expand.ml:4303, expand.ml:4340, 
+-
+(and (= -w off) (= -v off) (= -d on) (= -a off) (= -u off))
+-
+31 M 32 M 1 2 M 3 MHM
+======
+# M/H: 41344 / 4532
+# Last rebuild:   iter 3  num_configs 2094
+expand.ml:4010, 
+-
+(and (= -q off) (= -a off) (= -d on) (= -u off) (= -v off))
+-
+30 M 2 M 1 3 M 32 MHM
+======
+# M/H: 43972 / 1919
+# Last rebuild:   iter 3  num_configs 2109
+expand.ml:4250, 
+-
+(and (= -w off) (= -q off) (= -a off) (= -u off) (= -v off) (= -d on))
+-
+31 M 30 M 2 M 3 M 32 M 1 HM
+======
+# M/H: 18342 / 27834
+# Last rebuild:   iter 2  num_configs 703
+main.ml:2641, main.ml:2869, 
+-
+(and (= -v off) (or (= -a off) (= -u on)))
+-
+32 M 2 3 HMH
+======
+# M/H: 29620 / 16571
+# Last rebuild:   iter 2  num_configs 718
+main.ml:3089, main.ml:3095, main.ml:3112, 
+-
+(and (= -q off) (= -v off) (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+30 M 32 M 31 3 H 2 H 1 MHH
+======
+# M/H: 29731 / 15826
+# Last rebuild:   iter 146  num_configs 8208
+main.ml:3171, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= -v off)
+       (or (and (= -revkeys off) (= -r off) a!1)
+           (and (= -revkeys on) (= -r on) a!1))))
+-
+32 M 5 4 2 H 31 3 H 1 MHHM 4 M 2 H 31 3 H 1 MHH
+======
+# M/H: 41113 / 5110
+# Last rebuild:   iter 2  num_configs 750
+expand.ml:4093, 
+-
+(and (= -w on) (= -a off) (= -u off) (= -d on) (= -v off))
+-
+31 2 M 3 M 1 32 MHMM
+======
+# M/H: 36746 / 9492
+# Last rebuild:   iter 2  num_configs 765
+bibfilter.ml:1789, bibfilter.ml:2469, bibfilter.ml:2555, bibfilter.ml:2601, bibfilter.ml:2648, bibfilter.ml:2657, bibfilter.ml:2867, bibfilter.ml:2929, bibfilter.ml:2944, bibfilter.ml:3034, bibfilter.ml:3145, bibfilter.ml:3293, bibfilter.ml:3400, bibfilter.ml:3806, bibfilter.ml:3956, bibfilter.ml:4012, bibfilter.ml:4070, biboutput.ml:1410, bibtex.ml:4469, bibtex.ml:4578, translate.ml:12917, translate.ml:12959, translate.ml:13004, 
+-
+(and (= --print-keys off)
+     (= -single on)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+29 M 9 32 M 31 2 H 1 3 HMHHM
+======
+# M/H: 38241 / 7467
+# Last rebuild:   iter 4  num_configs 2940
+bibfilter.ml:2898, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -r off) (or (= -d off) (= -u on)))
+               (and (= -a on) (= -u off)))))
+  (and (= -single on) (= --print-keys off) (= -v off) a!1))
+-
+9 29 M 32 M 31 4 2 3 MHM 2 H 1 3 HMHHM
+======
+# M/H: 41246 / 5031
+# Last rebuild:   iter 2  num_configs 804
+bibfilter.ml:2975, 
+-
+(and (= --print-keys off)
+     (= -q off)
+     (= -single on)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+29 M 30 M 9 32 M 1 3 H 2 H 31 MHHM
+======
+# M/H: 42657 / 3635
+# Last rebuild:   iter 2  num_configs 819
+bibfilter.ml:3080, 
+-
+(and (= -w off) (= --print-keys off) (= -single on) (= -v off))
+-
+31 M 29 M 9 32 MHM
+======
+# M/H: 31341 / 13299
+# Last rebuild:   iter 2  num_configs 846
+biboutput.ml:1324, biboutput.ml:1489, biboutput.ml:1751, biboutput.ml:1759, biboutput.ml:1927, biboutput.ml:2027, biboutput.ml:2055, biboutput.ml:3789, biboutput.ml:3820, biboutput.ml:3874, biboutput.ml:3887, biboutput.ml:3893, biboutput.ml:3918, biboutput.ml:3947, biboutput.ml:3960, biboutput.ml:3991, biboutput.ml:4212, biboutput.ml:4260, biboutput.ml:4338, biboutput.ml:4376, biboutput.ml:4439, biboutput.ml:4479, biboutput.ml:4536, biboutput.ml:4539, biboutput.ml:4547, biboutput.ml:4620, biboutput.ml:4623, biboutput.ml:4631, biboutput.ml:4709, biboutput.ml:4773, biboutput.ml:4802, biboutput.ml:4815, biboutput.ml:4893, biboutput.ml:7351, biboutput.ml:7399, biboutput.ml:7475, biboutput.ml:7538, biboutput.ml:7568, bibtex.ml:4080, bibtex.ml:4088, bibtex.ml:4146, bibtex.ml:4156, bibtex.ml:4219, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -single on) a!1)
+           (and (= -nobibsource off) (= -multiple off) a!1))))
+-
+29 M 32 M 9 3 H 31 1 2 HMHH 24 M 8 M 31 2 H 3 H 1 MHH
+======
+# M/H: 33908 / 11715
+# Last rebuild:   iter 3  num_configs 1841
+biboutput.ml:1570, biboutput.ml:1573, biboutput.ml:1581, biboutput.ml:1714, biboutput.ml:1777, biboutput.ml:1805, biboutput.ml:1832, biboutput.ml:1858, biboutput.ml:1884, bibtex.ml:4192, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -a on) (= -u off))
+               (and (= -r off) (or (= -d off) (= -u on))))))
+(let ((a!2 (or (and (= -single on) a!1)
+               (and (= -single off)
+                    (= -nobibsource off)
+                    (= -multiple off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off))))))
+  (and (= --print-keys off) (= -v off) a!2)))
+-
+29 M 32 M 9 31 4 2 3 MHM 1 2 H 3 HMHH 24 M 8 M 2 H 31 1 3 HMHH
+======
+# M/H: 38380 / 7965
+# Last rebuild:   iter 2  num_configs 872
+biboutput.ml:1614, biboutput.ml:1623, biboutput.ml:1655, biboutput.ml:1678, 
+-
+(let ((a!1 (and (= -w off)
+                (or (= -single on)
+                    (and (= -single off) (= -nobibsource off) (= -multiple off))))))
+(let ((a!2 (or (and (= -single off)
+                    (= -multiple off)
+                    (= -nobibsource off)
+                    (or (= -d off) (= -a on) (= -u on)))
+               a!1)))
+  (and (= --print-keys off) (= -v off) a!2)))
+-
+29 M 32 M 31 9 M 8 M 24 M 3 H 1 2 HMH 9 H 24 M 8 MH
+======
+# M/H: 34679 / 11687
+# Last rebuild:   iter 2  num_configs 893
+biboutput.ml:4180, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -single on) a!1)
+           (and (= -nobiblinks on) (= -nobibsource off) (= -multiple off) a!1))))
+-
+29 M 32 M 9 3 H 31 1 2 HMHH 13 24 M 8 M 2 H 1 3 H 31 MHHM
+======
+# M/H: 34899 / 10683
+# Last rebuild:   iter 5  num_configs 3040
+bibtex.ml:4117, 
+-
+(let ((a!1 (and (= -r off)
+                (or (= -u on) (and (= -u off) (= -d off) (= -a off)))))
+      (a!3 (or (= -a on) (and (= -a off) (or (= -d off) (= -u on) (= -w off))))))
+(let ((a!2 (and (= -single on)
+                (or (= -w off) (and (= -r on) (= -a on) (= -u off)) a!1))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or a!2 (and (= -single off) (= -multiple off) (= -nobibsource off) a!3)))))
+-
+29 M 32 M 9 31 4 2 3 MHM 3 H 1 M 2 MHH 8 M 24 M 2 H 31 1 3 HMHH
+======
+# M/H: 33175 / 13224
+# Last rebuild:   iter 2  num_configs 926
+bibtex.ml:4714, bibtex.ml:4900, bibtex.ml:4970, bibtex.ml:5014, bibtex.ml:5021, bibtex.ml:5058, bibtex.ml:5118, bibtex.ml:5206, bibtex.ml:5291, bibtex.ml:5314, bibtex.ml:5391, bibtex.ml:5558, main.ml:8565, 
+-
+(and (= -noexpand off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+23 M 29 M 32 M 2 H 3 H 31 1 MHH
+======
+# M/H: 20320 / 26094
+# Last rebuild:   iter 2  num_configs 941
+html.ml:1907, html.ml:1943, html.ml:1979, html.ml:2016, html.ml:2052, html.ml:2117, latexmacros.ml:1796, latexmacros.ml:1841, latexmacros.ml:2270, latexmacros.ml:2278, latexscan.ml:139056, latexscan.ml:151629, latexscan.ml:152499, latexscan.mll:1128, latexscan.mll:1159, latexscan.mll:1181, latexscan.mll:139644, latexscan.mll:139680, latexscan.mll:139724, latexscan.mll:139741, latexscan.mll:143051, latexscan.mll:143069, latexscan.mll:143368, latexscan.mll:143432, latexscan.mll:144225, latexscan.mll:144260, latexscan.mll:144349, latexscan.mll:144377, latexscan.mll:144554, latexscan.mll:144622, latexscan.mll:144697, latexscan.mll:144784, latexscan.mll:144804, latexscan.mll:144891, latexscan.mll:144937, latexscan.mll:144963, latexscan.mll:144969, latexscan.mll:144989, latexscan.mll:145080, latexscan.mll:145158, latexscan.mll:145215, latexscan.mll:145264, latexscan.mll:145322, latexscan.mll:145409, latexscan.mll:145447, latexscan.mll:151932, latexscan.mll:152719, latexscan.mll:153016, latexscan.mll:153052, latexscan.mll:1844, latexscan.mll:1887, latexscan.mll:2154, latexscan.mll:246, latexscan.mll:503, latexscan.mll:552, latexscan.mll:576, latexscan.mll:603, latexscan.mll:614, latexscan.mll:638, latexscan.mll:751, latexscan.mll:826, latexscan.mll:890, latexscan.mll:931, main.ml:8504, main.ml:8916, translate.ml:12096, translate.ml:12169, translate.ml:12196, translate.ml:12230, translate.ml:12234, translate.ml:12289, translate.ml:12314, translate.ml:12318, translate.ml:12597, translate.ml:12621, translate.ml:12625, translate.ml:12706, translate.ml:12731, translate.ml:12748, translate.ml:12767, translate.ml:12816, translate.ml:12842, translate.ml:13438, translate.ml:13460, translate.ml:13509, translate.ml:13534, translate.ml:13601, translate.ml:13700, translate.ml:13753, translate.ml:13789, translate.ml:13897, translate.ml:13981, translate.ml:14016, translate.ml:14063, translate.ml:14088, translate.ml:14144, translate.ml:14166, translate.ml:14239, translate.ml:14391, translate.ml:14413, translate.ml:14469, translate.ml:15870, translate.ml:15894, translate.ml:15938, translate.ml:3347, translate.ml:3383, translate.ml:3565, translate.ml:3577, translate.ml:3603, translate.ml:3631, translate.ml:3730, translate.ml:3763, translate.ml:3795, translate.ml:8592, 
+-
+(and (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+29 M 32 M 3 H 1 31 2 HMHH
+======
+# M/H: 22504 / 23078
+# Last rebuild:   iter 98  num_configs 6758
+html.ml:2412, html.ml:2458, html.ml:2521, 
+-
+(let ((a!1 (or (= -multiple on)
+               (= -nolinks off)
+               (= -nofooter off)
+               (= -nobibsource off)))
+      (a!3 (or (and (= -u off) (= -a on))
+               (and (= -r off) (or (= -d off) (= -a on) (= -u on))))))
+(let ((a!2 (and (= -single off)
+                (or (and (= -u on) a!1)
+                    (and (= -d off) a!1)
+                    (and (= -a on) a!1)))))
+(let ((a!4 (or a!2
+               (and (= -w off)
+                    (or (= -multiple on)
+                        (= -single on)
+                        (= -nolinks off)
+                        (= -nofooter off)
+                        (= -nobibsource off)))
+               (and (= -single on) a!3))))
+  (and (= --print-keys off) (= -v off) a!4))))
+-
+29 M 32 M 31 9 4 3 M 2 HM 2 H 1 3 HMH 2 8 H 12 24 22 MHHH 1 3 22 24 8 H 12 MHHHM 8 H 22 12 24 MHHH 8 H 12 22 24 9 HMHHH
+======
+# M/H: 28627 / 17096
+# Last rebuild:   iter 4  num_configs 2955
+latexmacros.ml:10896, latexmacros.ml:6835, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!2 (or (and (= -r on) (or (= -single off) (= -w off)))
+               (and (= -r off) (= -single on))))
+      (a!3 (and (= -a on) (or (= -single off) (and (= -single on) (= -w off)))))
+      (a!6 (and (= -d off)
+                (= -a off)
+                (or (and (= -r on) (= -single off))
+                    (and (= -r off) (= -single on))))))
+(let ((a!4 (and (= -r off) (or (and (= -single on) (= -w off)) a!3))))
+(let ((a!5 (and (= -u off) (or (and (= -r on) (= -single on) (= -w off)) a!4))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -multiple off) a!1) (and (= -u on) a!2) a!5 a!6)))))
+-
+29 M 32 M 8 1 3 4 9 31 MHH 9 HM 4 9 31 MHM 2 9 31 MHH 9 31 MHM 2 4 3 9 31 MHH 9 31 MHM 3 9 HM 9 31 MHH 4 9 31 MHH 9 HM 31 9 4 M 3 H 2 M 1 MH 2 H 1 3 HMHH
+======
+# M/H: 25787 / 19951
+# Last rebuild:   iter 4  num_configs 2970
+latexmacros.ml:11000, latexmacros.ml:11262, latexmacros.ml:6682, latexscan.mll:152311, 
+-
+(let ((a!1 (and (= -w off)
+                (or (= -single on) (and (= -d on) (= -a off) (= -u off)))))
+      (a!2 (and (= -u on)
+                (or (and (= -r on) (= -single off))
+                    (and (= -r off) (= -single on)))))
+      (a!3 (and (= -a on)
+                (or (and (= -r off) (= -u off)) (and (= -u off) (= -single on)))))
+      (a!4 (and (= -d off)
+                (= -u off)
+                (or (and (= -single on) (= -r off))
+                    (and (= -single off) (= -r on) (= -a off)))))
+      (a!5 (and (= -multiple off)
+                (or (and (= -u on) (= -single off))
+                    (and (= -a on) (= -u off))
+                    (and (= -d off) (= -single off))))))
+  (and (= --print-keys off) (= -v off) (or a!1 a!2 a!3 a!4 a!5)))
+-
+29 M 32 M 8 31 1 2 4 3 9 MH 9 HM 3 9 HMH 3 4 9 MH 9 HMM 3 4 9 MH 9 HM 9 4 2 HMH 4 2 MH 2 HM 9 H 1 2 4 3 HM 3 MH 3 4 HMH 4 2 3 HMH 2 3 MHM 31 2 3 9 4 MHHH 3 9 4 MHH 1 M 9 4 MHHH
+======
+# M/H: 26340 / 19566
+# Last rebuild:   iter 3  num_configs 2124
+latexmacros.ml:11366, latexmacros.ml:7122, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off)))))
+      (a!3 (or (= -w off)
+               (and (= -r off) (or (= -d off) (= -a on) (= -u on)))
+               (and (= -a on) (= -u off))))
+      (a!4 (and (= -a on) (or (= -u off) (and (= -u on) (= -r off)))))
+      (a!5 (and (= -a off)
+                (or (and (= -u on) (= -single off))
+                    (and (= -u off) (= -d off) (= -single off))))))
+(let ((a!2 (and (= -single off)
+                (or (and (= -r on) a!1) (and (= -r off) (= -a on) (= -u off))))))
+(let ((a!6 (or a!2
+               (and (= -single on) a!3)
+               (and (= -multiple off) (or (= -w off) a!4 a!5)))))
+  (and (= --print-keys off) (= -v off) a!6))))
+-
+29 M 32 M 8 9 31 4 2 3 MHM 2 H 1 3 HMHH 4 3 H 2 M 31 1 MHH 2 3 MHM 31 2 3 4 9 MHHH 3 9 4 MHH 1 M 9 4 MHHH
+======
+# M/H: 25307 / 20553
+# Last rebuild:   iter 3  num_configs 2139
+latexmacros.ml:12177, 
+-
+(let ((a!1 (and (= -w off)
+                (or (= -single on) (and (= -u off) (= -a off) (= -d on)))))
+      (a!2 (or (and (= -single on) (= -r off))
+               (and (= -single off) (or (= -multiple off) (= -r on)))))
+      (a!3 (and (= -r on)
+                (or (= -single on) (and (= -single off) (= -s alpha)))))
+      (a!5 (or (and (= -multiple off) (= -single off))
+               (and (= -r off) (= -single on))
+               (and (= -r on) (= -single off)))))
+(let ((a!4 (or (and (= -u on) a!2)
+               (and (= -u off) (or (= -r off) (= -multiple off) a!3))))
+      (a!6 (and (= -a off) (or (and (= -u on) a!5) (and (= -d off) a!5)))))
+  (and (= --print-keys off) (= -v off) (or a!1 (and (= -a on) a!4) a!6))))
+-
+29 M 32 M 31 2 3 9 4 MH 8 4 HMH 8 4 9 H 0 MMHHH 3 8 4 9 MH 9 HM 9 4 MHH 1 M 8 4 9 MH 9 HM 9 4 MHH 8 9 H 3 4 HM 0 2 4 MH 1 H 4 HM 2 4 MH 4 H 1 HM 1 H 2 H 4 HMH
+======
+# M/H: 28534 / 17276
+# Last rebuild:   iter 3  num_configs 2028
+latexmacros.ml:12410, latexscan.mll:152139, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!2 (and (= -r on) (or (= -u on) (and (= -d off) (= -a off)))))
+      (a!4 (and (= -r off) (or (and (= -a on) (= -u on)) (= -a off))))
+      (a!6 (and (= -d on)
+                (or (and (= -u on) (= -r off))
+                    (and (= -u off) (= -r on) (= -a on))))))
+(let ((a!3 (and (= -single off)
+                (or a!2
+                    (and (= -r off) (= -w off) (= -a off) (= -u off) (= -d on)))))
+      (a!5 (and (= -d off) (or a!4 (and (= -r on) (= -a on) (= -u off))))))
+(let ((a!7 (or (and (= -multiple off) a!1)
+               a!3
+               (and (= -single on) (or a!5 (= -w off) a!6)))))
+  (and (= --print-keys off) (= -v off) a!7))))
+-
+29 M 32 M 8 9 31 1 3 4 MH 4 2 HMM 4 2 3 MHM 2 3 HMHH 4 3 H 1 M 2 MH 31 M 2 M 3 M 1 HM 31 9 4 2 3 MHM 3 H 1 M 2 MH 3 H 2 H 1 MHH
+======
+# M/H: 29117 / 16815
+# Last rebuild:   iter 3  num_configs 2150
+latexmacros.ml:12714, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!2 (and (= -single off)
+                (= -r on)
+                (or (= -u on) (and (= -d off) (= -a off)))))
+      (a!3 (and (= -single on)
+                (or (= -w off)
+                    (and (= -d off) (= -r off) (= -a off))
+                    (and (= -u on) (= -r off))
+                    (and (= -u off) (= -r on) (= -a on))))))
+  (and (= --print-keys off) (= -v off) (or (and (= -multiple off) a!1) a!2 a!3)))
+-
+29 M 32 M 8 9 31 1 3 4 MH 4 2 HMM 4 2 3 MHM 2 3 HMHH 4 3 H 1 M 2 MHM 31 9 4 2 3 MHM 3 H 1 M 2 MH 2 H 3 H 1 MHH
+======
+# M/H: 27013 / 18701
+# Last rebuild:   iter 4  num_configs 3000
+latexmacros.ml:13510, 
+-
+(let ((a!1 (or (and (= -r on) (or (= -a off) (= -u on)))
+               (and (= -r off) (= -a on) (= -u off))))
+      (a!2 (or (and (= -r on) (= -u on))
+               (and (= -r off) (= -u off) (or (= -a on) (= -w off)))))
+      (a!4 (and (= -a off) (or (= -d off) (and (= -d on) (= -u on)))))
+      (a!6 (and (= -d off) (or (= -a off) (and (= -a on) (= -s alpha))))))
+(let ((a!3 (and (= -single off) (or (and (= -d off) a!1) (and (= -d on) a!2))))
+      (a!5 (or (= -w off) (and (= -single off) (or (= -a on) a!4))))
+      (a!7 (and (= -u off) (or a!6 (and (= -d on) (= -a on) (= -s alpha))))))
+(let ((a!8 (or (= -w off)
+               (and (= -r off) (or (= -u on) a!7))
+               (and (= -r on) (= -a on) (= -u off)))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or a!3 (and (= -multiple off) a!5) (and (= -single on) a!8))))))
+-
+29 M 32 M 8 9 31 4 2 3 MHM 3 H 1 2 0 MMHM 2 0 MMHHH 1 4 3 HM 3 M 31 2 HMH 4 2 3 HMH 2 3 MHM 31 9 4 2 3 MHM 3 H 1 0 MM 2 HM 2 0 MMHH 2 H 1 3 HMHH
+======
+# M/H: 27775 / 18748
+# Last rebuild:   iter 2  num_configs 1050
+latexmacros.ml:6736, 
+-
+(let ((a!1 (and (= -a on) (or (= -r off) (and (= -r on) (= -multiple off)))))
+      (a!4 (and (= -w off)
+                (or (= -multiple off)
+                    (= -single on)
+                    (and (= -single off) (= -r off) (= -u off) (= -d on)))))
+      (a!5 (or (= -a on) (and (= -a off) (or (= -d off) (= -u on))))))
+(let ((a!2 (or a!1 (and (= -a off) (= -d off) (or (= -multiple off) (= -r on))))))
+(let ((a!3 (or (and (= -u on) (or (= -r on) (= -multiple off)))
+               (and (= -u off) a!2))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -single off) a!3) a!4 (and (= -single on) (= -r off) a!5))))))
+-
+29 M 32 M 31 9 4 M 2 H 1 3 HMH 3 4 H 8 MH 2 4 8 MHH 1 M 8 4 HMH 8 9 H 4 3 H 2 M 1 MH 3 M 1 H 2 HMH
+======
+# M/H: 27788 / 18159
+# Last rebuild:   iter 3  num_configs 2165
+latexmacros.ml:6769, 
+-
+(let ((a!1 (or (and (= -u on) (= -r on))
+               (and (= -d off) (= -r on) (or (= -a off) (= -u on)))
+               (and (= -a on) (= -r off) (= -u off))))
+      (a!2 (and (= -a off) (or (= -u on) (and (= -u off) (= -d off)))))
+      (a!4 (and (= -a off)
+                (or (= -d off) (= -u on) (and (= -u off) (= -w off))))))
+(let ((a!3 (or (= -w off) (and (= -single off) (or (= -a on) a!2))))
+      (a!5 (or (and (= -r on) (= -w off)) (and (= -r off) (or (= -a on) a!4)))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -single off) a!1)
+           (and (= -multiple off) a!3)
+           (and (= -single on) a!5)))))
+-
+29 M 32 M 8 9 4 31 MH 2 H 1 3 H 31 MHH 1 2 4 3 HM 3 MH 3 4 HMM 4 2 3 HMH 2 3 MHM 31 9 4 M 2 H 1 3 HMH 2 H 3 H 1 MHH
+======
+# M/H: 29935 / 16603
+# Last rebuild:   iter 2  num_configs 1065
+latexmacros.ml:6901, latexmacros.ml:9108, 
+-
+(let ((a!1 (and (= -w off)
+                (or (= -multiple off)
+                    (= -single on)
+                    (and (= -r off) (= -d on) (= -u off) (= -a off)))))
+      (a!2 (and (= -r off)
+                (or (= -single on) (and (= -single off) (= -multiple off)))))
+      (a!4 (and (= -single off)
+                (or (= -r on) (and (= -r off) (= -multiple off))))))
+(let ((a!3 (and (= -d off) (= -a off) (or (and (= -r on) (= -single off)) a!2)))
+      (a!5 (and (= -u on) (or (and (= -single on) (= -r off)) a!4))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or a!1 a!3 (and (= -single off) (= -a on) (= -multiple off)) a!5))))
+-
+29 M 32 M 31 3 9 4 MH 4 H 8 MH 1 9 M 2 8 MHM 2 8 M 9 MH 4 9 MH 9 H 8 MH 8 9 H 4 3 H 1 M 2 MH 1 3 M 2 MHMH
+======
+# M/H: 26467 / 19495
+# Last rebuild:   iter 3  num_configs 2180
+latexmacros.ml:6957, 
+-
+(let ((a!1 (and (= -multiple off)
+                (or (= -w off)
+                    (and (= -a on) (= -single off))
+                    (and (= -d off) (= -single off))
+                    (and (= -u on) (= -single off)))))
+      (a!2 (and (= -r on) (or (= -a off) (and (= -a on) (= -u on)))))
+      (a!4 (and (= -u off)
+                (= -r off)
+                (or (= -a on) (and (= -a off) (= -w off)))))
+      (a!6 (and (= -a off) (or (= -u on) (and (= -u off) (= -d off))))))
+(let ((a!3 (and (= -d off) (or a!2 (and (= -r off) (= -a on) (= -u off)))))
+      (a!5 (and (= -d on) (or (and (= -u on) (= -r on)) a!4)))
+      (a!7 (or (= -w off)
+               (and (= -r on) (= -a on) (= -u off))
+               (and (= -r off) (or (= -a on) a!6)))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or a!1 (and (= -single off) (or a!3 a!5)) (and (= -single on) a!7)))))
+-
+29 M 32 M 8 9 31 4 2 3 MHM 2 H 3 H 1 MHH 1 3 4 HM 4 M 2 H 31 MH 4 2 3 HMH 2 3 MHM 31 2 3 4 9 MHHH 3 9 4 MHH 1 M 9 4 MHHH
+======
+# M/H: 27217 / 18760
+# Last rebuild:   iter 3  num_configs 2195
+latexmacros.ml:7500, 
+-
+(let ((a!1 (and (= -r on)
+                (= -single off)
+                (or (= -u on) (and (= -d off) (= -a off)))))
+      (a!2 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!3 (and (= -single on) (or (= -u on) (and (= -u off) (= -d off)))))
+      (a!5 (and (= -w off) (or (= -single on) (and (= -r on) (= -a off))))))
+(let ((a!4 (and (= -r off) (or (and (= -a on) (= -u off)) a!3))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or a!1 (and (= -multiple off) a!2) a!4 a!5))))
+-
+29 M 32 M 8 31 4 9 M 3 H 1 M 2 MH 2 3 9 HMH 9 3 H 1 MHM 9 H 4 2 3 HMH 2 3 MHM 31 9 4 M 2 H 1 3 HMH 2 H 3 H 1 MHH
+======
+# M/H: 27305 / 18635
+# Last rebuild:   iter 3  num_configs 2210
+latexmacros.ml:8904, 
+-
+(let ((a!1 (or (and (= -a on) (or (= -s off) (= -s plain)))
+               (and (= -d off) (= -a off))))
+      (a!4 (and (= -a on)
+                (or (and (= -r off) (= -u off)) (and (= -r on) (= -u on)))))
+      (a!6 (and (= -multiple off)
+                (or (= -w off)
+                    (and (= -u on) (= -single off))
+                    (and (= -a on) (= -single off))
+                    (and (= -d off) (= -single off))))))
+(let ((a!2 (and (= -r off) (or (= -u on) (and (= -u off) a!1))))
+      (a!5 (or a!4 (and (= -a off) (= -r on) (or (= -d off) (= -u on))))))
+(let ((a!3 (and (= -single on)
+                (or (= -w off) (and (= -r on) (= -a on) (= -u off)) a!2))))
+  (and (= --print-keys off) (= -v off) (or a!3 (and (= -single off) a!5) a!6)))))
+-
+29 M 32 M 8 9 31 4 2 3 MHM 3 H 1 2 0 HHMM 2 0 HHMHH 2 4 3 HM 3 MH 4 1 3 HMHM 31 2 9 3 4 MH 4 H 0 HHMH 3 9 4 MHH 1 M 9 4 MHHH
+======
+# M/H: 28367 / 17637
+# Last rebuild:   iter 3  num_configs 2222
+latexmacros.ml:9216, latexmacros.ml:9637, latexscan.mll:291, 
+-
+(let ((a!1 (and (= -w off)
+                (or (= -multiple off)
+                    (= -single on)
+                    (and (= -r off) (= -u off) (= -d on)))))
+      (a!2 (or (= -u on) (and (= -d off) (= -a off))))
+      (a!3 (and (= -a off) (or (= -u on) (and (= -u off) (= -d off))))))
+(let ((a!4 (or (and (= -r off) (= -a on) (= -u off))
+               (and (= -r on) a!2)
+               (and (= -multiple off) (or (= -a on) a!3)))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or a!1 (and (= -single off) a!4) (and (= -single on) (= -r off) a!2)))))
+-
+29 M 32 M 31 9 4 M 3 H 1 M 2 MH 8 4 3 H 1 M 2 MH 2 3 MHM 2 H 3 H 1 MH 8 9 H 4 3 H 1 M 2 MH 3 M 1 H 2 HMH
+======
+# M/H: 20936 / 24614
+# Last rebuild:   iter 8  num_configs 3275
+latexscan.mll:1207, 
+-
+(let ((a!1 (or (and (= -a on)
+                    (or (= -s alpha)
+                        (= -r off)
+                        (= -multiple off)
+                        (= -single on)))
+               (= -u on)
+               (and (= -w off) (= -a off))
+               (and (= -d off)
+                    (or (= -s alpha)
+                        (= -a off)
+                        (= -r off)
+                        (= -multiple off)
+                        (= -single on))))))
+  (and (= --print-keys off) (= -v off) a!1))
+-
+29 M 32 M 3 H 1 31 2 8 4 9 H 0 MMHHHM 2 4 8 9 H 0 MMHHHH 2 4 8 9 H 0 MMHHHH
+======
+# M/H: 25145 / 20886
+# Last rebuild:   iter 3  num_configs 2249
+latexscan.mll:141865, latexscan.mll:141937, latexscan.mll:141973, latexscan.mll:142045, 
+-
+(let ((a!1 (and (= -r off) (or (= -u on) (and (= -d off) (= -a off)))))
+      (a!3 (or (and (= -d off) (= -a off))
+               (and (= -a on) (or (= -multiple off) (= -r off))))))
+(let ((a!2 (and (= -single on) (or a!1 (and (= -r on) (= -a on) (= -u off)))))
+      (a!4 (and (= -single off) (or (= -u on) (and (= -u off) a!3)))))
+(let ((a!5 (or (and (= -w off) (or (= -r off) (= -multiple off) (= -single on)))
+               a!2
+               a!4)))
+  (and (= --print-keys off) (= -v off) a!5))))
+-
+29 M 32 M 31 9 4 2 3 MHM 3 H 1 M 2 MH 3 H 1 2 8 4 MHHM 2 4 8 MHHH 4 8 3 H 9 H 1 M 2 MHHH
+======
+# M/H: 28985 / 17061
+# Last rebuild:   iter 3  num_configs 2264
+latexscan.mll:142845, latexscan.mll:142861, 
+-
+(let ((a!1 (and (= -r on)
+                (= -single on)
+                (or (= -w off) (and (= -a on) (= -u off)))))
+      (a!2 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!3 (or (and (= -a off) (or (= -d off) (= -w off)))
+               (and (= -a on) (= -single on) (= -w off)))))
+(let ((a!4 (and (= -r off) (or (= -u on) (and (= -u off) a!3)))))
+  (and (= --print-keys off) (= -v off) (or a!1 (and (= -multiple off) a!2) a!4))))
+-
+29 M 32 M 8 4 9 31 2 3 MHMHM 3 H 2 9 31 MHM 1 31 MHH 31 9 4 2 3 MHM 3 H 1 M 2 MH 2 H 1 3 HMHH
+======
+# M/H: 26291 / 19770
+# Last rebuild:   iter 3  num_configs 2279
+latexscan.mll:142948, latexscan.mll:142964, 
+-
+(let ((a!1 (and (= -multiple off)
+                (or (= -w off) (and (= -a on) (= -single off)))))
+      (a!2 (and (= -a on)
+                (= -single on)
+                (or (= -r on) (and (= -r off) (= -w off)))))
+      (a!3 (and (= -d off) (or (= -single off) (and (= -single on) (= -r off))))))
+(let ((a!4 (or (and (= -w off) (or (= -r off) (= -single on))) a!3)))
+(let ((a!5 (and (= -u off) (or a!1 a!2 (and (= -a off) a!4)))))
+(let ((a!6 (or (and (= -u on) (or (= -r off) (= -single off) (= -w off))) a!5)))
+  (and (= --print-keys off) (= -v off) a!6)))))
+-
+29 M 32 M 3 9 4 31 MHHH 8 2 9 4 H 31 MHM 1 31 M 4 9 HMH 9 4 31 MHHH 31 2 9 4 HMH 1 M 9 4 MHHH
+======
+# M/H: 30999 / 15077
+# Last rebuild:   iter 3  num_configs 2294
+latexscan.mll:143950, latexscan.mll:143985, latexscan.mll:144040, latexscan.mll:144063, latexscan.mll:144090, latexscan.mll:144142, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!2 (and (= -a off)
+                (= -single on)
+                (or (= -u on) (and (= -u off) (= -d off)))))
+      (a!3 (and (= -a on)
+                (or (and (= -single off) (= -u off))
+                    (and (= -single on) (= -u on))))))
+(let ((a!4 (and (= -r off) (or (and (= -w off) (= -u off) (= -d on)) a!2 a!3))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -multiple off) a!1) a!4 (and (= -single on) (= -w off))))))
+-
+29 M 32 M 8 4 9 31 MHM 31 2 9 3 HM 3 MH 9 3 H 1 MHM 3 9 HM 1 H 2 H 9 HM 31 9 4 M 3 H 1 M 2 MH 2 H 1 3 HMHH
+======
+# M/H: 30005 / 16086
+# Last rebuild:   iter 3  num_configs 2309
+latexscan.mll:145181, latexscan.mll:145287, 
+-
+(let ((a!1 (and (= -single on)
+                (or (= -w off) (and (= -d off) (= -a off) (= -r off)))))
+      (a!2 (and (= -u on)
+                (or (and (= -r off) (= -single on))
+                    (and (= -r on) (= -single off)))))
+      (a!3 (or (= -a on) (and (= -a off) (or (= -d off) (= -u on))))))
+(let ((a!4 (and (= -multiple off) (or (= -w off) (and (= -single off) a!3)))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or a!1 a!2 (and (= -single off) (= -d off) (= -r on) (= -a off)) a!4))))
+-
+29 M 32 M 8 3 4 9 31 MHH 9 HM 9 31 1 M 2 M 4 MHH 1 M 4 2 MHM 31 9 4 M 3 H 2 M 1 MH 2 H 1 3 HMHH
+======
+# M/H: 24097 / 21422
+# Last rebuild:   iter 67  num_configs 5702
+latexscan.mll:1954, latexscan.mll:1980, 
+-
+(let ((a!1 (and (= -w off)
+                (or (= -single on) (and (= -a off) (= -d on) (= -u off)))))
+      (a!2 (or (and (= -u on) (or (= -single off) (= -nokeys off)))
+               (and (= -d off) (or (= -single off) (= -nokeys off)))
+               (and (= -a on) (= -single off))))
+      (a!3 (and (= -multiple off)
+                (or (and (= -d off) (= -single off))
+                    (and (= -u on) (= -single off))
+                    (and (= -a on) (= -single off)))))
+      (a!4 (and (= -single off)
+                (or (= -u on) (and (= -u off) (= -a off) (= -d off)))))
+      (a!6 (or (and (= -single on) (or (= -d off) (= -a on) (= -u on)))
+               (and (= -single off) (= -a on) (= -u off)))))
+(let ((a!5 (and (= -r on) (or a!4 (and (= -single on) (= -u off) (= -a on))))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or a!1 (and (= -s alpha) a!2) a!3 a!5 (and (= -r off) a!6)))))
+-
+29 M 32 M 8 0 31 4 9 3 M 2 HM 3 H 2 M 1 MH 9 1 3 H 2 HMH 2 3 MHM 9 H 2 4 3 HM 3 MH 4 H 1 3 MHM 9 31 4 3 M 2 HM 2 H 1 3 HMHH 4 3 H 2 M 1 31 MHH 3 M 2 H 31 M 1 HM 31 1 2 9 3 4 11 MHHHH 3 9 4 11 MHHHM 9 4 11 2 3 MHMHHHH 31 2 9 3 4 11 M 0 MMHHHH 1 3 9 4 0 MM 11 MHHHM 9 4 11 M 0 MMHHHH
+======
+# M/H: 33454 / 13099
+# Last rebuild:   iter 2  num_configs 1080
+translate.ml:10855, translate.ml:11269, translate.ml:11295, translate.ml:11561, translate.ml:11588, translate.ml:11617, translate.ml:11643, translate.ml:11943, translate.ml:11970, 
+-
+(and (= -dl on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+25 29 M 32 M 3 H 1 31 2 HMHHM
+======
+# M/H: 40853 / 5715
+# Last rebuild:   iter 2  num_configs 1095
+translate.ml:10990, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -dl on)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -w off) (= -single on)) (and (= -multiple off) a!1))))
+-
+25 29 M 32 M 8 31 M 9 HM 31 9 M 3 H 2 H 1 MHHM
+======
+# M/H: 33285 / 13298
+# Last rebuild:   iter 2  num_configs 1110
+translate.ml:12250, translate.ml:12334, translate.ml:12641, 
+-
+(and (= -nokeys on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+11 29 M 32 M 1 3 H 2 H 31 MHHM
+======
+# M/H: 37286 / 8834
+# Last rebuild:   iter 3  num_configs 2338
+translate.ml:12542, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= -nokeys on)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -multiple off) a!1) (and (= -single on) a!1))))
+-
+11 29 M 32 M 8 9 1 2 H 31 3 HMHHM 2 H 3 H 1 31 MHHM
+======
+# M/H: 39139 / 6656
+# Last rebuild:   iter 3  num_configs 2013
+translate.ml:12568, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+(let ((a!2 (or (and (= -dl on) a!1) (and (= -use-table on) a!1))))
+  (and (= -nokeys on)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -multiple off) a!2) (and (= -single on) a!2)))))
+-
+11 29 M 32 M 8 9 25 1 2 H 3 H 31 MHH 20 1 31 3 H 2 HMHHMM 25 2 H 3 H 1 31 MHH 20 2 H 3 H 1 31 MHHMM
+======
+# M/H: 29291 / 17325
+# Last rebuild:   iter 2  num_configs 1143
+translate.ml:12891, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -multiple off) a!1) (and (= -single on) a!1))))
+-
+29 M 32 M 8 9 2 H 3 H 1 31 MHHM 3 H 2 H 1 31 MHH
+======
+# M/H: 32951 / 13680
+# Last rebuild:   iter 2  num_configs 1158
+translate.ml:13816, translate.ml:13826, translate.ml:13875, 
+-
+(and (= -q off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+30 M 29 M 32 M 2 H 31 1 3 HMHH
+======
+# M/H: 33469 / 13177
+# Last rebuild:   iter 2  num_configs 1173
+translate.ml:14003, translate.ml:14110, translate.ml:4456, translate.ml:4478, translate.ml:4552, translate.ml:4578, translate.ml:4770, translate.ml:4795, translate.ml:4832, translate.ml:4881, translate.ml:4914, 
+-
+(and (= -noheader off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+21 M 32 M 29 M 3 H 2 H 31 1 MHH
+======
+# M/H: 33342 / 13319
+# Last rebuild:   iter 2  num_configs 1188
+translate.ml:14456, 
+-
+(and (= -revkeys off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+5 M 29 M 32 M 3 H 1 31 2 HMHH
+======
+# M/H: 34795 / 11340
+# Last rebuild:   iter 3  num_configs 2353
+translate.ml:14520, translate.ml:14546, translate.ml:14569, translate.ml:14604, translate.ml:14649, translate.ml:14665, translate.ml:16455, 
+-
+(let ((a!1 (or (and (= -single on) (= -w off) (= -v off))
+               (and (= -multiple off)
+                    (= -v off)
+                    (= -single off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off))))))
+  (and (= --print-keys off) a!1))
+-
+29 M 8 9 31 M 32 MHM 32 M 9 31 MH 2 H 3 H 1 31 MHH
+======
+# M/H: 40878 / 5798
+# Last rebuild:   iter 2  num_configs 1203
+translate.ml:14591, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -nofooter off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -w off) (= -single on)) (and (= -multiple off) a!1))))
+-
+22 M 29 M 32 M 8 31 M 9 HM 31 9 M 1 2 H 3 HMHH
+======
+# M/H: 40609 / 6082
+# Last rebuild:   iter 2  num_configs 1218
+translate.ml:14692, translate.ml:14698, translate.ml:14714, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -q off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -w off) (= -single on)) (and (= -multiple off) a!1))))
+-
+30 M 29 M 32 M 8 31 M 9 HM 31 9 M 3 H 2 H 1 MHH
+======
+# M/H: 28671 / 18035
+# Last rebuild:   iter 2  num_configs 1233
+translate.ml:16399, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -both off) a!1) (and (= -single on) a!1))))
+-
+29 M 32 M 7 9 2 H 1 3 H 31 MHHM 2 H 3 H 1 31 MHH
+======
+# M/H: 28970 / 17675
+# Last rebuild:   iter 2  num_configs 1248
+translate.ml:3420, translate.ml:3431, translate.ml:3477, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -s off) a!1) (and (= -s plain) a!1))))
+-
+29 M 32 M 0 1 31 2 H 3 HMHH 2 H 3 H 31 1 MHHM
+======
+# M/H: 36478 / 10253
+# Last rebuild:   iter 2  num_configs 1258
+translate.ml:4961, translate.ml:4989, translate.ml:5016, translate.ml:5044, translate.ml:5095, translate.ml:5128, translate.ml:5162, translate.ml:5184, translate.ml:5206, translate.ml:5240, translate.ml:5264, translate.ml:5293, translate.ml:5321, translate.ml:5346, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -nofooter off) (= --print-keys off) (= -v off) a!1))
+-
+22 M 29 M 32 M 31 9 M 3 H 1 2 HMHH
+======
+# M/H: 34384 / 12279
+# Last rebuild:   iter 2  num_configs 1273
+bbl_lexer.ml:18106, bbl_lexer.ml:18695, bbl_lexer.ml:18735, bbl_lexer.mll:17879, bbl_lexer.mll:17897, bbl_lexer.mll:18324, bbl_lexer.mll:18497, bbl_lexer.mll:18541, 
+-
+(and (= -s alpha) (= -v off))
+-
+0 MM 32 MH
+======
+# M/H: 42312 / 4444
+# Last rebuild:   iter 2  num_configs 1283
+biboutput.ml:1391, translate.ml:13172, translate.ml:14965, translate.ml:15011, translate.ml:15131, translate.ml:15158, translate.ml:15308, translate.ml:15336, translate.ml:15368, translate.ml:15398, translate.ml:15608, translate.ml:15631, translate.ml:15666, translate.ml:15711, translate.ml:15723, translate.ml:15739, translate.ml:16476, 
+-
+(and (= -multiple off)
+     (= -nobibsource off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 24 M 9 M 29 M 32 M 2 H 1 3 H 31 MHH
+======
+# M/H: 44477 / 2294
+# Last rebuild:   iter 2  num_configs 1298
+biboutput.ml:4083, biboutput.ml:4120, biboutput.ml:4144, translate.ml:15452, translate.ml:15505, 
+-
+(and (= -multiple off)
+     (= -nobiblinks off)
+     (= -nobibsource off)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 13 M 24 M 9 M 32 M 29 M 1 2 H 31 3 HMHH
+======
+# M/H: 29913 / 16873
+# Last rebuild:   iter 2  num_configs 1313
+expand.ml:5423, translate.ml:6645, translate.ml:6873, translate.ml:6876, translate.ml:7035, translate.ml:7058, translate.ml:7062, translate.ml:7113, translate.ml:7178, translate.ml:7226, translate.ml:7232, translate.ml:7398, translate.ml:7533, translate.ml:7541, translate.ml:8089, translate.ml:9052, translate.ml:9296, 
+-
+(and (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+9 M 29 M 32 M 3 H 2 H 31 1 MHH
+======
+# M/H: 43393 / 3408
+# Last rebuild:   iter 2  num_configs 1328
+translate.ml:10895, translate.ml:11338, translate.ml:11686, translate.ml:12013, 
+-
+(and (= -dl off)
+     (= -nokeys on)
+     (= -use-table off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+25 M 11 20 M 29 M 32 M 31 3 H 1 2 HMHHM
+======
+# M/H: 44603 / 1547
+# Last rebuild:   iter 3  num_configs 2368
+translate.ml:11031, 
+-
+(let ((a!1 (or (and (= -multiple off)
+                    (= -v off)
+                    (= -single off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off)))
+               (and (= -single on) (= -w off) (= -v off)))))
+  (and (= -use-table off) (= -nokeys on) (= -dl off) (= --print-keys off) a!1))
+-
+20 M 11 25 M 29 M 8 9 31 M 32 MHM 32 M 9 31 MH 2 H 3 H 31 1 MHHM
+======
+# M/H: 38931 / 7885
+# Last rebuild:   iter 2  num_configs 1343
+translate.ml:13078, translate.ml:13139, translate.ml:13406, 
+-
+(and (= -multiple off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 9 M 29 M 32 M 3 H 1 2 H 31 MHH
+======
+# M/H: 40892 / 5939
+# Last rebuild:   iter 2  num_configs 1358
+translate.ml:13263, translate.ml:13287, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= -multiple off)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -both on) a!1) (and (= -noabstract off) a!1))))
+-
+8 M 9 M 29 M 32 M 15 7 31 2 H 1 3 HMHHM 31 3 H 1 2 HMHH
+======
+# M/H: 42767 / 4079
+# Last rebuild:   iter 2  num_configs 1373
+translate.ml:13352, translate.ml:16173, translate.ml:16201, translate.ml:16243, translate.ml:16280, translate.ml:16328, translate.ml:16358, 
+-
+(and (= -both on)
+     (= -multiple off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+7 8 M 9 M 29 M 32 M 3 H 2 H 31 1 MHHM
+======
+# M/H: 39316 / 6509
+# Last rebuild:   iter 3  num_configs 2043
+translate.ml:13484, translate.ml:8869, translate.ml:8877, translate.ml:9029, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= -nokeywords off)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -both off) a!1) (and (= -multiple off) a!1))))
+-
+16 M 9 M 29 M 32 M 8 7 M 31 2 H 1 3 HMHH 2 H 3 H 31 1 MHH
+======
+# M/H: 33695 / 13181
+# Last rebuild:   iter 2  num_configs 1403
+translate.ml:14439, 
+-
+(and (= -revkeys on)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+5 32 M 29 M 2 H 1 31 3 HMHHM
+======
+# M/H: 43832 / 2333
+# Last rebuild:   iter 3  num_configs 2383
+translate.ml:15038, translate.ml:15048, translate.ml:15109, translate.ml:15766, translate.ml:15772, translate.ml:15788, 
+-
+(and (= -multiple off)
+     (= -q off)
+     (= -nobibsource off)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 30 M 24 M 9 M 32 M 29 M 2 H 1 3 H 31 MHH
+======
+# M/H: 43846 / 2334
+# Last rebuild:   iter 3  num_configs 2398
+translate.ml:15653, 
+-
+(and (= -multiple off)
+     (= -nofooter off)
+     (= -nobibsource off)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 22 M 24 M 9 M 32 M 29 M 31 3 H 1 2 HMHH
+======
+# M/H: 37760 / 8435
+# Last rebuild:   iter 3  num_configs 2413
+translate.ml:15962, translate.ml:16034, translate.ml:16063, translate.ml:16092, 
+-
+(and (= -both on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+7 9 M 29 M 32 M 2 H 1 31 3 HMHHM
+======
+# M/H: 31104 / 15106
+# Last rebuild:   iter 3  num_configs 2428
+translate.ml:5715, translate.ml:5738, translate.ml:6043, translate.ml:6051, translate.ml:6125, translate.ml:6143, translate.ml:6209, translate.ml:6212, translate.ml:6235, translate.ml:6344, translate.ml:6441, translate.ml:7077, translate.ml:7276, translate.ml:7301, translate.ml:7326, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -w off) (= -a off))
+               (and (= -d off) (= -a off))
+               (and (= -a on) (or (= -multiple off) (= -r off))))))
+  (and (= -single off) (= --print-keys off) (= -v off) a!1))
+-
+9 M 29 M 32 M 3 H 1 31 2 8 4 MHHM 2 4 8 MHHH 2 4 8 MHHH
+======
+# M/H: 34255 / 11970
+# Last rebuild:   iter 3  num_configs 2443
+translate.ml:5807, translate.ml:5830, translate.ml:5898, translate.ml:5921, translate.ml:5988, translate.ml:6001, translate.ml:6013, 
+-
+(let ((a!1 (and (= -r off)
+                (= -nodoi off)
+                (= -u off)
+                (or (= -a on) (and (= -w off) (= -d on)))))
+      (a!2 (or (= -u on) (and (= -u off) (= -a off) (or (= -d off) (= -w off))))))
+(let ((a!3 (or a!1
+               (and (= -multiple off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off)))
+               (and (= -r on) a!2))))
+  (and (= -single off) (= --print-keys off) (= -v off) a!3)))
+-
+9 M 29 M 32 M 8 4 3 H 2 M 31 1 MHH 17 M 3 M 2 H 31 M 1 HM 2 H 1 3 H 31 MHH
+======
+# M/H: 35124 / 11116
+# Last rebuild:   iter 3  num_configs 2458
+translate.ml:6155, translate.ml:6183, translate.ml:7596, translate.ml:7719, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+(let ((a!2 (or (and (= -multiple off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off)))
+               (and (= -r on) a!1))))
+  (and (= -single off) (= --print-keys off) (= -v off) a!2)))
+-
+9 M 29 M 32 M 8 4 3 H 2 M 31 1 MHHM 2 H 1 3 H 31 MHH
+======
+# M/H: 38685 / 7570
+# Last rebuild:   iter 3  num_configs 2473
+translate.ml:6459, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -d off) (= -a off))
+               (and (= -a on) (or (= -multiple off) (= -r off)))
+               (and (= -w off) (or (= -a off) (= -r off) (= -multiple off))))))
+  (and (= -rawurl on) (= -single off) (= --print-keys off) (= -v off) a!1))
+-
+14 9 M 29 M 32 M 3 H 31 1 2 8 4 MHHM 2 8 4 MHHH 2 4 8 MHHHM
+======
+# M/H: 39484 / 6786
+# Last rebuild:   iter 3  num_configs 2488
+translate.ml:7801, translate.ml:8522, translate.ml:8547, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off)))
+      (a!3 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+(let ((a!2 (and (= -multiple off)
+                (= --print-keys off)
+                (= -v off)
+                (or (and (= -both on) a!1) (and (= -noabstract off) a!1)))))
+  (and (= -single off)
+       (or a!2
+           (and (= -both off)
+                (= -r on)
+                (= -noabstract off)
+                (= --print-keys off)
+                (= -v off)
+                a!3)))))
+-
+9 M 8 7 M 4 15 M 29 M 32 M 3 H 2 M 1 31 MHHM 29 M 32 M 7 2 H 1 3 H 31 MHH 15 M 31 3 H 1 2 HMHH
+======
+# M/H: 37089 / 8135
+# Last rebuild:   iter 2  num_configs 1430
+translate.ml:7822, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off)))))
+      (a!3 (or (= -d off) (= -a on) (and (= -a off) (or (= -u on) (= -w off))))))
+(let ((a!2 (or (and (= -multiple off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off)))
+               (and (= -r on) a!1)))
+      (a!4 (and (= -both on)
+                (or (and (= -r on) a!1) (and (= -multiple off) a!3)))))
+  (and (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -noabstract on) a!2) a!4))))
+-
+9 M 29 M 32 M 15 8 4 3 H 2 M 1 31 MHHM 3 H 2 H 31 1 MHH 7 8 4 3 H 2 M 1 31 MHHM 1 2 H 31 3 HMHHM
+======
+# M/H: 40621 / 5664
+# Last rebuild:   iter 3  num_configs 2503
+translate.ml:7912, translate.ml:7987, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+(let ((a!2 (or (and (= -multiple off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off)))
+               (and (= -r on) a!1))))
+  (and (= -both on) (= -single off) (= --print-keys off) (= -v off) a!2)))
+-
+7 9 M 29 M 32 M 8 4 3 H 2 M 1 31 MHHM 2 H 1 3 H 31 MHHM
+======
+# M/H: 36348 / 8965
+# Last rebuild:   iter 3  num_configs 2533
+translate.ml:8178, translate.ml:8214, translate.ml:8230, translate.ml:8269, translate.ml:8329, translate.ml:8354, translate.ml:8360, translate.ml:8385, translate.ml:8434, translate.ml:8471, 
+-
+(let ((a!1 (and (= -u off) (or (= -a on) (and (= -w off) (= -d on)))))
+      (a!3 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off)))))
+      (a!5 (and (= -d on) (or (= -u on) (and (= -u off) (= -w off)))))
+      (a!7 (and (= -u off) (or (= -d off) (and (= -d on) (= -a on)))))
+      (a!8 (and (= -a off) (or (= -u on) (and (= -u off) (= -d off))))))
+(let ((a!2 (or (and (= -r on) (or (= -d off) (= -u on))) a!1))
+      (a!6 (or (= -a on) (and (= -a off) (or (= -d off) a!5))))
+      (a!9 (or (and (= -noabstract off) (or (= -u on) (= -w off) a!7))
+               (and (= -nokeywords off) (or (= -a on) (= -w off) a!8)))))
+(let ((a!4 (and (= -both off)
+                (or (and (= -nokeywords off) (= -v off) a!2)
+                    (and (= -r on) (= -noabstract off) (= -v off) a!3))))
+      (a!10 (and (= -multiple off)
+                 (= -v off)
+                 (or (and (= -both on) a!6) (and (= -both off) a!9)))))
+  (and (= -single off) (= --print-keys off) (or a!4 a!10)))))
+-
+9 M 29 M 8 7 M 16 4 15 M 32 M 3 H 2 M 31 1 MHHM 32 M 4 2 H 31 3 H 1 MHH 3 M 2 H 31 M 1 HM 32 M 7 2 H 1 3 H 31 MHH 15 16 M 31 2 H 3 H 1 MHH 31 3 H 1 2 HMHH
+======
+# M/H: 39361 / 6963
+# Last rebuild:   iter 3  num_configs 2542
+translate.ml:8247, translate.ml:8287, translate.ml:8403, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= -multiple off)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -both on) a!1)
+           (and (= -noabstract off) a!1)
+           (and (= -nokeywords off) a!1))))
+-
+8 M 9 M 29 M 32 M 7 2 H 1 3 H 31 MHH 15 16 M 31 2 H 3 H 1 MHH 31 3 H 1 2 HMHH
+======
+# M/H: 40440 / 5899
+# Last rebuild:   iter 3  num_configs 2557
+translate.ml:8932, translate.ml:8957, translate.ml:8988, 
+-
+(let ((a!1 (and (= -u off) (or (= -a on) (and (= -d on) (= -w off)))))
+      (a!3 (and (= -multiple off)
+                (or (= -d off) (= -a on) (= -w off) (and (= -d on) (= -u on))))))
+(let ((a!2 (or (and (= -r on) (or (= -d off) (= -u on))) a!1)))
+  (and (= -nokeywords off)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -both off) a!2) a!3))))
+-
+16 M 9 M 29 M 32 M 8 7 M 4 2 H 31 3 H 1 MHH 3 M 2 H 1 31 MHM 2 H 31 1 3 HMHH
+======
+# M/H: 38637 / 8275
+# Last rebuild:   iter 2  num_configs 1439
+translate.ml:9270, 
+-
+(and (= -nodoi on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+17 9 M 29 M 32 M 2 H 3 H 31 1 MHHM
+======
+# M/H: 38420 / 8507
+# Last rebuild:   iter 2  num_configs 1454
+translate.ml:9322, translate.ml:9332, translate.ml:9460, 
+-
+(and (= -noeprint off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+18 M 9 M 29 M 32 M 1 2 H 31 3 HMHH
+======
+# M/H: 37328 / 9026
+# Last rebuild:   iter 3  num_configs 2572
+translate.ml:9534, 
+-
+(and (= -nobibsource off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+24 M 9 M 29 M 32 M 2 H 1 31 3 HMHH
+======
+# M/H: 33571 / 13371
+# Last rebuild:   iter 2  num_configs 1469
+html.ml:1281, html.ml:1377, html.ml:1418, html.ml:1446, html.ml:1456, html.ml:1525, html.ml:1623, html.ml:1663, html.ml:1697, html.ml:1793, translate.ml:13920, translate.ml:13953, 
+-
+(and (= -nodoc off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+10 M 29 M 32 M 2 H 31 1 3 HMHH
+======
+# M/H: 36473 / 10484
+# Last rebuild:   iter 2  num_configs 1484
+html.ml:1830, html.ml:1871, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -nodoc off) (= --print-keys off) (= -v off) a!1))
+-
+10 M 29 M 32 M 31 9 M 2 H 3 H 1 MHH
+======
+# M/H: 40539 / 5830
+# Last rebuild:   iter 3  num_configs 2587
+translate.ml:14623, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -nodoc off)
+       (= -v off)
+       (or (and (= -multiple off) (= --print-keys off) a!1)
+           (and (= -single on) (= -w off) (= --print-keys off)))))
+-
+10 M 32 M 8 9 31 M 29 MHM 29 M 9 31 MH 2 H 1 3 H 31 MHH
+======
+# M/H: 33752 / 13220
+# Last rebuild:   iter 2  num_configs 1499
+main.ml:8607, 
+-
+(and (= -noexpand on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+23 29 M 32 M 1 3 H 2 H 31 MHHM
+======
+# M/H: 43418 / 3569
+# Last rebuild:   iter 2  num_configs 1514
+translate.ml:13201, 
+-
+(and (= -nobibsource on)
+     (= -multiple off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+24 8 M 9 M 29 M 32 M 3 H 1 31 2 HMHHM
+======
+# M/H: 38130 / 8789
+# Last rebuild:   iter 2  num_configs 1529
+translate.ml:3522, translate.ml:3549, 
+-
+(and (= -s alpha)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+0 MM 32 M 29 M 2 H 31 1 3 HMHH
+======
+# M/H: 38248 / 7592
+# Last rebuild:   iter 3  num_configs 2058
+translate.ml:6474, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -w off) (= -a off))
+               (and (= -d off) (= -a off))
+               (and (= -a on) (or (= -multiple off) (= -r off))))))
+  (and (= -rawurl off) (= -single off) (= --print-keys off) (= -v off) a!1))
+-
+14 M 9 M 29 M 32 M 3 H 1 31 2 8 4 MHHM 2 4 8 MHHH 2 8 4 MHHH
+======
+# M/H: 41967 / 3786
+# Last rebuild:   iter 4  num_configs 2985
+translate.ml:6499, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -multiple off) (= -a on))
+               (and (= -r off) (= -a on))
+               (and (= -a off) (or (= -d off) (= -w off))))))
+  (and (= -labelname on)
+       (= -rawurl off)
+       (= -single off)
+       (= -v off)
+       (= --print-keys off)
+       a!1))
+-
+28 14 M 9 M 32 M 29 M 3 H 4 8 2 M 31 1 MHH 2 H 31 1 MHH 31 2 H 1 MHHM
+======
+# M/H: 38199 / 8845
+# Last rebuild:   iter 2  num_configs 1571
+translate.ml:9075, translate.ml:9085, translate.ml:9252, 
+-
+(and (= -nodoi off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+17 M 9 M 29 M 32 M 31 3 H 1 2 HMHH
+======
+# M/H: 39107 / 6565
+# Last rebuild:   iter 4  num_configs 2904
+translate.ml:9137, translate.ml:9171, translate.ml:9197, 
+-
+(let ((a!1 (and (= -r off) (= -u off) (or (= -a on) (and (= -d on) (= -w off)))))
+      (a!2 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+(let ((a!3 (or (and (= -multiple off) (or (= -d off) (= -a on) (= -u on)))
+               a!1
+               (and (= -r on) a!2))))
+  (and (= -nodoi off) (= -single off) (= -v off) (= --print-keys off) a!3)))
+-
+17 M 9 M 32 M 29 M 8 4 3 H 2 M 1 31 MHH 3 M 2 H 1 31 MHM 2 H 31 1 3 HMHH
+======
+# M/H: 42906 / 4153
+# Last rebuild:   iter 2  num_configs 1586
+translate.ml:9164, 
+-
+(and (= -nodoi off)
+     (= -multiple off)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+17 M 8 M 9 M 32 M 29 M 3 H 31 1 2 HMHH
+======
+# M/H: 38455 / 8619
+# Last rebuild:   iter 2  num_configs 1601
+translate.ml:9478, 
+-
+(and (= -noeprint on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+18 9 M 29 M 32 M 2 H 31 3 H 1 MHHM
+======
+# M/H: 29267 / 17822
+# Last rebuild:   iter 2  num_configs 1616
+translate.ml:12265, translate.ml:12349, translate.ml:12359, translate.ml:12419, translate.ml:12459, translate.ml:12489, translate.ml:12656, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -nokeys off) a!1) (and (= -multiple on) (= -single off) a!1))))
+-
+29 M 32 M 11 8 9 M 2 H 31 1 3 HMHHM 2 H 1 31 3 HMHH
+======
+# M/H: 33547 / 13557
+# Last rebuild:   iter 2  num_configs 1631
+translate.ml:12786, 
+-
+(and (= -linebreak on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+19 29 M 32 M 1 2 H 3 H 31 MHHM
+======
+# M/H: 41930 / 3931
+# Last rebuild:   iter 3  num_configs 2079
+translate.ml:6562, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -w off) (= -a off))
+               (and (= -a on) (or (= -multiple off) (= -r off)))
+               (and (= -d off) (or (= -a off) (= -multiple off))))))
+  (and (= -labelname off)
+       (= -rawurl off)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       a!1))
+-
+28 M 14 M 9 M 29 M 32 M 3 H 1 31 2 8 4 MHHM 2 4 8 MHHH 8 2 4 MHHH
+======
+# M/H: 44209 / 2925
+# Last rebuild:   iter 2  num_configs 1661
+translate.ml:8053, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+(let ((a!2 (or (and (= -multiple off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off)))
+               (and (= -r on) a!1))))
+  (and (= -both off)
+       (= -noabstract on)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       a!2)))
+-
+7 M 15 9 M 29 M 32 M 8 4 3 H 2 M 31 1 MHHM 3 H 2 H 1 31 MHHM
+======
+# M/H: 37928 / 9221
+# Last rebuild:   iter 2  num_configs 1676
+html.ml:2833, translate.ml:10013, translate.ml:10032, translate.ml:10061, translate.ml:10146, translate.ml:10269, translate.ml:10279, translate.ml:10300, translate.ml:10322, translate.ml:10371, translate.ml:10550, translate.ml:10601, translate.ml:10628, translate.ml:10650, translate.ml:10685, translate.ml:10730, translate.ml:10746, translate.ml:12377, translate.ml:12507, translate.ml:12864, translate.ml:9670, translate.ml:9693, translate.ml:9726, translate.ml:9754, translate.ml:9950, translate.ml:9985, 
+-
+(and (= -multiple on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 9 M 29 M 32 M 2 H 1 3 H 31 MHHM
+======
+# M/H: 41784 / 4618
+# Last rebuild:   iter 3  num_configs 2620
+translate.ml:10450, 
+-
+(and (= -nobibsource on)
+     (= -multiple on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+24 8 9 M 29 M 32 M 2 H 31 1 3 HMHHMM
+======
+# M/H: 41802 / 4615
+# Last rebuild:   iter 3  num_configs 2635
+translate.ml:10672, 
+-
+(and (= -nofooter off)
+     (= -multiple on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+22 M 8 9 M 29 M 32 M 2 H 31 1 3 HMHHM
+======
+# M/H: 37450 / 8177
+# Last rebuild:   iter 4  num_configs 2859
+translate.ml:6685, translate.ml:6731, translate.ml:6759, translate.ml:6787, translate.ml:6808, translate.ml:6856, translate.ml:6909, translate.ml:6919, translate.ml:6947, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -w off) (= -a off))
+               (and (= -a on)
+                    (or (= -r off) (= -multiple off) (= -nobibsource off)))
+               (and (= -d off) (= -a off)))))
+  (and (= -nolinks off) (= -single off) (= -v off) (= --print-keys off) a!1))
+-
+12 M 9 M 32 M 29 M 3 H 31 1 2 8 4 24 MHHHM 2 4 8 24 MHHHH 2 24 4 8 MHHHH
+======
+# M/H: 40004 / 5689
+# Last rebuild:   iter 4  num_configs 2925
+translate.ml:6824, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -a on) (or (= -multiple off) (= -r off)))
+               (and (= -w off) (= -a off))
+               (and (= -d off) (= -a off))))
+      (a!2 (and (= -r off)
+                (= -u off)
+                (or (= -a on) (and (= -a off) (= -w off) (= -d on)))))
+      (a!3 (and (= -a off) (or (= -u on) (and (= -u off) (= -d off)))))
+      (a!4 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+(let ((a!5 (or a!2
+               (and (= -multiple off) (or (= -a on) a!3))
+               (and (= -r on) a!4))))
+  (and (= -nolinks off)
+       (= -single off)
+       (= -v off)
+       (= --print-keys off)
+       (or (and (= -nobibsource off) a!1) (and (= -nodoi off) a!5)))))
+-
+12 M 9 M 32 M 29 M 24 17 M 8 4 3 H 2 M 1 31 MHH 3 M 2 H 31 M 1 HM 2 H 3 H 1 31 MHH 3 H 31 1 2 8 4 MHHM 2 4 8 MHHH 2 4 8 MHHH
+======
+# M/H: 37622 / 8826
+# Last rebuild:   iter 3  num_configs 2666
+translate.ml:6892, 
+-
+(and (= -nolinks off)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+12 M 9 M 32 M 29 M 2 H 1 3 H 31 MHH
+======
+# M/H: 37017 / 10168
+# Last rebuild:   iter 2  num_configs 1712
+translate.ml:10817, translate.ml:11090, translate.ml:11131, translate.ml:11160, translate.ml:11231, translate.ml:11420, translate.ml:11447, translate.ml:11476, translate.ml:11523, translate.ml:11765, translate.ml:11792, translate.ml:11821, translate.ml:11848, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= -dl off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -use-table on) a!1) (and (= -nokeys off) a!1))))
+-
+25 M 29 M 32 M 11 20 31 2 H 3 H 1 MHHM 2 H 1 3 H 31 MHH
+======
+# M/H: 42720 / 4480
+# Last rebuild:   iter 2  num_configs 1727
+translate.ml:10951, 
+-
+(let ((a!1 (or (and (= -nokeys off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off)))
+               (and (= -use-table on) (or (= -d off) (= -a on) (= -u on))))))
+(let ((a!2 (and (= -multiple off)
+                (= -v off)
+                (or (and (= -w off) (= -use-table on))
+                    (and (= -single off) a!1)))))
+(let ((a!3 (or a!2
+               (and (= -single on)
+                    (= -w off)
+                    (= -v off)
+                    (or (= -nokeys off) (= -use-table on))))))
+  (and (= -dl off) (= --print-keys off) a!3))))
+-
+25 M 29 M 8 9 31 M 32 M 20 H 11 MHM 32 M 9 31 M 20 H 11 MH 11 20 31 1 2 H 3 HMHHM 2 H 3 H 31 1 MHH
+======
+# M/H: 41187 / 6028
+# Last rebuild:   iter 2  num_configs 1742
+bibfilter.ml:3062, 
+-
+(and (= -single on)
+     (= -w on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on)))
+-
+9 31 29 M 32 M 2 H 3 H 1 MHMM
+======
+# M/H: 44918 / 2312
+# Last rebuild:   iter 2  num_configs 1757
+translate.ml:15566, 
+-
+(and (= -nobiblinks on)
+     (= -multiple off)
+     (= -nobibsource off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+13 8 M 24 M 9 M 29 M 32 M 31 2 H 1 3 HMHHM
+======
+# M/H: 44783 / 1680
+# Last rebuild:   iter 3  num_configs 2681
+translate.ml:10245, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+  (and (= -r on)
+       (= -both on)
+       (= -multiple on)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       a!1))
+-
+4 7 8 9 M 29 M 32 M 3 H 2 M 31 1 MHHMMM
+======
+# M/H: 41767 / 4711
+# Last rebuild:   iter 3  num_configs 2696
+translate.ml:10429, 
+-
+(and (= -nobibsource off)
+     (= -multiple on)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+24 M 8 9 M 32 M 29 M 1 31 3 H 2 HMHHM
+======
+# M/H: 41729 / 4764
+# Last rebuild:   iter 3  num_configs 2711
+translate.ml:10704, translate.ml:9783, translate.ml:9823, translate.ml:9843, translate.ml:9884, translate.ml:9917, 
+-
+(and (= -nodoc off)
+     (= -multiple on)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+10 M 8 9 M 32 M 29 M 2 H 1 31 3 HMHHM
+======
+# M/H: 41678 / 4830
+# Last rebuild:   iter 3  num_configs 2726
+translate.ml:10083, translate.ml:9972, 
+-
+(and (= -noheader off)
+     (= -multiple on)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+21 M 8 9 M 32 M 29 M 2 H 1 3 H 31 MHHM
+======
+# M/H: 44230 / 2293
+# Last rebuild:   iter 3  num_configs 2741
+translate.ml:15187, translate.ml:15227, translate.ml:15246, translate.ml:15278, translate.ml:15685, 
+-
+(and (= -multiple off)
+     (= -nodoc off)
+     (= -nobibsource off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 10 M 24 M 9 M 29 M 32 M 2 H 1 3 H 31 MHH
+======
+# M/H: 45508 / 1030
+# Last rebuild:   iter 3  num_configs 2756
+translate.ml:10201, translate.ml:10224, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+  (and (= -both off)
+       (= -noabstract off)
+       (= -r on)
+       (= -multiple on)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       a!1))
+-
+7 M 15 M 4 8 9 M 29 M 32 M 3 H 2 M 31 1 MHHMM
+======
+# M/H: 43922 / 2631
+# Last rebuild:   iter 3  num_configs 2771
+translate.ml:10346, 
+-
+(and (= -both off)
+     (= -multiple on)
+     (= -nokeywords off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+7 M 8 16 M 9 M 29 M 32 M 31 3 H 2 H 1 MHHM
+======

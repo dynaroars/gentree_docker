@@ -1,0 +1,2024 @@
+# ./igen4 -J2 -crwx -GF 2/bibtex2html --rep 11 -O res/bibtex2html/a_{i}.txt -j64 --rep-para 11
+# seed = 130, repeat_id = 7, thread_id = 0
+#    36827 1437  160 |    16  2421 |  7   82 |  4693  4680 157303 | 0b274f5193550fb9adc75a7c48220afb
+======
+# M/H: 0 / 37058
+# Last rebuild:   iter 1  num_configs 3
+bbl_lexer.ml:205, bbl_lexer.mll:122, bbl_lexer.mll:139, bbl_lexer.mll:76, bbl_lexer.mll:96, bibfilter.ml:1242, biboutput.ml:1239, biboutput.ml:1439, bibtex.ml:1306, bibtex.ml:1708, bibtex.ml:1890, bibtex.ml:3905, bibtex.ml:3929, bibtex.ml:4742, bibtex.ml:4782, bibtex.ml:4820, bibtex.ml:4844, bibtex.ml:5667, bibtex.ml:8207, bibtex_lexer.ml:631, bibtex_lexer.mll:145, bibtex_lexer.mll:199, bibtex_lexer.mll:434, bibtex_lexer.mll:73, bibtex_parser.ml:1034, bibtex_parser.ml:11641, bibtex_parser.ml:1350, bibtex_parser.ml:1453, bibtex_parser.ml:1770, bibtex_parser.ml:2087, bibtex_parser.ml:2193, bibtex_parser.ml:2211, bibtex_parser.ml:232, bibtex_parser.ml:332, bibtex_parser.ml:4407, bibtex_parser.ml:528, bibtex_parser.ml:635, bibtex_parser.ml:6609, bibtex_parser.ml:6752, bibtex_parser.ml:6831, bibtex_parser.ml:833, copying.ml:1742, expand.ml:1337, expand.ml:1377, expand.ml:1509, expand.ml:1534, expand.ml:3087, expand.ml:3159, expand.ml:3232, expand.ml:3850, html.ml:1220, html.ml:1239, html.ml:2165, html.ml:2366, latexmacros.ml:10100, latexmacros.ml:10860, latexmacros.ml:11587, latexmacros.ml:11617, latexmacros.ml:12142, latexmacros.ml:12621, latexmacros.ml:13523, latexmacros.ml:13716, latexmacros.ml:13860, latexmacros.ml:13894, latexmacros.ml:13931, latexmacros.ml:13959, latexmacros.ml:13988, latexmacros.ml:14015, latexmacros.ml:14043, latexmacros.ml:14072, latexmacros.ml:14104, latexmacros.ml:14130, latexmacros.ml:14159, latexmacros.ml:14184, latexmacros.ml:14209, latexmacros.ml:14235, latexmacros.ml:14277, latexmacros.ml:14309, latexmacros.ml:14339, latexmacros.ml:14411, latexmacros.ml:14498, latexmacros.ml:14524, latexmacros.ml:14549, latexmacros.ml:14583, latexmacros.ml:14622, latexmacros.ml:14650, latexmacros.ml:14675, latexmacros.ml:14702, latexmacros.ml:14729, latexmacros.ml:14756, latexmacros.ml:14783, latexmacros.ml:14819, latexmacros.ml:14847, latexmacros.ml:14888, latexmacros.ml:14924, latexmacros.ml:14959, latexmacros.ml:14999, latexmacros.ml:15034, latexmacros.ml:15078, latexmacros.ml:15130, latexmacros.ml:15155, latexmacros.ml:15180, latexmacros.ml:15209, latexmacros.ml:15237, latexmacros.ml:15264, latexmacros.ml:15295, latexmacros.ml:15320, latexmacros.ml:15345, latexmacros.ml:15393, latexmacros.ml:15431, latexmacros.ml:15484, latexmacros.ml:15573, latexmacros.ml:15630, latexmacros.ml:15657, latexmacros.ml:15680, latexmacros.ml:15703, latexmacros.ml:15717, latexmacros.ml:15731, latexmacros.ml:15748, latexmacros.ml:15766, latexmacros.ml:15788, latexmacros.ml:15808, latexmacros.ml:15828, latexmacros.ml:15846, latexmacros.ml:15885, latexmacros.ml:15913, latexmacros.ml:15938, latexmacros.ml:15972, latexmacros.ml:16006, latexmacros.ml:16037, latexmacros.ml:16066, latexmacros.ml:16097, latexmacros.ml:16126, latexmacros.ml:16146, latexmacros.ml:16172, latexmacros.ml:16193, latexmacros.ml:16257, latexmacros.ml:16325, latexmacros.ml:16351, latexmacros.ml:16378, latexmacros.ml:16392, latexmacros.ml:16406, latexmacros.ml:16420, latexmacros.ml:16458, latexmacros.ml:16581, latexmacros.ml:16613, latexmacros.ml:16653, latexmacros.ml:16695, latexmacros.ml:16738, latexmacros.ml:16790, latexmacros.ml:16905, latexmacros.ml:16985, latexmacros.ml:17031, latexmacros.ml:17618, latexmacros.ml:17651, latexmacros.ml:17682, latexmacros.ml:1769, latexmacros.ml:17715, latexmacros.ml:17748, latexmacros.ml:17785, latexmacros.ml:17825, latexmacros.ml:17856, latexmacros.ml:17885, latexmacros.ml:17918, latexmacros.ml:17954, latexmacros.ml:17985, latexmacros.ml:18018, latexmacros.ml:18053, latexmacros.ml:18080, latexmacros.ml:18107, latexmacros.ml:18134, latexmacros.ml:18161, latexmacros.ml:18192, latexmacros.ml:18221, latexmacros.ml:18253, latexmacros.ml:18286, latexmacros.ml:18323, latexmacros.ml:18352, latexmacros.ml:18389, latexmacros.ml:18418, latexmacros.ml:18450, latexmacros.ml:18479, latexmacros.ml:18508, latexmacros.ml:18541, latexmacros.ml:18574, latexmacros.ml:18607, latexmacros.ml:18640, latexmacros.ml:18675, latexmacros.ml:18702, latexmacros.ml:18729, latexmacros.ml:18762, latexmacros.ml:18799, latexmacros.ml:18828, latexmacros.ml:18857, latexmacros.ml:18925, latexmacros.ml:19000, latexmacros.ml:19310, latexmacros.ml:19482, latexmacros.ml:19497, latexmacros.ml:19517, latexmacros.ml:19568, latexmacros.ml:19619, latexmacros.ml:19654, latexmacros.ml:19677, latexmacros.ml:19703, latexmacros.ml:2134, latexmacros.ml:2212, latexmacros.ml:2458, latexmacros.ml:2519, latexmacros.ml:2583, latexmacros.ml:2648, latexmacros.ml:2712, latexmacros.ml:2777, latexmacros.ml:2844, latexmacros.ml:2912, latexmacros.ml:2982, latexmacros.ml:3053, latexmacros.ml:3142, latexmacros.ml:3180, latexmacros.ml:3217, latexmacros.ml:3274, latexmacros.ml:3331, latexmacros.ml:3390, latexmacros.ml:3449, latexmacros.ml:3506, latexmacros.ml:3563, latexmacros.ml:3620, latexmacros.ml:3679, latexmacros.ml:3707, latexmacros.ml:3735, latexmacros.ml:3763, latexmacros.ml:3791, latexmacros.ml:3823, latexmacros.ml:3884, latexmacros.ml:3913, latexmacros.ml:3941, latexmacros.ml:3972, latexmacros.ml:4031, latexmacros.ml:4090, latexmacros.ml:4158, latexmacros.ml:4244, latexmacros.ml:4796, latexmacros.ml:4853, latexmacros.ml:4910, latexmacros.ml:4939, latexmacros.ml:4967, latexmacros.ml:4995, latexmacros.ml:5023, latexmacros.ml:5052, latexmacros.ml:5067, latexmacros.ml:5083, latexmacros.ml:5140, latexmacros.ml:5166, latexmacros.ml:5191, latexmacros.ml:5262, latexmacros.ml:5312, latexmacros.ml:5354, latexmacros.ml:5392, latexmacros.ml:5436, latexmacros.ml:5476, latexmacros.ml:5522, latexmacros.ml:5564, latexmacros.ml:5610, latexmacros.ml:5655, latexmacros.ml:5683, latexmacros.ml:5709, latexmacros.ml:5758, latexmacros.ml:5832, latexmacros.ml:5855, latexmacros.ml:5879, latexmacros.ml:5902, latexmacros.ml:5925, latexmacros.ml:5948, latexmacros.ml:5971, latexmacros.ml:6001, latexmacros.ml:6031, latexmacros.ml:6061, latexmacros.ml:6091, latexmacros.ml:6121, latexmacros.ml:6151, latexmacros.ml:6181, latexmacros.ml:6211, latexmacros.ml:6234, latexmacros.ml:6257, latexmacros.ml:6284, latexmacros.ml:6307, latexmacros.ml:6330, latexmacros.ml:6353, latexmacros.ml:6380, latexmacros.ml:6413, latexmacros.ml:6443, latexmacros.ml:6473, latexmacros.ml:6501, latexmacros.ml:6529, latexmacros.ml:6558, latexmacros.ml:6587, latexmacros.ml:6617, latexmacros.ml:6647, latexmacros.ml:7691, latexmacros.ml:8316, latexmacros.ml:8817, latexmacros.ml:9073, latexmacros.ml:9229, latexscan.ml:2230, latexscan.mll:138, latexscan.mll:162, latexscan.mll:315, latexscan.mll:347, latexscan.mll:673, latexscan.mll:701, latexscan.mll:790, main.ml:12274, main.ml:1253, main.ml:1335, main.ml:1361, main.ml:1449, main.ml:1481, main.ml:1519, main.ml:1564, main.ml:1625, main.ml:1651, main.ml:19541, main.ml:19627, main.ml:20256, main.ml:2182, main.ml:6089, main.ml:7679, main.ml:7706, options.ml:1220, options.ml:1243, options.ml:1271, translate.ml:1273, translate.ml:1296, translate.ml:1324, translate.ml:1354, translate.ml:1380, translate.ml:1402, translate.ml:1426, translate.ml:1457, translate.ml:1487, translate.ml:1514, translate.ml:1542, translate.ml:1570, translate.ml:1594, translate.ml:1617, translate.ml:1638, translate.ml:1666, translate.ml:1691, translate.ml:1716, translate.ml:1749, translate.ml:1775, translate.ml:1800, translate.ml:1829, translate.ml:1852, translate.ml:1883, translate.ml:1908, translate.ml:1934, translate.ml:1996, translate.ml:2053, translate.ml:2078, translate.ml:2104, translate.ml:2142, translate.ml:2171, translate.ml:2213, translate.ml:2275, translate.ml:2402, translate.ml:2421, translate.ml:2578, translate.ml:3289, translate.ml:3318, translate.ml:3869, translate.ml:4231, translate.ml:4394, translate.ml:5461, translate.ml:5506, translate.ml:5543, version.ml:14, version.ml:32, 
+-
+true
+-
+H
+======
+# M/H: 18498 / 18575
+# Last rebuild:   iter 1  num_configs 18
+latexmacros.ml:19759, latexmacros.ml:19796, latexmacros.ml:19835, latexmacros.ml:19875, latexmacros.ml:19912, latexmacros.ml:19951, latexmacros.ml:20062, latexmacros.ml:20093, latexmacros.ml:20125, main.ml:16055, main.ml:16088, 
+-
+(= -unicode on)
+-
+26 HM
+======
+# M/H: 18825 / 18313
+# Last rebuild:   iter 2  num_configs 181
+main.ml:13871, main.ml:13896, 
+-
+(= -nokeywords on)
+-
+16 HM
+======
+# M/H: 17986 / 19167
+# Last rebuild:   iter 2  num_configs 196
+main.ml:14173, main.ml:14189, main.ml:14207, 
+-
+(= -nokeys on)
+-
+11 HM
+======
+# M/H: 18826 / 18342
+# Last rebuild:   iter 2  num_configs 211
+main.ml:14269, main.ml:14285, 
+-
+(= -use-table on)
+-
+20 HM
+======
+# M/H: 18683 / 18405
+# Last rebuild:   iter 1  num_configs 33
+main.ml:14446, main.ml:14463, 
+-
+(= -rawurl on)
+-
+14 HM
+======
+# M/H: 18770 / 18413
+# Last rebuild:   iter 2  num_configs 226
+main.ml:14726, main.ml:14745, 
+-
+(= -linebreak on)
+-
+19 HM
+======
+# M/H: 19167 / 18031
+# Last rebuild:   iter 2  num_configs 241
+main.ml:14821, main.ml:14844, 
+-
+(= -noheader on)
+-
+21 HM
+======
+# M/H: 18813 / 18400
+# Last rebuild:   iter 2  num_configs 256
+main.ml:15614, main.ml:15638, 
+-
+(= -labelname on)
+-
+28 HM
+======
+# M/H: 22825 / 14403
+# Last rebuild:   iter 2  num_configs 271
+main.ml:15772, main.ml:15791, main.ml:15806, main.ml:15832, main.ml:15854, main.ml:15870, 
+-
+(= -single on)
+-
+9 HM
+======
+# M/H: 18704 / 18539
+# Last rebuild:   iter 2  num_configs 286
+main.ml:15984, main.ml:15997, 
+-
+(= -dl on)
+-
+25 HM
+======
+# M/H: 21868 / 15390
+# Last rebuild:   iter 2  num_configs 301
+main.ml:16622, main.ml:16641, 
+-
+(= -a on)
+-
+2 HM
+======
+# M/H: 23184 / 14089
+# Last rebuild:   iter 2  num_configs 316
+main.ml:16708, main.ml:16726, 
+-
+(= -u on)
+-
+3 HM
+======
+# M/H: 18703 / 18585
+# Last rebuild:   iter 2  num_configs 331
+main.ml:16894, main.ml:16929, main.ml:16946, 
+-
+(= -revkeys on)
+-
+5 HM
+======
+# M/H: 19287 / 18016
+# Last rebuild:   iter 2  num_configs 346
+main.ml:17529, main.ml:17551, 
+-
+(= -nobibsource on)
+-
+24 HM
+======
+# M/H: 18831 / 18487
+# Last rebuild:   iter 2  num_configs 361
+main.ml:17721, main.ml:17759, 
+-
+(= -noexpand on)
+-
+23 HM
+======
+# M/H: 18685 / 18648
+# Last rebuild:   iter 2  num_configs 376
+main.ml:17836, main.ml:17866, 
+-
+(= -i on)
+-
+6 HM
+======
+# M/H: 29501 / 7847
+# Last rebuild:   iter 2  num_configs 391
+main.ml:18600, main.ml:18630, 
+-
+(= -v on)
+-
+32 HM
+======
+# M/H: 19255 / 18108
+# Last rebuild:   iter 2  num_configs 406
+main.ml:18884, main.ml:18907, 
+-
+(= -q on)
+-
+30 HM
+======
+# M/H: 7719 / 29384
+# Last rebuild:   iter 1  num_configs 48
+bbl_lexer.ml:15932, bbl_lexer.ml:16376, bbl_lexer.ml:16416, bbl_lexer.ml:16500, bbl_lexer.ml:17033, bbl_lexer.ml:17558, bbl_lexer.ml:17598, bbl_lexer.ml:17673, bbl_lexer.ml:18816, bbl_lexer.ml:19314, bbl_lexer.ml:19903, bbl_lexer.ml:19943, bbl_lexer.ml:20028, bbl_lexer.ml:20751, bbl_lexer.ml:20791, bbl_lexer.ml:20879, bbl_lexer.ml:21237, bbl_lexer.ml:21277, bbl_lexer.mll:16145, bbl_lexer.mll:16226, bbl_lexer.mll:16306, bbl_lexer.mll:16861, bbl_lexer.mll:17235, bbl_lexer.mll:17317, bbl_lexer.mll:17342, bbl_lexer.mll:17346, bbl_lexer.mll:17416, bbl_lexer.mll:17494, bbl_lexer.mll:19022, bbl_lexer.mll:19043, bbl_lexer.mll:19075, bbl_lexer.mll:19103, bbl_lexer.mll:19124, bbl_lexer.mll:19532, bbl_lexer.mll:19705, bbl_lexer.mll:19749, bbl_lexer.mll:20240, bbl_lexer.mll:20272, bbl_lexer.mll:20638, bbl_lexer.mll:20682, bbl_lexer.mll:21099, bibtex.ml:2213, bibtex_lexer.ml:13305, bibtex_lexer.ml:13349, bibtex_lexer.ml:13602, bibtex_lexer.ml:14918, bibtex_lexer.ml:15772, bibtex_lexer.ml:15812, bibtex_lexer.ml:16801, bibtex_lexer.ml:17466, bibtex_lexer.ml:17506, bibtex_lexer.ml:17574, bibtex_lexer.ml:17929, bibtex_lexer.ml:17969, bibtex_lexer.mll:13553, bibtex_lexer.mll:13956, bibtex_lexer.mll:13975, bibtex_lexer.mll:14293, bibtex_lexer.mll:14402, bibtex_lexer.mll:14419, bibtex_lexer.mll:14626, bibtex_lexer.mll:14643, bibtex_lexer.mll:14738, bibtex_lexer.mll:14755, bibtex_lexer.mll:14766, bibtex_lexer.mll:14795, bibtex_lexer.mll:14814, bibtex_lexer.mll:15088, bibtex_lexer.mll:15105, bibtex_lexer.mll:15116, bibtex_lexer.mll:15136, bibtex_lexer.mll:15159, bibtex_lexer.mll:15265, bibtex_lexer.mll:15285, bibtex_lexer.mll:15631, bibtex_lexer.mll:17003, bibtex_lexer.mll:17033, bibtex_lexer.mll:17048, bibtex_lexer.mll:17072, bibtex_lexer.mll:17160, bibtex_lexer.mll:17332, bibtex_lexer.mll:17372, bibtex_lexer.mll:17401, bibtex_lexer.mll:17770, bibtex_lexer.mll:250, bibtex_lexer.mll:299, bibtex_lexer.mll:354, bibtex_lexer.mll:390, bibtex_lexer.mll:413, bibtex_lexer.mll:517, bibtex_parser.ml:10071, bibtex_parser.ml:10135, bibtex_parser.ml:10798, bibtex_parser.ml:10861, bibtex_parser.ml:11005, bibtex_parser.ml:11069, bibtex_parser.ml:11226, bibtex_parser.ml:11290, bibtex_parser.ml:11447, bibtex_parser.ml:12226, bibtex_parser.ml:6897, bibtex_parser.ml:6964, bibtex_parser.ml:7111, bibtex_parser.ml:7178, bibtex_parser.ml:7250, bibtex_parser.ml:7400, bibtex_parser.ml:8289, bibtex_parser.ml:8353, bibtex_parser.ml:8428, bibtex_parser.ml:8625, bibtex_parser.ml:8698, bibtex_parser.ml:8880, bibtex_parser.ml:8944, bibtex_parser.ml:9019, bibtex_parser.ml:9164, bibtex_parser.ml:9228, bibtex_parser.ml:9578, bibtex_parser.ml:9647, bibtex_parser.ml:9723, bibtex_parser.mly:8489, bibtex_parser.mly:8759, bibtex_parser.mly:8787, expand.ml:1427, expand.ml:1865, expand.ml:1895, expand.ml:1900, expand.ml:1932, expand.ml:1986, expand.ml:2058, expand.ml:2087, expand.ml:2266, expand.ml:2440, latexmacros.ml:22928, latexmacros.ml:22964, main.ml:18391, main.ml:18405, main.ml:19165, main.ml:19261, main.ml:19303, main.ml:19353, main.ml:19656, main.ml:19688, main.ml:19930, main.ml:19940, main.ml:20014, main.ml:20116, main.ml:20140, main.ml:20160, main.ml:20232, main.ml:2231, main.ml:2285, main.ml:2326, main.ml:2367, main.ml:2400, main.ml:2438, main.ml:2447, main.ml:2476, main.ml:2571, main.ml:2610, main.ml:2694, main.ml:2769, main.ml:2920, main.ml:3451, main.ml:3489, main.ml:3532, main.ml:3559, main.ml:3585, main.ml:3712, main.ml:3750, main.ml:3783, main.ml:3838, main.ml:3864, main.ml:3889, main.ml:3893, main.ml:3938, main.ml:3965, main.ml:3975, main.ml:3998, main.ml:4021, main.ml:4044, main.ml:4082, main.ml:4201, main.ml:4222, main.ml:4350, main.ml:4405, main.ml:4504, main.ml:4539, main.ml:4864, main.ml:4896, main.ml:4906, main.ml:4958, main.ml:5029, main.ml:5097, main.ml:5117, main.ml:5160, main.ml:5195, main.ml:5232, main.ml:5258, main.ml:5268, main.ml:5299, main.ml:5341, main.ml:5363, main.ml:5396, main.ml:5425, main.ml:5514, main.ml:5541, main.ml:5582, main.ml:5621, main.ml:5636, main.ml:5649, main.ml:5838, main.ml:6157, main.ml:6190, main.ml:6248, main.ml:6312, main.ml:6324, main.ml:6404, main.ml:6519, main.ml:6560, main.ml:6603, main.ml:6611, main.ml:6641, main.ml:6662, main.ml:7744, main.ml:7805, main.ml:7835, main.ml:7889, main.ml:8189, main.ml:8217, main.ml:8270, readbib.ml:1296, readbib.ml:1465, readbib.ml:1502, readbib.ml:1517, readbib.ml:1556, readbib.ml:1564, readbib.ml:1629, readbib.ml:1645, readbib.ml:1664, readbib.ml:1776, 
+-
+(= -v off)
+-
+32 MH
+======
+# M/H: 17158 / 19893
+# Last rebuild:   iter 1  num_configs 63
+bbl_lexer.mll:17387, 
+-
+(and (= -v off) (or (= -s off) (= -s plain)))
+-
+32 M 0 HHM
+======
+# M/H: 22081 / 15297
+# Last rebuild:   iter 2  num_configs 421
+bibtex.ml:1725, main.ml:2721, main.ml:2727, main.ml:2749, main.ml:4109, main.ml:4119, main.ml:4148, main.ml:4336, main.ml:4566, main.ml:4572, main.ml:4586, main.ml:5452, main.ml:5462, main.ml:5492, main.ml:5676, main.ml:5686, main.ml:5705, main.ml:5739, main.ml:5802, main.ml:5816, readbib.ml:1323, readbib.ml:1333, readbib.ml:1412, readbib.ml:1443, readbib.ml:1691, readbib.ml:1703, readbib.ml:1750, 
+-
+(and (= -v off) (= -q off))
+-
+32 M 30 MH
+======
+# M/H: 18120 / 19273
+# Last rebuild:   iter 2  num_configs 436
+copying.ml:1769, copying.ml:1779, copying.ml:1878, copying.ml:1965, copying.ml:2058, 
+-
+(= -q off)
+-
+30 MH
+======
+# M/H: 30179 / 7229
+# Last rebuild:   iter 2  num_configs 451
+expand.ml:2706, expand.ml:2764, expand.ml:2814, expand.ml:2839, expand.ml:2894, expand.ml:2929, expand.ml:2993, expand.ml:3027, expand.ml:3284, expand.ml:3414, expand.ml:3544, expand.ml:3592, expand.ml:3602, expand.ml:3711, expand.ml:3909, expand.ml:3917, expand.ml:3977, expand.ml:4065, expand.ml:4134, expand.ml:4142, expand.ml:4204, expand.ml:4503, expand.ml:4511, expand.ml:4543, expand.ml:4651, expand.ml:4708, expand.ml:4712, expand.ml:4792, expand.ml:5062, expand.ml:5074, expand.ml:5081, expand.ml:5114, expand.ml:5147, expand.ml:5180, main.ml:2963, main.ml:2999, 
+-
+(and (= -a off) (= -u off) (= -d on) (= -v off))
+-
+2 M 3 M 1 32 MHM
+======
+# M/H: 33607 / 3816
+# Last rebuild:   iter 2  num_configs 466
+expand.ml:4010, 
+-
+(and (= -q off) (= -a off) (= -v off) (= -d on) (= -u off))
+-
+30 M 2 M 32 M 1 3 MHM
+======
+# M/H: 33053 / 4385
+# Last rebuild:   iter 2  num_configs 481
+expand.ml:4093, 
+-
+(and (= -w on) (= -v off) (= -d on) (= -u off) (= -a off))
+-
+31 32 M 1 3 M 2 MHMM
+======
+# M/H: 18517 / 18936
+# Last rebuild:   iter 2  num_configs 496
+latexmacros.ml:20154, latexmacros.ml:20211, latexmacros.ml:20249, latexmacros.ml:20281, latexmacros.ml:20314, latexmacros.ml:20347, latexmacros.ml:20382, latexmacros.ml:20417, latexmacros.ml:20454, latexmacros.ml:20491, latexmacros.ml:20520, latexmacros.ml:20550, latexmacros.ml:20579, latexmacros.ml:20609, latexmacros.ml:20639, latexmacros.ml:20675, latexmacros.ml:20708, latexmacros.ml:20743, latexmacros.ml:20778, latexmacros.ml:20812, latexmacros.ml:20849, latexmacros.ml:20883, latexmacros.ml:20920, latexmacros.ml:20951, latexmacros.ml:20984, latexmacros.ml:21024, latexmacros.ml:21055, latexmacros.ml:21090, latexmacros.ml:21124, latexmacros.ml:21161, latexmacros.ml:21196, latexmacros.ml:21231, latexmacros.ml:21266, latexmacros.ml:21297, latexmacros.ml:21330, latexmacros.ml:21367, latexmacros.ml:21396, latexmacros.ml:21427, latexmacros.ml:21462, latexmacros.ml:21491, latexmacros.ml:21528, latexmacros.ml:21564, latexmacros.ml:21595, latexmacros.ml:21627, latexmacros.ml:21664, latexmacros.ml:21697, latexmacros.ml:21735, latexmacros.ml:21770, latexmacros.ml:21809, latexmacros.ml:21840, latexmacros.ml:21883, latexmacros.ml:21922, latexmacros.ml:21960, latexmacros.ml:22002, latexmacros.ml:22040, latexmacros.ml:22083, latexmacros.ml:22114, latexmacros.ml:22147, latexmacros.ml:22178, latexmacros.ml:22214, latexmacros.ml:22244, latexmacros.ml:22274, latexmacros.ml:22307, latexmacros.ml:22339, latexmacros.ml:22370, latexmacros.ml:22405, latexmacros.ml:22439, latexmacros.ml:22472, latexmacros.ml:22518, latexmacros.ml:22559, latexmacros.ml:22592, latexmacros.ml:22708, latexmacros.ml:22738, latexmacros.ml:22769, main.ml:16158, main.ml:16192, main.ml:16222, 
+-
+(= -html-entities on)
+-
+27 HM
+======
+# M/H: 13141 / 24256
+# Last rebuild:   iter 2  num_configs 511
+main.ml:13139, main.ml:13151, 
+-
+(or (= -s plain) (= -s alpha))
+-
+0 MHH
+======
+# M/H: 18822 / 18656
+# Last rebuild:   iter 2  num_configs 521
+main.ml:13287, main.ml:13312, 
+-
+(= -noabstract on)
+-
+15 HM
+======
+# M/H: 18625 / 18868
+# Last rebuild:   iter 2  num_configs 536
+main.ml:13379, main.ml:13393, 
+-
+(= -nodoi on)
+-
+17 HM
+======
+# M/H: 18679 / 18829
+# Last rebuild:   iter 2  num_configs 551
+main.ml:13613, main.ml:13630, 
+-
+(= -noeprint on)
+-
+18 HM
+======
+# M/H: 19141 / 18382
+# Last rebuild:   iter 2  num_configs 566
+main.ml:13969, main.ml:13991, 
+-
+(= -nolinks on)
+-
+12 HM
+======
+# M/H: 18652 / 18886
+# Last rebuild:   iter 2  num_configs 581
+main.ml:14075, main.ml:14103, 
+-
+(= -nobiblinks on)
+-
+13 HM
+======
+# M/H: 19191 / 18362
+# Last rebuild:   iter 2  num_configs 596
+main.ml:14920, main.ml:14943, 
+-
+(= -nofooter on)
+-
+22 HM
+======
+# M/H: 17918 / 19650
+# Last rebuild:   iter 2  num_configs 611
+main.ml:15698, main.ml:15716, 
+-
+(= -multiple on)
+-
+8 HM
+======
+# M/H: 19167 / 18416
+# Last rebuild:   iter 2  num_configs 626
+main.ml:15922, main.ml:15936, 
+-
+(= -both on)
+-
+7 HM
+======
+# M/H: 16302 / 21296
+# Last rebuild:   iter 2  num_configs 641
+main.ml:16526, main.ml:16543, 
+-
+(= -d on)
+-
+1 HM
+======
+# M/H: 18032 / 19581
+# Last rebuild:   iter 2  num_configs 656
+main.ml:16801, main.ml:16836, 
+-
+(= -r on)
+-
+4 HM
+======
+# M/H: 19229 / 18399
+# Last rebuild:   iter 2  num_configs 671
+main.ml:17630, main.ml:17645, 
+-
+(= -nodoc on)
+-
+10 HM
+======
+# M/H: 14926 / 22717
+# Last rebuild:   iter 2  num_configs 686
+main.ml:18795, main.ml:18823, 
+-
+(= -w on)
+-
+31 HM
+======
+# M/H: 29432 / 8226
+# Last rebuild:   iter 2  num_configs 701
+main.ml:19113, main.ml:19133, 
+-
+(= --print-keys on)
+-
+29 HM
+======
+# M/H: 15105 / 22568
+# Last rebuild:   iter 2  num_configs 716
+main.ml:2641, main.ml:2869, 
+-
+(and (= -v off) (or (= -a off) (= -u on)))
+-
+32 M 2 3 HMH
+======
+# M/H: 27532 / 9519
+# Last rebuild:   iter 1  num_configs 73
+bbl_lexer.ml:18106, bbl_lexer.ml:18695, bbl_lexer.ml:18735, bbl_lexer.mll:17879, bbl_lexer.mll:17897, bbl_lexer.mll:18324, bbl_lexer.mll:18497, bbl_lexer.mll:18541, 
+-
+(and (= -s alpha) (= -v off))
+-
+0 MM 32 MH
+======
+# M/H: 30481 / 7207
+# Last rebuild:   iter 2  num_configs 731
+main.ml:2814, 
+-
+(and (= -a on) (= -u off) (= -v off))
+-
+2 3 M 32 MHM
+======
+# M/H: 15159 / 22544
+# Last rebuild:   iter 2  num_configs 746
+main.ml:3052, 
+-
+(and (= -v off) (or (= -d off) (= -a on) (= -u on)))
+-
+32 M 2 H 3 H 1 MH
+======
+# M/H: 12324 / 25394
+# Last rebuild:   iter 2  num_configs 761
+main.ml:3062, main.ml:3132, main.ml:8328, 
+-
+(and (= -v off) (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+32 M 1 31 2 H 3 HMHH
+======
+# M/H: 24567 / 13166
+# Last rebuild:   iter 2  num_configs 776
+main.ml:3089, main.ml:3095, main.ml:3112, 
+-
+(and (= -q off) (= -v off) (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+30 M 32 M 2 H 3 H 31 1 MHH
+======
+# M/H: 24522 / 12570
+# Last rebuild:   iter 10  num_configs 3642
+main.ml:3171, 
+-
+(let ((a!1 (or (and (= -revkeys on) (= -r on))
+               (and (= -revkeys off) (= -r off))))
+      (a!2 (and (= -d off)
+                (or (and (= -r off) (= -revkeys off))
+                    (and (= -r on) (= -revkeys on))))))
+  (and (= -v off)
+       (or (and (= -u on) a!1) (and (= -a on) a!1) a!2 (and (= -w off) a!1))))
+-
+32 M 3 5 4 HM 4 MH 2 5 4 HM 4 MH 1 31 M 5 4 HM 4 MH 4 5 HM 5 MH
+======
+# M/H: 33331 / 4431
+# Last rebuild:   iter 2  num_configs 805
+main.ml:8348, main.ml:8358, main.ml:8397, main.ml:8429, main.ml:8470, main.ml:8488, 
+-
+(and (= --print-keys on)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+29 32 M 3 H 1 2 H 31 MHHM
+======
+# M/H: 30049 / 7728
+# Last rebuild:   iter 2  num_configs 820
+bibfilter.ml:1789, bibfilter.ml:2469, bibfilter.ml:2555, bibfilter.ml:2601, bibfilter.ml:2648, bibfilter.ml:2657, bibfilter.ml:2867, bibfilter.ml:2929, bibfilter.ml:2944, bibfilter.ml:3034, bibfilter.ml:3145, bibfilter.ml:3293, bibfilter.ml:3400, bibfilter.ml:3806, bibfilter.ml:3956, bibfilter.ml:4012, bibfilter.ml:4070, biboutput.ml:1410, bibtex.ml:4469, bibtex.ml:4578, translate.ml:12917, translate.ml:12959, translate.ml:13004, 
+-
+(and (= --print-keys off)
+     (= -single on)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+29 M 9 32 M 2 H 31 1 3 HMHHM
+======
+# M/H: 31826 / 5966
+# Last rebuild:   iter 2  num_configs 835
+bibfilter.ml:2898, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -a on) (= -u off))
+               (and (= -r off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= --print-keys off) (= -single on) (= -v off) a!1))
+-
+29 M 9 32 M 31 4 2 3 MHM 3 H 1 2 HMHHM
+======
+# M/H: 33718 / 4089
+# Last rebuild:   iter 2  num_configs 850
+bibfilter.ml:2975, 
+-
+(and (= --print-keys off)
+     (= -single on)
+     (= -q off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+29 M 9 30 M 32 M 2 H 3 H 31 1 MHHM
+======
+# M/H: 35187 / 2635
+# Last rebuild:   iter 2  num_configs 865
+bibfilter.ml:3080, 
+-
+(and (= -w off) (= --print-keys off) (= -single on) (= -v off))
+-
+31 M 29 M 9 32 MHM
+======
+# M/H: 26270 / 11118
+# Last rebuild:   iter 3  num_configs 2331
+biboutput.ml:1324, biboutput.ml:1489, biboutput.ml:1751, biboutput.ml:1759, biboutput.ml:1927, biboutput.ml:2027, biboutput.ml:2055, biboutput.ml:3789, biboutput.ml:3820, biboutput.ml:3874, biboutput.ml:3887, biboutput.ml:3893, biboutput.ml:3918, biboutput.ml:3947, biboutput.ml:3960, biboutput.ml:3991, biboutput.ml:4212, biboutput.ml:4260, biboutput.ml:4338, biboutput.ml:4376, biboutput.ml:4439, biboutput.ml:4479, biboutput.ml:4536, biboutput.ml:4539, biboutput.ml:4547, biboutput.ml:4620, biboutput.ml:4623, biboutput.ml:4631, biboutput.ml:4709, biboutput.ml:4773, biboutput.ml:4802, biboutput.ml:4815, biboutput.ml:4893, biboutput.ml:7351, biboutput.ml:7399, biboutput.ml:7475, biboutput.ml:7538, biboutput.ml:7568, bibtex.ml:4080, bibtex.ml:4088, bibtex.ml:4146, bibtex.ml:4156, bibtex.ml:4219, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= --print-keys off)
+       (or (and (= -single on) (= -v off) a!1)
+           (and (= -multiple off) (= -nobibsource off) (= -v off) a!1))))
+-
+29 M 9 32 M 2 H 3 H 1 31 MHH 8 M 24 M 32 M 2 H 1 31 3 HMHH
+======
+# M/H: 28050 / 9353
+# Last rebuild:   iter 3  num_configs 2346
+biboutput.ml:1570, biboutput.ml:1573, biboutput.ml:1581, biboutput.ml:1714, biboutput.ml:1777, biboutput.ml:1805, biboutput.ml:1832, biboutput.ml:1858, biboutput.ml:1884, bibtex.ml:4192, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -a on) (= -u off))
+               (and (= -r off) (or (= -d off) (= -u on))))))
+(let ((a!2 (or (and (= -single on) a!1)
+               (and (= -single off)
+                    (= -multiple off)
+                    (= -nobibsource off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off))))))
+  (and (= --print-keys off) (= -v off) a!2)))
+-
+29 M 32 M 9 31 4 2 3 MHM 1 3 H 2 HMHH 8 M 24 M 2 H 1 31 3 HMHH
+======
+# M/H: 31401 / 6017
+# Last rebuild:   iter 3  num_configs 2361
+biboutput.ml:1614, biboutput.ml:1623, biboutput.ml:1655, biboutput.ml:1678, 
+-
+(let ((a!1 (or (and (= -single on) (= -w off) (= -v off))
+               (and (= -multiple off)
+                    (= -nobibsource off)
+                    (= -v off)
+                    (= -single off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off))))))
+  (and (= --print-keys off) a!1))
+-
+29 M 8 9 31 M 32 MHM 24 31 M 9 32 MHM 32 M 9 31 MH 31 3 H 1 2 HMHH
+======
+# M/H: 27934 / 9499
+# Last rebuild:   iter 3  num_configs 2376
+biboutput.ml:4180, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (or (and (= -single on) (= --print-keys off) (= -v off) a!1)
+      (and (= -multiple off)
+           (= -nobiblinks on)
+           (= -nobibsource off)
+           (= -v off)
+           (= --print-keys off)
+           a!1)))
+-
+9 29 M 32 M 2 H 3 H 1 31 MHH 8 M 13 24 M 32 M 29 M 31 1 2 H 3 HMHHM
+======
+# M/H: 28644 / 8416
+# Last rebuild:   iter 3  num_configs 2003
+bibtex.ml:4117, 
+-
+(let ((a!1 (and (= -r off) (or (= -u on) (and (= -d off) (= -a off)))))
+      (a!3 (and (= -single off)
+                (= -multiple off)
+                (= -nobibsource off)
+                (or (= -d off) (= -a on) (= -w off) (and (= -a off) (= -u on))))))
+(let ((a!2 (and (= -single on)
+                (or (= -w off) a!1 (and (= -r on) (= -a on) (= -u off))))))
+  (and (= --print-keys off) (= -v off) (or a!2 a!3))))
+-
+29 M 32 M 9 31 4 2 3 MHM 3 H 1 M 2 MHH 8 M 24 M 1 31 2 H 3 HMHH
+======
+# M/H: 27044 / 10814
+# Last rebuild:   iter 2  num_configs 901
+html.ml:1281, html.ml:1377, html.ml:1418, html.ml:1446, html.ml:1456, html.ml:1525, html.ml:1623, html.ml:1663, html.ml:1697, html.ml:1793, translate.ml:13920, translate.ml:13953, 
+-
+(and (= -nodoc off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+10 M 29 M 32 M 2 H 31 1 3 HMHH
+======
+# M/H: 29577 / 8296
+# Last rebuild:   iter 2  num_configs 916
+html.ml:1830, html.ml:1871, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -nodoc off) (= --print-keys off) (= -v off) a!1))
+-
+10 M 29 M 32 M 31 9 M 1 3 H 2 HMHH
+======
+# M/H: 16675 / 21213
+# Last rebuild:   iter 2  num_configs 931
+html.ml:1907, html.ml:1943, html.ml:1979, html.ml:2016, html.ml:2052, html.ml:2117, latexmacros.ml:1796, latexmacros.ml:1841, latexmacros.ml:2270, latexmacros.ml:2278, latexscan.ml:139056, latexscan.ml:151629, latexscan.ml:152499, latexscan.mll:1128, latexscan.mll:1159, latexscan.mll:1181, latexscan.mll:139644, latexscan.mll:139680, latexscan.mll:139724, latexscan.mll:139741, latexscan.mll:143051, latexscan.mll:143069, latexscan.mll:143368, latexscan.mll:143432, latexscan.mll:144225, latexscan.mll:144260, latexscan.mll:144349, latexscan.mll:144377, latexscan.mll:144554, latexscan.mll:144622, latexscan.mll:144697, latexscan.mll:144784, latexscan.mll:144804, latexscan.mll:144891, latexscan.mll:144937, latexscan.mll:144963, latexscan.mll:144969, latexscan.mll:144989, latexscan.mll:145080, latexscan.mll:145158, latexscan.mll:145215, latexscan.mll:145264, latexscan.mll:145322, latexscan.mll:145409, latexscan.mll:145447, latexscan.mll:151932, latexscan.mll:152719, latexscan.mll:153016, latexscan.mll:153052, latexscan.mll:1844, latexscan.mll:1887, latexscan.mll:2154, latexscan.mll:246, latexscan.mll:503, latexscan.mll:552, latexscan.mll:576, latexscan.mll:603, latexscan.mll:614, latexscan.mll:638, latexscan.mll:751, latexscan.mll:826, latexscan.mll:890, latexscan.mll:931, main.ml:8504, main.ml:8916, translate.ml:12096, translate.ml:12169, translate.ml:12196, translate.ml:12230, translate.ml:12234, translate.ml:12289, translate.ml:12314, translate.ml:12318, translate.ml:12597, translate.ml:12621, translate.ml:12625, translate.ml:12706, translate.ml:12731, translate.ml:12748, translate.ml:12767, translate.ml:12816, translate.ml:12842, translate.ml:13438, translate.ml:13460, translate.ml:13509, translate.ml:13534, translate.ml:13601, translate.ml:13700, translate.ml:13753, translate.ml:13789, translate.ml:13897, translate.ml:13981, translate.ml:14016, translate.ml:14063, translate.ml:14088, translate.ml:14144, translate.ml:14166, translate.ml:14239, translate.ml:14391, translate.ml:14413, translate.ml:14469, translate.ml:15870, translate.ml:15894, translate.ml:15938, translate.ml:3347, translate.ml:3383, translate.ml:3565, translate.ml:3577, translate.ml:3603, translate.ml:3631, translate.ml:3730, translate.ml:3763, translate.ml:3795, translate.ml:8592, 
+-
+(and (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+29 M 32 M 2 H 3 H 1 31 MHH
+======
+# M/H: 18462 / 18591
+# Last rebuild:   iter 69  num_configs 8463
+html.ml:2412, html.ml:2458, html.ml:2521, 
+-
+(let ((a!1 (or (= -multiple on)
+               (= -nolinks off)
+               (= -nofooter off)
+               (= -nobibsource off)))
+      (a!3 (or (and (= -u off) (= -a on))
+               (and (= -r off) (or (= -d off) (= -u on))))))
+(let ((a!2 (and (= -single off)
+                (or (and (= -u on) a!1)
+                    (and (= -a on) a!1)
+                    (and (= -d off) a!1)))))
+(let ((a!4 (or a!2
+               (and (= -single on) a!3)
+               (and (= -w off)
+                    (or (= -multiple on)
+                        (= -single on)
+                        (= -nolinks off)
+                        (= -nofooter off)
+                        (= -nobibsource off))))))
+  (and (= --print-keys off) (= -v off) a!4))))
+-
+29 M 32 M 31 9 4 3 M 2 HM 1 3 H 2 HMH 2 8 H 22 24 12 MHHH 3 8 H 24 12 22 MHHH 1 M 8 H 24 22 12 MHHH 8 H 12 22 24 9 HMHHH
+======
+# M/H: 23543 / 13525
+# Last rebuild:   iter 4  num_configs 2916
+latexmacros.ml:10896, latexmacros.ml:6835, 
+-
+(let ((a!1 (and (= -r off) (or (= -u on) (and (= -d off) (= -a off)))))
+      (a!3 (or (= -single off) (and (= -single on) (= -w off))))
+      (a!6 (and (= -u off)
+                (or (and (= -single on) (= -w off))
+                    (and (= -r off) (= -a on) (= -single off))))))
+(let ((a!2 (and (= -multiple off)
+                (or (= -w off) (and (= -single off) (= -a on)) a!1)))
+      (a!4 (and (= -u on)
+                (or (and (= -r off) (= -single on)) (and (= -r on) a!3))))
+      (a!5 (and (= -d off)
+                (or (and (= -r off) (= -single on) (= -a off))
+                    (and (= -r on) (= -a off) a!3)))))
+  (and (= --print-keys off) (= -v off) (or a!2 a!4 a!5 a!6))))
+-
+29 M 32 M 8 1 3 4 9 31 MHH 9 HM 4 9 31 MHM 2 9 31 MHH 9 31 MHM 4 2 3 9 31 MHH 9 31 MHM 9 31 MHH 9 2 3 H 31 MHH 2 3 MHM 31 9 4 M 3 H 1 M 2 MH 2 H 3 H 1 MHH
+======
+# M/H: 21105 / 16008
+# Last rebuild:   iter 3  num_configs 2056
+latexmacros.ml:11000, latexmacros.ml:11262, latexmacros.ml:6682, latexscan.mll:152311, 
+-
+(let ((a!1 (or (and (= -r off) (= -single on)) (and (= -r on) (= -single off))))
+      (a!3 (and (= -r off) (or (= -u off) (and (= -u on) (= -single on)))))
+      (a!4 (and (= -r on)
+                (or (and (= -single on) (= -u off))
+                    (and (= -single off) (= -u on)))))
+      (a!5 (and (= -multiple off)
+                (or (and (= -u on) (= -single off))
+                    (and (= -d off) (= -single off))
+                    (and (= -a on) (= -u off)))))
+      (a!6 (and (= -single off)
+                (= -a off)
+                (or (= -r on) (and (= -r off) (= -d on) (= -u off))))))
+(let ((a!2 (and (= -a off) (or (and (= -d off) a!1) (and (= -u on) a!1)))))
+(let ((a!7 (or a!2
+               (and (= -a on) (or a!3 a!4))
+               a!5
+               (and (= -w off) (or (= -single on) a!6)))))
+  (and (= --print-keys off) (= -v off) a!7))))
+-
+29 M 32 M 8 31 2 4 9 3 MH 3 HM 3 9 HMH 1 3 4 9 MH 9 HMM 4 9 MH 9 HM 9 H 2 4 3 HM 3 MH 4 H 1 3 MHM 31 2 3 9 4 MHHH 1 3 9 4 MHHM 9 4 MHHH
+======
+# M/H: 21506 / 15634
+# Last rebuild:   iter 3  num_configs 2083
+latexmacros.ml:11366, latexmacros.ml:7122, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -r off) (or (= -d off) (= -u on)))
+               (and (= -a on) (= -u off))))
+      (a!2 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off)))))
+      (a!4 (and (= -a off)
+                (or (and (= -d off) (= -single off))
+                    (and (= -u on) (= -single off)))))
+      (a!5 (and (= -a on) (or (= -u off) (and (= -u on) (= -single off))))))
+(let ((a!3 (and (= -single off)
+                (or (and (= -r on) a!2) (and (= -r off) (= -a on) (= -u off))))))
+(let ((a!6 (or (and (= -single on) a!1)
+               a!3
+               (and (= -multiple off) (or (= -w off) a!4 a!5)))))
+  (and (= --print-keys off) (= -v off) a!6))))
+-
+29 M 32 M 8 9 31 4 2 3 MHM 1 2 H 3 HMHH 4 3 H 2 M 1 31 MHH 2 3 MHM 31 2 3 9 4 MHHH 1 3 9 4 MHHM 9 4 MHHH
+======
+# M/H: 20656 / 16321
+# Last rebuild:   iter 73  num_configs 11347
+latexmacros.ml:12177, 
+-
+(let ((a!1 (and (= -r on)
+                (or (and (= -multiple off) (= -single off))
+                    (and (= -u on) (= -single off))
+                    (and (= -u off) (= -single on))
+                    (and (= -s alpha) (= -u off)))))
+      (a!3 (and (= -d off)
+                (or (and (= -multiple off) (= -single off))
+                    (and (= -single on) (= -r off))
+                    (and (= -single off) (= -r on)))))
+      (a!4 (and (= -multiple off)
+                (or (= -single off) (and (= -single on) (= -r off)))))
+      (a!6 (or (= -multiple off)
+               (= -single on)
+               (and (= -r off) (= -u off) (or (= -d on) (= -a on)))
+               (and (= -r on) (or (= -s alpha) (= -a off) (= -u on))))))
+(let ((a!2 (or (and (= -r off) (or (= -u off) (= -multiple off) (= -single on)))
+               a!1))
+      (a!5 (and (= -u on)
+                (or a!4
+                    (and (= -r off) (= -single on))
+                    (and (= -r on) (= -single off))))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -a on) a!2)
+           (and (= -a off) (or a!3 a!5))
+           (and (= -w off) a!6)))))
+-
+29 M 32 M 31 2 4 8 0 3 9 MH 9 HM 3 9 MH 9 HM 3 9 MHH 9 3 MHH 3 9 H 8 MHH 1 3 8 4 9 MH 9 HM 9 4 MHHM 8 3 9 4 MH 4 HM 4 9 MH 9 HM 9 4 MHH 8 9 H 4 2 3 H 0 MMHH 3 M 1 H 2 HMH
+======
+# M/H: 23406 / 13758
+# Last rebuild:   iter 3  num_configs 2107
+latexmacros.ml:12410, latexscan.mll:152139, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!2 (or (= -u on) (and (= -d off) (= -a off)))))
+(let ((a!3 (and (= -single on)
+                (or (= -w off)
+                    (and (= -r off) a!2)
+                    (and (= -r on) (= -a on) (= -u off)))))
+      (a!4 (and (= -single off)
+                (or (and (= -r on) a!2)
+                    (and (= -r off) (= -w off) (= -d on) (= -u off) (= -a off))))))
+  (and (= --print-keys off) (= -v off) (or (and (= -multiple off) a!1) a!3 a!4))))
+-
+29 M 32 M 8 9 31 4 2 3 MHM 3 H 1 M 2 MHH 4 3 H 1 M 2 MH 31 M 1 3 M 2 MHM 31 9 4 2 3 MHM 3 H 1 M 2 MH 2 H 1 3 HMHH
+======
+# M/H: 23777 / 13402
+# Last rebuild:   iter 3  num_configs 2122
+latexmacros.ml:12714, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!2 (and (= -r on) (or (= -single off) (and (= -single on) (= -w off)))))
+      (a!4 (and (= -single on)
+                (or (= -w off)
+                    (and (= -r on) (= -a on))
+                    (and (= -r off) (= -d off) (= -a off))))))
+(let ((a!3 (and (= -u on) (or (and (= -r off) (= -single on)) a!2)))
+      (a!5 (and (= -u off)
+                (or a!4 (and (= -single off) (= -d off) (= -r on) (= -a off))))))
+  (and (= --print-keys off) (= -v off) (or (and (= -multiple off) a!1) a!3 a!5))))
+-
+29 M 32 M 8 3 4 9 31 MHH 9 HM 9 31 4 2 HM 1 M 2 MHH 1 M 4 2 MHM 31 9 4 2 3 MHM 3 H 1 M 2 MH 2 H 1 3 HMHH
+======
+# M/H: 22151 / 14887
+# Last rebuild:   iter 4  num_configs 2931
+latexmacros.ml:13510, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!2 (and (= -r on) (or (= -a off) (and (= -a on) (= -u on)))))
+      (a!4 (and (= -d on)
+                (or (and (= -a on) (= -r off) (= -u off))
+                    (and (= -u on) (= -r on))
+                    (and (= -u off) (= -r off) (= -w off)))))
+      (a!5 (and (= -r off)
+                (or (= -u on)
+                    (and (= -d off) (= -a off))
+                    (and (= -s alpha) (= -a on))))))
+(let ((a!3 (and (= -d off) (or a!2 (and (= -r off) (= -a on) (= -u off)))))
+      (a!6 (and (= -single on)
+                (or (= -w off) a!5 (and (= -r on) (= -a on) (= -u off))))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -multiple off) a!1) (and (= -single off) (or a!3 a!4)) a!6))))
+-
+29 M 32 M 8 9 31 4 2 3 MHM 3 H 1 0 MM 2 HM 2 0 MMHHH 1 2 4 3 HM 3 MH 3 4 HM 4 M 31 MH 4 2 3 HMH 2 3 MHM 31 9 4 2 3 MHM 3 H 1 2 0 MMHM 2 0 MMHH 2 H 3 H 1 MHH
+======
+# M/H: 22380 / 14714
+# Last rebuild:   iter 4  num_configs 2942
+latexmacros.ml:6736, 
+-
+(let ((a!1 (and (= -a off) (or (= -single off) (and (= -single on) (= -w off)))))
+      (a!4 (and (= -u off) (or (= -a on) (and (= -a off) (= -w off) (= -d on)))))
+      (a!6 (and (= -a off) (or (= -u on) (and (= -u off) (= -d off))))))
+(let ((a!2 (and (= -d off) (or (and (= -single on) (= -w off)) a!1)))
+      (a!5 (or (and (= -single on) (or (= -d off) (= -u on) (= -w off))) a!4))
+      (a!7 (or (= -w off) (and (= -single off) (or (= -a on) a!6)))))
+(let ((a!3 (or (and (= -single on) (= -w off))
+               a!2
+               (and (= -u on) (or (= -single off) (= -w off))))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -r on) a!3) (and (= -r off) a!5) (and (= -multiple off) a!7))))))
+-
+29 M 32 M 8 4 3 9 31 MHH 1 9 31 MHM 2 9 31 MHM 9 31 MHH 9 2 H 1 3 H 31 MHH 3 M 2 H 31 M 1 HM 31 9 4 M 1 2 H 3 HMH 2 H 3 H 1 MHH
+======
+# M/H: 22870 / 14426
+# Last rebuild:   iter 4  num_configs 3144
+latexmacros.ml:6769, 
+-
+(let ((a!1 (and (= -r off) (or (= -d off) (= -a on) (= -u on))))
+      (a!3 (and (= -single off)
+                (or (and (= -u on) (= -r on))
+                    (and (= -a on) (= -r off) (= -u off))
+                    (and (= -d off) (= -r on) (= -a off))))))
+(let ((a!2 (and (= -multiple off)
+                (or (= -w off) (and (= -single off) (= -a on)) a!1))))
+(let ((a!4 (or a!2 a!3 (and (= -single on) (or (= -w off) a!1)))))
+  (and (= --print-keys off) (= -v off) a!4))))
+-
+29 M 32 M 8 9 31 4 M 2 H 3 H 1 MHH 1 2 4 3 HM 3 MH 3 4 HMM 4 2 3 HMH 2 3 MHM 31 9 4 M 1 2 H 3 HMH 2 H 3 H 1 MHH
+======
+# M/H: 24175 / 13073
+# Last rebuild:   iter 3  num_configs 2191
+latexmacros.ml:6901, latexmacros.ml:9108, 
+-
+(let ((a!1 (or (and (= -r on) (or (= -single off) (= -w off)))
+               (and (= -r off) (= -single on))))
+      (a!2 (and (= -r off) (or (= -u on) (and (= -d off) (= -a off)))))
+      (a!4 (and (= -d off)
+                (or (and (= -r on) (= -single off))
+                    (and (= -r off) (= -single on)))))
+      (a!5 (and (= -w off)
+                (or (= -single on) (and (= -single off) (= -r off) (= -d on))))))
+(let ((a!3 (and (= -multiple off)
+                (or (= -w off) (and (= -single off) (= -a on)) a!2)))
+      (a!6 (and (= -u off)
+                (or (and (= -a off) (or a!4 a!5))
+                    (and (= -a on) (= -single on) (= -w off))))))
+  (and (= --print-keys off) (= -v off) (or (and (= -u on) a!1) a!3 a!6))))
+-
+29 M 32 M 8 3 4 9 31 MHH 9 HM 2 9 31 MHM 31 1 M 4 9 MH 9 HM 9 H 4 1 MH 1 HM 31 9 4 M 3 H 1 M 2 MH 2 H 1 3 HMHH
+======
+# M/H: 21815 / 15650
+# Last rebuild:   iter 3  num_configs 2408
+latexmacros.ml:6957, 
+-
+(let ((a!1 (and (= -multiple off)
+                (or (= -w off)
+                    (and (= -d off) (= -single off))
+                    (and (= -a on) (= -single off))
+                    (and (= -u on) (= -single off)))))
+      (a!2 (and (= -r on) (or (= -u on) (and (= -d off) (= -a off)))))
+      (a!3 (and (= -r off)
+                (= -u off)
+                (or (= -a on) (and (= -a off) (= -w off) (= -d on)))))
+      (a!4 (and (= -r off) (or (= -a on) (= -u on) (and (= -u off) (= -d off))))))
+(let ((a!5 (and (= -single on) (or (= -w off) (and (= -a on) (= -u off)) a!4))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or a!1 (and (= -single off) (or a!2 a!3)) a!5))))
+-
+29 M 32 M 8 9 31 4 2 3 MHM 2 H 3 H 1 MHH 4 3 H 1 M 2 MH 3 M 2 H 31 M 1 HM 31 2 3 9 4 MHHH 1 3 9 4 MHHM 9 4 MHHH
+======
+# M/H: 22376 / 15104
+# Last rebuild:   iter 3  num_configs 2423
+latexmacros.ml:7500, 
+-
+(let ((a!1 (and (= -w off) (or (= -single on) (and (= -r on) (= -a off)))))
+      (a!2 (and (= -r on)
+                (= -single off)
+                (or (= -u on) (and (= -d off) (= -a off)))))
+      (a!3 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!4 (and (= -a on) (or (= -u off) (and (= -u on) (= -single on)))))
+      (a!5 (and (= -a off)
+                (= -single on)
+                (or (= -u on) (and (= -u off) (= -d off))))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or a!1 a!2 (and (= -multiple off) a!3) (and (= -r off) (or a!4 a!5)))))
+-
+29 M 32 M 8 31 4 9 M 3 H 1 M 2 MH 2 3 9 HMH 9 3 H 1 MHM 9 H 4 2 3 HMH 2 3 MHM 31 9 4 M 1 3 H 2 HMH 2 H 3 H 1 MHH
+======
+# M/H: 22462 / 14988
+# Last rebuild:   iter 3  num_configs 2438
+latexmacros.ml:8904, 
+-
+(let ((a!1 (and (= -r on) (or (= -u on) (and (= -d off) (= -a off)))))
+      (a!3 (or (and (= -d off) (= -single off))
+               (and (= -u on) (or (= -r off) (= -single off)))))
+      (a!5 (or (and (= -d off) (= -a off))
+               (and (= -a on) (or (= -s off) (= -s plain))))))
+(let ((a!2 (and (= -single off) (or a!1 (and (= -r off) (= -a on) (= -u off)))))
+      (a!4 (and (= -multiple off)
+                (or (= -w off)
+                    (and (= -a on) (= -single off))
+                    (and (= -a off) a!3))))
+      (a!6 (and (= -r off) (or (= -u on) (and (= -u off) a!5)))))
+(let ((a!7 (and (= -single on)
+                (or (= -w off) a!6 (and (= -r on) (= -a on) (= -u off))))))
+  (and (= --print-keys off) (= -v off) (or a!2 a!4 a!7)))))
+-
+29 M 32 M 8 9 31 4 2 3 MHM 3 H 1 2 0 HHMM 0 HH 2 MHH 4 3 H 1 M 2 MH 2 3 MHM 31 2 9 3 4 MH 0 HH 4 HMH 1 3 9 4 MHHM 9 4 MHHH
+======
+# M/H: 23211 / 13805
+# Last rebuild:   iter 45  num_configs 5029
+latexmacros.ml:9216, latexmacros.ml:9637, latexscan.mll:291, 
+-
+(let ((a!1 (and (= -u on)
+                (or (and (= -single on) (= -r off))
+                    (and (= -single off) (= -r on)))))
+      (a!2 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!3 (and (= -r off)
+                (or (and (= -a on) (= -single off))
+                    (and (= -a off) (= -single on) (= -d off)))))
+      (a!5 (and (= -w off)
+                (or (= -single on)
+                    (and (= -single off) (= -r off) (= -u off) (= -d on))))))
+(let ((a!4 (and (= -u off)
+                (or (and (= -r on) (= -a off) (= -d off) (= -single off)) a!3))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or a!1 (and (= -multiple off) a!2) a!4 a!5))))
+-
+29 M 32 M 8 31 3 9 4 MH 4 HM 4 2 M 1 M 9 MH 2 9 MH 9 1 MHM 9 H 4 3 H 1 M 2 MH 3 M 1 H 2 HM 31 9 4 M 3 H 1 M 2 MH 3 H 2 H 1 MHH
+======
+# M/H: 17113 / 20112
+# Last rebuild:   iter 3  num_configs 2222
+latexscan.mll:1207, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -w off) (= -a off))
+               (and (= -a on)
+                    (or (= -s alpha)
+                        (= -r off)
+                        (= -multiple off)
+                        (= -single on)))
+               (and (= -d off)
+                    (or (= -s alpha)
+                        (= -a off)
+                        (= -r off)
+                        (= -multiple off)
+                        (= -single on))))))
+  (and (= --print-keys off) (= -v off) a!1))
+-
+29 M 32 M 3 H 1 31 2 4 8 9 H 0 MMHHHM 2 4 8 0 9 HM 9 HMHHHH 2 4 8 0 9 HM 9 HMHHHH
+======
+# M/H: 20793 / 16714
+# Last rebuild:   iter 3  num_configs 2450
+latexscan.mll:141865, latexscan.mll:141937, latexscan.mll:141973, latexscan.mll:142045, 
+-
+(let ((a!1 (and (= -r off)
+                (or (= -u on) (and (= -u off) (= -d off) (= -a off)))))
+      (a!3 (and (= -r on)
+                (or (= -u on) (= -multiple off) (and (= -u off) (= -single on)))))
+      (a!4 (and (= -a on) (or (= -r off) (and (= -r on) (= -multiple off))))))
+(let ((a!2 (and (= -single on) (or (and (= -r on) (= -a on) (= -u off)) a!1)))
+      (a!5 (and (= -u off) (or (and (= -d off) (= -a off)) a!4))))
+(let ((a!6 (or a!2
+               (and (= -w off) (or (= -r off) a!3))
+               (and (= -single off) (or (= -u on) a!5)))))
+  (and (= --print-keys off) (= -v off) a!6))))
+-
+29 M 32 M 31 9 4 2 3 MHM 3 H 1 M 2 MH 3 H 1 2 4 8 MHHM 2 8 4 MHHH 4 8 3 H 9 H 1 M 2 MHHH
+======
+# M/H: 23866 / 13394
+# Last rebuild:   iter 4  num_configs 3108
+latexscan.mll:142845, latexscan.mll:142861, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!2 (or (= -u on)
+               (and (= -a on) (= -w off) (= -single on))
+               (and (= -a off) (or (= -d off) (= -w off)))))
+      (a!3 (and (= -r on)
+                (= -single on)
+                (or (= -w off) (and (= -u off) (= -a on))))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -multiple off) a!1) (and (= -r off) a!2) a!3)))
+-
+29 M 32 M 8 4 9 31 3 M 2 HMHM 3 H 2 31 M 9 HM 31 1 MHH 31 9 4 2 3 MHM 3 H 2 M 1 MH 2 H 3 H 1 MHH
+======
+# M/H: 21684 / 15838
+# Last rebuild:   iter 3  num_configs 2465
+latexscan.mll:142948, latexscan.mll:142964, 
+-
+(let ((a!1 (and (= -w off)
+                (or (= -multiple off)
+                    (= -single on)
+                    (and (= -single off) (= -a off) (= -r off)))))
+      (a!2 (and (= -d off)
+                (= -a off)
+                (or (= -single off) (and (= -single on) (= -r off)))))
+      (a!3 (and (= -multiple off)
+                (or (= -single off) (and (= -single on) (= -r on))))))
+(let ((a!4 (and (= -a on) (or (and (= -single on) (= -r on)) a!3))))
+(let ((a!5 (or (and (= -u on) (or (= -r off) (= -single off) (= -w off)))
+               (and (= -u off) (or a!1 a!2 a!4)))))
+  (and (= --print-keys off) (= -v off) a!5))))
+-
+29 M 32 M 3 9 4 31 MHHH 31 1 2 8 9 4 HMM 9 4 HMHM 2 8 9 4 HMM 9 4 HMH 9 4 MHH 8 9 H 2 M 4 1 MHHH
+======
+# M/H: 26337 / 11796
+# Last rebuild:   iter 2  num_configs 1176
+latexscan.mll:143950, latexscan.mll:143985, latexscan.mll:144040, latexscan.mll:144063, latexscan.mll:144090, latexscan.mll:144142, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on)))))
+      (a!2 (and (= -single on)
+                (or (= -u on) (= -w off) (and (= -a off) (= -d off)))))
+      (a!3 (and (= -single off)
+                (= -u off)
+                (or (= -a on) (and (= -a off) (= -d on) (= -w off))))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -multiple off) a!1)
+           (and (= -w off) (= -single on))
+           (and (= -r off) (or a!2 a!3)))))
+-
+29 M 32 M 8 4 31 M 9 HM 9 3 H 31 2 M 1 MHH 3 M 2 H 1 31 MHM 31 9 4 M 3 H 1 M 2 MH 2 H 3 H 1 MHH
+======
+# M/H: 25273 / 12875
+# Last rebuild:   iter 2  num_configs 1191
+latexscan.mll:145181, latexscan.mll:145287, 
+-
+(let ((a!1 (and (= -u on)
+                (or (and (= -r on) (= -single off))
+                    (and (= -r off) (= -single on)))))
+      (a!2 (or (= -a on) (and (= -a off) (or (= -d off) (= -u on)))))
+      (a!4 (and (= -single on)
+                (or (= -w off) (and (= -d off) (= -a off) (= -r off))))))
+(let ((a!3 (and (= -multiple off) (or (= -w off) (and (= -single off) a!2)))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -single off) (= -d off) (= -a off) (= -r on)) a!1 a!3 a!4))))
+-
+29 M 32 M 8 3 4 9 31 MHH 9 HM 9 31 1 M 2 M 4 MHH 1 M 2 M 4 HM 31 9 4 M 3 H 1 M 2 MH 2 H 3 H 1 MHH
+======
+# M/H: 19781 / 17205
+# Last rebuild:   iter 63  num_configs 5518
+latexscan.mll:1954, latexscan.mll:1980, 
+-
+(let ((a!1 (or (and (= -u on) (or (= -single off) (= -nokeys off)))
+               (and (= -a on) (or (= -single off) (= -nokeys off)))
+               (and (= -d off) (or (= -single off) (= -nokeys off)))))
+      (a!2 (and (= -multiple off)
+                (or (and (= -a on) (= -single off))
+                    (and (= -d off) (= -single off))
+                    (and (= -u on) (= -single off)))))
+      (a!3 (or (= -w off)
+               (and (= -r off) (or (= -d off) (= -u on)))
+               (and (= -u off) (= -a on))))
+      (a!4 (or (= -u on) (and (= -u off) (= -a off) (or (= -d off) (= -w off)))))
+      (a!5 (and (= -r off)
+                (= -u off)
+                (or (= -a on) (and (= -a off) (= -d on) (= -w off))))))
+(let ((a!6 (and (= -single off) (or (and (= -r on) a!4) a!5))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -s alpha) a!1) a!2 (and (= -single on) a!3) a!6))))
+-
+29 M 32 M 0 8 31 2 4 21 3 9 MH 9 HM 3 9 MH 9 HM 3 9 HMH 4 9 M 3 H 1 MH 9 3 H 1 MHM 9 H 4 2 3 HMH 3 M 1 H 2 HM 31 2 3 9 4 MHHH 3 9 4 MHH 1 M 9 4 MHHH 8 9 31 4 3 M 2 HM 3 H 1 2 HMHH 4 3 H 2 M 31 1 MHH 3 M 2 H 1 31 MHM 31 2 3 9 4 MHHH 3 9 4 MHH 1 M 9 4 MHHH 31 2 3 9 11 4 MHHHH 3 9 11 4 MHHH 1 M 9 4 11 MHHHH
+======
+# M/H: 27540 / 10623
+# Last rebuild:   iter 2  num_configs 1206
+main.ml:8607, 
+-
+(and (= -noexpand on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+23 29 M 32 M 2 H 3 H 31 1 MHHM
+======
+# M/H: 30173 / 8005
+# Last rebuild:   iter 2  num_configs 1221
+translate.ml:10817, translate.ml:11090, translate.ml:11131, translate.ml:11160, translate.ml:11231, translate.ml:11420, translate.ml:11447, translate.ml:11476, translate.ml:11523, translate.ml:11765, translate.ml:11792, translate.ml:11821, translate.ml:11848, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= -dl off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -use-table on) a!1) (and (= -nokeys off) a!1))))
+-
+25 M 29 M 32 M 20 1 3 H 31 2 HMHH 11 M 2 H 3 H 31 1 MHH
+======
+# M/H: 33753 / 3285
+# Last rebuild:   iter 69  num_configs 8448
+translate.ml:10951, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+(let ((a!2 (and (= -multiple off)
+                (= --print-keys off)
+                (= -v off)
+                (= -single off)
+                (or (and (= -nokeys off) a!1) (and (= -use-table on) a!1)))))
+(let ((a!3 (or (and (= -w off)
+                    (= -single on)
+                    (= --print-keys off)
+                    (= -v off)
+                    (or (= -nokeys off) (= -use-table on)))
+               a!2)))
+  (and (= -dl off) a!3))))
+-
+25 M 8 31 M 9 29 M 32 M 11 20 HMHM 29 M 32 M 9 31 M 11 20 HMH 11 20 2 H 1 3 H 31 MHHM 1 2 H 3 H 31 MHH
+======
+# M/H: 27023 / 11170
+# Last rebuild:   iter 2  num_configs 1236
+translate.ml:12250, translate.ml:12334, translate.ml:12641, 
+-
+(and (= -nokeys on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+11 29 M 32 M 2 H 3 H 1 31 MHHM
+======
+# M/H: 30845 / 7363
+# Last rebuild:   iter 2  num_configs 1251
+translate.ml:12542, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= -nokeys on)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -single on) a!1) (and (= -multiple off) a!1))))
+-
+11 29 M 32 M 9 2 H 1 3 H 31 MHH 8 M 1 3 H 2 H 31 MHHM
+======
+# M/H: 31691 / 5363
+# Last rebuild:   iter 64  num_configs 5542
+translate.ml:12568, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+(let ((a!2 (or (and (= -use-table on) a!1) (and (= -dl on) a!1))))
+  (and (= -nokeys on)
+       (or (and (= -multiple off) (= --print-keys off) (= -v off) a!2)
+           (and (= -single on) (= --print-keys off) (= -v off) a!2)))))
+-
+11 9 29 M 32 M 20 2 H 3 H 1 31 MHH 25 2 H 3 H 1 31 MHHM 8 M 29 M 32 M 20 3 H 1 31 2 HMHH 25 2 H 3 H 31 1 MHHMM
+======
+# M/H: 27646 / 10577
+# Last rebuild:   iter 2  num_configs 1266
+translate.ml:12786, 
+-
+(and (= -linebreak on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+19 29 M 32 M 2 H 3 H 1 31 MHHM
+======
+# M/H: 24206 / 14032
+# Last rebuild:   iter 2  num_configs 1281
+translate.ml:12891, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -single on) a!1) (and (= -multiple off) a!1))))
+-
+29 M 32 M 9 1 2 H 3 H 31 MHH 8 M 2 H 3 H 31 1 MHH
+======
+# M/H: 27082 / 11171
+# Last rebuild:   iter 2  num_configs 1296
+translate.ml:13816, translate.ml:13826, translate.ml:13875, 
+-
+(and (= -q off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+30 M 29 M 32 M 2 H 3 H 1 31 MHH
+======
+# M/H: 26938 / 11330
+# Last rebuild:   iter 2  num_configs 1311
+translate.ml:14003, translate.ml:14110, translate.ml:4456, translate.ml:4478, translate.ml:4552, translate.ml:4578, translate.ml:4770, translate.ml:4795, translate.ml:4832, translate.ml:4881, translate.ml:4914, 
+-
+(and (= -noheader off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+21 M 29 M 32 M 2 H 3 H 1 31 MHH
+======
+# M/H: 27430 / 10853
+# Last rebuild:   iter 2  num_configs 1326
+translate.ml:14456, 
+-
+(and (= -revkeys off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+5 M 32 M 29 M 1 31 2 H 3 HMHH
+======
+# M/H: 29450 / 8848
+# Last rebuild:   iter 2  num_configs 1341
+translate.ml:14520, translate.ml:14546, translate.ml:14569, translate.ml:14604, translate.ml:14649, translate.ml:14665, translate.ml:16455, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -w off) (= -single on)) (and (= -multiple off) a!1))))
+-
+29 M 32 M 8 31 M 9 HM 31 9 M 1 2 H 3 HMHH
+======
+# M/H: 33646 / 4667
+# Last rebuild:   iter 2  num_configs 1356
+translate.ml:14623, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -nodoc off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -w off) (= -single on)) (and (= -multiple off) a!1))))
+-
+10 M 29 M 32 M 8 31 M 9 HM 31 9 M 1 2 H 3 HMHH
+======
+# M/H: 33613 / 4715
+# Last rebuild:   iter 2  num_configs 1371
+translate.ml:14692, translate.ml:14698, translate.ml:14714, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -q off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -w off) (= -single on)) (and (= -multiple off) a!1))))
+-
+30 M 29 M 32 M 8 31 M 9 HM 31 9 M 3 H 1 2 HMHH
+======
+# M/H: 23279 / 15064
+# Last rebuild:   iter 2  num_configs 1386
+translate.ml:16399, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -single on) a!1) (and (= -both off) a!1))))
+-
+29 M 32 M 9 2 H 3 H 1 31 MHH 7 M 2 H 31 3 H 1 MHH
+======
+# M/H: 23582 / 14711
+# Last rebuild:   iter 2  num_configs 1401
+translate.ml:3420, translate.ml:3431, translate.ml:3477, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -s off) a!1) (and (= -s plain) a!1))))
+-
+29 M 32 M 0 2 H 3 H 1 31 MHH 1 2 H 31 3 HMHHM
+======
+# M/H: 24407 / 12651
+# Last rebuild:   iter 13  num_configs 3804
+main.ml:3154, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= -v off)
+       (or (and (= -revkeys off) (= -r on) a!1)
+           (and (= -revkeys on) (= -r off) a!1))))
+-
+32 M 5 4 M 3 H 2 H 31 1 MHH 4 2 H 3 H 31 1 MHHM
+======
+# M/H: 23753 / 14632
+# Last rebuild:   iter 2  num_configs 1428
+main.ml:4305, 
+-
+(and (= -q on) (= -v off))
+-
+30 32 MHM
+======
+# M/H: 27360 / 11040
+# Last rebuild:   iter 2  num_configs 1443
+bibtex.ml:4714, bibtex.ml:4900, bibtex.ml:4970, bibtex.ml:5014, bibtex.ml:5021, bibtex.ml:5058, bibtex.ml:5118, bibtex.ml:5206, bibtex.ml:5291, bibtex.ml:5314, bibtex.ml:5391, bibtex.ml:5558, main.ml:8565, 
+-
+(and (= -noexpand off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+23 M 29 M 32 M 3 H 2 H 1 31 MHH
+======
+# M/H: 24619 / 13796
+# Last rebuild:   iter 2  num_configs 1458
+expand.ml:5423, translate.ml:6645, translate.ml:6873, translate.ml:6876, translate.ml:7035, translate.ml:7058, translate.ml:7062, translate.ml:7113, translate.ml:7178, translate.ml:7226, translate.ml:7232, translate.ml:7398, translate.ml:7533, translate.ml:7541, translate.ml:8089, translate.ml:9052, translate.ml:9296, 
+-
+(and (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+9 M 29 M 32 M 1 31 3 H 2 HMHH
+======
+# M/H: 30791 / 7639
+# Last rebuild:   iter 2  num_configs 1473
+html.ml:2833, translate.ml:10013, translate.ml:10032, translate.ml:10061, translate.ml:10146, translate.ml:10269, translate.ml:10279, translate.ml:10300, translate.ml:10322, translate.ml:10371, translate.ml:10550, translate.ml:10601, translate.ml:10628, translate.ml:10650, translate.ml:10685, translate.ml:10730, translate.ml:10746, translate.ml:12377, translate.ml:12507, translate.ml:12864, translate.ml:9670, translate.ml:9693, translate.ml:9726, translate.ml:9754, translate.ml:9950, translate.ml:9985, 
+-
+(and (= -single off)
+     (= -multiple on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+9 M 8 29 M 32 M 1 31 2 H 3 HMHHM
+======
+# M/H: 34277 / 4168
+# Last rebuild:   iter 2  num_configs 1488
+translate.ml:10083, translate.ml:9972, 
+-
+(and (= -noheader off)
+     (= -single off)
+     (= -multiple on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+21 M 9 M 8 29 M 32 M 3 H 31 2 H 1 MHHM
+======
+# M/H: 37083 / 1377
+# Last rebuild:   iter 2  num_configs 1503
+translate.ml:10245, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+  (and (= -r on)
+       (= -both on)
+       (= -multiple on)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       a!1))
+-
+4 7 8 9 M 29 M 32 M 3 H 2 M 1 31 MHHMMM
+======
+# M/H: 34665 / 3810
+# Last rebuild:   iter 2  num_configs 1518
+translate.ml:10429, 
+-
+(and (= -nobibsource off)
+     (= -single off)
+     (= -multiple on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+24 M 9 M 8 29 M 32 M 1 3 H 31 2 HMHHM
+======
+# M/H: 24132 / 14358
+# Last rebuild:   iter 2  num_configs 1533
+translate.ml:12265, translate.ml:12349, translate.ml:12359, translate.ml:12419, translate.ml:12459, translate.ml:12489, translate.ml:12656, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= --print-keys off)
+       (= -v off)
+       (or (and (= -multiple on) (= -single off) a!1) (and (= -nokeys off) a!1))))
+-
+29 M 32 M 11 8 9 M 2 H 31 1 3 HMHHM 2 H 3 H 1 31 MHH
+======
+# M/H: 27638 / 10867
+# Last rebuild:   iter 2  num_configs 1548
+translate.ml:14439, 
+-
+(and (= -revkeys on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+5 29 M 32 M 1 3 H 2 H 31 MHHM
+======
+# M/H: 31825 / 6695
+# Last rebuild:   iter 2  num_configs 1563
+translate.ml:15962, translate.ml:16034, translate.ml:16063, translate.ml:16092, 
+-
+(and (= -both on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+7 9 M 29 M 32 M 3 H 2 H 31 1 MHHM
+======
+# M/H: 31496 / 6968
+# Last rebuild:   iter 2  num_configs 1578
+translate.ml:3522, translate.ml:3549, 
+-
+(and (= -s alpha)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+0 MM 29 M 32 M 1 3 H 31 2 HMHH
+======
+# M/H: 26122 / 12423
+# Last rebuild:   iter 2  num_configs 1588
+translate.ml:5715, translate.ml:5738, translate.ml:6043, translate.ml:6051, translate.ml:6125, translate.ml:6143, translate.ml:6209, translate.ml:6212, translate.ml:6235, translate.ml:6344, translate.ml:6441, translate.ml:7077, translate.ml:7276, translate.ml:7301, translate.ml:7326, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -d off) (= -a off))
+               (and (= -w off) (= -a off))
+               (and (= -a on) (or (= -r off) (= -multiple off))))))
+  (and (= -single off) (= --print-keys off) (= -v off) a!1))
+-
+9 M 29 M 32 M 3 H 31 1 2 4 8 MHHM 2 4 8 MHHH 2 4 8 MHHH
+======
+# M/H: 28701 / 9859
+# Last rebuild:   iter 2  num_configs 1603
+translate.ml:5807, translate.ml:5830, translate.ml:5898, translate.ml:5921, translate.ml:5988, translate.ml:6001, translate.ml:6013, 
+-
+(let ((a!1 (and (= -r off)
+                (= -nodoi off)
+                (= -u off)
+                (or (= -a on) (and (= -w off) (= -d on)))))
+      (a!2 (and (= -a off) (or (= -d off) (and (= -d on) (= -w off))))))
+(let ((a!3 (or a!1
+               (and (= -r on) (or (= -u on) a!2))
+               (and (= -multiple off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off))))))
+  (and (= -single off) (= --print-keys off) (= -v off) a!3)))
+-
+9 M 29 M 32 M 8 4 3 H 2 M 1 31 MHH 17 M 3 M 2 H 31 M 1 HM 2 H 1 31 3 HMHH
+======
+# M/H: 28466 / 9122
+# Last rebuild:   iter 3  num_configs 2531
+translate.ml:6155, translate.ml:6183, translate.ml:7596, translate.ml:7719, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off)))))
+      (a!2 (or (= -a on) (and (= -a off) (or (= -d off) (= -u on) (= -w off))))))
+  (and (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -r on) a!1) (and (= -multiple off) a!2))))
+-
+9 M 29 M 32 M 8 4 3 H 2 M 1 31 MHHM 2 H 3 H 1 31 MHH
+======
+# M/H: 32191 / 6384
+# Last rebuild:   iter 2  num_configs 1618
+translate.ml:6474, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -d off) (= -a off))
+               (and (= -w off) (= -a off))
+               (and (= -a on) (or (= -r off) (= -multiple off))))))
+  (and (= -rawurl off) (= -single off) (= --print-keys off) (= -v off) a!1))
+-
+14 M 9 M 29 M 32 M 3 H 31 1 2 4 8 MHHM 2 4 8 MHHH 2 4 8 MHHH
+======
+# M/H: 34456 / 3147
+# Last rebuild:   iter 3  num_configs 2546
+translate.ml:6499, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -d off) (= -a off))
+               (and (= -w off) (= -a off))
+               (and (= -a on) (or (= -r off) (= -multiple off))))))
+  (and (= -rawurl off)
+       (= -labelname on)
+       (= -single off)
+       (= -v off)
+       (= --print-keys off)
+       a!1))
+-
+14 M 28 9 M 32 M 29 M 3 H 31 1 2 4 8 MHHM 2 8 4 MHHH 2 8 4 MHHHM
+======
+# M/H: 29840 / 6608
+# Last rebuild:   iter 3  num_configs 2284
+translate.ml:6685, translate.ml:6731, translate.ml:6759, translate.ml:6787, translate.ml:6808, translate.ml:6856, translate.ml:6909, translate.ml:6919, translate.ml:6947, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -w off) (= -a off))
+               (and (= -a on)
+                    (or (= -r off) (= -multiple off) (= -nobibsource off)))
+               (and (= -d off)
+                    (or (= -a off)
+                        (= -r off)
+                        (= -multiple off)
+                        (= -nobibsource off))))))
+  (and (= -nolinks off) (= -single off) (= --print-keys off) (= -v off) a!1))
+-
+12 M 9 M 29 M 32 M 3 H 1 31 2 4 24 8 MHHHM 2 24 4 8 MHHHH 2 4 8 24 MHHHH
+======
+# M/H: 32663 / 4689
+# Last rebuild:   iter 3  num_configs 2295
+translate.ml:6824, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -w off) (= -a off))
+               (and (= -a on) (or (= -r off) (= -multiple off)))
+               (and (= -d off) (or (= -a off) (= -r off) (= -multiple off)))))
+      (a!2 (or (= -a on) (and (= -a off) (or (= -d off) (= -u on)))))
+      (a!3 (and (= -r off)
+                (= -u off)
+                (or (= -a on) (and (= -a off) (= -d on) (= -w off)))))
+      (a!4 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+(let ((a!5 (and (= -nodoi off)
+                (or (and (= -multiple off) a!2) a!3 (and (= -r on) a!4)))))
+  (and (= -nolinks off)
+       (= -single off)
+       (= -v off)
+       (= --print-keys off)
+       (or (and (= -nobibsource off) a!1) a!5))))
+-
+12 M 9 M 32 M 29 M 24 17 M 8 4 3 H 2 M 31 1 MHH 3 M 2 H 1 31 MHM 2 H 3 H 1 31 MHH 3 H 1 31 2 4 8 MHHM 2 4 8 MHHH 2 4 8 MHHH
+======
+# M/H: 30330 / 7288
+# Last rebuild:   iter 3  num_configs 2561
+translate.ml:6892, 
+-
+(and (= -nolinks off)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+12 M 9 M 32 M 29 M 2 H 31 1 3 HMHH
+======
+# M/H: 31736 / 6886
+# Last rebuild:   iter 2  num_configs 1665
+translate.ml:7822, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off)))
+      (a!3 (or (and (= -d off) (or (= -both on) (= -noabstract on)))
+               (and (= -w off) (or (= -both on) (= -noabstract on))))))
+(let ((a!2 (and (= -multiple off)
+                (or (and (= -both on) a!1) (and (= -noabstract on) a!1))))
+      (a!4 (or (and (= -u on) (or (= -both on) (= -noabstract on)))
+               (and (= -a off) a!3))))
+  (and (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       (or a!2 (and (= -r on) a!4)))))
+-
+9 M 29 M 32 M 8 4 3 7 H 15 HM 2 M 31 1 M 7 H 15 HM 7 H 15 HMM 15 2 H 1 31 3 HMHH 7 2 H 3 H 31 1 MHHM
+======
+# M/H: 33205 / 4428
+# Last rebuild:   iter 3  num_configs 2576
+translate.ml:7912, translate.ml:7987, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+(let ((a!2 (or (and (= -multiple off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off)))
+               (and (= -r on) a!1))))
+  (and (= -both on) (= -single off) (= --print-keys off) (= -v off) a!2)))
+-
+7 9 M 29 M 32 M 8 4 3 H 2 M 1 31 MHHM 2 H 3 H 1 31 MHHM
+======
+# M/H: 31451 / 7186
+# Last rebuild:   iter 2  num_configs 1680
+translate.ml:9270, 
+-
+(and (= -nodoi on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+17 9 M 29 M 32 M 2 H 31 1 3 HMHHM
+======
+# M/H: 31525 / 7127
+# Last rebuild:   iter 2  num_configs 1695
+translate.ml:9478, 
+-
+(and (= -noeprint on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+18 9 M 29 M 32 M 2 H 3 H 1 31 MHHM
+======
+# M/H: 30459 / 7189
+# Last rebuild:   iter 3  num_configs 2591
+translate.ml:9534, 
+-
+(and (= -nobibsource off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+24 M 9 M 29 M 32 M 2 H 31 1 3 HMHH
+======
+# M/H: 35691 / 2976
+# Last rebuild:   iter 2  num_configs 1710
+expand.ml:2738, expand.ml:2791, expand.ml:2867, expand.ml:2960, expand.ml:3039, expand.ml:4105, expand.ml:4220, expand.ml:4303, expand.ml:4340, 
+-
+(and (= -w off) (= -a off) (= -u off) (= -d on) (= -v off))
+-
+31 M 2 M 3 M 1 32 MHM
+======
+# M/H: 27795 / 10887
+# Last rebuild:   iter 2  num_configs 1725
+translate.ml:10855, translate.ml:11269, translate.ml:11295, translate.ml:11561, translate.ml:11588, translate.ml:11617, translate.ml:11643, translate.ml:11943, translate.ml:11970, 
+-
+(and (= -dl on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+25 29 M 32 M 2 H 3 H 1 31 MHHM
+======
+# M/H: 34243 / 4454
+# Last rebuild:   iter 2  num_configs 1740
+translate.ml:10990, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -dl on)
+       (= --print-keys off)
+       (or (and (= -single on) (= -w off) (= -v off))
+           (and (= -multiple off) (= -v off) a!1))))
+-
+25 29 M 8 9 31 M 32 MHM 32 M 31 9 M 1 2 H 3 HMHHM
+======
+# M/H: 31455 / 6208
+# Last rebuild:   iter 3  num_configs 2606
+translate.ml:13078, translate.ml:13139, translate.ml:13406, 
+-
+(and (= -multiple off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 9 M 29 M 32 M 2 H 3 H 1 31 MHH
+======
+# M/H: 34882 / 2796
+# Last rebuild:   iter 3  num_configs 2621
+translate.ml:13201, 
+-
+(and (= -multiple off)
+     (= -nobibsource on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 24 9 M 29 M 32 M 2 H 3 H 1 31 MHHM
+======
+# M/H: 33008 / 4688
+# Last rebuild:   iter 3  num_configs 2639
+translate.ml:13263, translate.ml:13287, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= -multiple off)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -both on) a!1) (and (= -noabstract off) a!1))))
+-
+8 M 9 M 29 M 32 M 7 2 H 3 H 1 31 MHH 15 M 2 H 31 3 H 1 MHH
+======
+# M/H: 34088 / 4624
+# Last rebuild:   iter 2  num_configs 1755
+translate.ml:14591, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -nofooter off)
+       (= --print-keys off)
+       (or (and (= -single on) (= -w off) (= -v off))
+           (and (= -multiple off) (= -v off) a!1))))
+-
+22 M 29 M 8 9 31 M 32 MHM 32 M 31 9 M 2 H 3 H 1 MHH
+======
+# M/H: 30208 / 8519
+# Last rebuild:   iter 2  num_configs 1770
+translate.ml:4961, translate.ml:4989, translate.ml:5016, translate.ml:5044, translate.ml:5095, translate.ml:5128, translate.ml:5162, translate.ml:5184, translate.ml:5206, translate.ml:5240, translate.ml:5264, translate.ml:5293, translate.ml:5321, translate.ml:5346, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -nofooter off) (= --print-keys off) (= -v off) a!1))
+-
+22 M 29 M 32 M 31 9 M 1 3 H 2 HMHH
+======
+# M/H: 32192 / 5519
+# Last rebuild:   iter 3  num_configs 2654
+translate.ml:7801, translate.ml:8522, translate.ml:8547, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off)))
+      (a!3 (or (= -u on) (and (= -a off) (or (= -d off) (= -u on) (= -w off))))))
+(let ((a!2 (and (= -multiple off)
+                (= --print-keys off)
+                (= -v off)
+                (or (and (= -both on) a!1) (and (= -noabstract off) a!1)))))
+  (and (= -single off)
+       (or a!2
+           (and (= -both off)
+                (= -r on)
+                (= -noabstract off)
+                (= -v off)
+                (= --print-keys off)
+                a!3)))))
+-
+9 M 8 7 M 4 15 M 32 M 29 M 2 3 HM 1 3 H 31 MHHM 29 M 32 M 7 2 H 3 H 1 31 MHH 15 M 2 H 1 3 H 31 MHH
+======
+# M/H: 29763 / 7355
+# Last rebuild:   iter 7  num_configs 3404
+translate.ml:8178, translate.ml:8214, translate.ml:8230, translate.ml:8269, translate.ml:8329, translate.ml:8354, translate.ml:8360, translate.ml:8385, translate.ml:8434, translate.ml:8471, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off)))))
+      (a!3 (and (= -nokeywords off)
+                (or (and (= -a on) (= -u off))
+                    (and (= -a off) (= -w off) (= -d on) (= -u off)))))
+      (a!5 (and (= -u off) (or (= -d off) (and (= -d on) (= -w off)))))
+      (a!7 (and (= -a off)
+                (or (= -u on) (= -w off) (and (= -u off) (= -d off))))))
+(let ((a!2 (or (and (= -nokeywords off) (or (= -d off) (= -u on)))
+               (and (= -noabstract off) a!1)))
+      (a!6 (or (= -a on) (and (= -a off) (or (= -u on) a!5)))))
+(let ((a!4 (and (= -both off) (or (and (= -r on) a!2) a!3)))
+      (a!8 (or (and (= -nokeywords off) (or (= -a on) a!7))
+               (and (= -noabstract off) a!6))))
+(let ((a!9 (and (= -multiple off)
+                (or (and (= -both on) a!6) (and (= -both off) a!8)))))
+  (and (= -single off) (= --print-keys off) (= -v off) (or a!4 a!9))))))
+-
+9 M 29 M 32 M 8 7 M 4 16 15 M 3 H 2 M 31 1 MHH 2 H 1 31 3 HMHH 16 M 2 3 MH 31 M 1 3 MHM 7 2 H 3 H 1 31 MHH 15 16 M 2 H 31 3 H 1 MHH 2 H 3 H 1 31 MHH
+======
+# M/H: 32217 / 5509
+# Last rebuild:   iter 3  num_configs 2669
+translate.ml:8247, translate.ml:8287, translate.ml:8403, 
+-
+(let ((a!1 (or (= -both on) (= -noabstract off) (= -nokeywords off))))
+  (and (= -multiple off)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       (or (and (= -w off) a!1)
+           (and (= -d off) a!1)
+           (and (= -u on) a!1)
+           (and (= -a on) a!1))))
+-
+8 M 9 M 29 M 32 M 2 7 H 15 16 MHH 1 3 7 H 15 16 MHH 31 M 7 H 15 16 MHH 16 15 7 HMHH
+======
+# M/H: 31849 / 6911
+# Last rebuild:   iter 2  num_configs 1803
+translate.ml:9075, translate.ml:9085, translate.ml:9252, 
+-
+(and (= -nodoi off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+17 M 9 M 29 M 32 M 1 31 3 H 2 HMHH
+======
+# M/H: 33420 / 5355
+# Last rebuild:   iter 2  num_configs 1818
+translate.ml:9137, translate.ml:9171, translate.ml:9197, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off)))))
+      (a!2 (and (= -r off) (= -u off) (or (= -a on) (and (= -w off) (= -d on))))))
+(let ((a!3 (or (and (= -r on) a!1)
+               a!2
+               (and (= -multiple off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off))))))
+  (and (= -nodoi off) (= -single off) (= --print-keys off) (= -v off) a!3)))
+-
+17 M 9 M 29 M 32 M 8 4 3 H 2 M 1 31 MHH 3 M 2 H 31 M 1 HM 2 H 1 3 H 31 MHH
+======
+# M/H: 34479 / 3262
+# Last rebuild:   iter 3  num_configs 2684
+translate.ml:9164, 
+-
+(and (= -multiple off)
+     (= -nodoi off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 17 M 9 M 29 M 32 M 2 H 31 3 H 1 MHH
+======
+# M/H: 33476 / 5314
+# Last rebuild:   iter 2  num_configs 1833
+bibfilter.ml:3062, 
+-
+(and (= -single on)
+     (= -w on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on)))
+-
+9 31 29 M 32 M 1 2 H 3 HMHMM
+======
+# M/H: 35605 / 3200
+# Last rebuild:   iter 2  num_configs 1848
+translate.ml:13352, translate.ml:16173, translate.ml:16201, translate.ml:16243, translate.ml:16280, translate.ml:16328, translate.ml:16358, 
+-
+(and (= -multiple off)
+     (= -both on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 7 9 M 29 M 32 M 2 H 3 H 1 31 MHHM
+======
+# M/H: 33313 / 5507
+# Last rebuild:   iter 2  num_configs 1863
+translate.ml:13484, translate.ml:8869, translate.ml:8877, translate.ml:9029, 
+-
+(let ((a!1 (or (= -d off) (= -a on) (= -u on) (= -w off))))
+  (and (= -nokeywords off)
+       (= -single off)
+       (= -v off)
+       (= --print-keys off)
+       (or (and (= -multiple off) a!1) (and (= -both off) a!1))))
+-
+16 M 9 M 32 M 29 M 7 8 M 3 H 2 H 31 1 MHH 1 2 H 3 H 31 MHH
+======
+# M/H: 32576 / 6259
+# Last rebuild:   iter 2  num_configs 1878
+translate.ml:6459, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -w off) (= -a off))
+               (and (= -a on) (or (= -multiple off) (= -r off)))
+               (and (= -d off) (= -a off)))))
+  (and (= -rawurl on) (= -single off) (= --print-keys off) (= -v off) a!1))
+-
+14 9 M 29 M 32 M 3 H 31 1 2 8 4 MHHM 2 8 4 MHHH 2 4 8 MHHHM
+======
+# M/H: 32916 / 4840
+# Last rebuild:   iter 3  num_configs 2699
+translate.ml:8932, translate.ml:8957, translate.ml:8988, 
+-
+(let ((a!1 (and (= -r on) (or (= -d off) (and (= -d on) (= -u on))))))
+(let ((a!2 (and (= -both off)
+                (or (and (= -w off) (= -d on) (= -u off))
+                    (and (= -a on) (= -u off))
+                    a!1))))
+(let ((a!3 (or (and (= -multiple off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off)))
+               a!2)))
+  (and (= -nokeywords off) (= -single off) (= -v off) (= --print-keys off) a!3))))
+-
+16 M 9 M 32 M 29 M 8 7 M 2 3 4 HMH 4 1 3 H 31 MHH 31 M 1 3 MHM 31 1 3 H 2 HMHH
+======
+# M/H: 31851 / 6999
+# Last rebuild:   iter 2  num_configs 1893
+translate.ml:9322, translate.ml:9332, translate.ml:9460, 
+-
+(and (= -noeprint off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+18 M 9 M 29 M 32 M 1 31 3 H 2 HMHH
+======
+# M/H: 37281 / 1584
+# Last rebuild:   iter 2  num_configs 1908
+expand.ml:4250, 
+-
+(and (= -w off) (= -q off) (= -a off) (= -u off) (= -d on) (= -v off))
+-
+31 M 30 M 2 M 3 M 1 32 MHM
+======
+# M/H: 34847 / 4033
+# Last rebuild:   iter 2  num_configs 1923
+translate.ml:10450, 
+-
+(and (= -nobibsource on)
+     (= -multiple on)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+24 8 9 M 32 M 29 M 31 1 3 H 2 HMHHMM
+======
+# M/H: 34868 / 4027
+# Last rebuild:   iter 2  num_configs 1938
+translate.ml:10672, 
+-
+(and (= -nofooter off)
+     (= -multiple on)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+22 M 8 9 M 29 M 32 M 2 H 31 3 H 1 MHHM
+======
+# M/H: 36615 / 2295
+# Last rebuild:   iter 2  num_configs 1953
+translate.ml:10346, 
+-
+(and (= -both off)
+     (= -nokeywords off)
+     (= -multiple on)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+7 M 16 M 8 9 M 32 M 29 M 1 31 3 H 2 HMHHM
+======
+# M/H: 34968 / 3957
+# Last rebuild:   iter 2  num_configs 1968
+translate.ml:10704, translate.ml:9783, translate.ml:9823, translate.ml:9843, translate.ml:9884, translate.ml:9917, 
+-
+(and (= -nodoc off)
+     (= -multiple on)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+10 M 8 9 M 32 M 29 M 3 H 2 H 31 1 MHHM
+======
+# M/H: 34242 / 3529
+# Last rebuild:   iter 3  num_configs 2714
+biboutput.ml:1391, translate.ml:13172, translate.ml:14965, translate.ml:15011, translate.ml:15131, translate.ml:15158, translate.ml:15308, translate.ml:15336, translate.ml:15368, translate.ml:15398, translate.ml:15608, translate.ml:15631, translate.ml:15666, translate.ml:15711, translate.ml:15723, translate.ml:15739, translate.ml:16476, 
+-
+(and (= -multiple off)
+     (= -nobibsource off)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 24 M 9 M 32 M 29 M 31 3 H 1 2 HMHH
+======
+# M/H: 36048 / 1738
+# Last rebuild:   iter 3  num_configs 2729
+biboutput.ml:4083, biboutput.ml:4120, biboutput.ml:4144, translate.ml:15452, translate.ml:15505, 
+-
+(and (= -multiple off)
+     (= -nobiblinks off)
+     (= -nobibsource off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 13 M 24 M 9 M 29 M 32 M 2 H 3 H 1 31 MHH
+======
+# M/H: 35876 / 1925
+# Last rebuild:   iter 3  num_configs 2744
+translate.ml:15038, translate.ml:15048, translate.ml:15109, translate.ml:15766, translate.ml:15772, translate.ml:15788, 
+-
+(and (= -multiple off)
+     (= -nobibsource off)
+     (= -q off)
+     (= -single off)
+     (= -v off)
+     (= --print-keys off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 24 M 30 M 9 M 32 M 29 M 2 H 31 3 H 1 MHH
+======
+# M/H: 35897 / 1919
+# Last rebuild:   iter 3  num_configs 2759
+translate.ml:15187, translate.ml:15227, translate.ml:15246, translate.ml:15278, translate.ml:15685, 
+-
+(and (= -multiple off)
+     (= -nodoc off)
+     (= -nobibsource off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 10 M 24 M 9 M 29 M 32 M 1 2 H 3 H 31 MHH
+======
+# M/H: 35916 / 1915
+# Last rebuild:   iter 3  num_configs 2774
+translate.ml:15653, 
+-
+(and (= -multiple off)
+     (= -nofooter off)
+     (= -nobibsource off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 22 M 24 M 9 M 29 M 32 M 2 H 31 1 3 HMHH
+======
+# M/H: 35941 / 1905
+# Last rebuild:   iter 3  num_configs 2789
+translate.ml:15566, 
+-
+(and (= -multiple off)
+     (= -nobiblinks on)
+     (= -nobibsource off)
+     (= -single off)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+8 M 13 24 M 9 M 29 M 32 M 3 H 31 1 2 HMHHM
+======
+# M/H: 35377 / 2484
+# Last rebuild:   iter 3  num_configs 2804
+translate.ml:8053, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+(let ((a!2 (or (and (= -multiple off)
+                    (or (= -d off) (= -a on) (= -u on) (= -w off)))
+               (and (= -r on) a!1))))
+  (and (= -noabstract on)
+       (= -both off)
+       (= -single off)
+       (= --print-keys off)
+       (= -v off)
+       a!2)))
+-
+15 7 M 9 M 29 M 32 M 8 4 3 H 2 M 1 31 MHHM 31 3 H 2 H 1 MHHM
+======
+# M/H: 33805 / 3193
+# Last rebuild:   iter 3  num_configs 2834
+translate.ml:6562, 
+-
+(let ((a!1 (or (= -u on)
+               (and (= -d off) (= -a off))
+               (and (= -a on) (or (= -r off) (= -multiple off)))
+               (and (= -w off) (= -a off)))))
+  (and (= -labelname off)
+       (= -rawurl off)
+       (= -single off)
+       (= -v off)
+       (= --print-keys off)
+       a!1))
+-
+28 M 14 M 9 M 32 M 29 M 3 H 1 31 2 4 8 MHHM 2 8 4 MHHH 2 4 8 MHHH
+======
+# M/H: 36983 / 917
+# Last rebuild:   iter 3  num_configs 2843
+translate.ml:10201, translate.ml:10224, 
+-
+(let ((a!1 (or (= -u on) (and (= -a off) (or (= -d off) (= -w off))))))
+  (and (= -both off)
+       (= -noabstract off)
+       (= -r on)
+       (= -multiple on)
+       (= -single off)
+       (= -v off)
+       (= --print-keys off)
+       a!1))
+-
+7 M 15 M 4 8 9 M 32 M 29 M 3 H 2 M 1 31 MHHMM
+======
+# M/H: 34918 / 2997
+# Last rebuild:   iter 3  num_configs 2858
+translate.ml:10895, translate.ml:11338, translate.ml:11686, translate.ml:12013, 
+-
+(and (= -use-table off)
+     (= -dl off)
+     (= -nokeys on)
+     (= --print-keys off)
+     (= -v off)
+     (or (= -d off) (= -a on) (= -u on) (= -w off)))
+-
+20 M 25 M 11 29 M 32 M 2 H 31 1 3 HMHHM
+======
+# M/H: 36673 / 1257
+# Last rebuild:   iter 3  num_configs 2873
+translate.ml:11031, 
+-
+(let ((a!1 (or (= -w off)
+               (and (= -single off) (or (= -d off) (= -a on) (= -u on))))))
+  (and (= -use-table off)
+       (= -dl off)
+       (= -nokeys on)
+       (or (and (= -single on) (= -w off) (= -v off) (= --print-keys off))
+           (and (= -multiple off) (= --print-keys off) (= -v off) a!1))))
+-
+20 M 25 M 11 8 9 31 M 32 M 29 MHM 29 M 32 M 31 9 M 1 3 H 2 HMHHM
+======

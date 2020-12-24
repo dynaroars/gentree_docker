@@ -1,0 +1,3605 @@
+# ./igen4 -J2 -crwx -GF 2/ls --rep 11 -O res/ls/a_{i}.txt -j64 --rep-para 11
+# seed = 130, repeat_id = 7, thread_id = 3
+#   173482 1289  193 |     0  2104 |  7   84 |   711   674  39431 | dfb512274d9acecbfed8756bd99fdc09
+======
+# M/H: 0 / 174377
+# Last rebuild:   iter 1  num_configs 5
+ls.c:1625, ls.c:1632, ls.c:1633, ls.c:1637, ls.c:1638, ls.c:1643, ls.c:1644, ls.c:1645, ls.c:1647, ls.c:1648, ls.c:1650, ls.c:1863, ls.c:1865, ls.c:1867, ls.c:1868, ls.c:1870, ls.c:1874, ls.c:1888, ls.c:1890, ls.c:1899, ls.c:1900, ls.c:1902, ls.c:1908, ls.c:1909, ls.c:1910, ls.c:1911, ls.c:1912, ls.c:1913, ls.c:1914, ls.c:1915, ls.c:1916, ls.c:1917, ls.c:1918, ls.c:1919, ls.c:1920, ls.c:1921, ls.c:1923, ls.c:1925, ls.c:1927, ls.c:1928, ls.c:1938, ls.c:1945, ls.c:1946, ls.c:1947, ls.c:1962, ls.c:1963, ls.c:1964, ls.c:1967, ls.c:1970, ls.c:2828, ls.c:2830, ls.c:2831, ls.c:2841, system.h:101, system.h:102, system.h:103, system.h:99, 
+-
+true
+-
+H
+======
+# M/H: 109997 / 64405
+# Last rebuild:   iter 1  num_configs 30
+ls.c:1984, ls.c:1985, ls.c:1986, 
+-
+(= -d on)
+-
+8 MH
+======
+# M/H: 92074 / 82353
+# Last rebuild:   iter 1  num_configs 55
+ls.c:1988, ls.c:1990, ls.c:1991, ls.c:1992, ls.c:1994, ls.c:1996, ls.c:1997, ls.c:1998, ls.c:1999, 
+-
+(= -f on)
+-
+10 MH
+======
+# M/H: 90700 / 83752
+# Last rebuild:   iter 1  num_configs 80
+ls.c:2001, ls.c:2002, ls.c:2003, 
+-
+(= --file-type on)
+-
+12 MH
+======
+# M/H: 87951 / 86526
+# Last rebuild:   iter 1  num_configs 105
+ls.c:2010, ls.c:2011, ls.c:2013, ls.c:2014, 
+-
+(= -h on)
+-
+17 MH
+======
+# M/H: 87166 / 87336
+# Last rebuild:   iter 1  num_configs 130
+ls.c:2020, ls.c:2021, ls.c:2022, 
+-
+(= -k on)
+-
+22 MH
+======
+# M/H: 91569 / 82958
+# Last rebuild:   iter 1  num_configs 155
+ls.c:2042, ls.c:2043, ls.c:2044, 
+-
+(= -p on)
+-
+29 MH
+======
+# M/H: 87394 / 87008
+# Last rebuild:   iter 2  num_configs 429
+ls.c:2050, ls.c:2051, ls.c:2052, 
+-
+(= -r on)
+-
+33 MH
+======
+# M/H: 93930 / 80497
+# Last rebuild:   iter 2  num_configs 454
+ls.c:2054, ls.c:2055, ls.c:2056, 
+-
+(= -s on)
+-
+35 MH
+======
+# M/H: 89455 / 84997
+# Last rebuild:   iter 2  num_configs 479
+ls.c:2063, ls.c:2064, ls.c:2065, 
+-
+(= -u on)
+-
+38 MH
+======
+# M/H: 87768 / 86709
+# Last rebuild:   iter 2  num_configs 504
+ls.c:2082, ls.c:2083, ls.c:2084, 
+-
+(= -A on)
+-
+1 MH
+======
+# M/H: 85586 / 88916
+# Last rebuild:   iter 2  num_configs 529
+ls.c:2091, ls.c:2092, ls.c:2093, 
+-
+(= -C on)
+-
+7 MH
+======
+# M/H: 87694 / 86833
+# Last rebuild:   iter 2  num_configs 554
+ls.c:2123, ls.c:2124, ls.c:2125, 
+-
+(= -N on)
+-
+27 MH
+======
+# M/H: 101314 / 73238
+# Last rebuild:   iter 2  num_configs 579
+ls.c:2150, ls.c:2151, ls.c:2152, ls.c:2153, 
+-
+(= -X on)
+-
+42 MH
+======
+# M/H: 88264 / 86313
+# Last rebuild:   iter 2  num_configs 604
+ls.c:2179, ls.c:2180, ls.c:2181, 
+-
+(= --group-directories-first on)
+-
+15 MH
+======
+# M/H: 98132 / 76470
+# Last rebuild:   iter 2  num_configs 629
+ls.c:2191, ls.c:2192, ls.c:2193, ls.c:2194, 
+-
+(= --full-time on)
+-
+13 MH
+======
+# M/H: 88858 / 85769
+# Last rebuild:   iter 2  num_configs 654
+ls.c:2253, ls.c:2254, ls.c:2255, 
+-
+(= --show-control-chars on)
+-
+31 MH
+======
+# M/H: 87554 / 87098
+# Last rebuild:   iter 2  num_configs 679
+ls.c:2268, ls.c:2269, ls.c:2271, ls.c:2272, 
+-
+(= --si on)
+-
+18 MH
+======
+# M/H: 126367 / 48310
+# Last rebuild:   iter 2  num_configs 704
+ls.c:2278, ls.c:5336, ls.c:5338, ls.c:5342, ls.c:5343, ls.c:5348, ls.c:5350, ls.c:5356, ls.c:5360, ls.c:5367, ls.c:5376, ls.c:5384, ls.c:5387, ls.c:5393, ls.c:5396, ls.c:5400, ls.c:5410, ls.c:5414, ls.c:5423, ls.c:5427, ls.c:5435, ls.c:5442, ls.c:5453, ls.c:5458, ls.c:5470, ls.c:5473, ls.c:5477, ls.c:5484, ls.c:5492, ls.c:5493, ls.c:5494, ls.c:5495, ls.c:5503, ls.c:5510, ls.c:5517, ls.c:5519, system.h:588, system.h:590, system.h:593, system.h:596, system.h:598, system.h:603, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(= --help on)
+-
+45 MH
+======
+# M/H: 73356 / 101053
+# Last rebuild:   iter 3  num_configs 4536
+system.h:698, system.h:700, 
+-
+(let ((a!1 (or (= -n on) (= -o on) (and (= -m off) (or (= -g on) (= -l on))))))
+  (or (= --full-time on) (and (= -x off) (= --help off) (= --version off) a!1)))
+-
+13 41 45 46 26 28 25 23 14 MHHMHHMMMH
+======
+# M/H: 87518 / 87034
+# Last rebuild:   iter 1  num_configs 180
+ls.c:1972, ls.c:1973, ls.c:1974, 
+-
+(= -a on)
+-
+0 MH
+======
+# M/H: 86747 / 87830
+# Last rebuild:   iter 1  num_configs 205
+ls.c:1976, ls.c:1977, ls.c:1978, 
+-
+(= -b on)
+-
+3 MH
+======
+# M/H: 88174 / 86555
+# Last rebuild:   iter 2  num_configs 756
+ls.c:1980, ls.c:1981, ls.c:1982, 
+-
+(= -c on)
+-
+6 MH
+======
+# M/H: 96716 / 77886
+# Last rebuild:   iter 1  num_configs 230
+ls.c:2005, ls.c:2006, ls.c:2007, ls.c:2008, 
+-
+(= -g on)
+-
+14 MH
+======
+# M/H: 89789 / 84965
+# Last rebuild:   iter 2  num_configs 781
+ls.c:2016, ls.c:2017, ls.c:2018, 
+-
+(= -i on)
+-
+21 MH
+======
+# M/H: 97172 / 77455
+# Last rebuild:   iter 1  num_configs 255
+ls.c:2024, ls.c:2025, ls.c:2026, 
+-
+(= -l on)
+-
+23 MH
+======
+# M/H: 96907 / 77745
+# Last rebuild:   iter 1  num_configs 280
+ls.c:2028, ls.c:2029, ls.c:2030, 
+-
+(= -m on)
+-
+25 MH
+======
+# M/H: 111377 / 63402
+# Last rebuild:   iter 2  num_configs 806
+ls.c:2032, ls.c:2033, ls.c:2034, ls.c:2035, 
+-
+(= -n on)
+-
+26 MH
+======
+# M/H: 110779 / 64025
+# Last rebuild:   iter 2  num_configs 831
+ls.c:2037, ls.c:2038, ls.c:2039, ls.c:2040, 
+-
+(= -o on)
+-
+28 MH
+======
+# M/H: 85874 / 88803
+# Last rebuild:   iter 1  num_configs 305
+ls.c:2046, ls.c:2047, ls.c:2048, 
+-
+(= -q on)
+-
+30 MH
+======
+# M/H: 93848 / 80981
+# Last rebuild:   iter 2  num_configs 856
+ls.c:2058, ls.c:2059, ls.c:2060, ls.c:2061, 
+-
+(= -t on)
+-
+37 MH
+======
+# M/H: 98224 / 76478
+# Last rebuild:   iter 1  num_configs 330
+ls.c:2067, ls.c:2068, ls.c:2069, ls.c:2070, 
+-
+(= -v on)
+-
+40 MH
+======
+# M/H: 114911 / 59943
+# Last rebuild:   iter 2  num_configs 881
+ls.c:2078, ls.c:2079, ls.c:2080, 
+-
+(= -x on)
+-
+41 MH
+======
+# M/H: 86995 / 87884
+# Last rebuild:   iter 2  num_configs 906
+ls.c:2086, ls.c:2087, ls.c:2088, ls.c:2089, ls.c:3084, ls.c:3088, ls.c:3089, ls.c:3091, ls.c:3092, ls.c:3093, 
+-
+(= -B on)
+-
+5 MH
+======
+# M/H: 86543 / 88361
+# Last rebuild:   iter 2  num_configs 931
+ls.c:2095, ls.c:2096, ls.c:2097, 
+-
+(= -D on)
+-
+9 MH
+======
+# M/H: 88966 / 85963
+# Last rebuild:   iter 2  num_configs 956
+ls.c:2099, ls.c:2100, ls.c:2101, 
+-
+(= -F on)
+-
+11 MH
+======
+# M/H: 88179 / 86775
+# Last rebuild:   iter 2  num_configs 981
+ls.c:2103, ls.c:2104, ls.c:2105, 
+-
+(= -G on)
+-
+16 MH
+======
+# M/H: 89931 / 85048
+# Last rebuild:   iter 2  num_configs 1006
+ls.c:2107, ls.c:2108, ls.c:2109, 
+-
+(= -H on)
+-
+19 MH
+======
+# M/H: 90748 / 84256
+# Last rebuild:   iter 2  num_configs 1031
+ls.c:2111, ls.c:2112, ls.c:2113, 
+-
+(= --dereference-command-line-symlink-to-dir on)
+-
+20 MH
+======
+# M/H: 94233 / 80796
+# Last rebuild:   iter 2  num_configs 1056
+ls.c:2119, ls.c:2120, ls.c:2121, 
+-
+(= -L on)
+-
+24 MH
+======
+# M/H: 89308 / 85419
+# Last rebuild:   iter 1  num_configs 355
+ls.c:2127, ls.c:2128, ls.c:2129, 
+-
+(= -Q on)
+-
+32 MH
+======
+# M/H: 85291 / 89763
+# Last rebuild:   iter 2  num_configs 1081
+ls.c:2131, ls.c:2132, ls.c:2133, 
+-
+(= -R on)
+-
+34 MH
+======
+# M/H: 92567 / 82512
+# Last rebuild:   iter 2  num_configs 1106
+ls.c:2135, ls.c:2136, ls.c:2137, ls.c:2138, 
+-
+(= -S on)
+-
+36 MH
+======
+# M/H: 96808 / 78296
+# Last rebuild:   iter 2  num_configs 1131
+ls.c:2145, ls.c:2146, ls.c:2147, ls.c:2148, 
+-
+(= -U on)
+-
+39 MH
+======
+# M/H: 95172 / 79957
+# Last rebuild:   iter 2  num_configs 1156
+ls.c:2155, ls.c:2157, ls.c:2159, 
+-
+(= -1 on)
+-
+44 MH
+======
+# M/H: 132059 / 43095
+# Last rebuild:   iter 2  num_configs 1181
+ls.c:2158, 
+-
+(let ((a!1 (and (= -n off)
+                (= -o off)
+                (or (= -m on) (and (= -g off) (= --full-time off) (= -l off))))))
+  (and (= -1 on) (or (= -x on) a!1)))
+-
+44 M 41 26 28 25 14 13 23 HMMMHMMH
+======
+# M/H: 88009 / 87170
+# Last rebuild:   iter 2  num_configs 1206
+ls.c:2161, ls.c:2162, ls.c:2163, 
+-
+(= --author on)
+-
+2 MH
+======
+# M/H: 35503 / 139164
+# Last rebuild:   iter 2  num_configs 1231
+ls.c:2257, ls.c:2259, ls.c:2261, ls.c:2263, ls.c:2264, ls.c:2266, 
+-
+(or (= --block-size K)
+    (= --block-size KB)
+    (= --block-size M)
+    (= --block-size MB))
+-
+4 HHHHM
+======
+# M/H: 94051 / 81163
+# Last rebuild:   iter 2  num_configs 1241
+ls.c:2274, ls.c:2275, ls.c:2276, 
+-
+(= -Z on)
+-
+43 MH
+======
+# M/H: 148075 / 27164
+# Last rebuild:   iter 2  num_configs 1266
+ls.c:2280, 
+-
+(and (= --version on) (= --help off))
+-
+46 M 45 HM
+======
+# M/H: 149837 / 24540
+# Last rebuild:   iter 3  num_configs 4504
+../coreutils-8.32/lib/smack.h:39, ../coreutils-8.32/lib/smack.h:44, ls.c:3172, ls.c:3175, 
+-
+(let ((a!1 (and (= -o off)
+                (= -n off)
+                (or (= -m on) (and (= -g off) (= -l off) (= --full-time off))))))
+  (and (= -Z off)
+       (= -d off)
+       (= --version off)
+       (= --help off)
+       (or a!1 (= -x on))))
+-
+43 8 46 45 41 28 26 25 14 23 13 HMMMHMMHMMMM
+======
+# M/H: 75488 / 99776
+# Last rebuild:   iter 2  num_configs 1291
+ls.c:1117, ls.c:1119, ls.c:1121, ls.c:1124, ls.c:1127, ls.c:1135, ls.c:1152, ls.c:1156, ls.c:1160, ls.c:1161, ls.c:1162, ls.c:1164, ls.c:1167, ls.c:1176, ls.c:1448, ls.c:1450, ls.c:1456, ls.c:1487, ls.c:1489, ls.c:1524, ls.c:1652, ls.c:1657, ls.c:1668, ls.c:1677, ls.c:1689, ls.c:1694, ls.c:1695, ls.c:1696, ls.c:1701, ls.c:1707, ls.c:1718, ls.c:1719, ls.c:1720, ls.c:1722, ls.c:1724, ls.c:1726, ls.c:1735, ls.c:1736, ls.c:1738, ls.c:1740, ls.c:1741, ls.c:1750, ls.c:1759, ls.c:1789, ls.c:1816, ls.c:1825, ls.c:1831, ls.c:1968, ls.c:2287, ls.c:2305, ls.c:2308, ls.c:2310, ls.c:2311, ls.c:2314, ls.c:2317, ls.c:2318, ls.c:2320, ls.c:2327, ls.c:2328, ls.c:2333, ls.c:2344, ls.c:2351, ls.c:2437, ls.c:3181, ls.c:3183, ls.c:3189, ls.c:3190, ls.c:3191, ls.c:3192, ls.c:3193, ls.c:3194, ls.c:3195, ls.c:3196, ls.c:3197, ls.c:3198, ls.c:3199, ls.c:3200, ls.c:3201, ls.c:3202, ls.c:3302, ls.c:3305, ls.c:3310, ls.c:3312, ls.c:3318, ls.c:3319, ls.c:3320, ls.c:3321, ls.c:3323, ls.c:3324, ls.c:3332, ls.c:3376, ls.c:3377, ls.c:3384, ls.c:3393, ls.c:3430, ls.c:3446, ls.c:3449, ls.c:3453, ls.c:3497, ls.c:3522, ls.c:3524, ls.c:3526, ls.c:3534, ls.c:3535, ls.c:3545, ls.c:3569, ls.c:3576, ls.c:3610, ls.c:3618, ls.c:3619, ls.c:3621, ls.c:3985, ls.c:3987, ls.c:3988, ls.c:3989, ls.c:3994, ls.c:3998, ls.c:4000, ls.c:4001, ls.c:4002, ls.c:4005, ls.c:4007, ls.c:4034, ls.c:4038, ls.c:4075, ls.c:4449, ls.c:4453, ls.c:4455, ls.c:4458, ls.c:4459, ls.c:4460, ls.c:4464, ls.c:4466, ls.c:4467, ls.c:4473, ls.c:4491, ls.c:4630, ls.c:4632, ls.c:4635, ls.c:4637, ls.c:4684, ls.c:4689, ls.c:4693, ls.c:4696, ls.c:4699, ls.c:4704, ls.c:4706, ls.c:4725, ls.c:4728, ls.c:4730, ls.c:4732, ls.c:4735, ls.c:4742, ls.c:4745, ls.c:4749, ls.c:4754, ls.c:4756, ls.c:4757, ls.c:4759, ls.c:4760, ls.c:4762, ls.c:4763, ls.c:4765, ls.c:4766, ls.c:4781, statx.h:23, statx.h:27, statx.h:28, statx.h:29, statx.h:33, statx.h:35, statx.h:36, statx.h:37, statx.h:38, statx.h:39, statx.h:40, statx.h:41, statx.h:42, statx.h:43, statx.h:46, statx.h:47, statx.h:48, statx.h:49, statx.h:50, 
+-
+(and (= --version off) (= --help off))
+-
+46 45 HMM
+======
+# M/H: 128222 / 47067
+# Last rebuild:   iter 2  num_configs 1316
+ls.c:1122, ls.c:3613, ls.c:3614, ls.c:3615, ls.c:4212, ls.c:4214, ls.c:4215, ls.c:4216, ls.c:4217, 
+-
+(and (= -i on) (= --help off) (= --version off))
+-
+21 M 45 46 HMM
+======
+# M/H: 91593 / 83548
+# Last rebuild:   iter 4  num_configs 6920
+ls.c:1137, ls.c:1141, ls.c:1692, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+(let ((a!2 (and (= -S off)
+                (= -t off)
+                (or (= -f on) (and (= -u off) (= -c off)) (and (= -x off) a!1)))))
+  (and (= --version off) (= --help off) (or (= -U on) (= -v on) (= -X on) a!2))))
+-
+46 45 39 40 42 36 37 10 38 6 H 41 28 25 23 14 13 26 MHHHH 26 MHHM 41 28 26 25 23 13 14 MHHHMHHMHMMHHHMM
+======
+# M/H: 85169 / 89208
+# Last rebuild:   iter 4  num_configs 6156
+ls.c:1180, ls.c:1182, 
+-
+(let ((a!1 (or (= -F off) (= --file-type on) (= -p on))))
+(let ((a!2 (and (= -n off)
+                (= -o off)
+                (or (and (= -m on) a!1)
+                    (and (= --full-time off) (= -l off) (= -g off) a!1)))))
+(let ((a!3 (and (= -d off) (or (and (= -x on) a!1) a!2))))
+  (and (= --version off)
+       (= --help off)
+       (or (= -H on)
+           (= --dereference-command-line-symlink-to-dir on)
+           (= -L on)
+           a!3)))))
+-
+46 45 19 20 24 8 41 26 28 25 13 23 14 12 11 H 29 MHHMMM 11 H 29 12 MHHMM 12 11 H 29 MHHMHHHMM
+======
+# M/H: 107860 / 67502
+# Last rebuild:   iter 2  num_configs 1389
+ls.c:1423, ls.c:1425, ls.c:1426, ls.c:1427, ls.c:1428, ls.c:1742, ls.c:1756, ls.c:1757, ls.c:1761, ls.c:1762, ls.c:1764, ls.c:1782, ls.c:1783, ls.c:1785, ls.c:1786, ls.c:2877, ls.c:2879, ls.c:2880, ls.c:2881, ls.c:2882, ls.c:2883, ls.c:2884, ls.c:2885, ls.c:2893, ls.c:2897, ls.c:2899, ls.c:2901, ls.c:2902, ls.c:2903, ls.c:2909, ls.c:2939, ls.c:2941, ls.c:2971, ls.c:2972, ls.c:2973, ls.c:2975, ls.c:2976, ls.c:2978, ls.c:2981, ls.c:2985, ls.c:2988, ls.c:2995, ls.c:3003, ls.c:3015, ls.c:3022, ls.c:3038, ls.c:3043, ls.c:3046, ls.c:3053, ls.c:3058, ls.c:3061, ls.c:3076, ls.c:3098, ls.c:3101, ls.c:3104, ls.c:3110, ls.c:3112, ls.c:3115, ls.c:3117, ls.c:3165, ls.c:3167, ls.c:3168, ls.c:3169, ls.c:3170, ls.c:3177, ls.c:3333, ls.c:3334, ls.c:3527, ls.c:3626, ls.c:3628, ls.c:3703, ls.c:3707, ls.c:3709, ls.c:3719, ls.c:3721, ls.c:3723, ls.c:3724, ls.c:3727, ls.c:3728, ls.c:3735, ls.c:3736, ls.c:3743, ls.c:3745, ls.c:3746, ls.c:3747, ls.c:3749, ls.c:3750, 
+-
+(and (= -d off) (= --version off) (= --help off))
+-
+8 46 45 HMMM
+======
+# M/H: 124135 / 51252
+# Last rebuild:   iter 2  num_configs 1414
+ls.c:1659, 
+-
+(and (= --group-directories-first off) (= --help off) (= --version off))
+-
+15 45 46 HMMM
+======
+# M/H: 86707 / 88384
+# Last rebuild:   iter 4  num_configs 6870
+ls.c:1691, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+(let ((a!2 (and (= -t off)
+                (or (and (= -u off) (= -c off))
+                    (= -f on)
+                    (= -S on)
+                    (and (= -x off) a!1)))))
+  (and (= --version off) (= --help off) (or (= -U on) (= -v on) (= -X on) a!2))))
+-
+46 45 39 40 42 37 10 36 38 6 H 41 28 26 25 13 14 23 MHHHMHHM 41 28 26 25 14 13 23 MHHHMHHMHHMHHHMM
+======
+# M/H: 132874 / 41663
+# Last rebuild:   iter 3  num_configs 4664
+ls.c:1693, 
+-
+(let ((a!1 (and (= -S off)
+                (= -t off)
+                (or (= -f on) (and (= -c off) (= -u off)))))
+      (a!3 (and (= -t off)
+                (= -S off)
+                (or (= -f on) (and (= -u off) (= -c off))))))
+(let ((a!2 (or (= -U on) (= -v on) (= -X on) a!1)))
+(let ((a!4 (or (and (= -g off) (= --full-time off) (= -l off) a!2)
+               (and (= -m on) (or a!3 (= -U on) (= -v on) (= -X on))))))
+  (and (= --version off)
+       (= --help off)
+       (or (and (= -n off) (= -o off) a!4) (and (= -x on) a!2))))))
+-
+46 45 41 26 28 25 14 13 23 39 40 42 36 37 10 6 38 HMMHMMHHHMMM 40 39 42 37 36 10 38 6 HMMHMMHHHMM 39 42 40 36 37 10 6 38 HMMHMMHHHMM
+======
+# M/H: 165335 / 9072
+# Last rebuild:   iter 4  num_configs 6186
+ls.c:1697, ls.c:1698, 
+-
+(let ((a!1 (or (= -f on) (and (= -u off) (= -c off))))
+      (a!4 (and (= -t off)
+                (= -S off)
+                (or (= -f on) (and (= -c off) (= -u off))))))
+(let ((a!2 (and (= -x on)
+                (or (= -U on)
+                    (= -v on)
+                    (= -X on)
+                    (and (= -S off) (= -t off) a!1))))
+      (a!3 (and (= -g off)
+                (= -l off)
+                (= --full-time off)
+                (or (= -U on)
+                    (= -v on)
+                    (= -X on)
+                    (and (= -t off) (= -S off) a!1)))))
+(let ((a!5 (or a!3 (and (= -m on) (or (= -U on) (= -v on) (= -X on) a!4)))))
+  (and (= -R off)
+       (= -Z off)
+       (= -s off)
+       (= --version off)
+       (= --help off)
+       (or a!2 (and (= -o off) (= -n off) a!5))))))
+-
+34 43 35 46 45 41 28 26 25 14 23 13 40 39 42 37 36 10 38 6 HMMHMMHHHMMM 39 42 40 37 36 10 6 38 HMMHMMHHHMM 39 42 40 36 37 10 38 6 HMMHMMHHHMMMMM
+======
+# M/H: 83987 / 91529
+# Last rebuild:   iter 2  num_configs 1543
+ls.c:2312, 
+-
+(and (= --version off)
+     (= --help off)
+     (or (= -m off) (= -n on) (= -o on) (= -x on) (= -1 on)))
+-
+46 45 25 H 41 44 28 26 MHHHHMM
+======
+# M/H: 110172 / 64435
+# Last rebuild:   iter 3  num_configs 4734
+ls.c:2313, ls.c:2315, ls.c:2316, 
+-
+(let ((a!1 (and (= -1 off) (or (= -x on) (and (= -m off) (= -C on)))))
+      (a!2 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= --version off) (= --help off) (or a!1 (and (= -x off) a!2))))
+-
+46 45 44 26 25 7 13 23 14 28 41 MHHHHHH 28 41 MHHH 41 26 28 25 14 13 23 MHHHMHHMMM
+======
+# M/H: 101406 / 74175
+# Last rebuild:   iter 2  num_configs 1608
+ls.c:2346, 
+-
+(and (= --version off) (= --help off) (or (= -c on) (= -u on)))
+-
+46 45 6 38 MHHMM
+======
+# M/H: 106244 / 64472
+# Last rebuild:   iter 39  num_configs 20713
+ls.c:3077, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+(let ((a!2 (or (= -R on)
+               (= -s on)
+               (= -v on)
+               (= -X on)
+               (and (= -f off) (= -U off))
+               (and (= -x off) a!1)
+               (and (= -U off) (or (= -S on) (= -t on)))
+               (and (= -1 off) (or (= -C on) (= -m on) (= -x on))))))
+  (and (= -d off) (= --version off) (= --help off) a!2)))
+-
+8 46 45 34 40 42 35 10 39 H 44 7 13 41 25 26 14 23 28 MHHHHHHHH 41 26 25 13 23 14 28 MHHHH 28 MHHM 44 7 13 25 26 14 41 28 23 39 36 37 MHHMHHHHHHHH 41 28 26 25 13 14 23 39 36 37 MHHMHHH 36 37 M 39 HM 39 HMHH 39 36 37 MHHMHHHHMMM
+======
+# M/H: 141751 / 33876
+# Last rebuild:   iter 2  num_configs 1654
+ls.c:3102, 
+-
+(and (= -B on) (= -d off) (= --help off) (= --version off))
+-
+5 M 8 45 46 HMMM
+======
+# M/H: 161423 / 13035
+# Last rebuild:   iter 4  num_configs 6237
+ls.c:3338, ls.c:3344, ls.c:3350, 
+-
+(let ((a!1 (and (= -S off)
+                (= -t off)
+                (or (= -f on) (and (= -c off) (= -u off)))))
+      (a!3 (and (= -t off)
+                (= -S off)
+                (or (= -f on) (and (= -u off) (= -c off))))))
+(let ((a!2 (or (= -U on) (= -v on) (= -X on) a!1)))
+(let ((a!4 (or (and (= -m on) a!2)
+               (and (= -g off)
+                    (= -l off)
+                    (= --full-time off)
+                    (or (= -U on) (= -v on) (= -X on) a!3)))))
+  (and (= -Z off)
+       (= -s off)
+       (= -d off)
+       (= --help off)
+       (= --version off)
+       (or (and (= -o off) (= -n off) a!4) (and (= -x on) a!2))))))
+-
+43 35 8 45 46 41 28 26 25 14 23 13 40 42 39 37 36 10 38 6 HMMHMMHHHMMM 39 42 40 36 37 10 6 38 HMMHMMHHHMM 39 42 40 36 37 10 6 38 HMMHMMHHHMMMMM
+======
+# M/H: 163529 / 12590
+# Last rebuild:   iter 57  num_configs 54257
+ls.c:3345, 
+-
+(let ((a!1 (or (= -F on)
+               (= --file-type on)
+               (= --group-directories-first on)
+               (= -i on)
+               (= -p on)
+               (= -R on))))
+(let ((a!2 (and (= -S off)
+                (= -t off)
+                (or (and (= -f on) a!1) (and (= -c off) (= -u off) a!1))))
+      (a!4 (and (= -t off)
+                (= -S off)
+                (or (and (= -f on) a!1) (and (= -u off) (= -c off) a!1)))))
+(let ((a!3 (and (= -x on)
+                (or (and (= -U on) a!1)
+                    (and (= -X on) a!1)
+                    (and (= -v on) a!1)
+                    a!2)))
+      (a!5 (or (and (= -v on) a!1) (and (= -U on) a!1) a!4 (and (= -X on) a!1))))
+(let ((a!6 (and (= -o off)
+                (= -n off)
+                (or (and (= -m on) a!5)
+                    (and (= --full-time off) (= -g off) (= -l off) a!5)))))
+  (and (= -Z off)
+       (= -s off)
+       (= -d off)
+       (= --help off)
+       (= --version off)
+       (or a!3 a!6))))))
+-
+43 35 8 45 46 41 28 26 25 13 14 23 39 40 42 37 36 10 38 6 11 34 15 12 29 21 MHHHHHHMM 11 12 34 29 15 21 MHHHHHHMM 29 11 12 34 15 21 MHHHHHH 29 34 15 11 21 12 MHHHHHH 29 12 34 15 11 21 MHHHHHHMMM 40 39 42 37 36 10 38 6 34 15 12 11 21 29 MHHHHHHMM 15 34 12 11 21 29 MHHHHHHMM 34 15 29 12 21 11 MHHHHHH 34 15 12 11 29 21 MHHHHHH 34 11 15 12 21 29 MHHHHHHMM 39 40 42 36 37 10 6 38 34 12 11 29 15 21 MHHHHHHMM 34 12 29 15 21 11 MHHHHHHMM 11 34 15 12 21 29 MHHHHHH 34 11 15 29 12 21 MHHHHHH 11 34 15 29 21 12 MHHHHHHMMMMM
+======
+# IGNORED
+# M/H: 112004 / 61478
+# Last rebuild:   iter 84  num_configs 173482
+ls.c:3380, ls.c:3381, ls.c:5195, ls.c:5197, ls.c:5200, ls.c:5202, ls.c:5203, ls.c:5205, ls.c:5208, ls.c:5209, ls.c:5210, ls.c:5211, 
+-
+(let ((a!1 (or (= -S on) (= -t on) (and (= -f off) (or (= -c on) (= -u on)))))
+      (a!2 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+(let ((a!3 (or (= -i on)
+               (= -s on)
+               (= -Z on)
+               (and (= -U off) (= -v off) (= -X off) a!1)
+               (and (= -F on) (= --file-type off) (= -p off))
+               (and (= -x off) a!2)
+               (and (= -R on) (or (= --group-directories-first on) (= -L on))))))
+  (and (= -d off) (= --help off) (= --version off) a!3)))
+-
+8 45 46 21 43 35 34 41 28 26 11 25 23 13 14 39 42 40 37 36 10 6 38 MHHMHHMMMHHH 39 42 40 37 36 10 38 6 MHHMHHMMM 29 12 H 25 13 14 23 39 42 40 36 37 6 38 M 10 HM 10 HMHHMMMHHH 40 39 42 37 36 10 38 6 MHHMHHMMM 25 13 14 23 39 42 40 37 36 10 38 6 MHHMHHMMMHHH 40 39 42 37 36 10 38 6 MHHMHHMMMHH 11 39 40 42 37 36 10 38 6 MHHMHHMMM 12 29 H 40 39 42 36 37 10 6 38 MHHMHHMMM 42 39 40 36 37 10 38 6 MHHMHHMMM 15 24 41 26 28 25 13 23 14 40 39 42 37 36 10 38 6 11 M 12 29 HMMHH 11 M 12 29 HMMHH 11 M 12 29 HMM 29 11 M 12 HMM 11 M 29 12 HMMHHH 42 40 39 36 37 10 38 6 12 11 M 29 HMMHH 11 M 12 29 HMMHH 11 M 12 29 HMM 11 M 12 29 HMM 12 11 M 29 HMMHH 40 39 42 36 37 10 6 38 29 11 M 12 HMMHH 11 M 12 29 HMMHH 12 11 M 29 HMM 11 M 12 29 HMM 11 M 12 29 HMMHHHHHMMM
+======
+# M/H: 131424 / 44276
+# Last rebuild:   iter 2  num_configs 1727
+ls.c:3395, ls.c:3396, ls.c:3397, ls.c:3398, 
+-
+(and (= -L on) (= --version off) (= --help off))
+-
+24 M 46 45 HMM
+======
+# IGNORED
+# M/H: 112775 / 60707
+# Last rebuild:   iter 84  num_configs 173482
+ls.c:3450, ls.c:3532, 
+-
+(let ((a!1 (or (= -S on) (= -t on) (and (= -f off) (or (= -c on) (= -u on)))))
+      (a!2 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -d off)
+       (= --help off)
+       (= --version off)
+       (or (= -i on)
+           (= -s on)
+           (= -Z on)
+           (and (= -U off) (= -v off) (= -X off) a!1)
+           (and (= -F on) (= --file-type off) (= -p off))
+           (and (= -x off) a!2)
+           (and (= -R on) (= -L on)))))
+-
+8 45 46 21 43 35 34 41 28 26 11 25 23 13 14 39 42 40 37 36 10 6 38 MHHMHHMMMHHH 39 42 40 37 36 10 38 6 MHHMHHMMM 29 12 H 25 13 14 23 39 42 40 36 37 6 38 M 10 HM 10 HMHHMMMHHH 40 39 42 37 36 10 38 6 MHHMHHMMM 25 13 14 23 39 42 40 37 36 10 38 6 MHHMHHMMMHHH 40 39 42 37 36 10 38 6 MHHMHHMMMHH 11 39 40 42 37 36 10 38 6 MHHMHHMMM 12 29 H 40 39 42 36 37 10 6 38 MHHMHHMMM 42 39 40 36 37 10 38 6 MHHMHHMMM 24 41 26 28 25 13 14 23 40 39 42 37 36 10 38 6 11 M 29 12 HMMHH 11 M 12 29 HMMHH 11 M 12 29 HMM 29 11 M 12 HMM 11 M 29 12 HMMHHH 42 39 40 36 37 10 38 6 12 11 M 29 HMMHH 11 M 12 29 HMMHH 11 M 12 29 HMM 11 M 12 29 HMM 11 M 12 29 HMMHH 40 39 42 36 37 10 6 38 29 11 M 12 HMMHH 11 M 29 12 HMMHH 11 M 12 29 HMM 11 M 29 12 HMM 11 M 12 29 HMMHHHHMMM
+======
+# M/H: 83227 / 91280
+# Last rebuild:   iter 4  num_configs 6286
+ls.c:3529, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on)))))
+      (a!2 (or (= -S on) (= -t on) (and (= -f off) (or (= -c on) (= -u on))))))
+  (and (= --version off)
+       (= --help off)
+       (or (= -d on)
+           (= -i on)
+           (= -s on)
+           (= -Z on)
+           (and (= -x off) a!1)
+           (and (= -U off) (= -X off) (= -v off) a!2))))
+-
+46 45 21 43 35 8 41 28 26 25 13 23 14 40 42 39 37 36 10 6 38 MHHMHHMMMHHH 39 42 40 36 37 10 6 38 MHHMHHMMMHH 39 42 40 37 36 10 38 6 MHHMHHMMMHHHHMM
+======
+# M/H: 158733 / 17016
+# Last rebuild:   iter 2  num_configs 1776
+ls.c:4008, 
+-
+(and (= -X off)
+     (= -v off)
+     (= --help off)
+     (or (and (= -U on) (= --version off))
+         (and (= -f on) (= -t off) (= -S off) (= --version off))))
+-
+42 40 45 39 10 M 37 36 46 HMMM 46 HMMMM
+======
+# M/H: 161780 / 13994
+# Last rebuild:   iter 2  num_configs 1801
+ls.c:4055, ls.c:4056, ls.c:4059, ls.c:4060, ls.c:5091, ls.c:5094, ls.c:5095, ls.c:5096, ls.c:5097, ls.c:5098, ls.c:5099, ls.c:5102, ls.c:5105, ls.c:5126, ls.c:5127, 
+-
+(and (= -x on) (= -1 off) (= --help off) (= --version off))
+-
+41 M 44 45 46 HMMM
+======
+# M/H: 86089 / 89710
+# Last rebuild:   iter 2  num_configs 1826
+ls.c:4608, 
+-
+(and (= --version off)
+     (= --help off)
+     (or (= -q off)
+         (= --show-control-chars on)
+         (= -Q on)
+         (and (= -b on) (= -N off))))
+-
+46 45 30 H 31 32 3 M 27 HMHHMM
+======
+# M/H: 150616 / 24141
+# Last rebuild:   iter 3  num_configs 4884
+ls.c:4610, ls.c:4614, ls.c:4615, ls.c:4617, ls.c:4618, ls.c:4620, ls.c:4621, ls.c:4622, 
+-
+(let ((a!1 (or (= -q off)
+               (= --show-control-chars on)
+               (= -Q on)
+               (and (= -b on) (= -N off)))))
+(let ((a!2 (and (= -n off)
+                (or (and (= -m on) (= -o off) a!1)
+                    (and (= -C on)
+                         (= -g off)
+                         (= --full-time off)
+                         (= -l off)
+                         (= -o off)
+                         a!1)))))
+  (and (= -1 off) (= --help off) (= --version off) (or (and (= -x on) a!1) a!2))))
+-
+44 45 46 41 26 25 7 M 14 13 23 28 30 H 31 32 3 M 27 HMHHMMMM 28 32 31 30 H 3 M 27 HMHHMM 30 H 32 31 3 M 27 HMHHMMM
+======
+# M/H: 147915 / 26867
+# Last rebuild:   iter 3  num_configs 4909
+ls.c:4633, ls.c:4641, ls.c:4645, ls.c:4649, ls.c:4652, ls.c:4655, ls.c:4657, ls.c:5022, ls.c:5024, ls.c:5027, ls.c:5032, ls.c:5040, ls.c:5043, ls.c:5045, ls.c:5051, 
+-
+(let ((a!1 (and (= -n off)
+                (or (and (= -C on)
+                         (= -g off)
+                         (= --full-time off)
+                         (= -l off)
+                         (= -o off))
+                    (and (= -m on) (= -o off))))))
+  (and (= -1 off) (= --help off) (= --version off) (or (= -x on) a!1)))
+-
+44 45 46 41 26 25 7 M 14 13 23 28 HMMMM 28 HMMHMMM
+======
+# M/H: 121730 / 54138
+# Last rebuild:   iter 2  num_configs 1895
+ls.c:4802, ls.c:4806, ls.c:4808, ls.c:4812, ls.c:4818, ls.c:4821, ls.c:4823, ls.c:4826, 
+-
+(let ((a!1 (and (= -n off)
+                (= -o off)
+                (or (= -m on) (and (= -l off) (= --full-time off) (= -g off))))))
+  (and (= --version off) (= --help off) (or (= -x on) a!1)))
+-
+46 45 41 26 28 25 23 13 14 HMMMHMMHMM
+======
+# M/H: 152057 / 23836
+# Last rebuild:   iter 2  num_configs 1920
+ls.c:4809, 
+-
+(let ((a!1 (and (= -n off)
+                (= -o off)
+                (or (= -m on) (and (= -l off) (= -g off) (= --full-time off))))))
+  (and (= -i on) (= --version off) (= --help off) (or (= -x on) a!1)))
+-
+21 M 46 45 41 26 28 25 23 14 13 HMMMHMMHMM
+======
+# M/H: 130844 / 45074
+# Last rebuild:   iter 2  num_configs 1945
+ls.c:4824, 
+-
+(let ((a!1 (or (= -F on) (= --file-type on) (= -p on))))
+(let ((a!2 (and (= -n off)
+                (= -o off)
+                (or (and (= -m on) a!1)
+                    (and (= --full-time off) (= -l off) (= -g off) a!1)))))
+  (and (= --version off) (= --help off) (or a!2 (and (= -x on) a!1)))))
+-
+46 45 41 26 28 25 13 23 14 29 12 11 MHHHMMM 11 29 12 MHHHMM 11 29 12 MHHHMM
+======
+# M/H: 91551 / 84392
+# Last rebuild:   iter 2  num_configs 1970
+ls.c:4832, ls.c:4836, ls.c:4845, ls.c:4846, ls.c:4860, ls.c:4864, ls.c:4866, ls.c:4867, ls.c:4868, ls.c:4869, 
+-
+(and (= --version off)
+     (= --help off)
+     (or (= -F on) (= --file-type on) (= -p on)))
+-
+46 45 29 12 11 MHHHMM
+======
+# M/H: 119032 / 56936
+# Last rebuild:   iter 2  num_configs 1995
+ls.c:4838, ls.c:4841, 
+-
+(and (= -d off)
+     (= --version off)
+     (= --help off)
+     (or (= -F on) (= --file-type on) (= -p on)))
+-
+8 46 45 29 12 11 MHHHMMM
+======
+# M/H: 163839 / 11811
+# Last rebuild:   iter 3  num_configs 5777
+ls.c:5028, 
+-
+(let ((a!1 (and (= -o off)
+                (or (and (= -m on) (= -n off))
+                    (and (= -C on)
+                         (= --full-time off)
+                         (= -g off)
+                         (= -l off)
+                         (= -n off))))))
+  (and (= -i on) (= -1 off) (= --help off) (= --version off) (or (= -x on) a!1)))
+-
+21 M 44 45 46 41 28 25 7 M 13 14 23 26 HMMMM 26 HMMHMMM
+======
+# M/H: 152247 / 22560
+# Last rebuild:   iter 3  num_configs 4934
+ls.c:5047, ls.c:5048, 
+-
+(let ((a!1 (or (= -F on) (= --file-type on) (= -p on))))
+(let ((a!2 (and (= -o off)
+                (or (and (= -C on)
+                         (= -g off)
+                         (= --full-time off)
+                         (= -n off)
+                         (= -l off)
+                         a!1)
+                    (and (= -m on) (= -n off) a!1)))))
+  (and (= -1 off) (= --help off) (= --version off) (or (and (= -x on) a!1) a!2))))
+-
+44 45 46 41 28 25 7 M 14 13 26 23 11 29 12 MHHHMMMM 26 11 29 12 MHHHMM 11 12 29 MHHHMMM
+======
+# M/H: 166355 / 9682
+# Last rebuild:   iter 2  num_configs 2064
+ls.c:5107, ls.c:5109, ls.c:5116, ls.c:5117, ls.c:5120, ls.c:5121, ls.c:5123, ls.c:5124, 
+-
+(and (= -x on) (= -1 off) (= -d off) (= --version off) (= --help off))
+-
+41 M 44 8 46 45 HMMMM
+======
+# M/H: 167981 / 8103
+# Last rebuild:   iter 77  num_configs 131934
+ls.c:5111, ls.c:5112, 
+-
+(let ((a!1 (and (= -A on) (or (= -F on) (= --file-type on) (= -p on))))
+      (a!3 (and (= -A off)
+                (or (= -a on)
+                    (= --block-size KB)
+                    (= --block-size MB)
+                    (and (= --block-size M) (= --si on))
+                    (and (= --block-size K) (= --si on))))))
+(let ((a!2 (and (= -Z on) (or (= -f on) (and (= -a on) (= -A off)) a!1)))
+      (a!4 (or (= -f on)
+               (= -h on)
+               (= -Q on)
+               (= -Z on)
+               (and (= -A on)
+                    (or (= --block-size K)
+                        (= --block-size KB)
+                        (= --block-size M)
+                        (= --block-size MB)
+                        (= -F on)
+                        (= --file-type on)
+                        (= --si on)
+                        (= -p on)))
+               a!3))
+      (a!5 (or (= -f on)
+               (= -Z on)
+               (and (= -a on) (or (= -A off) (= -F on)))
+               a!1)))
+  (and (= -x on)
+       (= -1 off)
+       (= --version off)
+       (= -d off)
+       (= --help off)
+       (or (= -i on) a!2 (and (= -s on) a!4) (and (= -Q on) a!5)))))
+-
+41 M 44 46 8 45 21 35 32 43 M 10 0 1 M 11 29 12 MHHH 11 12 29 1 HMHHHH 10 43 0 1 M 11 29 12 MHHH 11 1 H 29 12 MHHHHH 43 32 17 10 1 0 4 18 MHH 18 MHHMH 29 11 12 4 HHHH 18 MHHHHHHHHHMMMM
+======
+# M/H: 163052 / 12701
+# Last rebuild:   iter 3  num_configs 5880
+ls.c:5173, ls.c:5175, ls.c:5177, ls.c:5188, ls.c:5328, ls.c:5329, 
+-
+(and (= -1 off)
+     (= -d off)
+     (or (and (= -x on) (= --help off) (= --version off))
+         (and (= -C on)
+              (= -g off)
+              (= -l off)
+              (= --full-time off)
+              (= -n off)
+              (= -m off)
+              (= -o off)
+              (= --help off)
+              (= --version off))))
+-
+44 8 41 7 M 14 23 13 26 25 28 45 46 HMMMMMMMM 45 46 HMMMM
+======
+# IGNORED
+# M/H: 161922 / 11560
+# Last rebuild:   iter 84  num_configs 173482
+ls.c:5179, ls.c:5180, 
+-
+(let ((a!1 (or (= --block-size K)
+               (= --block-size M)
+               (= --block-size MB)
+               (and (= --block-size off)
+                    (or (= -A off)
+                        (= --author off)
+                        (= --group-directories-first on)))
+               (and (= --block-size KB)
+                    (or (= --author off) (= -c off) (= -Q on)))))
+      (a!2 (or (= --author on) (and (= --author off) (or (= -b on) (= -k on)))))
+      (a!3 (and (= --author on)
+                (or (= --block-size KB)
+                    (and (= --block-size M) (= -h off))
+                    (and (= --block-size MB) (= -A off))
+                    (and (= --block-size off) (= -B on)))))
+      (a!6 (and (= -N on) (or (= -B off) (and (= -B on) (= -b on)))))
+      (a!8 (and (= --block-size K) (or (= -G off) (and (= -b on) (= -A on)))))
+      (a!9 (and (= --block-size KB) (or (= -q off) (and (= -G on) (= -X off)))))
+      (a!12 (and (= -Q off)
+                 (or (= --file-type off)
+                     (and (= --file-type on) (= -b on) (= --author off)))))
+      (a!17 (or (= --file-type on) (and (= --file-type off) (= --author on))))
+      (a!18 (and (= --block-size K) (or (= -B on) (and (= -B off) (= -c off)))))
+      (a!19 (and (= --block-size off)
+                 (or (= --file-type off) (and (= --file-type on) (= -D off)))))
+      (a!23 (or (= --block-size K)
+                (= --block-size KB)
+                (= --block-size M)
+                (= --block-size off)
+                (and (= --block-size MB) (or (= -c off) (= -v off)))))
+      (a!25 (and (= --block-size M)
+                 (or (= -B on) (and (= -B off) (= --author off)))))
+      (a!27 (and (= --show-control-chars on)
+                 (or (= --block-size K)
+                     (= --block-size off)
+                     (= -H on)
+                     (and (= --block-size M) (= --author on))
+                     (and (= --block-size KB) (= --author off))
+                     (and (= --block-size MB) (= -a on)))))
+      (a!28 (and (= -Z on) (or (= -D on) (= -p on) (and (= -D off) (= -c off)))))
+      (a!30 (and (= -A on)
+                 (or (= --dereference-command-line-symlink-to-dir off)
+                     (= -U off)
+                     (and (= --dereference-command-line-symlink-to-dir on)
+                          (= --si off)))))
+      (a!32 (and (= -t on)
+                 (or (= --dereference-command-line-symlink-to-dir off)
+                     (and (= --dereference-command-line-symlink-to-dir on)
+                          (= -a on)))))
+      (a!33 (and (= -a off) (or (= -A off) (and (= -A on) (= -F on)))))
+      (a!34 (or (= -p on)
+                (and (= -D on) (= -A off))
+                (and (= -D off) (or (= -A on) (= -h off)))))
+      (a!35 (and (= --block-size K)
+                 (or (= -a on) (= -b on) (and (= -a off) (= --author on)))))
+      (a!37 (and (= -Q off)
+                 (or (and (= --block-size K) (= -Z off))
+                     (and (= --block-size KB) (= -A off))
+                     (and (= --block-size M) (= -A on))
+                     (and (= --block-size off) (= -a on)))))
+      (a!40 (and (= -s off)
+                 (or (and (= --block-size M) (= -B off))
+                     (and (= --block-size MB) (= -c off)))))
+      (a!45 (and (= --author on) (or (= --si off) (and (= --si on) (= -b on)))))
+      (a!46 (and (= --file-type on)
+                 (or (= -X off) (and (= -X on) (= --author off)))))
+      (a!47 (or (= -F on) (and (= -F off) (or (= -p on) (= -Z on)))))
+      (a!50 (and (= -D on)
+                 (or (= --file-type off)
+                     (and (= --file-type on) (= --group-directories-first off)))))
+      (a!51 (and (= -X off)
+                 (or (= -A on)
+                     (and (= -A off)
+                          (= --dereference-command-line-symlink-to-dir off)))))
+      (a!54 (and (= -F off)
+                 (= --file-type off)
+                 (or (= --author on) (and (= --author off) (= -A on)))))
+      (a!56 (and (= -A off) (or (= -X on) (and (= -X off) (= -h on)))))
+      (a!57 (and (= -G on)
+                 (or (and (= -c off) (= --block-size M))
+                     (and (= -c on) (= --group-directories-first on)))))
+      (a!58 (and (= -U on)
+                 (= -q off)
+                 (or (= --block-size KB)
+                     (= --block-size MB)
+                     (and (= --block-size K) (= -b off)))))
+      (a!63 (and (= -F off)
+                 (or (= --block-size K)
+                     (= --block-size M)
+                     (and (= --block-size MB) (= -b on))
+                     (and (= --block-size KB) (= -D off)))))
+      (a!66 (and (= -r off)
+                 (or (= -h on) (= -Z off) (and (= -h off) (= -t off)))))
+      (a!67 (and (= -B off)
+                 (or (and (= --block-size M) (= -a on))
+                     (and (= --block-size off) (= --file-type on)))))
+      (a!68 (and (= --file-type on)
+                 (= --si off)
+                 (or (= --author on) (and (= --author off) (= -a off)))))
+      (a!72 (and (= --author off)
+                 (or (= --file-type on) (and (= --file-type off) (= -a off)))))
+      (a!73 (and (= --author on)
+                 (= --dereference-command-line-symlink-to-dir off)
+                 (or (= -c on) (and (= -c off) (= -B on)))))
+      (a!75 (or (= -h off) (and (= -h on) (= -A on))))
+      (a!76 (and (= -c on)
+                 (or (and (= --show-control-chars off) (= -F off))
+                     (and (= --show-control-chars on) (= -A on)))))
+      (a!79 (and (= --file-type on)
+                 (or (= -t on) (and (= -t off) (= -D off) (= --si on)))))
+      (a!80 (and (= --file-type off)
+                 (or (= -A off) (= -S off) (and (= -A on) (= -a off)))))
+      (a!81 (and (= -p off)
+                 (or (= --group-directories-first on)
+                     (and (= --group-directories-first off) (= -A on)))))
+      (a!82 (or (= -r on) (and (= -r off) (or (= -a off) (= -u on)))))
+      (a!84 (and (= --group-directories-first on)
+                 (= -S off)
+                 (or (= -G on) (and (= -G off) (= -q on)))))
+      (a!85 (and (= --si on) (or (= -a off) (and (= -a on) (= -B on)))))
+      (a!86 (and (= --si off) (or (= -u on) (and (= --author on) (= -F off)))))
+      (a!89 (and (= -r off)
+                 (or (= -c on) (and (= -c off) (= -a off) (= -b off)))))
+      (a!92 (and (= -N on) (or (= -r off) (and (= -r on) (= -a on)))))
+      (a!95 (and (= -X off)
+                 (= -S on)
+                 (= -b on)
+                 (or (= -F off) (and (= -F on) (= --author on)))))
+      (a!97 (and (= --author on)
+                 (or (= --dereference-command-line-symlink-to-dir on)
+                     (and (= --dereference-command-line-symlink-to-dir off)
+                          (= -r on)))))
+      (a!98 (and (= -v off)
+                 (= -X on)
+                 (or (= -q off) (and (= -q on) (= -c on) (= -a off)))))
+      (a!99 (and (= -q on) (or (= -D on) (and (= -D off) (= -a on) (= -c on)))))
+      (a!103 (and (= -H off) (or (= -r off) (and (= -r on) (= -a off)))))
+      (a!109 (or (and (= --full-time off) (= -p off))
+                 (and (= --full-time on)
+                      (or (= --block-size KB)
+                          (= --block-size M)
+                          (= --block-size MB)
+                          (= --block-size off)))))
+      (a!113 (and (= --block-size KB) (or (= -B on) (and (= -B off) (= -C on)))))
+      (a!117 (and (= --block-size MB)
+                  (or (= -U on) (and (= -U off) (= -C off) (= -b off)))))
+      (a!120 (and (= --si off)
+                  (or (= -h off) (and (= -h on) (= --file-type off) (= -F off)))))
+      (a!122 (or (= --file-type on)
+                 (and (= --file-type off)
+                      (= -S off)
+                      (or (= --full-time off) (= -F on)))))
+      (a!124 (and (= --show-control-chars off)
+                  (= --file-type on)
+                  (or (= -a on) (and (= -a off) (= -c on)))))
+      (a!125 (and (= -m on)
+                  (= -l on)
+                  (or (= --block-size K)
+                      (= --block-size KB)
+                      (and (= --block-size MB) (= --author on)))))
+      (a!130 (and (= -f on)
+                  (or (= -G off) (= -L off) (and (= -G on) (= -S on)))))
+      (a!133 (and (= -Z off)
+                  (or (= -k on)
+                      (and (= --dereference-command-line-symlink-to-dir off)
+                           (= --full-time off)))))
+      (a!134 (and (= -a off)
+                  (or (= --author off) (and (= --author on) (= -F on)))))
+      (a!141 (and (= -A off)
+                  (or (= -k on) (= -L on) (and (= -L off) (= -o off)))))
+      (a!143 (or (= -Z off)
+                 (and (= -Z on)
+                      (or (= --block-size K)
+                          (= --block-size KB)
+                          (= --block-size M)
+                          (= --full-time off)))))
+      (a!144 (and (= -t on) (or (= -B on) (and (= -B off) (= --author on)))))
+      (a!145 (and (= --group-directories-first on)
+                  (= -h off)
+                  (= -o off)
+                  (or (and (= -B off) (= -b on)) (= -B on))))
+      (a!153 (and (= -Q off) (or (= -A on) (and (= -A off) (= -b off)))))
+      (a!154 (and (= -Q on)
+                  (or (= --group-directories-first off)
+                      (and (= --group-directories-first on) (= -m on)))))
+      (a!158 (and (= -F off)
+                  (= -N on)
+                  (or (= --show-control-chars on)
+                      (and (= --show-control-chars off) (= -l on)))))
+      (a!161 (and (= --dereference-command-line-symlink-to-dir on)
+                  (or (= -n on) (and (= -n off) (= --author off)))))
+      (a!163 (and (= -A on) (or (= -h on) (and (= -h off) (= --full-time off)))))
+      (a!165 (and (= -t off)
+                  (or (= -g on) (and (= -g off) (= -B off) (= -o on)))))
+      (a!167 (and (= -G on)
+                  (or (= --block-size MB) (and (= --block-size off) (= -C on)))))
+      (a!172 (and (= --block-size K) (or (= -n on) (and (= -n off) (= -B on)))))
+      (a!173 (and (= --block-size KB) (or (= -v on) (and (= -v off) (= -a on)))))
+      (a!174 (and (= -B on) (= -t on) (or (= -S on) (and (= -S off) (= -C on)))))
+      (a!181 (and (= --group-directories-first off)
+                  (or (= -a off) (and (= -a on) (= -b on)))))
+      (a!183 (and (= -a on) (or (= -m off) (and (= -m on) (= -B on)))))
+      (a!189 (and (= -D off)
+                  (or (= --group-directories-first on)
+                      (and (= --group-directories-first off) (= -g off)))))
+      (a!192 (and (= -p off)
+                  (= -B on)
+                  (or (= --block-size K)
+                      (= --block-size KB)
+                      (and (= --block-size off) (= -G off))
+                      (and (= --block-size MB) (= -D on)))))
+      (a!195 (and (= -Q off) (or (= -g on) (and (= -g off) (= --si on)))))
+      (a!198 (and (= -N on)
+                  (or (= --block-size K)
+                      (= --block-size KB)
+                      (= --block-size M)
+                      (= --block-size off)
+                      (and (= --block-size MB) (= -b off)))))
+      (a!203 (and (= --block-size KB)
+                  (or (= -D on) (and (= -D off) (= -a off)))))
+      (a!205 (and (= -B on)
+                  (or (= --block-size KB)
+                      (= --block-size MB)
+                      (= --block-size off)
+                      (and (= --block-size K) (= -F on))
+                      (and (= --block-size M) (= --group-directories-first off)))))
+      (a!208 (and (= -H off) (or (= -a on) (and (= -a off) (= -t on)))))
+      (a!209 (and (= -S on)
+                  (or (= --block-size K)
+                      (= --block-size M)
+                      (and (= --block-size KB) (= -B off)))))
+      (a!212 (and (= --group-directories-first off)
+                  (= -N on)
+                  (or (= -p off) (and (= -p on) (= -n on)))))
+      (a!213 (and (= -C on)
+                  (= -q off)
+                  (or (= -a off) (and (= -a on) (= -G off)))))
+      (a!217 (and (= -N off) (or (= -t on) (and (= -t off) (= -a on)))))
+      (a!218 (and (= -N on)
+                  (= --si on)
+                  (or (= -b on) (and (= -b off) (= -D off)))))
+      (a!219 (and (= --block-size M)
+                  (or (= --si on) (and (= --si off) (= -p on)))))
+      (a!225 (and (= -F on)
+                  (or (and (= -v off) (= -g on) (= --author off) (= -a on))
+                      (and (= -v on) (= -B off)))))
+      (a!226 (and (= --file-type off)
+                  (or (= -p off)
+                      (and (= -p on) (= -S off) (= -A off) (= -g on)))))
+      (a!228 (and (= -k off)
+                  (or (= -v on) (and (= -v off) (= -q on) (= -B off)))))
+      (a!229 (and (= -k on)
+                  (or (= --group-directories-first off)
+                      (and (= --group-directories-first on)
+                           (= -r off)
+                           (= --file-type off)))))
+      (a!230 (and (= --full-time on)
+                  (or (= --block-size M)
+                      (= --block-size MB)
+                      (and (= --block-size off) (= -a off))
+                      (and (= --block-size K) (= -a off))
+                      (and (= --block-size KB) (= -L off)))))
+      (a!233 (and (= -r off)
+                  (or (= --block-size K)
+                      (and (= --block-size KB) (= -H on))
+                      (and (= --block-size M) (= -c off))
+                      (and (= --block-size MB) (= -c off))
+                      (and (= --block-size off) (= -B off)))))
+      (a!236 (and (= --dereference-command-line-symlink-to-dir on)
+                  (or (= --block-size KB)
+                      (= --block-size M)
+                      (= --block-size off)
+                      (and (= --block-size K) (= --author off)))))
+      (a!238 (and (= -n on) (or (= -b off) (and (= -b on) (= -B on)))))
+      (a!240 (and (= -a off)
+                  (or (= --block-size MB)
+                      (and (= --block-size off) (= --author on)))))
+      (a!244 (and (= --block-size MB)
+                  (= -n off)
+                  (or (= --file-type off) (and (= --file-type on) (= -A on)))))
+      (a!245 (and (= --block-size M)
+                  (or (= -N on) (and (= -N off) (= --file-type on)))))
+      (a!246 (and (= --block-size K)
+                  (= -f on)
+                  (or (= -B off) (and (= -B on) (= --author off) (= -C off)))))
+      (a!248 (and (= -h off)
+                  (or (= --full-time off)
+                      (and (= --full-time on) (= --group-directories-first off)))))
+      (a!249 (and (= -r on)
+                  (or (= -D off)
+                      (and (= -D on) (= --group-directories-first off)))))
+      (a!252 (and (= -A on)
+                  (or (= --block-size K)
+                      (= --block-size KB)
+                      (= --block-size M)
+                      (and (= --block-size off) (= -a off))
+                      (and (= --block-size MB) (= -h off)))))
+      (a!253 (and (= -q on)
+                  (= -k on)
+                  (or (= --block-size K)
+                      (= --block-size MB)
+                      (= --block-size off)
+                      (and (= --block-size M) (= --author on)))))
+      (a!255 (and (= -p on)
+                  (= -L on)
+                  (or (= --block-size MB)
+                      (and (= --block-size KB) (= -b on))
+                      (and (= --block-size off) (= -b on)))))
+      (a!257 (and (= --block-size K) (or (= -B off) (and (= -B on) (= -G off)))))
+      (a!261 (and (= -F off)
+                  (or (= --file-type on)
+                      (and (= --file-type off) (= -a on) (= --full-time on)))))
+      (a!262 (and (= -F on) (or (= -k off) (and (= -k on) (= --file-type off)))))
+      (a!263 (and (= -A off) (or (= -k on) (and (= -k off) (= --author off)))))
+      (a!266 (and (= -g off) (or (= -B off) (and (= -B on) (= --author on)))))
+      (a!267 (and (= -a on)
+                  (= --full-time off)
+                  (or (= -h on)
+                      (and (= -h off)
+                           (= --dereference-command-line-symlink-to-dir on)))))
+      (a!271 (and (= --block-size MB)
+                  (or (= -C on) (and (= -C off) (= -A off)))))
+      (a!272 (and (= --block-size M)
+                  (= -C on)
+                  (or (= -F off) (and (= -F on) (= --file-type on) (= -g off)))))
+      (a!274 (and (= --block-size K)
+                  (= -U on)
+                  (or (= --show-control-chars off)
+                      (and (= --show-control-chars on) (= -b off)))))
+      (a!275 (and (= --block-size off)
+                  (or (= -k on) (and (= -k off) (= --full-time off)))))
+      (a!279 (and (= -S on)
+                  (or (= --block-size K)
+                      (= --block-size KB)
+                      (= --block-size M)
+                      (= --block-size MB)
+                      (and (= --block-size off) (= -D on)))))
+      (a!280 (and (= --block-size KB)
+                  (or (= -h off) (and (= -h on) (= -C on) (= -n off)))))
+      (a!281 (and (= --block-size K) (or (= -B off) (and (= -B on) (= -D on)))))
+      (a!282 (and (= -B on) (or (= -L off) (and (= -L on) (= -u off)))))
+      (a!285 (and (= -B off)
+                  (= -h on)
+                  (= -G on)
+                  (or (= --author on) (and (= --author off) (= -b on)))))
+      (a!286 (and (= --block-size M) (or (= -L off) (and (= -L on) (= -b on)))))
+      (a!289 (and (= -F off) (or (= -p on) (and (= -p off) (= --file-type on)))))
+      (a!290 (and (= -F on) (or (= -U off) (and (= -U on) (= -C on)))))
+      (a!291 (or (= -D off)
+                 (and (= -D on)
+                      (= --show-control-chars on)
+                      (or (= --block-size K) (= --block-size off)))))
+      (a!295 (and (= --block-size MB) (or (= -N on) (and (= -N off) (= -a on)))))
+      (a!297 (and (= -b off) (or (= -p on) (and (= -p off) (= -F on)))))
+      (a!302 (and (= --si off) (or (= -F on) (and (= -F off) (= -h on))))))
+(let ((a!4 (or (and (= --author off) (or (= -F off) (= -t on))) a!3))
+      (a!7 (and (= --block-size MB) (or (and (= -N off) (= -c on)) a!6)))
+      (a!13 (or (= -t on) a!12 (and (= -Q on) (or (= -F on) (= -X off)))))
+      (a!20 (or (= --block-size M)
+                (= -p on)
+                (and (= --block-size KB) (= -L off) a!17)
+                a!18
+                a!19
+                (and (= --block-size MB)
+                     (or (= --dereference-command-line-symlink-to-dir on)
+                         (= -q off)))))
+      (a!24 (and (= -f on) (or (= -r off) (and (= -r on) a!23))))
+      (a!26 (and (= --show-control-chars off)
+                 (or (and (= --block-size KB) (= -c off))
+                     (and (= --block-size off) (= --file-type on))
+                     (and (= --block-size MB) (= -S on))
+                     a!25)))
+      (a!36 (or (= --block-size KB)
+                (and (= --block-size off) (or (= -t off) a!32))
+                (and (= --block-size MB) (or (= -a on) a!33))
+                (and (= --block-size M) a!34)
+                a!35))
+      (a!38 (and (= -s on) (or a!37 (and (= -Q on) (= -Z on) (= -B on)))))
+      (a!41 (or (= -f on) (and (= -f off) (or (= -s on) a!40))))
+      (a!48 (and (= --file-type off)
+                 (or (= -r on) (and (= -r off) (= -h off) a!47))))
+      (a!52 (and (= -D off) (or a!51 (and (= -X on) (= -h off) (= -b off)))))
+      (a!55 (and (= -Z on) (or (and (= -F on) (= -G on)) a!54)))
+      (a!59 (or (and (= -U off) (or (= -G off) a!57)) a!58))
+      (a!64 (or (= -v on) (and (= -v off) (or (= -F on) a!63))))
+      (a!69 (or a!67 (and (= -B on) (or (= --file-type off) a!68))))
+      (a!74 (and (= --block-size off)
+                 (or (= -v on) (and (= -v off) (= -S off) (or a!72 a!73)))))
+      (a!77 (or (and (= -H off) (or (= -c off) a!76))
+                (and (= -H on) (= -b on) (= -A on))))
+      (a!83 (and (= -N on) (or a!81 (and (= -p on) a!82))))
+      (a!87 (or (and (= -H off) (or (= --group-directories-first off) a!84))
+                (and (= -H on) (or (= -U on) a!85 a!86))))
+      (a!90 (or (= --block-size KB)
+                (and (= --block-size MB) (= -h off))
+                (and (= --block-size off) (= --author on) (or (= -r on) a!89))))
+      (a!93 (and (= --block-size off) (or (and (= -N off) (= -H off)) a!92)))
+      (a!100 (and (= -v on)
+                  (or a!99
+                      (and (= -q off)
+                           (= -h on)
+                           (= --group-directories-first on)))))
+      (a!110 (and (= -A off) (or (= -H on) (and (= -H off) a!109))))
+      (a!114 (and (= -U off)
+                  (or (= --block-size K)
+                      (= --block-size M)
+                      (and (= --block-size off) (= -G on))
+                      (and (= --block-size MB) (= -G on))
+                      a!113)))
+      (a!118 (and (= -p off)
+                  (or (= --block-size K)
+                      (= --block-size M)
+                      (and (= --block-size off) (= -A on))
+                      (and (= --block-size KB) (= -a off))
+                      a!117)))
+      (a!121 (and (= -Z off) (or a!120 (and (= --si on) (= -b on) (= -f on)))))
+      (a!123 (and (= -Z on)
+                  (or (and (= --si off) (= --block-size off))
+                      (and (= --si on) a!122))))
+      (a!126 (or (and (= -m off) (or (= --show-control-chars on) a!124)) a!125))
+      (a!131 (and (= -b off)
+                  (or (= --full-time on)
+                      (and (= --full-time off) (= -N on) a!75))))
+      (a!135 (or a!133 (and (= -Z on) (or (= -a on) a!134))))
+      (a!142 (or (= -S off) (and (= -S on) (or (= -A on) a!141))))
+      (a!146 (or (and (= --group-directories-first off) (or (= -t off) a!144))
+                 a!145))
+      (a!155 (and (= --file-type off)
+                  (or (= -p on) (and (= -p off) (or a!153 a!154)))))
+      (a!159 (or (= --block-size K)
+                 (= --block-size KB)
+                 (= --block-size M)
+                 (= --block-size MB)
+                 (and (= --block-size off) (or (= -F on) a!158))))
+      (a!162 (or (= --block-size K)
+                 (= --block-size KB)
+                 (= --block-size M)
+                 (= --block-size MB)
+                 (and (= --block-size off)
+                      (or (= --dereference-command-line-symlink-to-dir off)
+                          a!161))))
+      (a!164 (or (= --author off) (and (= --author on) (or (= -A off) a!163))))
+      (a!166 (and (= -A off)
+                  (or a!165 (and (= -t on) (= -u on) (= --author on)))))
+      (a!168 (or (= -c on) (and (= -c off) (or (= -G off) a!167))))
+      (a!175 (or (= --block-size M)
+                 (= --block-size MB)
+                 a!172
+                 a!173
+                 (and (= --block-size off) (or (= -B off) a!174))))
+      (a!182 (or (= -L off)
+                 (= -t off)
+                 (and (= -t on)
+                      (or (= --group-directories-first on) (= -l off) a!181))))
+      (a!184 (and (= -Q off)
+                  (or (and (= -a off) (= -l on) (= --full-time off)) a!183)))
+      (a!190 (or (= --dereference-command-line-symlink-to-dir on)
+                 (and (= --dereference-command-line-symlink-to-dir off)
+                      (or (= -D on) a!189))))
+      (a!193 (or (= --file-type on)
+                 (and (= --file-type off) (or (= -p on) a!192))))
+      (a!196 (and (= --author off)
+                  (= -U off)
+                  (or (and (= -Q on) (= -D off)) a!195)))
+      (a!199 (and (= -p on) (or (and (= -N off) (= -D on)) a!198)))
+      (a!204 (and (= -S on)
+                  (or (= --block-size K)
+                      (= --block-size MB)
+                      (= --block-size off)
+                      a!203
+                      (and (= --block-size M) (= -b on)))))
+      (a!206 (and (= -v off) (or a!205 (and (= -B off) (= -l off) (= -a on)))))
+      (a!210 (or (and (= -S off) (or (= -H on) a!208)) a!209))
+      (a!214 (or (= -l on) (and (= -l off) (or (= -C off) a!213))))
+      (a!220 (and (= -C on)
+                  (or (= --block-size KB)
+                      (= --block-size off)
+                      (and (= --block-size K) (= --author off))
+                      a!219
+                      (and (= --block-size MB) (= -G on)))))
+      (a!227 (and (= -F off)
+                  (or a!226 (and (= --file-type on) (= -v on) (= -c off)))))
+      (a!231 (and (= -U off)
+                  (or (and (= --full-time off) (or a!228 a!229)) a!230)))
+      (a!237 (and (= -p off)
+                  (or a!236
+                      (and (= --dereference-command-line-symlink-to-dir off)
+                           (= --group-directories-first on)
+                           (= -b off)))))
+      (a!241 (or (and (= -A off) (or (= -a on) a!240))
+                 (and (= -A on) (= -v on) (= -r on))))
+      (a!247 (and (= -p on)
+                  (or (= --block-size KB)
+                      a!244
+                      a!245
+                      a!246
+                      (and (= --block-size off) (= -B on)))))
+      (a!250 (and (= -h on) (or (and (= -r off) (= -G off)) a!249)))
+      (a!254 (and (= -A off) (or (and (= -q off) (= -g on) (= -B on)) a!253)))
+      (a!258 (and (= -v on)
+                  (or (= --block-size KB)
+                      (and (= --block-size MB) (= --author off) (= -F off))
+                      (and (= --block-size off) (= -q off))
+                      a!257
+                      (and (= --block-size M) (= -g off)))))
+      (a!264 (or (and (= -p off) (or a!261 a!262))
+                 (and (= -p on) (or a!263 (= -A on)))))
+      (a!268 (or (and (= -a off) (or (= -g on) a!266)) a!267))
+      (a!269 (and (= -A on) (or (= -r off) (and (= -r on) a!17))))
+      (a!273 (and (= -o off)
+                  (or (= --block-size off)
+                      (and (= --block-size KB) (= -D on))
+                      a!271
+                      a!272
+                      (and (= --block-size K) (= -k on) (= -n off)))))
+      (a!276 (and (= -o on)
+                  (or (= --block-size KB)
+                      (and (= --block-size M) (= -H off))
+                      (and (= --block-size MB) (= -l off))
+                      a!274
+                      a!275)))
+      (a!283 (or (and (= --full-time off) (= -L on))
+                 (and (= --full-time on) (or (= -B off) a!282))))
+      (a!292 (and (= -F off)
+                  (or (and (= --si off) a!291)
+                      (and (= --si on) (= -v on) (= -b off)))))
+      (a!296 (and (= -H on)
+                  (or (= --block-size K)
+                      (= --block-size off)
+                      (and (= --block-size M) (= -h on))
+                      (and (= --block-size KB) (= --author on))
+                      a!295)))
+      (a!298 (or (and (= -v off) (= -X on))
+                 (and (= -v on) (or (= -b on) a!297))))
+      (a!303 (or (= -A on) (and (= -A off) (or (= --si on) a!302)))))
+(let ((a!5 (and (= --si off)
+                (or (and (= --file-type off) a!2) (and (= --file-type on) a!4))))
+      (a!10 (or (= --block-size off)
+                a!7
+                (and (= --block-size M) (or (= -A on) (= -s off)))
+                a!8
+                a!9))
+      (a!14 (or (and (= --show-control-chars off) a!13)
+                (and (= --show-control-chars on)
+                     (or (= --block-size K)
+                         (= --block-size KB)
+                         (= --block-size MB)
+                         (= -v off)))))
+      (a!21 (and (= -a off) (or (= -A on) (and (= -A off) a!20))))
+      (a!29 (and (= -A off) (or (and (= -Z off) (or a!26 a!27)) a!28)))
+      (a!39 (or (and (= -s off) (or (= -U off) (= -a on))) a!38))
+      (a!49 (or (and (= -A off) (or (= --author off) (= -U off) a!45))
+                (and (= -A on) (or a!46 a!48))))
+      (a!53 (and (= -r on) (or (= -Z on) (and (= -Z off) (or a!50 a!52)))))
+      (a!60 (or (and (= --file-type on) (or (= -A on) a!56))
+                (and (= --file-type off) a!59)))
+      (a!65 (and (= -f on)
+                 (or (= --file-type on)
+                     (= -p on)
+                     (and (= --file-type off) a!64))))
+      (a!70 (and (= -r on) (or (= -Z on) (and (= -Z off) a!69))))
+      (a!78 (and (= --block-size M)
+                 (or (and (= -N off) a!75) (and (= -N on) a!77))))
+      (a!91 (and (= -p off) (or (= -F off) (and (= -F on) a!90))))
+      (a!94 (and (= -X on)
+                 (or (= --block-size K)
+                     (= --block-size KB)
+                     a!93
+                     (and (= --block-size MB) (= -a on)))))
+      (a!101 (or (and (= --block-size K) (= -r off))
+                 (and (= --block-size M) (= -v on))
+                 (and (= --block-size KB) (or (= --author off) a!97))
+                 (and (= --block-size off) (= -L off) (or a!98 a!100))))
+      (a!111 (or (= -F off) (and (= -F on) (or (= -A on) a!110))))
+      (a!115 (or (= -a on) (and (= -a off) (or (= -U on) a!114))))
+      (a!119 (or (= -Z on) (and (= -Z off) (or (= -p on) a!118))))
+      (a!127 (and (= -A on) (or (= -f off) (and (= -f on) a!126))))
+      (a!132 (or (= -t off) (and (= -t on) (or (= -b on) a!131))))
+      (a!147 (and (= -Q off) (or (= -Z on) (and (= -Z off) a!146))))
+      (a!156 (or (= -F on) (and (= -F off) (or (= --file-type on) a!155))))
+      (a!160 (and (= -r off) (or (= -U off) (and (= -U on) a!159))))
+      (a!169 (and (= -a off) (or a!166 (and (= -A on) a!168))))
+      (a!176 (and (= -U off) (or (= -Q on) (and (= -Q off) a!175))))
+      (a!185 (or (and (= -Q on) (or (= -k off) (= -m off))) a!184))
+      (a!191 (and (= -a on) (or (= -G off) (and (= -G on) a!190))))
+      (a!194 (and (= -F off) (or (= -g on) (and (= -g off) a!193))))
+      (a!197 (and (= -p off)
+                  (or a!196 (and (= --author on) (= --si on) (= -b off)))))
+      (a!207 (or (and (= -U off) (or (= -S off) a!204))
+                 (and (= -U on) (or (= -v on) a!206))))
+      (a!211 (and (= -Q off)
+                  (or (and (= --group-directories-first on) (= -Z on))
+                      (and (= --group-directories-first off) a!210))))
+      (a!215 (or (and (= -v on) (or (= --group-directories-first on) a!212))
+                 (and (= -v off) a!214)))
+      (a!221 (and (= -U on) (or (and (= -C off) (or a!217 a!218)) a!220)))
+      (a!232 (and (= -A off) (or a!231 (and (= -U on) (= -o on) (= -D off)))))
+      (a!239 (or a!237 (and (= -p on) (or (= -n off) a!238))))
+      (a!251 (and (= -p off) (or (= -L off) (and (= -L on) (or a!248 a!250)))))
+      (a!256 (and (= -v off) (or (and (= -p off) (or a!252 a!254)) a!255)))
+      (a!265 (and (= -Z on) (or (= -f on) (and (= -f off) a!264))))
+      (a!270 (and (= -f off) (or (and (= -A off) a!268) a!269)))
+      (a!284 (and (= --block-size off)
+                  (or (= --file-type on) (and (= --file-type off) a!283))))
+      (a!293 (and (= -X off)
+                  (or (and (= --group-directories-first on) (or a!290 a!292))
+                      (and (= --group-directories-first off)
+                           (= -u on)
+                           (= -o off)
+                           (= --dereference-command-line-symlink-to-dir off)
+                           (= -N on)))))
+      (a!299 (or (and (= -U off) (or (= -H off) a!296)) (and (= -U on) a!298))))
+(let ((a!11 (and (= -a off) (or a!5 (and (= --si on) a!10))))
+      (a!15 (and (= -a on) (or (= -A off) (and (= -A on) a!14))))
+      (a!31 (and (= -F off) (or a!24 (and (= -f off) (or a!29 a!30)))))
+      (a!42 (and (= --group-directories-first off)
+                 (or (and (= -r off) a!39) (and (= -r on) a!41))))
+      (a!61 (and (= -r off) (or a!55 (and (= -Z off) a!60))))
+      (a!71 (and (= -s on) (or (= -X off) (and (= -X on) (or a!66 a!70)))))
+      (a!88 (or a!74
+                a!78
+                (and (= --block-size MB) (or a!79 a!80))
+                (and (= --block-size K) (or (= -N off) a!83))
+                (and (= --block-size KB) a!87)))
+      (a!96 (and (= --file-type off) (or a!91 (and (= -p on) (or a!94 a!95)))))
+      (a!112 (and (= -a off) (or (= -Q on) (and (= -Q off) a!111))))
+      (a!116 (and (= -f off) (or (= -A on) (and (= -A off) a!115))))
+      (a!128 (and (= -Q off) (or (and (= -A off) (or a!121 a!123)) a!127)))
+      (a!136 (and (= -Q off) (or (and (= -X off) a!132) (and (= -X on) a!135))))
+      (a!148 (or (and (= -r off) a!143) (and (= -r on) (or (= -Q on) a!147))))
+      (a!157 (and (= -Z on) (or (= -a on) (and (= -a off) a!156))))
+      (a!170 (and (= --group-directories-first on)
+                  (or (and (= -a on) a!164) a!169)))
+      (a!177 (or (= -N off) (and (= -N on) (or (= -U on) a!176))))
+      (a!186 (and (= -p off)
+                  (or (= --file-type on) (and (= --file-type off) a!185))))
+      (a!200 (and (= --group-directories-first on)
+                  (or (= -r off) (and (= -r on) (or a!197 a!199)))))
+      (a!216 (and (= -U off) (or a!211 (and (= -Q on) a!215))))
+      (a!234 (or a!232 (and (= -A on) (or (= -r on) a!233))))
+      (a!242 (and (= -f off) (or (and (= -U off) a!239) (and (= -U on) a!241))))
+      (a!259 (and (= -t on)
+                  (or (and (= -U off) (or a!247 a!251))
+                      (and (= -U on) (or a!256 a!258)))))
+      (a!277 (and (= -Z off) (or a!270 (and (= -f on) (or a!273 a!276)))))
+      (a!287 (or a!280
+                 a!281
+                 a!284
+                 (and (= --block-size MB) (= -t off) (or (= -B on) a!285))
+                 a!286))
+      (a!294 (or (and (= -X on) (or (= -F on) a!289)) a!293)))
+(let ((a!16 (and (= -r off)
+                 (or (and (= -i on) a!1) (and (= -i off) (or a!11 a!15)))))
+      (a!43 (and (= -X on)
+                 (or (and (= --group-directories-first on) a!36) a!42)))
+      (a!62 (and (= -f off)
+                 (or (and (= -a on) a!49) (and (= -a off) (or a!53 a!61)))))
+      (a!102 (and (= -Z off) (or a!96 (and (= --file-type on) a!101))))
+      (a!129 (and (= -R off) (or (and (= -Q on) a!119) a!128)))
+      (a!137 (or (and (= -Q on) (or (= -f off) a!130)) a!136))
+      (a!149 (and (= -X off) (or (and (= -F on) a!142) (and (= -F off) a!148))))
+      (a!171 (and (= -r on)
+                  (or (and (= --group-directories-first off) a!162) a!170)))
+      (a!187 (or (= -F on) (and (= -F off) (or (= -p on) a!186))))
+      (a!201 (or (and (= --group-directories-first off) (or (= -F on) a!194))
+                 a!200))
+      (a!222 (and (= -A on)
+                  (or (and (= -r on) a!207) (and (= -r off) (or a!216 a!221)))))
+      (a!235 (and (= -Z off)
+                  (or (and (= -f on) (or a!225 a!227)) (and (= -f off) a!234))))
+      (a!288 (or (and (= -a on) (or (= -S off) a!279)) (and (= -a off) a!287)))
+      (a!300 (and (= -A on) (or (and (= -r off) a!294) (and (= -r on) a!299)))))
+(let ((a!22 (or (= -f on) a!16 (and (= -r on) (or (= -a on) a!21))))
+      (a!44 (or (and (= -X off) (or (= -F on) a!31)) a!43))
+      (a!104 (or a!102 (and (= -Z on) (or (= -H on) a!103))))
+      (a!138 (and (= --group-directories-first off)
+                  (or a!129 (and (= -R on) a!137))))
+      (a!150 (or (= --file-type on)
+                 (and (= --file-type off) (or (= -X on) a!149))))
+      (a!178 (and (= --si off)
+                  (or (and (= -R off) (or a!160 a!171)) (and (= -R on) a!177))))
+      (a!188 (and (= -X on)
+                  (or (= --group-directories-first on)
+                      (and (= --group-directories-first off) a!187))))
+      (a!202 (and (= -A off) (or a!191 (and (= -a off) a!201))))
+      (a!243 (or a!235 (and (= -Z on) (or (= -f on) a!242))))
+      (a!301 (and (= -Z off) (or (and (= -A off) a!288) a!300))))
+(let ((a!105 (and (= -s off) (or (and (= -f off) a!88) (and (= -f on) a!104))))
+      (a!139 (or (and (= --group-directories-first on) (or (= -f on) a!116))
+                 a!138))
+      (a!151 (and (= -s off) (or (= -f on) (and (= -f off) a!150))))
+      (a!179 (or (and (= --si on) (or (= -Z off) a!157)) a!178))
+      (a!223 (and (= -f off) (or a!188 (and (= -X off) (or a!202 a!222)))))
+      (a!260 (and (= -X off) (or (and (= -t off) a!243) a!259)))
+      (a!304 (and (= -f off) (or a!301 (and (= -Z on) a!303)))))
+(let ((a!106 (and (= -i off)
+                  (or (and (= -Q on) (or a!62 a!65))
+                      (and (= -Q off) (or a!71 a!105)))))
+      (a!140 (or (and (= -r on) (or (= -a on) a!112)) (and (= -r off) a!139)))
+      (a!180 (and (= -s on) (or (= -f on) (and (= -f off) a!179))))
+      (a!224 (and (= -R on) (or (and (= -f on) a!182) a!223)))
+      (a!278 (and (= -Q off) (or a!260 (and (= -X on) (or a!265 a!277))))))
+(let ((a!107 (and (= -R off) (or (and (= -i on) a!44) a!106)))
+      (a!152 (and (= -i on) (or (and (= -s on) a!140) a!151)))
+      (a!305 (or a!278 (and (= -Q on) (or (= -f on) a!304)))))
+(let ((a!108 (and (= -x off)
+                  (= -C on)
+                  (= -m off)
+                  (= -g off)
+                  (= -l off)
+                  (= --full-time off)
+                  (= --version off)
+                  (= -o off)
+                  (= -n off)
+                  (= --help off)
+                  (or (and (= -R on) a!22) a!107)))
+      (a!306 (and (= -s off) (or a!224 (and (= -R off) a!305)))))
+(let ((a!307 (and (= -x on)
+                  (= --help off)
+                  (= --version off)
+                  (or a!152 (and (= -i off) (or a!180 a!306))))))
+  (and (= -1 off) (= -d off) (or a!108 a!307)))))))))))))
+-
+44 8 41 7 M 25 14 23 13 46 28 26 45 34 21 32 35 10 4 27 H 29 15 1 MHH 33 38 0 HMHH 19 15 H 36 16 30 MHHM 39 18 38 2 M 11 HMH 0 H 5 MHH 27 17 H 1 MH 19 6 H 31 11 HM 1 MH 3 M 1 MH 12 36 H 1 H 0 HM 37 9 18 MHMH 40 36 2 12 0 HMH 20 6 5 MHHMMH 43 12 29 11 H 4 MHM 17 HM 2 M 33 6 0 3 HMMHH 42 36 M 3 M 11 H 2 MH 4 HHM 0 MH 27 19 HM 33 H 0 MH 4 33 HM 2 H 20 33 MHH 40 MHM 24 40 42 M 30 H 6 M 0 HM 30 17 M 15 MH 9 0 M 6 MHHM 19 33 H 0 HMH 42 H 33 43 H 17 37 HMH 43 5 4 MM 0 MHM 12 MH 12 H 18 2 0 HMHMH 10 0 33 43 12 39 16 H 6 4 MMHMM 15 MH 30 4 3 HMHMHMM 1 42 17 MHHH 11 12 2 1 MHHM 16 MH 43 9 42 1 20 HMH 17 3 HMM 12 H 15 HMH 1 39 H 2 H 18 H 3 MH 12 33 17 11 29 43 MHHHMH 42 H 2 HM 29 12 40 11 4 H 9 HMH 3 MHMHHHH 42 11 10 1 43 31 4 M 6 HM 5 2 HMH 36 MH 12 MH 19 4 H 2 HM 2 MH 0 MHHH 29 9 6 HMHH 39 H 20 H 18 HM 33 H 4 HHH 40 H 6 HMHH 15 33 35 39 H 0 MH 32 4 43 HM 1 HM 1 MHM 0 MH 43 M 5 MH 10 35 4 MM 5 HM 6 HMMHH 4 3 0 2 MHHHH 29 9 17 H 1 MH 1 HMH 0 1 H 11 MHH 37 H 20 H 0 MH 10 33 21 0 18 12 2 22 3 MHHH 2 11 H 37 MH 4 MH 17 HM 1 HM 5 MH 4 16 H 3 M 1 MH 30 H 16 M 42 HM 35 H 1 MH 27 6 MH 5 H 3 MHH 1 H 31 37 32 12 H 3 M 2 HM 42 H 11 MHH 40 H 4 HHMHM 4 H 32 2 H 6 HMHHH 15 1 H 2 HMH 0 1 29 4 5 6 HMH 24 12 2 MHHMH 30 H 20 MH 12 H 9 HMHHHHMMMMMMMM 45 46 21 35 34 32 42 37 43 10 1 39 13 22 40 30 M 5 HMH 15 H 33 12 HMM 4 0 HM 24 HMHH 0 HM 28 M 9 HM 33 4 H 19 MH 6 HM 6 HM 5 HMH 11 12 29 H 36 1 14 MHMM 40 M 6 HM 40 14 M 2 0 MHM 5 HM 10 39 29 20 15 M 3 HM 4 2 HMHHMH 26 H 3 H 5 MH 1 0 4 MMMH 2 MHH 40 M 33 MHH 39 29 24 H 17 13 H 15 HM 33 16 HM 9 H 15 HM 4 10 M 5 H 2 7 HMMH 27 12 MHH 26 12 H 1 MHM 5 MH 40 29 1 30 14 M 5 MH 22 M 4 HM 2 MHHH 4 HHH 17 HM 0 HM 24 M 4 M 3 MHMH 3 MH 4 5 H 16 HMH 14 HM 2 11 HMM 30 HM 43 10 1 0 14 5 H 2 MHH 13 17 20 MHHM 33 H 12 2 MHH 28 4 22 M 26 HM 9 MH 7 M 11 H 12 M 14 HM 7 1 HMHH 4 39 M 31 H 3 HMH 19 HM 23 HM 22 13 HMH 10 29 11 12 0 M 13 MHH 22 H 12 HM 1 22 2 HMHHH 10 43 1 0 4 5 H 9 MH 17 H 7 M 26 HM 24 H 3 MH 37 5 17 M 16 M 2 3 MHHHM 12 13 24 MH 5 H 24 H 38 HMH 36 H 4 HHHH 9 MH 33 42 15 38 M 28 20 27 MHMM 11 18 9 H 31 M 4 HMMMH 40 M 3 HM 39 H 7 MH 11 29 12 MHHH 39 19 H 4 H 2 MH 17 MH 27 0 MHHH 40 42 MH 3 29 11 MHHH 1 18 11 17 MHHHHH 10 42 1 0 15 11 14 12 29 5 M 4 HHM 9 MH 16 HMHHHH 33 H 29 2 39 32 14 18 MHH 9 HMM 18 M 3 HM 27 9 MH 4 HHH 3 HMH 16 H 20 9 15 14 HMHHH 33 39 32 15 36 19 0 37 MHHH 4 H 5 HMHMM 43 MH 40 23 7 H 30 0 H 16 HMMH 15 27 M 29 H 26 MHH 7 27 37 0 MHH 18 M 3 9 HMH 4 2 HMH 18 29 MHH 16 MHH 39 36 H 4 H 9 0 HMH 3 MHHH 40 5 23 0 MHM 4 11 MHH 15 HMHHH 15 11 29 12 32 0 23 M 13 HM 25 H 5 MH 25 H 22 HMHHHH 24 H 37 H 23 H 15 0 H 3 MHH 10 18 34 33 39 H 4 HHHH 11 27 M 31 23 MHHH 15 4 HHHH 20 H 26 2 HMH 0 1 37 14 5 28 MHMH 38 M 2 MH 6 16 H 4 MMMH 7 MHH 2 H 1 H 17 13 HMH 27 H 39 32 4 26 5 MHH 40 0 MHHHH 5 H 37 M 36 7 MHHHH 43 H 0 11 12 29 32 1 3 HMH 15 H 25 MHHHHHH 35 10 12 42 11 33 43 H 13 H 4 HHHMM 32 43 15 37 H 5 2 MHH 17 28 5 3 MHHMMHH 36 H 1 22 24 28 HMHHHHHH 33 15 34 32 1 43 18 17 H 12 11 HMM 3 M 10 MH 18 4 MMMMH 12 36 13 H 11 MHMH 10 H 25 31 12 M 0 6 MHHH 23 M 4 HHM 2 MHM 43 29 4 H 0 HMH 39 7 3 HMMH 1 MHHH 32 42 37 H 3 13 27 M 17 H 1 MHHH 43 22 20 13 HMMH 0 2 H 11 MHH 10 H 24 H 16 H 36 MH 10 1 0 39 4 H 5 7 MHHH 16 MH 16 MHHHHH 0 32 11 H 1 19 13 29 HM 4 MHHHHHHHHMMMM
+======
+# IGNORED
+# M/H: 161114 / 12368
+# Last rebuild:   iter 84  num_configs 173482
+ls.c:5184, ls.c:5185, 
+-
+(let ((a!1 (and (= -r off)
+                (or (= -A off)
+                    (= -f on)
+                    (and (= --block-size KB) (= -k off))
+                    (and (= --block-size off) (= --author off))
+                    (and (= --block-size K) (= --file-type off))
+                    (and (= --block-size MB) (= -q on) (= -U off)))))
+      (a!2 (and (= -p on)
+                (or (and (= -a off) (= -C off))
+                    (and (= -a on) (= -L off) (= -A off)))))
+      (a!3 (and (= -p off)
+                (or (= -b on) (= -F off) (and (= -F on) (= -u off) (= -L on)))))
+      (a!4 (or (and (= -F off) (or (= --block-size K) (= --block-size M)))
+               (and (= -F on) (or (= -C off) (= -g off)))))
+      (a!9 (and (= -S off)
+                (or (= --file-type off)
+                    (and (= --file-type on) (= -h on) (= -H on)))))
+      (a!15 (and (= -U off)
+                 (= --show-control-chars off)
+                 (or (= -h on) (and (= -h off) (= -k on)))))
+      (a!23 (and (= -a off) (or (= -A off) (and (= -A on) (= -f off))))))
+(let ((a!5 (and (= -a on) (or (= -A on) (and (= -A off) a!4))))
+      (a!10 (and (= -L off) (or a!9 (and (= -S on) (= --si on) (= -h on)))))
+      (a!16 (or a!15 (and (= -U on) (or (= -c on) (= -q off)))))
+      (a!24 (or (= -F off) (and (= -F on) (or (= -a on) a!23)))))
+(let ((a!6 (or (and (= -f on) (or a!2 a!3))
+               (and (= -f off) (or (= -a off) a!5))))
+      (a!11 (or (= -B on)
+                a!10
+                (and (= -L on) (or (= --file-type on) (= -N on))))))
+(let ((a!7 (and (= -s off) (or a!1 (and (= -r on) a!6))))
+      (a!12 (and (= --show-control-chars on)
+                 (= -p on)
+                 (or (= -k on) (and (= -U off) a!11)))))
+(let ((a!8 (or (= --group-directories-first off)
+               (= -i off)
+               (= -R on)
+               (= -X off)
+               (and (= -s on)
+                    (or (= --block-size K)
+                        (= --block-size KB)
+                        (= --block-size M)
+                        (= --block-size MB)
+                        (= -F on)
+                        (= -U off)))
+               a!7))
+      (a!13 (or (and (= --show-control-chars off)
+                     (= -h off)
+                     (or (= --file-type on) (= -Q on)))
+                a!12)))
+(let ((a!14 (or (and (= -t off) a!13)
+                (and (= -t on) (= -p on) (or (= -Q on) (= -Z off))))))
+(let ((a!17 (and (= -D on) (or (and (= -b off) a!14) (and (= -b on) a!16)))))
+(let ((a!18 (or (= --author off)
+                (= -F on)
+                (and (= -F off)
+                     (or (= --dereference-command-line-symlink-to-dir on) a!17)))))
+(let ((a!19 (or (and (= --block-size MB) (= --file-type off) (= -h off))
+                (and (= --block-size off) (or (= -f off) (= -k on)))
+                (and (= --block-size M) (= -D on) (= --si off))
+                (and (= --block-size K) (= -f on) a!18))))
+(let ((a!20 (or (and (= -A on) (or (= -c on) (= -q off))) (and (= -A off) a!19))))
+(let ((a!21 (or (and (= -a off)
+                     (= -F off)
+                     (or (= -b off) (= -f off) (= --si off)))
+                (and (= -a on) a!20))))
+(let ((a!22 (or (= --group-directories-first off)
+                (= -X on)
+                (and (= -v off) (or (= -a off) (= -A on) (= -c on)))
+                (and (= -v on) a!21))))
+(let ((a!25 (and (= -x off)
+                 (= -C on)
+                 (= -m off)
+                 (= -g off)
+                 (= -l off)
+                 (= --full-time off)
+                 (= --version off)
+                 (= -o off)
+                 (= -n off)
+                 (= --help off)
+                 (or (= -i off)
+                     (= -r on)
+                     (= -R on)
+                     (= -s on)
+                     (and (= -G off) a!22)
+                     (and (= -G on) a!24)))))
+  (and (= -1 off)
+       (= -d off)
+       (or (and (= -x on) (= --help off) (= --version off) a!8) a!25)))))))))))))))
+-
+44 8 41 7 M 25 14 23 13 46 28 26 45 21 H 33 34 35 16 15 H 42 40 0 H 1 6 MHH 0 11 10 H 18 H 3 HMM 1 4 10 M 2 H 11 20 9 M 3 37 31 17 12 32 MHHM 29 M 22 39 5 24 36 12 H 17 M 19 MH 18 M 17 MH 27 12 MHHHMH 29 M 32 43 HMH 39 31 17 22 MHHM 6 30 HMHHHM 9 M 18 HM 12 17 HMM 10 H 22 MH 30 H 6 MHH 11 H 0 1 H 10 HMHHHHMMMMMMMM 45 46 42 H 21 H 34 15 H 35 33 1 H 10 4 12 HM 22 HMM 30 M 39 HM 2 HMH 10 0 H 1 11 4 HMHMM 14 H 7 HMH 29 3 11 H 38 24 MHMH 0 7 HM 24 1 HMM 4 HHHH 39 H 11 MHHMMMM
+======
+# M/H: 157553 / 18255
+# Last rebuild:   iter 3  num_configs 5935
+ls.c:5218, ls.c:5221, ls.c:5226, ls.c:5231, ls.c:5238, ls.c:5240, ls.c:5253, ls.c:5254, ls.c:5255, ls.c:5256, ls.c:5258, ls.c:5262, ls.c:5264, ls.c:5265, ls.c:5268, ls.c:5271, ls.c:5275, ls.c:5276, ls.c:5277, ls.c:5278, ls.c:5280, ls.c:5286, ls.c:5294, ls.c:5296, ls.c:5299, ls.c:5301, ls.c:5302, ls.c:5304, ls.c:5306, ls.c:5308, ls.c:5310, ls.c:5311, ls.c:5313, ls.c:5315, ls.c:5316, ls.c:5317, ls.c:5318, ls.c:5319, ls.c:5326, ls.c:5332, 
+-
+(and (= -1 off)
+     (or (and (= -x on) (= --help off) (= --version off))
+         (and (= -C on)
+              (= -g off)
+              (= -l off)
+              (= --full-time off)
+              (= -n off)
+              (= -o off)
+              (= -m off)
+              (= --version off)
+              (= --help off))))
+-
+44 41 7 M 14 23 13 26 28 25 46 45 HMMMMMMMM 45 46 HMMM
+======
+# M/H: 117622 / 56811
+# Last rebuild:   iter 30  num_configs 18605
+system.h:156, 
+-
+(let ((a!1 (and (= --full-time off)
+                (= -x off)
+                (or (= -n on)
+                    (= -o on)
+                    (and (= -l on) (= -m off))
+                    (and (= -g on) (= -m off)))))
+      (a!2 (or (= -x on)
+               (and (= --full-time off) (or (= -C on) (= -g on) (= -l on)))
+               (and (= -m on) (= -n off) (= -o off)))))
+(let ((a!3 (or a!1
+               (and (= -Q off)
+                    (= -q on)
+                    (= --show-control-chars off)
+                    (or (= -N on) (= -b off)))
+               (and (= -1 off) a!2))))
+  (and (= --version off) (= --help off) a!3)))
+-
+46 45 44 41 13 7 14 23 25 26 28 30 M 32 31 27 3 HMHMMHHHHHH 25 31 30 M 32 3 H 27 MHMM 26 28 H 31 30 M 32 3 H 27 MHMM 32 30 M 31 3 H 27 MHMMH 13 41 26 28 14 23 32 30 M 31 27 3 HMHMM 25 H 31 32 30 M 27 3 HMHMM 25 H 32 30 M 31 3 H 27 MHMMHH 32 30 M 31 27 3 HMHMM 32 30 M 31 27 3 HMHMMMM
+======
+# M/H: 119546 / 55346
+# Last rebuild:   iter 3  num_configs 5019
+ls.c:1098, ls.c:1100, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on)))))
+      (a!2 (and (= -f off)
+                (= -S off)
+                (or (and (= -c on) (= -v off)) (and (= -u on) (= -v off))))))
+(let ((a!3 (and (= -U off) (= -X off) (or (and (= -t on) (= -v off)) a!2))))
+  (and (= --version off) (= --help off) (or (and (= -x off) a!1) a!3))))
+-
+46 45 41 28 26 25 14 13 23 39 40 42 37 10 36 38 6 MHHMMHMMMHHH 42 40 39 37 10 36 6 38 MHHMMHMMMHH 39 42 37 10 36 6 38 M 40 HM 40 HMMM 40 HMMMMM
+======
+# M/H: 162089 / 12828
+# Last rebuild:   iter 3  num_configs 5044
+ls.c:1104, ls.c:1105, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -c off)
+       (= -u off)
+       (= --version off)
+       (= --help off)
+       (or (and (= -x off) a!1)
+           (and (= -t on) (= -U off) (= -v off) (= -X off)))))
+-
+6 38 46 45 41 26 28 25 14 13 23 37 M 39 42 40 HMMMHHH 37 M 39 42 40 HMMMHH 37 M 39 40 42 HMMMMMMM
+======
+# M/H: 129542 / 46623
+# Last rebuild:   iter 2  num_configs 2192
+ls.c:1128, ls.c:1129, ls.c:1131, ls.c:1246, ls.c:1248, ls.c:1249, ls.c:1250, ls.c:1327, ls.c:1330, ls.c:1331, ls.c:1332, ls.c:2353, ls.c:2356, ls.c:2360, ls.c:2367, ls.c:2385, ls.c:2388, ls.c:2408, ls.c:2434, ls.c:3125, ls.c:3127, ls.c:3246, ls.c:3252, ls.c:3260, ls.c:3261, ls.c:3262, ls.c:3264, ls.c:3481, ls.c:3482, ls.c:3483, ls.c:3547, ls.c:3554, ls.c:3561, ls.c:3579, ls.c:3580, ls.c:3581, ls.c:3583, ls.c:3599, ls.c:3600, ls.c:3604, ls.c:3605, ls.c:4066, ls.c:4067, ls.c:4069, ls.c:4070, ls.c:4071, ls.c:4073, ls.c:4082, ls.c:4085, ls.c:4086, ls.c:4087, ls.c:4088, ls.c:4222, ls.c:4238, ls.c:4242, ls.c:4243, ls.c:4250, ls.c:4251, ls.c:4257, ls.c:4277, ls.c:4279, ls.c:4289, ls.c:4310, ls.c:4315, ls.c:4317, ls.c:4319, ls.c:4338, ls.c:4339, ls.c:4356, ls.c:4357, ls.c:4359, ls.c:4363, ls.c:4365, ls.c:4366, ls.c:4367, ls.c:4370, ls.c:4371, ls.c:4373, ls.c:4374, ls.c:4382, ls.c:4383, ls.c:4389, ls.c:4390, ls.c:4392, ls.c:4393, ls.c:4397, ls.c:4398, ls.c:4401, ls.c:4403, ls.c:4404, ls.c:4407, ls.c:4422, ls.c:4423, ls.c:4425, ls.c:4435, ls.c:4437, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -x off) (= --help off) (= --version off) a!1))
+-
+41 45 46 28 26 25 13 23 14 MHHHMHHMMM
+======
+# M/H: 154467 / 21723
+# Last rebuild:   iter 2  num_configs 2217
+ls.c:1255, ls.c:1333, ls.c:2410, ls.c:2411, ls.c:2413, 
+-
+(and (= --full-time on)
+     (= -x off)
+     (= --version off)
+     (= --help off)
+     (or (= -m off) (= -n on) (= -o on)))
+-
+13 M 41 46 45 25 H 26 28 MHHMMM
+======
+# M/H: 124805 / 51410
+# Last rebuild:   iter 2  num_configs 2242
+ls.c:1679, ls.c:1683, ls.c:1686, ls.c:1827, ls.c:1828, 
+-
+(and (= -R on) (= --help off) (= --version off))
+-
+34 M 45 46 HMM
+======
+# M/H: 143543 / 32697
+# Last rebuild:   iter 2  num_configs 2267
+ls.c:1752, ls.c:1753, 
+-
+(and (= -d on) (= --version off) (= --help off))
+-
+8 M 46 45 HMM
+======
+# M/H: 150054 / 26211
+# Last rebuild:   iter 2  num_configs 2292
+ls.c:2345, 
+-
+(and (= -u off) (= -c off) (= --version off) (= --help off))
+-
+38 6 46 45 HMMMM
+======
+# M/H: 108265 / 68025
+# Last rebuild:   iter 2  num_configs 2317
+ls.c:3207, ls.c:3209, ls.c:3216, ls.c:3222, ls.c:3227, ls.c:3234, ls.c:3236, ls.c:3237, ls.c:3239, ls.c:3455, ls.c:3456, ls.c:3457, ls.c:3458, ls.c:3460, ls.c:3469, ls.c:3475, ls.c:3476, ls.c:3479, ls.c:3486, ls.c:3488, ls.c:3491, ls.c:3493, system.h:765, system.h:767, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= --help off) (= --version off) (or (= -Z on) (and (= -x off) a!1))))
+-
+45 46 43 41 28 26 25 14 23 13 MHHHMHHMHMM
+======
+# M/H: 115356 / 58336
+# Last rebuild:   iter 4  num_configs 6370
+ls.c:3235, 
+-
+(let ((a!1 (or (= -H on)
+               (= --dereference-command-line-symlink-to-dir on)
+               (= -L on)))
+      (a!4 (or (= -F off) (= --file-type on) (= -p on))))
+(let ((a!2 (and (= -m off)
+                (or (and (= -l on) a!1)
+                    (and (= -g on) a!1)
+                    (and (= --full-time on) a!1))))
+      (a!5 (and (= -x off)
+                (= -n off)
+                (= -o off)
+                (or (and (= -m on) a!4)
+                    (and (= -m off)
+                         (= --full-time off)
+                         (= -l off)
+                         (= -g off)
+                         a!4)))))
+(let ((a!3 (and (= -x off) (or (and (= -n on) a!1) (and (= -o on) a!1) a!2)))
+      (a!6 (and (= -d off) (or (and (= -x on) a!4) a!5))))
+(let ((a!7 (or a!3
+               (and (= -Z on)
+                    (or (= -H on)
+                        (= --dereference-command-line-symlink-to-dir on)
+                        (= -L on)
+                        a!6)))))
+  (and (= --version off) (= --help off) a!7)))))
+-
+46 45 43 41 26 28 25 14 13 23 M 20 19 24 MHHH 19 24 20 MHHH 19 24 20 MHHHM 19 20 24 MHHH 19 20 24 MHHHM 19 20 24 8 41 26 28 25 13 23 14 29 12 11 HMHHMMM 11 H 29 12 MHHMM 12 29 11 HMHHMHHHMM
+======
+# M/H: 109074 / 67264
+# Last rebuild:   iter 2  num_configs 2365
+ls.c:3538, ls.c:3541, ls.c:3542, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= --help off) (= --version off) (or (= -s on) (and (= -x off) a!1))))
+-
+45 46 35 41 28 26 25 14 13 23 MHHHMHHMHMM
+======
+# M/H: 92447 / 83916
+# Last rebuild:   iter 2  num_configs 2390
+ls.c:4015, ls.c:4016, ls.c:4025, ls.c:4026, ls.c:4028, 
+-
+(let ((a!1 (or (= -v on)
+               (= -X on)
+               (and (= -U off) (or (= -f off) (= -S on) (= -t on))))))
+  (and (= --help off) (= --version off) a!1))
+-
+45 46 42 40 39 10 H 37 36 MHHMHHMM
+======
+# M/H: 164549 / 11839
+# Last rebuild:   iter 2  num_configs 2415
+ls.c:4262, ls.c:4263, ls.c:4264, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -u off) (= -c off) (= -x off) (= --version off) (= --help off) a!1))
+-
+38 6 41 46 45 28 26 25 13 23 14 MHHHMHHMMMMM
+======
+# M/H: 135325 / 39651
+# Last rebuild:   iter 3  num_configs 5103
+ls.c:4436, 
+-
+(let ((a!1 (or (= -F on) (= --file-type on) (= -p on))))
+(let ((a!2 (and (= -m off)
+                (or (and (= -l on) a!1)
+                    (and (= -g on) a!1)
+                    (and (= --full-time on) a!1)))))
+  (and (= -x off)
+       (= --help off)
+       (= --version off)
+       (or (and (= -n on) a!1) (and (= -o on) a!1) a!2))))
+-
+41 45 46 28 26 25 13 14 23 M 11 12 29 MHHH 29 11 12 MHHH 29 12 11 MHHHM 12 11 29 MHHH 12 29 11 MHHHMMM
+======
+# M/H: 110544 / 65893
+# Last rebuild:   iter 2  num_configs 2464
+ls.c:4726, ls.c:4733, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -R on) (= -d off))
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= --help off)
+       (= --version off)
+       (or (and (= -R on) (= -d off)) (and (= -x off) a!1))))
+-
+45 46 41 26 28 25 13 14 23 8 34 MHMHHH 34 M 8 HMHH 34 M 8 HMMM
+======
+# M/H: 133213 / 43249
+# Last rebuild:   iter 2  num_configs 2489
+ls.c:1125, 
+-
+(and (= -s on) (= --help off) (= --version off))
+-
+35 M 45 46 HMM
+======
+# IGNORED
+# M/H: 133572 / 39910
+# Last rebuild:   iter 84  num_configs 173482
+ls.c:1186, ls.c:1188, ls.c:3425, ls.c:3426, ls.c:3427, 
+-
+(let ((a!1 (and (= -f off)
+                (or (= -c on)
+                    (= -u on)
+                    (and (= -q off) (= --full-time off) (= -C on)))))
+      (a!6 (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))
+      (a!7 (and (= -F on) (= --file-type off) (= -p off)))
+      (a!8 (and (= --full-time off)
+                (or (= -g on) (and (= -a off) (= -H off) (= -F on) (= -C off)))))
+      (a!9 (and (= -m on) (= -F on) (= --file-type off) (= -p off)))
+      (a!13 (and (= -F off)
+                 (or (and (= --full-time on) (= -m off))
+                     (and (= -g on) (= -m off)))))
+      (a!14 (or (= --file-type off)
+                (and (= -H off) (or (= --block-size KB) (= --block-size M)))))
+      (a!18 (and (= -m off)
+                 (or (= --full-time on)
+                     (= -g on)
+                     (= -l on)
+                     (and (= --full-time off)
+                          (= -F on)
+                          (= --file-type off)
+                          (= -p off)))))
+      (a!21 (or (= -S on) (= -t on) (and (= -f off) (or (= -c on) (= -u on))))))
+(let ((a!2 (and (= -v off)
+                (or (= -S on)
+                    (= -t on)
+                    a!1
+                    (and (= -f on) (= --file-type off) (= -F on) (= -b on)))))
+      (a!10 (or (and (= -m off) (or (= --full-time on) (= -l on) a!8)) a!9))
+      (a!11 (or (= --full-time on)
+                (= -g on)
+                (and (= --full-time off) (or (= -l on) a!7))))
+      (a!15 (and (= -p off) (or a!13 (and (= -F on) a!14))))
+      (a!22 (or (and (= -x off) (or (= -n on) (= -o on) a!6))
+                (and (= -F on) (= -p off) (= --file-type off))
+                (and (= -v off) (= -X off) (= -U off) a!21))))
+(let ((a!3 (and (= -X off)
+                (or a!2
+                    (and (= -v on) (= -F on) (= --file-type off) (= -p off)))))
+      (a!12 (and (= -f on)
+                 (or (and (= -m off) a!11)
+                     (and (= -m on) (= -h off) (= -a off) (= -B off)))))
+      (a!16 (and (= -f off)
+                 (or (= -c on)
+                     (= -u on)
+                     a!15
+                     (and (= -p on) (= -l on) (= -m off))))))
+(let ((a!4 (and (= -U off)
+                (or a!3
+                    (and (= -X on) (= --file-type off) (= -F on) (= -p off)))))
+      (a!17 (or (and (= -U on) a!10)
+                (and (= -U off) (or (= -S on) (= -t on) a!12 a!16)))))
+(let ((a!5 (and (= -x on)
+                (or a!4
+                    (and (= -U on) (= -F on) (= --file-type off) (= -p off)))))
+      (a!19 (and (= -X off)
+                 (or (and (= -v off) a!17) (and (= -v on) (or a!18 a!9))))))
+(let ((a!20 (and (= -x off)
+                 (or (= -n on) (= -o on) (and (= -X on) (or a!6 a!7)) a!19))))
+(let ((a!23 (or (= -i on)
+                (= -s on)
+                (= -Z on)
+                (and (= --group-directories-first on) (or (= -R on) a!5 a!20))
+                (and (= --group-directories-first off) a!22))))
+  (and (= -L off)
+       (= --version off)
+       (= --help off)
+       (or (and (= -d off) a!23)
+           (and (= -d on)
+                (= -H off)
+                (= --dereference-command-line-symlink-to-dir off)))))))))))
+-
+24 46 45 8 21 43 35 15 41 26 28 25 13 23 14 40 42 39 37 36 10 38 6 11 M 29 12 HMMHH 11 M 12 29 HMMHH 12 29 11 MHMM 11 M 29 12 HMM 11 M 29 12 HMMHHH 40 42 39 37 36 10 38 6 11 M 12 29 HMMHH 11 M 29 12 HMMHH 11 M 12 29 HMM 11 M 12 29 HMM 11 M 12 29 HMMHH 40 42 39 36 37 10 6 38 11 M 12 29 HMMHH 11 M 29 12 HMMHH 11 M 12 29 HMM 11 M 29 12 HMM 11 M 29 12 HMM 34 41 28 26 42 40 39 37 36 10 38 6 29 11 14 13 M 25 HM 25 HM 12 H 19 4 MHHMMM 23 M 25 HMHH 25 14 13 23 11 M 12 29 HMMHHH 17 0 5 HMMMHH 25 23 13 14 0 19 11 M 7 HMMMHHH 11 M 12 29 HMM 25 14 23 13 11 M 12 29 HMMHHH 11 M 12 29 HMM 25 14 23 13 11 M 29 12 HMMHHH 11 M 12 29 HMMHH 39 42 40 37 36 10 38 6 30 13 7 MHMMHH 12 11 M 3 MHMHH 11 M 12 29 HMM 12 11 M 29 HMM 11 M 12 29 HMMHHHH 19 20 HMMMMM
+======
+# M/H: 127471 / 49038
+# Last rebuild:   iter 2  num_configs 2536
+ls.c:1658, 
+-
+(and (= --group-directories-first on) (= --help off) (= --version off))
+-
+15 M 45 46 HMM
+======
+# M/H: 138088 / 38446
+# Last rebuild:   iter 2  num_configs 2561
+ls.c:2323, ls.c:2324, 
+-
+(and (= -p off)
+     (= --version off)
+     (= --help off)
+     (or (= -F on) (= --file-type on)))
+-
+29 46 45 11 12 MHHMMM
+======
+# M/H: 149157 / 27402
+# Last rebuild:   iter 2  num_configs 2586
+ls.c:2334, 
+-
+(let ((a!1 (and (= -n off)
+                (= -o off)
+                (or (= -m on) (and (= --full-time off) (= -l off) (= -g off))))))
+  (and (= -D on) (= --version off) (= --help off) (or (= -x on) a!1)))
+-
+9 M 46 45 41 26 28 25 13 23 14 HMMMHMMHMM
+======
+# M/H: 133468 / 43116
+# Last rebuild:   iter 2  num_configs 2611
+ls.c:3066, ls.c:3067, ls.c:3068, ls.c:3069, ls.c:3070, ls.c:3072, ls.c:3073, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -d off)
+       (= --version off)
+       (= --help off)
+       (or (= -s on) (and (= -x off) a!1))))
+-
+8 46 45 35 41 26 28 25 23 14 13 MHHHMHHMHMMM
+======
+# M/H: 129338 / 45693
+# Last rebuild:   iter 3  num_configs 5158
+ls.c:3400, ls.c:3402, ls.c:3405, ls.c:3406, ls.c:3408, 
+-
+(let ((a!1 (or (= -F off) (= --file-type on) (= -p on))))
+(let ((a!2 (and (= -o off)
+                (= -n off)
+                (or (and (= -m on) a!1)
+                    (and (= --full-time off) (= -l off) (= -g off) a!1)))))
+(let ((a!3 (and (= -d off) (or (and (= -x on) a!1) a!2))))
+  (and (= -L off)
+       (= --version off)
+       (= --help off)
+       (or (= -H on) (= --dereference-command-line-symlink-to-dir on) a!3)))))
+-
+24 46 45 19 20 8 41 28 26 25 13 23 14 11 H 12 29 MHHMMM 29 12 11 HMHHMM 12 11 H 29 MHHMHHMMM
+======
+# M/H: 142721 / 32335
+# Last rebuild:   iter 3  num_configs 5183
+ls.c:3411, ls.c:3413, ls.c:3414, ls.c:3415, 
+-
+(let ((a!1 (or (= -F off) (= --file-type on) (= -p on))))
+(let ((a!2 (and (= -n off)
+                (= -o off)
+                (or (and (= -m on) a!1)
+                    (and (= --full-time off) (= -l off) (= -g off) a!1)))))
+(let ((a!3 (and (= -H off)
+                (= -d off)
+                (= --help off)
+                (or (and (= -x on) a!1) a!2))))
+  (and (= -L off)
+       (= --version off)
+       (or a!3
+           (and (= --dereference-command-line-symlink-to-dir on) (= --help off)))))))
+-
+24 46 20 19 8 45 41 26 28 25 13 23 14 11 H 29 12 MHHMMM 29 12 11 HMHHMM 12 11 H 29 MHHMMM 45 HMMM
+======
+# M/H: 149200 / 27460
+# Last rebuild:   iter 2  num_configs 2687
+ls.c:3633, ls.c:3635, ls.c:3636, 
+-
+(let ((a!1 (or (= -v on)
+               (= -X on)
+               (and (= -U off) (or (= -f off) (= -S on) (= -t on))))))
+  (and (= --group-directories-first on)
+       (= -d off)
+       (= --version off)
+       (= --help off)
+       a!1))
+-
+15 M 8 46 45 42 40 39 10 H 36 37 MHHMHHMMM
+======
+# M/H: 134360 / 42325
+# Last rebuild:   iter 2  num_configs 2712
+ls.c:3758, ls.c:3761, ls.c:3762, ls.c:3763, ls.c:3770, 
+-
+(let ((a!1 (or (= -X on)
+               (and (= -U off) (= -v off) (or (= -f off) (= -S on) (= -t on))))))
+  (and (= -d off) (= --version off) (= --help off) a!1))
+-
+8 46 45 42 39 40 10 H 37 36 MHHMMHMMM
+======
+# M/H: 151671 / 25039
+# Last rebuild:   iter 2  num_configs 2737
+ls.c:3878, ls.c:3881, ls.c:3882, ls.c:3883, ls.c:3884, ls.c:3893, 
+-
+(and (= -X on) (= -d off) (= --version off) (= --help off))
+-
+42 M 8 46 45 HMMM
+======
+# M/H: 147985 / 27233
+# Last rebuild:   iter 4  num_configs 6997
+ls.c:4040, ls.c:4041, ls.c:4043, ls.c:4044, ls.c:4046, 
+-
+(let ((a!1 (and (= -n off)
+                (= -o off)
+                (or (= -m on) (and (= -g off) (= -l off) (= --full-time off))))))
+  (or (and (= -1 on) (= --version off) (= --help off) (or (= -x on) a!1))
+      (and (= -C off)
+           (= -m off)
+           (= --full-time off)
+           (= -l off)
+           (= -g off)
+           (= -x off)
+           (= -n off)
+           (= -o off)
+           (= --version off)
+           (= --help off))))
+-
+44 7 25 13 23 14 41 26 28 46 45 HMMMMMMMMMM 46 45 41 26 28 25 14 23 13 HMMMHMMHMM
+======
+# M/H: 155909 / 20851
+# Last rebuild:   iter 2  num_configs 2787
+ls.c:4813, ls.c:4814, ls.c:4815, 
+-
+(let ((a!1 (and (= -o off)
+                (= -n off)
+                (or (= -m on) (and (= --full-time off) (= -g off) (= -l off))))))
+  (and (= -s on) (= --version off) (= --help off) (or (= -x on) a!1)))
+-
+35 M 46 45 41 28 26 25 13 14 23 HMMMHMMHMM
+======
+# M/H: 133261 / 43524
+# Last rebuild:   iter 2  num_configs 2812
+ls.c:3571, ls.c:3572, ls.c:3573, 
+-
+(and (= -Z on) (= --help off) (= --version off))
+-
+43 M 45 46 HMM
+======
+# M/H: 155168 / 21642
+# Last rebuild:   iter 2  num_configs 2837
+ls.c:4819, 
+-
+(let ((a!1 (and (= -n off)
+                (= -o off)
+                (or (= -m on) (and (= -l off) (= -g off) (= --full-time off))))))
+  (and (= -Z on) (= --version off) (= --help off) (or (= -x on) a!1)))
+-
+43 M 46 45 41 26 28 25 23 14 13 HMMMHMMHMM
+======
+# M/H: 165721 / 11114
+# Last rebuild:   iter 2  num_configs 2862
+ls.c:5041, 
+-
+(let ((a!1 (and (= -n off)
+                (or (and (= -m on) (= -o off))
+                    (and (= -C on)
+                         (= --full-time off)
+                         (= -l off)
+                         (= -g off)
+                         (= -o off))))))
+  (and (= -Z on) (= -1 off) (= --help off) (= --version off) (or (= -x on) a!1)))
+-
+43 M 44 45 46 41 26 25 7 M 13 23 14 28 HMMMM 28 HMMHMMM
+======
+# M/H: 165774 / 11086
+# Last rebuild:   iter 2  num_configs 2887
+ls.c:5033, 
+-
+(let ((a!1 (and (= -o off)
+                (or (and (= -C on)
+                         (= -g off)
+                         (= -l off)
+                         (= --full-time off)
+                         (= -n off))
+                    (and (= -m on) (= -n off))))))
+  (and (= -s on) (= -1 off) (= --help off) (= --version off) (or (= -x on) a!1)))
+-
+35 M 44 45 46 41 28 25 7 M 14 23 13 26 HMMMM 26 HMMHMMM
+======
+# M/H: 171810 / 2597
+# Last rebuild:   iter 25  num_configs 12796
+ls.c:1699, 
+-
+(let ((a!1 (or (= -f on) (and (= -c off) (= -u off)))))
+(let ((a!2 (or (= -U on) (= -v on) (= -X on) (and (= -S off) (= -t off) a!1)))
+      (a!3 (and (= -l off)
+                (or (and (= -U on) (= --full-time off))
+                    (and (= -t off) (= -S off) (= --full-time off) a!1)))))
+(let ((a!4 (and (= -g off)
+                (or a!3
+                    (and (= -X on) (= --full-time off) (= -l off))
+                    (and (= -v on) (= --full-time off) (= -l off))))))
+(let ((a!5 (and (= -n off) (= -o off) (or (and (= -m on) a!2) a!4))))
+  (and (= -F off)
+       (= -R off)
+       (= -p off)
+       (= --file-type off)
+       (= -Z off)
+       (= -s off)
+       (= --version off)
+       (= --help off)
+       (or (and (= -x on) a!2) a!5))))))
+-
+11 34 29 12 43 35 46 45 41 26 28 14 42 40 23 39 37 36 13 10 6 38 HMMH 25 M 10 38 6 HMMHMM 13 H 25 MH 25 M 39 37 36 10 38 6 HMMHMMH 13 23 H 25 MH 25 MH 25 13 23 HMMH 25 M 39 40 42 36 37 10 6 38 HMMHMMHHHMM 39 42 40 36 37 10 6 38 HMMHMMHHHMMMMMMMM
+======
+# M/H: 150130 / 26785
+# Last rebuild:   iter 2  num_configs 2942
+ls.c:4461, ls.c:4462, 
+-
+(and (= --show-control-chars off) (= -q on) (= --version off) (= --help off))
+-
+31 30 M 46 45 HMMM
+======
+# M/H: 141213 / 35727
+# Last rebuild:   iter 2  num_configs 2967
+ls.c:1018, ls.c:1022, ls.c:1023, ls.c:1024, ls.c:1025, ls.c:1026, ls.c:1027, ls.c:1028, ls.c:1029, ls.c:1034, ls.c:1038, ls.c:1039, ls.c:1040, ls.c:1041, ls.c:1042, ls.c:1043, ls.c:1205, ls.c:1207, ls.c:1367, ls.c:1369, ls.c:1370, ls.c:1374, ls.c:1376, ls.c:1377, ls.c:1378, ls.c:1382, ls.c:1384, ls.c:1385, ls.c:1392, ls.c:1398, ls.c:1399, ls.c:1400, ls.c:1403, ls.c:1405, ls.c:1411, ls.c:1413, ls.c:1419, ls.c:1766, ls.c:1772, ls.c:1773, ls.c:1775, ls.c:1776, ls.c:1777, ls.c:1778, ls.c:2912, ls.c:2915, ls.c:2916, ls.c:2917, ls.c:2927, ls.c:2936, ls.c:2943, ls.c:2944, ls.c:2945, ls.c:2946, ls.c:2948, ls.c:2949, ls.c:2956, ls.c:2959, ls.c:2961, ls.c:2987, ls.c:3059, ls.c:3688, ls.c:3690, ls.c:3691, ls.c:3714, ls.c:3725, ls.c:3731, ls.c:3732, ls.c:3733, system.h:265, system.h:267, system.h:273, 
+-
+(and (= -R on) (= -d off) (= --help off) (= --version off))
+-
+34 M 8 45 46 HMMM
+======
+# M/H: 159679 / 15569
+# Last rebuild:   iter 4  num_configs 7027
+ls.c:1102, ls.c:1103, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on)))))
+      (a!2 (or (= -t on) (and (= -f off) (or (= -S off) (= -t on))))))
+  (and (= -c on)
+       (= -u off)
+       (= --version off)
+       (= --help off)
+       (or (and (= -x off) a!1) (and (= -U off) (= -v off) (= -X off) a!2))))
+-
+6 M 38 46 45 41 28 26 25 14 13 23 40 42 39 37 10 36 HMMHMMMHHH 42 39 40 36 10 H 37 MH 37 MHMMMHH 39 40 42 10 36 H 37 MH 37 MHMMMMMM
+======
+# M/H: 142276 / 34713
+# Last rebuild:   iter 2  num_configs 3016
+ls.c:1130, ls.c:4159, ls.c:4161, ls.c:4162, ls.c:4163, ls.c:4195, ls.c:4197, 
+-
+(let ((a!1 (and (= --author on)
+                (or (= -n on) (= -o on) (and (= -m off) (= -g on)))))
+      (a!2 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -l on))))))
+  (and (= -x off)
+       (= --version off)
+       (= --help off)
+       (or a!1 (and (= -g off) a!2))))
+-
+41 46 45 2 14 26 28 25 13 23 MHHMHHM 26 28 25 13 23 14 MHHHMHHMMM
+======
+# M/H: 161468 / 13171
+# Last rebuild:   iter 4  num_configs 6418
+ls.c:1192, ls.c:1194, ls.c:3514, ls.c:3516, ls.c:3517, 
+-
+(let ((a!1 (or (and (= --full-time on) (or (= -F on) (= --file-type on)))
+               (and (= -l on) (or (= --file-type on) (= -F on)))
+               (and (= -g on) (or (= -F on) (= --file-type on))))))
+(let ((a!2 (or (and (= -n on) (or (= -F on) (= --file-type on)))
+               (and (= -o on) (or (= --file-type on) (= -F on)))
+               (and (= -m off) a!1))))
+  (and (= -R on)
+       (= -L off)
+       (= -d off)
+       (or (and (= --group-directories-first on)
+                (= --help off)
+                (= --version off))
+           (and (= -p off) (= -x off) (= --version off) (= --help off) a!2)))))
+-
+34 M 24 8 15 29 41 46 45 28 26 25 14 13 23 M 12 11 MHH 11 12 MHH 11 12 MHHM 11 12 MHH 12 11 MHHMMMM 45 46 HMMMM
+======
+# M/H: 151529 / 25515
+# Last rebuild:   iter 2  num_configs 3071
+ls.c:1252, ls.c:1292, ls.c:1297, ls.c:1301, ls.c:1302, ls.c:1303, ls.c:1305, ls.c:1306, ls.c:1307, ls.c:1309, ls.c:1310, ls.c:1311, ls.c:1313, ls.c:1315, ls.c:1318, ls.c:1320, ls.c:1336, ls.c:1339, ls.c:1341, ls.c:1342, ls.c:1344, ls.c:1347, ls.c:1351, ls.c:1353, ls.c:1354, ls.c:1355, ls.c:1358, ls.c:1363, ls.c:2357, ls.c:2358, ls.c:2424, ls.c:2425, 
+-
+(let ((a!1 (or (= -n on) (= -o on) (and (= -m off) (or (= -g on) (= -l on))))))
+  (and (= --full-time off) (= -x off) (= --help off) (= --version off) a!1))
+-
+13 41 45 46 26 28 25 23 14 MHHMHHMMMM
+======
+# M/H: 149016 / 28053
+# Last rebuild:   iter 2  num_configs 3096
+ls.c:3113, ls.c:3114, 
+-
+(and (= -f off)
+     (= -d off)
+     (= --version off)
+     (= --help off)
+     (or (= -a off) (= -A on)))
+-
+10 8 46 45 0 H 1 MHMMMM
+======
+# M/H: 137327 / 37131
+# Last rebuild:   iter 30  num_configs 18630
+ls.c:3185, ls.c:3186, 
+-
+(let ((a!1 (and (= -n off)
+                (or (and (= --full-time off)
+                         (= -l off)
+                         (= -g off)
+                         (= -o off)
+                         (= --help off))
+                    (and (= -m on) (= -o off) (= --help off)))))
+      (a!4 (or (= -U on) (and (= -S off) (= -t off)))))
+(let ((a!2 (and (= -1 on)
+                (= --version off)
+                (or a!1 (and (= -x on) (= --help off)))))
+      (a!5 (and (= -o off)
+                (= -n off)
+                (or (and (= -m on) a!4)
+                    (and (= --full-time off)
+                         (= -g off)
+                         (= -l off)
+                         (= -S off)
+                         (= -t off))))))
+(let ((a!3 (and (= -U on)
+                (or a!2
+                    (and (= -m off)
+                         (= -C off)
+                         (= -g off)
+                         (= -o off)
+                         (= --help off)
+                         (= --full-time off)
+                         (= -n off)
+                         (= -l off)
+                         (= -x off)
+                         (= --version off)))))
+      (a!6 (and (= -1 on)
+                (= --version off)
+                (= --help off)
+                (or (and (= -x on) a!4) a!5))))
+(let ((a!7 (and (= -f on)
+                (or a!6
+                    (and (= -C off)
+                         (= --full-time off)
+                         (= -m off)
+                         (= -n off)
+                         (= -g off)
+                         (= -o off)
+                         (= -x off)
+                         (= --help off)
+                         (= --version off)
+                         (= -l off)
+                         a!4)))))
+  (or (and (= -v off) (= -X off) (= -d off) (= -s off) (or a!3 a!7))
+      (and (= -R on) (= -d off) (= --help off) (= --version off)))))))
+-
+34 40 42 8 35 10 39 M 44 25 7 14 28 45 13 26 23 41 46 HMMMMMMMMMM 46 41 26 25 13 23 14 28 45 HMMMMM 28 45 HMMM 45 HMM 44 7 13 25 26 14 28 41 45 46 23 39 36 37 HMMHMMMMMMMMMM 46 45 41 28 26 25 13 14 23 36 37 H 39 MH 39 MHMMM 36 37 H 39 MH 39 MHMM 39 36 37 HMMHMMMMMM 8 45 46 HMMM
+======
+# M/H: 153214 / 21291
+# Last rebuild:   iter 9  num_configs 8969
+ls.c:3498, ls.c:3523, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on)))))
+      (a!2 (or (= -S on) (= -t on) (and (= -f off) (or (= -c on) (= -u on))))))
+  (and (= -R on)
+       (= -L off)
+       (= -d off)
+       (= --version off)
+       (= --help off)
+       (or (= --group-directories-first on)
+           (= -i on)
+           (= -s on)
+           (= -Z on)
+           (and (= -x off) a!1)
+           (and (= -X off) (= -U off) (= -v off) a!2))))
+-
+34 M 24 8 46 45 15 21 43 35 41 26 28 25 23 14 13 42 39 40 36 37 10 6 38 MHHMHHMMMHHH 40 42 39 37 36 10 6 38 MHHMHHMMMHH 42 39 40 36 37 10 38 6 MHHMHHMMMHHHHMMMM
+======
+# M/H: 160626 / 16516
+# Last rebuild:   iter 2  num_configs 3169
+ls.c:3502, ls.c:3503, ls.c:3507, ls.c:3512, ls.c:3513, ls.c:3519, ls.c:3644, ls.c:3646, ls.c:3647, ls.c:3650, ls.c:3658, ls.c:3660, ls.c:3663, ls.c:3668, ls.c:3669, ls.c:3672, ls.c:3677, ls.c:3678, ls.c:3680, ls.c:3681, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -R on)
+       (= -L off)
+       (= -d off)
+       (= --help off)
+       (= --version off)
+       (or (= --group-directories-first on) (and (= -x off) a!1))))
+-
+34 M 24 8 45 46 15 41 28 26 25 13 14 23 MHHHMHHMHMMMM
+======
+# M/H: 154110 / 23057
+# Last rebuild:   iter 2  num_configs 3194
+ls.c:3563, ls.c:3564, ls.c:3565, ls.c:4330, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= --author on) (= -x off) (= --version off) (= --help off) a!1))
+-
+2 M 41 46 45 26 28 25 14 23 13 MHHHMHHMMM
+======
+# M/H: 131696 / 41441
+# Last rebuild:   iter 2  num_configs 3244
+ls.c:4131, ls.c:4135, ls.c:4152, ls.c:4153, ls.c:4321, ls.c:4323, ls.c:4326, ls.c:4329, ls.c:4332, ls.c:4335, 
+-
+(let ((a!1 (and (= -g on)
+                (or (= --author on) (= -Z on) (and (= -G off) (= -o off)))))
+      (a!3 (and (= -g on)
+                (or (= --author on) (= -Z on) (and (= -o off) (= -G off))))))
+(let ((a!2 (and (= -m off)
+                (or (and (= -l on) (= -g off))
+                    a!1
+                    (and (= --full-time on) (= -g off))))))
+(let ((a!4 (or (and (= -o on) (or (= --author on) (= -g off) (= -Z on)))
+               a!2
+               (and (= -n on) (or (= -g off) a!3)))))
+  (and (= -x off) (= --version off) (= --help off) a!4))))
+-
+41 46 45 26 25 23 13 14 28 MH 43 2 16 28 HMMHH 14 H 43 2 16 28 HMMHH 14 H 2 43 28 16 HMMHH 28 M 14 H 2 43 MHH 14 H 2 43 28 16 HMMHHMMM
+======
+# M/H: 141409 / 35823
+# Last rebuild:   iter 2  num_configs 3259
+ls.c:4137, ls.c:4138, ls.c:4139, ls.c:4140, ls.c:4143, ls.c:4144, 
+-
+(let ((a!1 (and (= -Z on) (or (= -n on) (= -o on) (and (= -m off) (= -g on)))))
+      (a!2 (and (= -g on) (or (= --author on) (and (= -G off) (= -o off)))))
+      (a!4 (and (= -o on) (or (= -g off) (and (= -g on) (= --author on))))))
+(let ((a!3 (and (= -m off)
+                (or (and (= -l on) (= -g off))
+                    a!2
+                    (and (= --full-time on) (= -g off))))))
+  (and (= -x off)
+       (= --version off)
+       (= --help off)
+       (or a!1 (and (= -n off) (or a!3 a!4))))))
+-
+41 46 45 43 26 25 23 13 14 28 MH 2 16 28 HMMH 14 H 2 28 16 HMMH 14 H 2 28 16 HMMH 28 M 14 H 2 MHM 26 25 14 13 23 28 MHHHH 28 MHHMMM
+======
+# M/H: 163337 / 13920
+# Last rebuild:   iter 2  num_configs 3284
+ls.c:4148, ls.c:4149, ls.c:4187, ls.c:4188, 
+-
+(and (= -n on)
+     (= -x off)
+     (= --version off)
+     (= --help off)
+     (or (= --author on) (= -g off) (and (= -G off) (= -o off))))
+-
+26 M 41 46 45 14 H 2 16 28 HMMHMMM
+======
+# M/H: 138503 / 38779
+# Last rebuild:   iter 2  num_configs 3309
+ls.c:4177, ls.c:4179, 
+-
+(let ((a!1 (and (= -n on)
+                (or (= --author on) (= -g off) (and (= -o off) (= -G off)))))
+      (a!2 (and (= -g on) (or (= --author on) (and (= -G off) (= -o off))))))
+(let ((a!3 (and (= -m off)
+                (or (and (= --full-time on) (= -g off))
+                    a!2
+                    (and (= -l on) (= -g off))))))
+(let ((a!4 (or (and (= -o on) (or (= --author on) (= -g off))) a!1 a!3)))
+  (and (= -x off) (= --version off) (= --help off) a!4))))
+-
+41 46 45 26 25 23 13 14 28 MH 2 16 28 HMMH 14 H 2 16 28 HMMH 14 H 2 16 28 HMMH 28 M 14 H 2 MH 14 H 2 28 16 HMMHMMM
+======
+# M/H: 164506 / 12801
+# Last rebuild:   iter 2  num_configs 3334
+ls.c:4259, ls.c:4260, ls.c:4261, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -c on) (= -u off) (= -x off) (= --version off) (= --help off) a!1))
+-
+6 M 38 41 46 45 28 26 25 14 23 13 MHHHMHHMMMM
+======
+# M/H: 153157 / 24175
+# Last rebuild:   iter 2  num_configs 3359
+ls.c:4282, ls.c:4286, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -i on) (= -x off) (= --version off) (= --help off) a!1))
+-
+21 M 41 46 45 28 26 25 13 14 23 MHHHMHHMMM
+======
+# M/H: 154619 / 22738
+# Last rebuild:   iter 2  num_configs 3384
+ls.c:4333, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off)
+                    (or (= --full-time on) (= -g on) (= -l on) (= -n on))))))
+  (and (= -Z on) (= -x off) (= --version off) (= --help off) a!1))
+-
+43 M 41 46 45 28 25 13 14 23 26 MHHHH 26 MHHMMM
+======
+# M/H: 149481 / 23490
+# Last rebuild:   iter 2  num_configs 3424
+ls.c:4364, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -d off)
+       (= -x off)
+       (= --help off)
+       (= --version off)
+       (or (and (= --si on) a!1)
+           (and (= -h on) a!1)
+           (and (= --block-size off) a!1))))
+-
+8 41 45 46 18 17 4 MMMM 26 28 25 23 14 13 MHHHMHH 28 25 23 13 14 26 MHHHH 26 MHH 28 26 25 14 23 13 MHHHMHHMMMM
+======
+# M/H: 166395 / 11004
+# Last rebuild:   iter 2  num_configs 3426
+ls.c:4427, ls.c:4429, ls.c:4430, ls.c:4431, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -R on)
+       (= -L off)
+       (= -d off)
+       (= -x off)
+       (= --help off)
+       (= --version off)
+       a!1))
+-
+34 M 24 8 41 45 46 28 26 25 14 23 13 MHHHMHHMMMMM
+======
+# M/H: 164406 / 9235
+# Last rebuild:   iter 3  num_configs 5400
+ls.c:4432, 
+-
+(let ((a!1 (or (= -F on) (= --file-type on) (= -p on))))
+(let ((a!2 (and (= -m off)
+                (or (and (= --full-time on) a!1)
+                    (and (= -g on) a!1)
+                    (and (= -l on) a!1)))))
+  (and (= -R on)
+       (= -L off)
+       (= -d off)
+       (= -x off)
+       (= --help off)
+       (= --version off)
+       (or (and (= -n on) a!1) a!2 (and (= -o on) a!1)))))
+-
+34 M 24 8 41 45 46 26 28 25 23 13 14 M 29 11 12 MHHH 12 29 11 MHHH 29 12 11 MHHHM 12 29 11 MHHH 12 11 29 MHHHMMMMM
+======
+# IGNORED
+# M/H: 139922 / 33560
+# Last rebuild:   iter 84  num_configs 173482
+ls.c:5206, 
+-
+(let ((a!1 (and (= -F on) (= --file-type off) (= -p off)))
+      (a!2 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on)))))
+      (a!3 (or (= -S on) (= -t on) (and (= -f off) (or (= -c on) (= -u on))))))
+(let ((a!4 (and (= -v off) (or a!1 (and (= -U off) (= -X off) a!3)))))
+  (and (= -R on)
+       (= -d off)
+       (= --help off)
+       (= --version off)
+       (or (= --group-directories-first on)
+           (= -i on)
+           (= -L on)
+           (= -s on)
+           (= -Z on)
+           a!1
+           (and (= -x off) a!2)
+           a!4))))
+-
+34 M 8 45 46 15 21 35 24 43 41 26 28 25 13 23 14 40 39 42 37 36 10 38 6 11 M 12 29 HMMHH 11 M 12 29 HMMHH 11 M 12 29 HMM 29 11 M 12 HMM 11 M 29 12 HMMHHH 42 40 39 36 37 10 38 6 12 11 M 29 HMMHH 11 M 12 29 HMMHH 11 M 12 29 HMM 11 M 12 29 HMM 12 11 M 29 HMMHH 40 39 42 36 37 10 6 38 29 11 M 12 HMMHH 11 M 12 29 HMMHH 12 11 M 29 HMM 11 M 12 29 HMM 11 M 12 29 HMMHHHHHMMM
+======
+# M/H: 160355 / 17119
+# Last rebuild:   iter 2  num_configs 3501
+ls.c:1669, ls.c:1673, 
+-
+(and (= -H off)
+     (= --dereference-command-line-symlink-to-dir off)
+     (= -L off)
+     (= --version off)
+     (= --help off))
+-
+19 20 24 46 45 HMMMMM
+======
+# M/H: 164635 / 12864
+# Last rebuild:   iter 2  num_configs 3526
+ls.c:1670, 
+-
+(and (= --dereference-command-line-symlink-to-dir off)
+     (= -H off)
+     (= -L off)
+     (= -d off)
+     (= --help off)
+     (= --version off))
+-
+20 19 24 8 45 46 HMMMMMM
+======
+# M/H: 166479 / 11045
+# Last rebuild:   iter 2  num_configs 3551
+ls.c:1671, 
+-
+(and (= --dereference-command-line-symlink-to-dir off)
+     (= -H off)
+     (= -L off)
+     (= -d off)
+     (= --version off)
+     (= --help off)
+     (or (= -F off) (= --file-type on) (= -p on)))
+-
+20 19 24 8 46 45 11 H 12 29 MHHMMMMMM
+======
+# M/H: 166635 / 10914
+# Last rebuild:   iter 2  num_configs 3576
+ls.c:4493, ls.c:4596, ls.c:4597, ls.c:4599, ls.c:4601, ls.c:4603, ls.c:4605, 
+-
+(and (= -Q off)
+     (= -q on)
+     (= --show-control-chars off)
+     (= --version off)
+     (= --help off)
+     (or (= -N on) (= -b off)))
+-
+32 30 M 31 46 45 27 3 HMHMMMM
+======
+# M/H: 152290 / 25284
+# Last rebuild:   iter 2  num_configs 3601
+ls.c:4181, ls.c:4182, 
+-
+(let ((a!1 (and (= -g on) (or (= --author on) (and (= -G off) (= -o off))))))
+(let ((a!2 (and (= -m off)
+                (or (and (= -l on) (= -g off))
+                    (and (= --full-time on) (= -g off))
+                    a!1))))
+(let ((a!3 (or (and (= -o on) (or (= --author on) (= -g off))) a!2)))
+  (and (= -n off) (= -x off) (= --version off) (= --help off) a!3))))
+-
+26 41 46 45 25 23 13 14 28 MH 2 16 28 HMMH 14 H 2 16 28 HMMH 14 H 2 28 16 HMMH 28 M 14 H 2 MHMMMM
+======
+# M/H: 152926 / 24673
+# Last rebuild:   iter 2  num_configs 3626
+ls.c:1063, ls.c:1067, ls.c:1068, ls.c:1070, ls.c:1071, ls.c:1072, ls.c:1073, ls.c:1074, ls.c:1076, ls.c:1703, ls.c:1704, ls.c:1819, ls.c:1820, ls.c:1821, ls.c:1822, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -D on) (= -x off) (= --version off) (= --help off) a!1))
+-
+9 M 41 46 45 28 25 13 14 23 26 MHHHH 26 MHHMMM
+======
+# M/H: 153641 / 23983
+# Last rebuild:   iter 2  num_configs 3651
+ls.c:3549, ls.c:3550, ls.c:3551, ls.c:4324, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -l on))))))
+  (and (= -g off) (= -x off) (= --help off) (= --version off) a!1))
+-
+14 41 45 46 26 28 25 13 23 MHHMHHMMMM
+======
+# M/H: 154268 / 23381
+# Last rebuild:   iter 2  num_configs 3676
+ls.c:4292, ls.c:4293, ls.c:4295, ls.c:4298, ls.c:4300, ls.c:4301, ls.c:4302, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off)
+                    (or (= --full-time on) (= -g on) (= -l on) (= -n on))))))
+  (and (= -s on) (= -x off) (= --version off) (= --help off) a!1))
+-
+35 M 41 46 45 28 25 23 13 14 26 MHHHH 26 MHHMMM
+======
+# M/H: 164394 / 13280
+# Last rebuild:   iter 2  num_configs 3701
+ls.c:2319, 
+-
+(and (= -b on) (= -Q off) (= -N off) (= --help off) (= --version off))
+-
+3 M 32 27 45 46 HMMMM
+======
+# M/H: 164078 / 13621
+# Last rebuild:   iter 2  num_configs 3726
+ls.c:3409, 
+-
+(and (= -H on)
+     (= --dereference-command-line-symlink-to-dir off)
+     (= -L off)
+     (= --help off)
+     (= --version off))
+-
+19 M 20 24 45 46 HMMMM
+======
+# M/H: 162876 / 12290
+# Last rebuild:   iter 4  num_configs 6945
+ls.c:1142, ls.c:1143, ls.c:1144, 
+-
+(let ((a!1 (and (= -o off)
+                (= -n off)
+                (or (= -m on) (and (= -l off) (= -g off) (= --full-time off)))))
+      (a!2 (and (= -n off)
+                (or (and (= -l off) (= -g off) (= --full-time off) (= -o off))
+                    (and (= -m on) (= -o off))))))
+(let ((a!3 (or (and (= -u on) (or (= -x on) a!1))
+               (and (= -c on) (or (= -x on) a!2)))))
+  (and (= -U off)
+       (= -v off)
+       (= -X off)
+       (or (and (= -t on) (= --help off) (= --version off))
+           (and (= -f off) (= -S off) (= --version off) (= --help off) a!3)))))
+-
+39 40 42 37 10 36 46 45 38 6 M 41 26 25 23 14 13 28 HMMMM 28 HMMH 41 28 26 25 23 14 13 HMMMHMMHMMMM 45 46 HMMMMM
+======
+# M/H: 171795 / 2688
+# Last rebuild:   iter 30  num_configs 18655
+ls.c:3824, ls.c:3827, ls.c:3829, ls.c:3887, 
+-
+(let ((a!1 (and (= -o off)
+                (= -n off)
+                (or (= -m on) (and (= -g off) (= -l off) (= --full-time off))))))
+(let ((a!2 (or (and (= -t on) (= --version off) (= --help off))
+               (and (= -f off)
+                    (= -S off)
+                    (= --version off)
+                    (= --help off)
+                    (or (= -x on) a!1)))))
+  (and (= -c on) (= -u off) (= -U off) (= -v off) (= -d off) (= -X off) a!2)))
+-
+6 M 38 39 40 8 42 37 10 36 46 45 41 28 26 25 14 23 13 HMMMHMMHMMMM 46 45 HMMMMMMM
+======
+# M/H: 162373 / 13006
+# Last rebuild:   iter 3  num_configs 5506
+ls.c:4847, 
+-
+(let ((a!1 (or (= -m on) (and (= --full-time off) (= -g off) (= -l off))))
+      (a!3 (and (= -n off)
+                (= -o off)
+                (or (= -m on) (and (= -l off) (= -g off) (= --full-time off))))))
+(let ((a!2 (and (= -o off)
+                (= -n off)
+                (or (and (= --file-type on) a!1) (and (= -F on) a!1)))))
+(let ((a!4 (or a!2
+               (and (= -x on) (or (= -F on) (= --file-type on) (= -p on)))
+               (and (= -p on) (or (= --group-directories-first off) a!3)))))
+  (and (= -R on) (= -L off) (= -d off) (= --help off) (= --version off) a!4))))
+-
+34 M 24 8 45 46 41 29 28 26 11 12 M 25 13 14 23 HMMMH 25 13 14 23 HMMMHMM 15 H 26 28 25 23 14 13 HMMMHMM 12 11 29 MHHHMMMM
+======
+# M/H: 167710 / 7965
+# Last rebuild:   iter 3  num_configs 5802
+ls.c:4848, 
+-
+(let ((a!1 (and (= -n off)
+                (= -o off)
+                (or (= -m on) (and (= -l off) (= -g off) (= --full-time off))))))
+  (and (= -p on)
+       (= -R on)
+       (= -L off)
+       (= -d off)
+       (= --version off)
+       (= --help off)
+       (or (= --group-directories-first off) (= -x on) a!1)))
+-
+29 M 34 M 24 8 46 45 15 H 41 26 28 25 23 14 13 HMMMHMMHMMMM
+======
+# M/H: 156569 / 21240
+# Last rebuild:   iter 2  num_configs 3836
+system.h:269, system.h:270, 
+-
+(and (= -R on)
+     (= -d off)
+     (= --version off)
+     (or (and (= -A off) (= -a on) (= --help off))
+         (and (= -f on) (= --help off))))
+-
+34 M 8 46 10 1 0 M 45 HMM 45 HMMM
+======
+# M/H: 147710 / 27704
+# Last rebuild:   iter 3  num_configs 5541
+ls.c:1106, ls.c:1107, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on)))))
+      (a!2 (and (= -U off)
+                (= -X off)
+                (= -v off)
+                (or (= -t on) (and (= -f off) (= -S off))))))
+  (and (= -u on) (= --help off) (= --version off) (or (and (= -x off) a!1) a!2)))
+-
+38 M 45 46 41 28 26 25 14 23 13 39 40 42 37 10 36 HMMHMMMHHH 39 42 40 37 10 36 HMMHMMMHH 39 42 40 37 10 36 HMMHMMMMM
+======
+# M/H: 152612 / 23221
+# Last rebuild:   iter 3  num_configs 5960
+ls.c:4265, ls.c:4266, ls.c:4267, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -u on) (= -x off) (= --help off) (= --version off) a!1))
+-
+38 M 41 45 46 28 26 25 13 23 14 MHHHMHHMMM
+======
+# M/H: 168984 / 8885
+# Last rebuild:   iter 2  num_configs 3896
+ls.c:4062, ls.c:4063, ls.c:4064, ls.c:5132, ls.c:5135, ls.c:5137, ls.c:5139, ls.c:5140, ls.c:5142, ls.c:5163, ls.c:5164, ls.c:5166, ls.c:5167, 
+-
+(and (= -m on)
+     (= -1 off)
+     (= -n off)
+     (= -o off)
+     (= -x off)
+     (= --version off)
+     (= --help off))
+-
+25 M 44 26 28 41 46 45 HMMMMMM
+======
+# M/H: 174183 / 3711
+# Last rebuild:   iter 2  num_configs 3921
+ls.c:5029, 
+-
+(and (= -m on)
+     (= -i on)
+     (= -1 off)
+     (= -n off)
+     (= -o off)
+     (= --help off)
+     (= --version off)
+     (= -x off))
+-
+25 M 21 M 44 26 28 45 46 41 HMMMMMM
+======
+# M/H: 176242 / 1677
+# Last rebuild:   iter 2  num_configs 3946
+ls.c:3833, ls.c:3836, ls.c:3838, ls.c:3888, 
+-
+(and (= -t on)
+     (= -u off)
+     (= -c off)
+     (= -X off)
+     (= -v off)
+     (= -U off)
+     (= -d off)
+     (= --version off)
+     (= --help off))
+-
+37 M 38 6 42 40 39 8 46 45 HMMMMMMMM
+======
+# M/H: 172563 / 5381
+# Last rebuild:   iter 2  num_configs 3971
+ls.c:4849, ls.c:4850, 
+-
+(let ((a!1 (or (and (= -g off)
+                    (= --full-time off)
+                    (= -l off)
+                    (or (= -F on) (= --file-type on)))
+               (and (= -m on) (or (= -F on) (= --file-type on))))))
+(let ((a!2 (or (and (= -x on) (or (= -F on) (= --file-type on)))
+               (and (= -n off) (= -o off) a!1))))
+  (and (= -p off)
+       (= -R on)
+       (= -L off)
+       (= -d off)
+       (= --version off)
+       (= --help off)
+       a!2)))
+-
+29 34 M 24 8 46 45 41 26 28 25 14 13 23 11 12 MHHMMM 11 12 MHHMM 11 12 MHHMMMMM
+======
+# M/H: 162150 / 15819
+# Last rebuild:   iter 2  num_configs 3996
+ls.c:1132, ls.c:3556, ls.c:3557, ls.c:3558, ls.c:4168, ls.c:4170, ls.c:4171, ls.c:4172, ls.c:4203, ls.c:4205, ls.c:4327, 
+-
+(let ((a!1 (or (= -n on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -G off) (= -o off) (= -x off) (= --version off) (= --help off) a!1))
+-
+16 28 41 46 45 26 25 13 23 14 MHHHMHMMMMM
+======
+# M/H: 166723 / 11271
+# Last rebuild:   iter 2  num_configs 4021
+ls.c:4299, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off)
+                    (or (= --full-time on) (= -g on) (= -l on) (= -n on))))))
+  (and (= -s on)
+       (= -d off)
+       (= -x off)
+       (= --version off)
+       (= --help off)
+       (or (and (= --si on) a!1) (and (= -h on) a!1))))
+-
+35 M 8 41 46 45 17 18 M 28 25 13 23 14 26 MHHHH 26 MHH 28 25 23 14 13 26 MHHHH 26 MHHMMMM
+======
+# M/H: 170336 / 4117
+# Last rebuild:   iter 24  num_configs 12741
+ls.c:3004, 
+-
+(let ((a!1 (and (= -n off)
+                (= -o off)
+                (or (= -m on) (and (= -g off) (= -l off) (= --full-time off)))))
+      (a!3 (and (= -x off)
+                (= -n off)
+                (= -o off)
+                (or (and (= -m on) (= -S off))
+                    (and (= -m off)
+                         (= -g off)
+                         (= --full-time off)
+                         (= -l off)
+                         (= -S off))))))
+(let ((a!2 (or (and (= -1 on)
+                    (= -d off)
+                    (= --help off)
+                    (= --version off)
+                    (or (= -x on) a!1))
+               (and (= -C off)
+                    (= -m off)
+                    (= -o off)
+                    (= -g off)
+                    (= -l off)
+                    (= --full-time off)
+                    (= --help off)
+                    (= -n off)
+                    (= -x off)
+                    (= -d off)
+                    (= --version off))))
+      (a!4 (and (= -1 on)
+                (= --version off)
+                (= --help off)
+                (= -t off)
+                (or (and (= -x on) (= -S off)) a!3))))
+(let ((a!5 (and (= -f on)
+                (= -d off)
+                (or a!4
+                    (and (= -C off)
+                         (= -m off)
+                         (= --full-time off)
+                         (= -n off)
+                         (= -g off)
+                         (= -o off)
+                         (= --help off)
+                         (= -l off)
+                         (= -x off)
+                         (= --version off)
+                         (= -S off)
+                         (= -t off))))))
+  (and (= -X off) (= -v off) (or (and (= -U on) a!2) a!5)))))
+-
+42 40 10 39 M 44 7 25 28 14 23 13 45 26 41 8 46 HMMMMMMMMMMM 8 45 46 41 26 28 25 14 23 13 HMMMHMMHMMM 8 44 7 25 13 26 14 28 45 23 41 46 36 37 H 39 MH 39 MHMMMMMMMMMM 46 45 37 41 26 28 25 14 13 23 36 H 39 MHMMM 36 H 39 MHMM 36 H 39 MH 39 M 41 28 26 25 23 13 14 HMMMHMMHMMMMM
+======
+# M/H: 177272 / 1950
+# Last rebuild:   iter 29  num_configs 17824
+ls.c:3009, ls.c:3010, ls.c:3011, 
+-
+(let ((a!1 (and (= -x off)
+                (= -n off)
+                (or (and (= -m off)
+                         (= --full-time off)
+                         (= -g off)
+                         (= -l off)
+                         (= -o off)
+                         (= --help off))
+                    (and (= -m on) (= -o off) (= --help off)))))
+      (a!4 (or (= -U on) (and (= -S off) (= -t off))))
+      (a!5 (and (= -x off)
+                (= -o off)
+                (= -n off)
+                (or (and (= -m off)
+                         (= --full-time off)
+                         (= -g off)
+                         (= -l off)
+                         (= -S off)
+                         (= -t off))
+                    (and (= -m on) (= -S off) (= -t off))))))
+(let ((a!2 (and (= -1 on)
+                (= --version off)
+                (or a!1 (and (= -x on) (= --help off)))))
+      (a!6 (and (= -1 on)
+                (= --version off)
+                (= --help off)
+                (or (and (= -x on) a!4) a!5))))
+(let ((a!3 (and (= -U on)
+                (or (and (= -m off)
+                         (= -C off)
+                         (= -o off)
+                         (= --full-time off)
+                         (= -n off)
+                         (= --version off)
+                         (= -l off)
+                         (= -x off)
+                         (= -g off)
+                         (= --help off))
+                    a!2)))
+      (a!7 (and (= -f on)
+                (or a!6
+                    (and (= -C off)
+                         (= --full-time off)
+                         (= -m off)
+                         (= -n off)
+                         (= -g off)
+                         (= -o off)
+                         (= -x off)
+                         (= --help off)
+                         (= --version off)
+                         (= -l off)
+                         a!4)))))
+  (and (= -R off) (= -X off) (= -v off) (= -d off) (= -s off) (or a!3 a!7)))))
+-
+34 42 40 8 35 10 39 M 44 25 7 28 13 26 46 23 41 14 45 HMMMMMMMMMM 46 41 26 25 13 14 23 28 45 HMMMMM 28 45 HMMM 45 HMM 44 7 13 25 26 14 28 41 45 46 23 39 36 37 HMMHMMMMMMMMMM 46 45 41 28 26 25 13 14 23 36 37 H 39 MH 39 MHMMM 36 37 H 39 MH 39 MHMM 39 36 37 HMMHMMMMMMM
+======
+# M/H: 164033 / 14033
+# Last rebuild:   iter 2  num_configs 4093
+ls.c:3905, ls.c:3907, 
+-
+(and (= -v on) (= -X off) (= -d off) (= --version off) (= --help off))
+-
+40 M 42 8 46 45 HMMMM
+======
+# M/H: 174466 / 3625
+# Last rebuild:   iter 2  num_configs 4118
+ls.c:3914, ls.c:3915, 
+-
+(and (= -v on)
+     (= --group-directories-first on)
+     (= -r off)
+     (= -X off)
+     (= -d off)
+     (= --help off)
+     (= --version off))
+-
+40 M 15 M 33 42 8 45 46 HMMMMM
+======
+# M/H: 173048 / 5068
+# Last rebuild:   iter 2  num_configs 4143
+ls.c:1145, ls.c:1146, ls.c:1147, 
+-
+(and (= -S on)
+     (= -t off)
+     (= -U off)
+     (= -v off)
+     (= -X off)
+     (= --help off)
+     (= --version off))
+-
+36 M 37 39 40 42 45 46 HMMMMMM
+======
+# M/H: 172364 / 3494
+# Last rebuild:   iter 3  num_configs 5985
+ls.c:3860, ls.c:3863, ls.c:3864, ls.c:3891, 
+-
+(and (= -S on)
+     (= -t off)
+     (= -U off)
+     (= -v off)
+     (= -X off)
+     (= -d off)
+     (= --version off)
+     (= --help off))
+-
+36 M 37 39 40 42 8 46 45 HMMMMMMM
+======
+# M/H: 170067 / 4547
+# Last rebuild:   iter 14  num_configs 10614
+ls.c:3842, ls.c:3845, ls.c:3847, ls.c:3889, 
+-
+(let ((a!1 (and (= -o off)
+                (= -n off)
+                (or (= -m on) (and (= --full-time off) (= -g off) (= -l off))))))
+(let ((a!2 (or (and (= -t on) (= --help off) (= --version off))
+               (and (= -f off)
+                    (= -S off)
+                    (= --version off)
+                    (= --help off)
+                    (or (= -x on) a!1)))))
+  (and (= -u on) (= -U off) (= -v off) (= -X off) (= -d off) a!2)))
+-
+38 M 39 40 42 8 37 10 36 46 45 41 28 26 25 13 14 23 HMMMHMMHMMMM 45 46 HMMMMMM
+======
+# M/H: 174531 / 3640
+# Last rebuild:   iter 2  num_configs 4198
+ls.c:3912, ls.c:3913, 
+-
+(and (= -v on)
+     (= -r on)
+     (= -X off)
+     (= --group-directories-first off)
+     (= -d off)
+     (= --help off)
+     (= --version off))
+-
+40 M 33 M 42 15 8 45 46 HMMMMM
+======
+# M/H: 168694 / 9502
+# Last rebuild:   iter 2  num_configs 4223
+ls.c:3116, 
+-
+(and (= -a off)
+     (= -f off)
+     (= -A off)
+     (= -d off)
+     (= --version off)
+     (= --help off))
+-
+0 10 1 8 46 45 HMMMMMM
+======
+# M/H: 168562 / 6306
+# Last rebuild:   iter 4  num_configs 6647
+ls.c:3346, 
+-
+(let ((a!1 (or (= -f on) (and (= -c off) (= -u off))))
+      (a!4 (and (= -S off)
+                (= -t off)
+                (or (= -f on) (and (= -u off) (= -c off))))))
+(let ((a!2 (and (= -x on)
+                (or (= -U on)
+                    (= -v on)
+                    (= -X on)
+                    (and (= -t off) (= -S off) a!1))))
+      (a!3 (and (= -m on)
+                (or (= -U on)
+                    (= -v on)
+                    (= -X on)
+                    (and (= -S off) (= -t off) a!1)))))
+(let ((a!5 (or a!3
+               (and (= -g off)
+                    (= --full-time off)
+                    (= -l off)
+                    (or (= -U on) (= -v on) (= -X on) a!4)))))
+  (and (= -R on)
+       (= -Z off)
+       (= -s off)
+       (= -d off)
+       (= --help off)
+       (= --version off)
+       (or a!2 (and (= -o off) (= -n off) a!5))))))
+-
+34 M 43 35 8 45 46 41 28 26 25 14 13 23 40 42 39 36 37 10 38 6 HMMHMMHHHMMM 40 42 39 36 37 10 6 38 HMMHMMHHHMM 39 40 42 37 36 10 6 38 HMMHMMHHHMMMMM
+======
+# M/H: 170396 / 4404
+# Last rebuild:   iter 7  num_configs 8392
+ls.c:3347, 
+-
+(let ((a!1 (and (= -t off)
+                (or (and (= -f on) (= -S off))
+                    (and (= -u off) (= -c off) (= -S off)))))
+      (a!2 (and (= -t off)
+                (= -S off)
+                (or (= -f on) (and (= -c off) (= -u off)))))
+      (a!3 (and (= -S off)
+                (= -t off)
+                (or (= -f on) (and (= -u off) (= -c off))))))
+(let ((a!4 (or (and (= -l off)
+                    (= -g off)
+                    (= --full-time off)
+                    (or (= -U on) (= -v on) (= -X on) a!2))
+               (and (= -m on) (or (= -U on) (= -v on) (= -X on) a!3)))))
+(let ((a!5 (or (and (= -x on) (or (= -U on) (= -v on) (= -X on) a!1))
+               (and (= -o off) (= -n off) a!4))))
+  (and (= -R on)
+       (= -Z off)
+       (= -L off)
+       (= -s off)
+       (= -d off)
+       (= --help off)
+       (= --version off)
+       a!5))))
+-
+34 M 43 24 35 8 45 46 41 28 26 25 23 14 13 42 40 39 37 36 10 6 38 HMMHMMHHHMMM 40 42 39 36 37 10 38 6 HMMHMMHHHMM 42 40 39 37 10 38 6 36 HMMM 36 HMMHHHMMMMMM
+======
+# M/H: 165260 / 8799
+# Last rebuild:   iter 4  num_configs 6727
+ls.c:3351, 
+-
+(let ((a!1 (or (= -f on) (and (= -c off) (= -u off))))
+      (a!4 (and (= -S off)
+                (or (and (= -u off) (= -c off) (= -t off))
+                    (and (= -f on) (= -t off))))))
+(let ((a!2 (and (= -x on)
+                (or (= -U on)
+                    (= -v on)
+                    (= -X on)
+                    (and (= -t off) (= -S off) a!1))))
+      (a!3 (and (= -m on)
+                (or (= -U on)
+                    (= -v on)
+                    (= -X on)
+                    (and (= -S off) (= -t off) a!1)))))
+(let ((a!5 (or a!3
+               (and (= -g off)
+                    (= -l off)
+                    (= --full-time off)
+                    (or (= -U on) (= -v on) (= -X on) a!4)))))
+  (and (= -i off)
+       (= -Z off)
+       (= -s off)
+       (= -d off)
+       (= --help off)
+       (= --version off)
+       (or a!2 (and (= -o off) (= -n off) a!5))))))
+-
+21 43 35 8 45 46 41 28 26 25 14 23 13 40 42 39 36 10 38 6 37 HMMM 37 HMMHHHMMM 39 42 40 36 37 10 6 38 HMMHMMHHHMM 39 42 40 37 36 10 6 38 HMMHMMHHHMMMMMM
+======
+# M/H: 165953 / 8442
+# Last rebuild:   iter 40  num_configs 24412
+ls.c:3352, ls.c:3356, 
+-
+(let ((a!1 (or (= -F on)
+               (= --file-type on)
+               (= --group-directories-first on)
+               (= -p on)
+               (= -R on))))
+(let ((a!2 (and (= -S off)
+                (= -t off)
+                (or (and (= -f on) a!1) (and (= -c off) (= -u off) a!1))))
+      (a!4 (and (= -t off)
+                (= -S off)
+                (or (and (= -f on) a!1) (and (= -u off) (= -c off) a!1)))))
+(let ((a!3 (and (= -x on)
+                (or a!2
+                    (and (= -X on) a!1)
+                    (and (= -v on) a!1)
+                    (and (= -U on) a!1))))
+      (a!5 (or (and (= -X on) a!1) a!4 (and (= -v on) a!1) (and (= -U on) a!1))))
+(let ((a!6 (and (= -n off)
+                (= -o off)
+                (or (and (= -m on) a!5)
+                    (and (= --full-time off) (= -g off) (= -l off) a!5)))))
+  (and (= -i off)
+       (= -Z off)
+       (= -s off)
+       (= -d off)
+       (= --help off)
+       (= --version off)
+       (or a!3 a!6))))))
+-
+21 43 35 8 45 46 41 26 28 25 13 14 23 39 42 40 37 36 10 38 6 11 29 34 12 15 MHHHHHMM 11 15 34 29 12 MHHHHHMM 29 34 11 12 15 MHHHHH 29 12 11 15 34 MHHHHH 11 12 15 34 29 MHHHHHMMM 40 42 39 37 36 10 38 6 34 29 12 11 15 MHHHHHMM 15 34 12 29 11 MHHHHHMM 34 15 12 29 11 MHHHHH 34 11 12 29 15 MHHHHH 34 12 15 11 29 MHHHHHMM 42 40 39 36 37 10 6 38 11 12 15 34 29 MHHHHHMM 11 34 15 29 12 MHHHHHMM 12 29 11 15 34 MHHHHH 12 34 15 29 11 MHHHHH 34 11 15 29 12 MHHHHHMMMMMM
+======
+# IGNORED
+# M/H: 166743 / 6739
+# Last rebuild:   iter 84  num_configs 173482
+ls.c:3363, 
+-
+(let ((a!1 (or (= --file-type on)
+               (= -p on)
+               (and (= -F off) (or (= --group-directories-first on) (= -R on))))))
+(let ((a!2 (and (= -S off)
+                (= -t off)
+                (or (and (= -f on) a!1) (and (= -c off) (= -u off) a!1))))
+      (a!4 (and (= -t off)
+                (= -S off)
+                (or (and (= -f on) a!1) (and (= -u off) (= -c off) a!1)))))
+(let ((a!3 (and (= -x on)
+                (or (and (= -U on) a!1)
+                    (and (= -X on) a!1)
+                    a!2
+                    (and (= -v on) a!1))))
+      (a!5 (or (and (= -U on) a!1) (and (= -X on) a!1) (and (= -v on) a!1) a!4)))
+(let ((a!6 (and (= -o off)
+                (= -n off)
+                (or (and (= -m on) a!5)
+                    (and (= --full-time off) (= -g off) (= -l off) a!5)))))
+  (and (= -i off)
+       (= -s off)
+       (= -Z off)
+       (= -d off)
+       (= --help off)
+       (= --version off)
+       (or a!3 a!6))))))
+-
+21 35 43 8 45 46 41 28 26 25 13 14 23 39 42 40 37 36 10 38 6 12 29 11 15 34 MHHMHHMM 12 29 11 34 15 MHHMHHMM 12 29 11 15 34 MHHMHH 29 12 11 34 15 MHHMHH 29 12 11 15 34 MHHMHHMMM 40 39 42 37 36 10 38 6 12 29 11 15 34 MHHMHHMM 29 12 11 34 15 MHHMHHMM 12 29 11 15 34 MHHMHH 12 29 11 15 34 MHHMHH 29 12 11 34 15 MHHMHHMM 42 40 39 36 37 10 6 38 29 12 11 15 34 MHHMHHMM 12 29 11 34 15 MHHMHHMM 12 29 11 34 15 MHHMHH 12 29 11 34 15 MHHMHH 29 12 11 34 15 MHHMHHMMMMMM
+======
+# M/H: 172163 / 3738
+# Last rebuild:   iter 3  num_configs 6028
+ls.c:3910, ls.c:3911, 
+-
+(and (= -v on)
+     (= -r off)
+     (= --group-directories-first off)
+     (= -X off)
+     (= -d off)
+     (= --help off)
+     (= --version off))
+-
+40 M 33 15 42 8 45 46 HMMMMMM
+======
+# M/H: 174897 / 3440
+# Last rebuild:   iter 2  num_configs 4364
+ls.c:3916, ls.c:3917, 
+-
+(and (= -v on)
+     (= --group-directories-first on)
+     (= -r on)
+     (= -X off)
+     (= -d off)
+     (= --version off)
+     (= --help off))
+-
+40 M 15 M 33 M 42 8 46 45 HMMMM
+======
+# M/H: 169647 / 5469
+# Last rebuild:   iter 4  num_configs 6895
+ls.c:3868, ls.c:3871, ls.c:3892, 
+-
+(let ((a!1 (or (= -n on)
+               (= -o on)
+               (and (= -m off) (or (= --full-time on) (= -g on) (= -l on))))))
+  (and (= -f off)
+       (= -S off)
+       (= -t off)
+       (= -v off)
+       (= -d off)
+       (= -U off)
+       (= --version off)
+       (= -X off)
+       (= --help off)
+       (or (and (= -u off) (= -c off)) (and (= -x off) a!1))))
+-
+10 36 37 40 8 39 46 42 45 38 6 H 41 28 26 25 23 13 14 MHHHMHHM 41 28 26 25 14 23 13 MHHHMHHMMMMMMMMMM
+======
+# M/H: 172500 / 5391
+# Last rebuild:   iter 2  num_configs 4419
+ls.c:2289, ls.c:2290, ls.c:2292, ls.c:2297, 
+-
+(and (= --si off)
+     (= --block-size off)
+     (= -h off)
+     (= --help off)
+     (= --version off))
+-
+18 4 MMMM 17 45 46 HMMMM
+======
+# M/H: 174967 / 3435
+# Last rebuild:   iter 2  num_configs 4429
+ls.c:5034, ls.c:5035, 
+-
+(and (= -m on)
+     (= -s on)
+     (= -1 off)
+     (= -n off)
+     (= -x off)
+     (= -o off)
+     (= --help off)
+     (= --version off))
+-
+25 M 35 M 44 26 41 28 45 46 HMMMMMM
+======
+# M/H: 172040 / 6387
+# Last rebuild:   iter 2  num_configs 4454
+ls.c:5146, ls.c:5147, ls.c:5148, ls.c:5150, ls.c:5151, ls.c:5159, ls.c:5160, 
+-
+(and (= -m on)
+     (= -1 off)
+     (= -n off)
+     (= -d off)
+     (= -x off)
+     (= -o off)
+     (= --version off)
+     (= --help off))
+-
+25 M 44 26 8 41 28 46 45 HMMMMMMM
+======
+# M/H: 168974 / 4948
+# Last rebuild:   iter 62  num_configs 79814
+ls.c:5155, ls.c:5156, 
+-
+(let ((a!1 (or (and (= -h off)
+                    (= --si off)
+                    (or (= --block-size KB) (= --block-size MB)))
+               (= -a on)
+               (= -A on)
+               (= -f on)))
+      (a!2 (and (= -A on) (or (= -F on) (= --file-type on) (= -p on)))))
+(let ((a!3 (and (= -Q on)
+                (or (= -f on) (= -s on) a!2 (and (= -a on) (= -A off)))))
+      (a!4 (or (= -f on)
+               (= -Q on)
+               (= -s on)
+               (and (= -a on) (or (= -A off) (= --file-type on)))
+               a!2)))
+  (and (= -m on)
+       (= -1 off)
+       (= -o off)
+       (= -d off)
+       (= -n off)
+       (= -x off)
+       (= --help off)
+       (= --version off)
+       (or (= -i on) (and (= -s on) a!1) a!3 (and (= -Z on) a!4)))))
+-
+25 M 44 28 8 26 41 45 46 21 43 32 35 M 0 1 10 17 18 4 MHMHMMMHHH 10 35 0 1 M 11 12 29 MHHH 1 H 29 12 11 MHHHHH 10 32 35 0 1 M 11 29 12 MHHH 12 1 H 29 11 MHHHHHHHMMMMMMM
+======
+# M/H: 173395 / 5057
+# Last rebuild:   iter 2  num_configs 4479
+ls.c:4839, 
+-
+(and (= -F on)
+     (= --file-type off)
+     (= -R on)
+     (= -p off)
+     (= -d off)
+     (= --version off)
+     (= --help off))
+-
+11 M 12 34 M 29 8 46 45 HMMMMM
+======
+# M/H: 172764 / 2664
+# Last rebuild:   iter 3  num_configs 6071
+ls.c:2299, ls.c:2300, 
+-
+(and (= --si off)
+     (= --block-size off)
+     (= -k on)
+     (= -h off)
+     (= --version off)
+     (= --help off))
+-
+18 4 MMMM 22 M 17 46 45 HMMMM
+======
+# M/H: 171322 / 4632
+# Last rebuild:   iter 3  num_configs 6081
+ls.c:2348, 
+-
+(let ((a!1 (or (and (= -m on) (or (= -c on) (= -u on)))
+               (and (= -l off)
+                    (= --full-time off)
+                    (= -g off)
+                    (or (= -c on) (= -u on))))))
+(let ((a!2 (or (and (= -x on) (or (= -c on) (= -u on)))
+               (and (= -o off) (= -n off) a!1))))
+  (and (= -f off)
+       (= -S off)
+       (= -t off)
+       (= -v off)
+       (= -U off)
+       (= -X off)
+       (= --version off)
+       (= --help off)
+       a!2)))
+-
+10 36 37 40 39 42 46 45 41 28 26 25 23 13 14 6 38 MHHMMM 6 38 MHHMM 6 38 MHHMMMMMMMM
+======
+# M/H: 171534 / 4445
+# Last rebuild:   iter 3  num_configs 6106
+ls.c:4048, ls.c:4049, ls.c:4052, ls.c:4053, ls.c:5055, ls.c:5058, ls.c:5059, ls.c:5063, ls.c:5065, ls.c:5067, ls.c:5068, ls.c:5069, ls.c:5074, ls.c:5075, ls.c:5076, ls.c:5077, ls.c:5079, ls.c:5080, ls.c:5081, ls.c:5086, ls.c:5088, ls.c:5309, 
+-
+(and (= -C on)
+     (= -1 off)
+     (= -g off)
+     (= -l off)
+     (= -n off)
+     (= --full-time off)
+     (= -m off)
+     (= -o off)
+     (= --help off)
+     (= --version off)
+     (= -x off))
+-
+7 M 44 14 23 26 13 25 28 45 46 41 HMMMMMMMMMM
+======
+# M/H: 172762 / 3242
+# Last rebuild:   iter 3  num_configs 6131
+ls.c:5073, ls.c:5083, ls.c:5084, 
+-
+(and (= -C on)
+     (= -1 off)
+     (= -g off)
+     (= -l off)
+     (= -d off)
+     (= --full-time off)
+     (= -m off)
+     (= -n off)
+     (= -o off)
+     (= --help off)
+     (= -x off)
+     (= --version off))
+-
+7 M 44 14 23 8 13 25 26 28 45 41 46 HMMMMMMMMMMM
+======

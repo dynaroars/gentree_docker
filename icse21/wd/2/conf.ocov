@@ -1,0 +1,25 @@
+lang ocaml
+
+include conf.common
+var prefix              {scratch_dir}/ocov
+var prof_dir            {prefix}/prof_{tid}
+var testfiles_dir       {prefix}/testfiles_{tid}
+var wd_dir              {prefix}/wd_{tid}
+
+var opam_dir            {user_home_dir}/.opam
+var prog_dir   	        {bench_progs_dir}/ocaml
+
+###
+
+cp_replace_folder    	{testfiles_srcdir}           {testfiles_dir}
+
+var testdir  			{testfiles_dir}
+
+####
+
+cov_bin	            	{opam_dir}/4.05.0/bin/bisect-report.opt
+cov_wd 	            	{wd_dir}
+
+####
+
+wd           {wd_dir}

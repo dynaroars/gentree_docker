@@ -1,0 +1,286 @@
+# ./igen4 -J2 -crwx -GF 2/cat --rep 11 -O res/cat/a_{i}.txt -j64 --rep-para 11
+# seed = 128, repeat_id = 5, thread_id = 2
+#     1455  205   27 | 11517   266 |  5   11 |     1     1     21 | 9aca2391dbb4c0cd011c90930205f400
+======
+# M/H: 1109 / 397
+# Last rebuild:   iter 3  num_configs 112
+cat.c:130, cat.c:132, cat.c:135, cat.c:136, cat.c:137, cat.c:139, cat.c:140, cat.c:141, cat.c:144, cat.c:416, cat.c:417, 
+-
+(and (= --version off) (= --help off) (or (= -b on) (= -n on)))
+-
+11 M 10 M 1 H 4 HM
+======
+# M/H: 935 / 579
+# Last rebuild:   iter 5  num_configs 239
+cat.c:197, cat.c:199, cat.c:200, cat.c:202, cat.c:204, cat.c:206, cat.c:216, cat.c:258, cat.c:263, cat.c:269, cat.c:270, cat.c:272, cat.c:274, cat.c:280, cat.c:302, cat.c:304, cat.c:306, cat.c:312, cat.c:313, cat.c:330, cat.c:333, cat.c:334, cat.c:337, cat.c:338, cat.c:342, cat.c:343, cat.c:350, cat.c:352, cat.c:353, cat.c:354, cat.c:360, cat.c:361, cat.c:362, cat.c:371, cat.c:373, cat.c:392, cat.c:401, cat.c:406, cat.c:408, cat.c:410, cat.c:414, cat.c:428, cat.c:717, cat.c:741, cat.c:742, cat.c:744, cat.c:745, cat.c:749, 
+-
+(and (= --version off)
+     (= --help off)
+     (or (= -A on)
+         (= -b on)
+         (= -e on)
+         (= -E on)
+         (= -n on)
+         (= -s on)
+         (= -t on)
+         (= -T on)
+         (= -v on)))
+-
+11 M 10 M 1 H 9 H 7 H 4 H 5 H 0 H 2 H 3 H 6 HM
+======
+# M/H: 1040 / 484
+# Last rebuild:   iter 2  num_configs 38
+cat.c:402, 
+-
+(and (= --version off) (= --help off) (or (= -A on) (= -e on) (= -E on)))
+-
+11 M 10 M 0 H 2 H 3 HM
+======
+# M/H: 1004 / 515
+# Last rebuild:   iter 3  num_configs 124
+cat.c:432, cat.c:434, cat.c:435, cat.c:462, cat.c:464, cat.c:466, cat.c:467, cat.c:475, 
+-
+(and (= --version off)
+     (= --help off)
+     (or (= -A on) (= -e on) (= -t on) (= -v on)))
+-
+11 M 10 M 2 H 6 H 9 H 0 HM
+======
+# M/H: 1078 / 449
+# Last rebuild:   iter 3  num_configs 136
+cat.c:471, cat.c:472, 
+-
+(let ((a!1 (or (= -A on) (= -t on) (and (= -T on) (or (= -e on) (= -v on))))))
+  (and (= --version off) (= --help off) a!1))
+-
+11 M 10 M 0 H 6 H 7 9 H 2 HMM
+======
+# M/H: 0 / 1507
+# Last rebuild:   iter 1  num_configs 10
+cat.c:503, cat.c:511, cat.c:519, cat.c:535, cat.c:540, cat.c:541, cat.c:542, cat.c:543, cat.c:544, cat.c:545, cat.c:546, cat.c:563, cat.c:564, cat.c:572, cat.c:576, 
+-
+true
+-
+H
+======
+# M/H: 1 / 1527
+# Last rebuild:   iter 5  num_configs 251
+cat.c:579, 
+-
+(or (= -A on)
+    (= -b on)
+    (= -e on)
+    (= -E on)
+    (= -n on)
+    (= -s on)
+    (= -t on)
+    (= -T on)
+    (= -u on)
+    (= -v on)
+    (= --help on)
+    (= --version on))
+-
+8 H 9 H 7 H 1 H 11 H 0 H 5 H 2 H 3 H 4 H 6 H 10 HM
+======
+# M/H: 827 / 698
+# Last rebuild:   iter 2  num_configs 44
+cat.c:581, cat.c:582, cat.c:583, cat.c:584, 
+-
+(= -b on)
+-
+1 HM
+======
+# M/H: 843 / 689
+# Last rebuild:   iter 2  num_configs 50
+cat.c:586, cat.c:587, cat.c:588, cat.c:589, 
+-
+(= -e on)
+-
+2 HM
+======
+# M/H: 795 / 745
+# Last rebuild:   iter 2  num_configs 56
+cat.c:591, cat.c:592, cat.c:593, 
+-
+(= -n on)
+-
+4 HM
+======
+# M/H: 795 / 749
+# Last rebuild:   iter 2  num_configs 63
+cat.c:604, cat.c:606, 
+-
+(= -u on)
+-
+8 HM
+======
+# M/H: 832 / 721
+# Last rebuild:   iter 2  num_configs 69
+cat.c:608, cat.c:609, cat.c:610, 
+-
+(= -v on)
+-
+9 HM
+======
+# M/H: 882 / 677
+# Last rebuild:   iter 2  num_configs 76
+cat.c:612, cat.c:613, cat.c:614, cat.c:615, cat.c:616, 
+-
+(= -A on)
+-
+0 HM
+======
+# M/H: 822 / 741
+# Last rebuild:   iter 2  num_configs 82
+cat.c:622, cat.c:623, cat.c:624, 
+-
+(= -T on)
+-
+7 HM
+======
+# M/H: 972 / 568
+# Last rebuild:   iter 4  num_configs 215
+cat.c:637, cat.c:640, cat.c:641, cat.c:642, cat.c:643, cat.c:645, cat.c:655, cat.c:656, cat.c:660, cat.c:661, cat.c:663, cat.c:672, cat.c:673, cat.c:681, cat.c:687, cat.c:689, cat.c:695, cat.c:707, cat.c:752, cat.c:754, cat.c:755, cat.c:761, cat.c:763, cat.c:766, ioblksize.h:75, ioblksize.h:77, system.h:501, system.h:503, system.h:504, system.h:505, 
+-
+(and (= --version off) (= --help off))
+-
+11 M 10 MH
+======
+# M/H: 887 / 629
+# Last rebuild:   iter 1  num_configs 16
+cat.c:107, cat.c:113, cat.c:114, cat.c:115, cat.c:122, cat.c:124, cat.c:626, cat.c:82, cat.c:84, cat.c:88, cat.c:92, cat.c:96, cat.c:98, system.h:581, system.h:583, system.h:586, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(= --help on)
+-
+10 HM
+======
+# M/H: 833 / 742
+# Last rebuild:   iter 2  num_configs 88
+cat.c:595, cat.c:596, cat.c:597, 
+-
+(= -s on)
+-
+5 HM
+======
+# M/H: 866 / 711
+# Last rebuild:   iter 2  num_configs 94
+cat.c:599, cat.c:600, cat.c:601, cat.c:602, 
+-
+(= -t on)
+-
+6 HM
+======
+# M/H: 821 / 759
+# Last rebuild:   iter 2  num_configs 100
+cat.c:618, cat.c:619, cat.c:620, 
+-
+(= -E on)
+-
+3 HM
+======
+# M/H: 1225 / 364
+# Last rebuild:   iter 2  num_configs 106
+cat.c:628, 
+-
+(and (= --version on) (= --help off))
+-
+11 10 MHM
+======
+# M/H: 1374 / 160
+# Last rebuild:   iter 3  num_configs 142
+cat.c:394, cat.c:395, 
+-
+(and (= -n on) (= --help off) (= -b off) (= --version off))
+-
+4 10 M 1 M 11 MHM
+======
+# M/H: 1439 / 85
+# Last rebuild:   iter 4  num_configs 201
+cat.c:483, cat.c:488, cat.c:489, cat.c:492, cat.c:493, cat.c:496, 
+-
+(and (= -v off)
+     (= -A off)
+     (= --version off)
+     (= -e off)
+     (= -t off)
+     (= --help off)
+     (or (= -b on) (= -E on) (= -n on) (= -s on) (= -T on)))
+-
+9 M 0 M 11 M 2 M 6 M 10 M 3 H 4 H 5 H 1 H 7 HM
+======
+# M/H: 1508 / 39
+# Last rebuild:   iter 3  num_configs 154
+cat.c:485, cat.c:486, 
+-
+(and (= -T on)
+     (= -A off)
+     (= -v off)
+     (= -e off)
+     (= -t off)
+     (= --help off)
+     (= --version off))
+-
+7 0 M 9 M 2 M 6 M 10 M 11 MHM
+======
+# M/H: 1509 / 19
+# Last rebuild:   iter 4  num_configs 207
+cat.c:647, cat.c:648, 
+-
+(and (= -s off)
+     (= -b off)
+     (= -n off)
+     (= -e off)
+     (= -E off)
+     (= --help off)
+     (= -A off)
+     (= --version off))
+-
+5 M 1 M 4 M 2 M 3 M 10 M 0 M 11 MH
+======
+# M/H: 1497 / 8
+# Last rebuild:   iter 6  num_configs 258
+cat.c:708, 
+-
+(and (= -E off)
+     (= -e off)
+     (= -t off)
+     (= --help off)
+     (= --version off)
+     (= -A off)
+     (= -b off)
+     (= -n off)
+     (= -v off))
+-
+3 M 2 M 6 M 10 M 11 M 0 M 1 M 4 M 9 MH
+======
+# M/H: 1483 / 90
+# Last rebuild:   iter 3  num_configs 178
+cat.c:463, 
+-
+(and (= -T off)
+     (= -t off)
+     (= -A off)
+     (= --version off)
+     (= --help off)
+     (or (= -e on) (= -v on)))
+-
+7 M 6 M 0 M 11 M 10 M 9 H 2 HM
+======
+# M/H: 1510 / 2
+# Last rebuild:   iter 6  num_configs 265
+cat.c:152, cat.c:169, cat.c:170, cat.c:178, cat.c:179, cat.c:185, cat.c:186, cat.c:710, cat.c:711, cat.c:713, 
+-
+(and (= -T off)
+     (= -t off)
+     (= -s off)
+     (= -A off)
+     (= -n off)
+     (= --version off)
+     (= -e off)
+     (= -b off)
+     (= -E off)
+     (= -v off)
+     (= --help off))
+-
+7 M 6 M 5 M 0 M 4 M 11 M 2 M 1 M 3 M 9 M 10 MH
+======

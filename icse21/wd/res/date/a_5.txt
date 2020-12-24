@@ -1,0 +1,353 @@
+# ./igen4 -J2 -crwx -GF 2/date --rep 11 -O res/date/a_{i}.txt -j64 --rep-para 11
+# seed = 128, repeat_id = 5, thread_id = 3
+#    12793  125   17 | 115057   198 |  5   42 |     9     3    229 | daceb5911f98243d7f7da9ab31465b1f
+======
+# M/H: 0 / 13811
+# Last rebuild:   iter 1  num_configs 45
+date.c:348, date.c:351, date.c:352, date.c:354, date.c:355, date.c:356, date.c:357, date.c:363, date.c:364, date.c:368, date.c:370, date.c:373, date.c:375, 
+-
+true
+-
+H
+======
+# M/H: 6991 / 6907
+# Last rebuild:   iter 1  num_configs 180
+date.c:386, date.c:394, date.c:395, date.c:397, date.c:398, 
+-
+(let ((a!1 (or (= --rfc-3339 date) (= --rfc-3339 seconds) (= --rfc-3339 ns))))
+  (or (and (= -R off) a!1) (and (= --iso-8601 off) a!1)))
+-
+2 1 3 MHHHMMMMM 3 MHHH
+======
+# M/H: 7935 / 6129
+# Last rebuild:   iter 1  num_configs 315
+date.c:420, date.c:421, date.c:422, 
+-
+(= -R on)
+-
+2 HM
+======
+# M/H: 244 / 13591
+# Last rebuild:   iter 2  num_configs 1565
+date.c:441, 
+-
+(or (= --iso-8601 date)
+    (= --iso-8601 hours)
+    (= --iso-8601 minutes)
+    (= --iso-8601 seconds)
+    (= --iso-8601 ns)
+    (= -R on)
+    (= --rfc-3339 date)
+    (= --rfc-3339 seconds)
+    (= --rfc-3339 ns)
+    (= -u on)
+    (and (= --version off) (= --help off)))
+-
+4 H 2 H 1 3 6 M 5 MHHHHHHHHH
+======
+# M/H: 447 / 13586
+# Last rebuild:   iter 1  num_configs 450
+date.c:443, date.c:445, 
+-
+(or (= --iso-8601 date)
+    (= --iso-8601 hours)
+    (= --iso-8601 minutes)
+    (= --iso-8601 seconds)
+    (= --iso-8601 ns)
+    (= -R on)
+    (= --rfc-3339 date)
+    (= --rfc-3339 seconds)
+    (= --rfc-3339 ns))
+-
+3 1 2 HMHHHHHHHH
+======
+# M/H: 3502 / 10743
+# Last rebuild:   iter 1  num_configs 585
+date.c:444, 
+-
+(let ((a!1 (or (= --iso-8601 date)
+               (= --iso-8601 hours)
+               (= --iso-8601 minutes)
+               (= --iso-8601 seconds)
+               (= --iso-8601 ns)
+               (= -R on))))
+  (or (and (= --rfc-3339 seconds) a!1)
+      (and (= -R on)
+           (or (= --iso-8601 date)
+               (= --iso-8601 hours)
+               (= --iso-8601 minutes)
+               (= --iso-8601 seconds)
+               (= --iso-8601 ns)))
+      (and (= --rfc-3339 ns) a!1)
+      (and (= --rfc-3339 date) a!1)))
+-
+3 2 1 MHHHHHM 1 2 HMHHHHH 2 H 1 MHHHHH 2 H 1 MHHHHH
+======
+# M/H: 2922 / 11569
+# Last rebuild:   iter 1  num_configs 720
+date.c:400, date.c:410, date.c:412, date.c:413, date.c:414, date.c:415, 
+-
+(or (= --iso-8601 date)
+    (= --iso-8601 hours)
+    (= --iso-8601 minutes)
+    (= --iso-8601 seconds)
+    (= --iso-8601 ns))
+-
+1 MHHHHH
+======
+# M/H: 12962 / 1692
+# Last rebuild:   iter 1  num_configs 855
+date.c:124, date.c:126, date.c:130, date.c:135, date.c:139, date.c:141, date.c:144, date.c:148, date.c:151, date.c:158, date.c:162, date.c:168, date.c:171, date.c:175, date.c:176, date.c:177, date.c:184, date.c:190, date.c:196, date.c:201, date.c:207, date.c:213, date.c:223, date.c:229, date.c:235, date.c:241, date.c:250, date.c:260, date.c:267, date.c:279, date.c:281, date.c:435, system.h:588, system.h:590, system.h:593, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(let ((a!1 (or (and (= -R off) (or (= --iso-8601 off) (= --rfc-3339 off)))
+               (and (= --iso-8601 off) (= --rfc-3339 off)))))
+  (and (= --help on) a!1))
+-
+5 2 1 3 HMMMMMMMM 3 H 1 HMMMMM 1 HMMMMM 1 HMMMMMM
+======
+# M/H: 12754 / 956
+# Last rebuild:   iter 2  num_configs 1430
+date.c:377, date.c:378, date.c:379, date.c:449, date.c:450, date.c:451, date.c:453, date.c:460, date.c:467, 
+-
+(let ((a!1 (or (and (= --rfc-3339 off) (or (= --iso-8601 off) (= -R off)))
+               (and (= --iso-8601 off) (= -R off)))))
+  (and (= --version off) (= --help off) a!1))
+-
+6 M 5 M 3 2 1 HMMMMMH 2 M 1 HMMMMM 1 2 MHMMMMM 1 2 MHMMMMM
+======
+# M/H: 12848 / 1887
+# Last rebuild:   iter 1  num_configs 1000
+date.c:427, date.c:431, date.c:434, system.h:698, system.h:700, 
+-
+(let ((a!1 (or (and (= --iso-8601 off) (= -R off))
+               (and (= --rfc-3339 off) (or (= --iso-8601 off) (= -R off))))))
+  (and (= -u on) a!1))
+-
+4 3 2 1 HMMMMMH 1 2 MHMMMMM 1 2 MHMMMMM 1 2 MHMMMMMM
+======
+# M/H: 12092 / 904
+# Last rebuild:   iter 33  num_configs 5795
+date.c:469, date.c:475, date.c:477, 
+-
+(let ((a!1 (or (= + %a)
+               (= + %A)
+               (= + %b)
+               (= + %B)
+               (= + %c)
+               (= + %C)
+               (= + d)
+               (= + %d)
+               (= + %e)
+               (= + %F)
+               (= + %g)
+               (= + G)
+               (= + %h)
+               (= + %H)
+               (= + %I)
+               (= + %j)
+               (= + %k)
+               (= + %l)
+               (= + %m)
+               (= + %M)
+               (= + %n)
+               (= + %N)
+               (= + %p)
+               (= + %P)
+               (= + %r)
+               (= + %R)
+               (= + %s)
+               (= + %S)
+               (= + %t)
+               (= + %T)
+               (= + %u)
+               (= + %U)
+               (= + %V)
+               (= + %w)
+               (= + %W)
+               (= + %x)
+               (= + %X)
+               (= + %y)
+               (= + %Y)
+               (= + %z)
+               (= + |%:z|)
+               (= + |%::z|)
+               (= + |%:::z|)
+               (= + %Z))))
+(let ((a!2 (and (= -R off)
+                (or (and (= --iso-8601 off) a!1) (and (= --rfc-3339 off) a!1)))))
+  (and (= --version off)
+       (= --help off)
+       (or (and (= --iso-8601 off) (= --rfc-3339 off) a!1) a!2))))
+-
+6 M 5 M 2 1 3 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMMMMMM 3 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 1 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMMM 1 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMMM 1 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMMM
+======
+# M/H: 13177 / 101
+# Last rebuild:   iter 7  num_configs 1865
+date.c:479, 
+-
+(and (= -R off)
+     (= --rfc-3339 off)
+     (= --help off)
+     (= --iso-8601 off)
+     (= --version off)
+     (or (= + %a)
+         (= + %A)
+         (= + %b)
+         (= + %B)
+         (= + %c)
+         (= + %C)
+         (= + d)
+         (= + %d)
+         (= + %e)
+         (= + %F)
+         (= + %g)
+         (= + G)
+         (= + %h)
+         (= + %H)
+         (= + %I)
+         (= + %j)
+         (= + %k)
+         (= + %l)
+         (= + %m)
+         (= + %M)
+         (= + %n)
+         (= + %N)
+         (= + %p)
+         (= + %P)
+         (= + %r)
+         (= + %R)
+         (= + %s)
+         (= + %S)
+         (= + %t)
+         (= + %T)
+         (= + %u)
+         (= + %U)
+         (= + %V)
+         (= + %w)
+         (= + %W)
+         (= + %x)
+         (= + %X)
+         (= + %y)
+         (= + %Y)
+         (= + %z)
+         (= + |%:z|)
+         (= + |%::z|)
+         (= + |%:::z|)
+         (= + %Z)))
+-
+2 M 3 5 M 1 6 M 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMMMMMM
+======
+# M/H: 12736 / 108
+# Last rebuild:   iter 37  num_configs 8542
+date.c:492, date.c:508, date.c:509, date.c:511, date.c:515, date.c:516, date.c:518, date.c:541, date.c:549, date.c:551, date.c:557, date.c:560, date.c:571, date.c:576, date.c:583, date.c:587, date.c:589, date.c:591, date.c:592, date.c:594, date.c:595, 
+-
+(let ((a!1 (or (and (= + off) (= -R off))
+               (and (= --rfc-3339 off) (or (= + off) (= -R off))))))
+  (and (= --version off)
+       (= --help off)
+       (or (and (= --iso-8601 off) a!1)
+           (and (= + off) (= --rfc-3339 off) (= -R off)))))
+-
+6 M 5 M 1 3 2 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMH 0 2 MHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 2 MHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 2 MHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 3 2 MHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 3 2 MHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 3 2 MHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 3 2 MHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 2 M 3 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 13955 / 971
+# Last rebuild:   iter 1  num_configs 1143
+date.c:436, 
+-
+(let ((a!1 (or (and (= --iso-8601 off) (= --rfc-3339 off))
+               (and (= -R off) (or (= --iso-8601 off) (= --rfc-3339 off))))))
+  (and (= --help off) (= --version on) a!1))
+-
+5 M 6 2 1 3 HMMMMMMMM 3 H 1 HMMMMM 1 HMMMMM 1 HMMMMMM
+======
+# M/H: 12210 / 822
+# Last rebuild:   iter 33  num_configs 5797
+date.c:478, 
+-
+(let ((a!1 (or (= + %a)
+               (= + %A)
+               (= + %b)
+               (= + %B)
+               (= + %c)
+               (= + %C)
+               (= + d)
+               (= + %d)
+               (= + %e)
+               (= + %F)
+               (= + %g)
+               (= + G)
+               (= + %h)
+               (= + %H)
+               (= + %I)
+               (= + %j)
+               (= + %k)
+               (= + %l)
+               (= + %m)
+               (= + %M)
+               (= + %n)
+               (= + %N)
+               (= + %p)
+               (= + %P)
+               (= + %r)
+               (= + %R)
+               (= + %s)
+               (= + %S)
+               (= + %t)
+               (= + %T)
+               (= + %u)
+               (= + %U)
+               (= + %V)
+               (= + %w)
+               (= + %W)
+               (= + %x)
+               (= + %X)
+               (= + %y)
+               (= + %Y)
+               (= + %z)
+               (= + |%:z|)
+               (= + |%::z|)
+               (= + |%:::z|)
+               (= + %Z))))
+(let ((a!2 (and (= --rfc-3339 off)
+                (or (and (= --iso-8601 date) a!1)
+                    (and (= --iso-8601 minutes) a!1)
+                    (and (= --iso-8601 ns) a!1)
+                    (and (= --iso-8601 hours) a!1)
+                    (and (= --iso-8601 seconds) a!1)))))
+(let ((a!3 (and (= -R off)
+                (or (and (= --rfc-3339 date) (= --iso-8601 off) a!1)
+                    a!2
+                    (and (= --rfc-3339 seconds) (= --iso-8601 off) a!1)
+                    (and (= --rfc-3339 ns) (= --iso-8601 off) a!1)))))
+  (and (= --version off)
+       (= --help off)
+       (or (and (= -R on) (= --iso-8601 off) (= --rfc-3339 off) a!1) a!3)))))
+-
+6 M 5 M 2 1 3 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMMMMMM 3 1 M 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 1 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMMM 1 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMMM 1 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHMMMMM
+======
+# M/H: 12900 / 2
+# Last rebuild:   iter 17  num_configs 3917
+date.c:494, date.c:495, 
+-
+(and (= + off)
+     (= --iso-8601 off)
+     (= --rfc-3339 off)
+     (= -R off)
+     (= --help off)
+     (= --version off))
+-
+0 1 3 2 M 5 M 6 MHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 12942 / 3
+# Last rebuild:   iter 18  num_configs 3959
+date.c:590, date.c:593, 
+-
+(and (= -R on)
+     (= + off)
+     (= --rfc-3339 off)
+     (= --help off)
+     (= --iso-8601 off)
+     (= --version off))
+-
+2 0 3 5 M 1 6 MHMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+======

@@ -1,0 +1,92 @@
+# ./igen4 -J2 -cr -F 2/id -O res/Analyze_progress_rand/id/iter_{iter}.txt --rand-each-iteration 8,31,84,120,148,175,195,345,349,491,494,631,755
+# seed = 123, repeat_id = 0, thread_id = 0
+#        8   64   11 |     8    -1 |  0    1 |     0     0      0 | 56e015eeb4c53fb863bda214c56d9e60
+======
+# M/H: 0 / 8
+# Last rebuild:   iter -1  num_configs -1
+../coreutils-8.32/lib/smack.h:39, ../coreutils-8.32/lib/smack.h:44, id.c:125, id.c:128, id.c:129, id.c:130, id.c:133, id.c:134, id.c:138, id.c:140, id.c:142, 
+-
+true
+-
+H
+======
+# M/H: 4 / 4
+# Last rebuild:   iter -1  num_configs -1
+id.c:144, id.c:146, 
+-
+(= -a on)
+-
+0 HM
+======
+# M/H: 7 / 1
+# Last rebuild:   iter -1  num_configs -1
+id.c:166, id.c:167, id.c:168, 
+-
+(and (= -g off) (= -a on))
+-
+2 M 0 HM
+======
+# M/H: 5 / 3
+# Last rebuild:   iter -1  num_configs -1
+id.c:169, id.c:170, id.c:171, 
+-
+(and (= -Z off) (= -r on))
+-
+1 M 5 HM
+======
+# M/H: 6 / 2
+# Last rebuild:   iter -1  num_configs -1
+id.c:172, id.c:173, id.c:174, 
+-
+(and (= -u on) (= -a on))
+-
+6 0 HMM
+======
+# M/H: 4 / 4
+# Last rebuild:   iter -1  num_configs -1
+id.c:175, id.c:176, id.c:177, 
+-
+(= -Z off)
+-
+1 MH
+======
+# M/H: 6 / 2
+# Last rebuild:   iter -1  num_configs -1
+id.c:178, id.c:179, id.c:180, id.c:188, id.c:190, id.c:194, id.c:195, 
+-
+(and (= -Z off) (= -G on))
+-
+1 M 3 HM
+======
+# M/H: 5 / 3
+# Last rebuild:   iter -1  num_configs -1
+id.c:163, id.c:164, id.c:165, 
+-
+(and (= -Z off) (= -g on))
+-
+1 M 2 HM
+======
+# M/H: 7 / 1
+# Last rebuild:   iter -1  num_configs -1
+id.c:182, 
+-
+(and (= -r off) (= -a on))
+-
+5 M 0 HM
+======
+# M/H: 4 / 4
+# Last rebuild:   iter -1  num_configs -1
+id.c:148, id.c:156, id.c:157, 
+-
+(= -Z on)
+-
+1 HM
+======
+# M/H: 7 / 1
+# Last rebuild:   iter -1  num_configs -1
+id.c:102, id.c:113, id.c:114, id.c:115, id.c:119, id.c:121, id.c:181, id.c:90, id.c:92, id.c:96, id.c:97, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(and (= --help on) (= -a on))
+-
+8 0 HMM
+======

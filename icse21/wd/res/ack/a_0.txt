@@ -1,0 +1,1841 @@
+# ./igen4 -J2 -cr -GF 2/ack --rep 11 -O res/ack/a_{i}.txt -j120 --rep-para 11 -L log/ack/
+# seed = 123, repeat_id = 0, thread_id = 6
+#    37651 1160   57 | 314320    -1 |  0   36 |     4     2      0 | b98fb4c18c1ea1e278ebba095c3e2a66
+======
+# M/H: 0 / 38147
+# Last rebuild:   iter 1  num_configs 4
+ack.pl:1, ack.pl:10, ack.pl:1033, ack.pl:1034, ack.pl:1035, ack.pl:11, ack.pl:12, ack.pl:13, ack.pl:14, ack.pl:15, ack.pl:1549, ack.pl:1550, ack.pl:1551, ack.pl:16, ack.pl:17, ack.pl:18, ack.pl:19, ack.pl:2, ack.pl:20, ack.pl:21, ack.pl:22, ack.pl:224, ack.pl:225, ack.pl:226, ack.pl:227, ack.pl:228, ack.pl:229, ack.pl:23, ack.pl:230, ack.pl:231, ack.pl:232, ack.pl:233, ack.pl:234, ack.pl:235, ack.pl:236, ack.pl:237, ack.pl:238, ack.pl:239, ack.pl:24, ack.pl:240, ack.pl:241, ack.pl:242, ack.pl:243, ack.pl:244, ack.pl:245, ack.pl:246, ack.pl:247, ack.pl:248, ack.pl:249, ack.pl:25, ack.pl:250, ack.pl:251, ack.pl:252, ack.pl:253, ack.pl:254, ack.pl:255, ack.pl:256, ack.pl:257, ack.pl:258, ack.pl:259, ack.pl:26, ack.pl:260, ack.pl:261, ack.pl:262, ack.pl:263, ack.pl:264, ack.pl:265, ack.pl:266, ack.pl:267, ack.pl:268, ack.pl:269, ack.pl:27, ack.pl:270, ack.pl:271, ack.pl:272, ack.pl:273, ack.pl:274, ack.pl:275, ack.pl:276, ack.pl:277, ack.pl:278, ack.pl:279, ack.pl:28, ack.pl:280, ack.pl:281, ack.pl:282, ack.pl:283, ack.pl:284, ack.pl:285, ack.pl:286, ack.pl:287, ack.pl:288, ack.pl:289, ack.pl:29, ack.pl:290, ack.pl:291, ack.pl:292, ack.pl:293, ack.pl:294, ack.pl:295, ack.pl:296, ack.pl:297, ack.pl:298, ack.pl:299, ack.pl:3, ack.pl:30, ack.pl:300, ack.pl:301, ack.pl:302, ack.pl:303, ack.pl:304, ack.pl:305, ack.pl:306, ack.pl:307, ack.pl:308, ack.pl:309, ack.pl:31, ack.pl:310, ack.pl:311, ack.pl:312, ack.pl:313, ack.pl:314, ack.pl:315, ack.pl:316, ack.pl:317, ack.pl:318, ack.pl:319, ack.pl:32, ack.pl:320, ack.pl:321, ack.pl:322, ack.pl:323, ack.pl:324, ack.pl:325, ack.pl:326, ack.pl:327, ack.pl:328, ack.pl:329, ack.pl:33, ack.pl:330, ack.pl:331, ack.pl:332, ack.pl:333, ack.pl:334, ack.pl:335, ack.pl:336, ack.pl:337, ack.pl:338, ack.pl:339, ack.pl:34, ack.pl:340, ack.pl:341, ack.pl:342, ack.pl:343, ack.pl:344, ack.pl:345, ack.pl:346, ack.pl:347, ack.pl:348, ack.pl:349, ack.pl:35, ack.pl:350, ack.pl:351, ack.pl:352, ack.pl:353, ack.pl:354, ack.pl:355, ack.pl:356, ack.pl:357, ack.pl:358, ack.pl:359, ack.pl:36, ack.pl:360, ack.pl:361, ack.pl:362, ack.pl:363, ack.pl:364, ack.pl:365, ack.pl:366, ack.pl:367, ack.pl:368, ack.pl:369, ack.pl:37, ack.pl:370, ack.pl:371, ack.pl:372, ack.pl:373, ack.pl:374, ack.pl:375, ack.pl:376, ack.pl:377, ack.pl:378, ack.pl:379, ack.pl:38, ack.pl:380, ack.pl:381, ack.pl:382, ack.pl:383, ack.pl:384, ack.pl:385, ack.pl:386, ack.pl:387, ack.pl:388, ack.pl:389, ack.pl:390, ack.pl:391, ack.pl:392, ack.pl:393, ack.pl:394, ack.pl:395, ack.pl:396, ack.pl:397, ack.pl:398, ack.pl:399, ack.pl:4, ack.pl:40, ack.pl:400, ack.pl:401, ack.pl:402, ack.pl:403, ack.pl:404, ack.pl:405, ack.pl:406, ack.pl:407, ack.pl:408, ack.pl:409, ack.pl:41, ack.pl:410, ack.pl:411, ack.pl:412, ack.pl:413, ack.pl:414, ack.pl:415, ack.pl:416, ack.pl:417, ack.pl:418, ack.pl:419, ack.pl:42, ack.pl:420, ack.pl:423, ack.pl:424, ack.pl:425, ack.pl:426, ack.pl:427, ack.pl:43, ack.pl:44, ack.pl:45, ack.pl:46, ack.pl:47, ack.pl:48, ack.pl:49, ack.pl:5, ack.pl:54, ack.pl:55, ack.pl:57, ack.pl:58, ack.pl:59, ack.pl:6, ack.pl:60, ack.pl:61, ack.pl:62, ack.pl:63, ack.pl:7, ack.pl:8, ack.pl:9, 
+-
+true
+-
+H
+======
+# M/H: 11981 / 26362
+# Last rebuild:   iter 1  num_configs 32
+ack.pl:1000, ack.pl:1001, ack.pl:1002, ack.pl:1003, ack.pl:1004, ack.pl:1005, ack.pl:1006, ack.pl:1007, ack.pl:1008, ack.pl:1009, ack.pl:1010, ack.pl:1011, ack.pl:1012, ack.pl:1013, ack.pl:1016, ack.pl:1017, ack.pl:1019, ack.pl:1021, ack.pl:1022, ack.pl:1023, ack.pl:1024, ack.pl:1025, ack.pl:1026, ack.pl:1027, ack.pl:1028, ack.pl:1031, ack.pl:1032, ack.pl:1036, ack.pl:1037, ack.pl:1038, ack.pl:1133, ack.pl:1134, ack.pl:1181, ack.pl:1297, ack.pl:1298, ack.pl:1299, ack.pl:1300, ack.pl:1301, ack.pl:1302, ack.pl:1303, ack.pl:1304, ack.pl:1305, ack.pl:1306, ack.pl:1307, ack.pl:1308, ack.pl:1309, ack.pl:1310, ack.pl:1311, ack.pl:1313, ack.pl:1318, ack.pl:1319, ack.pl:1320, ack.pl:1321, ack.pl:1322, ack.pl:1323, ack.pl:1324, ack.pl:1325, ack.pl:1326, ack.pl:1327, ack.pl:1353, ack.pl:1354, ack.pl:1355, ack.pl:1356, ack.pl:1357, ack.pl:1358, ack.pl:1359, ack.pl:1360, ack.pl:1361, ack.pl:1366, ack.pl:1367, ack.pl:1368, ack.pl:1369, ack.pl:1371, ack.pl:1372, ack.pl:1373, ack.pl:1374, ack.pl:1544, ack.pl:1545, ack.pl:1546, ack.pl:1585, ack.pl:1586, ack.pl:1587, ack.pl:1588, ack.pl:1589, ack.pl:1637, ack.pl:1638, ack.pl:69, ack.pl:72, ack.pl:73, ack.pl:988, ack.pl:989, ack.pl:990, ack.pl:991, ack.pl:992, ack.pl:993, ack.pl:994, ack.pl:995, ack.pl:996, ack.pl:997, ack.pl:998, ack.pl:999, 
+-
+(and (= --version off) (= --help off))
+-
+25 27 HMM
+======
+# M/H: 30911 / 8001
+# Last rebuild:   iter 9  num_configs 7909
+ack.pl:1039, ack.pl:1040, ack.pl:1041, ack.pl:1043, ack.pl:1044, ack.pl:1046, ack.pl:1047, ack.pl:1048, ack.pl:1049, ack.pl:1050, ack.pl:1051, ack.pl:1053, ack.pl:1054, ack.pl:1055, ack.pl:1056, ack.pl:1057, ack.pl:1058, ack.pl:1059, ack.pl:1060, ack.pl:1061, ack.pl:1062, ack.pl:1154, ack.pl:1155, ack.pl:1156, ack.pl:1157, ack.pl:1158, ack.pl:1159, ack.pl:1554, ack.pl:1558, ack.pl:1559, ack.pl:1568, ack.pl:1569, ack.pl:1570, ack.pl:1571, ack.pl:1574, ack.pl:1590, ack.pl:1599, ack.pl:1600, ack.pl:1601, ack.pl:1602, ack.pl:1603, ack.pl:1604, ack.pl:1605, ack.pl:1639, ack.pl:1646, ack.pl:1647, ack.pl:1648, ack.pl:1649, ack.pl:1650, ack.pl:1658, ack.pl:1659, ack.pl:1660, ack.pl:1667, ack.pl:1668, ack.pl:1669, ack.pl:1670, ack.pl:1671, ack.pl:1679, ack.pl:1680, ack.pl:1681, ack.pl:1682, ack.pl:1683, ack.pl:1690, ack.pl:1691, ack.pl:1692, ack.pl:1693, ack.pl:1694, ack.pl:1695, ack.pl:1696, ack.pl:1697, ack.pl:1698, ack.pl:1699, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= --column off) (= -v off)))
+               (and (= -m off) (or (= --column off) (= -v off)))))
+      (a!4 (and (= -m off)
+                (= -o off)
+                (= --break off)
+                (= --column off)
+                (= --heading off)
+                (= --group off)
+                (or (and (= -l off) (= --nogroup off))
+                    (and (= -h off)
+                         (= -H off)
+                         (= --show-types off)
+                         (= --nogroup off))))))
+(let ((a!2 (or (and (= -o off) a!1)
+               (and (= --column off)
+                    (= -v off)
+                    (= --show-types off)
+                    (or (= -1 off) (= -m off))))))
+(let ((a!3 (and (= -c off)
+                (or (and (= -l off) a!2)
+                    (and (= -h off)
+                         (= --column off)
+                         (= --group off)
+                         (= --heading off)
+                         (= -H off)
+                         (= --break off)
+                         (= --show-types off)
+                         (= --nogroup off)
+                         (= -o off)
+                         (= -1 off))))))
+(let ((a!5 (and (= -f off)
+                (= -L off)
+                (= -g off)
+                (= --version off)
+                (or (and (= --passthru off) (or a!3 a!4))
+                    (and (= -1 off)
+                         (= -v off)
+                         (= -m off)
+                         (= -o off)
+                         (= --column off)
+                         (= -c off)
+                         (= -l off))))))
+  (and (= --help off) (or (and (= --dump on) (= --version off)) a!5))))))
+-
+27 26 0 3 1 25 10 4 2 9 12 15 H 7 HM 11 15 H 7 HMMMM 15 7 22 12 H 11 HMMMMMM 14 15 19 17 13 18 22 20 9 12 H 11 HMMMMMMMMMMMM 11 9 18 15 17 19 2 20 HM 14 13 22 20 HMMMMMMMMMMMM 12 7 11 9 15 4 2 HMMMMMMMMMMMMM 25 HMM
+======
+# M/H: 35994 / 1673
+# Last rebuild:   iter 5  num_configs 2840
+ack.pl:1160, 
+-
+(let ((a!1 (or (= --dump on)
+               (and (= -v off)
+                    (= --column off)
+                    (= --show-types off)
+                    (= -f off)
+                    (= --passthru off)
+                    (= -g off)
+                    (= -l off)
+                    (= -c off)
+                    (= -L off)
+                    (or (= -1 off) (= -m off))))))
+  (and (= -o on) (= --help off) (= --version off) a!1))
+-
+9 M 27 25 26 7 15 22 0 10 1 2 4 3 12 H 11 HMMMMMMMMMMMMHMM
+======
+# M/H: 35375 / 3004
+# Last rebuild:   iter 3  num_configs 722
+ack.pl:1239, ack.pl:1240, ack.pl:1241, ack.pl:1242, ack.pl:1243, ack.pl:1244, ack.pl:1245, ack.pl:1247, ack.pl:1248, ack.pl:1249, ack.pl:1252, ack.pl:1253, ack.pl:1254, ack.pl:1255, ack.pl:1256, ack.pl:1257, ack.pl:1259, ack.pl:1260, ack.pl:1261, ack.pl:1262, ack.pl:1263, ack.pl:1264, ack.pl:1265, ack.pl:1266, ack.pl:1267, ack.pl:1268, ack.pl:1269, ack.pl:1270, ack.pl:1271, ack.pl:1272, ack.pl:1273, ack.pl:1274, ack.pl:1275, ack.pl:1276, ack.pl:1277, ack.pl:1278, ack.pl:1279, ack.pl:1280, ack.pl:1281, ack.pl:1282, ack.pl:1283, ack.pl:1284, ack.pl:1285, ack.pl:1286, ack.pl:1287, ack.pl:1288, ack.pl:1289, ack.pl:1290, ack.pl:1291, ack.pl:1292, ack.pl:1293, ack.pl:1294, ack.pl:1295, ack.pl:1296, ack.pl:1328, ack.pl:1329, 
+-
+(and (= --dump on) (= --help off) (= --version off))
+-
+26 M 27 25 HMM
+======
+# M/H: 31191 / 7188
+# Last rebuild:   iter 1  num_configs 72
+ack.pl:66, ack.pl:67, ack.pl:929, ack.pl:930, ack.pl:931, ack.pl:932, ack.pl:933, ack.pl:934, ack.pl:935, ack.pl:936, ack.pl:937, 
+-
+(= --version on)
+-
+25 MH
+======
+# M/H: 26410 / 12059
+# Last rebuild:   iter 2  num_configs 314
+ack.pl:938, ack.pl:939, ack.pl:940, 
+-
+(or (= --help on) (= --version on))
+-
+27 25 MHH
+======
+# M/H: 33523 / 4982
+# Last rebuild:   iter 2  num_configs 350
+ack.pl:64, ack.pl:65, ack.pl:876, ack.pl:877, 
+-
+(and (= --help on) (= --version off))
+-
+27 M 25 HM
+======
+# M/H: 35577 / 2686
+# Last rebuild:   iter 14  num_configs 11874
+ack.pl:1135, 
+-
+(let ((a!1 (or (and (= -o off) (or (= --column off) (= -v off)))
+               (and (= --column off) (= -v off) (= --show-types off))))
+      (a!2 (and (= -o off)
+                (= --version off)
+                (= --nogroup off)
+                (= -L off)
+                (= --break off)
+                (= --help off)
+                (= --group off)
+                (= -g off)
+                (or (and (= -l off)
+                         (= --heading off)
+                         (= -f off)
+                         (= --column off))
+                    (and (= -H off)
+                         (= -h off)
+                         (= --show-types off)
+                         (= --column off)
+                         (= -f off)
+                         (= --heading off))))))
+(let ((a!3 (and (= -m off)
+                (= --passthru off)
+                (or (and (= -c off)
+                         (= -f off)
+                         (= -g off)
+                         (= --help off)
+                         (= -L off)
+                         (= --version off)
+                         (= -l off)
+                         a!1)
+                    a!2))))
+  (and (= -1 on) (or (and (= --dump on) (= --version off) (= --help off)) a!3))))
+-
+12 M 26 11 10 4 0 1 27 3 25 2 9 15 H 7 HM 15 7 22 HMMM 18 19 13 22 15 14 20 9 17 HMMMMMMMMMMMMMM 9 25 20 3 18 27 19 1 2 17 0 15 HMMM 13 14 22 15 0 17 HMMMMMMMMMMMMMMMMMM 25 27 HMM
+======
+# M/H: 34916 / 4011
+# Last rebuild:   iter 9  num_configs 7941
+ack.pl:1148, ack.pl:1149, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= -v off) (= --column off)))
+               (and (= -m off) (or (= --column off) (= -v off)))))
+      (a!4 (or (and (= -o off) (or (= --column off) (= -v off)))
+               (and (= --column off) (= -v off) (= --show-types off)))))
+(let ((a!2 (or (and (= -o off) a!1)
+               (and (= --column off)
+                    (= -v off)
+                    (= --show-types off)
+                    (or (= -1 off) (= -m off)))))
+      (a!5 (and (= --passthru off)
+                (or (and (= -1 off) a!4) (and (= -m off) a!4)))))
+(let ((a!3 (and (= --group on)
+                (or (and (= --passthru off) a!2)
+                    (and (= -v off)
+                         (= -o off)
+                         (= -m off)
+                         (= --column off)
+                         (= -1 off)))))
+      (a!6 (and (= --nogroup on)
+                (or a!5
+                    (and (= -o off)
+                         (= -1 off)
+                         (= -m off)
+                         (= --column off)
+                         (= -v off))))))
+  (or (and (= --dump on)
+           (= --version off)
+           (= --help off)
+           (or (= --group on) (= --nogroup on)))
+      (and (= -l off)
+           (= -c off)
+           (= -f off)
+           (= -L off)
+           (= --help off)
+           (= -g off)
+           (= --version off)
+           (or a!3 a!6))))))
+-
+26 2 4 0 3 27 1 25 19 20 M 10 12 9 15 H 7 HM 15 7 22 HMMM 11 9 15 H 7 HM 15 7 22 HMMMMMM 9 12 11 15 7 HMMMMMMM 10 9 12 7 H 15 HM 11 15 H 7 HMMMM 15 7 22 12 H 11 HMMMMMM 7 9 11 15 12 HMMMMMMMMMMMMMM 25 27 20 19 MHHMM
+======
+# M/H: 34386 / 4023
+# Last rebuild:   iter 11  num_configs 9205
+ack.pl:1166, ack.pl:1167, ack.pl:1168, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= --column off) (= -v off)))
+               (and (= -m off) (or (= --column off) (= -v off)))))
+      (a!5 (and (= --group off)
+                (= -m off)
+                (= --nogroup off)
+                (= --passthru off)
+                (= --column off)
+                (= --break off)
+                (= --heading off)
+                (or (and (= -l off) (= -o off))
+                    (and (= -h off) (= -H off) (= --show-types off) (= -o off))))))
+(let ((a!2 (or (and (= -o off) a!1)
+               (and (= --column off)
+                    (= -v off)
+                    (= --show-types off)
+                    (or (= -1 off) (= -m off))))))
+(let ((a!3 (and (= -l off)
+                (or (and (= --passthru off) a!2)
+                    (and (= -1 off)
+                         (= --column off)
+                         (= -o off)
+                         (= -m off)
+                         (= -v off))))))
+(let ((a!4 (and (= -c off)
+                (or a!3
+                    (and (= -h off)
+                         (= --column off)
+                         (= --heading off)
+                         (= -o off)
+                         (= --nogroup off)
+                         (= --show-types off)
+                         (= --passthru off)
+                         (= --break off)
+                         (= -H off)
+                         (= -1 off)
+                         (= --group off))))))
+  (and (= -S on)
+       (= --version off)
+       (or (and (= --dump on) (= --help off))
+           (and (= -f off) (= --help off) (= -L off) (= -g off) (or a!4 a!5))))))))
+-
+6 M 25 26 0 27 3 1 4 2 10 9 12 15 H 7 HM 11 15 H 7 HMMMM 15 7 22 12 H 11 HMMMMMM 12 15 9 11 7 HMMMMMMM 14 15 17 9 20 22 10 18 13 12 19 HM 11 19 HMMMMMMMMMMMMM 19 11 20 10 15 18 17 2 9 HM 14 13 22 9 HMMMMMMMMMMMMMMMMM 27 HMM
+======
+# M/H: 34339 / 4091
+# Last rebuild:   iter 11  num_configs 9239
+ack.pl:1165, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= --column off) (= -v off)))
+               (and (= -m off) (or (= --column off) (= -v off)))))
+      (a!5 (and (= -h off)
+                (= --group off)
+                (= --heading off)
+                (= -o off)
+                (= -H off)
+                (= --show-types off)
+                (= --passthru off)
+                (= --break off)
+                (= --nogroup off)
+                (= --column off)
+                (or (= -m off) (and (= -1 off) (= -c off))))))
+(let ((a!2 (or (and (= -o off) a!1)
+               (and (= --column off)
+                    (= -v off)
+                    (= --show-types off)
+                    (or (= -1 off) (= -m off))))))
+(let ((a!3 (and (= -c off)
+                (or (and (= --passthru off) a!2)
+                    (and (= -o off)
+                         (= -1 off)
+                         (= -m off)
+                         (= -v off)
+                         (= --column off))))))
+(let ((a!4 (and (= -l off)
+                (or a!3
+                    (and (= --heading off)
+                         (= -m off)
+                         (= --nogroup off)
+                         (= -o off)
+                         (= --passthru off)
+                         (= --column off)
+                         (= --group off)
+                         (= --break off))))))
+  (and (= -r on)
+       (= --help off)
+       (or (and (= -g off) (= -L off) (= -f off) (= --version off) (or a!4 a!5))
+           (and (= --dump on) (= --version off))))))))
+-
+23 M 27 26 1 3 0 25 2 4 10 9 12 15 H 7 HM 11 15 H 7 HMMMM 15 7 22 12 H 11 HMMMMMM 9 12 11 7 15 HMMMMMMM 17 11 20 9 10 15 19 18 HMMMMMMMMMM 14 19 17 9 13 22 10 18 20 15 11 H 12 4 HMM 12 4 HMM 12 4 HMMMMMMMMMMMMMMMM 25 HMM
+======
+# M/H: 15150 / 23539
+# Last rebuild:   iter 2  num_configs 534
+ack.pl:1063, ack.pl:1064, ack.pl:1065, ack.pl:1066, ack.pl:1084, ack.pl:1085, ack.pl:1086, ack.pl:1087, ack.pl:1088, ack.pl:1089, ack.pl:1090, ack.pl:1091, ack.pl:1101, ack.pl:1114, ack.pl:1118, ack.pl:1119, ack.pl:1120, ack.pl:1121, ack.pl:1122, ack.pl:1123, ack.pl:1124, ack.pl:1126, ack.pl:1132, ack.pl:1330, ack.pl:1331, ack.pl:1386, ack.pl:1387, ack.pl:1388, ack.pl:1389, ack.pl:1391, ack.pl:1392, ack.pl:1393, ack.pl:1394, ack.pl:1400, ack.pl:1401, ack.pl:1402, ack.pl:1403, ack.pl:1404, ack.pl:1405, ack.pl:1406, ack.pl:1407, ack.pl:1408, ack.pl:1409, ack.pl:1410, ack.pl:1411, ack.pl:1412, ack.pl:1413, ack.pl:1414, ack.pl:1415, ack.pl:1416, ack.pl:1417, ack.pl:1418, ack.pl:1419, ack.pl:1420, ack.pl:1421, ack.pl:1422, ack.pl:1423, ack.pl:1424, ack.pl:1425, ack.pl:1426, ack.pl:1427, ack.pl:1428, ack.pl:1429, ack.pl:1430, ack.pl:1431, ack.pl:1432, ack.pl:1433, ack.pl:1434, ack.pl:1435, ack.pl:1436, ack.pl:1437, ack.pl:1438, ack.pl:1439, ack.pl:1440, ack.pl:1441, ack.pl:1442, ack.pl:1443, ack.pl:1444, ack.pl:1445, ack.pl:1446, ack.pl:1447, ack.pl:1616, ack.pl:1617, ack.pl:1618, ack.pl:1619, 
+-
+(and (= --dump off) (= --version off) (= --help off))
+-
+26 25 27 HMMM
+======
+# IGNORED
+# M/H: 14356 / 23295
+# Last rebuild:   iter 36  num_configs 37651
+ack.pl:1390, ack.pl:1395, 
+-
+(and (= --help off)
+     (= --dump off)
+     (= --version off)
+     (or (= -f on)
+         (= -l off)
+         (= -L on)
+         (= -c on)
+         (= -i on)
+         (= -S on)
+         (= -v on)
+         (= -w on)
+         (= -o on)
+         (= --passthru on)
+         (= -m |1|)
+         (= -m |5|)
+         (= -m |10|)
+         (= -1 on)
+         (= -H on)
+         (= -h on)
+         (= --column on)
+         (= --print0 on)
+         (= --heading on)
+         (= --break on)
+         (= --group on)
+         (= --nogroup on)
+         (= --sort-files on)
+         (= --show-types on)
+         (= -r on)
+         (= --follow on)))
+-
+27 26 25 2 H 21 23 8 6 12 13 5 22 20 24 10 15 16 9 0 4 17 18 3 11 7 14 19 MHHHHHHHHHHHHHHHHHHHHHHHHHMMM
+======
+# M/H: 18999 / 18025
+# Last rebuild:   iter 9  num_configs 7189
+ack.pl:1396, ack.pl:1397, ack.pl:1398, 
+-
+(let ((a!1 (and (= -1 on)
+                (or (= -m |1|)
+                    (= -m |5|)
+                    (= -m |10|)
+                    (and (= --column on) (= -v on))))))
+(let ((a!2 (or (= -f on)
+               (= -g on)
+               (= -L on)
+               (and (= -l on)
+                    (or (= -o on)
+                        (= -H on)
+                        (= -h on)
+                        (= --column on)
+                        (= --heading on)
+                        (= --break on)
+                        (= --group on)
+                        (= --nogroup on)
+                        (= --show-types on)))
+               (and (= -o on)
+                    (or (= -v on) (= --column on) (= --show-types on)))
+               (and (= --column on) (= -v on))
+               a!1
+               (and (= --passthru on)
+                    (or (= -l on)
+                        (= -c on)
+                        (= -v on)
+                        (= -o on)
+                        (= -m |1|)
+                        (= -m |5|)
+                        (= -m |10|)
+                        (= -1 on)
+                        (= --column on)))
+               (and (= -c on)
+                    (or (= -o on)
+                        (= -m |1|)
+                        (= -m |5|)
+                        (= -m |10|)
+                        (= --column on)
+                        (= --heading on)
+                        (= --break on)
+                        (= --group on)
+                        (= --nogroup on))))))
+  (and (= --version off) (= --help off) (= --dump off) a!2)))
+-
+25 27 26 0 3 1 10 4 2 9 12 15 M 7 MH 11 15 M 7 MHHHH 15 7 22 12 M 11 MHHHHHH 17 14 20 19 15 13 18 9 12 22 MH 11 22 MHHHHHHHHHHHH 11 15 18 9 17 20 19 2 M 13 14 22 MHHHHHHHHHHHH 12 11 15 7 2 9 4 MHHHHHHHHHHHHMMM
+======
+# M/H: 19328 / 19655
+# Last rebuild:   iter 9  num_configs 7973
+ack.pl:859, ack.pl:860, ack.pl:861, 
+-
+(let ((a!1 (or (= -f on)
+               (= -g on)
+               (= -L on)
+               (= --show-types on)
+               (and (= -1 on) (or (= -m |1|) (= -m |5|) (= -m |10|)))
+               (and (= -l on)
+                    (or (= -o on)
+                        (= -H on)
+                        (= -h on)
+                        (= --column on)
+                        (= --heading on)
+                        (= --break on)
+                        (= --group on)
+                        (= --nogroup on)))
+               (and (= --passthru on)
+                    (or (= -l on)
+                        (= -c on)
+                        (= -v on)
+                        (= -o on)
+                        (= -m |1|)
+                        (= -m |5|)
+                        (= -m |10|)
+                        (= -1 on)
+                        (= --column on)))
+               (and (= --column on) (or (= -v on) (= -o on)))
+               (and (= -o on) (= -v on))
+               (and (= -c on)
+                    (or (= -o on)
+                        (= -m |1|)
+                        (= -m |5|)
+                        (= -m |10|)
+                        (= --column on)
+                        (= --heading on)
+                        (= --break on)
+                        (= --group on)
+                        (= --nogroup on))))))
+  (and (= --help off) (= --version off) (= --dump off) a!1))
+-
+27 25 26 22 0 3 1 10 4 2 12 15 9 M 7 MH 7 9 MHH 11 15 9 M 7 MH 9 7 MHHHHH 14 15 9 20 19 17 13 18 12 M 11 MHHHHHHHHHHH 11 15 20 9 17 19 18 2 M 14 13 MHHHHHHHHHHH 7 9 11 4 15 2 12 MHHHHHHHHHHHHHMMM
+======
+# M/H: 34195 / 3964
+# Last rebuild:   iter 15  num_configs 11971
+ack.pl:1150, ack.pl:1151, 
+-
+(let ((a!1 (or (and (= -o off) (or (= --column off) (= -v off)))
+               (and (= --column off) (= -v off) (= --show-types off))))
+      (a!5 (and (= -H off)
+                (= --nogroup off)
+                (= -h off)
+                (= -o off)
+                (= --group off)
+                (= --column off)
+                (= --break off)
+                (= --show-types off)
+                (= --heading off)
+                (= --passthru off)
+                (or (= -m off) (and (= -c off) (= -1 off))))))
+(let ((a!2 (and (= -c off) (or (and (= -1 off) a!1) (and (= -m off) a!1)))))
+(let ((a!3 (and (= --passthru off)
+                (or a!2
+                    (and (= --break off)
+                         (= -m off)
+                         (= -o off)
+                         (= --nogroup off)
+                         (= --heading off)
+                         (= --column off)
+                         (= --group off))))))
+(let ((a!4 (and (= -l off)
+                (or a!3
+                    (and (= -1 off)
+                         (= -m off)
+                         (= --column off)
+                         (= -o off)
+                         (= -c off)
+                         (= -v off))))))
+  (and (= -i on)
+       (= --help off)
+       (or (and (= --dump on) (= --version off))
+           (and (= -L off) (= -g off) (= -f off) (= --version off) (or a!4 a!5))))))))
+-
+5 M 27 26 3 1 0 25 2 10 4 12 9 15 H 7 HM 15 7 22 HMMM 11 9 15 H 7 HM 15 7 22 HMMMMMM 18 11 9 20 17 15 19 HMMMMMMMMM 12 11 15 9 4 7 HMMMMMMMM 13 20 14 9 19 15 18 22 17 10 11 H 12 4 HMM 4 12 HMM 12 4 HMMMMMMMMMMMMMMMM 25 HMM
+======
+# M/H: 33880 / 4804
+# Last rebuild:   iter 10  num_configs 8871
+ack.pl:101, ack.pl:103, ack.pl:105, ack.pl:106, ack.pl:107, ack.pl:108, ack.pl:109, ack.pl:110, ack.pl:113, ack.pl:114, ack.pl:115, ack.pl:116, ack.pl:118, ack.pl:128, ack.pl:129, ack.pl:135, ack.pl:136, ack.pl:137, ack.pl:138, ack.pl:139, ack.pl:140, ack.pl:142, ack.pl:143, ack.pl:144, ack.pl:1448, ack.pl:1449, ack.pl:145, ack.pl:1450, ack.pl:1451, ack.pl:1453, ack.pl:1454, ack.pl:1455, ack.pl:1456, ack.pl:1457, ack.pl:1458, ack.pl:1459, ack.pl:1461, ack.pl:148, ack.pl:1509, ack.pl:151, ack.pl:1510, ack.pl:1511, ack.pl:1512, ack.pl:1513, ack.pl:1514, ack.pl:1517, ack.pl:1518, ack.pl:1519, ack.pl:152, ack.pl:153, ack.pl:1535, ack.pl:1536, ack.pl:1537, ack.pl:1538, ack.pl:1539, ack.pl:1540, ack.pl:155, ack.pl:156, ack.pl:1560, ack.pl:1561, ack.pl:1562, ack.pl:1563, ack.pl:1564, ack.pl:1565, ack.pl:1566, ack.pl:1567, ack.pl:157, ack.pl:1572, ack.pl:1573, ack.pl:158, ack.pl:1583, ack.pl:1584, ack.pl:159, ack.pl:160, ack.pl:1606, ack.pl:1607, ack.pl:1608, ack.pl:165, ack.pl:1651, ack.pl:1652, ack.pl:1672, ack.pl:1673, ack.pl:1700, ack.pl:1701, ack.pl:1702, ack.pl:1703, ack.pl:1704, ack.pl:1705, ack.pl:1706, ack.pl:1707, ack.pl:1708, ack.pl:1709, ack.pl:1710, ack.pl:1711, ack.pl:1712, ack.pl:1713, ack.pl:1714, ack.pl:1715, ack.pl:1716, ack.pl:1717, ack.pl:172, ack.pl:173, ack.pl:1757, ack.pl:1758, ack.pl:1759, ack.pl:1760, ack.pl:1761, ack.pl:1762, ack.pl:1763, ack.pl:1764, ack.pl:1765, ack.pl:1766, ack.pl:1767, ack.pl:1768, ack.pl:1769, ack.pl:1770, ack.pl:1773, ack.pl:1775, ack.pl:1776, ack.pl:1777, ack.pl:1778, ack.pl:1779, ack.pl:1780, ack.pl:1781, ack.pl:1782, ack.pl:1783, ack.pl:1784, ack.pl:1785, ack.pl:1786, ack.pl:1789, ack.pl:1790, ack.pl:1791, ack.pl:1792, ack.pl:1793, ack.pl:1794, ack.pl:1795, ack.pl:1798, ack.pl:1799, ack.pl:1800, ack.pl:1801, ack.pl:1802, ack.pl:1803, ack.pl:1804, ack.pl:1805, ack.pl:1806, ack.pl:1807, ack.pl:1808, ack.pl:1809, ack.pl:1811, ack.pl:465, ack.pl:466, ack.pl:467, ack.pl:468, ack.pl:469, ack.pl:470, ack.pl:472, ack.pl:473, ack.pl:474, ack.pl:475, ack.pl:476, ack.pl:477, ack.pl:478, ack.pl:479, ack.pl:480, ack.pl:481, ack.pl:482, ack.pl:483, ack.pl:484, ack.pl:485, ack.pl:486, ack.pl:487, ack.pl:488, ack.pl:490, ack.pl:491, ack.pl:492, ack.pl:493, ack.pl:494, ack.pl:495, ack.pl:496, ack.pl:497, ack.pl:498, ack.pl:499, ack.pl:500, ack.pl:501, ack.pl:502, ack.pl:503, ack.pl:504, ack.pl:505, ack.pl:509, ack.pl:510, ack.pl:527, ack.pl:528, ack.pl:533, ack.pl:534, ack.pl:536, ack.pl:537, ack.pl:539, ack.pl:540, ack.pl:541, ack.pl:543, ack.pl:544, ack.pl:546, ack.pl:547, ack.pl:548, ack.pl:549, ack.pl:550, ack.pl:552, ack.pl:553, ack.pl:554, ack.pl:562, ack.pl:563, ack.pl:564, ack.pl:565, ack.pl:578, ack.pl:580, ack.pl:581, ack.pl:582, ack.pl:583, ack.pl:584, ack.pl:585, ack.pl:586, ack.pl:590, ack.pl:857, ack.pl:941, ack.pl:942, ack.pl:943, ack.pl:954, ack.pl:955, ack.pl:956, ack.pl:957, ack.pl:975, ack.pl:976, 
+-
+(let ((a!1 (or (and (= --column off) (or (= -o off) (= -v off)))
+               (and (= -o off) (= -v off))))
+      (a!5 (and (= -m off)
+                (= --heading off)
+                (= --nogroup off)
+                (= -o off)
+                (= --break off)
+                (= --group off)
+                (= --column off)
+                (= --passthru off)
+                (or (= -l off) (and (= -h off) (= -H off))))))
+(let ((a!2 (and (= --passthru off)
+                (or (and (= -1 off) a!1) (and (= -m off) a!1)))))
+(let ((a!3 (and (= -l off)
+                (or a!2
+                    (and (= -m off)
+                         (= -o off)
+                         (= -1 off)
+                         (= --column off)
+                         (= -v off))))))
+(let ((a!4 (and (= -c off)
+                (or a!3
+                    (and (= -h off)
+                         (= --column off)
+                         (= --nogroup off)
+                         (= -o off)
+                         (= --heading off)
+                         (= --group off)
+                         (= -H off)
+                         (= --break off)
+                         (= --passthru off)
+                         (= -1 off))))))
+  (and (= --show-types off)
+       (= -L off)
+       (= -f off)
+       (= --dump off)
+       (= -g off)
+       (= --help off)
+       (= --version off)
+       (or a!4 a!5))))))
+-
+22 3 0 26 1 27 25 4 2 10 12 15 9 H 7 HM 9 7 HMM 11 15 9 H 7 HM 9 7 HMMMMM 11 9 12 15 7 HMMMMMMM 14 15 20 9 17 19 13 18 10 12 H 11 HMMMMMMMMMMMM 11 17 20 9 18 19 15 10 2 H 14 13 HMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 36169 / 2471
+# Last rebuild:   iter 10  num_configs 8841
+ack.pl:117, 
+-
+(let ((a!1 (and (= -m off) (or (= -o off) (= -v off)))))
+(let ((a!2 (or (and (= -1 off) (or (= -v off) (= -o off))) a!1))
+      (a!6 (or (and (= -1 off) (or (= -o off) (= -v off))) a!1)))
+(let ((a!3 (or (and (= --column off) a!2)
+               (and (= -o off) (= -v off) (or (= -1 off) (= -m off)))))
+      (a!7 (or (and (= --column off) a!6)
+               (and (= -v off) (= -o off) (or (= -1 off) (= -m off))))))
+(let ((a!4 (and (= -c off)
+                (or (and (= --passthru off) a!3)
+                    (and (= -1 off)
+                         (= -o off)
+                         (= -m off)
+                         (= --column off)
+                         (= -v off)))))
+      (a!8 (and (= -c off)
+                (or (and (= --passthru off) a!7)
+                    (and (= --column off)
+                         (= -v off)
+                         (= -o off)
+                         (= -1 off)
+                         (= -m off))))))
+(let ((a!5 (and (= -H on)
+                (or a!4
+                    (and (= -m off)
+                         (= --break off)
+                         (= -o off)
+                         (= --passthru off)
+                         (= --column off)
+                         (= --heading off)
+                         (= --group off)
+                         (= --nogroup off)))))
+      (a!9 (and (= -h on)
+                (or a!8
+                    (and (= -m off)
+                         (= --nogroup off)
+                         (= -o off)
+                         (= --group off)
+                         (= --column off)
+                         (= --passthru off)
+                         (= --break off)
+                         (= --heading off))))))
+  (and (= -l off)
+       (= --show-types off)
+       (= --help off)
+       (= -f off)
+       (= -L off)
+       (= -g off)
+       (= --dump off)
+       (= --version off)
+       (or a!5 a!9)))))))
+-
+2 22 27 0 3 1 26 25 13 14 M 4 10 15 12 9 H 7 HM 11 9 H 7 HMMMM 7 9 12 H 11 HMMMMM 15 7 9 12 11 HMMMMMMM 11 20 9 19 15 10 18 17 HMMMMMMMMMM 4 10 15 12 7 H 9 HM 11 9 H 7 HMMMM 9 7 12 H 11 HMMMMM 12 9 11 15 7 HMMMMMMM 11 18 9 10 15 17 19 20 HMMMMMMMMMMMMMMMMMM
+======
+# M/H: 34133 / 5159
+# Last rebuild:   iter 8  num_configs 6939
+ack.pl:1195, ack.pl:1196, ack.pl:1197, ack.pl:1198, ack.pl:1199, ack.pl:1200, ack.pl:1201, ack.pl:1202, ack.pl:1203, ack.pl:1204, ack.pl:1205, ack.pl:1206, ack.pl:1207, ack.pl:1208, ack.pl:1209, ack.pl:1210, ack.pl:1211, ack.pl:1212, ack.pl:1213, ack.pl:1214, ack.pl:1220, ack.pl:1226, ack.pl:1227, ack.pl:1228, ack.pl:1229, ack.pl:1232, ack.pl:1236, ack.pl:1238, ack.pl:1332, ack.pl:1333, ack.pl:1334, ack.pl:1335, ack.pl:1336, ack.pl:1337, ack.pl:1338, ack.pl:1339, ack.pl:1340, ack.pl:1341, ack.pl:1342, ack.pl:1345, ack.pl:1346, ack.pl:1347, ack.pl:1349, ack.pl:1350, ack.pl:1351, ack.pl:1352, ack.pl:1399, ack.pl:1581, ack.pl:1582, ack.pl:74, ack.pl:75, ack.pl:76, ack.pl:77, ack.pl:78, ack.pl:79, ack.pl:80, ack.pl:81, ack.pl:82, ack.pl:83, ack.pl:84, ack.pl:85, ack.pl:86, ack.pl:87, ack.pl:88, ack.pl:89, ack.pl:90, ack.pl:91, ack.pl:92, ack.pl:93, ack.pl:94, ack.pl:95, ack.pl:96, ack.pl:97, ack.pl:98, ack.pl:99, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= --column off) (= -v off)))
+               (and (= -m off) (or (= --column off) (= -v off)))))
+      (a!4 (and (= -h off)
+                (= --heading off)
+                (= -H off)
+                (= --column off)
+                (= --group off)
+                (= --break off)
+                (= --show-types off)
+                (= --nogroup off)
+                (= -o off)
+                (or (= -m off) (and (= -1 off) (= -c off))))))
+(let ((a!2 (or (and (= -o off) a!1)
+               (and (= --column off)
+                    (= -v off)
+                    (= --show-types off)
+                    (or (= -1 off) (= -m off))))))
+(let ((a!3 (and (= -l off)
+                (or (and (= -c off) a!2)
+                    (and (= --nogroup off)
+                         (= --heading off)
+                         (= --column off)
+                         (= -m off)
+                         (= --group off)
+                         (= -o off)
+                         (= --break off))))))
+  (and (= -L off)
+       (= -f off)
+       (= --dump off)
+       (= -g off)
+       (= --help off)
+       (= --version off)
+       (or (and (= --passthru off) (or a!3 a!4))
+           (and (= -1 off)
+                (= -m off)
+                (= --column off)
+                (= -o off)
+                (= -v off)
+                (= -c off)
+                (= -l off)))))))
+-
+3 0 26 1 27 25 10 2 4 9 12 15 H 7 HM 11 15 H 7 HMMMM 15 7 22 12 H 11 HMMMMMM 20 17 15 11 19 9 18 HMMMMMMMMM 14 17 13 15 19 18 22 20 9 11 H 12 4 HMM 12 4 HMM 12 4 HMMMMMMMMMMM 12 11 15 9 7 4 2 HMMMMMMMMMMMMMMM
+======
+# M/H: 33995 / 2633
+# Last rebuild:   iter 13  num_configs 10167
+ack.pl:1462, ack.pl:1463, ack.pl:1464, ack.pl:1465, ack.pl:1466, ack.pl:1467, ack.pl:1468, ack.pl:1469, ack.pl:1473, ack.pl:1474, ack.pl:1477, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= -o off) (= --column off)))
+               (and (= -m off) (or (= --column off) (= -o off)))))
+      (a!3 (and (= -m off)
+                (= -o off)
+                (= --column off)
+                (= --break off)
+                (= --nogroup off)
+                (= --heading off)
+                (= --group off)
+                (or (= -l off) (and (= -h off) (= -H off))))))
+(let ((a!2 (and (= -c off)
+                (or (and (= -l off) a!1)
+                    (and (= --break off)
+                         (= --nogroup off)
+                         (= --group off)
+                         (= --heading off)
+                         (= -h off)
+                         (= -o off)
+                         (= -1 off)
+                         (= -H off)
+                         (= --column off))))))
+  (and (= -v off)
+       (= --passthru off)
+       (= --show-types off)
+       (= --help off)
+       (= -L off)
+       (= --dump off)
+       (= -f off)
+       (= --version off)
+       (= -g off)
+       (or a!2 a!3))))
+-
+7 10 22 27 3 26 0 25 1 4 2 12 9 H 15 HM 11 15 H 9 HMMMM 18 20 19 17 14 9 12 13 15 HMM 11 15 13 HMMMMMMMMMMM 11 9 15 18 20 17 19 2 H 14 13 HMMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 36587 / 1870
+# Last rebuild:   iter 11  num_configs 9270
+ack.pl:1475, 
+-
+(let ((a!1 (and (= -h off)
+                (= --heading off)
+                (= -o off)
+                (= -H off)
+                (= --column off)
+                (= --group off)
+                (= --nogroup off)
+                (= --break off)
+                (= -g off)
+                (or (and (= -m off) (= --help off))
+                    (and (= -m |10|) (= -c off) (= --help off))
+                    (and (= -m |5|)
+                         (= --sort-files off)
+                         (= -c off)
+                         (= --help off)))))
+      (a!3 (and (= -c on)
+                (= --break off)
+                (= --help off)
+                (= --show-types off)
+                (= -o off)
+                (= --group off)
+                (= --dump off)
+                (= -m off)
+                (= --version off)
+                (= --nogroup off)
+                (= -f off)
+                (= -g off)
+                (= --column off)
+                (= -L off)
+                (= --heading off)
+                (or (= -l off) (and (= -H off) (= -h off))))))
+(let ((a!2 (or (and (= -l off)
+                    (= -c off)
+                    (= --help off)
+                    (= -g off)
+                    (or (= -o off) (= --column off)))
+               a!1)))
+  (and (= -v off)
+       (= --passthru off)
+       (or (and (= -1 off)
+                (= --show-types off)
+                (= --version off)
+                (= -L off)
+                (= --dump off)
+                (= -f off)
+                a!2)
+           a!3))))
+-
+7 10 12 22 25 3 26 0 2 4 27 1 9 H 15 HMMM 20 15 9 11 18 19 17 27 1 HMMMMMMMMMMM 14 17 9 13 15 19 20 18 1 11 27 HMM 21 4 27 HMMM 4 27 HMMMMMMMMMMMMMMMM 4 M 18 27 22 9 19 26 11 25 20 0 1 15 3 17 2 H 13 14 HMMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 36397 / 1764
+# Last rebuild:   iter 14  num_configs 11763
+ack.pl:1476, 
+-
+(let ((a!1 (and (= -H off)
+                (= -h off)
+                (= --heading off)
+                (= -f off)
+                (or (and (= -m off)
+                         (= -o off)
+                         (= --nogroup off)
+                         (= --column off)
+                         (= -L off)
+                         (= -g off)
+                         (= --group off)
+                         (= --help off)
+                         (= --show-types off)
+                         (= --break off)
+                         (= --version off)
+                         (= --dump off))
+                    (and (= -m |10|)
+                         (= --sort-files on)
+                         (= --version off)
+                         (= --show-types off)
+                         (= -g off)
+                         (= -c off)
+                         (= --group off)
+                         (= --dump off)
+                         (= --help off)
+                         (= --break off)
+                         (= --nogroup off)
+                         (= -L off)
+                         (= --column off)
+                         (= -o off)))))
+      (a!3 (and (= -c on)
+                (= -o off)
+                (= --nogroup off)
+                (= --show-types off)
+                (= --version off)
+                (= --heading off)
+                (= --group off)
+                (= -L off)
+                (= --help off)
+                (= -m off)
+                (= --break off)
+                (= -g off)
+                (= --dump off)
+                (= --column off)
+                (= -f off)
+                (or (= -l off) (and (= -H off) (= -h off))))))
+(let ((a!2 (or a!1
+               (and (= -l off)
+                    (= --show-types off)
+                    (= --help off)
+                    (= -c off)
+                    (= -L off)
+                    (= -f off)
+                    (= --version off)
+                    (= --dump off)
+                    (= -g off)
+                    (or (= --column off) (= -o off))))))
+  (and (= -v off) (= --passthru off) (or (and (= -1 off) a!2) a!3))))
+-
+7 10 12 2 22 27 4 3 0 25 26 1 15 H 9 HMMMMMM 19 15 11 1 17 3 9 25 18 26 0 20 HMMMMMMMMMMMMMMMM 13 14 17 0 11 9 20 15 3 1 19 27 22 18 25 26 HMMMMMMMMMMMMM 21 M 25 22 1 4 19 26 27 18 20 3 15 9 HMMMMMMMMMMMMMMMM 4 M 9 20 22 25 17 19 3 27 11 18 1 26 15 0 2 H 13 14 HMMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 34720 / 3318
+# Last rebuild:   iter 18  num_configs 16551
+ack.pl:1478, ack.pl:1479, ack.pl:1480, ack.pl:1481, ack.pl:1483, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= --column off) (= -o off)))
+               (and (= -m off) (or (= --column off) (= -o off)))))
+      (a!2 (and (= -h off) (or (= -l on) (and (= -l off) (= -c on))))))
+(let ((a!3 (and (= -H off) (or a!2 (and (= -l off) (= -c on))))))
+(let ((a!4 (and (= -m off) (or (and (= -l off) (= -c on)) a!3))))
+(let ((a!5 (and (= --group off)
+                (= --heading off)
+                (= --break off)
+                (= -o off)
+                (= --nogroup off)
+                (= --column off)
+                (or a!4
+                    (and (= -1 off) (= -c off) (= -l on) (= -h off) (= -H off))))))
+  (and (= --passthru off)
+       (= --show-types off)
+       (= --help off)
+       (= -f off)
+       (= -L off)
+       (= -g off)
+       (= --dump off)
+       (= --version off)
+       (or (and (= -v off) (= -c off) (= -l off) a!1) a!5))))))
+-
+10 22 27 0 3 1 26 25 7 4 2 12 15 H 9 HM 11 15 H 9 HMMMM 13 9 15 18 17 20 19 14 12 H 11 HMMMMMMMMMMM 11 9 17 19 20 18 15 2 H 13 14 HMMMMMMMMMMM 19 17 18 9 20 15 11 13 14 2 4 MHH 2 4 MHM 2 4 MHM 12 4 13 14 2 MHMMMM 12 4 2 M 13 14 HMMMM 12 4 2 M 14 13 HMMMMMMMMMMMMMMMMMM
+======
+# M/H: 35475 / 3524
+# Last rebuild:   iter 9  num_configs 8003
+ack.pl:164, ack.pl:591, ack.pl:592, ack.pl:593, ack.pl:594, ack.pl:595, ack.pl:596, ack.pl:597, ack.pl:598, ack.pl:599, ack.pl:600, ack.pl:605, ack.pl:606, ack.pl:611, ack.pl:612, ack.pl:613, ack.pl:614, ack.pl:615, ack.pl:616, ack.pl:617, ack.pl:618, ack.pl:619, ack.pl:620, ack.pl:621, ack.pl:622, ack.pl:626, ack.pl:627, ack.pl:629, ack.pl:736, ack.pl:737, ack.pl:738, ack.pl:739, ack.pl:740, ack.pl:741, ack.pl:752, ack.pl:806, 
+-
+(let ((a!1 (and (= --column off) (or (= -o off) (= -v off)))))
+(let ((a!2 (and (= -1 off) (or (and (= -v off) (= -o off)) a!1)))
+      (a!3 (and (= -m off) (or (and (= -o off) (= -v off)) a!1))))
+  (and (= -l off)
+       (= -c off)
+       (= --show-types off)
+       (= --help off)
+       (= -f off)
+       (= -g off)
+       (= -L off)
+       (= --dump off)
+       (= --version off)
+       (or (and (= --passthru off) (or a!2 a!3))
+           (and (= -1 off) (= -o off) (= -v off) (= -m off) (= --column off))))))
+-
+2 4 22 27 0 1 3 26 25 10 12 15 9 H 7 HM 7 9 HMM 11 15 9 H 7 HM 9 7 HMMMMM 12 9 7 11 15 HMMMMMMMMMMMMMMMM
+======
+# M/H: 35040 / 3169
+# Last rebuild:   iter 11  num_configs 9042
+ack.pl:1718, 
+-
+(let ((a!1 (or (and (= --column off) (or (= -o off) (= -v off)))
+               (and (= -o off) (= -v off))))
+      (a!4 (and (= -c on)
+                (= --nogroup off)
+                (= -o off)
+                (= --help off)
+                (= --heading off)
+                (= -m off)
+                (= --passthru off)
+                (= --dump off)
+                (= --break off)
+                (= -g off)
+                (= --column off)
+                (or (and (= -l off)
+                         (= --group off)
+                         (= -f off)
+                         (= -L off)
+                         (= --version off))
+                    (and (= -H off)
+                         (= -h off)
+                         (= -f off)
+                         (= -L off)
+                         (= --group off)
+                         (= --version off))))))
+(let ((a!2 (and (= -l off)
+                (= --help off)
+                (= -L off)
+                (= -f off)
+                (= -g off)
+                (= --version off)
+                (= --dump off)
+                (= -c off)
+                (or (and (= --passthru off) a!1)
+                    (and (= -o off) (= --column off) (= -m off) (= -v off))))))
+(let ((a!3 (and (= -1 off)
+                (or a!2
+                    (and (= -m off)
+                         (= -h off)
+                         (= --break off)
+                         (= -H off)
+                         (= --column off)
+                         (= --heading off)
+                         (= --nogroup off)
+                         (= -L off)
+                         (= --group off)
+                         (= -f off)
+                         (= -g off)
+                         (= -o off)
+                         (= --dump off)
+                         (= --help off)
+                         (= --passthru off)
+                         (= --version off))))))
+  (and (= --show-types off) (or a!3 a!4)))))
+-
+22 12 2 27 3 0 1 25 26 4 10 15 9 H 7 HM 9 7 HMM 9 15 11 7 HMMMMMM 19 11 17 15 9 10 18 20 HMMMMMMMMMMMMMMMM 11 14 18 13 15 17 20 3 19 0 1 9 26 27 10 25 HMMMMMMMMMMMMMMMMMM 4 M 20 9 27 17 11 10 26 18 1 15 2 19 0 3 25 HMMMM 13 14 0 3 19 25 HMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 36225 / 2480
+# Last rebuild:   iter 10  num_configs 8901
+ack.pl:1755, ack.pl:1774, ack.pl:1810, 
+-
+(let ((a!1 (or (and (= -v off) (= -o off))
+               (and (= --column off) (or (= -o off) (= -v off)))))
+      (a!2 (or (and (= --column off) (or (= -v off) (= -o off)))
+               (and (= -o off) (= -v off))))
+      (a!5 (and (= -h off)
+                (= --group off)
+                (= --heading off)
+                (= -H off)
+                (= -o off)
+                (= --break off)
+                (= --column off)
+                (= --nogroup off)
+                (or (= -m off) (and (= -1 off) (= -c off))))))
+(let ((a!3 (and (= -c off) (or (and (= -1 off) a!1) (and (= -m off) a!2)))))
+(let ((a!4 (and (= -l off)
+                (or a!3
+                    (and (= -m off)
+                         (= --heading off)
+                         (= --nogroup off)
+                         (= --column off)
+                         (= --break off)
+                         (= -o off)
+                         (= --group off))))))
+  (and (= --sort-files on)
+       (= --show-types off)
+       (= -L off)
+       (= --help off)
+       (= -g off)
+       (= --version off)
+       (= -f off)
+       (= --dump off)
+       (or (and (= --passthru off) (or a!4 a!5))
+           (and (= -1 off)
+                (= -m off)
+                (= --column off)
+                (= -o off)
+                (= -v off)
+                (= -c off)
+                (= -l off)))))))
+-
+21 M 22 3 27 1 25 0 26 10 2 4 12 15 9 H 7 HM 7 9 HMM 11 15 7 H 9 HM 9 7 HMMMMM 11 17 20 15 18 9 19 HMMMMMMMMM 14 19 17 13 9 18 15 20 12 4 H 11 HMMM 11 HMMMMMMMMMMM 12 11 15 9 7 4 2 HMMMMMMMMMMMMMMMM
+======
+# M/H: 35994 / 2425
+# Last rebuild:   iter 9  num_configs 7399
+ack.pl:1797, 
+-
+(let ((a!1 (or (and (= -o off) (= -v off))
+               (and (= --column off) (or (= -v off) (= -o off)))))
+      (a!2 (or (and (= -o off) (= -v off))
+               (and (= --column off) (or (= -o off) (= -v off)))))
+      (a!5 (and (= -m off)
+                (= --column off)
+                (= --heading off)
+                (= --group off)
+                (= --nogroup off)
+                (= --break off)
+                (= -o off)
+                (or (= -l off) (and (= -h off) (= -H off))))))
+(let ((a!3 (and (= -l off) (or (and (= -1 off) a!1) (and (= -m off) a!2)))))
+(let ((a!4 (and (= -c off)
+                (or a!3
+                    (and (= -h off)
+                         (= --column off)
+                         (= --heading off)
+                         (= --nogroup off)
+                         (= -o off)
+                         (= -H off)
+                         (= --break off)
+                         (= --group off)
+                         (= -1 off))))))
+  (and (= --follow on)
+       (= --show-types off)
+       (= -f off)
+       (= --help off)
+       (= --dump off)
+       (= -L off)
+       (= -g off)
+       (= --version off)
+       (or (and (= --passthru off) (or a!4 a!5))
+           (and (= -1 off)
+                (= -v off)
+                (= -o off)
+                (= --column off)
+                (= -m off)
+                (= -c off)
+                (= -l off)))))))
+-
+24 M 22 0 27 26 3 1 25 10 4 2 12 15 7 H 9 HM 9 7 HMM 11 15 9 H 7 HM 9 7 HMMMMM 14 15 17 20 9 13 18 19 12 H 11 HMMMMMMMMMMM 11 15 17 19 20 18 9 2 H 14 13 HMMMMMMMMMMM 12 7 9 15 11 4 2 HMMMMMMMMMMMMMMMM
+======
+# M/H: 36174 / 2430
+# Last rebuild:   iter 10  num_configs 8779
+ack.pl:566, ack.pl:567, ack.pl:568, ack.pl:570, ack.pl:573, ack.pl:575, ack.pl:576, 
+-
+(let ((a!1 (or (and (= -v off) (= -o off))
+               (and (= --column off) (or (= -o off) (= -v off)))))
+      (a!2 (or (and (= --column off) (or (= -v off) (= -o off)))
+               (and (= -o off) (= -v off))))
+      (a!6 (and (= -m off)
+                (= --group off)
+                (= --heading off)
+                (= --column off)
+                (= --nogroup off)
+                (= --break off)
+                (= -o off)
+                (= --passthru off)
+                (or (= -l off) (and (= -h off) (= -H off))))))
+(let ((a!3 (and (= --passthru off)
+                (or (and (= -1 off) a!1) (and (= -m off) a!2)))))
+(let ((a!4 (and (= -l off)
+                (or a!3
+                    (and (= -1 off)
+                         (= -v off)
+                         (= --column off)
+                         (= -o off)
+                         (= -m off))))))
+(let ((a!5 (and (= -c off)
+                (or a!4
+                    (and (= --nogroup off)
+                         (= --column off)
+                         (= -h off)
+                         (= --group off)
+                         (= --heading off)
+                         (= -H off)
+                         (= -o off)
+                         (= --break off)
+                         (= --passthru off)
+                         (= -1 off))))))
+  (and (= -w on)
+       (= --show-types off)
+       (= --version off)
+       (= -f off)
+       (= -L off)
+       (= -g off)
+       (= --dump off)
+       (= --help off)
+       (or a!5 a!6))))))
+-
+8 M 22 25 0 3 1 26 27 4 2 10 12 15 9 H 7 HM 7 9 HMM 11 15 7 H 9 HM 9 7 HMMMMM 12 7 15 9 11 HMMMMMMM 20 15 14 19 17 13 9 18 10 12 H 11 HMMMMMMMMMMMM 11 19 17 15 20 18 9 10 2 H 14 13 HMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 34967 / 3738
+# Last rebuild:   iter 9  num_configs 7689
+ack.pl:579, 
+-
+(let ((a!1 (or (and (= --column off) (or (= -o off) (= -v off)))
+               (and (= -v off) (= -o off))))
+      (a!2 (or (and (= --column off) (or (= -v off) (= -o off)))
+               (and (= -o off) (= -v off))))
+      (a!4 (or (and (= -S on) (or (= -o off) (= -v off)))
+               (and (= -i on) (or (= -o off) (= -v off)))))
+      (a!8 (or (= -l off) (and (= -H off) (= -h off)))))
+(let ((a!3 (and (= -1 off) (or (and (= -S on) a!1) (and (= -i on) a!2))))
+      (a!5 (or (and (= --column off) a!4)
+               (and (= -o off) (= -v off) (or (= -S on) (= -i on)))))
+      (a!9 (and (= -m off)
+                (= --column off)
+                (= -o off)
+                (= --heading off)
+                (= --group off)
+                (= --nogroup off)
+                (= --break off)
+                (or (and (= -S on) a!8) (and (= -i on) a!8)))))
+(let ((a!6 (and (= -l off) (or a!3 (and (= -m off) a!5)))))
+(let ((a!7 (or a!6
+               (and (= --column off)
+                    (= -h off)
+                    (= --group off)
+                    (= --nogroup off)
+                    (= --break off)
+                    (= -H off)
+                    (= --heading off)
+                    (= -o off)
+                    (= -1 off)
+                    (or (= -S on) (= -i on))))))
+(let ((a!10 (and (= --passthru off) (or (and (= -c off) a!7) a!9))))
+(let ((a!11 (or a!10
+                (and (= -1 off)
+                     (= -m off)
+                     (= -c off)
+                     (= --column off)
+                     (= -o off)
+                     (= -v off)
+                     (= -l off)
+                     (or (= -i on) (= -S on))))))
+  (and (= --show-types off)
+       (= -L off)
+       (= --dump off)
+       (= -f off)
+       (= --help off)
+       (= -g off)
+       (= --version off)
+       a!11)))))))
+-
+22 3 26 0 27 1 25 10 4 2 12 6 5 M 15 7 H 9 HM 9 7 HMM 15 9 H 7 HM 7 9 HMM 11 15 6 5 M 9 H 7 HM 9 H 7 HM 9 7 6 5 MHHMMMMM 15 14 19 20 18 13 17 9 12 6 5 MHH 11 5 6 MHHMMMMMMMMMMM 11 15 9 17 19 20 18 5 6 M 2 H 13 14 HMM 2 H 13 14 HMMMMMMMMMMM 12 11 4 15 9 7 2 5 6 MHHMMMMMMMMMMMMMMMM
+======
+# M/H: 37194 / 2084
+# Last rebuild:   iter 5  num_configs 3002
+ack.pl:607, ack.pl:608, ack.pl:609, ack.pl:706, ack.pl:707, ack.pl:708, ack.pl:709, ack.pl:710, ack.pl:711, ack.pl:712, ack.pl:713, ack.pl:714, ack.pl:715, ack.pl:716, ack.pl:717, ack.pl:718, ack.pl:720, ack.pl:722, ack.pl:727, ack.pl:728, ack.pl:729, ack.pl:730, ack.pl:731, ack.pl:732, ack.pl:733, ack.pl:734, ack.pl:735, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= -o off) (= --column off)))
+               (and (= -m off) (or (= --column off) (= -o off))))))
+  (and (= -v off)
+       (= -c off)
+       (= --show-types off)
+       (= --passthru off)
+       (= -l off)
+       (= -g off)
+       (= --version off)
+       (= -L off)
+       (= --help off)
+       (= --dump off)
+       (= -f off)
+       a!1))
+-
+7 4 22 10 2 1 25 3 27 26 0 12 9 H 15 HM 11 15 H 9 HMMMMMMMMMMMMMMM
+======
+# M/H: 38028 / 1383
+# Last rebuild:   iter 5  num_configs 3036
+ack.pl:610, 
+-
+(and (= -1 off)
+     (= -v off)
+     (= --passthru off)
+     (= --show-types off)
+     (= -c off)
+     (= -l off)
+     (= -g off)
+     (= --version off)
+     (= -L off)
+     (= -f off)
+     (= --dump off)
+     (= --help off)
+     (or (= -o off) (= --column off)))
+-
+12 7 10 22 4 2 1 25 3 0 26 27 9 H 15 HMMMMMMMMMMMMM
+======
+# M/H: 36178 / 2711
+# Last rebuild:   iter 8  num_configs 6527
+ack.pl:765, ack.pl:766, ack.pl:775, ack.pl:788, ack.pl:789, ack.pl:790, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= --column off) (= -v off)))
+               (and (= -m off) (or (= --column off) (= -v off))))))
+  (and (= -l off)
+       (= -c off)
+       (= -o off)
+       (or (and (= --passthru off)
+                (= --show-types off)
+                (= --help off)
+                (= -f off)
+                (= -g off)
+                (= --version off)
+                (= --dump off)
+                (= -L off)
+                a!1)
+           (and (= -1 off)
+                (= --show-types off)
+                (= --help off)
+                (= --column off)
+                (= -v off)
+                (= -g off)
+                (= -f off)
+                (= --version off)
+                (= -m off)
+                (= --dump off)
+                (= -L off)))))
+-
+2 4 9 10 22 27 0 1 25 26 3 12 15 H 7 HM 11 15 H 7 HMMMMMMMMMMM 12 22 27 15 7 1 0 25 11 26 3 HMMMMMMMMMMMMMMMM
+======
+# M/H: 38755 / 401
+# Last rebuild:   iter 9  num_configs 8153
+ack.pl:100, 
+-
+(let ((a!1 (or (and (= --column off) (or (= -1 off) (= -m off)))
+               (and (= -v off) (or (= -1 off) (= -m off))))))
+(let ((a!2 (and (= --passthru off)
+                (or (and (= -c off) a!1)
+                    (and (= --group off)
+                         (= --heading off)
+                         (= --break off)
+                         (= --column off)
+                         (= --nogroup off)
+                         (= -m off))))))
+  (and (= --show-types on)
+       (= -l off)
+       (= -o off)
+       (= -f off)
+       (= -g off)
+       (= -L off)
+       (= --help off)
+       (= --dump off)
+       (= --version off)
+       (or a!2
+           (and (= -v off) (= -m off) (= --column off) (= -1 off) (= -c off))))))
+-
+22 M 2 9 0 1 3 27 26 25 10 4 15 12 H 11 HMMM 7 12 H 11 HMMMM 19 17 18 15 20 11 HMMMMMMMM 7 11 15 12 4 HMMMMMMMMMMMMMMM
+======
+# M/H: 36016 / 2377
+# Last rebuild:   iter 10  num_configs 8584
+ack.pl:146, ack.pl:147, 
+-
+(let ((a!1 (or (and (= -v off) (= --column off))
+               (and (= -o off) (or (= --column off) (= -v off)))))
+      (a!2 (or (and (= -o off) (= -v off))
+               (and (= --column off) (or (= -o off) (= -v off))))))
+(let ((a!3 (and (= -l off) (or (and (= -1 off) a!1) (and (= -m off) a!2)))))
+(let ((a!4 (and (= -c off)
+                (or a!3
+                    (and (= --heading off)
+                         (= --column off)
+                         (= --group off)
+                         (= -o off)
+                         (= --nogroup off)
+                         (= --break off)
+                         (= -1 off))))))
+(let ((a!5 (and (= --passthru off)
+                (or a!4
+                    (and (= -m off)
+                         (= --heading off)
+                         (= --nogroup off)
+                         (= --break off)
+                         (= --column off)
+                         (= -o off)
+                         (= --group off))))))
+  (and (= -H off)
+       (= -h off)
+       (= --show-types off)
+       (= -L off)
+       (= --dump off)
+       (= --help off)
+       (= -f off)
+       (= -g off)
+       (= --version off)
+       (or a!5
+           (and (= -v off)
+                (= -m off)
+                (= -o off)
+                (= -l off)
+                (= -c off)
+                (= -1 off)
+                (= --column off))))))))
+-
+13 14 22 3 26 27 0 1 25 10 4 2 12 9 15 H 7 HM 7 15 HMM 11 15 9 H 7 HM 9 7 HMMMMM 17 15 19 9 20 18 12 H 11 HMMMMMMMMM 11 17 20 18 15 9 19 HMMMMMMMMM 7 11 9 2 4 12 15 HMMMMMMMMMMMMMMMMMM
+======
+# M/H: 36567 / 1373
+# Last rebuild:   iter 9  num_configs 8103
+ack.pl:1484, ack.pl:1485, ack.pl:1486, ack.pl:1488, ack.pl:1489, ack.pl:826, ack.pl:827, ack.pl:828, ack.pl:829, ack.pl:830, ack.pl:834, ack.pl:837, ack.pl:838, ack.pl:839, ack.pl:840, ack.pl:841, ack.pl:850, ack.pl:851, ack.pl:852, ack.pl:853, ack.pl:854, ack.pl:855, ack.pl:856, 
+-
+(let ((a!1 (and (= -H off)
+                (= -h off)
+                (or (and (= -m off) (= -l on))
+                    (and (= -1 off) (= -c off) (= -l on))))))
+  (and (= --group off)
+       (= --heading off)
+       (= --break off)
+       (= --nogroup off)
+       (= -o off)
+       (= -L off)
+       (= --column off)
+       (= --show-types off)
+       (= --help off)
+       (= --passthru off)
+       (= --dump off)
+       (= -f off)
+       (= -g off)
+       (= --version off)
+       (or (and (= -l off) (= -m off) (= -c on)) a!1)))
+-
+19 17 18 20 9 3 15 22 27 10 26 0 1 25 13 14 11 2 4 MHH 12 4 2 MHMM 12 4 2 MHMM 12 4 2 MHMM 2 4 M 11 HMMMM 2 11 4 MHMMMMMMMMMMMMMMMMMM
+======
+# M/H: 38256 / 756
+# Last rebuild:   iter 8  num_configs 6586
+ack.pl:163, ack.pl:455, ack.pl:456, ack.pl:457, ack.pl:458, ack.pl:459, ack.pl:460, ack.pl:461, ack.pl:462, ack.pl:464, 
+-
+(and (= -l on)
+     (= -c off)
+     (= -h off)
+     (= --group off)
+     (= --column off)
+     (= --break off)
+     (= --help off)
+     (= --nogroup off)
+     (= -L off)
+     (= -H off)
+     (= -o off)
+     (= --dump off)
+     (= --show-types off)
+     (= --version off)
+     (= --passthru off)
+     (= --heading off)
+     (= -f off)
+     (or (and (= -1 off) (= -g off)) (and (= -m off) (= -g off))))
+-
+2 M 4 14 19 15 18 27 20 3 13 9 26 22 25 10 17 0 12 1 HM 11 1 HMMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 39016 / 521
+# Last rebuild:   iter 8  num_configs 7081
+ack.pl:463, 
+-
+(and (= -l on)
+     (= -c off)
+     (= -h off)
+     (= -1 off)
+     (= --group off)
+     (= --nogroup off)
+     (= -L off)
+     (= --column off)
+     (= --version off)
+     (= --show-types off)
+     (= -g off)
+     (= --break off)
+     (= -o off)
+     (= -H off)
+     (= --passthru off)
+     (= --help off)
+     (= -f off)
+     (= --heading off)
+     (= --dump off))
+-
+2 M 4 14 12 19 20 3 15 25 22 1 18 9 13 10 27 0 17 26 HMMMMMMMMMMMMMMMMMM
+======
+# M/H: 37024 / 949
+# Last rebuild:   iter 4  num_configs 1650
+ack.pl:687, ack.pl:688, ack.pl:689, ack.pl:690, ack.pl:691, ack.pl:692, ack.pl:693, ack.pl:694, ack.pl:695, ack.pl:696, ack.pl:698, ack.pl:700, ack.pl:701, ack.pl:702, ack.pl:703, ack.pl:704, ack.pl:705, ack.pl:807, ack.pl:808, ack.pl:809, ack.pl:821, ack.pl:822, ack.pl:823, ack.pl:824, 
+-
+(and (= -v on)
+     (= --column off)
+     (= -l off)
+     (= --show-types off)
+     (= -c off)
+     (= -o off)
+     (= -L off)
+     (= --passthru off)
+     (= --version off)
+     (= --help off)
+     (= -g off)
+     (= -f off)
+     (= --dump off)
+     (or (= -1 off) (= -m off)))
+-
+7 M 15 2 22 4 9 3 10 25 27 1 0 26 12 H 11 HMMMMMMMMMMMMMMM
+======
+# M/H: 38565 / 355
+# Last rebuild:   iter 6  num_configs 4034
+ack.pl:697, 
+-
+(and (= -v on)
+     (= -1 off)
+     (= --nogroup off)
+     (= -l off)
+     (= -c off)
+     (= --column off)
+     (= -o off)
+     (= --dump off)
+     (= --version off)
+     (= --show-types off)
+     (= -f off)
+     (= --passthru off)
+     (= -g off)
+     (= -L off)
+     (or (and (= --break on) (= --help off))
+         (and (= --group on) (= --help off))))
+-
+7 M 12 20 2 4 15 9 26 25 22 0 10 1 3 19 18 M 27 HM 27 HMMMMMMMMMMMMMM
+======
+# M/H: 37560 / 1315
+# Last rebuild:   iter 9  num_configs 7843
+ack.pl:944, ack.pl:945, ack.pl:946, 
+-
+(let ((a!1 (and (= --column off) (or (= -v off) (= -o off)))))
+(let ((a!2 (and (= --break on) (or (and (= -v off) (= -o off)) a!1)))
+      (a!3 (and (= --group on) (or (and (= -o off) (= -v off)) a!1))))
+(let ((a!4 (or (and (= --passthru off) (or a!2 a!3))
+               (and (= -v off)
+                    (= --column off)
+                    (= -m off)
+                    (= -o off)
+                    (or (= --break on) (= --group on))))))
+  (and (= -1 off)
+       (= -l off)
+       (= --nogroup off)
+       (= -c off)
+       (= --show-types off)
+       (= --help off)
+       (= -g off)
+       (= -f off)
+       (= --dump off)
+       (= -L off)
+       (= --version off)
+       a!4))))
+-
+12 2 20 4 22 27 1 0 26 3 25 10 18 19 M 15 7 H 9 HM 9 7 HMM 15 7 H 9 HM 7 9 HMM 7 15 11 9 18 19 MHHMMMMMMMMMMMMMMMMM
+======
+# M/H: 36717 / 2477
+# Last rebuild:   iter 9  num_configs 8185
+ack.pl:1796, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= -o off) (= -v off)))
+               (and (= -m off) (or (= -o off) (= -v off)))))
+      (a!5 (and (= --nogroup off)
+                (= -m off)
+                (= --column off)
+                (= --break off)
+                (= -o off)
+                (= --group off)
+                (= --passthru off)
+                (or (and (= -l off) (= --heading off))
+                    (and (= -h off) (= -H off) (= --heading off))))))
+(let ((a!2 (or (and (= --column off) a!1)
+               (and (= -v off) (= -o off) (or (= -1 off) (= -m off))))))
+(let ((a!3 (and (= --passthru off)
+                (or (and (= -l off) a!2)
+                    (and (= --heading off)
+                         (= -H off)
+                         (= --nogroup off)
+                         (= --column off)
+                         (= -o off)
+                         (= --break off)
+                         (= -h off)
+                         (= --group off)
+                         (= -1 off))))))
+(let ((a!4 (and (= -c off)
+                (or a!3
+                    (and (= -1 off)
+                         (= -m off)
+                         (= --column off)
+                         (= -o off)
+                         (= -v off)
+                         (= -l off))))))
+  (and (= --follow off)
+       (= --show-types off)
+       (= --dump off)
+       (= -f off)
+       (= -L off)
+       (= --version off)
+       (= --help off)
+       (= -g off)
+       (or a!4 a!5))))))
+-
+24 22 26 0 3 25 27 1 4 10 2 15 12 9 H 7 HM 11 9 H 7 HMMMM 7 9 12 H 11 HMMMMM 17 13 20 15 9 18 14 19 12 H 11 HMMMMMMMMMMM 12 11 15 9 7 2 HMMMMMMMM 20 11 15 18 9 19 10 2 17 HM 14 13 17 HMMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 36243 / 2296
+# Last rebuild:   iter 10  num_configs 8749
+ack.pl:742, ack.pl:743, ack.pl:744, ack.pl:748, ack.pl:751, 
+-
+(let ((a!1 (or (and (= -o off) (= -v off))
+               (and (= --column off) (or (= -o off) (= -v off))))))
+(let ((a!2 (and (= --passthru off)
+                (or (and (= -1 off) a!1) (and (= -m off) a!1)))))
+  (and (= -l off)
+       (= -h off)
+       (= -c off)
+       (= --show-types off)
+       (= -g off)
+       (= -f off)
+       (= --dump off)
+       (= --version off)
+       (= -L off)
+       (= --help off)
+       (or a!2
+           (and (= -1 off) (= --column off) (= -m off) (= -v off) (= -o off))))))
+-
+2 14 4 22 1 0 26 25 3 27 10 12 15 9 H 7 HM 9 7 HMM 11 15 9 H 7 HM 9 7 HMMMMM 12 15 11 7 9 HMMMMMMMMMMMMMMMMM
+======
+# M/H: 36949 / 1364
+# Last rebuild:   iter 10  num_configs 8519
+ack.pl:750, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= -v off) (= --column off)))
+               (and (= -m off) (or (= --column off) (= -v off)))))
+      (a!3 (and (= --column off) (or (= -o off) (= -v off))))
+      (a!7 (and (= -1 off)
+                (= -m off)
+                (= -v off)
+                (= -o off)
+                (= --column off)
+                (or (= --nogroup on) (and (= --heading off) (= --group off))))))
+(let ((a!2 (or (and (= -o off) a!1)
+               (and (= --column off) (= -v off) (or (= -1 off) (= -m off)))))
+      (a!4 (and (= -1 off) (or (and (= -v off) (= -o off)) a!3)))
+      (a!5 (and (= -m off) (or (and (= -o off) (= -v off)) a!3))))
+(let ((a!6 (and (= --passthru off)
+                (or (and (= --nogroup on) a!2)
+                    (and (= --group off) (= --heading off) (or a!4 a!5))))))
+  (and (= -l off)
+       (= -h off)
+       (= -c off)
+       (= --show-types off)
+       (= -f off)
+       (= -L off)
+       (= --dump off)
+       (= --version off)
+       (= -g off)
+       (= --help off)
+       (or a!6 a!7)))))
+-
+2 14 4 22 0 3 26 25 1 27 10 19 17 12 15 9 H 7 HM 7 9 HMM 11 15 9 H 7 HM 9 7 HMMMMM 20 M 7 12 9 H 15 HM 11 9 H 15 HMMMM 15 9 12 H 11 HMMMMM 20 M 9 12 7 H 15 HM 11 15 H 7 HMMMM 15 7 12 H 11 HMMMMM 12 11 7 9 15 20 17 19 HMMHMMMMMMMMMMMMMMMMM
+======
+# M/H: 37919 / 487
+# Last rebuild:   iter 11  num_configs 9167
+ack.pl:825, 
+-
+(and (= --column on)
+     (= -h off)
+     (= -v off)
+     (= -c off)
+     (= -o off)
+     (= --passthru off)
+     (= -l off)
+     (= --dump off)
+     (= --show-types off)
+     (= --version off)
+     (= -g off)
+     (= -f off)
+     (= -L off)
+     (= --help off)
+     (or (= -1 off) (= -m off)))
+-
+15 M 14 7 4 9 10 2 26 22 25 1 0 3 27 12 H 11 HMMMMMMMMMMMMMMMM
+======
+# M/H: 38646 / 744
+# Last rebuild:   iter 6  num_configs 4507
+ack.pl:719, 
+-
+(let ((a!1 (or (and (= --break on) (or (= --column off) (= -o off)))
+               (and (= --group on) (or (= -o off) (= --column off))))))
+  (and (= -1 off)
+       (= -v off)
+       (= --nogroup off)
+       (= -c off)
+       (= --passthru off)
+       (= -l off)
+       (= --show-types off)
+       (= --dump off)
+       (= -g off)
+       (= --version off)
+       (= --help off)
+       (= -L off)
+       (= -f off)
+       a!1))
+-
+12 7 20 4 10 2 22 26 1 25 27 3 0 18 19 M 9 H 15 HM 15 H 9 HMMMMMMMMMMMMMM
+======
+# M/H: 37303 / 695
+# Last rebuild:   iter 5  num_configs 3210
+ack.pl:721, 
+-
+(let ((a!1 (and (= -1 off) (or (= -o off) (= --column off)))))
+(let ((a!2 (or a!1 (and (= -m off) (or (= --column off) (= -o off)))))
+      (a!3 (or a!1 (and (= -m off) (or (= -o off) (= --column off))))))
+  (and (= -h off)
+       (= -v off)
+       (= --nogroup off)
+       (= -c off)
+       (= --help off)
+       (= --show-types off)
+       (= -g off)
+       (= -l off)
+       (= --passthru off)
+       (= -f off)
+       (= -L off)
+       (= --version off)
+       (= --dump off)
+       (or (and (= --group on) a!2) (and (= --heading on) a!3)))))
+-
+14 7 20 4 27 22 1 2 10 0 3 25 26 17 19 M 12 9 H 15 HM 11 15 H 9 HMMMM 12 9 H 15 HM 11 9 H 15 HMMMMMMMMMMMMMMMMM
+======
+# M/H: 36658 / 1080
+# Last rebuild:   iter 13  num_configs 11313
+ack.pl:749, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= -v off) (= -o off)))
+               (and (= -m off) (or (= -v off) (= -o off)))))
+      (a!4 (or (and (= -1 off) (or (= -v off) (= --column off)))
+               (and (= -m off) (or (= -v off) (= --column off))))))
+(let ((a!2 (or (and (= --column off) a!1)
+               (and (= -o off) (= -v off) (or (= -1 off) (= -m off)))))
+      (a!5 (or (and (= -o off) a!4)
+               (and (= --column off) (= -v off) (or (= -1 off) (= -m off))))))
+(let ((a!3 (and (= --group on)
+                (or (and (= --passthru off) a!2)
+                    (and (= --column off)
+                         (= -1 off)
+                         (= -v off)
+                         (= -o off)
+                         (= -m off)))))
+      (a!6 (and (= --heading on)
+                (or (and (= --passthru off) a!5)
+                    (and (= -o off)
+                         (= -m off)
+                         (= -v off)
+                         (= -1 off)
+                         (= --column off))))))
+  (and (= -l off)
+       (= -h off)
+       (= --nogroup off)
+       (= -c off)
+       (= --help off)
+       (= --show-types off)
+       (= -L off)
+       (= -f off)
+       (= -g off)
+       (= --version off)
+       (= --dump off)
+       (or a!3 a!6)))))
+-
+2 14 20 4 27 22 3 0 1 25 26 17 19 M 10 15 12 7 H 9 HM 11 7 H 9 HMMMM 9 7 12 H 11 HMMMMM 15 12 7 9 11 HMMMMMMM 10 9 12 7 H 15 HM 11 7 H 15 HMMMM 15 7 12 H 11 HMMMMM 9 11 7 12 15 HMMMMMMMMMMMMMMMMMM
+======
+# M/H: 38441 / 669
+# Last rebuild:   iter 9  num_configs 8123
+ack.pl:162, ack.pl:438, ack.pl:439, ack.pl:440, ack.pl:441, ack.pl:442, ack.pl:452, ack.pl:454, 
+-
+(and (= -c on)
+     (= --nogroup off)
+     (= --break off)
+     (= -m off)
+     (= --column off)
+     (= --show-types off)
+     (= --dump off)
+     (= -o off)
+     (= --group off)
+     (= --version off)
+     (= --help off)
+     (= --heading off)
+     (= --passthru off)
+     (= -g off)
+     (or (and (= -l off) (= -L off) (= -f off))
+         (and (= -H off) (= -h off) (= -f off) (= -L off))))
+-
+4 M 20 18 11 15 22 26 9 19 25 27 17 10 1 2 3 0 HMM 13 14 0 3 HMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 38687 / 534
+# Last rebuild:   iter 9  num_configs 8247
+ack.pl:445, ack.pl:446, ack.pl:447, ack.pl:448, ack.pl:450, 
+-
+(and (= -c on)
+     (= -h off)
+     (= --group off)
+     (= -m off)
+     (= --column off)
+     (= --nogroup off)
+     (= --show-types off)
+     (= --heading off)
+     (= -L off)
+     (= -o off)
+     (= --break off)
+     (= --dump off)
+     (= -f off)
+     (= --passthru off)
+     (= --help off)
+     (= --version off)
+     (or (and (= -H off) (= -g off)) (and (= -l off) (= -g off))))
+-
+4 M 14 19 11 15 20 22 17 3 9 18 26 0 10 27 25 13 1 HM 2 1 HMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 37815 / 809
+# Last rebuild:   iter 10  num_configs 8811
+ack.pl:835, 
+-
+(let ((a!1 (and (= -h off)
+                (= -H off)
+                (or (and (= -1 off) (= -c off) (= -l on))
+                    (and (= -m off) (= -l on))))))
+  (and (= -v off)
+       (= --group off)
+       (= --heading off)
+       (= --break off)
+       (= --passthru off)
+       (= -o off)
+       (= --column off)
+       (= -L off)
+       (= --nogroup off)
+       (= --show-types off)
+       (= -f off)
+       (= -g off)
+       (= --dump off)
+       (= --version off)
+       (= --help off)
+       (or a!1 (and (= -l off) (= -m off) (= -c on)))))
+-
+7 19 17 18 10 9 15 3 20 22 0 1 26 25 27 14 13 11 2 4 MHH 12 4 2 MHMM 12 4 2 MHMM 12 2 M 4 HMM 2 4 M 11 HMMMM 2 11 4 MHMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 37633 / 478
+# Last rebuild:   iter 15  num_configs 11936
+ack.pl:836, 
+-
+(let ((a!1 (and (= -c on)
+                (= --dump off)
+                (or (= -l off) (and (= -H off) (= -h off))))))
+(let ((a!2 (and (= -m off)
+                (= -g off)
+                (= --column off)
+                (= -f off)
+                (= --version off)
+                (= -L off)
+                (or a!1
+                    (and (= -1 off)
+                         (= -H off)
+                         (= -h off)
+                         (= -l on)
+                         (= --dump off))))))
+  (and (= -v off)
+       (= --group off)
+       (= --heading off)
+       (= --break off)
+       (= --nogroup off)
+       (= --help off)
+       (= -o off)
+       (= --passthru off)
+       (= --show-types off)
+       (or a!2
+           (and (= -m |10|)
+                (= --sort-files on)
+                (= -c off)
+                (= --version off)
+                (= -g off)
+                (= -l on)
+                (= -L off)
+                (= -1 off)
+                (= --dump off)
+                (= --column off)
+                (= -h off)
+                (= -f off)
+                (= -H off))))))
+-
+7 19 17 18 20 27 9 10 22 11 1 15 0 25 3 4 12 13 14 2 M 26 HMMMM 26 2 H 13 14 HMMMMMMMMMM 21 M 4 25 1 2 M 3 12 26 15 14 0 13 HMMMMMMMMMMMMMMMMMMM
+======
+# M/H: 38892 / 386
+# Last rebuild:   iter 6  num_configs 4471
+ack.pl:699, 
+-
+(let ((a!1 (or (and (= -1 off) (or (= --heading on) (= --group on)))
+               (and (= -m off) (or (= --heading on) (= --group on))))))
+  (and (= -v on)
+       (= -h off)
+       (= --nogroup off)
+       (= -l off)
+       (= -c off)
+       (= --column off)
+       (= --help off)
+       (= -o off)
+       (= --version off)
+       (= --show-types off)
+       (= -g off)
+       (= -f off)
+       (= --dump off)
+       (= -L off)
+       (= --passthru off)
+       a!1))
+-
+7 M 14 20 2 4 15 27 9 25 22 1 0 26 3 10 12 17 19 MHH 11 17 19 MHHMMMMMMMMMMMMMMMMM
+======
+# M/H: 39593 / 795
+# Last rebuild:   iter 13  num_configs 11555
+ack.pl:119, ack.pl:120, ack.pl:121, ack.pl:122, ack.pl:123, ack.pl:124, ack.pl:125, ack.pl:126, ack.pl:127, ack.pl:753, ack.pl:754, ack.pl:755, ack.pl:756, ack.pl:757, ack.pl:758, ack.pl:759, ack.pl:760, ack.pl:761, ack.pl:762, ack.pl:763, ack.pl:764, 
+-
+(and (= -o on)
+     (= -v off)
+     (= --column off)
+     (= -l off)
+     (= --passthru off)
+     (= -c off)
+     (= --show-types off)
+     (= --version off)
+     (= -L off)
+     (= --dump off)
+     (= -g off)
+     (or (and (= -1 off) (= -f off) (= --help off))
+         (and (= -m off) (= --help off) (= -f off))))
+-
+9 M 7 15 2 10 4 22 25 3 26 1 12 0 27 HMM 11 27 0 HMMMMMMMMMMMMMMM
+======
+# M/H: 38467 / 571
+# Last rebuild:   iter 8  num_configs 6712
+ack.pl:663, ack.pl:664, ack.pl:665, ack.pl:666, ack.pl:667, ack.pl:668, ack.pl:669, ack.pl:670, ack.pl:671, ack.pl:672, ack.pl:677, ack.pl:678, ack.pl:679, ack.pl:680, ack.pl:681, ack.pl:683, ack.pl:684, ack.pl:685, ack.pl:686, 
+-
+(and (= --passthru on)
+     (= -1 off)
+     (= -v off)
+     (= -m off)
+     (= --show-types off)
+     (= -L off)
+     (= --help off)
+     (= --column off)
+     (= --version off)
+     (= -o off)
+     (= -c off)
+     (= --dump off)
+     (= -f off)
+     (= -g off)
+     (= -l off))
+-
+10 M 12 7 11 22 3 27 15 25 9 4 26 0 1 2 HMMMMMMMMMMMMMMMM
+======
+# M/H: 37766 / 339
+# Last rebuild:   iter 9  num_configs 8301
+ack.pl:682, 
+-
+(and (= --passthru on)
+     (= --nogroup off)
+     (= -v off)
+     (= -c off)
+     (= -m off)
+     (= -f off)
+     (= --column off)
+     (= -o off)
+     (= -l off)
+     (= --version off)
+     (= -1 off)
+     (= -L off)
+     (= --dump off)
+     (= -g off)
+     (= --show-types off)
+     (= --help off)
+     (or (= --break on) (= --group on)))
+-
+10 M 20 7 4 11 0 15 9 2 25 12 3 26 1 22 27 19 18 MHHMMMMMMMMMMMMMMMMM
+======
+# M/H: 38107 / 158
+# Last rebuild:   iter 11  num_configs 9103
+ack.pl:443, ack.pl:444, ack.pl:453, 
+-
+(and (= -c on)
+     (= -h on)
+     (= --nogroup off)
+     (= -l off)
+     (= --passthru off)
+     (= -L off)
+     (= -m off)
+     (= -o off)
+     (= --break off)
+     (= --column off)
+     (= --group off)
+     (= --heading off)
+     (= --dump off)
+     (= -g off)
+     (= -f off)
+     (= --version off)
+     (= --show-types off)
+     (= --help off))
+-
+4 M 14 M 20 2 10 3 11 9 18 15 19 17 26 1 0 25 22 27 HMMMMMMMMMMMMMMMMMM
+======

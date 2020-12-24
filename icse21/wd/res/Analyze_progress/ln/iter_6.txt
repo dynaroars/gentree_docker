@@ -1,0 +1,223 @@
+# ./igen4 -J2 -cr -F 2/ln -O res/Analyze_progress/ln/iter_{iter}.txt --save-each-iter
+# seed = 123, repeat_id = 0, thread_id = 0
+#     2079  171   24 |  2079    -1 |  0    6 |     0     0      0 | c88003d074e700ab3b1f01d746e7389d
+======
+# M/H: 1280 / 910
+# Last rebuild:   iter 1  num_configs 10
+ln.c:403, ln.c:405, ln.c:409, ln.c:416, ln.c:427, ln.c:429, ln.c:437, ln.c:446, ln.c:453, ln.c:454, ln.c:455, ln.c:456, ln.c:461, ln.c:463, ln.c:554, system.h:588, system.h:590, system.h:593, system.h:616, system.h:618, system.h:625, system.h:631, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(= --help on)
+-
+10 HM
+======
+# M/H: 0 / 2210
+# Last rebuild:   iter 1  num_configs 25
+ln.c:467, ln.c:471, ln.c:472, ln.c:473, ln.c:474, ln.c:476, ln.c:479, ln.c:482, ln.c:483, ln.c:487, ln.c:489, ln.c:490, ln.c:492, ln.c:495, 
+-
+true
+-
+H
+======
+# M/H: 1123 / 1094
+# Last rebuild:   iter 1  num_configs 40
+ln.c:510, ln.c:511, ln.c:512, ln.c:513, 
+-
+(= -i on)
+-
+3 HM
+======
+# M/H: 1099 / 1138
+# Last rebuild:   iter 1  num_configs 55
+ln.c:514, ln.c:515, ln.c:516, 
+-
+(= -L on)
+-
+4 HM
+======
+# M/H: 1113 / 1137
+# Last rebuild:   iter 1  num_configs 70
+ln.c:517, ln.c:518, ln.c:519, 
+-
+(= -n on)
+-
+5 HM
+======
+# M/H: 1161 / 1191
+# Last rebuild:   iter 2  num_configs 335
+ln.c:520, ln.c:521, ln.c:522, 
+-
+(= -P on)
+-
+6 HM
+======
+# M/H: 1108 / 1255
+# Last rebuild:   iter 2  num_configs 350
+ln.c:523, ln.c:524, ln.c:525, 
+-
+(= -r on)
+-
+7 HM
+======
+# M/H: 236 / 1973
+# Last rebuild:   iter 1  num_configs 85
+ln.c:497, ln.c:498, ln.c:499, ln.c:501, 
+-
+(or (= --backup none)
+    (= --backup numbered)
+    (= --backup existing)
+    (= --backup simple)
+    (= -b on))
+-
+0 1 HMHHHH
+======
+# M/H: 476 / 1858
+# Last rebuild:   iter 2  num_configs 365
+ln.c:500, 
+-
+(or (= --backup none)
+    (= --backup numbered)
+    (= --backup existing)
+    (= --backup simple))
+-
+0 MHHHH
+======
+# M/H: 1125 / 1145
+# Last rebuild:   iter 1  num_configs 91
+ln.c:506, ln.c:507, ln.c:508, ln.c:509, 
+-
+(= -f on)
+-
+2 HM
+======
+# M/H: 1047 / 1241
+# Last rebuild:   iter 1  num_configs 106
+ln.c:526, ln.c:527, ln.c:528, 
+-
+(= -s on)
+-
+8 HM
+======
+# M/H: 1072 / 1229
+# Last rebuild:   iter 1  num_configs 120
+ln.c:547, ln.c:548, ln.c:549, 
+-
+(= -v on)
+-
+9 HM
+======
+# M/H: 1808 / 577
+# Last rebuild:   iter 2  num_configs 371
+ln.c:555, 
+-
+(and (= --version on) (= --help off))
+-
+11 10 MHM
+======
+# M/H: 1501 / 816
+# Last rebuild:   iter 1  num_configs 135
+ln.c:562, ln.c:563, ln.c:565, ln.c:571, 
+-
+(and (= --help off) (= --version off))
+-
+10 M 11 MH
+======
+# M/H: 2195 / 198
+# Last rebuild:   iter 2  num_configs 386
+ln.c:572, 
+-
+(and (= --version off) (= -s off) (= --help off) (= -r on))
+-
+11 M 8 M 10 M 7 HM
+======
+# M/H: 2051 / 363
+# Last rebuild:   iter 2  num_configs 401
+ln.c:123, ln.c:125, 
+-
+(and (= -r off) (= --version off) (= --help off))
+-
+7 M 11 M 10 MH
+======
+# M/H: 1754 / 674
+# Last rebuild:   iter 2  num_configs 416
+ln.c:168, ln.c:171, ln.c:173, ln.c:186, ln.c:190, ln.c:191, ln.c:192, ln.c:193, ln.c:194, ln.c:195, ln.c:199, ln.c:209, ln.c:344, ln.c:348, ln.c:351, ln.c:397, ln.c:398, ln.c:399, ln.c:574, ln.c:576, ln.c:577, ln.c:580, ln.c:597, ln.c:604, ln.c:605, ln.c:606, ln.c:609, ln.c:610, ln.c:611, ln.c:612, ln.c:613, ln.c:614, ln.c:626, ln.c:628, ln.c:629, ln.c:636, ln.c:638, ln.c:639, ln.c:642, ln.c:647, ln.c:665, ln.c:666, ln.c:669, ln.c:670, ln.c:672, ln.c:673, ln.c:674, ln.c:680, 
+-
+(and (= --help off) (= --version off) (or (= -r off) (= -s on)))
+-
+10 M 11 M 7 8 HMH
+======
+# M/H: 1975 / 470
+# Last rebuild:   iter 2  num_configs 431
+ln.c:172, 
+-
+(and (= -s on) (= --help off) (= --version off))
+-
+8 10 M 11 MHM
+======
+# M/H: 2073 / 385
+# Last rebuild:   iter 2  num_configs 445
+ln.c:353, ln.c:354, ln.c:355, ln.c:370, ln.c:371, 
+-
+(and (= -v on) (= --version off) (= --help off) (or (= -r off) (= -s on)))
+-
+9 11 M 10 M 7 8 HMHM
+======
+# M/H: 1795 / 637
+# Last rebuild:   iter 2  num_configs 460
+ln.c:637, 
+-
+(let ((a!1 (or (= --backup none)
+               (= --backup numbered)
+               (= --backup existing)
+               (= --backup simple)
+               (= -b on))))
+  (and (= --version off)
+       (= --help off)
+       (or (and (= -r off) a!1) (and (= -s on) a!1))))
+-
+11 M 10 M 7 8 1 H 0 MHHHHM 0 1 HMHHHH
+======
+# M/H: 2256 / 228
+# Last rebuild:   iter 2  num_configs 466
+ln.c:174, ln.c:175, ln.c:349, 
+-
+(and (= -r off) (= -s off) (= --version off) (= --help off))
+-
+7 M 8 M 11 M 10 MH
+======
+# M/H: 2165 / 330
+# Last rebuild:   iter 2  num_configs 481
+ln.c:132, ln.c:136, ln.c:138, ln.c:139, ln.c:141, ln.c:142, ln.c:145, ln.c:147, ln.c:154, ln.c:155, ln.c:156, ln.c:158, ln.c:211, ln.c:218, ln.c:219, ln.c:222, ln.c:223, ln.c:333, ln.c:334, ln.c:336, 
+-
+(and (= -s on) (= -r on) (= --help off) (= --version off))
+-
+8 7 10 M 11 MHMM
+======
+# M/H: 2238 / 262
+# Last rebuild:   iter 2  num_configs 496
+ln.c:221, 
+-
+(and (= -s on)
+     (= -r on)
+     (= --version off)
+     (= --help off)
+     (or (= -f off) (= -i on)))
+-
+8 7 11 M 10 M 2 3 HMHMM
+======
+# M/H: 2151 / 342
+# Last rebuild:   iter 2  num_configs 510
+ln.c:226, ln.c:229, ln.c:234, 
+-
+(and (= -s on)
+     (= -r on)
+     (= --version off)
+     (= --help off)
+     (or (= --backup numbered)
+         (= --backup existing)
+         (= --backup simple)
+         (= -f on)
+         (= -i on)
+         (and (= --backup off) (= -b on))))
+-
+8 7 11 M 10 M 2 H 3 H 0 1 HMMHHHMM
+======

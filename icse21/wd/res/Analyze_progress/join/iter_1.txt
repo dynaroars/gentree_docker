@@ -1,0 +1,80 @@
+# ./igen4 -J2 -cr -F 2/join -O res/Analyze_progress/join/iter_{iter}.txt --save-each-iter
+# seed = 123, repeat_id = 0, thread_id = 0
+#      125  364    9 |   125    -1 |  0    1 |     0     0      0 | ec79eef2e03ad1af7756ebb269eb9d20
+======
+# M/H: 0 / 137
+# Last rebuild:   iter 1  num_configs 4
+join.c:1002, join.c:1005, join.c:1007, join.c:1010, join.c:1014, join.c:1015, join.c:1018, join.c:1020, join.c:1021, join.c:1023, join.c:1024, join.c:1025, join.c:1026, join.c:1028, join.c:1032, join.c:1034, join.c:1040, join.c:1043, join.c:1044, join.c:1047, join.c:1052, join.c:1147, join.c:481, join.c:483, join.c:485, join.c:491, 
+-
+true
+-
+H
+======
+# M/H: 93 / 56
+# Last rebuild:   iter 1  num_configs 16
+join.c:1036, join.c:1037, join.c:839, join.c:844, join.c:845, join.c:847, join.c:850, join.c:852, join.c:922, join.c:924, join.c:931, join.c:932, 
+-
+(and (= -t off) (or (= -v |1|) (= -v |2|)))
+-
+3 4 MHHM
+======
+# M/H: 65 / 60
+# Last rebuild:   iter 1  num_configs 32
+join.c:1048, join.c:1073, join.c:1074, join.c:1075, join.c:1076, join.c:1078, join.c:1079, join.c:1080, join.c:1084, join.c:1085, join.c:1087, join.c:1130, join.c:1131, join.c:1133, join.c:875, join.c:877, join.c:879, join.c:880, join.c:881, join.c:956, join.c:960, join.c:962, join.c:994, join.c:995, join.c:996, join.c:997, join.c:999, 
+-
+(or (= -a |1|)
+    (and (= -a off) (= -t off) (= -v |1|))
+    (and (= -a |2|) (= -v |1|) (= -t off)))
+-
+0 3 4 MHMMH 4 M 3 HMM
+======
+# M/H: 92 / 85
+# Last rebuild:   iter 1  num_configs 44
+join.c:1054, join.c:1055, join.c:1058, join.c:1059, 
+-
+(= -e |"NA"|)
+-
+1 MH
+======
+# M/H: 48 / 138
+# Last rebuild:   iter 1  num_configs 56
+join.c:1089, join.c:1090, join.c:1094, join.c:1095, join.c:1097, join.c:815, join.c:819, join.c:820, join.c:822, join.c:823, join.c:824, join.c:825, join.c:828, join.c:829, join.c:830, join.c:860, join.c:863, join.c:894, join.c:899, join.c:901, join.c:907, join.c:909, join.c:910, join.c:912, join.c:913, join.c:915, join.c:916, 
+-
+(or (= -o |0|) (= -o |1.1|) (= -o |2.1|))
+-
+2 MHHH
+======
+# M/H: 172 / 26
+# Last rebuild:   iter 1  num_configs 65
+join.c:1141, 
+-
+(and (= --version on) (= -t off) (= --help off))
+-
+11 M 3 10 HMM
+======
+# M/H: 142 / 80
+# Last rebuild:   iter 1  num_configs 89
+join.c:1050, 
+-
+(or (= -a |2|)
+    (and (= -a off) (= -t off) (= -v |2|))
+    (and (= -a |1|) (= -v |2|) (= -t off)))
+-
+0 3 4 MMHM 4 MM 3 HMH
+======
+# M/H: 117 / 117
+# Last rebuild:   iter 1  num_configs 101
+join.c:1099, join.c:1101, join.c:1102, join.c:1104, join.c:1106, join.c:1109, join.c:865, join.c:866, join.c:871, join.c:872, join.c:873, 
+-
+(= -t |','|)
+-
+3 MH
+======
+# M/H: 186 / 60
+# Last rebuild:   iter 1  num_configs 113
+join.c:1069, join.c:1070, join.c:1071, join.c:1139, join.c:186, join.c:188, join.c:192, join.c:196, join.c:201, join.c:205, join.c:211, join.c:217, join.c:227, join.c:230, join.c:231, join.c:232, join.c:249, join.c:251, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(and (= -t off) (= -2 |1|))
+-
+3 6 MHM
+======
