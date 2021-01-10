@@ -58,8 +58,9 @@ clean_all_res() {
 }
 
 clean_res() {
-    run rm -rf res/$1 2/$1.cachedb
-    run mkdir -p res/$1
+    local NAME=$1
+    run rm -rf   res/$NAME log/$NAME 2/$NAME.cachedb
+    run mkdir -p res/$NAME log/${NAME}/full
 }
 
 ###################
@@ -70,9 +71,9 @@ run_bm_impl() {
     local FULL=$3
     clean_res $NAME
 
-    run ./gt -J2 -crwx $OPTS -F 2/$NAME --rep "$ARG_REP" -O "res/$NAME/a_{i}.txt" -j "$ARG_J" --rep-para "$ARG_REP_PARA"
+    run ./gt -J2 -crwx $OPTS -F 2/$NAME --rep "$ARG_REP" -O "res/$NAME/a_{i}.txt" -j "$ARG_J" --rep-para "$ARG_REP_PARA" -L "log/$NAME"
     if [[ $FULL == full ]]; then
-        run ./gt -J2 -crwx $OPTS -F 2/$NAME -O "res/$NAME/full.txt" --full -j "$ARG_J"
+        run ./gt -J2 -crwx $OPTS -F 2/$NAME -O "res/$NAME/full.txt" --full -j "$ARG_J" -L "log/$NAME/full"
     fi
 }
 

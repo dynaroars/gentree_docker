@@ -75,6 +75,12 @@ RUN cd ~/bench_progs/coreutils && \
     cd .. && \
     rsync -armv --include='*/' --include='*.gcno' --exclude='*' build/ cpy/
 
-COPY --chown=kh:kh wd /home/kh/gentree/wd
+COPY --chown=kh:kh wd/res /home/kh/gentree/wd/res
+
+COPY --chown=kh:kh wd/1 /home/kh/gentree/wd/1
+COPY --chown=kh:kh wd/2 /home/kh/gentree/wd/2
 RUN cd ~/gentree/wd/2 && \
     tar -xzvf testfiles.tar.gz
+
+COPY --chown=kh:kh wd/build* wd/*.js /home/kh/gentree/wd/
+COPY --chown=kh:kh wd/scripts /home/kh/gentree/wd/scripts
