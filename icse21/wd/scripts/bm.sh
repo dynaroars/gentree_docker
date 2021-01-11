@@ -13,6 +13,7 @@ ARG_REP_PARA=0
 N_CPUS=0
 DRY_RUN=0
 PROGS=()
+ANALYZERS=()
 ANALYZED_PROGS=()
 
 msg() {
@@ -36,7 +37,7 @@ finish() {
 }
 
 print_cmd() {
-    cmd=("$@")
+    local cmd=("$@")
     echo >&2 -ne "${RED}+ "
     printf '%q ' "${cmd[@]}"
     msg "${NOFORMAT}"
@@ -44,13 +45,13 @@ print_cmd() {
 
 run_always() {
     print_cmd "$@"
-    "${cmd[@]}"
+    "$@"
 }
 
 run() {
     print_cmd "$@"
     if [[ $DRY_RUN == 0 ]]; then
-        "${cmd[@]}"
+        "$@"
     fi
 }
 
@@ -105,7 +106,7 @@ run_single_bm() {
 
 add_predefined_progs() {
     case "$1" in
-    fast) PROGS+=(id uname cat mv ln date vsftpd) ;;
+    fast) PROGS+=(id uname cat mv ln date join vsftpd) ;;
     mid) PROGS+=(sort ls grin unison ngircd) ;;
     slow) PROGS+=(pylint bibtex2html cloc ack) ;;
     all)
@@ -125,23 +126,32 @@ do_bm_progs() {
 }
 
 run_analyze_mcc() {
-    NAME=$1
+    local NAME=$1
     if ! has_full $NAME; then
         msg "${GREEN}+ Skip $NAME because full data is not available. ${NOFORMAT}"
         return 0
     fi
-    PREFIX=res/Analyze/mcc
+    local PREFIX=res/Analyze/mcc
     run mkdir -p $PREFIX
     run ./gt -A0 -T3 -GF 2/$NAME -I res/$NAME/full.txt,res/$NAME/a_{i}.txt --rep $ARG_REP --rep-para $ARG_REP_PARA -P $PREFIX/$NAME.csv \
         --params-fields _repeat_id,_thread_id,delta_locs,avg_mcc,cnt_exact,cnt_interactions,cnt_wrong,avg_f,n_configs,wrong_locs
+}
+
+run_analyze_stat() {
+    local NAME=$1
+    local PREFIX=res/Analyze/stat
+    run mkdir -p $PREFIX
+    run ./gt -A0 -T2 -GF 2/$NAME -I res/$NAME/a_{i}.txt --rep $ARG_REP --rep-para $ARG_REP_PARA -P $PREFIX/$NAME.csv \
+        --params-fields _repeat_id,n_configs,n_locs,t_search,t_total,cnt_singular,cnt_and,cnt_or,cnt_mixed,cnt_pure,cnt_mix_ok,cnt_mix_fail,cnt_total,hash,iter,n_cache_hit,n_locs_total,n_locs_uniq,max_len,median_len,repeat_id,t_runner,t_runner_total,_thread_id
 }
 
 run_single_analyze() {
     local ana_type=$1
     shift
     case $ana_type in
+    2 | stat | summary | sum) run_analyze_stat "$@" ;;
     3 | mcc) run_analyze_mcc "$@" ;;
-    *) die "Unknown analyze type: " $ana_type ;;
+    *) die "Unknown analyze type: $ana_type" ;;
     esac
 }
 
@@ -150,7 +160,9 @@ do_analyze() {
         msg
         if [[ -d res/$NAME ]]; then
             ANALYZED_PROGS+=($NAME)
-            run_single_analyze $ARG_DO_ANALYZE $NAME
+            for TYPE in "${ANALYZERS[@]}"; do
+                run_single_analyze $TYPE $NAME
+            done
         else
             msg "Result not found for $NAME at res/$NAME"
         fi
@@ -192,7 +204,8 @@ OPTIONS
         Run benchmark 11 times
     --benchmark-times n
         Run benchmark n times
-
+    --analyze-[type], -A[type], -a [type]
+        Run analyze [type]: summary, mcc, cmin
 EOF
 
     exit 0
@@ -235,11 +248,11 @@ parse_params() {
             shift
             ;;
         -a)
-            ARG_DO_ANALYZE=$2
+            ANALYZERS+=("$2")
             shift
             ;;
-        --ana-summary) ARG_DO_ANALYZE=2 ;; # table II
-        --ana-mcc) ARG_DO_ANALYZE=3 ;;     # table III
+        --analyze-*) ANALYZERS+=("${1/--analyze-/}") ;;
+        -A*) ANALYZERS+=("${1/-A/}") ;;
         -?*) die "Unknown option: $1" ;;
         ?*) PROGS+=("$1") ;;
         *) break ;;
@@ -295,15 +308,16 @@ main_fn() {
     msg "${GREEN}+ ARG_REP_PARA = $ARG_REP_PARA ${NOFORMAT}    # parallel benchmarks"
 
     msg "${GREEN}+ PROGS = ( ${PROGS[@]} )${NOFORMAT}"
+    msg "${GREEN}+ ANALYZERS = ( ${ANALYZERS[@]} )${NOFORMAT}"
 
     if [[ -v ARG_DO_BM ]]; then
         do_bm_progs "${PROGS[@]}"
         finish "+ Done benchmarks: ${PROGS[@]}"
     fi
 
-    if [[ -v ARG_DO_ANALYZE ]]; then
+    if [[ ${#ANALYZERS[@]} -ne 0 ]]; then
         do_analyze "${PROGS[@]}"
-        finish "+ Done analyze: ${ANALYZED_PROGS[@]}"
+        finish "+ Done analyze\n  ANALYZED_PROGS = ( ${ANALYZED_PROGS[@]} )\n  ANALYZERS = ( ${ANALYZERS[@]} )"
     fi
 }
 
