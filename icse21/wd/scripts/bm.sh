@@ -128,7 +128,7 @@ do_bm_progs() {
 run_analyze_mcc() {
     local NAME=$1
     if ! has_full $NAME; then
-        msg "${GREEN}+ Skip $NAME because full data is not available. ${NOFORMAT}"
+        msg "${GREEN}+ (mcc) Skip $NAME because full data is not available. ${NOFORMAT}"
         return 0
     fi
     local PREFIX=res/Analyze/mcc
@@ -137,20 +137,69 @@ run_analyze_mcc() {
         --params-fields _repeat_id,_thread_id,delta_locs,avg_mcc,cnt_exact,cnt_interactions,cnt_wrong,avg_f,n_configs,wrong_locs
 }
 
+STAT_FIELDS=_repeat_id,n_configs,n_locs,t_search,t_total,cnt_singular,cnt_and,cnt_or,cnt_mixed,cnt_pure,cnt_mix_ok,cnt_mix_fail,cnt_total,hash,iter,n_cache_hit,n_locs_total,n_locs_uniq,max_len,median_len,repeat_id,t_runner,t_runner_total,_thread_id
+
 run_analyze_stat() {
     local NAME=$1
     local PREFIX=res/Analyze/stat
     run mkdir -p $PREFIX
-    run ./gt -A0 -T2 -GF 2/$NAME -I res/$NAME/a_{i}.txt --rep $ARG_REP --rep-para $ARG_REP_PARA -P $PREFIX/$NAME.csv \
-        --params-fields _repeat_id,n_configs,n_locs,t_search,t_total,cnt_singular,cnt_and,cnt_or,cnt_mixed,cnt_pure,cnt_mix_ok,cnt_mix_fail,cnt_total,hash,iter,n_cache_hit,n_locs_total,n_locs_uniq,max_len,median_len,repeat_id,t_runner,t_runner_total,_thread_id
+    run ./gt -A0 -T2 -GF 2/$NAME -I res/$NAME/a_{i}.txt --rep $ARG_REP --rep-para $ARG_REP_PARA -P $PREFIX/$NAME.csv --params-fields $STAT_FIELDS
+}
+
+run_analyze_stat_full() {
+    local NAME=$1
+    local PREFIX=res/Analyze/stat_full
+    if ! has_full $NAME; then
+        msg "${GREEN}+ (stat_full) Skip $NAME because full data is not available. ${NOFORMAT}"
+        return 0
+    fi
+    run mkdir -p $PREFIX
+    run ./gt -A0 -T2 -GF 2/$NAME -I res/$NAME/full.txt -P $PREFIX/$NAME.csv --params-fields $STAT_FIELDS
+}
+
+run_analyze_cmin() {
+    local NAME=$1
+    local PREFIX=res/Analyze/cmin
+    if has_full $NAME; then
+        local INP=res/$NAME/full.txt
+    else
+        local INP=res/$NAME/a_0.txt
+    fi
+    run mkdir -p $PREFIX
+    run ./gt -A0 -T4 -F 2/$NAME -I $INP --rep 20 --rep-para $ARG_REP_PARA -P $PREFIX/$NAME.csv
+}
+
+run_analyze_stat_len() {
+    local NAME=$1
+    local PREFIX=res/Analyze/stat_len
+    if has_full $NAME; then
+        local INP=res/$NAME/full.txt
+    else
+        local INP=res/$NAME/a_0.txt
+    fi
+    run mkdir -p $PREFIX
+    run ./gt -A0 -T5 -GF 2/$NAME -I $INP -P $PREFIX/$NAME.csv
 }
 
 run_single_analyze() {
     local ana_type=$1
     shift
     case $ana_type in
-    2 | stat | summary | sum) run_analyze_stat "$@" ;;
-    3 | mcc) run_analyze_mcc "$@" ;;
+    2 | stat)
+        run_analyze_stat "$@"
+        ;;
+    2.1 | statf | stat_full)
+        run_analyze_stat_full "$@"
+        ;;
+    2.2 | cmin)
+        run_analyze_cmin "$@"
+        ;;
+    statl | stat_len)
+        run_analyze_stat_len "$@"
+        ;;
+    3 | mcc)
+        run_analyze_mcc "$@"
+        ;;
     *) die "Unknown analyze type: $ana_type" ;;
     esac
 }
