@@ -8,11 +8,12 @@ WORK_DIR="$(realpath "$(dirname "${BASH_SOURCE[0]}")/../")"
 # trap cleanup SIGINT SIGTERM ERR EXIT
 
 ARG_J=0
-ARG_REP=0
+ARG_REP=11
 ARG_REP_PARA=0
 N_CPUS=0
 DRY_RUN=0
-BM_PROGS=()
+PROGS=()
+ANALYZED_PROGS=()
 
 msg() {
     echo >&2 -e "$@"
@@ -59,7 +60,7 @@ clean_all_res() {
 
 clean_res() {
     local NAME=$1
-    run rm -rf   res/$NAME log/$NAME 2/$NAME.cachedb
+    run rm -rf res/$NAME log/$NAME 2/$NAME.cachedb
     run mkdir -p res/$NAME log/${NAME}/full
 }
 
@@ -77,14 +78,20 @@ run_bm_impl() {
     fi
 }
 
+has_full() {
+    case "$1" in
+    id | uname | cat | mv | ln | date | join | sort | grin | ngircd) return 0 ;;
+    *) return 1 ;;
+    esac
+}
+
 run_single_bm() {
     local NAME=$1
-    local FULL=no_full
-    case "$NAME" in
-    id | uname | cat | mv | ln | date | join | sort | grin | ngircd)
-        FULL=full
-        ;;
-    esac
+    if has_full $NAME; then
+        local FULL=full
+    else
+        local FULL=no_full
+    fi
     case "$NAME" in
     id | uname | cat | mv | ln | date | join | sort | ls | grin | pylint | unison | bibtex2html | cloc | ack)
         run_bm_impl "-G" $NAME $FULL
@@ -98,9 +105,9 @@ run_single_bm() {
 
 add_predefined_progs() {
     case "$1" in
-    fast) BM_PROGS+=(id uname cat mv ln date vsftpd) ;;
-    mid) BM_PROGS+=(sort ls grin unison ngircd) ;;
-    slow) BM_PROGS+=(pylint bibtex2html cloc ack) ;;
+    fast) PROGS+=(id uname cat mv ln date vsftpd) ;;
+    mid) PROGS+=(sort ls grin unison ngircd) ;;
+    slow) PROGS+=(pylint bibtex2html cloc ack) ;;
     all)
         add_predefined_progs fast
         add_predefined_progs mid
@@ -111,9 +118,42 @@ add_predefined_progs() {
 }
 
 do_bm_progs() {
-    for prog in "$@"; do
+    for NAME in "$@"; do
         msg
-        run_single_bm $prog
+        run_single_bm $NAME
+    done
+}
+
+run_analyze_mcc() {
+    NAME=$1
+    if ! has_full $NAME; then
+        msg "${GREEN}+ Skip $NAME because full data is not available. ${NOFORMAT}"
+        return 0
+    fi
+    PREFIX=res/Analyze/mcc
+    run mkdir -p $PREFIX
+    run ./gt -A0 -T3 -GF 2/$NAME -I res/$NAME/full.txt,res/$NAME/a_{i}.txt --rep $ARG_REP --rep-para $ARG_REP_PARA -P $PREFIX/$NAME.csv \
+        --params-fields _repeat_id,_thread_id,delta_locs,avg_mcc,cnt_exact,cnt_interactions,cnt_wrong,avg_f,n_configs,wrong_locs
+}
+
+run_single_analyze() {
+    local ana_type=$1
+    shift
+    case $ana_type in
+    3 | mcc) run_analyze_mcc "$@" ;;
+    *) die "Unknown analyze type: " $ana_type ;;
+    esac
+}
+
+do_analyze() {
+    for NAME in "$@"; do
+        msg
+        if [[ -d res/$NAME ]]; then
+            ANALYZED_PROGS+=($NAME)
+            run_single_analyze $ARG_DO_ANALYZE $NAME
+        else
+            msg "Result not found for $NAME at res/$NAME"
+        fi
     done
 }
 
@@ -188,17 +228,20 @@ parse_params() {
             ;;
         -d | --dry) DRY_RUN=1 ;;
         --fast | --mid | --slow | --all) add_predefined_progs ${1/--/} ;;
-        -b | --bm | --benchmark)
-            ARG_DO_BM=1
-            ARG_REP=11
-            ;;
+        -b | --bm | --benchmark) ARG_DO_BM=1 ;;
         --benchmark-times)
             ARG_DO_BM=1
             ARG_REP=$2
             shift
             ;;
+        -a)
+            ARG_DO_ANALYZE=$2
+            shift
+            ;;
+        --ana-summary) ARG_DO_ANALYZE=2 ;; # table II
+        --ana-mcc) ARG_DO_ANALYZE=3 ;;     # table III
         -?*) die "Unknown option: $1" ;;
-        ?*) BM_PROGS+=("$1") ;;
+        ?*) PROGS+=("$1") ;;
         *) break ;;
         esac
         shift
@@ -209,18 +252,19 @@ parse_params() {
 
 dedup_progs() {
     declare -A set_progs
-    local NEW_BM_PROGS=()
-    for i in "${BM_PROGS[@]}"; do
+    local NEW_PROGS=()
+    for i in "${PROGS[@]}"; do
         if [[ -z ${set_progs[$i]:-} ]]; then
-            NEW_BM_PROGS+=("$i")
+            NEW_PROGS+=("$i")
         fi
         set_progs["$i"]=1
     done
     unset set_progs
-    BM_PROGS=("${NEW_BM_PROGS[@]}")
+    PROGS=("${NEW_PROGS[@]}")
 }
 
 main_fn() {
+    NOFORMAT='' RED='' GREEN='' ORANGE='' BLUE='' PURPLE='' CYAN='' YELLOW=''
     parse_params "$@"
     dedup_progs
     setup_colors
@@ -236,7 +280,9 @@ main_fn() {
     fi
 
     if [[ $N_CPUS == 0 ]]; then
-        N_CPUS=$(lscpu -p | egrep -v '^#' | wc -l)
+        local logicalCpuCount=$(lscpu -p | egrep -v '^#' | wc -l)
+        local physicalCpuCount=$(lscpu -p | egrep -v '^#' | sort -u -t, -k 2,4 | wc -l)
+        N_CPUS=$physicalCpuCount
     fi
     msg "${GREEN}+ N_CPUS = $N_CPUS ${NOFORMAT}"
     if [[ $ARG_J == 0 ]]; then
@@ -244,15 +290,20 @@ main_fn() {
     fi
     msg "${GREEN}+ ARG_J = $ARG_J ${NOFORMAT}    # parallel program runners"
     if [[ $ARG_REP_PARA == 0 ]]; then
-        ((ARG_REP_PARA = ($N_CPUS + 7) / 8))
+        ((ARG_REP_PARA = ($N_CPUS + 3) / 4))
     fi
     msg "${GREEN}+ ARG_REP_PARA = $ARG_REP_PARA ${NOFORMAT}    # parallel benchmarks"
 
-    msg "${GREEN}+ BM_PROGS = ( ${BM_PROGS[@]} )${NOFORMAT}"
+    msg "${GREEN}+ PROGS = ( ${PROGS[@]} )${NOFORMAT}"
 
     if [[ -v ARG_DO_BM ]]; then
-        do_bm_progs "${BM_PROGS[@]}"
-        finish "+ Done benchmarks: ${BM_PROGS[@]}"
+        do_bm_progs "${PROGS[@]}"
+        finish "+ Done benchmarks: ${PROGS[@]}"
+    fi
+
+    if [[ -v ARG_DO_ANALYZE ]]; then
+        do_analyze "${PROGS[@]}"
+        finish "+ Done analyze: ${ANALYZED_PROGS[@]}"
     fi
 }
 
