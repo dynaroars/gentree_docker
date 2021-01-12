@@ -1,11 +1,6 @@
 #!/bin/bash
-set -Eeuo pipefail
+set -euo pipefail
 WORK_DIR="$(realpath "$(dirname "${BASH_SOURCE[0]}")/../")"
-# cleanup() {
-#     trap - SIGINT SIGTERM ERR EXIT
-#     # script cleanup here
-# }
-# trap cleanup SIGINT SIGTERM ERR EXIT
 
 ARG_J=0
 ARG_REP=11
@@ -125,6 +120,8 @@ do_bm_progs() {
     done
 }
 
+MCC_FIELDS=_repeat_id,n_configs,delta_locs,avg_mcc,cnt_exact,cnt_interactions,cnt_wrong,avg_f,wrong_locs,_thread_id
+
 run_analyze_mcc() {
     local NAME=$1
     if ! has_full $NAME; then
@@ -134,7 +131,7 @@ run_analyze_mcc() {
     local PREFIX=res/Analyze/mcc
     run mkdir -p $PREFIX
     run ./gt -A0 -T3 -GF 2/$NAME -I res/$NAME/full.txt,res/$NAME/a_{i}.txt --rep $ARG_REP --rep-para $ARG_REP_PARA -P $PREFIX/$NAME.csv \
-        --params-fields _repeat_id,_thread_id,delta_locs,avg_mcc,cnt_exact,cnt_interactions,cnt_wrong,avg_f,n_configs,wrong_locs
+        --params-fields $MCC_FIELDS
 }
 
 STAT_FIELDS=_repeat_id,n_configs,n_locs,t_search,t_total,cnt_singular,cnt_and,cnt_or,cnt_mixed,cnt_pure,cnt_mix_ok,cnt_mix_fail,cnt_total,hash,iter,n_cache_hit,n_locs_total,n_locs_uniq,max_len,median_len,repeat_id,t_runner,t_runner_total,_thread_id
@@ -181,6 +178,58 @@ run_analyze_stat_len() {
     run ./gt -A0 -T5 -GF 2/$NAME -I $INP -P $PREFIX/$NAME.csv
 }
 
+run_analyze_progress() {
+    local NAME=$1
+    local FULL_PREFIX=res/Analyze/progress/_res/full
+    local GT_PREFIX=res/Analyze/progress/_res/gentree
+    local RND_PREFIX=res/Analyze/progress/_res/rand
+    local ANA_GT=res/Analyze/progress/gentree
+    local ANA_RND=res/Analyze/progress/rand
+    if ! has_full $NAME; then
+        msg "${GREEN}+ (stat_full) Skip $NAME because full data is not available. ${NOFORMAT}"
+        return 0
+    fi
+    case "$NAME" in
+    id | uname | cat | mv | ln | date | join | sort)
+        local OPTS="-G"
+        ;;
+    ngircd)
+        local OPTS="-Y"
+        ;;
+    *) die "Unknown program $NAME." ;;
+    esac
+
+    run rm -rf $FULL_PREFIX/$NAME.txt $GT_PREFIX/$NAME $RND_PREFIX/$NAME
+    run mkdir -p $FULL_PREFIX $GT_PREFIX/$NAME $RND_PREFIX/$NAME $ANA_GT $ANA_RND
+
+    # Run full
+    run ./gt -J2 -crwx $OPTS -F 2/$NAME -O $FULL_PREFIX/$NAME.txt --full -j $ARG_J
+    msg
+
+    # Run GenTree
+    run ./gt -J2 -cr -F 2/$NAME -O $GT_PREFIX/$NAME/iter_{iter}.txt --save-each-iter
+    if [[ -d $GT_PREFIX/$NAME ]]; then
+        local N_ITERS=$(ls $GT_PREFIX/$NAME | wc -w)
+    else
+        local N_ITERS="<N_ITERS>"
+    fi
+    # MCC GenTree progress
+    run ./gt -A0 -T3 -GF 2/$NAME -I $FULL_PREFIX/$NAME.txt,$GT_PREFIX/$NAME/iter_{i+1}.txt --rep $N_ITERS --rep-para $ARG_REP_PARA -P $ANA_GT/$NAME.csv \
+        --params-fields $MCC_FIELDS
+    msg
+
+    if [[ -f $ANA_GT/$NAME.csv ]]; then
+        local ITER_MARKS=$(cat $ANA_GT/$NAME.csv | tail +2 | head -n -6 | cut -d , -f 2 | paste -sd "," -)
+    else
+        local ITER_MARKS="<ITER_MARKS>"
+    fi
+    # Run rand
+    run ./gt -J2 -cr -F 2/$NAME -O $RND_PREFIX/$NAME/iter_{iter}.txt --rand-each-iteration $ITER_MARKS
+    # MCC rand progress
+    run ./gt -A0 -T3 -GF 2/$NAME -I $FULL_PREFIX/$NAME.txt,$RND_PREFIX/$NAME/iter_{i+1}.txt --rep $N_ITERS --rep-para $ARG_REP_PARA -P $ANA_RND/$NAME.csv \
+        --params-fields $MCC_FIELDS
+}
+
 run_single_analyze() {
     local ana_type=$1
     shift
@@ -199,6 +248,16 @@ run_single_analyze() {
         ;;
     3 | mcc)
         run_analyze_mcc "$@"
+        ;;
+    all)
+        run_single_analyze stat "$@"
+        run_single_analyze stat_full "$@"
+        run_single_analyze cmin "$@"
+        run_single_analyze stat_len "$@"
+        run_single_analyze mcc "$@"
+        ;;
+    fig8 | progress)
+        run_analyze_progress "$@"
         ;;
     *) die "Unknown analyze type: $ana_type" ;;
     esac
@@ -269,10 +328,6 @@ setup_colors() {
 }
 
 parse_params() {
-    # default values of variables set from params
-    flag=0
-    param=''
-
     while :; do
         case "${1-}" in
         --) break ;;
