@@ -294,24 +294,24 @@ SYNOPSIS
         $(basename "${BASH_SOURCE[0]}") [options] [PROGRAMS ...]
 
 OPTIONS
-	-h, --help
-		Prints this and exits
-	-c, --clean
-		Clean all previous benchmark results
-	-j, --jobs
-		Number of parallel program runners
-	-p, --rep-para
-		Number of parallel benchmark (using shared program runners)
-	-d, --dry
-		Dry run
-	--fast
-		Add fast programs    (less than 5 mins)
-	--mid
-		Add mid programs     (around 1 hours)
-	--slow
-		Add slow programs    (upto 8 hours)
-	--all
-		Add all programs
+    -h, --help
+        Prints this and exits
+    -c, --clean
+        Clean all previous benchmark results
+    -j, --jobs
+        Number of parallel program runners
+    -p, --rep-para
+        Number of parallel benchmark (using shared program runners)
+    -d, --dry
+        Dry run
+    --fast
+        Add fast programs    (less than 5 mins)
+    --mid
+        Add mid programs     (around 1 hours)
+    --slow
+        Add slow programs    (upto 8 hours)
+    --all
+        Add all programs
     -b, --bm, --benchmark
         Run benchmark 11 times
     --rep n
