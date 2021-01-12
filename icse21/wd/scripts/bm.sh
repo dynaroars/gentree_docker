@@ -5,6 +5,7 @@ WORK_DIR="$(realpath "$(dirname "${BASH_SOURCE[0]}")/../")"
 ARG_J=0
 ARG_REP=11
 ARG_REP_PARA=0
+KEEP_CACHEDB=0
 N_CPUS=0
 DRY_RUN=0
 PROGS=()
@@ -56,7 +57,9 @@ clean_all_res() {
 
 clean_res() {
     local NAME=$1
-    run rm -rf res/$NAME log/$NAME 2/$NAME.cachedb
+    if [[ $KEEP_CACHEDB == 0 ]]; then
+        run rm -rf res/$NAME log/$NAME 2/$NAME.cachedb
+    fi
     run mkdir -p res/$NAME log/${NAME}/full
 }
 
@@ -344,6 +347,7 @@ parse_params() {
             shift
             ;;
         -d | --dry) DRY_RUN=1 ;;
+        -k | --keep-cachedb) KEEP_CACHEDB=1 ;;
         --fast | --mid | --slow | --all) add_predefined_progs ${1/--/} ;;
         -b | --bm | --benchmark) ARG_DO_BM=1 ;;
         --benchmark-times)
