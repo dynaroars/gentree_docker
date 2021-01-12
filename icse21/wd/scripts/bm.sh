@@ -314,10 +314,10 @@ OPTIONS
 		Add all programs
     -b, --bm, --benchmark
         Run benchmark 11 times
-    --benchmark-times n
+    --rep n
         Run benchmark n times
     --analyze-[type], -A[type], -a [type]
-        Run analyze [type]: summary, mcc, cmin
+        Run analyze [type]: stat, stat_full, mcc, cmin, progress, all
 EOF
 
     exit 0
@@ -351,8 +351,7 @@ parse_params() {
         -k | --keep-cachedb) KEEP_CACHEDB=1 ;;
         --fast | --mid | --slow | --all) add_predefined_progs ${1/--/} ;;
         -b | --bm | --benchmark) ARG_DO_BM=1 ;;
-        --benchmark-times)
-            ARG_DO_BM=1
+        --rep)
             ARG_REP=$2
             shift
             ;;
