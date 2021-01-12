@@ -58,8 +58,9 @@ clean_all_res() {
 clean_res() {
     local NAME=$1
     if [[ $KEEP_CACHEDB == 0 ]]; then
-        run rm -rf res/$NAME log/$NAME 2/$NAME.cachedb
+        run rm -rf 2/$NAME.cachedb
     fi
+    run rm -rf res/$NAME log/$NAME
     run mkdir -p res/$NAME log/${NAME}/full
 }
 
