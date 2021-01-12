@@ -75,6 +75,8 @@ RUN cd ~/bench_progs/coreutils && \
     cd .. && \
     rsync -armv --include='*/' --include='*.gcno' --exclude='*' build/ cpy/
 
+WORKDIR /home/kh/gentree/wd
+
 COPY --chown=kh:kh wd/res /home/kh/gentree/wd/res
 
 COPY --chown=kh:kh wd/1 /home/kh/gentree/wd/1
