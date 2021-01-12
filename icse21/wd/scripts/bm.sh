@@ -167,7 +167,7 @@ run_analyze_cmin() {
         local INP=res/$NAME/a_0.txt
     fi
     run mkdir -p $PREFIX
-    run ./gt -A0 -T4 -F 2/$NAME -I $INP --rep 20 --rep-para $ARG_REP_PARA -P $PREFIX/$NAME.csv
+    run ./gt -A0 -T4 -F 2/$NAME -I $INP --rep $ARG_REP --rep-para $ARG_REP_PARA -P $PREFIX/$NAME.csv
 }
 
 run_analyze_stat_len() {
